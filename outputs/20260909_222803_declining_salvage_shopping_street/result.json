@@ -1,0 +1,17 @@
+{
+  "tool": "image_gen.imagegen",
+  "intent": "new_scene_from_master_references",
+  "tool_calls": 1,
+  "generated_images": 1,
+  "source": "/Users/hyojinnoh/.codex/generated_images/01a08610-9124-7bd1-9961-9126ad377251/exec-3217e955-b79e-462e-9444-579caf502d16.png",
+  "saved_image": "/Users/hyojinnoh/Documents/Codex/GameConcept_Codex/outputs/20260909_222803_declining_salvage_shopping_street/declining_salvage_shopping_street.png",
+  "width": 1536,
+  "height": 1024,
+  "sha256": "7e87d53accb6358c8582aed482ed5715f347bca6285140db66b68b632e19f43a",
+  "opened_for_review": true,
+  "master_updated": false,
+  "user_approved_result": false,
+  "automatic_regeneration": false,
+  "qa_status": "needs_revision",
+  "qa_note": "쇠락·건축 재사용 강화. 좌우 외곽 구조 크롭, 바닥·벽 미세 표면 묘사 과다. 자동 재생성 없음."
+}

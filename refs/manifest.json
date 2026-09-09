@@ -1,6 +1,6 @@
 {
   "schema_version": 1,
-  "master_image_count": 19,
+  "master_image_count": 24,
   "review_only_count": 3,
   "references": [
     {
@@ -15,7 +15,9 @@
       "original_filename": "ee9a2b7e-edeb-4363-b092-192acd45855c.png",
       "width": 918,
       "height": 908,
-      "sha256": "849912ebad9cd750ca79fba6bd8fce6061a5b0ee169a6da5908c60abae94b1a3"
+      "sha256": "849912ebad9cd750ca79fba6bd8fce6061a5b0ee169a6da5908c60abae94b1a3",
+      "reference_role": "master",
+      "generation_input_allowed": true
     },
     {
       "id": "M02-01",
@@ -29,7 +31,9 @@
       "original_filename": "54d26c18-3796-4483-a123-58e19f9d4ae4.png",
       "width": 697,
       "height": 696,
-      "sha256": "444031765bb112361022fb23f593f3d386907ccb2bd005353b0514ed2f588a26"
+      "sha256": "444031765bb112361022fb23f593f3d386907ccb2bd005353b0514ed2f588a26",
+      "reference_role": "master",
+      "generation_input_allowed": true
     },
     {
       "id": "M03-01",
@@ -43,7 +47,9 @@
       "original_filename": "fe3dbec0-d88e-4323-a392-8e90d15ac7d4.png",
       "width": 964,
       "height": 664,
-      "sha256": "44fd28dabb4e15a929ed4c456d50b3cdccf5c1ddd9ce40bf2171337d811c37a1"
+      "sha256": "44fd28dabb4e15a929ed4c456d50b3cdccf5c1ddd9ce40bf2171337d811c37a1",
+      "reference_role": "master",
+      "generation_input_allowed": true
     },
     {
       "id": "M03-02",
@@ -57,7 +63,9 @@
       "original_filename": "a7ffc333-c3e5-465d-8a05-39df1e91573b.png",
       "width": 1014,
       "height": 653,
-      "sha256": "1a056798a7c30187aa474edce8760d69b0c5c17884a6a90d0a7667952cdd5ea4"
+      "sha256": "1a056798a7c30187aa474edce8760d69b0c5c17884a6a90d0a7667952cdd5ea4",
+      "reference_role": "master",
+      "generation_input_allowed": true
     },
     {
       "id": "M03-03",
@@ -71,7 +79,9 @@
       "original_filename": "a4d8c905-6ac3-4841-8628-71f08175a8d5.png",
       "width": 999,
       "height": 611,
-      "sha256": "100f790c81d8b7d7ed03e794e5b0f18b01f03f8a42d2747be104e7ba3a2ac750"
+      "sha256": "100f790c81d8b7d7ed03e794e5b0f18b01f03f8a42d2747be104e7ba3a2ac750",
+      "reference_role": "master",
+      "generation_input_allowed": true
     },
     {
       "id": "M03-04",
@@ -85,7 +95,9 @@
       "original_filename": "1d16dd9f-4574-4dca-8fa6-87f17739898e.png",
       "width": 1054,
       "height": 649,
-      "sha256": "927a9a7e3252a05749e002ef54c356285c96531a6540a7198c511af63a83d56a"
+      "sha256": "927a9a7e3252a05749e002ef54c356285c96531a6540a7198c511af63a83d56a",
+      "reference_role": "master",
+      "generation_input_allowed": true
     },
     {
       "id": "M03-05",
@@ -99,7 +111,9 @@
       "original_filename": "9c81f6db-3f01-48e0-aca5-3de5e080005d.png",
       "width": 1119,
       "height": 645,
-      "sha256": "25ba7d65d72df2ab73158be93a88555c18880cf05edd7141df247e5da054ea86"
+      "sha256": "25ba7d65d72df2ab73158be93a88555c18880cf05edd7141df247e5da054ea86",
+      "reference_role": "master",
+      "generation_input_allowed": true
     },
     {
       "id": "M03-06",
@@ -113,7 +127,9 @@
       "original_filename": "1ea77100-9d26-49b6-99bb-e14ede7c1134.png",
       "width": 1130,
       "height": 649,
-      "sha256": "17fc77804f384406ed6602d01544ee4da42f284312620a4cb255f93d76be3a13"
+      "sha256": "17fc77804f384406ed6602d01544ee4da42f284312620a4cb255f93d76be3a13",
+      "reference_role": "master",
+      "generation_input_allowed": true
     },
     {
       "id": "M03-07",
@@ -127,7 +143,9 @@
       "original_filename": "ef5e1d94-e939-4e56-ad2e-ad6377d92936.png",
       "width": 1139,
       "height": 644,
-      "sha256": "9b69c652cfdfebda4e3c1b7dbb3c2263ae435c83fd0cf8afff6b5c124a5464b2"
+      "sha256": "9b69c652cfdfebda4e3c1b7dbb3c2263ae435c83fd0cf8afff6b5c124a5464b2",
+      "reference_role": "master",
+      "generation_input_allowed": true
     },
     {
       "id": "M03-08",
@@ -141,7 +159,9 @@
       "original_filename": "260ac6b0-4bd0-4dff-b91c-249617bf063b.png",
       "width": 1126,
       "height": 653,
-      "sha256": "f0c7eceb1e6096cf5f5d62b20837f64c37dec2a769e0e5a49a125655e9e53325"
+      "sha256": "f0c7eceb1e6096cf5f5d62b20837f64c37dec2a769e0e5a49a125655e9e53325",
+      "reference_role": "master",
+      "generation_input_allowed": true
     },
     {
       "id": "M03-09",
@@ -155,7 +175,9 @@
       "original_filename": "1414c99c-044a-4fca-87f4-c472e6cc49d3.png",
       "width": 995,
       "height": 595,
-      "sha256": "529834d0f3ec3c2274032825af530062b04ec4b13489775674eae7a393404ba5"
+      "sha256": "529834d0f3ec3c2274032825af530062b04ec4b13489775674eae7a393404ba5",
+      "reference_role": "master",
+      "generation_input_allowed": true
     },
     {
       "id": "M03-10",
@@ -169,7 +191,134 @@
       "original_filename": "d54ae4f3-3193-47cb-b2a1-9bae44eaa4d5.png",
       "width": 936,
       "height": 512,
-      "sha256": "c24fe55ad76c6c8bfbd88dee7059a09fd7a592dc60e5d4a6c7c0704f11f19345"
+      "sha256": "c24fe55ad76c6c8bfbd88dee7059a09fd7a592dc60e5d4a6c7c0704f11f19345",
+      "reference_role": "master",
+      "generation_input_allowed": true
+    },
+    {
+      "id": "M03-11",
+      "path": "refs/master03/ldi_11_pub_clean_surfaces.png",
+      "group": "master03",
+      "title": "펍 외관: 깨끗한 벽 색면과 포장석",
+      "use_only": "넓은 벽 색면, 창틀·몰딩의 큰 형태, 큰 포장석의 재질과 명암",
+      "exclude": "세계관·시대·서사·캐릭터·차량·UI·상호/포스터 문자·카메라·공간 배치 복사 제외. 자연물 묘사 제외.",
+      "positive_reference": true,
+      "source_kind": "user_supplied_ldi_supplement",
+      "original_filename": "codex-clipboard-11bc48ec-44f5-469a-b104-a20cbc7cb915.png",
+      "width": 3024,
+      "height": 1898,
+      "sha256": "9046367233123ab4a582c2fcc740986b23a7c37c2b8e331c7cd3768464837ac9",
+      "reference_role": "master",
+      "generation_input_allowed": true,
+      "reference_aspects": [
+        "architectural_forms",
+        "architectural_material_depiction",
+        "architectural_lighting_and_color"
+      ],
+      "approval_id": "master_update_20260909_v2_1",
+      "source_copy": "outputs/20260909_215624_shopping_street_clean_surfaces/inputs/ldi_user_01.png",
+      "approved_in_master_version": "2.1",
+      "scope_note": "마스터03 표현 보강. 구도01·공간02·세계관04의 역할을 대체하지 않는다. 기존 자연물 자료의 역할이나 프로젝트 식생 허용 여부를 변경하지 않는다."
+    },
+    {
+      "id": "M03-12",
+      "path": "refs/master03/ldi_12_gas_station_building_only.png",
+      "group": "master03",
+      "title": "주유소: 건물 부분만 참고",
+      "use_only": "건물 외벽·지붕의 큰 형태, 건축 재질과 건물에 맺힌 빛만 참고",
+      "exclude": "세계관·시대·서사·캐릭터·차량·UI·상호/포스터 문자·카메라·공간 배치 복사 제외. 자연물 묘사 제외. 특히 나무·풀·숲·자연 지면은 참고하지 않고 건물 부분만 사용.",
+      "positive_reference": true,
+      "source_kind": "user_supplied_ldi_supplement",
+      "original_filename": "codex-clipboard-0f8028db-7920-4f71-aae7-c342f7028228.png",
+      "width": 3024,
+      "height": 1898,
+      "sha256": "442efe855f44adbf96b4ab5ebf036c3f80fec800964a63d17ffbe19b23945648",
+      "reference_role": "master",
+      "generation_input_allowed": true,
+      "reference_aspects": [
+        "architectural_forms",
+        "architectural_material_depiction",
+        "architectural_lighting_and_color"
+      ],
+      "approval_id": "master_update_20260909_v2_1",
+      "source_copy": "outputs/20260909_215624_shopping_street_clean_surfaces/inputs/ldi_user_02.png",
+      "approved_in_master_version": "2.1",
+      "scope_note": "마스터03 표현 보강. 구도01·공간02·세계관04의 역할을 대체하지 않는다. 기존 자연물 자료의 역할이나 프로젝트 식생 허용 여부를 변경하지 않는다."
+    },
+    {
+      "id": "M03-13",
+      "path": "refs/master03/ldi_13_kiosk_materials.png",
+      "group": "master03",
+      "title": "판매 창구: 재질 구분과 국소광",
+      "use_only": "건축 외벽·창틀의 단순한 면, 도장·목재·유리의 구분, 건물 국소광",
+      "exclude": "세계관·시대·서사·캐릭터·차량·UI·상호/포스터 문자·카메라·공간 배치 복사 제외. 자연물 묘사 제외.",
+      "positive_reference": true,
+      "source_kind": "user_supplied_ldi_supplement",
+      "original_filename": "codex-clipboard-5f35916f-dd55-4534-9d9d-d91bf43afdf1.png",
+      "width": 3024,
+      "height": 1898,
+      "sha256": "9c0812ff9b7b49a558b67a6a68a9e7b719ebab6213c364ab48917e84b24afe4f",
+      "reference_role": "master",
+      "generation_input_allowed": true,
+      "reference_aspects": [
+        "architectural_forms",
+        "architectural_material_depiction",
+        "architectural_lighting_and_color"
+      ],
+      "approval_id": "master_update_20260909_v2_1",
+      "source_copy": "outputs/20260909_215624_shopping_street_clean_surfaces/inputs/ldi_user_03.png",
+      "approved_in_master_version": "2.1",
+      "scope_note": "마스터03 표현 보강. 구도01·공간02·세계관04의 역할을 대체하지 않는다. 기존 자연물 자료의 역할이나 프로젝트 식생 허용 여부를 변경하지 않는다."
+    },
+    {
+      "id": "M03-14",
+      "path": "refs/master03/ldi_14_attic_structure_light.png",
+      "group": "master03",
+      "title": "다락방: 목재 구조와 조명 구획",
+      "use_only": "큰 목재 구조와 판재 표현, 선택적 큰 파손, 건축 공간의 조명 구획",
+      "exclude": "세계관·시대·서사·캐릭터·차량·UI·상호/포스터 문자·카메라·공간 배치 복사 제외. 자연물 묘사 제외.",
+      "positive_reference": true,
+      "source_kind": "user_supplied_ldi_supplement",
+      "original_filename": "codex-clipboard-9a48f59d-2ee4-43ed-95e7-b7b37aec4850.png",
+      "width": 3024,
+      "height": 1898,
+      "sha256": "d960230559dae398857ab4f45da18581396cf3083af91c571889fc8da53caa05",
+      "reference_role": "master",
+      "generation_input_allowed": true,
+      "reference_aspects": [
+        "architectural_forms",
+        "architectural_material_depiction",
+        "architectural_lighting_and_color"
+      ],
+      "approval_id": "master_update_20260909_v2_1",
+      "source_copy": "outputs/20260909_215624_shopping_street_clean_surfaces/inputs/ldi_user_04.png",
+      "approved_in_master_version": "2.1",
+      "scope_note": "마스터03 표현 보강. 구도01·공간02·세계관04의 역할을 대체하지 않는다. 기존 자연물 자료의 역할이나 프로젝트 식생 허용 여부를 변경하지 않는다."
+    },
+    {
+      "id": "M03-15",
+      "path": "refs/master03/ldi_15_street_light_planes.png",
+      "group": "master03",
+      "title": "시가지: 건축·바닥의 면과 그림자",
+      "use_only": "건축의 큰 덩어리, 정돈된 바닥 재질 표현, 건축과 지면의 빛·그림자 대비",
+      "exclude": "세계관·시대·서사·캐릭터·차량·UI·상호/포스터 문자·카메라·공간 배치 복사 제외. 자연물 묘사 제외.",
+      "positive_reference": true,
+      "source_kind": "user_supplied_ldi_supplement",
+      "original_filename": "codex-clipboard-1c1fda57-1b43-4110-a9e0-89b5ae3866e6.png",
+      "width": 3024,
+      "height": 1898,
+      "sha256": "784aa1ef3f5d26b0727b21ca23581e9249193af39c7258b4c662fd2e1ce2cf95",
+      "reference_role": "master",
+      "generation_input_allowed": true,
+      "reference_aspects": [
+        "architectural_forms",
+        "architectural_material_depiction",
+        "architectural_lighting_and_color"
+      ],
+      "approval_id": "master_update_20260909_v2_1",
+      "source_copy": "outputs/20260909_215624_shopping_street_clean_surfaces/inputs/ldi_user_05.png",
+      "approved_in_master_version": "2.1",
+      "scope_note": "마스터03 표현 보강. 구도01·공간02·세계관04의 역할을 대체하지 않는다. 기존 자연물 자료의 역할이나 프로젝트 식생 허용 여부를 변경하지 않는다."
     },
     {
       "id": "M04-01",
@@ -183,7 +332,9 @@
       "original_filename": "6dcd60ec-0067-487b-851f-3ca9af781a70.png",
       "width": 392,
       "height": 650,
-      "sha256": "fce8bd389e0fdfdfc58e8df182fceb398bb038119ed0b38ba5171b0b81e56f12"
+      "sha256": "fce8bd389e0fdfdfc58e8df182fceb398bb038119ed0b38ba5171b0b81e56f12",
+      "reference_role": "master",
+      "generation_input_allowed": true
     },
     {
       "id": "M04-02",
@@ -197,7 +348,9 @@
       "original_filename": "13c1c333-a8f4-49d7-9b3f-c5cdf73a4eab.png",
       "width": 469,
       "height": 618,
-      "sha256": "a71042678c1898320a3d949d0108bde7e6f931c8f1bf8b316a057084be179a3b"
+      "sha256": "a71042678c1898320a3d949d0108bde7e6f931c8f1bf8b316a057084be179a3b",
+      "reference_role": "master",
+      "generation_input_allowed": true
     },
     {
       "id": "M04-03",
@@ -211,7 +364,9 @@
       "original_filename": "a1d3d19f-b8b1-451e-b0c6-57fded28ccf9.png",
       "width": 372,
       "height": 562,
-      "sha256": "b9b19bea6f2c614c738d513c4466cfa69f2ec712656c77bbb466241fa6266ac6"
+      "sha256": "b9b19bea6f2c614c738d513c4466cfa69f2ec712656c77bbb466241fa6266ac6",
+      "reference_role": "master",
+      "generation_input_allowed": true
     },
     {
       "id": "M04-04",
@@ -225,7 +380,9 @@
       "original_filename": "4cf4e31c-ee97-43ac-9749-fb816f40d74c.png",
       "width": 357,
       "height": 648,
-      "sha256": "cba9f26bc23a28aa13a6b4fb0e36034a97e70a05431978ca7d6da5a76ef26453"
+      "sha256": "cba9f26bc23a28aa13a6b4fb0e36034a97e70a05431978ca7d6da5a76ef26453",
+      "reference_role": "master",
+      "generation_input_allowed": true
     },
     {
       "id": "M04-05",
@@ -239,7 +396,9 @@
       "original_filename": "8d6039f6-9a93-4173-b8b2-3448e7443ddf.png",
       "width": 354,
       "height": 644,
-      "sha256": "43ba4e232f2380db8c1332bc3156dca8cfca830465011eea6ecb5ff571bebec9"
+      "sha256": "43ba4e232f2380db8c1332bc3156dca8cfca830465011eea6ecb5ff571bebec9",
+      "reference_role": "master",
+      "generation_input_allowed": true
     },
     {
       "id": "M04-06",
@@ -253,7 +412,9 @@
       "original_filename": "03bbf699-6077-4d29-b33b-89889aa220bb.png",
       "width": 652,
       "height": 652,
-      "sha256": "cf327580c3a57429457d9210a5d00beea489525de201564d28f57a960af505ea"
+      "sha256": "cf327580c3a57429457d9210a5d00beea489525de201564d28f57a960af505ea",
+      "reference_role": "master",
+      "generation_input_allowed": true
     },
     {
       "id": "M04-07",
@@ -267,7 +428,9 @@
       "original_filename": "b178264f-d630-4584-9164-cb3665104199.png",
       "width": 517,
       "height": 642,
-      "sha256": "86671cce6c441acc094f02cd9a37e928b5f1e056451aedb10e74e8612417982a"
+      "sha256": "86671cce6c441acc094f02cd9a37e928b5f1e056451aedb10e74e8612417982a",
+      "reference_role": "master",
+      "generation_input_allowed": true
     },
     {
       "id": "R-01",
@@ -281,7 +444,9 @@
       "original_filename": "황폐한_사막의_정수_펌프장.png",
       "width": 1448,
       "height": 1086,
-      "sha256": "c623f97bb6c526a68311821b975750d8883adcea38d9bd7eee146ae28936ebbc"
+      "sha256": "c623f97bb6c526a68311821b975750d8883adcea38d9bd7eee146ae28936ebbc",
+      "reference_role": "review_only",
+      "generation_input_allowed": false
     },
     {
       "id": "R-02",
@@ -295,7 +460,9 @@
       "original_filename": "a_cinematic_stylized_3d_concept_game_art_composit.png",
       "width": 1536,
       "height": 1024,
-      "sha256": "aee93b8678072b4da0ca14dd53a1f9e146e931726d87a8251f8dcfb9223cbd5c"
+      "sha256": "aee93b8678072b4da0ca14dd53a1f9e146e931726d87a8251f8dcfb9223cbd5c",
+      "reference_role": "review_only",
+      "generation_input_allowed": false
     },
     {
       "id": "R-03",
@@ -309,7 +476,47 @@
       "original_filename": "a_detailed_cinematic_isometric_3d_diorama_style_s.png",
       "width": 1536,
       "height": 1024,
-      "sha256": "9825b6bee2543fd94bb553869bda918d3788864eb1903231d387970b2bb29bb8"
+      "sha256": "9825b6bee2543fd94bb553869bda918d3788864eb1903231d387970b2bb29bb8",
+      "reference_role": "review_only",
+      "generation_input_allowed": false
+    },
+    {
+      "id": "A-01",
+      "path": "refs/current/night_courtyard.png",
+      "group": "preferred_results",
+      "title": "야간 광장: 차가운 환경광·따뜻한 국소광·넓은 중앙",
+      "use_only": "원본 마스터 기준으로 만든 결과 중 사용자가 원하는 아트에 가까운 예시. 분위기·표현 인상의 보조 참조.",
+      "exclude": "원본 마스터·Little Devil Inside 아트 방향·Salvage Cyberpunk를 대체하지 않음. 개별 크롭·밀도·치수를 영구 규칙으로 승격하지 않음.",
+      "positive_reference": true,
+      "generation_input_allowed": true,
+      "source_kind": "user_selected_generated_result",
+      "original_filename": "Codex 이미지 2026년 9월 9일 오후 09_13_14.png",
+      "width": 1536,
+      "height": 1024,
+      "sha256": "c8c3147a1723ac60cdc7021a9de9d6955346dbf985d9713d641ec0cc592ceb44",
+      "reference_role": "preferred_result",
+      "priority": "subordinate_to_masters"
+    },
+    {
+      "id": "A-02",
+      "path": "refs/current/day_alley.png",
+      "group": "preferred_results",
+      "title": "주간 골목: 낡은 건축·생활 소품·재질과 손상",
+      "use_only": "원본 마스터 기준으로 만든 결과 중 사용자가 원하는 아트에 가까운 예시. 분위기·표현 인상의 보조 참조.",
+      "exclude": "원본 마스터·Little Devil Inside 아트 방향·Salvage Cyberpunk를 대체하지 않음. 개별 크롭·밀도·치수를 영구 규칙으로 승격하지 않음.",
+      "positive_reference": true,
+      "generation_input_allowed": true,
+      "source_kind": "user_selected_generated_result",
+      "original_filename": "Codex 이미지 2026년 9월 9일 오후 09_12_52.png",
+      "width": 1536,
+      "height": 1024,
+      "sha256": "f72ade5e2d3a03faceb13bc594bb345306d7353323dcb302cfdc26789814e756",
+      "reference_role": "preferred_result",
+      "priority": "subordinate_to_masters"
     }
-  ]
+  ],
+  "preferred_result_count": 2,
+  "master_version": "2.1",
+  "original_master_image_count": 19,
+  "approved_supplement_count": 5
 }

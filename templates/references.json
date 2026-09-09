@@ -4,5 +4,7 @@
   "submitted_to_generation": [],
   "delivery_status": "not_submitted",
   "delivery_mechanism": null,
-  "note": "Record actual delivery, not just file paths mentioned in prose. Each submitted entry should include id, path, role and tool input index if exposed."
+  "note": "Record actual delivery, not just prose paths. Submitted entries should include id, path, role, exclusions, input index when exposed, and scoped approval for generated examples. M03-11~15 cover architectural forms/materials/lighting only; M03-12 excludes nature and uses only the building.",
+  "omitted_references_and_reasons": [],
+  "scoped_result_approval": null
 }

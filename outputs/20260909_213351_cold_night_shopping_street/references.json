@@ -1,0 +1,58 @@
+{
+  "tool": "image_gen.imagegen",
+  "input_field": "referenced_image_paths",
+  "status": "submitted_successfully",
+  "references": [
+    {
+      "id": "M02-01",
+      "order": 1,
+      "path": "/Users/hyojinnoh/Documents/Codex/GameConcept_Codex/refs/master02/layout_two_exits.png",
+      "role": "공간 연결 관계",
+      "actually_viewed": true,
+      "actual_input_status": "submitted through referenced_image_paths"
+    },
+    {
+      "id": "M01-01",
+      "order": 2,
+      "path": "/Users/hyojinnoh/Documents/Codex/GameConcept_Codex/refs/master01/composition_cutaway.png",
+      "role": "쿼터뷰·바닥 단면",
+      "actually_viewed": true,
+      "actual_input_status": "submitted through referenced_image_paths"
+    },
+    {
+      "id": "M03-10",
+      "order": 3,
+      "path": "/Users/hyojinnoh/Documents/Codex/GameConcept_Codex/refs/master03/ldi_10_storefront_style_anchor.png",
+      "role": "Little Devil Inside 아트 표현 최우선",
+      "actually_viewed": true,
+      "actual_input_status": "submitted through referenced_image_paths"
+    },
+    {
+      "id": "M04-04",
+      "order": 4,
+      "path": "/Users/hyojinnoh/Documents/Codex/GameConcept_Codex/refs/master04/world_04_cloak_and_mechanical_arm.png",
+      "role": "Salvage Cyberpunk 디자인 언어만",
+      "actually_viewed": true,
+      "actual_input_status": "submitted through referenced_image_paths"
+    },
+    {
+      "id": "A-01",
+      "order": 5,
+      "path": "/Users/hyojinnoh/Documents/Codex/GameConcept_Codex/refs/current/night_courtyard.png",
+      "role": "선호 결과의 야간 분위기 보조",
+      "actually_viewed": true,
+      "actual_input_status": "submitted through referenced_image_paths"
+    }
+  ],
+  "omitted": "나머지 원본은 이번 입력에 미첨부. review_only 및 미승인 outputs 미사용.",
+  "generation_calls": 1,
+  "output": {
+    "path": "cold_night_shopping_street.png",
+    "source": "/Users/hyojinnoh/.codex/generated_images/01a08610-9124-7bd1-9961-9126ad377251/exec-29b3d3b9-b5d8-4fc7-98e1-a1898d4da800.png",
+    "sha256": "a0fb3a2101fd4327bb2d7b4a81709e5611494a008a027853a2c87166093076c2",
+    "dimensions": [
+      1536,
+      1024
+    ]
+  }
+}

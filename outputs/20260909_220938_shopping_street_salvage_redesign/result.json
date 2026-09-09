@@ -1,0 +1,17 @@
+{
+  "tool": "image_gen.imagegen",
+  "mode": "precise-object-edit",
+  "tool_calls": 1,
+  "generated_images": 1,
+  "source": "/Users/hyojinnoh/.codex/generated_images/01a08610-9124-7bd1-9961-9126ad377251/exec-dbd51520-14de-478b-8a5d-84469034da2f.png",
+  "saved_image": "/Users/hyojinnoh/Documents/Codex/GameConcept_Codex/outputs/20260909_220938_shopping_street_salvage_redesign/shopping_street_salvage_redesign.png",
+  "width": 1536,
+  "height": 1024,
+  "sha256": "e706434f7a1fb2c46dc0df47da03a3ce4968db78818b6cd23d07be8c3b7a3844",
+  "opened_for_review": true,
+  "master_updated": false,
+  "user_approved_result": false,
+  "automatic_regeneration": false,
+  "qa_status": "uncertain",
+  "qa_note": "공간과 깔끔한 표면 유지. 첨단기술 존재감은 강화됐으나 회수·개조 이력은 부분충족."
+}

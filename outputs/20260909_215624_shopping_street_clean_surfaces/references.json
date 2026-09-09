@@ -1,0 +1,115 @@
+{
+  "tool": "image_gen.imagegen",
+  "mode": "edit",
+  "input_field": "referenced_image_paths",
+  "status": "generated_and_reviewed",
+  "target": {
+    "image_order": 1,
+    "path": "/Users/hyojinnoh/Documents/Codex/GameConcept_Codex/outputs/20260909_213351_cold_night_shopping_street/cold_night_shopping_street.png",
+    "role": "편집 대상. 구도와 공간 유지, 기존의 지저분한 표면은 교체.",
+    "actually_viewed": true,
+    "actual_input_status": "submitted"
+  },
+  "style_references": [
+    {
+      "image_order": 2,
+      "path": "/Users/hyojinnoh/Documents/Codex/GameConcept_Codex/outputs/20260909_215624_shopping_street_clean_surfaces/inputs/ldi_user_01.png",
+      "source_path": "/var/folders/f2/qnxy7xmj7436mrbn1qsk_vn80000gn/T/codex-clipboard-11bc48ec-44f5-469a-b104-a20cbc7cb915.png",
+      "role": "Little Devil Inside 건축·깨끗한 표면·재질·라이팅 참조",
+      "scope": "이번 수정용, 마스터 미추가",
+      "exclusions": "세계관·캐릭터·글·UI·자연물 제외. 2번 자료는 건물만 사용.",
+      "sha256": "9046367233123ab4a582c2fcc740986b23a7c37c2b8e331c7cd3768464837ac9",
+      "dimensions": [
+        3024,
+        1898
+      ],
+      "actually_viewed": true,
+      "planned_image_submission": true,
+      "actual_input_status": "submitted"
+    },
+    {
+      "image_order": 3,
+      "path": "/Users/hyojinnoh/Documents/Codex/GameConcept_Codex/outputs/20260909_215624_shopping_street_clean_surfaces/inputs/ldi_user_02.png",
+      "source_path": "/var/folders/f2/qnxy7xmj7436mrbn1qsk_vn80000gn/T/codex-clipboard-0f8028db-7920-4f71-aae7-c342f7028228.png",
+      "role": "Little Devil Inside 건축·깨끗한 표면·재질·라이팅 참조",
+      "scope": "이번 수정용, 마스터 미추가",
+      "exclusions": "세계관·캐릭터·글·UI·자연물 제외. 2번 자료는 건물만 사용.",
+      "sha256": "442efe855f44adbf96b4ab5ebf036c3f80fec800964a63d17ffbe19b23945648",
+      "dimensions": [
+        3024,
+        1898
+      ],
+      "actually_viewed": true,
+      "planned_image_submission": true,
+      "actual_input_status": "submitted"
+    },
+    {
+      "image_order": 4,
+      "path": "/Users/hyojinnoh/Documents/Codex/GameConcept_Codex/outputs/20260909_215624_shopping_street_clean_surfaces/inputs/ldi_user_03.png",
+      "source_path": "/var/folders/f2/qnxy7xmj7436mrbn1qsk_vn80000gn/T/codex-clipboard-5f35916f-dd55-4534-9d9d-d91bf43afdf1.png",
+      "role": "Little Devil Inside 건축·깨끗한 표면·재질·라이팅 참조",
+      "scope": "이번 수정용, 마스터 미추가",
+      "exclusions": "세계관·캐릭터·글·UI·자연물 제외. 2번 자료는 건물만 사용.",
+      "sha256": "9c0812ff9b7b49a558b67a6a68a9e7b719ebab6213c364ab48917e84b24afe4f",
+      "dimensions": [
+        3024,
+        1898
+      ],
+      "actually_viewed": true,
+      "planned_image_submission": true,
+      "actual_input_status": "submitted"
+    },
+    {
+      "image_order": 5,
+      "path": "/Users/hyojinnoh/Documents/Codex/GameConcept_Codex/outputs/20260909_215624_shopping_street_clean_surfaces/inputs/ldi_user_04.png",
+      "source_path": "/var/folders/f2/qnxy7xmj7436mrbn1qsk_vn80000gn/T/codex-clipboard-9a48f59d-2ee4-43ed-95e7-b7b37aec4850.png",
+      "role": "Little Devil Inside 건축·깨끗한 표면·재질·라이팅 참조",
+      "scope": "이번 수정용, 마스터 미추가",
+      "exclusions": "세계관·캐릭터·글·UI·자연물 제외. 2번 자료는 건물만 사용.",
+      "sha256": "d960230559dae398857ab4f45da18581396cf3083af91c571889fc8da53caa05",
+      "dimensions": [
+        3024,
+        1898
+      ],
+      "actually_viewed": true,
+      "planned_image_submission": true,
+      "actual_input_status": "submitted"
+    },
+    {
+      "image_order": 6,
+      "path": "/Users/hyojinnoh/Documents/Codex/GameConcept_Codex/outputs/20260909_215624_shopping_street_clean_surfaces/inputs/ldi_user_05.png",
+      "source_path": "/var/folders/f2/qnxy7xmj7436mrbn1qsk_vn80000gn/T/codex-clipboard-1c1fda57-1b43-4110-a9e0-89b5ae3866e6.png",
+      "role": "Little Devil Inside 건축·깨끗한 표면·재질·라이팅 참조",
+      "scope": "이번 수정용, 마스터 미추가",
+      "exclusions": "세계관·캐릭터·글·UI·자연물 제외. 2번 자료는 건물만 사용.",
+      "sha256": "784aa1ef3f5d26b0727b21ca23581e9249193af39c7258b4c662fd2e1ce2cf95",
+      "dimensions": [
+        3024,
+        1898
+      ],
+      "actually_viewed": true,
+      "planned_image_submission": false,
+      "omission_reason": "도구 입력 최대 5장. 텍스트로 명암/형태 분석 반영, 실제 이미지 미전달.",
+      "actual_input_status": "not_submitted_text_observations_only"
+    }
+  ],
+  "master_update_authorized": false,
+  "validation_attempts": [
+    {
+      "outcome": "rejected_before_generation",
+      "reason": "referenced_image_paths maximum 5",
+      "requested_path_count": 6
+    }
+  ],
+  "actual_generation_calls": 1,
+  "submitted_path_count": 5,
+  "output": {
+    "path": "shopping_street_clean_surfaces.png",
+    "source": "/Users/hyojinnoh/.codex/generated_images/01a08610-9124-7bd1-9961-9126ad377251/exec-e72084a4-3bfd-46e7-9999-4fe4378923b3.png",
+    "sha256": "40acb69a6e613ba7d582421c6408c217534af680823962e02599e71cdce8c280",
+    "dimensions": [
+      1536,
+      1024
+    ]
+  }
+}

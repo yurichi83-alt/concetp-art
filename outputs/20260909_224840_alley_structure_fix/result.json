@@ -1,0 +1,35 @@
+{
+  "tool": "image_gen.imagegen",
+  "intent": "structural_rebuild_edit",
+  "tool_calls_this_run": 1,
+  "correction_attempt": 1,
+  "parent_run": "outputs/20260909_223829_day_narrow_salvage_alley",
+  "source": "/Users/hyojinnoh/.codex/generated_images/01a08610-9124-7bd1-9961-9126ad377251/exec-4a95b258-3efb-477d-a76c-3a61b46159c5.png",
+  "saved_image": "/Users/hyojinnoh/Documents/Codex/GameConcept_Codex/outputs/20260909_224840_alley_structure_fix/day_alley_structure_fixed.png",
+  "width": 1254,
+  "height": 1254,
+  "sha256": "88f65804eca834cde67dd6c8f03b88aef4935ba0acde3718ce7722e050c2977e",
+  "opened_for_review": true,
+  "execution_policy_updated": true,
+  "art_master_updated": false,
+  "user_approved_result": false,
+  "structural_correction_authorized": true,
+  "structural_qa_status": "pass_visual_inspection",
+  "qa_status": "structural_pass_with_art_reservations",
+  "structural_checks": {
+    "C01": "PASS",
+    "C02": "PASS",
+    "L01": "PASS",
+    "L02": "PASS",
+    "L03": "PASS",
+    "L04": "PASS",
+    "L05": "PASS"
+  },
+  "stop_reason": "structural_checks_pass",
+  "is_final_structural_correction": true,
+  "art_reservations": [
+    "small_corner_court_instead_of_long_alley",
+    "salvaged_actuator_landmark_removed",
+    "surface_mottling_increased"
+  ]
+}

@@ -1,0 +1,63 @@
+{
+  "status": "submitted_and_generated",
+  "tool": "image_gen.imagegen",
+  "intent": "localized_building_and_bin_edit",
+  "parent_run": "outputs/20260909_224840_alley_structure_fix",
+  "inputs": [
+    {
+      "input_number": 1,
+      "path": "/Users/hyojinnoh/Documents/Codex/GameConcept_Codex/outputs/20260909_224840_alley_structure_fix/day_alley_structure_fixed.png",
+      "role": "edit_target_with_user_preferred_cutaway_and_bags",
+      "visually_inspected_in_session": true,
+      "submitted": true,
+      "submitted_via": "referenced_image_paths",
+      "sha256": "88f65804eca834cde67dd6c8f03b88aef4935ba0acde3718ce7722e050c2977e"
+    },
+    {
+      "input_number": 2,
+      "path": "/Users/hyojinnoh/Documents/Codex/GameConcept_Codex/refs/master02/layout_two_exits.png",
+      "role": "M02-01_structure_safeguard",
+      "visually_inspected_in_session": true,
+      "submitted": true,
+      "submitted_via": "referenced_image_paths",
+      "sha256": "444031765bb112361022fb23f593f3d386907ccb2bd005353b0514ed2f588a26"
+    },
+    {
+      "input_number": 3,
+      "path": "/Users/hyojinnoh/Documents/Codex/GameConcept_Codex/refs/master03/ldi_10_storefront_style_anchor.png",
+      "role": "M03-10_primary_architectural_style",
+      "visually_inspected_in_session": true,
+      "submitted": true,
+      "submitted_via": "referenced_image_paths",
+      "sha256": "c24fe55ad76c6c8bfbd88dee7059a09fd7a592dc60e5d4a6c7c0704f11f19345"
+    },
+    {
+      "input_number": 4,
+      "path": "/Users/hyojinnoh/Documents/Codex/GameConcept_Codex/refs/master04/world_07_repurposed_machine_head.png",
+      "role": "M04-07_repurposed_shell_and_mechanism_logic_only",
+      "visually_inspected_in_session": true,
+      "submitted": true,
+      "submitted_via": "referenced_image_paths",
+      "sha256": "86671cce6c441acc094f02cd9a37e928b5f1e056451aedb10e74e8612417982a"
+    },
+    {
+      "input_number": 5,
+      "path": "/Users/hyojinnoh/Documents/Codex/GameConcept_Codex/outputs/20260909_215624_shopping_street_clean_surfaces/inputs/ldi_user_01.png",
+      "role": "user_LDI01_quiet_architectural_surface",
+      "visually_inspected_in_session": true,
+      "submitted": true,
+      "submitted_via": "referenced_image_paths",
+      "sha256": "9046367233123ab4a582c2fcc740986b23a7c37c2b8e331c7cd3768464837ac9"
+    }
+  ],
+  "input_limit": 5,
+  "M01_note": "승인된 편집 대상 단면과 카메라를 그대로 보존하므로 5장 한도 내 별도 M01 이미지 입력 제외.",
+  "approval_ids": [
+    "structural_auto_correction_20260909",
+    "partial_preference_20260909_225844"
+  ],
+  "art_master_updated": false,
+  "tool_calls": 1,
+  "generated_image_count": 1,
+  "submission_note": "5개 실제 이미지 경로를 도구 배열 입력으로 전달하고 결과1장을 받음. 모델 내부 참조 영향도는 검증하지 않음."
+}

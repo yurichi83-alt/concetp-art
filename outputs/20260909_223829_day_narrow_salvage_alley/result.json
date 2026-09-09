@@ -1,0 +1,18 @@
+{
+  "tool": "image_gen.imagegen",
+  "intent": "new_scene_from_master_references",
+  "tool_calls": 1,
+  "generated_images": 1,
+  "source": "/Users/hyojinnoh/.codex/generated_images/01a08610-9124-7bd1-9961-9126ad377251/exec-a817f2da-c9c6-4813-acfa-99c71c1e108f.png",
+  "saved_image": "/Users/hyojinnoh/Documents/Codex/GameConcept_Codex/outputs/20260909_223829_day_narrow_salvage_alley/day_narrow_salvage_alley.png",
+  "width": 1254,
+  "height": 1254,
+  "sha256": "f777022bd6fcd5d32367b4321f3b53cef2b016db5dc23d3f1dc450914204e102",
+  "opened_for_review": true,
+  "master_updated": false,
+  "user_approved_result": false,
+  "automatic_regeneration": false,
+  "qa_status": "needs_revision",
+  "qa_note": "좁은 낮 골목·건축 보수·바닥 쓰레기와 전체 프레이밍 개선. 명확한 출구 한 곳만 보여 두 출구 조건 실패. 외곽 일부 표면 세부 묘사 과다.",
+  "master_update_pending_user_evaluation": true
+}

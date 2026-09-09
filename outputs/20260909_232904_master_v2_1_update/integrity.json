@@ -1,0 +1,13 @@
+{
+  "original_master_records_unchanged": 19,
+  "original_master_hashes_unchanged": 19,
+  "new_images_byte_identical_to_supplied_files": 5,
+  "total_master_images": 24,
+  "preferred_results": 2,
+  "review_only": 3,
+  "project_and_approval_versions_match": true,
+  "structural_correction_policy_unchanged": true,
+  "scoped_result_paths_exist": true,
+  "new_image_generation_calls": 0,
+  "global_configuration_changed": false
+}

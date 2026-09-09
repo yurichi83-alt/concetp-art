@@ -1,0 +1,68 @@
+{
+  "status": "submitted_and_generated",
+  "tool": "image_gen.imagegen",
+  "intent": "new_city_scene_with_scoped_mechanical_ratio_reference",
+  "inputs": [
+    {
+      "input_number": 1,
+      "path": "/Users/hyojinnoh/Documents/Codex/GameConcept_Codex/refs/master02/layout_two_exits.png",
+      "role": "M02-01_spatial_topology",
+      "visually_inspected_in_session": true,
+      "submitted": true,
+      "submitted_via": "referenced_image_paths",
+      "sha256": "444031765bb112361022fb23f593f3d386907ccb2bd005353b0514ed2f588a26"
+    },
+    {
+      "input_number": 2,
+      "path": "/Users/hyojinnoh/Documents/Codex/GameConcept_Codex/refs/master01/composition_cutaway.png",
+      "role": "M01-01_full_camera_base_cutaway",
+      "visually_inspected_in_session": true,
+      "submitted": true,
+      "submitted_via": "referenced_image_paths",
+      "sha256": "849912ebad9cd750ca79fba6bd8fce6061a5b0ee169a6da5908c60abae94b1a3"
+    },
+    {
+      "input_number": 3,
+      "path": "/Users/hyojinnoh/Documents/Codex/GameConcept_Codex/refs/master03/ldi_10_storefront_style_anchor.png",
+      "role": "M03-10_primary_architectural_rendering",
+      "visually_inspected_in_session": true,
+      "submitted": true,
+      "submitted_via": "referenced_image_paths",
+      "sha256": "c24fe55ad76c6c8bfbd88dee7059a09fd7a592dc60e5d4a6c7c0704f11f19345"
+    },
+    {
+      "input_number": 4,
+      "path": "/Users/hyojinnoh/Documents/Codex/GameConcept_Codex/refs/master03/ldi_06_night_path.png",
+      "role": "M03-06_night_color_light_only",
+      "visually_inspected_in_session": true,
+      "submitted": true,
+      "submitted_via": "referenced_image_paths",
+      "sha256": "17fc77804f384406ed6602d01544ee4da42f284312620a4cb255f93d76be3a13"
+    },
+    {
+      "input_number": 5,
+      "path": "/Users/hyojinnoh/Documents/Codex/GameConcept_Codex/outputs/20260909_225844_alley_building_bin_technology/alley_building_bin_technology.png",
+      "role": "user_accepted_mechanical_ratio_example_only",
+      "visually_inspected_in_session": true,
+      "submitted": true,
+      "submitted_via": "referenced_image_paths",
+      "sha256": "560583ee40db23c73a98d11b51fe93e50132ac258354c3b51b4a3253c1c365b3"
+    }
+  ],
+  "maximum_inputs": 5,
+  "approval_ids": [
+    "structural_auto_correction_20260909",
+    "mechanical_ratio_preference_20260909_230638"
+  ],
+  "approval_scope_for_input5": "건축 대비 기계요소 비중의 이번 테스트 보조 참조. 전체 이미지/스타일/마스터 승인 아님.",
+  "exclusions": [
+    "M04 이미지는 5장 한도로 이번 실제 입력 제외. 세계관은 최신 부분 선호 예시와 마스터04의 텍스트 디자인 언어로 유지.",
+    "야간 원본의 자연물/인물/카메라/과도한 암부 제외.",
+    "이전 결과의 구체적 건물·장비 복제 의무 없음.",
+    "이번 테스트 결과는 사용자 평가 전이며 마스터 갱신은 아직 하지 않음."
+  ],
+  "art_master_updated": false,
+  "tool_calls": 1,
+  "generated_image_count": 1,
+  "submission_note": "5개 실제 이미지 경로를 도구 배열 입력으로 전달했고 시안1장을 반환받음. 모델 내부 참조별 영향도는 확인 불가."
+}

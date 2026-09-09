@@ -1,0 +1,26 @@
+{
+  "tool": "image_gen.imagegen",
+  "intent": "new_city_scene_with_scoped_mechanical_ratio_reference",
+  "tool_calls_this_run": 1,
+  "generated_images": 1,
+  "source": "/Users/hyojinnoh/.codex/generated_images/01a08610-9124-7bd1-9961-9126ad377251/exec-406dd1a3-5892-4e0e-bf62-cd71951ba65d.png",
+  "saved_image": "/Users/hyojinnoh/Documents/Codex/GameConcept_Codex/outputs/20260909_230638_moonlit_city_low_fog/moonlit_city_low_fog.png",
+  "width": 1254,
+  "height": 1254,
+  "sha256": "c5493ad499d794597992b5ef338a799a708c61868ef9fe05736eeeeb8333db33",
+  "opened_for_review": true,
+  "art_master_updated": false,
+  "user_approved_result": false,
+  "structural_correction_authorized": true,
+  "qa_status": "uncertain",
+  "reference_preference": "mechanical_ratio_preference_20260909_230638",
+  "structural_status": "candidate_pass",
+  "independent_visual_review": true,
+  "structural_auto_regenerations": 0,
+  "stop_reason": "observed_structural_checks_pass",
+  "qa_report": "review.md",
+  "style_reservations": [
+    "mechanical_presence_slightly_lower_than_scoped_preference",
+    "wet_reflections_and_small_surface_marks_more_pronounced"
+  ]
+}

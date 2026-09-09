@@ -1,0 +1,8 @@
+{
+  "run_id": "",
+  "inspected_for_planning": [],
+  "submitted_to_generation": [],
+  "delivery_status": "not_submitted",
+  "delivery_mechanism": null,
+  "note": "Record actual delivery, not just file paths mentioned in prose. Each submitted entry should include id, path, role and tool input index if exposed."
+}

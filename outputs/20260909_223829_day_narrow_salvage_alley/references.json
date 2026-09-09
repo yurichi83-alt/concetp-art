@@ -1,0 +1,70 @@
+{
+  "status": "submitted_and_generated",
+  "tool": "image_gen.imagegen",
+  "intent": "new_scene_from_master_references",
+  "inputs": [
+    {
+      "input_number": 1,
+      "path": "/Users/hyojinnoh/Documents/Codex/GameConcept_Codex/refs/master02/layout_two_exits.png",
+      "role": "M02-01_spatial_topology_only",
+      "visually_inspected_in_session": true,
+      "unchanged_since_inspection": true,
+      "submitted": true,
+      "submitted_via": "referenced_image_paths",
+      "sha256": "444031765bb112361022fb23f593f3d386907ccb2bd005353b0514ed2f588a26"
+    },
+    {
+      "input_number": 2,
+      "path": "/Users/hyojinnoh/Documents/Codex/GameConcept_Codex/refs/master01/composition_cutaway.png",
+      "role": "M01-01_camera_and_complete_cutaway_only",
+      "visually_inspected_in_session": true,
+      "unchanged_since_inspection": true,
+      "submitted": true,
+      "submitted_via": "referenced_image_paths",
+      "sha256": "849912ebad9cd750ca79fba6bd8fce6061a5b0ee169a6da5908c60abae94b1a3"
+    },
+    {
+      "input_number": 3,
+      "path": "/Users/hyojinnoh/Documents/Codex/GameConcept_Codex/refs/master03/ldi_10_storefront_style_anchor.png",
+      "role": "M03-10_primary_architectural_style",
+      "visually_inspected_in_session": true,
+      "unchanged_since_inspection": true,
+      "submitted": true,
+      "submitted_via": "referenced_image_paths",
+      "sha256": "c24fe55ad76c6c8bfbd88dee7059a09fd7a592dc60e5d4a6c7c0704f11f19345"
+    },
+    {
+      "input_number": 4,
+      "path": "/Users/hyojinnoh/Documents/Codex/GameConcept_Codex/refs/master04/world_04_cloak_and_mechanical_arm.png",
+      "role": "M04-04_worn_technology_and_repair_logic_only",
+      "visually_inspected_in_session": true,
+      "unchanged_since_inspection": true,
+      "submitted": true,
+      "submitted_via": "referenced_image_paths",
+      "sha256": "cba9f26bc23a28aa13a6b4fb0e36034a97e70a05431978ca7d6da5a76ef26453"
+    },
+    {
+      "input_number": 5,
+      "path": "/Users/hyojinnoh/Documents/Codex/GameConcept_Codex/outputs/20260909_215624_shopping_street_clean_surfaces/inputs/ldi_user_01.png",
+      "role": "user_LDI01_clean_architectural_surface_support",
+      "visually_inspected_in_session": true,
+      "unchanged_since_inspection": true,
+      "submitted": true,
+      "submitted_via": "referenced_image_paths",
+      "sha256": "9046367233123ab4a582c2fcc740986b23a7c37c2b8e331c7cd3768464837ac9"
+    }
+  ],
+  "reference_limit": 5,
+  "excluded": [
+    "이전 미승인 생성 결과는 입력에서 제외.",
+    "A-02는 사용자 선호 결과로 계속 보존하지만 이번에는 원본 공간/스타일/세계관과 깨끗한 표면 원본을 우선하여 입력 제외.",
+    "LDI02 자연물은 참조하지 않음.",
+    "5번은 사용자 원본 스크린샷의 보관본이며 생성 결과가 아님."
+  ],
+  "master_updated": false,
+  "conditional_future_master_update": "사용자가 이번 결과를 평가한 뒤 정리 여부와 승인 범위를 결정할 예정. 현재 승인 처리하지 않음.",
+  "tool_calls": 1,
+  "generated_image_count": 1,
+  "automatic_regeneration": false,
+  "submission_note": "5개 이미지 경로를 실제 이미지 입력 배열로 전달했고 결과 1장을 받음. 모델 내부 참조별 영향도는 확인할 수 없음."
+}

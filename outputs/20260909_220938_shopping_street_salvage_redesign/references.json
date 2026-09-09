@@ -1,0 +1,65 @@
+{
+  "status": "submitted_and_generated",
+  "mode": "built_in_edit",
+  "maximum_image_inputs_observed": 5,
+  "inputs": [
+    {
+      "input_number": 1,
+      "path": "/Users/hyojinnoh/Documents/Codex/GameConcept_Codex/outputs/20260909_215624_shopping_street_clean_surfaces/shopping_street_clean_surfaces.png",
+      "role": "edit_target_and_layout_anchor",
+      "visually_inspected": true,
+      "submitted": true,
+      "submitted_via": "referenced_image_paths",
+      "sha256": "40acb69a6e613ba7d582421c6408c217534af680823962e02599e71cdce8c280"
+    },
+    {
+      "input_number": 2,
+      "path": "/Users/hyojinnoh/Documents/Codex/GameConcept_Codex/refs/master04/world_02_heavy_mechanical_arms.png",
+      "role": "M04-02_world_mechanical_joint_forms_only",
+      "visually_inspected": true,
+      "submitted": true,
+      "submitted_via": "referenced_image_paths",
+      "sha256": "a71042678c1898320a3d949d0108bde7e6f931c8f1bf8b316a057084be179a3b"
+    },
+    {
+      "input_number": 3,
+      "path": "/Users/hyojinnoh/Documents/Codex/GameConcept_Codex/refs/master04/world_07_repurposed_machine_head.png",
+      "role": "M04-07_world_repurposed_casing_logic_only",
+      "visually_inspected": true,
+      "submitted": true,
+      "submitted_via": "referenced_image_paths",
+      "sha256": "86671cce6c441acc094f02cd9a37e928b5f1e056451aedb10e74e8612417982a"
+    },
+    {
+      "input_number": 4,
+      "path": "/Users/hyojinnoh/Documents/Codex/GameConcept_Codex/refs/master03/ldi_10_storefront_style_anchor.png",
+      "role": "M03-10_primary_architectural_art_treatment",
+      "visually_inspected": true,
+      "submitted": true,
+      "submitted_via": "referenced_image_paths",
+      "sha256": "c24fe55ad76c6c8bfbd88dee7059a09fd7a592dc60e5d4a6c7c0704f11f19345"
+    },
+    {
+      "input_number": 5,
+      "path": "/Users/hyojinnoh/Documents/Codex/GameConcept_Codex/outputs/20260909_215624_shopping_street_clean_surfaces/inputs/ldi_user_01.png",
+      "role": "user_LDI01_clean_architectural_surface_support",
+      "visually_inspected": true,
+      "submitted": true,
+      "submitted_via": "referenced_image_paths",
+      "sha256": "9046367233123ab4a582c2fcc740986b23a7c37c2b8e331c7cd3768464837ac9"
+    }
+  ],
+  "excluded": {
+    "M01_M02": "이번 편집은 기존 대상 공간을 보존하며 5장 입력 제한 때문에 별도 이미지 입력에서 제외. 공간 규칙은 지시문에 명시.",
+    "A01_A02": "원본 마스터를 보조하는 선호 결과 기준은 유지하되 이번 입력 미포함.",
+    "user_LDI02_nature": "건물만 참조 가능, 자연물 제외. 이번 이미지 입력 미포함.",
+    "other_user_LDI": "기존 분석 내용만 활용; 이번 실제 이미지 입력 미포함."
+  },
+  "master_files_changed": false,
+  "user_approved_result": false,
+  "tool": "image_gen.imagegen",
+  "tool_calls": 1,
+  "generated_image_count": 1,
+  "automatic_regeneration": false,
+  "submission_note": "5개 실제 이미지 경로를 도구 입력 배열에 제공했고 도구가 결과 1장을 반환했다. 모델 내부의 참조별 영향도는 확인할 수 없다."
+}
