@@ -1,0 +1,45 @@
+{
+  "project_name": "GameConcept_Codex",
+  "package_version": "1.0.0",
+  "master_version": "2",
+  "execution_rules_version": "1",
+  "created_date": "2026-09-09",
+  "purpose": "Keyword-driven game environment concept images. Not an app-development task.",
+  "primary_language": "ko",
+  "preferred_backend": "available_builtin_image_generation",
+  "external_api_requires_explicit_consent": true,
+  "auto_regenerate": false,
+  "default_scene_count": 1,
+  "default_single_scene_per_image": true,
+  "read_first": "docs/00_INDEX.md",
+  "execution_rules": "docs/05_GENERATION_RULES.md",
+  "qa_rules": "docs/06_QA.md",
+  "reference_manifest": "refs/manifest.json",
+  "approvals": "state/approvals.json",
+  "default_inspection_ids": [
+    "M02-01",
+    "M01-01",
+    "M03-10",
+    "M03-08",
+    "M04-02",
+    "M04-04"
+  ],
+  "default_generation_priority_ids": [
+    "M02-01",
+    "M01-01",
+    "M03-10"
+  ],
+  "optional_scene_style_ids": [
+    "M03-08",
+    "M03-02",
+    "M03-06"
+  ],
+  "optional_world_reference_ids": [
+    "M04-02",
+    "M04-04"
+  ],
+  "generation_reference_selection": "Respect actual tool limits. Preserve spatial and visual anchors; keep Master04 textual design language even if no character ref submitted.",
+  "immutable_reference_images": true,
+  "not_a_codex_runtime_config": true,
+  "limits": "Markdown improves instruction management; does not enforce image geometry. Runtime generation not tested on user's machine."
+}

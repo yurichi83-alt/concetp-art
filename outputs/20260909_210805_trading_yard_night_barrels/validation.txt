@@ -1,0 +1,5 @@
+PASS
+Scope: file integrity only; no visual QA or native-generation test.
+master_images: 19
+review_only_images: 3
+agents_bytes: 3205

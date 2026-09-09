@@ -1,0 +1,23 @@
+{
+  "schema_version": 1,
+  "master_version_approved": "2",
+  "generated_style_anchor": null,
+  "entries": [
+    {
+      "reference_id": "R-02",
+      "approved_aspects": [
+        "concept_direction",
+        "color_mood"
+      ],
+      "not_approved_aspects": [
+        "camera",
+        "base_cutaway",
+        "exit_layout",
+        "overall_master"
+      ],
+      "evidence": "사용자가 낮/밤 실외 시안의 컨셉 방향성과 색감은 좋다고 했으나 마스터 01·02 누락을 지적함.",
+      "default_generation_input": false
+    }
+  ],
+  "note": "No generated image has been approved as an overall style/layout master. QA pass is not user approval."
+}

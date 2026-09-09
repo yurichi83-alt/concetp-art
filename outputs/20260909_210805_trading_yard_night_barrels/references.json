@@ -1,0 +1,40 @@
+{
+  "run_id": "20260909_210805_trading_yard_night_barrels",
+  "tool": "image_gen.imagegen",
+  "reference_input_method": "referenced_image_paths",
+  "submission_status": "submitted_successfully",
+  "references": [
+    {
+      "order": 1,
+      "path": "/Users/hyojinnoh/Documents/Codex/GameConcept_Codex/refs/master02/layout_two_exits.png",
+      "visually_inspected": true,
+      "role": "layout topology only",
+      "actual_input_status": "submitted via referenced_image_paths"
+    },
+    {
+      "order": 2,
+      "path": "/Users/hyojinnoh/Documents/Codex/GameConcept_Codex/refs/master01/composition_cutaway.png",
+      "visually_inspected": true,
+      "role": "camera and cutaway only",
+      "actual_input_status": "submitted via referenced_image_paths"
+    },
+    {
+      "order": 3,
+      "path": "/Users/hyojinnoh/Documents/Codex/GameConcept_Codex/refs/master03/ldi_10_storefront_style_anchor.png",
+      "visually_inspected": true,
+      "role": "primary visual style only",
+      "actual_input_status": "submitted via referenced_image_paths"
+    },
+    {
+      "order": 4,
+      "path": "/Users/hyojinnoh/Documents/Codex/GameConcept_Codex/refs/master03/ldi_06_night_path.png",
+      "visually_inspected": true,
+      "role": "night lighting only",
+      "actual_input_status": "submitted via referenced_image_paths"
+    }
+  ],
+  "master04": "textual design language; no character reference submitted",
+  "excluded": "review_only and unapproved outputs",
+  "tool_call_count": 1,
+  "result_source": "/Users/hyojinnoh/.codex/generated_images/01a08610-9124-7bd1-9961-9126ad377251/exec-5a20a8c3-8588-41eb-9267-fe61fc549a84.png"
+}

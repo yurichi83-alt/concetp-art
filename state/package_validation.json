@@ -1,0 +1,17 @@
+{
+  "ok": true,
+  "master_images": 19,
+  "review_only_images": 3,
+  "agents_bytes": 3205,
+  "errors": [],
+  "warnings": [],
+  "scope": "Files only. No visual or Codex-runtime validation.",
+  "native_codex_generation_tested": false,
+  "additional_checks": [
+    "Original image bytes preserved",
+    "SKILL.md YAML parsed",
+    "Optional skill UI YAML parsed",
+    "Markdown local links verified",
+    "Missing reference detected in negative test"
+  ]
+}
