@@ -1,0 +1,22 @@
+{
+  "tool": "image_gen__imagegen",
+  "mode": "built_in",
+  "source_path": "/Users/hyojinnoh/.codex/generated_images/01a08610-9124-7bd1-9961-9126ad377251/exec-e09b66ae-a48a-419d-850c-22bf69f2ded3.png",
+  "image_path": "/Users/hyojinnoh/Documents/Codex/GameConcept_Codex/outputs/20260910_185824_city_night_new_arrangement/city_three_buildings_cool_night.png",
+  "native_size_px": [
+    1312,
+    1199
+  ],
+  "sha256": "3772470e8b917042fe759162b59aa07fc7768e6c853dbb0793892e3f323e27af",
+  "actual_reference_count": 4,
+  "final_requested_count": 1,
+  "generated_attempt_count": 1,
+  "status": "uncertain",
+  "internal_model": null,
+  "revised_prompt": null,
+  "generation_prompt_path": "/Users/hyojinnoh/Documents/Codex/GameConcept_Codex/outputs/20260910_185824_city_night_new_arrangement/generation_prompt.md",
+  "actually_opened": true,
+  "structural_status": "uncertain",
+  "review_path": "/Users/hyojinnoh/Documents/Codex/GameConcept_Codex/outputs/20260910_185824_city_night_new_arrangement/review.md",
+  "stop_reason": "No definite structural FAIL observed; unresolved projection and occluded-footing uncertainty recorded; no aesthetic-only regeneration."
+}

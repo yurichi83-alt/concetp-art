@@ -1,0 +1,16 @@
+{
+  "source": "/Users/hyojinnoh/.codex/generated_images/01a08610-9124-7bd1-9961-9126ad377251/exec-bd4db837-80d8-4e1d-86a6-77ecc44ca88e.png",
+  "saved_image": "/Users/hyojinnoh/Documents/Codex/GameConcept_Codex/outputs/20260910_183000_scrapyard_spatial_rebuild/scrapyard_attempt02.png",
+  "dimensions": [
+    1536,
+    1024
+  ],
+  "sha256": "53c9d0f7443a261368bacc9137251c4a939f5bda61377a061c20df3a5b3d3309",
+  "qa_status": "needs_revision",
+  "structural_failures": [
+    "L02_both_exits_on_same_rear_boundary"
+  ],
+  "tool_calls": 1,
+  "master_updated": false,
+  "next_run": "outputs/20260910_183400_scrapyard_exit_fix"
+}

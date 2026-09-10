@@ -1,0 +1,27 @@
+{
+  "tool": "image_gen.imagegen",
+  "source": "/Users/hyojinnoh/.codex/generated_images/01a08610-9124-7bd1-9961-9126ad377251/exec-798495b0-841d-48d8-b219-411a66de20bf.png",
+  "saved_image": "/Users/hyojinnoh/Documents/Codex/GameConcept_Codex/outputs/20260910_185100_city_full_framing/city_three_buildings_night.png",
+  "dimensions": [
+    1377,
+    1142
+  ],
+  "sha256": "27a12d52a7cf2762b5a5981d81bb9ee5636576e66ffa39da3a53184e43be375b",
+  "master_version": "2.4",
+  "execution_version": "1.5",
+  "qa_status": "uncertain",
+  "structural_status": "uncertain",
+  "tool_calls_this_run": 1,
+  "total_calls_this_request": 3,
+  "structural_correction_calls": 2,
+  "final_deliverable_count": 1,
+  "master_updated": false,
+  "user_approved_result": false,
+  "scene_exception": "User-requested 2–4-story buildings take precedence over default planned height cap for this scene only.",
+  "opened_for_review": true,
+  "structural_reservations": [
+    "C02_C04_common_projection_uncertain",
+    "L05_L07_partly_occluded_footings"
+  ],
+  "stop_reason": "Observed chamfer and crop corrected; remaining projection/occluded-footing uncertainty is reported rather than passed or repeatedly regenerated without reliable geometric control."
+}

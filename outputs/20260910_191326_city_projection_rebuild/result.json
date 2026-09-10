@@ -1,0 +1,24 @@
+{
+  "image_path": "/Users/hyojinnoh/Documents/Codex/GameConcept_Codex/outputs/20260910_191326_city_projection_rebuild/city_cool_night_rebuilt.png",
+  "source_path": "/Users/hyojinnoh/.codex/generated_images/01a08610-9124-7bd1-9961-9126ad377251/exec-4f32233e-1da2-44c8-9df3-943c4288886e.png",
+  "native_size_px": [
+    1254,
+    1254
+  ],
+  "sha256": "720c1657c17e8b69ede38f101fbfa39c784e909dd1d96691f6c8c67eb25026e7",
+  "status": "needs_revision",
+  "tool": "image_gen__imagegen",
+  "mode": "built_in",
+  "actual_reference_count": 5,
+  "attempt": 2,
+  "parent_run": "20260910_190552_city_cool_night_orthographic",
+  "scene_generated_image_count": 2,
+  "requested_final_count": 1,
+  "structural_status": "needs_revision",
+  "actually_opened": true,
+  "structural_failures": [
+    "C04"
+  ],
+  "stop_reason": "Repeated projection mismatch despite master-based reconstruction with a calculated 2D orthographic guide; no new supported geometry-lock strategy.",
+  "review_path": "/Users/hyojinnoh/Documents/Codex/GameConcept_Codex/outputs/20260910_191326_city_projection_rebuild/review.md"
+}

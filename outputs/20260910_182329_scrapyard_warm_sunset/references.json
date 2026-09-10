@@ -1,0 +1,56 @@
+{
+  "status": "submitted_and_generated",
+  "inputs": [
+    {
+      "input_index": 1,
+      "id": "M02-01",
+      "path": "/Users/hyojinnoh/Documents/Codex/GameConcept_Codex/refs/master02/layout_two_exits.png",
+      "role": "공통 바닥과 기본 입체, 상단 좌·우 직교 경계 방향과 기능 출구 하나씩, 상태에 맞는 접근 및 개방 후 연결 동선, 높이 상한. 각 면 중앙·중간·끝 위치와 출구 형태 가변; 건물 입구 겸용 가능",
+      "exclude": "파란 벽·글자·아이콘·화살표·입구 표시와 도해의 문틀/좌표를 의무 복제하지 않음. 중앙 배치 금지가 아니며 중앙·편심·끝 모두 가능",
+      "sha256": "444031765bb112361022fb23f593f3d386907ccb2bd005353b0514ed2f588a26",
+      "visually_inspected": true,
+      "submitted": true
+    },
+    {
+      "input_index": 2,
+      "id": "M01-01",
+      "path": "/Users/hyojinnoh/Documents/Codex/GameConcept_Codex/refs/master01/composition_cutaway.png",
+      "role": "공통 쿼터뷰 카메라·투영, 기본 베이스 입체, 상하 대응 모서리·두께와 두 평면 단면",
+      "exclude": "네온·상점가·일본풍·팔레트·고밀도 재질은 제외",
+      "sha256": "849912ebad9cd750ca79fba6bd8fce6061a5b0ee169a6da5908c60abae94b1a3",
+      "visually_inspected": true,
+      "submitted": true
+    },
+    {
+      "input_index": 3,
+      "id": "M03-10",
+      "path": "/Users/hyojinnoh/Documents/Codex/GameConcept_Codex/refs/master03/ldi_10_storefront_style_anchor.png",
+      "role": "큰 깨끗한 색면, 선택적 손상, 특징적 큰 윤곽, 디테일 집중과 여백의 대비",
+      "exclude": "상점 종류·건축 양식·상호·캐릭터·카메라 제외",
+      "sha256": "c24fe55ad76c6c8bfbd88dee7059a09fd7a592dc60e5d4a6c7c0704f11f19345",
+      "visually_inspected": true,
+      "submitted": true
+    },
+    {
+      "input_index": 4,
+      "id": "M04-02",
+      "path": "/Users/hyojinnoh/Documents/Codex/GameConcept_Codex/refs/master04/world_02_heavy_mechanical_arms.png",
+      "role": "큰 산업기계 덩어리·도장 패널·관절의 기능감",
+      "exclude": "인물 직접 삽입·포토리얼 표면·동일 복장 복제 제외",
+      "sha256": "a71042678c1898320a3d949d0108bde7e6f931c8f1bf8b316a057084be179a3b",
+      "visually_inspected": true,
+      "submitted": true
+    }
+  ],
+  "tool": "image_gen.imagegen",
+  "input_method": "referenced_image_paths",
+  "actual_image_count": 4,
+  "path_input_maximum": "unknown",
+  "internal_model": "unknown",
+  "internal_tokens": "unknown",
+  "internal_revised_prompt": "unknown",
+  "master_version": "2.4",
+  "execution_version": "1.5",
+  "reviewed_not_submitted": [],
+  "selection_note": "Small role-balanced set, not a tool maximum. No previous output or supplementary image needed."
+}

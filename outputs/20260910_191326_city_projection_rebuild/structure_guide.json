@@ -1,0 +1,56 @@
+{
+  "type": "procedural_2d_projection_guide_not_validated_3d_asset",
+  "projection": "orthographic_parallel",
+  "canvas": [
+    1400,
+    1400
+  ],
+  "mapping": "u=700+21*(x-y); v=1180-21/sqrt(3)*(x+y)-42/sqrt(3)*z",
+  "base_plan": [
+    0,
+    0,
+    30,
+    30
+  ],
+  "base_z": [
+    -3,
+    0
+  ],
+  "buildings": [
+    {
+      "floors": 4,
+      "xy": [
+        7,
+        21,
+        14,
+        30
+      ],
+      "height": 12.8
+    },
+    {
+      "floors": 2,
+      "xy": [
+        20,
+        24,
+        30,
+        30
+      ],
+      "height": 6.4
+    },
+    {
+      "floors": 3,
+      "xy": [
+        24,
+        3,
+        30,
+        18
+      ],
+      "height": 9.6
+    }
+  ],
+  "exits": {
+    "left": "open road crossing y=30 at x=0..6, visibly outside tall left building silhouette; clear strip x=0..6 y=14..30",
+    "right": "garage in x=24 face y=9..16, ramp x=15..24 z=0 to -2"
+  },
+  "scope": "camera/base/building footprints and height steps/exit connections only, no material or architecture aesthetics; cue not geometry lock"
+}

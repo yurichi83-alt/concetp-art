@@ -1,0 +1,25 @@
+{
+  "tool": "image_gen.imagegen",
+  "source": "/Users/hyojinnoh/.codex/generated_images/01a08610-9124-7bd1-9961-9126ad377251/exec-b12e1c37-10b6-4873-8c78-15dc716724fe.png",
+  "saved_image": "/Users/hyojinnoh/Documents/Codex/GameConcept_Codex/outputs/20260910_183400_scrapyard_exit_fix/scrapyard_warm_sunset.png",
+  "dimensions": [
+    1536,
+    1024
+  ],
+  "sha256": "9407f8b7330dc5eba7ad7488c1512a8d7b194014166efc6322d59ad47b762f56",
+  "master_version": "2.4",
+  "execution_version": "1.5",
+  "qa_status": "uncertain",
+  "structural_status": "uncertain",
+  "structural_reservations": [
+    "C02_C04_common_projection_not_fully_verified"
+  ],
+  "tool_calls_this_run": 1,
+  "total_calls_this_request": 3,
+  "structural_correction_calls": 2,
+  "final_deliverable_count": 1,
+  "master_updated": false,
+  "user_approved_result": false,
+  "opened_for_review": true,
+  "stop_reason": "Delivered with remaining projection uncertainty; no structural-pass claim. Further identical unconstrained retries would not provide reliable geometric verification."
+}

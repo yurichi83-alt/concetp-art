@@ -1,0 +1,17 @@
+{
+  "source": "/Users/hyojinnoh/.codex/generated_images/01a08610-9124-7bd1-9961-9126ad377251/exec-e164f17c-b30c-4b4e-86b0-462f2d1a6164.png",
+  "saved_image": "/Users/hyojinnoh/Documents/Codex/GameConcept_Codex/outputs/20260910_182329_scrapyard_warm_sunset/scrapyard_attempt01.png",
+  "sha256": "1d4fcb2f38a7a5104bed23104e2569aa6d55c04aa068e61fa58759bf3956d238",
+  "dimensions": [
+    1254,
+    1254
+  ],
+  "qa_status": "needs_revision",
+  "structural_failures": [
+    "C01_side_cropping",
+    "C04_inconsistent_parallel_projection"
+  ],
+  "tool_calls": 1,
+  "master_updated": false,
+  "next_run": "outputs/20260910_183000_scrapyard_spatial_rebuild"
+}

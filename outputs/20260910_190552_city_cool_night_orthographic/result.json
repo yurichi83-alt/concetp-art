@@ -1,0 +1,21 @@
+{
+  "source_path": "/Users/hyojinnoh/.codex/generated_images/01a08610-9124-7bd1-9961-9126ad377251/exec-f1caf36a-4c01-47ba-846b-be8d09bd2928.png",
+  "image_path": "/Users/hyojinnoh/Documents/Codex/GameConcept_Codex/outputs/20260910_190552_city_cool_night_orthographic/city_attempt01.png",
+  "native_size_px": [
+    1254,
+    1254
+  ],
+  "sha256": "6f92c12a7e4424fed1cc582e556ae69152b06b991335bb70005c6e8db2e4fe4e",
+  "tool": "image_gen__imagegen",
+  "mode": "built_in",
+  "status": "needs_revision",
+  "actual_reference_count": 5,
+  "final_requested_count": 1,
+  "attempt": 1,
+  "actually_opened": true,
+  "structural_failures": [
+    "C02",
+    "C04"
+  ],
+  "correction_run": "/Users/hyojinnoh/Documents/Codex/GameConcept_Codex/outputs/20260910_191326_city_projection_rebuild"
+}
