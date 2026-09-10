@@ -1,0 +1,34 @@
+{
+  "inputs": [
+    {
+      "path": "C:/Users/Yeon Hee Kang/OneDrive/문서/Codex/background-concept-art/concetp-art/outputs/20260910_111843_tiny_city_shop_v22/tiny_city_shop_candidate.png",
+      "role": "edit_target",
+      "visually_inspected": true,
+      "submitted": true,
+      "sha256": "5c5942431b39dab9a090c97a689b4cea1729ddb3034e41c1d7f692edcd0deea5"
+    },
+    {
+      "path": "C:/Users/Yeon Hee Kang/OneDrive/문서/Codex/background-concept-art/concetp-art/refs/master01/composition_cutaway.png",
+      "role": "cutaway_only",
+      "visually_inspected": true,
+      "submitted": true,
+      "sha256": "849912ebad9cd750ca79fba6bd8fce6061a5b0ee169a6da5908c60abae94b1a3"
+    },
+    {
+      "path": "C:/Users/Yeon Hee Kang/OneDrive/문서/Codex/background-concept-art/concetp-art/refs/master03/ldi_10_storefront_style_anchor.png",
+      "role": "material_style_only",
+      "visually_inspected": true,
+      "submitted": true,
+      "sha256": "c24fe55ad76c6c8bfbd88dee7059a09fd7a592dc60e5d4a6c7c0704f11f19345"
+    },
+    {
+      "path": "C:/Users/Yeon Hee Kang/OneDrive/문서/Codex/background-concept-art/concetp-art/outputs/20260910_111843_tiny_city_shop_v22/structure_plan.png",
+      "role": "structure_guide",
+      "visually_inspected": true,
+      "submitted": true,
+      "sha256": "e51de2d6b65c399a5b3670102cc18baa79c3084bf068f4573d2fcf19fc958a3d"
+    }
+  ],
+  "prior_run": "outputs/20260910_111843_tiny_city_shop_v22",
+  "mechanism": "referenced_image_paths"
+}

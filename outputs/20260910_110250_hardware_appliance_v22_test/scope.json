@@ -1,0 +1,17 @@
+{
+  "master_version": "2.2",
+  "execution_rules_version": "1.3",
+  "status": "needs_revision",
+  "requested_final_count": 1,
+  "mode": "builtin_imagegen",
+  "intent": "new_scene_test",
+  "master_update": false,
+  "previous_rejected_output_excluded": true,
+  "structural_correction_authorization": "structural_auto_correction_20260909",
+  "structure_policy_approval": "master_update_20260910_v2_2",
+  "session_style": [
+    "cassette_futurism",
+    "no_CRT_or_video_displays",
+    "salvage_cyberpunk_all_manufactured_designs"
+  ]
+}

@@ -1,0 +1,3 @@
+# PLANNED, not finalQA
+
+Ownedit targetactuallyopened; ownidenticalguideinspected. TwoexplicitPNGpaths; no otherindependentoutput. Currentnativeimagegencontract; no unknownmodel/token claims. Promptvariablesnone; userkeywordsretained; correctionauthorizedbyexistingstructuralpolicy. Previousguidebaseandroutesvalid. No change to projectedcameraorbaseintended. Finalactualimagecomparisonrequired.

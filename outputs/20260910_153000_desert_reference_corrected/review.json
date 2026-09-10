@@ -1,0 +1,11 @@
+{
+  "status": "needs_revision",
+  "actually_viewed": true,
+  "C02": "FAIL approximatebasevectors104/122/110 differ underparallelplan",
+  "C04": "UNCERTAIN/FAIL levelbuildingsegments do notreliablyfollowbaseaxis; roofstepsnotusedascomparisons",
+  "L02": "PASS2closedgates",
+  "L03": "PASSapproachesclear",
+  "L07": "UNCERTAIN hiddencriticalcorners",
+  "next_strategy": "Guide-only imageinput to exclude remaining sourcephoto camera; sourcevocabulary in text",
+  "preserved": true
+}

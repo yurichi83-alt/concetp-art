@@ -1,0 +1,89 @@
+{
+  "image": "C:\\Users\\Yeon Hee Kang\\OneDrive\\문서\\Codex\\background-concept-art\\concetp-art\\outputs\\20260910_151135_night_scrapyard_repair_cassette_geometryfix\\night_scrapyard_repair_cassette_geometryfix.png",
+  "dimensions": [
+    1377,
+    1142
+  ],
+  "opened": true,
+  "status": "needs_revision",
+  "C02": "PASS_visible_approx_constant_depth",
+  "C04": "FAIL_repeated_same_axis_difference_low_roof_vs_base;notphysicalyawmeasurement",
+  "L07": "UNCERTAIN_footing_occlusion_remains",
+  "correction_result": "Targeted edit insufficiently relocated obscuring bins/crates; architecture-to-base line discrepancy not resolved. Other keyword/exit layout preserved.",
+  "observed_endpoints": {
+    "base_X": [
+      [
+        20,
+        619
+      ],
+      [
+        677,
+        1024
+      ]
+    ],
+    "junkyard_roof_X": [
+      [
+        332,
+        354
+      ],
+      [
+        479,
+        437
+      ]
+    ],
+    "repair_roof_X": [
+      [
+        775,
+        399
+      ],
+      [
+        1013,
+        530
+      ]
+    ],
+    "base_Y": [
+      [
+        677,
+        1024
+      ],
+      [
+        1360,
+        638
+      ]
+    ]
+  },
+  "base_correspondences": [
+    {
+      "upper": [
+        20,
+        619
+      ],
+      "lower": [
+        20,
+        730
+      ]
+    },
+    {
+      "upper": [
+        677,
+        1024
+      ],
+      "lower": [
+        677,
+        1132
+      ]
+    },
+    {
+      "upper": [
+        1360,
+        638
+      ],
+      "lower": [
+        1360,
+        753
+      ]
+    }
+  ],
+  "method": "Manual native point selection approx2px; not all footing lines visible; no universalanglethreshold. Exact3Dcurvature/yaw unknown.",
+  "next_strategy": "Reconstruct from own coherent geometry guide, remove M02visualcamera competing with guide, retain twoexits/layout rules textually, place only user-required bigprops wellaway from bothbuildingfootings. Do not include any failedoutput."
+}

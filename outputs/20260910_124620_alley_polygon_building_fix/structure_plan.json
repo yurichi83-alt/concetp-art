@@ -1,0 +1,112 @@
+{
+  "base": [
+    0,
+    16,
+    0,
+    16,
+    -1.6,
+    0
+  ],
+  "projection": "single orthographic XYZ",
+  "buildings": "left L footprint with stepped upper volume; right pentagon with diagonal corner and asymmetric roof",
+  "roof_coverage": {
+    "left": {
+      "roof_horizontal_area": 32.5,
+      "functional_occupied_plan": 17.9,
+      "fraction": 0.5507692307692307
+    },
+    "right": {
+      "roof_horizontal_area": 27,
+      "functional_occupied_plan": 15.2,
+      "fraction": 0.5629629629629629
+    }
+  },
+  "routes": {
+    "left": [
+      0,
+      8,
+      11,
+      14,
+      0,
+      2.4
+    ],
+    "right": [
+      13,
+      15.5,
+      0,
+      14,
+      0,
+      2.4
+    ],
+    "center": [
+      5.6,
+      13,
+      9.8,
+      14,
+      0,
+      2.4
+    ]
+  },
+  "objects": {
+    "left_main": [
+      1,
+      5,
+      1,
+      8,
+      0,
+      5
+    ],
+    "left_wing": [
+      5,
+      6.5,
+      1,
+      4,
+      0,
+      3.2
+    ],
+    "machine_core": [
+      4.3,
+      5.3,
+      4.4,
+      7.7,
+      0,
+      4.25
+    ],
+    "right_bound": [
+      7,
+      11.8,
+      1,
+      7,
+      0,
+      5.1
+    ],
+    "bin_left": [
+      1.1,
+      2.7,
+      8.35,
+      9.5,
+      0,
+      1.25
+    ],
+    "bin_right": [
+      9.2,
+      10.2,
+      7.35,
+      8.4,
+      0,
+      1.2
+    ],
+    "bags": [
+      2.85,
+      3.4,
+      8.6,
+      9.35,
+      0,
+      0.55
+    ]
+  },
+  "route_collisions": [],
+  "mechanical_fraction": "left body about20% visual target continuing previous request; integrated core not just roof equipment",
+  "entrances": "left y8 x2..3.3, right y7 x7.6..8.9",
+  "limits": "planning values only; final image visually checked; sloped-roof equipment must gain credible supports in final art"
+}

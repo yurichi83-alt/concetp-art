@@ -1,0 +1,237 @@
+{
+  "schema_version": 1,
+  "master_version_approved": "2.2",
+  "generated_style_anchor": null,
+  "entries": [
+    {
+      "reference_id": "R-02",
+      "approved_aspects": [
+        "concept_direction",
+        "color_mood"
+      ],
+      "not_approved_aspects": [
+        "camera",
+        "base_cutaway",
+        "exit_layout",
+        "overall_master"
+      ],
+      "evidence": "사용자가 낮/밤 실외 시안의 컨셉 방향성과 색감은 좋다고 했으나 마스터 01·02 누락을 지적함.",
+      "default_generation_input": false
+    },
+    {
+      "reference_ids": [
+        "A-01",
+        "A-02"
+      ],
+      "approved_aspects": [
+        "primary_visual_direction",
+        "material_and_detail_direction",
+        "lighting_direction",
+        "environment_design_direction"
+      ],
+      "evidence": "기존 이미지는 전부 테스트 용이고 원하는 이미지가 아니었어. 지금 첨부한 이미지 2개가 가장 원하는 결과에 가까워. 기존 이미지는 무시하고 지금 첨부한 이미지 2개를 기준으로 삼아줘",
+      "scope": "영구 참조 교체. 기존 모든 이미지 생성 입력 제외. 공간 규칙 변경 요청은 없음.",
+      "default_generation_input": false,
+      "status": "superseded_by_scope_clarification",
+      "interpretation_note": "이 항목에 기록된 원본 참조 제외/교체 범위는 어시스턴트 오해. 최신 정정이 우선."
+    },
+    {
+      "date": "2026-09-09",
+      "type": "art_direction_clarification",
+      "evidence": "리틀 데빌 인사이드 라는 게임의 세계관을 제외한 건축물의 형태나 맵핑 텍스처의 묘사, 라이팅이나 색감을 참고하도록 하고, 세계관은 Salvage Cyberpunk 라고 정립",
+      "scope": "Little Devil Inside 아트 표현 유지·복원. Salvage Cyberpunk 세계관 유지. A-01/A-02는 원하는 결과 기준이며 아트 방향 대체가 아님.",
+      "reference_ids": [
+        "A-01",
+        "A-02"
+      ],
+      "status": "superseded_by_scope_clarification",
+      "default_generation_input": false,
+      "interpretation_note": "이 항목에 기록된 원본 참조 제외/교체 범위는 어시스턴트 오해. 최신 정정이 우선."
+    },
+    {
+      "date": "2026-09-09",
+      "type": "master_hierarchy_clarification",
+      "status": "active",
+      "evidence": "처음에 폴더에 구성되어있던 마스터 레퍼런스들은 중요해. 세계관이나 리틀 데빌 인사이드라는 아트 스타일은 변경하면 안되는 내용이야. 내가 첨부해준 이미지 2개는 기존의 마스터 레퍼런스 기준으로 생성했던 이미지 들 중에서 내가 생각하는 아트와 가장 가까운 이미지를 추려줬을 뿐이야.",
+      "scope": "원본 마스터 01~04 및 19장 유지. Little Devil Inside 아트 표현(세계관 제외)와 Salvage Cyberpunk 세계관 고정. A-01/A-02는 선호 생성 결과 예시로만 추가.",
+      "reference_ids": [
+        "A-01",
+        "A-02"
+      ],
+      "approved_aspects": [
+        "preferred_generated_result_examples"
+      ],
+      "not_approved_aspects": [
+        "master_replacement",
+        "original_reference_exclusion",
+        "world_or_art_style_change"
+      ]
+    },
+    {
+      "id": "structural_auto_correction_20260909",
+      "date": "2026-09-09",
+      "type": "execution_policy_update",
+      "status": "active",
+      "evidence": "앞으로는 구조적으로 문제가 있을 때는 알아서 수정해서 재생성까지 해줘. 지금처럼 출구의 위치나 갯수가 틀리거나 이번에 생성한 건물들의 구조? 아니면 배치 각도 때문인지 지면 공간이 조금 이상하거든 우선 구초레 맞게 수정진행해줘.",
+      "scope": "앞으로 실제 구조 오류는 재확인 없이 수정·재생성·재검수. 이번 낮 골목의 출구 수/위치 및 건물·지면 배치 수정 포함. 최종 전달 장수 유지.",
+      "supersedes": "이전 자동 재생성 금지 지침 중 실제 구조 오류 보정에 해당하는 범위",
+      "approved_aspects": [
+        "structural_correction_regeneration",
+        "execution_rule_persistence"
+      ],
+      "not_approved_aspects": [
+        "automatic_art_master_promotion",
+        "unrequested_aesthetic_variants",
+        "external_api_installation_or_global_config_changes"
+      ]
+    },
+    {
+      "id": "partial_preference_20260909_225844",
+      "date": "2026-09-09",
+      "type": "partial_generated_result_preference",
+      "status": "active",
+      "result_path": "outputs/20260909_224840_alley_structure_fix/day_alley_structure_fixed.png",
+      "evidence": "지면 단면의 기계적인 요소는 맘에 드는데 건물에서의 Salvage Cyberpunk 에서 Cyberpunk 요소가 조금 적은 것 같아. Cyberpunk 요소를 조금 더 추가해주고, 쓰레기 봉지는 괜찮은데 쓰레기통에도 기계적인 요소같은게 더 들어갔으면 좋겠어",
+      "approved_aspects": [
+        "ground_cutaway_mechanical_design",
+        "garbage_bag_treatment"
+      ],
+      "requested_changes": [
+        "increase_building_cyberpunk_technology",
+        "add_mechanical_features_to_trash_bins"
+      ],
+      "scope": "직전 결과의 해당 두 속성 선호 및 이번 편집 시 보존. 아트 마스터 추가/교체 승인 아님.",
+      "not_approved_aspects": [
+        "overall_master_approval",
+        "automatic_reference_promotion",
+        "world_or_style_replacement"
+      ],
+      "default_generation_input": false
+    },
+    {
+      "id": "mechanical_ratio_preference_20260909_230638",
+      "date": "2026-09-09",
+      "type": "partial_generated_result_preference",
+      "status": "active",
+      "result_path": "outputs/20260909_225844_alley_building_bin_technology/alley_building_bin_technology.png",
+      "evidence": "좋아 지금 정도가 나쁘지 않아 기계의 비율은. 그러면 지금까지의 내용을 보완해서 한번 더 테스트 이미지를 만들어 보자. 그리고 괜찮으면 마스터 레퍼런스 내용으로 갱신할거야. 이번 키워드는 시가지 / 달빛이 비추는 밤 / 바닥에 안개가 낮게 깔려있음 / 건물 위주의 구성 / 한 장",
+      "approved_aspects": [
+        "mechanical_element_presence_relative_to_architecture"
+      ],
+      "scope": "직전 결과의 기계 요소 비중을 이번 새 야간 시가지 테스트의 보조 비교 기준으로 사용. 전체 아트/마스터 갱신은 테스트 결과 평가 후 별도 요청 예정.",
+      "not_approved_aspects": [
+        "whole_image_master_approval",
+        "automatic_master_update",
+        "exact_building_or_machine_copy_requirement"
+      ],
+      "generation_input_scope": "current_test_mechanical_presence_reference_only",
+      "default_generation_input": false
+    },
+    {
+      "id": "master_update_20260909_v2_1",
+      "date": "2026-09-09",
+      "type": "master_rules_and_reference_supplement_update",
+      "status": "active",
+      "evidence": "좋아 문제 없으면 승인할게",
+      "scope_context": "직전 검토에서 기존 기준과 충돌 없음 및 파일검사 PASS 확인. 사용자가 앞서 정리한 8개 보완 원칙과 LDI 5장 추가(건축·재질·조명만, 두 번째 자연물 제외)의 갱신 승인 여부를 다음 명령에서 알리겠다고 한 후의 승인.",
+      "master_version_before": "2",
+      "master_version_after": "2.1",
+      "execution_rules_version_after": "1.2",
+      "reference_ids": [
+        "M03-11",
+        "M03-12",
+        "M03-13",
+        "M03-14",
+        "M03-15"
+      ],
+      "approved_aspects": [
+        "quiet_surface_depiction_with_large_aged_repairs",
+        "salvage_world_visible_across_architecture_and_infrastructure",
+        "functional_recovered_technology_in_buildings_and_everyday_equipment",
+        "relative_mechanical_presence_without_fixed_ratio_or_design_copy",
+        "distinct_new_location_design_under_spatial_invariants",
+        "location_specific_ground_cutaway_design",
+        "form_readable_lighting_and_scene_specific_density",
+        "solid_form_clarity_for_future_three_view_and_ai_modeling"
+      ],
+      "preserved_aspects": [
+        "original_19_images_and_roles",
+        "Little_Devil_Inside_art_direction_excluding_its_world",
+        "Salvage_Cyberpunk_world",
+        "two_rear_exits_open_center_whole_diorama_two_cutaways",
+        "existing_structural_correction_authorization"
+      ],
+      "not_approved_aspects": [
+        "whole_generated_image_promotion",
+        "fixed_numeric_mechanical_ratio",
+        "mandatory_mechanization_of_every_object",
+        "copying_specific_buildings_or_cutaway_pattern",
+        "global_vegetation_ban",
+        "new_image_generation_in_this_update",
+        "external_API_installation_or_global_config_change"
+      ],
+      "scoped_result_paths": [
+        "outputs/20260909_224840_alley_structure_fix/day_alley_structure_fixed.png",
+        "outputs/20260909_225844_alley_building_bin_technology/alley_building_bin_technology.png"
+      ],
+      "scoped_result_reuse": "기존 부분 선호는 해당 속성의 향후 비교 기준으로만 유지. 두 결과 전체를 마스터 이미지로 등록하지 않는다.",
+      "history_path": "state/history/20260909_232904_master_v2_1"
+    },
+    {
+      "id": "master_update_20260910_v2_2",
+      "date": "2026-09-10",
+      "type": "geometry_and_traversal_master_reinforcement",
+      "status": "active",
+      "evidence": "보강안 내용은 적절해보여. 승인할게 메인 래퍼런스 갱신해줘",
+      "proposal_path": "outputs/20260910_102058_geometry_master_reinforcement_proposal/proposal_ko.md",
+      "scope": "승인 제안의 7개 기하·동선 규칙, 구조안/실행·검수·템플릿 및 관련 설정·참조 역할 동기화",
+      "master_version_before": "2.1",
+      "master_version_after": "2.2",
+      "execution_rules_version_after": "1.3",
+      "approved_aspects": [
+        "cubic_shared_spatial_frame",
+        "single_projection",
+        "base_corner_and_plane_consistency",
+        "perpendicular_rear_boundaries",
+        "continuous_walkable_route_volumes",
+        "usable_interior_circulation",
+        "geometry_first_generation_and_hard_QA_gate"
+      ],
+      "structural_checks": [
+        "C01",
+        "C02",
+        "C03",
+        "C04",
+        "L01",
+        "L02",
+        "L03",
+        "L04",
+        "L05",
+        "L06"
+      ],
+      "preserved_aspects": [
+        "24_reference_image_files_and_hashes",
+        "LDI_art_and_v2_1_style_content",
+        "Salvage_Cyberpunk_world_content",
+        "preferred_and_review_only_hierarchy",
+        "existing_structural_auto_correction"
+      ],
+      "not_approved_aspects": [
+        "generated_image_master_promotion",
+        "explanatory_SVG_positive_reference_registration",
+        "separately_deferred_cassette_CRT_and_all_props_style_master_updates",
+        "fixed_camera_numbers_or_global_passage_width",
+        "new_concept_image_generation_in_this_update",
+        "external_API_installation_global_settings",
+        "git_commit_or_push"
+      ],
+      "history_path": "state/history/20260910_103725_master_v2_2",
+      "update_record_path": "outputs/20260910_103725_master_v2_2_update"
+    }
+  ],
+  "note": "Master set v2.2 preserves all 24 reference images and v2.1 art/world content; geometry, traversal and execution/QA strengthened by explicit approval. Historical approvals and supplement provenance remain unchanged.",
+  "preferred_generated_results": [
+    "A-01",
+    "A-02"
+  ]
+}

@@ -1,0 +1,222 @@
+{
+  "status": "uncertain",
+  "structural_status": "uncertain",
+  "art_world_request_status": "pass_visual",
+  "actually_opened": true,
+  "master": "2.4",
+  "execution": "1.5",
+  "planned_projection": "single_coherent_mild_perspective",
+  "projection_selected_before_generation": true,
+  "structure_plan_and_actual_final_image_compared": true,
+  "checks": {
+    "C01": [
+      "PASS",
+      "Whole base, two front cuts and roof silhouette fit frame; distant ships disconnected background."
+    ],
+    "C02": [
+      "UNCERTAIN",
+      "Both planar cuts visible. Approx corresponding corners (17,508)/(26,653), (697,935)/(697,1063), (1360,566)/(1355,706). Small edge occlusion and uneven fill make precise correspondence ambiguous. Perspective does not require equal pixel depths."
+    ],
+    "C03": [
+      "PASS",
+      "Long top outlines read straight, sharp front corner; no evident convex bending. Does not certify 3D shape."
+    ],
+    "C04": [
+      "UNCERTAIN",
+      "Base, paving and roofs trend to two direction families but a common horizon cannot be reliably established from short/occluded footing segments."
+    ],
+    "L01": [
+      "PASS",
+      "Two adjacent rear blocking directions, buildings and gates continuous; no third walking gap apparent."
+    ],
+    "L02": [
+      "PASS",
+      "One closed sliding gate per rear direction. Workshop door/store shutter are local decorative entrances."
+    ],
+    "L03": [
+      "PASS",
+      "Broad center-to-left and center-to-right gate approaches remain clear; barrels/crates outside gate threshold. Closed preclear gates intentional; postclear connection is planned rather than observable animation."
+    ],
+    "L04": [
+      "PASS",
+      "Low front railings and peripheral awning do not hide central combat space or two cuts."
+    ],
+    "L05": [
+      "PASS",
+      "Walls meet visible ground; roofs and raised plant supported by parapets/platforms. Awning slopes excluded from horizontal axis comparisons."
+    ],
+    "L06": [
+      "NOT_APPLICABLE",
+      "No exposed interior requested or shown."
+    ],
+    "L07": [
+      "UNCERTAIN",
+      "Visible player-contact wall segments appear orthogonal in scene axes, but crates/barrels obscure critical lower corners; cannot certify all footprints."
+    ],
+    "S01": [
+      "PASS",
+      "Broad concrete slabs and wall paint areas retained; larger repair patches dominant."
+    ],
+    "S02": [
+      "PASS",
+      "Machinery concentrated on buildings; central open ground low object density."
+    ],
+    "S03": [
+      "PASS",
+      "Game3D environment rendering; high material detail but readable massing."
+    ],
+    "S04": [
+      "PASS",
+      "Equipment silhouettes, ducts, tanks and support frames distinguishable; not mesh/UV validation."
+    ],
+    "W01": [
+      "PASS",
+      "Patched plant housings, bypass external feeds, reused tank and rebuilt service supply visible."
+    ],
+    "W02": [
+      "PASS",
+      "Large replacement wall panels, repaired concrete, awnings and aged service equipment convey maintained decline."
+    ],
+    "W03": [
+      "PASS",
+      "Roof plant and facade ducts prominent independent of cutaway piping."
+    ],
+    "W04": [
+      "PASS",
+      "Left human door and right shutter; local entrances separate from two gates."
+    ],
+    "W05": [
+      "PASS",
+      "Both roofs visually around half occupied by functional plant/support assemblies; approximate visual assessment, not certified area measurement."
+    ],
+    "R01": [
+      "PASS",
+      "One night harbor courtyard image from current reference; cool ambient, warm lamps/barrel fires, wet ground."
+    ],
+    "R02": [
+      "PASS",
+      "New harbor layout/service cuts/warehouses; no prior generated scene used as input."
+    ]
+  },
+  "measurement_method": "Approximate manual endpoints from native 1374x1145 display; several pixels uncertainty, not automated fit or physical 3D rotation measurement.",
+  "line_evidence": [
+    [
+      "G01",
+      "Base left top",
+      [
+        17,
+        508
+      ],
+      [
+        697,
+        935
+      ],
+      "lower",
+      [
+        26,
+        653
+      ],
+      [
+        697,
+        1063
+      ],
+      "UNCERTAIN: rough fill obscures lower contour; offimage VP uncertain."
+    ],
+    [
+      "G02",
+      "Base right top",
+      [
+        697,
+        935
+      ],
+      [
+        1360,
+        566
+      ],
+      "lower",
+      [
+        697,
+        1063
+      ],
+      [
+        1355,
+        706
+      ],
+      "UNCERTAIN: direction-specific convergence not certified."
+    ],
+    [
+      "G03",
+      "Paving left family",
+      [
+        353,
+        530
+      ],
+      [
+        988,
+        827
+      ],
+      "base",
+      [
+        17,
+        508
+      ],
+      [
+        697,
+        935
+      ],
+      "UNCERTAIN: convergent trend alone does not establish common horizon."
+    ],
+    [
+      "G04",
+      "Right store front ground",
+      [
+        791,
+        445
+      ],
+      [
+        980,
+        529
+      ],
+      "wall top",
+      [
+        777,
+        294
+      ],
+      [
+        980,
+        374
+      ],
+      "UNCERTAIN: ground corners partly behind awning/crates."
+    ],
+    [
+      "G05",
+      "Left level roof",
+      [
+        418,
+        220
+      ],
+      [
+        571,
+        287
+      ],
+      "base",
+      [
+        17,
+        508
+      ],
+      [
+        697,
+        935
+      ],
+      "UNCERTAIN: slopes may differ under planned perspective; no forced parallelism test."
+    ]
+  ],
+  "stop_reason": "No definite localized structural error identified; decisive hidden footing evidence is not observable. Delivered with uncertainty, not promoted to structural pass or master. No speculative correction performed.",
+  "requires_3d_validation": [
+    "true depth",
+    "exact height",
+    "collision clearance",
+    "postclear gate operation"
+  ],
+  "user_approval": "none"
+}

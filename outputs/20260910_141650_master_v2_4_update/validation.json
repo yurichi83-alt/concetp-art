@@ -1,0 +1,139 @@
+{
+  "ok": true,
+  "scope": "Document, metadata and file integrity only. No new image generated or geometry quality validated.",
+  "checks": [
+    {
+      "check": "Snapshot28 exact files",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "All29 reference PNG hashes retained",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "Reference entries and roles unchanged",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "Prior approval entries identical; exactly one appended",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "Approval evidence exact",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "Previous changelog retained",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "Version agreement",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "Protected scene/art/exit/building policies retained",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "Structural authorization retained",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "Prior geometry rules retained apart from workflow refinement",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "Master03 art body preserved",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "Master04 world/building body preserved",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "Latest diagnostic status connected",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "New prompt template connected",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "Existing project validator",
+      "passed": true,
+      "detail": {
+        "ok": true,
+        "root": "C:\\Users\\Yeon Hee Kang\\OneDrive\\문서\\Codex\\background-concept-art\\concetp-art",
+        "master_images": 24,
+        "review_only_images": 3,
+        "preferred_result_images": 2,
+        "agents_bytes": 6685,
+        "errors": [],
+        "warnings": [],
+        "scope": "Files only. No visual or Codex-runtime validation."
+      }
+    },
+    {
+      "check": "Skill frontmatter manual shape/name/description review",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "Skill UI quoted strings and trigger retained",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "git diff --check",
+      "passed": true,
+      "detail": ""
+    }
+  ],
+  "changed_existing_files": [
+    "AGENTS.md",
+    "FIRST_MESSAGE.txt",
+    "README_KO.md",
+    "START_HERE_KO.md",
+    "REFERENCE_INDEX.html",
+    "project.json",
+    "refs/manifest.json",
+    "refs/REFERENCE_MAP.md",
+    "state/approvals.json",
+    "state/CHANGELOG.md",
+    ".agents/skills/game-env-art/SKILL.md",
+    ".agents/skills/game-env-art/agents/openai.yaml",
+    "scripts/validate_project.py",
+    "docs/00_INDEX.md",
+    "docs/01_COMPOSITION.md",
+    "docs/02_LAYOUT.md",
+    "docs/03_VISUAL_STYLE_V2.md",
+    "docs/04_WORLD_DESIGN_V2.md",
+    "docs/05_GENERATION_RULES.md",
+    "docs/06_QA.md",
+    "docs/08_COMMANDS.md",
+    "docs/10_CURRENT_REFERENCES.md",
+    "templates/brief.md",
+    "templates/preflight.md",
+    "templates/references.json",
+    "templates/review.md"
+  ],
+  "new_template": "templates/generation_prompt.md",
+  "skill_quick_validate": {
+    "status": "not_run_successfully",
+    "reason": "PyYAML unavailable in both existing Python runtimes; no installation attempted. Narrow manual frontmatter and UI checks recorded above."
+  }
+}

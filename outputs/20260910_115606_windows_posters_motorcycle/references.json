@@ -1,0 +1,28 @@
+{
+  "inputs": [
+    {
+      "path": "C:\\Users\\Yeon Hee Kang\\OneDrive\\문서\\Codex\\background-concept-art\\concetp-art\\outputs\\20260910_114834_balcony_shop_entry_fix\\tiny_city_shop_balcony_day.png",
+      "role": "edit_target",
+      "visually_inspected": true,
+      "submitted": true,
+      "sha256": "19c9200443dfac0cd1df4d5219be3a0b917f99e675dc162db6b70e01410059d6"
+    },
+    {
+      "path": "C:\\Users\\Yeon Hee Kang\\OneDrive\\문서\\Codex\\background-concept-art\\concetp-art\\refs\\master04\\world_02_heavy_mechanical_arms.png",
+      "role": "motorcycle_world_design_only",
+      "visually_inspected": true,
+      "submitted": true,
+      "sha256": "a71042678c1898320a3d949d0108bde7e6f931c8f1bf8b316a057084be179a3b"
+    },
+    {
+      "path": "C:\\Users\\Yeon Hee Kang\\OneDrive\\문서\\Codex\\background-concept-art\\concetp-art\\refs\\master03\\ldi_10_storefront_style_anchor.png",
+      "role": "material_style_only",
+      "visually_inspected": true,
+      "submitted": true,
+      "sha256": "c24fe55ad76c6c8bfbd88dee7059a09fd7a592dc60e5d4a6c7c0704f11f19345"
+    }
+  ],
+  "mechanism": "referenced_image_paths",
+  "omitted": "M01/M02 and previous schematic duplicated existing target geometry; current edit plan checked separately",
+  "master_version": "2.2"
+}

@@ -1,0 +1,21 @@
+{
+  "inputs": [
+    {
+      "path": "C:\\Users\\Yeon Hee Kang\\OneDrive\\문서\\Codex\\background-concept-art\\concetp-art\\outputs\\20260910_115606_windows_posters_motorcycle\\tiny_shop_windows_posters_motorcycle.png",
+      "role": "edit_target_spatial_invariants_but_machinery_shapes_to_replace",
+      "visually_inspected": true,
+      "submitted": true,
+      "sha256": "895f50ea67027d357c788e86707a0720c54b5af5da149b3a90666a8251b63cc9"
+    },
+    {
+      "path": "C:\\Users\\Yeon Hee Kang\\OneDrive\\문서\\Codex\\background-concept-art\\concetp-art\\refs\\master03\\ldi_10_storefront_style_anchor.png",
+      "role": "rendering_only",
+      "visually_inspected": true,
+      "submitted": true,
+      "sha256": "c24fe55ad76c6c8bfbd88dee7059a09fd7a592dc60e5d4a6c7c0704f11f19345"
+    }
+  ],
+  "mechanism": "referenced_image_paths",
+  "omitted": "M01/M02 existing target preserves geometry; M04 character sources omitted to avoid anchoring unchanged generic industrial machinery, salvage world retained explicitly in prompt",
+  "intent": "edit_all_machine_designs"
+}

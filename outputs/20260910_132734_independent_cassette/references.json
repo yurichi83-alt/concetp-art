@@ -1,0 +1,63 @@
+{
+  "mode": "new_independent_generation",
+  "inspection": "all listed inputs opened with view_image before generation",
+  "reference_limit": 5,
+  "actual_submitted": true,
+  "selected": [
+    {
+      "input_order": 1,
+      "path": "C:/Users/Yeon Hee Kang/OneDrive/문서/Codex/background-concept-art/concetp-art/outputs/20260910_132734_independent_cassette/structure_plan.png",
+      "visually_inspected": true,
+      "submitted": true,
+      "role": "new scene geometry guide only"
+    },
+    {
+      "input_order": 2,
+      "path": "C:/Users/Yeon Hee Kang/OneDrive/문서/Codex/background-concept-art/concetp-art/refs/master02/layout_two_exits.png",
+      "visually_inspected": true,
+      "submitted": true,
+      "role": "M02-01 layout logic"
+    },
+    {
+      "input_order": 3,
+      "path": "C:/Users/Yeon Hee Kang/OneDrive/문서/Codex/background-concept-art/concetp-art/refs/master01/composition_cutaway.png",
+      "visually_inspected": true,
+      "submitted": true,
+      "role": "M01-01 composition/base"
+    },
+    {
+      "input_order": 4,
+      "path": "C:/Users/Yeon Hee Kang/OneDrive/문서/Codex/background-concept-art/concetp-art/refs/master03/ldi_10_storefront_style_anchor.png",
+      "visually_inspected": true,
+      "submitted": true,
+      "role": "M03-10 art rendering"
+    },
+    {
+      "input_order": 5,
+      "path": "C:/Users/Yeon Hee Kang/OneDrive/문서/Codex/background-concept-art/concetp-art/outputs/20260910_124032_alley_reference_shapes/user_cassette_reference.png",
+      "visually_inspected": true,
+      "submitted": true,
+      "role": "actual user cassette machinery shape reference"
+    }
+  ],
+  "inspected_not_submitted": [
+    {
+      "id": "M03-11",
+      "reason": "five-input budget prioritizes new geometry and explicit cassette reference"
+    },
+    {
+      "id": "M04-02",
+      "reason": "five-input budget; salvage world design language retained as exact text"
+    },
+    {
+      "id": "M04-04",
+      "reason": "same"
+    }
+  ],
+  "excluded": [
+    "other new paired image and its structure plan",
+    "A-01/A-02",
+    "review_only and other generated outputs"
+  ],
+  "independence": "No other new scene opened or referenced"
+}

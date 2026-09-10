@@ -1,0 +1,23 @@
+{
+  "status": "candidate_pass",
+  "backend": "builtin_image_gen",
+  "master_version": "2.2",
+  "execution_version": "1.3",
+  "output": "C:\\Users\\Yeon Hee Kang\\OneDrive\\문서\\Codex\\background-concept-art\\concetp-art\\outputs\\20260910_124620_alley_polygon_building_fix\\alley_reference_varied_buildings_final.png",
+  "source": "C:\\Users\\Yeon Hee Kang\\.codex\\generated_images\\01a08867-7e38-7162-8368-5c8c0df7a0c0\\exec-418a0c52-2f24-48d9-8e57-07f1f63e5a5a.png",
+  "sha256": "162294e93c41482573ba2efe8308e71d9ea3349a109c353b05d617cc149cd782",
+  "source_copy_hash_match": true,
+  "size": [
+    1385,
+    1136
+  ],
+  "final_count": 1,
+  "master_updated": false,
+  "user_approved": false,
+  "master_promoted": false,
+  "original_run": "../20260910_124032_alley_reference_shapes",
+  "initial_prompt": "../20260910_124032_alley_reference_shapes/prompt.txt",
+  "final_edit_prompt": "prompt.txt",
+  "review": "review.md",
+  "reference_hashes_verified": 29
+}

@@ -1,0 +1,20 @@
+{
+  "run_id": "20260910_083443_tiny_city_shop_day",
+  "status": "needs_structural_revision",
+  "backend": "builtin_image_gen.imagegen",
+  "generation_calls": 1,
+  "requested_final_count": 1,
+  "final_delivered_count": 0,
+  "source_path": "C:\\Users\\Yeon Hee Kang\\.codex\\generated_images\\01a08867-7e38-7162-8368-5c8c0df7a0c0\\exec-28285c0e-0f6b-4ba6-893e-c55d32daee7b.png",
+  "output_path": "C:\\Users\\Yeon Hee Kang\\OneDrive\\문서\\Codex\\background-concept-art\\concetp-art\\outputs\\20260910_083443_tiny_city_shop_day\\tiny_city_shop_day_candidate.png",
+  "width": 1448,
+  "height": 1086,
+  "bytes": 2013557,
+  "sha256": "f0800f05935e0cae331dfa6400c2f15539dddcabae3b92f5260cda75987410b9",
+  "source_and_copy_hash_match": true,
+  "prompt_file": "brief.md",
+  "reference_record": "references.json",
+  "review_file": "review.md",
+  "user_approval": "none",
+  "master_promotion": false
+}

@@ -1,0 +1,1 @@
+카세트 퓨처리즘 독립 테스트 후보1장. 내장 생성으로 제작, 형상 보정2회 기록 보존. 다른 Salvage기본 시안은 열거나 입력하지 않았음. 최종이미지 night_scrapyard_repair_cassette.png. 요청키워드/기계디자인/2출구접근은 확인했으나 공통투영의 작은 불일치가 남아 needs_revision. 원본 해상도 선군·모서리 근거는 review.md 및 review.json.

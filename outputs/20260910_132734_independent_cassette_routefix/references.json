@@ -1,0 +1,23 @@
+{
+  "mode": "local_structural_correction_of_own_independent_candidate",
+  "actual_submitted": true,
+  "parent_run": "C:/Users/Yeon Hee Kang/OneDrive/문서/Codex/background-concept-art/concetp-art/outputs/20260910_132734_independent_cassette/",
+  "selected": [
+    {
+      "input_order": 1,
+      "path": "C:/Users/Yeon Hee Kang/OneDrive/문서/Codex/background-concept-art/concetp-art/outputs/20260910_132734_independent_cassette/cassette_day_alley.png",
+      "visually_inspected": true,
+      "submitted": true,
+      "role": "own independently generated candidate; local L03 correction only"
+    },
+    {
+      "input_order": 2,
+      "path": "C:/Users/Yeon Hee Kang/OneDrive/문서/Codex/background-concept-art/concetp-art/outputs/20260910_132734_independent_cassette_routefix/structure_plan.png",
+      "visually_inspected": true,
+      "submitted": true,
+      "role": "corrected same-scene geometry guide"
+    }
+  ],
+  "omissions": "Original masters and user machinery reference were submitted to initial generation. Local edit preserves their existing rendition from own candidate.",
+  "excluded": "Other new requested image, all its files and guide; no crossover between pair."
+}

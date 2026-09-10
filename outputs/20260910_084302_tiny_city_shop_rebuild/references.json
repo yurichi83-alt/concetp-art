@@ -1,0 +1,53 @@
+{
+  "run_id": "20260910_084302_tiny_city_shop_rebuild",
+  "previous_run": "20260910_083909_tiny_city_shop_layout_fix",
+  "inspected_for_planning": [
+    "M02-01",
+    "M03-10",
+    "M03-13",
+    "M01-01",
+    "M04-02"
+  ],
+  "submitted_to_generation": [
+    {
+      "input_index": 1,
+      "id": "M02-01",
+      "path": "C:/Users/Yeon Hee Kang/OneDrive/문서/Codex/background-concept-art/concetp-art/refs/master02/layout_two_exits.png",
+      "role": "primary perpendicular boundary topology, not diagram graphics"
+    },
+    {
+      "input_index": 2,
+      "id": "M03-10",
+      "path": "C:/Users/Yeon Hee Kang/OneDrive/문서/Codex/background-concept-art/concetp-art/refs/master03/ldi_10_storefront_style_anchor.png",
+      "role": "primary rendering style, not scene/world"
+    },
+    {
+      "input_index": 3,
+      "id": "M03-13",
+      "path": "C:/Users/Yeon Hee Kang/OneDrive/문서/Codex/background-concept-art/concetp-art/refs/master03/ldi_13_kiosk_materials.png",
+      "role": "small shop materials, not scene/world"
+    },
+    {
+      "input_index": 4,
+      "id": "M01-01",
+      "path": "C:/Users/Yeon Hee Kang/OneDrive/문서/Codex/background-concept-art/concetp-art/refs/master01/composition_cutaway.png",
+      "role": "whole-base camera and cutaway only"
+    },
+    {
+      "input_index": 5,
+      "id": "M04-02",
+      "path": "C:/Users/Yeon Hee Kang/OneDrive/문서/Codex/background-concept-art/concetp-art/refs/master04/world_02_heavy_mechanical_arms.png",
+      "role": "functional repaired technology, not character"
+    }
+  ],
+  "delivery_status": "submitted_tool_call_completed",
+  "delivery_mechanism": "image_gen.imagegen.referenced_image_paths",
+  "omitted_references_and_reasons": [
+    {
+      "group": "All generated candidates",
+      "reason": "Target-preserving edit retained the faulty row layout. Reconstruct from original masters without invalid target anchoring."
+    }
+  ],
+  "scoped_result_approval": "Structural correction only; no new master or user preference inferred.",
+  "delivery_evidence": "Five master file paths were explicitly submitted. The tool returned the image; no claim is made about internal model attention."
+}

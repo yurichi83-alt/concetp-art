@@ -1,0 +1,227 @@
+{
+  "master_version": "2.3",
+  "execution_version": "1.4",
+  "base": [
+    0,
+    16,
+    0,
+    16,
+    -1.6,
+    0
+  ],
+  "projection": "one orthographic XYZ",
+  "building_polygons": {
+    "through_block_back": [
+      [
+        0.8,
+        0.8
+      ],
+      [
+        5.5,
+        0.8
+      ],
+      [
+        5.5,
+        5
+      ],
+      [
+        0.8,
+        5
+      ]
+    ],
+    "through_block_front": [
+      [
+        0.8,
+        7.8
+      ],
+      [
+        5.5,
+        7.8
+      ],
+      [
+        5.5,
+        9.5
+      ],
+      [
+        0.8,
+        9.5
+      ]
+    ],
+    "right_hut": [
+      [
+        12.8,
+        0.8
+      ],
+      [
+        15.6,
+        0.8
+      ],
+      [
+        15.6,
+        6
+      ],
+      [
+        12.8,
+        6
+      ]
+    ]
+  },
+  "orthogonal_edges": {
+    "through_block_back": [
+      true,
+      true,
+      true,
+      true
+    ],
+    "through_block_front": [
+      true,
+      true,
+      true,
+      true
+    ],
+    "right_hut": [
+      true,
+      true,
+      true,
+      true
+    ]
+  },
+  "roofs": {
+    "left_building": {
+      "area": 40.89,
+      "occupied": 23.869999999999997,
+      "fraction": 0.5837613108339447
+    },
+    "right_hut": {
+      "area": 14.559999999999999,
+      "occupied": 7.995,
+      "fraction": 0.5491071428571429
+    }
+  },
+  "roof_supports": "flat roof surfaces and explicit supported lintel over passage; equipment sits on these levels",
+  "routes": {
+    "left_passage": [
+      0,
+      6.4,
+      5,
+      7.8,
+      0,
+      2.4
+    ],
+    "left_approach": [
+      5.6,
+      8.8,
+      5,
+      10,
+      0,
+      2.4
+    ],
+    "right_alley": [
+      9.5,
+      12.5,
+      0,
+      10,
+      0,
+      2.4
+    ],
+    "center": [
+      5.6,
+      13.5,
+      9.3,
+      14,
+      0,
+      2.4
+    ]
+  },
+  "obstacles": {
+    "left_back": [
+      0.8,
+      5.5,
+      0.8,
+      5,
+      0,
+      4.8
+    ],
+    "left_front": [
+      0.8,
+      5.5,
+      7.8,
+      9.5,
+      0,
+      3
+    ],
+    "passage_roof": [
+      0.8,
+      5.5,
+      5,
+      7.8,
+      2.65,
+      4.8
+    ],
+    "hut": [
+      12.8,
+      15.6,
+      0.8,
+      6,
+      0,
+      3.3
+    ],
+    "tank_bound": [
+      6.1,
+      9.1,
+      1.1,
+      4.1,
+      0,
+      3.5
+    ],
+    "bin_left": [
+      1.5,
+      3.3,
+      9.8,
+      10.8,
+      0,
+      1.2
+    ],
+    "bin_right": [
+      14,
+      15.25,
+      6.35,
+      7.45,
+      0,
+      1.25
+    ],
+    "bags": [
+      3.55,
+      4.5,
+      9.85,
+      10.6,
+      0,
+      0.5
+    ]
+  },
+  "collisions": [],
+  "functional_exits": [
+    {
+      "direction": "back_left_11",
+      "position": "mid-side y5..7.8",
+      "type": "building_ground_floor_passage",
+      "state": "open_after_clear",
+      "shared_building_entry": true,
+      "connection": "straight level corridor to rear-left boundary; visible depth and far daylight",
+      "opening_clearance": "no leaf across route"
+    },
+    {
+      "direction": "back_right_1",
+      "position": "intermediate x9.5..12.5",
+      "type": "unframed alley between tank enclosure and hut",
+      "state": "open_after_clear",
+      "shared_building_entry": false,
+      "connection": "clear strip from center to rear-right boundary",
+      "opening_clearance": "no overhead frame or blocking leaf"
+    }
+  ],
+  "decorative_entry": "closed hut door at y6, not a third exit",
+  "independence": "fresh scene, neither pair output seen or used as input",
+  "cassette_futurism": false,
+  "numeric_limit": "plan only; final actual image must separately pass C/L"
+}

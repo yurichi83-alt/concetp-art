@@ -1,0 +1,16 @@
+{
+  "intent": "local_structural_edit",
+  "actual_transmission": "Own candidate passed via referenced_image_paths to built-in imagegen",
+  "input_count": 1,
+  "inputs": [
+    {
+      "order": 1,
+      "path": "C:\\Users\\Yeon Hee Kang\\OneDrive\\문서\\Codex\\background-concept-art\\concetp-art\\outputs\\20260910_134620_scrapyard_cassette\\scrapyard_cassette_initial.png",
+      "sha256": "ba3343e2e9c2d2bfbf33ebeeeb10263a4e42c90f03773a72e832775b665790be",
+      "visually_inspected": true,
+      "role": "own initial candidate; edit only rear right passage wall; all unrelated structure/style preserved"
+    }
+  ],
+  "master_roles": "Masters read for first generation and persist through target preservation; no additional master paths sent during local edit.",
+  "excluded": "No counterpart, unrelated prior generated artworks or review_only sources."
+}

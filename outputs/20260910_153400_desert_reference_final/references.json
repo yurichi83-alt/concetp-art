@@ -1,0 +1,15 @@
+{
+  "submitted_to_generation": [
+    "C:\\Users\\Yeon Hee Kang\\OneDrive\\문서\\Codex\\background-concept-art\\concetp-art\\outputs\\20260910_153400_desert_reference_final\\structure_guide.png"
+  ],
+  "delivery_status": "returned_image_saved",
+  "only_input_role": "geometry/camera",
+  "user_reference": "inspected/passedprevious2attempts; now subject/material/palette describedintext to avoidcamera influence",
+  "master": "2.4",
+  "execution": "1.5",
+  "parent": "C:\\Users\\Yeon Hee Kang\\OneDrive\\문서\\Codex\\background-concept-art\\concetp-art\\outputs\\20260910_153000_desert_reference_corrected",
+  "prompt_chars": 3784,
+  "utf8_bytes": 3786,
+  "backend": "builtinimagegen",
+  "internal_model_tokens_rewrite": "unknown"
+}

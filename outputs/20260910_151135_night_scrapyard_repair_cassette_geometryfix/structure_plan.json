@@ -1,0 +1,128 @@
+{
+  "projection": "parallel_orthographic",
+  "camera_screen_mapping": "Use observed targetbase X/Y families about+30.5/-28.7screen degrees; exactphysicalcamera unknown. No hardgeometrycontrol. Manualvalues diagnostic, not permanentnorms.",
+  "camera_parameters_are_scene_only": true,
+  "square_base": [
+    0,
+    16,
+    0,
+    16
+  ],
+  "depth": 1.7,
+  "height_limit_plan": 6.5,
+  "buildings": [
+    {
+      "id": "junkyard",
+      "polygon": [
+        [
+          0,
+          0
+        ],
+        [
+          4,
+          0
+        ],
+        [
+          4,
+          9
+        ],
+        [
+          0,
+          9
+        ]
+      ],
+      "roof_levels": [
+        {
+          "region": [
+            0,
+            0,
+            4,
+            4.5
+          ],
+          "height": 5.2
+        },
+        {
+          "region": [
+            0,
+            4.5,
+            4,
+            9
+          ],
+          "height": 3.3
+        }
+      ],
+      "mechanized_half": "rear half y0..4.5: recovered press/process housing replaces half the building envelope",
+      "human_entry": "x4 y6.3..7.5, closed decorative service door",
+      "roof_functional_coverage_planned": 0.58
+    },
+    {
+      "id": "repair",
+      "polygon": [
+        [
+          7,
+          0
+        ],
+        [
+          13,
+          0
+        ],
+        [
+          13,
+          4
+        ],
+        [
+          7,
+          4
+        ]
+      ],
+      "roof_height": 3.8,
+      "human_entry": "y4 x8..12, closed decorative vehicle shutter plus human wicket",
+      "roof_functional_coverage_planned": 0.55
+    }
+  ],
+  "exits": [
+    {
+      "id": "left",
+      "direction": "back_left_11",
+      "position": "outer intermediate y11..13.5 on x0",
+      "state": "preclear_closed",
+      "form": "pocket sliding metal gate",
+      "approach_region": [
+        0,
+        11,
+        6,
+        13.5
+      ],
+      "postclear": "slide gate behind adjacent wall; level passage continues beyond x0",
+      "shared_building_entrance": false
+    },
+    {
+      "id": "right",
+      "direction": "back_right_1",
+      "position": "end x13.5..16 on y0",
+      "state": "preclear_closed",
+      "form": "vertical roller security door",
+      "approach_region": [
+        13.5,
+        0,
+        16,
+        8
+      ],
+      "postclear": "shutter rolls above opening, level passage continues beyond y0",
+      "shared_building_entrance": false
+    }
+  ],
+  "center_clear_region": [
+    5,
+    5,
+    13,
+    14
+  ],
+  "props": "wrecked car and bins recessed between buildings along back boundary; none in route rectangles; keep building front plinths visible",
+  "interior": "not exposed: closed decorative workshop door",
+  "inspection": "All footprint edges are X/Y aligned; roof planes level and equipment supported. Guide projection gives exact equal upper/lower displacement (0,71.4). Plan only; final PNG must be measured independently.",
+  "guide_is_geometry_lock": false,
+  "other_variants_used": false,
+  "own_parent_run": "C:\\Users\\Yeon Hee Kang\\OneDrive\\문서\\Codex\\background-concept-art\\concetp-art\\outputs\\20260910_150239_night_scrapyard_repair_cassette",
+  "correction_strategy": "local building line alignment and contact visibility; preserve already coherent square base. Existing base chosen as camera guide for this corrective edit, plan is not finalQA."
+}

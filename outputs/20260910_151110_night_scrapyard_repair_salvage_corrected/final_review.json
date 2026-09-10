@@ -1,0 +1,149 @@
+{
+  "status": "uncertain",
+  "structural_status": "uncertain",
+  "actually_opened": true,
+  "image": "C:/Users/Yeon Hee Kang/OneDrive/문서/Codex/background-concept-art/concetp-art/outputs/20260910_151110_night_scrapyard_repair_salvage_corrected/night_scrapyard_repair_salvage.png",
+  "measurement": {
+    "coordinate_origin": "native upper-left; +x right, +y down",
+    "method": "Manual approximate line endpoints from actual displayed PNG; about +/-5px endpoint reading uncertainty. No fitted camera or inferred3D rotations.",
+    "projection": "parallel_orthographic as planned",
+    "native_image_size_px": [
+      1374,
+      1145
+    ],
+    "same_direction_lines": [
+      {
+        "id": "baseXtop",
+        "a": [
+          80,
+          570
+        ],
+        "b": [
+          696,
+          929
+        ],
+        "screen_angle_degrees": 30.23329904080401
+      },
+      {
+        "id": "baseXbottom",
+        "a": [
+          80,
+          665
+        ],
+        "b": [
+          696,
+          1025
+        ],
+        "screen_angle_degrees": 30.30268072048809
+      },
+      {
+        "id": "baseYtop",
+        "a": [
+          696,
+          929
+        ],
+        "b": [
+          1294,
+          587
+        ],
+        "screen_angle_degrees": -29.765513553707265
+      },
+      {
+        "id": "baseYbottom",
+        "a": [
+          696,
+          1025
+        ],
+        "b": [
+          1294,
+          684
+        ],
+        "screen_angle_degrees": -29.69326349152579
+      },
+      {
+        "id": "repair_front_roof_approx",
+        "a": [
+          758,
+          366
+        ],
+        "b": [
+          1084,
+          547
+        ],
+        "screen_angle_degrees": 29.039679436868965
+      },
+      {
+        "id": "repair_front_contact_approx",
+        "a": [
+          749,
+          519
+        ],
+        "b": [
+          1074,
+          690
+        ],
+        "screen_angle_degrees": 27.75127417376695
+      },
+      {
+        "id": "scrapyard_visible_contact_approx",
+        "a": [
+          588,
+          490
+        ],
+        "b": [
+          743,
+          398
+        ],
+        "screen_angle_degrees": -30.691181140693867
+      }
+    ],
+    "base_corner_vectors": {
+      "left": [
+        0,
+        95
+      ],
+      "front": [
+        0,
+        96
+      ],
+      "right": [
+        0,
+        97
+      ]
+    },
+    "interpretation": "Base correspondence improved. Short building roof/contact segments and covered endpoints do not establish exact common-axis consistency. Keep C04/L07 UNCERTAIN rather than deriving actual building rotation from these screen angles."
+  },
+  "qa": {
+    "C01": "PASS wholequarterviewbase",
+    "C02": "PASS visible corner vectors95/96/97px within manualreading uncertainty; two planarcutfaces",
+    "C03": "PASS at observable outline/plane level; physical3D notmeasured",
+    "C04": "UNCERTAIN building shortlinefamilies do not conclusivelymatchbase",
+    "L01": "PASS two rearblockingdirections",
+    "L02": "PASS two recognizable assigned gatepositions; visibleclosedstate differsfrom plannedopen butclosedisallowedbyuser",
+    "L03": "UNCERTAIN visibleapproachesclear, fullpostclearconnectionsnotprovedinclosedstate",
+    "L04": "PASS center/frontopen",
+    "L05": "UNCERTAIN someroof/contactconnectionscovered",
+    "L06": "PASS shopdepth, sideaisle andworkbench visible",
+    "L07": "UNCERTAIN somecriticalgroundcontactscoveredbyprops",
+    "S01": "PASS broaderpaintedfaceswithselectivewear, groundstilldetailed",
+    "S02": "PASS detailperipheral",
+    "S03": "PASS stylizedgame3D",
+    "S04": "PASS majorthicknessandmechanicaljoinsreadable",
+    "W01": "PASS integratedrecoveredpress/power",
+    "W02": "PASS mismatchedrepairpatches",
+    "W03": "PASS largehalfmechanicaljunkyardmass",
+    "W04": "PASS humanentryeachbuilding",
+    "W05": "UNCERTAIN functionalroofsreadable, preciseperbuilding40-80%notcertified",
+    "R01": "PASS userkeywords/coolnight present; mechanicsbaseline withoutcassette; no greenCRT",
+    "R02": "PASS newautorepairyard"
+  },
+  "selection": {
+    "selected": true,
+    "attempt": 2,
+    "total_generated_attempts": 3,
+    "reason": "Select the second attempt for better retained two-boundary/gate layout; third localized edit changed rear boundary continuity. Both remain geometry-uncertain; no PASS claim.",
+    "later_attempt": "C:/Users/Yeon Hee Kang/OneDrive/문서/Codex/background-concept-art/concetp-art/outputs/20260910_151500_night_scrapyard_repair_salvage_final/night_scrapyard_repair_salvage.png"
+  },
+  "stop_reason": "Two distinct correction strategies attempted (fresh guide-only geometry rebuild, then targetedownimageedit). Minorline/occlusion ambiguity remains and localedit disturbedboundary; no reliably scoped next correction strategy identified within current2D workflow.",
+  "limits": "Concept candidate, not exact3D or final structural approval. Existing outputs preserved; no masterpromotion."
+}

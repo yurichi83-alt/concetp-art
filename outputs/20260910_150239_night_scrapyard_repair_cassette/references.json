@@ -1,0 +1,116 @@
+{
+  "masters": "2.4",
+  "execution": "1.5",
+  "independent_new_scene": true,
+  "other_output_inputs": [],
+  "inspected": [
+    [
+      "structure",
+      "C:\\Users\\Yeon Hee Kang\\OneDrive\\문서\\Codex\\background-concept-art\\concetp-art\\outputs\\20260910_150239_night_scrapyard_repair_cassette\\structure_guide.png",
+      "scene-specific orthographic geometry guide"
+    ],
+    [
+      "M01-01",
+      "C:\\Users\\Yeon Hee Kang\\OneDrive\\문서\\Codex\\background-concept-art\\concetp-art\\refs\\master01\\composition_cutaway.png",
+      "framing and cuts"
+    ],
+    [
+      "M02-01",
+      "C:\\Users\\Yeon Hee Kang\\OneDrive\\문서\\Codex\\background-concept-art\\concetp-art\\refs\\master02\\layout_two_exits.png",
+      "two rear directions and transition connectivity"
+    ],
+    [
+      "M03-10",
+      "C:\\Users\\Yeon Hee Kang\\OneDrive\\문서\\Codex\\background-concept-art\\concetp-art\\refs\\master03\\ldi_10_storefront_style_anchor.png",
+      "architectural art expression only"
+    ],
+    [
+      "M04-02",
+      "C:\\Users\\Yeon Hee Kang\\OneDrive\\문서\\Codex\\background-concept-art\\concetp-art\\refs\\master04\\world_02_heavy_mechanical_arms.png",
+      "salvaged functional machine vocabulary only"
+    ],
+    [
+      "user-cassette",
+      "C:\\Users\\Yeon Hee Kang\\OneDrive\\문서\\Codex\\background-concept-art\\concetp-art\\outputs\\20260910_124032_alley_reference_shapes\\user_cassette_reference.png",
+      "user attachment mechanical design only; temporary scope"
+    ]
+  ],
+  "submitted_to_generation": [
+    {
+      "input_index": 1,
+      "path": "C:\\Users\\Yeon Hee Kang\\OneDrive\\문서\\Codex\\background-concept-art\\concetp-art\\outputs\\20260910_150239_night_scrapyard_repair_cassette\\structure_guide.png",
+      "actually_submitted": true,
+      "role_and_exclusions": "own scene geometry/camera guide; no labels/markings/plain materials",
+      "sha256": "a6ab01f060a19a8a3ed65fc807c51d4ee2ed7776e5b7a11f6cf477bcc9b4e123"
+    },
+    {
+      "input_index": 2,
+      "path": "C:\\Users\\Yeon Hee Kang\\OneDrive\\문서\\Codex\\background-concept-art\\concetp-art\\refs\\master02\\layout_two_exits.png",
+      "actually_submitted": true,
+      "role_and_exclusions": "M02 two rear directions and functional connectivity; no coordinates/blue/icons",
+      "sha256": "444031765bb112361022fb23f593f3d386907ccb2bd005353b0514ed2f588a26"
+    },
+    {
+      "input_index": 3,
+      "path": "C:\\Users\\Yeon Hee Kang\\OneDrive\\문서\\Codex\\background-concept-art\\concetp-art\\refs\\master03\\ldi_10_storefront_style_anchor.png",
+      "actually_submitted": true,
+      "role_and_exclusions": "M03-10 architecture/material/light expression only; no camera/world/characters/layout",
+      "sha256": "c24fe55ad76c6c8bfbd88dee7059a09fd7a592dc60e5d4a6c7c0704f11f19345"
+    },
+    {
+      "input_index": 4,
+      "path": "C:\\Users\\Yeon Hee Kang\\OneDrive\\문서\\Codex\\background-concept-art\\concetp-art\\refs\\master04\\world_02_heavy_mechanical_arms.png",
+      "actually_submitted": true,
+      "role_and_exclusions": "M04-02 recovered functional technology only; no character/camera/photoreal density",
+      "sha256": "a71042678c1898320a3d949d0108bde7e6f931c8f1bf8b316a057084be179a3b"
+    },
+    {
+      "input_index": 5,
+      "path": "C:\\Users\\Yeon Hee Kang\\OneDrive\\문서\\Codex\\background-concept-art\\concetp-art\\outputs\\20260910_124032_alley_reference_shapes\\user_cassette_reference.png",
+      "actually_submitted": true,
+      "role_and_exclusions": "user cassette enclosure vocabulary only; no buildings/layout/daylight/camera",
+      "sha256": "ee320904654c74d1dd9dde59bd5fef4840b3cb5d67a6c141983eed51320d001d"
+    }
+  ],
+  "planned_referenced_image_paths": [
+    "C:\\Users\\Yeon Hee Kang\\OneDrive\\문서\\Codex\\background-concept-art\\concetp-art\\outputs\\20260910_150239_night_scrapyard_repair_cassette\\structure_guide.png",
+    "C:\\Users\\Yeon Hee Kang\\OneDrive\\문서\\Codex\\background-concept-art\\concetp-art\\refs\\master02\\layout_two_exits.png",
+    "C:\\Users\\Yeon Hee Kang\\OneDrive\\문서\\Codex\\background-concept-art\\concetp-art\\refs\\master03\\ldi_10_storefront_style_anchor.png",
+    "C:\\Users\\Yeon Hee Kang\\OneDrive\\문서\\Codex\\background-concept-art\\concetp-art\\refs\\master04\\world_02_heavy_mechanical_arms.png",
+    "C:\\Users\\Yeon Hee Kang\\OneDrive\\문서\\Codex\\background-concept-art\\concetp-art\\outputs\\20260910_124032_alley_reference_shapes\\user_cassette_reference.png"
+  ],
+  "planned_image_count": 5,
+  "tool": "image_gen.imagegen built-in",
+  "delivery_status": "submitted_and_returned_image",
+  "contract": {
+    "referenced_image_paths": "runtime error directly confirmed at most5 paths on 2026-09-10; not inferred from recent-image option",
+    "num_last_images_to_include": "exclusive alternate; recent images max5; not used",
+    "prompt_max_length": "unknown",
+    "internal_model": "unknown",
+    "token_usage": "unknown",
+    "revised_prompt": "unknown",
+    "hard_geometry_control": "not exposed"
+  },
+  "prompt_metadata": {
+    "characters": 7296,
+    "utf8_bytes": 7298,
+    "whitespace_words": 1054,
+    "counts_are_not_capacity_estimates": true
+  },
+  "selection": "One guide, M01/M02/M03/M04, user mechanical attachment; no supplementary art redundancy, no previous generated scene composition.",
+  "omitted_references_and_reasons": [
+    {
+      "id": "M01-01",
+      "reason": "runtime confirmed5pathlimit; actually inspected and its full framing/two cuts retained in own guide and explicit prompt; M02, art, world, user machine reference kept"
+    }
+  ],
+  "input_prevalidation_error": "referenced_image_paths must contain at most5 paths; no image produced",
+  "actual_submitted_image_count": 5,
+  "exact_saved_text_matches_actual_argument": true,
+  "returned_model_info": null,
+  "returned_revised_prompt": null,
+  "returned_token_usage": null,
+  "returned_image_source": "C:/Users/Yeon Hee Kang/.codex/generated_images/01a089e7-eccc-7882-892c-71acafdfc752/exec-93013cec-c772-409f-9b2d-fcf61eae5d58.png",
+  "saved_image_path": "C:\\Users\\Yeon Hee Kang\\OneDrive\\문서\\Codex\\background-concept-art\\concetp-art\\outputs\\20260910_150239_night_scrapyard_repair_cassette\\night_scrapyard_repair_cassette.png",
+  "image_sha256": "875cf69938ae2f6dee9c83a9d0b8646e802f7ca57fd841c63d7a3054bed33631"
+}

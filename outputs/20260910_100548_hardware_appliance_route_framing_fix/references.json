@@ -1,0 +1,44 @@
+{
+  "run_id": "20260910_100548_hardware_appliance_route_framing_fix",
+  "previous_run": "20260910_100011_hardware_appliance_salvage_rebuild",
+  "inspected_for_planning": [
+    {
+      "path": "C:/Users/Yeon Hee Kang/OneDrive/문서/Codex/background-concept-art/concetp-art/outputs/20260910_100011_hardware_appliance_salvage_rebuild/hardware_appliance_salvage_candidate.png",
+      "inspection": "Saved candidate visually opened immediately before this edit."
+    },
+    {
+      "path": "C:/Users/Yeon Hee Kang/OneDrive/문서/Codex/background-concept-art/concetp-art/refs/master02/layout_two_exits.png",
+      "inspection": "Original visually opened this turn."
+    },
+    {
+      "path": "C:/Users/Yeon Hee Kang/OneDrive/문서/Codex/background-concept-art/concetp-art/refs/master01/composition_cutaway.png",
+      "inspection": "Original visually opened this turn."
+    }
+  ],
+  "submitted_to_generation": [
+    {
+      "input_index": 1,
+      "path": "C:/Users/Yeon Hee Kang/OneDrive/문서/Codex/background-concept-art/concetp-art/outputs/20260910_100011_hardware_appliance_salvage_rebuild/hardware_appliance_salvage_candidate.png",
+      "role": "actual candidate as appearance-preserving edit target"
+    },
+    {
+      "input_index": 2,
+      "path": "C:/Users/Yeon Hee Kang/OneDrive/문서/Codex/background-concept-art/concetp-art/refs/master02/layout_two_exits.png",
+      "role": "two through routes and rear boundaries only"
+    },
+    {
+      "input_index": 3,
+      "path": "C:/Users/Yeon Hee Kang/OneDrive/문서/Codex/background-concept-art/concetp-art/refs/master01/composition_cutaway.png",
+      "role": "complete framing and cutaway composition only"
+    }
+  ],
+  "delivery_status": "submitted_tool_call_completed",
+  "delivery_mechanism": "image_gen.imagegen.referenced_image_paths",
+  "omitted_references_and_reasons": [
+    {
+      "group": "style/world references",
+      "reason": "Preserve redesigned source appearance; correction is framing and exit barriers only."
+    }
+  ],
+  "scope": "Structural correction authorized. No master promotion."
+}

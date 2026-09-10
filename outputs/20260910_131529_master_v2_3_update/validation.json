@@ -1,0 +1,11 @@
+{
+  "ok": true,
+  "root": "C:\\Users\\Yeon Hee Kang\\OneDrive\\문서\\Codex\\background-concept-art\\concetp-art",
+  "master_images": 24,
+  "review_only_images": 3,
+  "preferred_result_images": 2,
+  "agents_bytes": 7063,
+  "errors": [],
+  "warnings": [],
+  "scope": "Files only. No visual or Codex-runtime validation."
+}

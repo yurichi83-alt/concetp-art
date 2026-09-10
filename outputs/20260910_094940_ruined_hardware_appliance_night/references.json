@@ -1,0 +1,75 @@
+{
+  "run_id": "20260910_094940_ruined_hardware_appliance_night",
+  "inspected_for_planning": [
+    {
+      "id": "M02-01",
+      "path": "C:/Users/Yeon Hee Kang/OneDrive/문서/Codex/background-concept-art/concetp-art/refs/master02/layout_two_exits.png",
+      "inspection": "Original file visually opened in this turn."
+    },
+    {
+      "id": "M03-10",
+      "path": "C:/Users/Yeon Hee Kang/OneDrive/문서/Codex/background-concept-art/concetp-art/refs/master03/ldi_10_storefront_style_anchor.png",
+      "inspection": "Original file visually opened in this turn."
+    },
+    {
+      "id": "M03-14",
+      "path": "C:/Users/Yeon Hee Kang/OneDrive/문서/Codex/background-concept-art/concetp-art/refs/master03/ldi_14_attic_structure_light.png",
+      "inspection": "Original file visually opened in this turn."
+    },
+    {
+      "id": "M01-01",
+      "path": "C:/Users/Yeon Hee Kang/OneDrive/문서/Codex/background-concept-art/concetp-art/refs/master01/composition_cutaway.png",
+      "inspection": "Original file visually opened in this turn."
+    },
+    {
+      "id": "M04-07",
+      "path": "C:/Users/Yeon Hee Kang/OneDrive/문서/Codex/background-concept-art/concetp-art/refs/master04/world_07_repurposed_machine_head.png",
+      "inspection": "Original file visually opened in this turn."
+    }
+  ],
+  "submitted_to_generation": [
+    {
+      "input_index": 1,
+      "id": "M02-01",
+      "path": "C:/Users/Yeon Hee Kang/OneDrive/문서/Codex/background-concept-art/concetp-art/refs/master02/layout_two_exits.png",
+      "role": "two perpendicular rear boundaries, one exit each, clear central floor only"
+    },
+    {
+      "input_index": 2,
+      "id": "M03-10",
+      "path": "C:/Users/Yeon Hee Kang/OneDrive/문서/Codex/background-concept-art/concetp-art/refs/master03/ldi_10_storefront_style_anchor.png",
+      "role": "primary calm large-form architectural style; exclude world, actual shops, text, people, camera"
+    },
+    {
+      "input_index": 3,
+      "id": "M03-14",
+      "path": "C:/Users/Yeon Hee Kang/OneDrive/문서/Codex/background-concept-art/concetp-art/refs/master03/ldi_14_attic_structure_light.png",
+      "role": "large timber forms, selected large breakage, controlled architectural light only; exclude world, people, props, natural materials not architectural"
+    },
+    {
+      "input_index": 4,
+      "id": "M01-01",
+      "path": "C:/Users/Yeon Hee Kang/OneDrive/문서/Codex/background-concept-art/concetp-art/refs/master01/composition_cutaway.png",
+      "role": "whole-base elevated quarter-view and two front cutaway faces only; exclude neon, texture density and buildings"
+    },
+    {
+      "input_index": 5,
+      "id": "M04-07",
+      "path": "C:/Users/Yeon Hee Kang/OneDrive/문서/Codex/background-concept-art/concetp-art/refs/master04/world_07_repurposed_machine_head.png",
+      "role": "reused product casings and reclaimed advanced-tech construction; exclude figure, literal head, labels and dense micro-parts"
+    }
+  ],
+  "delivery_status": "submitted_tool_call_completed",
+  "delivery_mechanism": "image_gen.imagegen.referenced_image_paths",
+  "omitted_references_and_reasons": [
+    {
+      "group": "Previous generated scenes and review_only",
+      "reason": "New location; avoid old building/cutaway replication and unapproved positive references."
+    },
+    {
+      "group": "Other master images, including M03-06 and M04-02",
+      "reason": "Selected five balance space, primary style, selective structural breakage/light, and repurposed product machinery. Night lighting described in text; M04-07 better fits appliance reuse."
+    }
+  ],
+  "scoped_preferences": "Cassette futurism and exclusion of CRT/screens continue as temporary test. Current requested 1/3 appliance mechanization supersedes previous scene's half-junk-building target. No master update authorized."
+}

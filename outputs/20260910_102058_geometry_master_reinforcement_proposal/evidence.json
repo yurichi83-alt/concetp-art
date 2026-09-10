@@ -1,0 +1,51 @@
+{
+  "reviewed_sources": [
+    {
+      "label": "사용자가 표시한 단면 확대",
+      "path": "C:/Users/YEONHE~1/AppData/Local/Temp/codex-clipboard-2f9f4ce1-44b7-46e2-99c2-47e272e87a51.png"
+    },
+    {
+      "label": "직전 전체 결과",
+      "path": "C:/Users/Yeon Hee Kang/OneDrive/문서/Codex/background-concept-art/concetp-art/outputs/20260910_100548_hardware_appliance_route_framing_fix/hardware_appliance_salvage_revised.png"
+    },
+    {
+      "label": "마스터01 구도와 단면",
+      "path": "C:/Users/Yeon Hee Kang/OneDrive/문서/Codex/background-concept-art/concetp-art/refs/master01/composition_cutaway.png"
+    },
+    {
+      "label": "마스터02 벽과 출구 공간",
+      "path": "C:/Users/Yeon Hee Kang/OneDrive/문서/Codex/background-concept-art/concetp-art/refs/master02/layout_two_exits.png"
+    }
+  ],
+  "inspected_documents": [
+    "AGENTS.md",
+    "docs/00_INDEX.md",
+    "docs/01_COMPOSITION.md",
+    "docs/02_LAYOUT.md",
+    "docs/04_WORLD_DESIGN_V2.md",
+    "docs/06_QA.md",
+    "docs/10_CURRENT_REFERENCES.md",
+    "outputs/20260910_100548_hardware_appliance_route_framing_fix/review.md",
+    "outputs/20260910_100548_hardware_appliance_route_framing_fix/brief.md"
+  ],
+  "reassessment": {
+    "previous_run": "20260910_100548_hardware_appliance_route_framing_fix",
+    "previous_candidate_pass_withdrawn_in_this_review": true,
+    "status": "needs_revision",
+    "reasons": [
+      "incorrect basic base envelope and inconsistent top/bottom corner correspondence",
+      "left route intruded by debris/crate/rail at approach",
+      "single-projection structural consistency not established"
+    ],
+    "limits": "Visual diagnosis, not recovered true camera calibration or measured player clearance. A designed bevel may be geometrically possible, but is unauthorized for the required basic block."
+  },
+  "diagram": {
+    "type": "deterministic vector explanatory diagram",
+    "projection": "single axonometric/orthographic XYZ mapping, equal axis foreshortening",
+    "same_world_coordinates_for_floor_walls_exits_routes": true,
+    "curve_elements_in_base": 0,
+    "numeric_camera_or_dimension_master_approval": false
+  },
+  "user_attachment_copy": "user_marked_corner.png"
+}
+

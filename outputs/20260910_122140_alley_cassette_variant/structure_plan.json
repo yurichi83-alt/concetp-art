@@ -1,0 +1,96 @@
+{
+  "base": [
+    0,
+    16,
+    0,
+    16,
+    -1.6,
+    0
+  ],
+  "projection": "one common orthographic XYZ basis",
+  "roof_coverage_plan": {
+    "left": {
+      "area": 29.16,
+      "occupied": 17.25,
+      "fraction": 0.5915637860082305
+    },
+    "right": {
+      "area": 31.35,
+      "occupied": 17.85,
+      "fraction": 0.569377990430622
+    }
+  },
+  "protected_routes": {
+    "left": [
+      0,
+      8,
+      11,
+      14,
+      0,
+      2.4
+    ],
+    "right": [
+      13,
+      15.5,
+      0,
+      14,
+      0,
+      2.4
+    ],
+    "center": [
+      6,
+      13,
+      9.2,
+      14,
+      0,
+      2.4
+    ]
+  },
+  "objects": {
+    "left_building": [
+      0.9,
+      4.5,
+      0.9,
+      9,
+      0,
+      5.6
+    ],
+    "right_building": [
+      6,
+      11.5,
+      0.9,
+      6.6,
+      0,
+      3.5
+    ],
+    "left_bin": [
+      1,
+      2.4,
+      9.3,
+      10.4,
+      0,
+      1.25
+    ],
+    "right_bin": [
+      6.2,
+      7.35,
+      6.85,
+      7.95,
+      0,
+      1.2
+    ],
+    "bag_zone": [
+      6.25,
+      7.3,
+      8.05,
+      8.7,
+      0,
+      0.6
+    ]
+  },
+  "route_collisions": [],
+  "litter": "thin paper/flattened packaging on floor; bags and high piles confined to wall-side zones",
+  "entrances": "left closed human door, right closed full-height shutter, clear approaches",
+  "numeric_limit": "plan only; final raster separately reviewed",
+  "baseline_cassette_futurism": false
+}

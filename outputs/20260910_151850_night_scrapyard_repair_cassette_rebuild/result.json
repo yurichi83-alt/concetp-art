@@ -1,0 +1,14 @@
+{
+  "image": "C:\\Users\\Yeon Hee Kang\\OneDrive\\문서\\Codex\\background-concept-art\\concetp-art\\outputs\\20260910_151850_night_scrapyard_repair_cassette_rebuild\\night_scrapyard_repair_cassette.png",
+  "prompt": "C:\\Users\\Yeon Hee Kang\\OneDrive\\문서\\Codex\\background-concept-art\\concetp-art\\outputs\\20260910_151850_night_scrapyard_repair_cassette_rebuild\\generation_prompt.md",
+  "review": "C:\\Users\\Yeon Hee Kang\\OneDrive\\문서\\Codex\\background-concept-art\\concetp-art\\outputs\\20260910_151850_night_scrapyard_repair_cassette_rebuild\\review.json",
+  "status": "needs_revision",
+  "native_tool": "image_gen.imagegen",
+  "master_version": "2.4",
+  "execution": "1.5",
+  "independent_cassette_variant": true,
+  "sibling_scene_referenced": false,
+  "own_parent_run": "C:\\Users\\Yeon Hee Kang\\OneDrive\\문서\\Codex\\background-concept-art\\concetp-art\\outputs\\20260910_151135_night_scrapyard_repair_cassette_geometryfix",
+  "selected_final_candidate": true,
+  "sha256": "039913e07257f5964ba298b3178a1aee8402c9336561c71ea3c191c19ec50993"
+}

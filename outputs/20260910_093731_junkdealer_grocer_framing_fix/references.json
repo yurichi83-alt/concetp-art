@@ -1,0 +1,47 @@
+{
+  "run_id": "20260910_093731_junkdealer_grocer_framing_fix",
+  "edit_target": "C:/Users/Yeon Hee Kang/OneDrive/문서/Codex/background-concept-art/concetp-art/outputs/20260910_093245_junkdealer_grocer_cassette_no_crt/junkdealer_grocer_candidate.png",
+  "inspected_for_planning": [
+    {
+      "path": "C:/Users/Yeon Hee Kang/OneDrive/문서/Codex/background-concept-art/concetp-art/outputs/20260910_093245_junkdealer_grocer_cassette_no_crt/junkdealer_grocer_candidate.png",
+      "inspection": "Original generated candidate visually inspected before edit."
+    },
+    {
+      "path": "C:/Users/Yeon Hee Kang/OneDrive/문서/Codex/background-concept-art/concetp-art/refs/master01/composition_cutaway.png",
+      "inspection": "Original master visually inspected earlier in this conversation; used only for structural guidance."
+    },
+    {
+      "path": "C:/Users/Yeon Hee Kang/OneDrive/문서/Codex/background-concept-art/concetp-art/refs/master02/layout_two_exits.png",
+      "inspection": "Original master visually inspected earlier in this conversation; used only for structural guidance."
+    }
+  ],
+  "submitted_to_generation": [
+    {
+      "input_index": 1,
+      "path": "C:/Users/Yeon Hee Kang/OneDrive/문서/Codex/background-concept-art/concetp-art/outputs/20260910_093245_junkdealer_grocer_cassette_no_crt/junkdealer_grocer_candidate.png",
+      "role": "appearance-preserving edit target"
+    },
+    {
+      "input_index": 2,
+      "path": "C:/Users/Yeon Hee Kang/OneDrive/문서/Codex/background-concept-art/concetp-art/refs/master01/composition_cutaway.png",
+      "role": "complete base framing and two cutaways ONLY"
+    },
+    {
+      "input_index": 3,
+      "path": "C:/Users/Yeon Hee Kang/OneDrive/문서/Codex/background-concept-art/concetp-art/refs/master02/layout_two_exits.png",
+      "role": "two perpendicular rear boundaries, two exits and clear center ONLY"
+    }
+  ],
+  "delivery_status": "submitted_tool_call_completed",
+  "delivery_mechanism": "image_gen.imagegen.referenced_image_paths",
+  "omitted_references_and_reasons": [
+    {
+      "group": "Style and world master originals used in initial generation",
+      "reason": "Appearance is preserved from the actual candidate; focused correction is framing only."
+    },
+    {
+      "group": "Previous CRT trial and review_only",
+      "reason": "No positive-reference promotion or motif reintroduction."
+    }
+  ]
+}

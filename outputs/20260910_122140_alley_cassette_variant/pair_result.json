@@ -1,0 +1,47 @@
+{
+  "requested_final_count": 2,
+  "final_count": 2,
+  "master_updated": false,
+  "reference_hashes_verified": 29,
+  "outputs": [
+    {
+      "status": "candidate_pass",
+      "backend": "builtin_image_gen",
+      "master_version": "2.2",
+      "execution_version": "1.3",
+      "source": "C:\\Users\\Yeon Hee Kang\\.codex\\generated_images\\01a08867-7e38-7162-8368-5c8c0df7a0c0\\exec-9e7008de-ae75-4352-9cb6-84231548d834.png",
+      "output": "C:\\Users\\Yeon Hee Kang\\OneDrive\\문서\\Codex\\background-concept-art\\concetp-art\\outputs\\20260910_121332_alley_baseline\\alley_baseline.png",
+      "width": 1385,
+      "height": 1136,
+      "sha256": "84c90b8ce8cfc5b09bae6bd6eee07e7b7b0849dbedc2103a677f554b2cb412eb",
+      "source_copy_hash_match": true,
+      "pair_role": "baseline",
+      "cassette_futurism": false,
+      "user_approved": false,
+      "master_promoted": false,
+      "review": "review.md",
+      "prompt": "prompt.txt",
+      "paired_variant": "outputs\\20260910_122140_alley_cassette_variant"
+    },
+    {
+      "status": "candidate_pass",
+      "backend": "builtin_image_gen",
+      "master_version": "2.2",
+      "execution_version": "1.3",
+      "source": "C:\\Users\\Yeon Hee Kang\\.codex\\generated_images\\01a08867-7e38-7162-8368-5c8c0df7a0c0\\exec-d47d680e-8097-4d1f-b35a-3346a1a350de.png",
+      "output": "C:\\Users\\Yeon Hee Kang\\OneDrive\\문서\\Codex\\background-concept-art\\concetp-art\\outputs\\20260910_122140_alley_cassette_variant\\alley_cassette_futurism.png",
+      "width": 1385,
+      "height": 1136,
+      "sha256": "324e6b4dc28fb32f06f8bb73c257cabc58ad455789dbe82a4635a248ddfce3a6",
+      "source_copy_hash_match": true,
+      "pair_role": "cassette_variant",
+      "cassette_futurism": true,
+      "user_approved": false,
+      "master_promoted": false,
+      "prompt": "prompt.txt",
+      "review": "review.md",
+      "baseline": "C:\\Users\\Yeon Hee Kang\\OneDrive\\문서\\Codex\\background-concept-art\\concetp-art\\outputs\\20260910_121332_alley_baseline\\alley_baseline.png",
+      "comparison_limit": "visual preservation, not pixel-identical masking"
+    }
+  ]
+}

@@ -1,0 +1,59 @@
+{
+  "status": "candidate_pass",
+  "final_deliverable": true,
+  "user_approved": false,
+  "master_version": "2.3",
+  "execution_rules_version": "1.4",
+  "mode": "independent_scene_with_own_candidate_local_structural_correction",
+  "source": "C:/Users/Yeon Hee Kang/.codex/generated_images/01a08992-fe0f-7512-a57d-0f3449d6fdb0/exec-fada1dd4-93eb-472e-9627-7e0518b95ae4.png",
+  "saved": "C:/Users/Yeon Hee Kang/OneDrive/문서/Codex/background-concept-art/concetp-art/outputs/20260910_132734_independent_cassette_routefix/cassette_day_alley_final.png",
+  "image_dimensions": [
+    1448,
+    1086
+  ],
+  "format": "PNG",
+  "sha256": "B3347775ECC92535D84DC2B2E641E2D39596F963E4404CFE6DAB18CD010742F0",
+  "source_copy_hash_verified": true,
+  "initial_run": "C:/Users/Yeon Hee Kang/OneDrive/문서/Codex/background-concept-art/concetp-art/outputs/20260910_132734_independent_cassette/",
+  "initial_prompt": "C:/Users/Yeon Hee Kang/OneDrive/문서/Codex/background-concept-art/concetp-art/outputs/20260910_132734_independent_cassette/prompt.txt",
+  "correction_prompt": "C:/Users/Yeon Hee Kang/OneDrive/문서/Codex/background-concept-art/concetp-art/outputs/20260910_132734_independent_cassette_routefix/prompt.txt",
+  "initial_references": "C:/Users/Yeon Hee Kang/OneDrive/문서/Codex/background-concept-art/concetp-art/outputs/20260910_132734_independent_cassette/references.json",
+  "correction_references": "C:/Users/Yeon Hee Kang/OneDrive/문서/Codex/background-concept-art/concetp-art/outputs/20260910_132734_independent_cassette_routefix/references.json",
+  "initial_actual_inputs": [
+    "C:/Users/Yeon Hee Kang/OneDrive/문서/Codex/background-concept-art/concetp-art/outputs/20260910_132734_independent_cassette/structure_plan.png",
+    "C:/Users/Yeon Hee Kang/OneDrive/문서/Codex/background-concept-art/concetp-art/refs/master02/layout_two_exits.png",
+    "C:/Users/Yeon Hee Kang/OneDrive/문서/Codex/background-concept-art/concetp-art/refs/master01/composition_cutaway.png",
+    "C:/Users/Yeon Hee Kang/OneDrive/문서/Codex/background-concept-art/concetp-art/refs/master03/ldi_10_storefront_style_anchor.png",
+    "C:/Users/Yeon Hee Kang/OneDrive/문서/Codex/background-concept-art/concetp-art/outputs/20260910_124032_alley_reference_shapes/user_cassette_reference.png"
+  ],
+  "correction_actual_inputs": [
+    "C:/Users/Yeon Hee Kang/OneDrive/문서/Codex/background-concept-art/concetp-art/outputs/20260910_132734_independent_cassette/cassette_day_alley.png",
+    "C:/Users/Yeon Hee Kang/OneDrive/문서/Codex/background-concept-art/concetp-art/outputs/20260910_132734_independent_cassette_routefix/structure_plan.png"
+  ],
+  "inspection": "Generated full image inspected and local saved file opened; parent also independently viewed final",
+  "structural_checks": {
+    "C01": "PASS",
+    "C02": "PASS",
+    "C03": "PASS",
+    "C04": "PASS",
+    "L01": "PASS",
+    "L02": "PASS",
+    "L03": "PASS",
+    "L04": "PASS",
+    "L05": "PASS",
+    "L06": "PASS",
+    "L07": "PASS"
+  },
+  "architecture_checks": {
+    "W04": "PASS",
+    "W05": "PASS_visual_estimate"
+  },
+  "planned_roof_coverage": {
+    "A": 0.5082995951417006,
+    "B": 0.5729264475743349
+  },
+  "remaining_validation": "Actual3D dimensions, player collider and exact final roof area not verified",
+  "independence": "No other new paired image or its guide opened or supplied. Initial inputs are new guide plus source M02/M01/M03 plus user-supplied cassette reference. Correction inputs only own candidate and own corrected guide.",
+  "correction_count": 1,
+  "stop_reason": "All applicable visible structural checks pass; no aesthetic iteration."
+}

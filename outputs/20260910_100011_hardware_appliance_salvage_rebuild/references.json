@@ -1,0 +1,84 @@
+{
+  "run_id": "20260910_100011_hardware_appliance_salvage_rebuild",
+  "previous_run": "20260910_094940_ruined_hardware_appliance_night",
+  "inspected_for_planning": [
+    {
+      "path": "C:/Users/Yeon Hee Kang/OneDrive/문서/Codex/background-concept-art/concetp-art/outputs/20260910_094940_ruined_hardware_appliance_night/ruined_hardware_appliance_night.png",
+      "inspection": "Actual prior result visually inspected in conversation and reassessed against current user feedback; layout/interior/design rejected."
+    },
+    {
+      "id": "M02-01",
+      "path": "C:/Users/Yeon Hee Kang/OneDrive/문서/Codex/background-concept-art/concetp-art/refs/master02/layout_two_exits.png",
+      "inspection": "Original visually opened this turn."
+    },
+    {
+      "id": "M03-10",
+      "path": "C:/Users/Yeon Hee Kang/OneDrive/문서/Codex/background-concept-art/concetp-art/refs/master03/ldi_10_storefront_style_anchor.png",
+      "inspection": "Original visually opened this turn."
+    },
+    {
+      "id": "M04-07",
+      "path": "C:/Users/Yeon Hee Kang/OneDrive/문서/Codex/background-concept-art/concetp-art/refs/master04/world_07_repurposed_machine_head.png",
+      "inspection": "Original visually opened this turn."
+    },
+    {
+      "id": "M04-02",
+      "path": "C:/Users/Yeon Hee Kang/OneDrive/문서/Codex/background-concept-art/concetp-art/refs/master04/world_02_heavy_mechanical_arms.png",
+      "inspection": "Original visually opened this turn."
+    },
+    {
+      "id": "M01-01",
+      "path": "C:/Users/Yeon Hee Kang/OneDrive/문서/Codex/background-concept-art/concetp-art/refs/master01/composition_cutaway.png",
+      "inspection": "Original visually opened this turn."
+    }
+  ],
+  "submitted_to_generation": [
+    {
+      "input_index": 1,
+      "id": "M02-01",
+      "path": "C:/Users/Yeon Hee Kang/OneDrive/문서/Codex/background-concept-art/concetp-art/refs/master02/layout_two_exits.png",
+      "role": "two perpendicular rear boundaries, two through exits and continuous unobstructed routes"
+    },
+    {
+      "input_index": 2,
+      "id": "M03-10",
+      "path": "C:/Users/Yeon Hee Kang/OneDrive/문서/Codex/background-concept-art/concetp-art/refs/master03/ldi_10_storefront_style_anchor.png",
+      "role": "architectural rendering, broad calm planes and selected damage only; exclude shops, world, figures, letters, camera"
+    },
+    {
+      "input_index": 3,
+      "id": "M04-07",
+      "path": "C:/Users/Yeon Hee Kang/OneDrive/문서/Codex/background-concept-art/concetp-art/refs/master04/world_07_repurposed_machine_head.png",
+      "role": "repurposed product casings and functional reclaimed technology across appliances/props/buildings; exclude figure, head, text, microdetail"
+    },
+    {
+      "input_index": 4,
+      "id": "M04-02",
+      "path": "C:/Users/Yeon Hee Kang/OneDrive/문서/Codex/background-concept-art/concetp-art/refs/master04/world_02_heavy_mechanical_arms.png",
+      "role": "substantial reused industrial housings, joints, repair plates and functional supports; exclude human, exact limbs and photorealism"
+    },
+    {
+      "input_index": 5,
+      "id": "M01-01",
+      "path": "C:/Users/Yeon Hee Kang/OneDrive/문서/Codex/background-concept-art/concetp-art/refs/master01/composition_cutaway.png",
+      "role": "whole framed quarter-view base and two thick cutaways only; exclude buildings, neon and miniature texture"
+    }
+  ],
+  "delivery_status": "submitted_tool_call_completed",
+  "delivery_mechanism": "image_gen.imagegen.referenced_image_paths",
+  "omitted_references_and_reasons": [
+    {
+      "group": "Previous generated image",
+      "reason": "User requests substantive layout/interior/building/appliance redesign. Rebuild from masters to avoid preserving obstructed lane, shallow showroom, modern appliances and rustic roof."
+    },
+    {
+      "group": "M03-14 and other attic/old-interior references",
+      "reason": "Prior interpretation over-emphasized rustic building cues; primary style anchor retained without historical architecture bias."
+    },
+    {
+      "group": "Other outputs and review_only",
+      "reason": "Not approved positive masters."
+    }
+  ],
+  "scope": "User-requested design/structure changes, not automatic aesthetic variations. Main-reference update explicitly deferred."
+}

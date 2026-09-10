@@ -1,0 +1,4 @@
+# Preflight
+
+Planning PASS only. Five actual original master images inspected and ready for tool arguments; old candidate excluded to allow reconstruction. One final deliverable. Check entire continuous right exterior lane, separate doorway threshold and connection to center; no machinery/curb inside lane. Show deep interior floor from open shop entrance to back wall, sparse perimeter merchandise. Individually redesign appliances as cassette-futurist salvage products and ruined hardware architecture/interior as abandoned reclaimed high technology. Retain breach/rubble, night, height ratio target, roof panels/generator, entire base/two front cuts/two external exits. Store interior entrance is not an additional external through route. Current user authorizes both structure and design changes; no master update.
+

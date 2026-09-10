@@ -1,0 +1,64 @@
+{
+  "run_id": "20260910_081337_slum_alley_sunset",
+  "inspected_for_planning": [
+    "M02-01",
+    "M01-01",
+    "M03-10",
+    "M04-02",
+    "M03-15"
+  ],
+  "submitted_to_generation": [
+    {
+      "input_index": 1,
+      "id": "M02-01",
+      "path": "C:/Users/Yeon Hee Kang/OneDrive/문서/Codex/background-concept-art/concetp-art/refs/master02/layout_two_exits.png",
+      "role": "spatial connectivity only"
+    },
+    {
+      "input_index": 2,
+      "id": "M01-01",
+      "path": "C:/Users/Yeon Hee Kang/OneDrive/문서/Codex/background-concept-art/concetp-art/refs/master01/composition_cutaway.png",
+      "role": "camera and cutaway only"
+    },
+    {
+      "input_index": 3,
+      "id": "M03-10",
+      "path": "C:/Users/Yeon Hee Kang/OneDrive/문서/Codex/background-concept-art/concetp-art/refs/master03/ldi_10_storefront_style_anchor.png",
+      "role": "primary architectural style, not world"
+    },
+    {
+      "input_index": 4,
+      "id": "M04-02",
+      "path": "C:/Users/Yeon Hee Kang/OneDrive/문서/Codex/background-concept-art/concetp-art/refs/master04/world_02_heavy_mechanical_arms.png",
+      "role": "functional salvage forms translated into environment, not character"
+    },
+    {
+      "input_index": 5,
+      "id": "M03-15",
+      "path": "C:/Users/Yeon Hee Kang/OneDrive/문서/Codex/background-concept-art/concetp-art/refs/master03/ldi_15_street_light_planes.png",
+      "role": "architectural materials and light planes only"
+    }
+  ],
+  "delivery_status": "submitted_tool_call_completed",
+  "delivery_mechanism": "image_gen.imagegen.referenced_image_paths",
+  "omitted_references_and_reasons": [
+    {
+      "ids": [
+        "A-01",
+        "A-02"
+      ],
+      "reason": "New location; avoid copying earlier architecture and surface density."
+    },
+    {
+      "group": "review_only and unapproved outputs",
+      "reason": "Not permitted as default positive references."
+    },
+    {
+      "group": "other master images",
+      "reason": "Five selected role-specific references cover spatial structure, primary style, world design, and relevant supplemental architectural lighting."
+    }
+  ],
+  "scoped_result_approval": "Mechanical presence and cutaway functional readability retained as text-only principles; no prior output supplied or promoted.",
+  "supplement_scope": "M03-15 architectural materials and lighting only. User-requested ivy is designed for this scene independently of supplemental vegetation.",
+  "delivery_evidence": "All five absolute file paths were passed in the tool argument. The tool completed and returned the generated PNG. This records submission, not model-internal attention."
+}

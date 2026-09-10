@@ -1,0 +1,23 @@
+{
+  "master": "2.4",
+  "execution": "1.5",
+  "submitted_to_generation": [
+    "C:\\Users\\Yeon Hee Kang\\OneDrive\\문서\\Codex\\background-concept-art\\concetp-art\\outputs\\20260910_154355_harbor_reference\\structure_guide.png",
+    "C:\\Users\\Yeon Hee Kang\\OneDrive\\문서\\Codex\\background-concept-art\\concetp-art\\outputs\\20260910_154355_harbor_reference\\user_reference.png",
+    "C:\\Users\\Yeon Hee Kang\\OneDrive\\문서\\Codex\\background-concept-art\\concetp-art\\refs\\master03\\ldi_10_storefront_style_anchor.png",
+    "C:\\Users\\Yeon Hee Kang\\OneDrive\\문서\\Codex\\background-concept-art\\concetp-art\\refs\\master04\\world_02_heavy_mechanical_arms.png"
+  ],
+  "delivery_status": "returned_image_saved",
+  "roles": [
+    "singlecamera/layout",
+    "userharborsubject/lightonly",
+    "M03artonly",
+    "M04functionaldesignonly"
+  ],
+  "M01_M02": "inspectedearlier, ownnewguideandtextrulesretainspace; redundantcamerasomitted",
+  "prompt_chars": 4695,
+  "utf8_bytes": 4697,
+  "word_count": 657,
+  "internal_model_tokens_rewrite": "unknown",
+  "backend": "builtinimagegen"
+}

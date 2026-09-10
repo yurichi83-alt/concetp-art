@@ -1,0 +1,19 @@
+[
+  ".agents/skills/game-env-art/SKILL.md",
+  ".agents/skills/game-env-art/agents/openai.yaml",
+  "AGENTS.md",
+  "FIRST_MESSAGE.txt",
+  "README_KO.md",
+  "REFERENCE_INDEX.html",
+  "START_HERE_KO.md",
+  "docs/00_INDEX.md",
+  "docs/01_COMPOSITION.md",
+  "docs/03_VISUAL_STYLE_V2.md",
+  "docs/10_CURRENT_REFERENCES.md",
+  "project.json",
+  "refs/REFERENCE_MAP.md",
+  "refs/manifest.json",
+  "state/CHANGELOG.md",
+  "state/approvals.json",
+  "templates/references.json"
+]

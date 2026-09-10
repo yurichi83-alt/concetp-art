@@ -1,0 +1,23 @@
+{
+  "run_id": "20260910_081337_slum_alley_sunset",
+  "status": "generated_and_reviewed",
+  "backend": "builtin_image_gen.imagegen",
+  "generation_calls": 1,
+  "requested_final_count": 1,
+  "final_delivered_count": 1,
+  "source_path": "C:/Users/Yeon Hee Kang/.codex/generated_images/01a08867-7e38-7162-8368-5c8c0df7a0c0/exec-a60fba53-bb54-40d3-bfcd-2071045e751a.png",
+  "output_path": "C:/Users/Yeon Hee Kang/OneDrive/문서/Codex/background-concept-art/concetp-art/outputs/20260910_081337_slum_alley_sunset/slum_alley_sunset.png",
+  "width": 1448,
+  "height": 1086,
+  "bytes": 2252461,
+  "sha256": "ee352001b27f52be4610d666e2746527b713a7f0c715dc32d09fc196af3c1da5",
+  "source_and_copy_hash_match": true,
+  "prompt_file": "brief.md",
+  "reference_record": "references.json",
+  "review_file": "review.md",
+  "visual_review_source": "Full-resolution image_gen tool result was rendered and inspected. Local view_image returned an unhelpful tiny preview; the full image_url from the generation result was then rendered directly.",
+  "structural_status": "candidate_pass",
+  "user_approval": "none",
+  "master_promotion": false
+}
+

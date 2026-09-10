@@ -1,0 +1,229 @@
+<!doctype html>
+<html lang="ko">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>마스터 v2.2와 선호 결과 참조</title>
+<style>body{background:#18202b;color:#eee;font-family:sans-serif;margin:32px;line-height:1.6;max-width:1200px}a{color:#9ed7ff}img{max-width:100%;max-height:600px;height:auto}figure{margin:32px 0;padding-bottom:24px;border-bottom:1px solid #485362}figcaption{font-size:1.15em;font-weight:700}.scope{background:#253342;padding:16px}.exclude{color:#f1c7a8}.meta{color:#bcc8d4}h2{margin-top:48px}</style>
+</head>
+<body>
+<h1>마스터 v2.2 · 참조 역할과 사용 범위</h1>
+<p>원본 마스터 19장을 유지하고 승인된 Little Devil Inside 보강 5장을 더한 총 24장이다. A-01/A-02 선호 결과 2장과 검토 이력 3장은 별도이며 마스터를 대체하지 않는다.</p>
+<p class="scope">M03-11~M03-15는 건축의 형태·재질 표현·조명과 색감 범위로만 사용한다. 구도 01·공간 02·Salvage Cyberpunk 세계관 04의 역할을 대체하지 않는다. 세계관·시대·서사·캐릭터·차량·UI·상호와 포스터 문자·카메라·공간 배치·자연물 묘사는 사용하지 않는다.</p>
+<p class="scope"><strong>M03-12(두 번째 추가 이미지)는 건물 부분만 참고한다. 나무·풀·숲·자연 지면은 제외한다. 이는 해당 이미지의 참고 범위이며, 기존 자연물 자료의 역할이나 프로젝트 전체의 식생 허용 여부를 바꾸지 않는다.</strong></p>
+<p>실제 생성 입력 여부는 각 run의 <code>references.json</code>에 기록한다. 마스터 등록이 매번 24장 모두를 이미지 도구에 전달한다는 뜻은 아니다.</p>
+<p><a href="refs/REFERENCE_MAP.md">참조 역할 표</a> · <a href="docs/10_CURRENT_REFERENCES.md">현재 참조와 승인 범위</a></p>
+<p class="scope">v2.2: 공통 공간·단일 투영·베이스 상하 대응·직교 경계·실제 보행 공간을 강화했다. 원본24장은 보존하며 새 설명 도식/실패 출력 승격은 없다.</p>
+<h2>마스터 24장 — 원본 19장 + 승인 보강 5장</h2>
+<figure id="M01-01">
+<figcaption>M01-01 쿼터뷰 디오라마·바닥 단면</figcaption>
+<p class="meta">원본 마스터 · 918×908</p>
+<a href="refs/master01/composition_cutaway.png"><img loading="lazy" src="refs/master01/composition_cutaway.png" alt="M01-01 쿼터뷰 디오라마·바닥 단면"></a>
+<p><strong>참고 범위 (use_only):</strong> 공통 쿼터뷰 카메라·투영, 기본 베이스 입체, 상하 대응 모서리·두께와 두 평면 단면</p>
+<p class="exclude"><strong>제외 범위 (exclude):</strong> 네온·상점가·일본풍·팔레트·고밀도 재질은 제외</p>
+</figure>
+<figure id="M02-01">
+<figcaption>M02-01 상단 두 면 차단·출구 두 개 도해</figcaption>
+<p class="meta">원본 마스터 · 697×696</p>
+<a href="refs/master02/layout_two_exits.png"><img loading="lazy" src="refs/master02/layout_two_exits.png" alt="M02-01 상단 두 면 차단·출구 두 개 도해"></a>
+<p><strong>참고 범위 (use_only):</strong> 공통 바닥과 기본 입체, 인접한 두 직교 경계, 각 출구와 중앙부터 문턱 너머까지 연속 보행 공간, 높이 상한</p>
+<p class="exclude"><strong>제외 범위 (exclude):</strong> 파란 벽·글자·아이콘·화살표·입구 표시·정중앙 배치는 복사하지 않음</p>
+</figure>
+<figure id="M03-01">
+<figcaption>M03-01 목재 실내와 지붕 구조</figcaption>
+<p class="meta">원본 마스터 · 964×664</p>
+<a href="refs/master03/ldi_01_attic.png"><img loading="lazy" src="refs/master03/ldi_01_attic.png" alt="M03-01 목재 실내와 지붕 구조"></a>
+<p><strong>참고 범위 (use_only):</strong> 큰 형태·목재 면·선택적 상세·국소 조명</p>
+<p class="exclude"><strong>제외 범위 (exclude):</strong> 세계관·장소·캐릭터·카메라·지붕 높이 제외</p>
+</figure>
+<figure id="M03-02">
+<figcaption>M03-02 책장과 난로가 있는 실내</figcaption>
+<p class="meta">원본 마스터 · 1014×653</p>
+<a href="refs/master03/ldi_02_reading_room.png"><img loading="lazy" src="refs/master03/ldi_02_reading_room.png" alt="M03-02 책장과 난로가 있는 실내"></a>
+<p><strong>참고 범위 (use_only):</strong> 넓은 벽면·정돈된 가구 형태·빛과 면의 관계</p>
+<p class="exclude"><strong>제외 범위 (exclude):</strong> 중앙 가구 배치·캐릭터·시대·창문 형태 의무화 제외</p>
+</figure>
+<figure id="M03-03">
+<figcaption>M03-03 어두운 실내 벽과 작은 조명 영역</figcaption>
+<p class="meta">원본 마스터 · 999×611</p>
+<a href="refs/master03/ldi_03_dark_corner.png"><img loading="lazy" src="refs/master03/ldi_03_dark_corner.png" alt="M03-03 어두운 실내 벽과 작은 조명 영역"></a>
+<p><strong>참고 범위 (use_only):</strong> 어두운 면과 국소광의 대비</p>
+<p class="exclude"><strong>제외 범위 (exclude):</strong> 과도한 암부·구도·캐릭터·낙서 문구 제외</p>
+</figure>
+<figure id="M03-04">
+<figcaption>M03-04 큰 실내의 조명 구획</figcaption>
+<p class="meta">원본 마스터 · 1054×649</p>
+<a href="refs/master03/ldi_04_large_interior.png"><img loading="lazy" src="refs/master03/ldi_04_large_interior.png" alt="M03-04 큰 실내의 조명 구획"></a>
+<p><strong>참고 범위 (use_only):</strong> 광원의 집중과 덩어리 명암</p>
+<p class="exclude"><strong>제외 범위 (exclude):</strong> 캐릭터·몬스터·침대 중앙 배치·세계관 제외</p>
+</figure>
+<figure id="M03-05">
+<figcaption>M03-05 안개 낀 숲</figcaption>
+<p class="meta">원본 마스터 · 1119×645</p>
+<a href="refs/master03/ldi_05_fog_forest.png"><img loading="lazy" src="refs/master03/ldi_05_fog_forest.png" alt="M03-05 안개 낀 숲"></a>
+<p><strong>참고 범위 (use_only):</strong> 차분한 팔레트·단순화된 자연물·안개층</p>
+<p class="exclude"><strong>제외 범위 (exclude):</strong> 숲 테마·인물·몬스터·낮은 카메라·거대한 나무 높이 제외</p>
+</figure>
+<figure id="M03-06">
+<figcaption>M03-06 야간 길과 국소 조명</figcaption>
+<p class="meta">원본 마스터 · 1130×649</p>
+<a href="refs/master03/ldi_06_night_path.png"><img loading="lazy" src="refs/master03/ldi_06_night_path.png" alt="M03-06 야간 길과 국소 조명"></a>
+<p><strong>참고 범위 (use_only):</strong> 쿨톤 환경과 조명 영역·소재 절제</p>
+<p class="exclude"><strong>제외 범위 (exclude):</strong> 주인공·장비·구도·전력 상태 고정 제외</p>
+</figure>
+<figure id="M03-07">
+<figcaption>M03-07 역 외관</figcaption>
+<p class="meta">원본 마스터 · 1139×644</p>
+<a href="refs/master03/ldi_07_station.png"><img loading="lazy" src="refs/master03/ldi_07_station.png" alt="M03-07 역 외관"></a>
+<p><strong>참고 범위 (use_only):</strong> 큰 벽·지붕 면·재질의 생략과 부분 손상</p>
+<p class="exclude"><strong>제외 범위 (exclude):</strong> 역 건축·철도 테마·정면 구도·캐릭터 제외</p>
+</figure>
+<figure id="M03-08">
+<figcaption>M03-08 상점 외관과 포장 바닥</figcaption>
+<p class="meta">원본 마스터 · 1126×653</p>
+<a href="refs/master03/ldi_08_pub_exterior.png"><img loading="lazy" src="refs/master03/ldi_08_pub_exterior.png" alt="M03-08 상점 외관과 포장 바닥"></a>
+<p><strong>참고 범위 (use_only):</strong> 넓은 도장면·큰 포장석·형태로 읽히는 재질</p>
+<p class="exclude"><strong>제외 범위 (exclude):</strong> 펍·영국풍 건축·상호·캐릭터 제외</p>
+</figure>
+<figure id="M03-09">
+<figcaption>M03-09 상점 실내</figcaption>
+<p class="meta">원본 마스터 · 995×595</p>
+<a href="refs/master03/ldi_09_pub_interior.png"><img loading="lazy" src="refs/master03/ldi_09_pub_interior.png" alt="M03-09 상점 실내"></a>
+<p><strong>참고 범위 (use_only):</strong> 면 중심의 가구·재질·국소적인 따뜻한 조명</p>
+<p class="exclude"><strong>제외 범위 (exclude):</strong> 술집 테마·중앙 가구·캐릭터·시대 제외</p>
+</figure>
+<figure id="M03-10">
+<figcaption>M03-10 꽃집·정육점 거리: v2 대표 스타일 앵커</figcaption>
+<p class="meta">원본 마스터 · 936×512</p>
+<a href="refs/master03/ldi_10_storefront_style_anchor.png"><img loading="lazy" src="refs/master03/ldi_10_storefront_style_anchor.png" alt="M03-10 꽃집·정육점 거리: v2 대표 스타일 앵커"></a>
+<p><strong>참고 범위 (use_only):</strong> 큰 깨끗한 색면, 선택적 손상, 특징적 큰 윤곽, 디테일 집중과 여백의 대비</p>
+<p class="exclude"><strong>제외 범위 (exclude):</strong> 상점 종류·건축 양식·상호·캐릭터·카메라 제외</p>
+</figure>
+<figure id="M03-11">
+<figcaption>M03-11 펍 외관: 깨끗한 벽 색면과 포장석</figcaption>
+<p class="meta">승인된 LDI 보강 · v2.1 · 3024×1898</p>
+<a href="refs/master03/ldi_11_pub_clean_surfaces.png"><img loading="lazy" src="refs/master03/ldi_11_pub_clean_surfaces.png" alt="M03-11 펍 외관: 깨끗한 벽 색면과 포장석"></a>
+<p><strong>참고 범위 (use_only):</strong> 넓은 벽 색면, 창틀·몰딩의 큰 형태, 큰 포장석의 재질과 명암</p>
+<p class="exclude"><strong>제외 범위 (exclude):</strong> 세계관·시대·서사·캐릭터·차량·UI·상호/포스터 문자·카메라·공간 배치 복사 제외. 자연물 묘사 제외.</p>
+<p class="meta">마스터03 표현 보강. 구도01·공간02·세계관04의 역할을 대체하지 않는다. 기존 자연물 자료의 역할이나 프로젝트 식생 허용 여부를 변경하지 않는다.</p>
+</figure>
+<figure id="M03-12">
+<figcaption>M03-12 주유소: 건물 부분만 참고</figcaption>
+<p class="meta">승인된 LDI 보강 · v2.1 · 3024×1898</p>
+<a href="refs/master03/ldi_12_gas_station_building_only.png"><img loading="lazy" src="refs/master03/ldi_12_gas_station_building_only.png" alt="M03-12 주유소: 건물 부분만 참고"></a>
+<p><strong>참고 범위 (use_only):</strong> 건물 외벽·지붕의 큰 형태, 건축 재질과 건물에 맺힌 빛만 참고</p>
+<p class="exclude"><strong>제외 범위 (exclude):</strong> 세계관·시대·서사·캐릭터·차량·UI·상호/포스터 문자·카메라·공간 배치 복사 제외. 자연물 묘사 제외. 특히 나무·풀·숲·자연 지면은 참고하지 않고 건물 부분만 사용.</p>
+<p class="meta">마스터03 표현 보강. 구도01·공간02·세계관04의 역할을 대체하지 않는다. 기존 자연물 자료의 역할이나 프로젝트 식생 허용 여부를 변경하지 않는다.</p>
+</figure>
+<figure id="M03-13">
+<figcaption>M03-13 판매 창구: 재질 구분과 국소광</figcaption>
+<p class="meta">승인된 LDI 보강 · v2.1 · 3024×1898</p>
+<a href="refs/master03/ldi_13_kiosk_materials.png"><img loading="lazy" src="refs/master03/ldi_13_kiosk_materials.png" alt="M03-13 판매 창구: 재질 구분과 국소광"></a>
+<p><strong>참고 범위 (use_only):</strong> 건축 외벽·창틀의 단순한 면, 도장·목재·유리의 구분, 건물 국소광</p>
+<p class="exclude"><strong>제외 범위 (exclude):</strong> 세계관·시대·서사·캐릭터·차량·UI·상호/포스터 문자·카메라·공간 배치 복사 제외. 자연물 묘사 제외.</p>
+<p class="meta">마스터03 표현 보강. 구도01·공간02·세계관04의 역할을 대체하지 않는다. 기존 자연물 자료의 역할이나 프로젝트 식생 허용 여부를 변경하지 않는다.</p>
+</figure>
+<figure id="M03-14">
+<figcaption>M03-14 다락방: 목재 구조와 조명 구획</figcaption>
+<p class="meta">승인된 LDI 보강 · v2.1 · 3024×1898</p>
+<a href="refs/master03/ldi_14_attic_structure_light.png"><img loading="lazy" src="refs/master03/ldi_14_attic_structure_light.png" alt="M03-14 다락방: 목재 구조와 조명 구획"></a>
+<p><strong>참고 범위 (use_only):</strong> 큰 목재 구조와 판재 표현, 선택적 큰 파손, 건축 공간의 조명 구획</p>
+<p class="exclude"><strong>제외 범위 (exclude):</strong> 세계관·시대·서사·캐릭터·차량·UI·상호/포스터 문자·카메라·공간 배치 복사 제외. 자연물 묘사 제외.</p>
+<p class="meta">마스터03 표현 보강. 구도01·공간02·세계관04의 역할을 대체하지 않는다. 기존 자연물 자료의 역할이나 프로젝트 식생 허용 여부를 변경하지 않는다.</p>
+</figure>
+<figure id="M03-15">
+<figcaption>M03-15 시가지: 건축·바닥의 면과 그림자</figcaption>
+<p class="meta">승인된 LDI 보강 · v2.1 · 3024×1898</p>
+<a href="refs/master03/ldi_15_street_light_planes.png"><img loading="lazy" src="refs/master03/ldi_15_street_light_planes.png" alt="M03-15 시가지: 건축·바닥의 면과 그림자"></a>
+<p><strong>참고 범위 (use_only):</strong> 건축의 큰 덩어리, 정돈된 바닥 재질 표현, 건축과 지면의 빛·그림자 대비</p>
+<p class="exclude"><strong>제외 범위 (exclude):</strong> 세계관·시대·서사·캐릭터·차량·UI·상호/포스터 문자·카메라·공간 배치 복사 제외. 자연물 묘사 제외.</p>
+<p class="meta">마스터03 표현 보강. 구도01·공간02·세계관04의 역할을 대체하지 않는다. 기존 자연물 자료의 역할이나 프로젝트 식생 허용 여부를 변경하지 않는다.</p>
+</figure>
+<figure id="M04-01">
+<figcaption>M04-01 안테나형 머리와 작업복</figcaption>
+<p class="meta">원본 마스터 · 392×650</p>
+<a href="refs/master04/world_01_masked_scavenger.png"><img loading="lazy" src="refs/master04/world_01_masked_scavenger.png" alt="M04-01 안테나형 머리와 작업복"></a>
+<p><strong>참고 범위 (use_only):</strong> 강한 실루엣·기계와 천·개조 방식</p>
+<p class="exclude"><strong>제외 범위 (exclude):</strong> 사실적인 재질 밀도·인물 직접 삽입 제외</p>
+</figure>
+<figure id="M04-02">
+<figcaption>M04-02 대형 기계 팔의 외골격</figcaption>
+<p class="meta">원본 마스터 · 469×618</p>
+<a href="refs/master04/world_02_heavy_mechanical_arms.png"><img loading="lazy" src="refs/master04/world_02_heavy_mechanical_arms.png" alt="M04-02 대형 기계 팔의 외골격"></a>
+<p><strong>참고 범위 (use_only):</strong> 큰 산업기계 덩어리·도장 패널·관절의 기능감</p>
+<p class="exclude"><strong>제외 범위 (exclude):</strong> 인물 직접 삽입·포토리얼 표면·동일 복장 복제 제외</p>
+</figure>
+<figure id="M04-03">
+<figcaption>M04-03 둥근 기계 머리와 외투</figcaption>
+<p class="meta">원본 마스터 · 372×562</p>
+<a href="refs/master04/world_03_helmet_and_coat.png"><img loading="lazy" src="refs/master04/world_03_helmet_and_coat.png" alt="M04-03 둥근 기계 머리와 외투"></a>
+<p><strong>참고 범위 (use_only):</strong> 인간/기계 경계·천과 기계 대비·수리 흔적</p>
+<p class="exclude"><strong>제외 범위 (exclude):</strong> 실사 재질·네온 골목·인물 직접 삽입 제외</p>
+</figure>
+<figure id="M04-04">
+<figcaption>M04-04 망토와 노출된 기계 팔</figcaption>
+<p class="meta">원본 마스터 · 357×648</p>
+<a href="refs/master04/world_04_cloak_and_mechanical_arm.png"><img loading="lazy" src="refs/master04/world_04_cloak_and_mechanical_arm.png" alt="M04-04 망토와 노출된 기계 팔"></a>
+<p><strong>참고 범위 (use_only):</strong> 천의 큰 면·금속 관절·제한된 포인트 색·노후 기술</p>
+<p class="exclude"><strong>제외 범위 (exclude):</strong> 붓질·선화·인물 직접 삽입·색상 고정 제외</p>
+</figure>
+<figure id="M04-05">
+<figcaption>M04-05 길고 가는 기계 신체</figcaption>
+<p class="meta">원본 마스터 · 354×644</p>
+<a href="refs/master04/world_05_rebuilt_robot.png"><img loading="lazy" src="refs/master04/world_05_rebuilt_robot.png" alt="M04-05 길고 가는 기계 신체"></a>
+<p><strong>참고 범위 (use_only):</strong> 실루엣·노출 구조·우회 케이블·수리 문화</p>
+<p class="exclude"><strong>제외 범위 (exclude):</strong> 무기·캐릭터 직접 삽입·고밀도 표면·배경 제외</p>
+</figure>
+<figure id="M04-06">
+<figcaption>M04-06 비대칭 기계 전사</figcaption>
+<p class="meta">원본 마스터 · 652×652</p>
+<a href="refs/master04/world_06_asymmetric_machine.png"><img loading="lazy" src="refs/master04/world_06_asymmetric_machine.png" alt="M04-06 비대칭 기계 전사"></a>
+<p><strong>참고 범위 (use_only):</strong> 비대칭 개조·기능적인 큰 기계 요소</p>
+<p class="exclude"><strong>제외 범위 (exclude):</strong> 그림체·전투 포즈·무기·캐릭터 직접 삽입 제외</p>
+</figure>
+<figure id="M04-07">
+<figcaption>M04-07 제품 외장과 노출된 내부 기계</figcaption>
+<p class="meta">원본 마스터 · 517×642</p>
+<a href="refs/master04/world_07_repurposed_machine_head.png"><img loading="lazy" src="refs/master04/world_07_repurposed_machine_head.png" alt="M04-07 제품 외장과 노출된 내부 기계"></a>
+<p><strong>참고 범위 (use_only):</strong> 다른 부품 조합·남아 있는 제품 도장·첨단기술의 잔재</p>
+<p class="exclude"><strong>제외 범위 (exclude):</strong> 제품 문자·촘촘한 부품 묘사·캐릭터 직접 삽입 제외</p>
+</figure>
+<h2>선호 생성 결과 예시 2장 — 마스터 아래의 보조 참조</h2>
+<figure id="A-01">
+<figcaption>A-01 야간 광장: 차가운 환경광·따뜻한 국소광·넓은 중앙</figcaption>
+<p class="meta">선호 결과 보조 참조 · 1536×1024</p>
+<a href="refs/current/night_courtyard.png"><img loading="lazy" src="refs/current/night_courtyard.png" alt="A-01 야간 광장: 차가운 환경광·따뜻한 국소광·넓은 중앙"></a>
+<p><strong>참고 범위 (use_only):</strong> 원본 마스터 기준으로 만든 결과 중 사용자가 원하는 아트에 가까운 예시. 분위기·표현 인상의 보조 참조.</p>
+<p class="exclude"><strong>제외 범위 (exclude):</strong> 원본 마스터·Little Devil Inside 아트 방향·Salvage Cyberpunk를 대체하지 않음. 개별 크롭·밀도·치수를 영구 규칙으로 승격하지 않음.</p>
+</figure>
+<figure id="A-02">
+<figcaption>A-02 주간 골목: 낡은 건축·생활 소품·재질과 손상</figcaption>
+<p class="meta">선호 결과 보조 참조 · 1536×1024</p>
+<a href="refs/current/day_alley.png"><img loading="lazy" src="refs/current/day_alley.png" alt="A-02 주간 골목: 낡은 건축·생활 소품·재질과 손상"></a>
+<p><strong>참고 범위 (use_only):</strong> 원본 마스터 기준으로 만든 결과 중 사용자가 원하는 아트에 가까운 예시. 분위기·표현 인상의 보조 참조.</p>
+<p class="exclude"><strong>제외 범위 (exclude):</strong> 원본 마스터·Little Devil Inside 아트 방향·Salvage Cyberpunk를 대체하지 않음. 개별 크롭·밀도·치수를 영구 규칙으로 승격하지 않음.</p>
+</figure>
+<h2>검토 이력 3장 — 기본 생성 참조 제외</h2>
+<figure id="R-01">
+<figcaption>R-01 고밀도 펌프장: 실패 분석용</figcaption>
+<p class="meta">검토 전용 · 기본 생성 입력 금지 · 1448×1086</p>
+<a href="review_only/dense_pump_station.png"><img loading="lazy" src="review_only/dense_pump_station.png" alt="R-01 고밀도 펌프장: 실패 분석용"></a>
+<p><strong>참고 범위 (use_only):</strong> 표면·부품·배치가 동시에 과밀해지는 실패 확인</p>
+<p class="exclude"><strong>제외 범위 (exclude):</strong> 생성의 양성 참조로 전달 금지; 스타일 미승인</p>
+</figure>
+<figure id="R-02">
+<figcaption>R-02 분할 낮/밤 시안: 컨셉·색감만 승인</figcaption>
+<p class="meta">검토 전용 · 기본 생성 입력 금지 · 1536×1024</p>
+<a href="review_only/split_day_night_concept_only.png"><img loading="lazy" src="review_only/split_day_night_concept_only.png" alt="R-02 분할 낮/밤 시안: 컨셉·색감만 승인"></a>
+<p><strong>참고 범위 (use_only):</strong> 사용자가 좋아한 컨셉 방향과 색감의 이력 보관</p>
+<p class="exclude"><strong>제외 범위 (exclude):</strong> 레이아웃·카메라·분할 패널·단면 누락은 미승인. 기본 생성 입력으로 전달 금지</p>
+</figure>
+<figure id="R-03">
+<figcaption>R-03 마트 시안: 중앙 진열대 문제</figcaption>
+<p class="meta">검토 전용 · 기본 생성 입력 금지 · 1536×1024</p>
+<a href="review_only/store_center_obstructed.png"><img loading="lazy" src="review_only/store_center_obstructed.png" alt="R-03 마트 시안: 중앙 진열대 문제"></a>
+<p><strong>참고 범위 (use_only):</strong> 중앙 장애물·출구 판독·미세 디테일 누락 검사 사례</p>
+<p class="exclude"><strong>제외 범위 (exclude):</strong> 어시스턴트 사후 검사 사례이며 사용자 승인 아님. 생성의 양성 참조로 전달 금지</p>
+</figure>
+</body>
+</html>

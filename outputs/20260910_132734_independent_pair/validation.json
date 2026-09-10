@@ -1,0 +1,87 @@
+{
+  "status": "two_final_candidates_visually_reviewed",
+  "backend": "builtin_image_gen",
+  "master_version": "2.3",
+  "execution_version": "1.4",
+  "requested_final_count": 2,
+  "final_count": 2,
+  "independent_initial_generations": true,
+  "cross_reference_found": false,
+  "cassette_local_route_correction": "Only its own initial candidate and geometry guide were referenced.",
+  "finals": [
+    {
+      "path": "C:\\Users\\Yeon Hee Kang\\OneDrive\\문서\\Codex\\background-concept-art\\concetp-art\\outputs\\20260910_132734_independent_baseline\\independent_alley_baseline.png",
+      "sha256": "d1e90900944de36c1cf507950281c67a8a86093f8cfd0f9398be38367a4047a1"
+    },
+    {
+      "path": "C:\\Users\\Yeon Hee Kang\\OneDrive\\문서\\Codex\\background-concept-art\\concetp-art\\outputs\\20260910_132734_independent_cassette_routefix\\cassette_day_alley_final.png",
+      "sha256": "b3347775ecc92535d84dc2b2e641e2d39596f963e4404cfe6dab18cd010742f0"
+    }
+  ],
+  "submitted_inputs_audited": [
+    {
+      "run": "20260910_132734_independent_baseline",
+      "input": "C:\\Users\\Yeon Hee Kang\\OneDrive\\문서\\Codex\\background-concept-art\\concetp-art\\outputs\\20260910_132734_independent_baseline\\structure_plan.png",
+      "sha256": "74935b12cddfa89d37c8941907a812917189c580509b6f355ca997bc3b6ba1ab"
+    },
+    {
+      "run": "20260910_132734_independent_baseline",
+      "input": "C:\\Users\\Yeon Hee Kang\\OneDrive\\문서\\Codex\\background-concept-art\\concetp-art\\refs\\master02\\layout_two_exits.png",
+      "sha256": "444031765bb112361022fb23f593f3d386907ccb2bd005353b0514ed2f588a26"
+    },
+    {
+      "run": "20260910_132734_independent_baseline",
+      "input": "C:\\Users\\Yeon Hee Kang\\OneDrive\\문서\\Codex\\background-concept-art\\concetp-art\\refs\\master01\\composition_cutaway.png",
+      "sha256": "849912ebad9cd750ca79fba6bd8fce6061a5b0ee169a6da5908c60abae94b1a3"
+    },
+    {
+      "run": "20260910_132734_independent_baseline",
+      "input": "C:\\Users\\Yeon Hee Kang\\OneDrive\\문서\\Codex\\background-concept-art\\concetp-art\\refs\\master03\\ldi_10_storefront_style_anchor.png",
+      "sha256": "c24fe55ad76c6c8bfbd88dee7059a09fd7a592dc60e5d4a6c7c0704f11f19345"
+    },
+    {
+      "run": "20260910_132734_independent_baseline",
+      "input": "C:\\Users\\Yeon Hee Kang\\OneDrive\\문서\\Codex\\background-concept-art\\concetp-art\\refs\\master04\\world_02_heavy_mechanical_arms.png",
+      "sha256": "a71042678c1898320a3d949d0108bde7e6f931c8f1bf8b316a057084be179a3b"
+    },
+    {
+      "run": "20260910_132734_independent_cassette",
+      "input": "C:\\Users\\Yeon Hee Kang\\OneDrive\\문서\\Codex\\background-concept-art\\concetp-art\\outputs\\20260910_132734_independent_cassette\\structure_plan.png",
+      "sha256": "dd9a57d79448fce6c185b1709afd858ba557575819b23c5b8a5b7ebc6facc603"
+    },
+    {
+      "run": "20260910_132734_independent_cassette",
+      "input": "C:\\Users\\Yeon Hee Kang\\OneDrive\\문서\\Codex\\background-concept-art\\concetp-art\\refs\\master02\\layout_two_exits.png",
+      "sha256": "444031765bb112361022fb23f593f3d386907ccb2bd005353b0514ed2f588a26"
+    },
+    {
+      "run": "20260910_132734_independent_cassette",
+      "input": "C:\\Users\\Yeon Hee Kang\\OneDrive\\문서\\Codex\\background-concept-art\\concetp-art\\refs\\master01\\composition_cutaway.png",
+      "sha256": "849912ebad9cd750ca79fba6bd8fce6061a5b0ee169a6da5908c60abae94b1a3"
+    },
+    {
+      "run": "20260910_132734_independent_cassette",
+      "input": "C:\\Users\\Yeon Hee Kang\\OneDrive\\문서\\Codex\\background-concept-art\\concetp-art\\refs\\master03\\ldi_10_storefront_style_anchor.png",
+      "sha256": "c24fe55ad76c6c8bfbd88dee7059a09fd7a592dc60e5d4a6c7c0704f11f19345"
+    },
+    {
+      "run": "20260910_132734_independent_cassette",
+      "input": "C:\\Users\\Yeon Hee Kang\\OneDrive\\문서\\Codex\\background-concept-art\\concetp-art\\outputs\\20260910_124032_alley_reference_shapes\\user_cassette_reference.png",
+      "sha256": "ee320904654c74d1dd9dde59bd5fef4840b3cb5d67a6c141983eed51320d001d"
+    },
+    {
+      "run": "20260910_132734_independent_cassette_routefix",
+      "input": "C:\\Users\\Yeon Hee Kang\\OneDrive\\문서\\Codex\\background-concept-art\\concetp-art\\outputs\\20260910_132734_independent_cassette\\cassette_day_alley.png",
+      "sha256": "7e18f5bb682698bafa3e5250ec0f701c298a269ccc9fc6bff6cc6204fd54917d"
+    },
+    {
+      "run": "20260910_132734_independent_cassette_routefix",
+      "input": "C:\\Users\\Yeon Hee Kang\\OneDrive\\문서\\Codex\\background-concept-art\\concetp-art\\outputs\\20260910_132734_independent_cassette_routefix\\structure_plan.png",
+      "sha256": "cbffff2e92bf6356f54a47b8484622bd8f1794879fda1697a0c456f46f906edb"
+    }
+  ],
+  "unchanged_reference_image_count": 29,
+  "visual_review": "Both final saved PNGs inspected; no critical visible geometric/circulation defect found. This is visual concept QA, not exact 3D/collider validation.",
+  "user_approved": false,
+  "master_promoted": false
+}

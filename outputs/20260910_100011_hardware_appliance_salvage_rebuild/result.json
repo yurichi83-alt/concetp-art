@@ -1,0 +1,15 @@
+{
+  "run_id": "20260910_100011_hardware_appliance_salvage_rebuild",
+  "status": "needs_revision",
+  "structural_status": "needs_revision_C01_L02",
+  "backend": "builtin_image_gen.imagegen",
+  "generation_calls": 1,
+  "requested_final_count": 1,
+  "final_delivered_count": 0,
+  "source_path": "C:\\Users\\Yeon Hee Kang\\.codex\\generated_images\\01a08867-7e38-7162-8368-5c8c0df7a0c0\\exec-3b5e1575-37f9-457c-8282-50e7388536d1.png",
+  "output_path": "C:\\Users\\Yeon Hee Kang\\OneDrive\\문서\\Codex\\background-concept-art\\concetp-art\\outputs\\20260910_100011_hardware_appliance_salvage_rebuild\\hardware_appliance_salvage_candidate.png",
+  "sha256": "391432416db11dd940e48a34c7f0042d3c02cec3c7c163f25b9d2c026245e7f0",
+  "source_and_copy_hash_match": true,
+  "user_approval": "pending",
+  "master_promotion": false
+}

@@ -1,0 +1,124 @@
+{
+  "project_name": "GameConcept_Codex",
+  "package_version": "1.1.0",
+  "master_version": "2.1",
+  "execution_rules_version": "1.2",
+  "created_date": "2026-09-09",
+  "purpose": "Keyword-driven game environment concept images. Not an app-development task.",
+  "primary_language": "ko",
+  "preferred_backend": "available_builtin_image_generation",
+  "external_api_requires_explicit_consent": true,
+  "auto_regenerate": true,
+  "default_scene_count": 1,
+  "default_single_scene_per_image": true,
+  "read_first": "docs/00_INDEX.md",
+  "execution_rules": "docs/05_GENERATION_RULES.md",
+  "qa_rules": "docs/06_QA.md",
+  "reference_manifest": "refs/manifest.json",
+  "approvals": "state/approvals.json",
+  "default_inspection_ids": [
+    "M02-01",
+    "M01-01",
+    "M03-10",
+    "M03-11",
+    "M04-02",
+    "M04-04"
+  ],
+  "default_generation_priority_ids": [
+    "M02-01",
+    "M01-01",
+    "M03-10",
+    "M04-02"
+  ],
+  "optional_scene_style_ids": [
+    "M03-08",
+    "M03-02",
+    "M03-06",
+    "M03-11",
+    "M03-12",
+    "M03-13",
+    "M03-14",
+    "M03-15"
+  ],
+  "optional_world_reference_ids": [
+    "M04-02",
+    "M04-04"
+  ],
+  "generation_reference_selection": "Masters 01-04 v2.1: preserve the original 19 and add 5 scoped LDI architectural supplements (24 master images). Select a small role-labeled set; for a new scene balance composition/layout, architectural rendering and a Master04 world-design image before redundant style images or generated-result examples. M03-10 remains representative; select an additional scene-relevant LDI supplement when capacity allows. Consult docs/05_GENERATION_RULES.md for tool limits and scoped result reuse.",
+  "immutable_reference_images": true,
+  "not_a_codex_runtime_config": true,
+  "limits": "Reference instructions guide image generation but do not guarantee geometry. Original master style/world must not be changed by interpreting a preferred example as replacement.",
+  "current_visual_reference_policy": "docs/10_CURRENT_REFERENCES.md",
+  "preferred_result_reference_ids": [
+    "A-01",
+    "A-02"
+  ],
+  "art_direction": {
+    "source": "Little Devil Inside",
+    "reference_aspects": [
+      "architectural_forms",
+      "mapping_texture_depiction",
+      "lighting",
+      "color_palette"
+    ],
+    "exclude": [
+      "world_setting",
+      "characters",
+      "story"
+    ]
+  },
+  "world_setting": "Salvage Cyberpunk",
+  "auto_regenerate_scope": "observed_structural_errors_only",
+  "requested_scene_count_semantics": "final_deliverables; structural correction attempts are preserved separately",
+  "structural_correction_policy": {
+    "approval_id": "structural_auto_correction_20260909",
+    "reference": "docs/05_GENERATION_RULES.md",
+    "checks": [
+      "C01",
+      "C02",
+      "L01",
+      "L02",
+      "L03",
+      "L04",
+      "L05"
+    ],
+    "requires_actual_image_review": true,
+    "stop_on": [
+      "structural_checks_pass",
+      "user_stop",
+      "tool_unavailable_or_limit",
+      "cannot_inspect_output",
+      "repeated_fault_without_new_corrective_strategy"
+    ],
+    "external_api_requires_explicit_consent": true,
+    "auto_master_promotion": false
+  },
+  "master_update_approval_id": "master_update_20260909_v2_1",
+  "scene_interpretation": "New location keywords redesign building function, masses, layout, paving and subsurface infrastructure under unchanged spatial constraints; do not inherit prior scene-only props, weather or the same cutaway design. Explicit edits preserve the requested aspects of their target.",
+  "approved_ldi_supplement_ids": [
+    "M03-11",
+    "M03-12",
+    "M03-13",
+    "M03-14",
+    "M03-15"
+  ],
+  "scoped_result_examples": [
+    {
+      "path": "outputs/20260909_224840_alley_structure_fix/day_alley_structure_fixed.png",
+      "approved_aspects": [
+        "ground_cutaway_mechanical_design",
+        "garbage_bag_treatment"
+      ],
+      "default_generation_input": false,
+      "allowed_use": "Aspect-only comparison; vary actual infrastructure by location. No whole-image approval."
+    },
+    {
+      "path": "outputs/20260909_225844_alley_building_bin_technology/alley_building_bin_technology.png",
+      "approved_aspects": [
+        "mechanical_element_presence_relative_to_architecture"
+      ],
+      "default_generation_input": false,
+      "allowed_use": "Relative visual presence only, no fixed percentage or exact buildings/devices. A new location must be redesigned."
+    }
+  ]
+}

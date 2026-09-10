@@ -1,0 +1,20 @@
+{
+  "inputs": [
+    {
+      "path": "C:/Users/Yeon Hee Kang/OneDrive/문서/Codex/background-concept-art/concetp-art/outputs/20260910_114238_tiny_shop_balcony/tiny_shop_balcony_candidate.png",
+      "role": "edit_target",
+      "visually_inspected": true,
+      "submitted": true,
+      "sha256": "2f7232893888c4f105084f16408360cac3a8cff2f7854a939f9b18befd26e572"
+    },
+    {
+      "path": "C:/Users/Yeon Hee Kang/OneDrive/문서/Codex/background-concept-art/concetp-art/outputs/20260910_114238_tiny_shop_balcony/structure_plan.png",
+      "role": "structure_guide",
+      "visually_inspected": true,
+      "submitted": true,
+      "sha256": "40c929744af5ed10e6a1bed1274baaccc880b58013cb45f9ce1a782171a95526"
+    }
+  ],
+  "previous_run": "outputs/20260910_114238_tiny_shop_balcony",
+  "mechanism": "referenced_image_paths"
+}

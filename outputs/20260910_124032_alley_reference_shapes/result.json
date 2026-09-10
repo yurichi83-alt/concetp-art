@@ -1,0 +1,9 @@
+{
+  "status": "needs_revision",
+  "source": "C:\\Users\\Yeon Hee Kang\\.codex\\generated_images\\01a08867-7e38-7162-8368-5c8c0df7a0c0\\exec-a52c91f4-d87f-45cc-a979-0487cb69cfee.png",
+  "output": "C:\\Users\\Yeon Hee Kang\\OneDrive\\문서\\Codex\\background-concept-art\\concetp-art\\outputs\\20260910_124032_alley_reference_shapes\\alley_reference_candidate.png",
+  "sha256": "d6fc6d3291ee0684ba2cb135abc5672095fa626a6e29f66d8c19e37855eff402",
+  "reason": "requested polygonal building form insufficient; right building remains mainly rectangular",
+  "next_run": "C:\\Users\\Yeon Hee Kang\\OneDrive\\문서\\Codex\\background-concept-art\\concetp-art\\outputs\\20260910_124620_alley_polygon_building_fix",
+  "master_promoted": false
+}

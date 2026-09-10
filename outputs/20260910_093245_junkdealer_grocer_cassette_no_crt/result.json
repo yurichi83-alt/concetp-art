@@ -1,0 +1,16 @@
+{
+  "run_id": "20260910_093245_junkdealer_grocer_cassette_no_crt",
+  "status": "needs_framing_revision",
+  "structural_status": "needs_revision_C01",
+  "backend": "builtin_image_gen.imagegen",
+  "generation_calls": 1,
+  "requested_final_count": 1,
+  "final_delivered_count": 0,
+  "source_path": "C:\\Users\\Yeon Hee Kang\\.codex\\generated_images\\01a08867-7e38-7162-8368-5c8c0df7a0c0\\exec-c8371366-d5ef-45e2-be24-f82f8b3d9fbe.png",
+  "output_path": "C:\\Users\\Yeon Hee Kang\\OneDrive\\문서\\Codex\\background-concept-art\\concetp-art\\outputs\\20260910_093245_junkdealer_grocer_cassette_no_crt\\junkdealer_grocer_candidate.png",
+  "sha256": "0bd77a671e5e47f0734dfe94d6c3ecaad908e16ecd6a5b65d60d2b7dc0a08de0",
+  "source_and_copy_hash_match": true,
+  "user_approval": "pending",
+  "master_promotion": false,
+  "temporary_test_only": true
+}

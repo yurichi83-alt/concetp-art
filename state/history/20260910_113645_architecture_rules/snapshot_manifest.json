@@ -1,0 +1,18 @@
+{
+  "approval_id": "architecture_entrances_roofs_20260910",
+  "files": {
+    "AGENTS.md": "b826a970103b8366f5a64651002104e74d6ca3612d2610fc2f127e3f2c83f369",
+    "docs/00_INDEX.md": "364bb5ca512be9366d786ce856d4a0f7a215840e7aa37924a7e2eef865d0f2d1",
+    "docs/02_LAYOUT.md": "c5e5a2f4be3b760b5f1594de0aa859dd44534dc3e33294ac12094f014e58411e",
+    "docs/04_WORLD_DESIGN_V2.md": "b80dfa5b8859ca758eff49ef1714fc7b61a50f095ed315376f4a418cc0545637",
+    "docs/05_GENERATION_RULES.md": "23115c4659cd5eb5e899ea83fbcce251c6ef9eed2408934acea7cfc333e4e625",
+    "docs/06_QA.md": "c86bbfa2aec97279ee89511a5e38b785544dea6355a6c1f7c8b3236a1134bfe1",
+    "docs/10_CURRENT_REFERENCES.md": "a6768a369a6a518ae0f6914c7b05a0c7b729b56d5c0e9dc299dc8447e465a1cc",
+    "templates/brief.md": "462dd8b3521a9f2eb17cb43201a937798e4c3f81996befa85a66826578a9264f",
+    "templates/preflight.md": "25d7554763393d997db1c5c9ffbcd9027682f129a628ef3e6c9e911bc3242cff",
+    "templates/review.md": "bf65880390508d7978d5e80de8a3a399f24ac14412a76644f3d6caa32b252bad",
+    "project.json": "6359991067bf27d96261ac189eaa31b6d3af4768ab0eff448fdd02e8e1bce0fe",
+    "state/approvals.json": "bb700bd29df0fa564d358c285f8d5c3bbbdd1a5bcb03cfd7212b9d4a761f72ab",
+    "state/CHANGELOG.md": "f16d541a6f44131a9906851585d38eca0a0e883bcb95752d90e02b038f96a6a9"
+  }
+}

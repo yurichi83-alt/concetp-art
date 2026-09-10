@@ -1,0 +1,72 @@
+{
+  "run_id": "20260910_091407_tiny_shop_cassette_trial",
+  "inspected_for_planning": [
+    {
+      "id": "edit_target",
+      "inspection": "Opened from local output immediately before editing."
+    },
+    {
+      "id": "M03-10",
+      "inspection": "Opened earlier in this conversation; unchanged master."
+    },
+    {
+      "id": "M03-13",
+      "inspection": "Opened earlier in this conversation; unchanged master."
+    },
+    {
+      "id": "M02-01",
+      "inspection": "Opened earlier in this conversation; unchanged master."
+    },
+    {
+      "id": "M04-02",
+      "inspection": "Opened earlier in this conversation; unchanged master."
+    }
+  ],
+  "submitted_to_generation": [
+    {
+      "input_index": 1,
+      "id": "edit_target",
+      "path": "C:/Users/Yeon Hee Kang/OneDrive/문서/Codex/background-concept-art/concetp-art/outputs/20260910_084302_tiny_city_shop_rebuild/tiny_city_shop_day.png",
+      "role": "edit target; preserve full scene and structure, change mechanical design/presence"
+    },
+    {
+      "input_index": 2,
+      "id": "M03-10",
+      "path": "C:/Users/Yeon Hee Kang/OneDrive/문서/Codex/background-concept-art/concetp-art/refs/master03/ldi_10_storefront_style_anchor.png",
+      "role": "primary architectural/material rendering"
+    },
+    {
+      "input_index": 3,
+      "id": "M03-13",
+      "path": "C:/Users/Yeon Hee Kang/OneDrive/문서/Codex/background-concept-art/concetp-art/refs/master03/ldi_13_kiosk_materials.png",
+      "role": "small shop material and frame rendering only"
+    },
+    {
+      "input_index": 4,
+      "id": "M02-01",
+      "path": "C:/Users/Yeon Hee Kang/OneDrive/문서/Codex/background-concept-art/concetp-art/refs/master02/layout_two_exits.png",
+      "role": "two perpendicular rear boundaries and exits, clear center"
+    },
+    {
+      "input_index": 5,
+      "id": "M04-02",
+      "path": "C:/Users/Yeon Hee Kang/OneDrive/문서/Codex/background-concept-art/concetp-art/refs/master04/world_02_heavy_mechanical_arms.png",
+      "role": "functional repaired technology, not character or photoreal surfaces"
+    }
+  ],
+  "delivery_status": "submitted_tool_call_completed",
+  "delivery_mechanism": "image_gen.imagegen.referenced_image_paths",
+  "omitted_references_and_reasons": [
+    {
+      "id": "M01-01",
+      "reason": "Edit target already contains the required full base, camera and cutaways. Preserve those directly while reserving input capacity for small-shop style and world."
+    },
+    {
+      "group": "A-01/A-02, review_only and other outputs",
+      "reason": "Current chosen target alone is used for this specific edit. No output is promoted to master."
+    }
+  ],
+  "scoped_result_approval": "The user authorized this target's temporary test edit; not master approval.",
+  "cassette_reference_mechanism": "User keyword expanded into explicit creative design instructions. No new cassette-futurism source image or master reference was added.",
+  "delivery_evidence": "Edit target and four master file paths were explicitly submitted. Tool returned the image; internal model attention is not asserted."
+}

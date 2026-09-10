@@ -1,0 +1,87 @@
+{
+  "status": "two_final_candidates_visually_reviewed",
+  "backend": "builtin_image_gen",
+  "master_version": "2.3",
+  "execution_version": "1.4",
+  "requested_final_count": 2,
+  "final_count": 2,
+  "independent_initial_generations": true,
+  "cross_reference_found": false,
+  "cassette_correction_scope": "own candidate only, rear exit wall removal",
+  "keywords": "고물상, 식료품 상점 / 낮, 웜톤 / 고물상 건물의 절반은 기계화, 쓰레기통, 굴뚝",
+  "finals": [
+    {
+      "path": "C:\\Users\\Yeon Hee Kang\\OneDrive\\문서\\Codex\\background-concept-art\\concetp-art\\outputs\\20260910_134620_scrapyard_baseline\\scrapyard_grocery_salvage.png",
+      "source": "C:\\Users\\Yeon Hee Kang\\.codex\\generated_images\\01a08867-7e38-7162-8368-5c8c0df7a0c0\\exec-b3ffe47c-c931-4659-a864-3e179eb5b161.png",
+      "sha256": "97d0a6fd4ce8ecb64938b83ebe5ec7fad53e165bf6c855d6f60d7384021f1dcf",
+      "byte_exact_copy": true
+    },
+    {
+      "path": "C:\\Users\\Yeon Hee Kang\\OneDrive\\문서\\Codex\\background-concept-art\\concetp-art\\outputs\\20260910_134620_scrapyard_cassette_routefix\\scrapyard_cassette_final.png",
+      "source": "C:\\Users\\Yeon Hee Kang\\.codex\\generated_images\\01a089a3-c81b-7403-8631-dfe51add7b3c\\exec-02aa5a24-a506-4e88-8de4-cf81d8db5a7d.png",
+      "sha256": "447b4e21c361dffa29b6ab36cefec5a138b43548fbc94780d40056ca48ea59db",
+      "byte_exact_copy": true
+    }
+  ],
+  "actual_inputs_audited": [
+    {
+      "run": "20260910_134620_scrapyard_baseline",
+      "input": "C:\\Users\\Yeon Hee Kang\\OneDrive\\문서\\Codex\\background-concept-art\\concetp-art\\outputs\\20260910_134620_scrapyard_baseline\\structure_plan.png",
+      "sha256": "60f3815156e65673df39d9ac226687ecca68f7f4e924ffc92a6003c1cccaabca"
+    },
+    {
+      "run": "20260910_134620_scrapyard_baseline",
+      "input": "C:\\Users\\Yeon Hee Kang\\OneDrive\\문서\\Codex\\background-concept-art\\concetp-art\\refs\\master02\\layout_two_exits.png",
+      "sha256": "444031765bb112361022fb23f593f3d386907ccb2bd005353b0514ed2f588a26"
+    },
+    {
+      "run": "20260910_134620_scrapyard_baseline",
+      "input": "C:\\Users\\Yeon Hee Kang\\OneDrive\\문서\\Codex\\background-concept-art\\concetp-art\\refs\\master01\\composition_cutaway.png",
+      "sha256": "849912ebad9cd750ca79fba6bd8fce6061a5b0ee169a6da5908c60abae94b1a3"
+    },
+    {
+      "run": "20260910_134620_scrapyard_baseline",
+      "input": "C:\\Users\\Yeon Hee Kang\\OneDrive\\문서\\Codex\\background-concept-art\\concetp-art\\refs\\master03\\ldi_10_storefront_style_anchor.png",
+      "sha256": "c24fe55ad76c6c8bfbd88dee7059a09fd7a592dc60e5d4a6c7c0704f11f19345"
+    },
+    {
+      "run": "20260910_134620_scrapyard_baseline",
+      "input": "C:\\Users\\Yeon Hee Kang\\OneDrive\\문서\\Codex\\background-concept-art\\concetp-art\\refs\\master04\\world_02_heavy_mechanical_arms.png",
+      "sha256": "a71042678c1898320a3d949d0108bde7e6f931c8f1bf8b316a057084be179a3b"
+    },
+    {
+      "run": "20260910_134620_scrapyard_cassette",
+      "input": "C:\\Users\\Yeon Hee Kang\\OneDrive\\문서\\Codex\\background-concept-art\\concetp-art\\outputs\\20260910_134620_scrapyard_cassette\\structure_guide.png",
+      "sha256": "c17c221ec275fa41dbab4152587859a54d283d3303f92a9babda4ac7d048f1dc"
+    },
+    {
+      "run": "20260910_134620_scrapyard_cassette",
+      "input": "C:\\Users\\Yeon Hee Kang\\OneDrive\\문서\\Codex\\background-concept-art\\concetp-art\\refs\\master02\\layout_two_exits.png",
+      "sha256": "444031765bb112361022fb23f593f3d386907ccb2bd005353b0514ed2f588a26"
+    },
+    {
+      "run": "20260910_134620_scrapyard_cassette",
+      "input": "C:\\Users\\Yeon Hee Kang\\OneDrive\\문서\\Codex\\background-concept-art\\concetp-art\\refs\\master01\\composition_cutaway.png",
+      "sha256": "849912ebad9cd750ca79fba6bd8fce6061a5b0ee169a6da5908c60abae94b1a3"
+    },
+    {
+      "run": "20260910_134620_scrapyard_cassette",
+      "input": "C:\\Users\\Yeon Hee Kang\\OneDrive\\문서\\Codex\\background-concept-art\\concetp-art\\refs\\master03\\ldi_10_storefront_style_anchor.png",
+      "sha256": "c24fe55ad76c6c8bfbd88dee7059a09fd7a592dc60e5d4a6c7c0704f11f19345"
+    },
+    {
+      "run": "20260910_134620_scrapyard_cassette",
+      "input": "C:\\Users\\Yeon Hee Kang\\OneDrive\\문서\\Codex\\background-concept-art\\concetp-art\\outputs\\20260910_124032_alley_reference_shapes\\user_cassette_reference.png",
+      "sha256": "ee320904654c74d1dd9dde59bd5fef4840b3cb5d67a6c141983eed51320d001d"
+    },
+    {
+      "run": "20260910_134620_scrapyard_cassette_routefix",
+      "input": "C:\\Users\\Yeon Hee Kang\\OneDrive\\문서\\Codex\\background-concept-art\\concetp-art\\outputs\\20260910_134620_scrapyard_cassette\\scrapyard_cassette_initial.png",
+      "sha256": "ba3343e2e9c2d2bfbf33ebeeeb10263a4e42c90f03773a72e832775b665790be"
+    }
+  ],
+  "reference_hashes_verified": 29,
+  "ratio_scope": "about half scrapyard whole architecture mechanized in both. Visual approximation, separate from per-building rooftop40–80%.",
+  "user_approved": false,
+  "master_promoted": false
+}

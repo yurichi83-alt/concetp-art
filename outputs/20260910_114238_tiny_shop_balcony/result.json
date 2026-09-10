@@ -1,0 +1,20 @@
+{
+  "status": "needs_revision",
+  "file": "tiny_shop_balcony_candidate.png",
+  "source": "C:\\Users\\Yeon Hee Kang\\.codex\\generated_images\\01a08867-7e38-7162-8368-5c8c0df7a0c0\\exec-8f15ad6f-2de9-4483-9737-bf71ffdf5d34.png",
+  "sha256": "2f7232893888c4f105084f16408360cac3a8cff2f7854a939f9b18befd26e572",
+  "source_copy_hash_match": true,
+  "width": 1385,
+  "height": 1136,
+  "backend": "builtin_image_gen",
+  "master_version": "2.2",
+  "execution_rules_version": "1.3",
+  "architectural_revision": "architecture_entrances_roofs_20260910",
+  "requested_final_count": 1,
+  "master_promoted": false,
+  "user_approved": false,
+  "review": "review.md",
+  "prompt": "prompt.txt",
+  "previous_run": null,
+  "next_run": "20260910_114834_balcony_shop_entry_fix"
+}

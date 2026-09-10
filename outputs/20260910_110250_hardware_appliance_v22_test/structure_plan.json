@@ -1,0 +1,161 @@
+{
+  "master_version": "2.2",
+  "projection": {
+    "type": "orthographic",
+    "basis": {
+      "X": [
+        32,
+        18.475208614068027
+      ],
+      "Y": [
+        -32,
+        18.475208614068027
+      ],
+      "Z": [
+        0,
+        -36.950417228136054
+      ]
+    },
+    "origin": [
+      640,
+      310
+    ]
+  },
+  "units": "scene meters for this plan only, not permanent master or pixel measurement",
+  "base": {
+    "footprint": [
+      0,
+      16,
+      0,
+      16
+    ],
+    "top_z": 0,
+    "bottom_z": -1.2,
+    "corner_count": 4,
+    "bevel": false
+  },
+  "virtual_frame": [
+    0,
+    16,
+    0,
+    16,
+    0,
+    16
+  ],
+  "routes": [
+    {
+      "id": "left_exit",
+      "box": [
+        0,
+        8,
+        11,
+        14,
+        0,
+        2.4
+      ],
+      "gate": [
+        0.45,
+        0.8,
+        11,
+        14,
+        0,
+        2.55
+      ]
+    },
+    {
+      "id": "right_exit",
+      "box": [
+        12.3,
+        15.3,
+        0,
+        13.5,
+        0,
+        2.4
+      ],
+      "gate": [
+        12.3,
+        15.3,
+        0.45,
+        0.8,
+        0,
+        2.55
+      ]
+    },
+    {
+      "id": "center",
+      "box": [
+        6,
+        12.3,
+        7,
+        13.5,
+        0,
+        2.4
+      ]
+    },
+    {
+      "id": "hardware_interior",
+      "box": [
+        2.3,
+        4.5,
+        3.1,
+        8.5,
+        0,
+        2.4
+      ]
+    },
+    {
+      "id": "showroom_interior",
+      "box": [
+        8.5,
+        10.0,
+        2.5,
+        6.5,
+        0,
+        2.4
+      ]
+    }
+  ],
+  "obstacles": [
+    {
+      "id": "hardware_body",
+      "box": [
+        1,
+        4.8,
+        1,
+        9.6,
+        0,
+        3.8
+      ]
+    },
+    {
+      "id": "appliance_body",
+      "box": [
+        5.4,
+        11.4,
+        1,
+        6,
+        0,
+        4.94
+      ]
+    },
+    {
+      "id": "rubble_reserved",
+      "box": [
+        4.8,
+        5.7,
+        3.5,
+        8.5,
+        0,
+        0.5
+      ]
+    }
+  ],
+  "building_height_ratio": 1.3000000000000003,
+  "machine_bay_fraction": 0.3333333333333333,
+  "route_collision_results": [],
+  "validation_scope": "axis-aligned plan volumes; final image separately inspected; not a mesh or collider certification",
+  "guide_role": "current-run structure only, not a new approved positive master",
+  "method": "new geometric schematic generated from coordinates; no source/art images edited",
+  "guide_rendering": "depth-buffered coordinate geometry; final submitted guide is structure_plan.png",
+  "superseded_not_input": "structure_plan_painter_draft_not_input.svg"
+}

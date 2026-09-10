@@ -1,0 +1,248 @@
+{
+  "source_master_version": "2.1",
+  "files": [
+    {
+      "path": "AGENTS.md",
+      "sha256": "f890692f83053ae1300561ebe04343bb110a0f4cbffe1dab1dc9c985926bf5a3"
+    },
+    {
+      "path": "README_KO.md",
+      "sha256": "b7ce6bf8904c3954f1271a8e6d5fd7b550382f95590ef9f7e3cc7eff741bc2e8"
+    },
+    {
+      "path": "START_HERE_KO.md",
+      "sha256": "342f4bcd472eab246de20c66c4f2068f9eb75064615640a20f6dbd1325595604"
+    },
+    {
+      "path": "FIRST_MESSAGE.txt",
+      "sha256": "0be54f0b3da139d224b13870878a94336660789fda02c53fd19a317e552f0b5e"
+    },
+    {
+      "path": "docs/00_INDEX.md",
+      "sha256": "844af1867342ed8986d740fd1fbe08eddda8ca9886fdd70bba7e79230db0fa4f"
+    },
+    {
+      "path": "docs/01_COMPOSITION.md",
+      "sha256": "d9786a433b77db7a4b9e9707a43955d31c967e9d85b191173343690241d4b27f"
+    },
+    {
+      "path": "docs/02_LAYOUT.md",
+      "sha256": "f47100a4647ea0d992103c0f51d8fca61f21cf3e952388916d513f6735d182b2"
+    },
+    {
+      "path": "docs/03_VISUAL_STYLE_V2.md",
+      "sha256": "f7430372eb9ff52dc15cfb4c7de90abf95ee5ad8893ed86b8f75952132b2aed6"
+    },
+    {
+      "path": "docs/04_WORLD_DESIGN_V2.md",
+      "sha256": "c13cd8eef54125e8c2d574557e38508c917743f976642f1631f75c94934e2f81"
+    },
+    {
+      "path": "docs/05_GENERATION_RULES.md",
+      "sha256": "6fec57ec39120c6ba30786f11d6b661ae6135b6e10454f8ecc06d65659dfaa69"
+    },
+    {
+      "path": "docs/06_QA.md",
+      "sha256": "61593f12f717aa9040a07ff05614a901e652763746d0cabcd9411cdb129f17ca"
+    },
+    {
+      "path": "docs/10_CURRENT_REFERENCES.md",
+      "sha256": "8a7f7e6049a56d5dc3243788bf074a28cd62ccc6fbc4ca0baf09c06b4eced4d6"
+    },
+    {
+      "path": ".agents/skills/game-env-art/SKILL.md",
+      "sha256": "e49fb46e06ad6f88fee0df286be0aa9704fc2f3ed4ca222e7abf186780f07511"
+    },
+    {
+      "path": ".agents/skills/game-env-art/agents/openai.yaml",
+      "sha256": "53dded0d081e02cc4975dbf1710e5f6cc27220f22081fd3a475267799b60d0a1"
+    },
+    {
+      "path": "templates/brief.md",
+      "sha256": "de0fdcb88e3810f45307fc71a114f584b9005bdfb1d91dcceb310181c65944af"
+    },
+    {
+      "path": "templates/preflight.md",
+      "sha256": "bae984ead83ea83798327c5548d7512fc9123c8884747f23b53cfe182c17490e"
+    },
+    {
+      "path": "templates/review.md",
+      "sha256": "0bd89508d7ea8ff08cb8dcd7a5affd0f11aa732a64ef92f921dd1dfde0943407"
+    },
+    {
+      "path": "templates/references.json",
+      "sha256": "0bcb572ebe8796b05e5aed47f6f0890fd2f797e8ac21905906f7d7d34364356c"
+    },
+    {
+      "path": "project.json",
+      "sha256": "196baf354af823e7164c912ab26d5a429a51287523ef8307205ff5f5ae9aae0a"
+    },
+    {
+      "path": "refs/manifest.json",
+      "sha256": "12e09b34ed5812eebb4bddd718ff826d9729f49234b3a32133c2fa8803e76158"
+    },
+    {
+      "path": "refs/REFERENCE_MAP.md",
+      "sha256": "4c1da07d79ea69d2f828364cb78f9c544a11030606a630c08a8fbfea442d5669"
+    },
+    {
+      "path": "REFERENCE_INDEX.html",
+      "sha256": "f8edc18abb7e4ab3175851a5a317554deaafd8ca21c7657b0243ddb56ba783bb"
+    },
+    {
+      "path": "state/approvals.json",
+      "sha256": "c89d08d2b5a148d21c890da2e711a18fbb5abc8f60560e0c895cdcddfc795faf"
+    },
+    {
+      "path": "state/CHANGELOG.md",
+      "sha256": "eae7097938f5f5b6069f4d62838a3438154d8e3ef5b611e108b8b9e813b4b4e9"
+    }
+  ],
+  "reference_image_hashes": [
+    {
+      "id": "M01-01",
+      "path": "refs/master01/composition_cutaway.png",
+      "sha256": "849912ebad9cd750ca79fba6bd8fce6061a5b0ee169a6da5908c60abae94b1a3"
+    },
+    {
+      "id": "M02-01",
+      "path": "refs/master02/layout_two_exits.png",
+      "sha256": "444031765bb112361022fb23f593f3d386907ccb2bd005353b0514ed2f588a26"
+    },
+    {
+      "id": "M03-01",
+      "path": "refs/master03/ldi_01_attic.png",
+      "sha256": "44fd28dabb4e15a929ed4c456d50b3cdccf5c1ddd9ce40bf2171337d811c37a1"
+    },
+    {
+      "id": "M03-02",
+      "path": "refs/master03/ldi_02_reading_room.png",
+      "sha256": "1a056798a7c30187aa474edce8760d69b0c5c17884a6a90d0a7667952cdd5ea4"
+    },
+    {
+      "id": "M03-03",
+      "path": "refs/master03/ldi_03_dark_corner.png",
+      "sha256": "100f790c81d8b7d7ed03e794e5b0f18b01f03f8a42d2747be104e7ba3a2ac750"
+    },
+    {
+      "id": "M03-04",
+      "path": "refs/master03/ldi_04_large_interior.png",
+      "sha256": "927a9a7e3252a05749e002ef54c356285c96531a6540a7198c511af63a83d56a"
+    },
+    {
+      "id": "M03-05",
+      "path": "refs/master03/ldi_05_fog_forest.png",
+      "sha256": "25ba7d65d72df2ab73158be93a88555c18880cf05edd7141df247e5da054ea86"
+    },
+    {
+      "id": "M03-06",
+      "path": "refs/master03/ldi_06_night_path.png",
+      "sha256": "17fc77804f384406ed6602d01544ee4da42f284312620a4cb255f93d76be3a13"
+    },
+    {
+      "id": "M03-07",
+      "path": "refs/master03/ldi_07_station.png",
+      "sha256": "9b69c652cfdfebda4e3c1b7dbb3c2263ae435c83fd0cf8afff6b5c124a5464b2"
+    },
+    {
+      "id": "M03-08",
+      "path": "refs/master03/ldi_08_pub_exterior.png",
+      "sha256": "f0c7eceb1e6096cf5f5d62b20837f64c37dec2a769e0e5a49a125655e9e53325"
+    },
+    {
+      "id": "M03-09",
+      "path": "refs/master03/ldi_09_pub_interior.png",
+      "sha256": "529834d0f3ec3c2274032825af530062b04ec4b13489775674eae7a393404ba5"
+    },
+    {
+      "id": "M03-10",
+      "path": "refs/master03/ldi_10_storefront_style_anchor.png",
+      "sha256": "c24fe55ad76c6c8bfbd88dee7059a09fd7a592dc60e5d4a6c7c0704f11f19345"
+    },
+    {
+      "id": "M03-11",
+      "path": "refs/master03/ldi_11_pub_clean_surfaces.png",
+      "sha256": "9046367233123ab4a582c2fcc740986b23a7c37c2b8e331c7cd3768464837ac9"
+    },
+    {
+      "id": "M03-12",
+      "path": "refs/master03/ldi_12_gas_station_building_only.png",
+      "sha256": "442efe855f44adbf96b4ab5ebf036c3f80fec800964a63d17ffbe19b23945648"
+    },
+    {
+      "id": "M03-13",
+      "path": "refs/master03/ldi_13_kiosk_materials.png",
+      "sha256": "9c0812ff9b7b49a558b67a6a68a9e7b719ebab6213c364ab48917e84b24afe4f"
+    },
+    {
+      "id": "M03-14",
+      "path": "refs/master03/ldi_14_attic_structure_light.png",
+      "sha256": "d960230559dae398857ab4f45da18581396cf3083af91c571889fc8da53caa05"
+    },
+    {
+      "id": "M03-15",
+      "path": "refs/master03/ldi_15_street_light_planes.png",
+      "sha256": "784aa1ef3f5d26b0727b21ca23581e9249193af39c7258b4c662fd2e1ce2cf95"
+    },
+    {
+      "id": "M04-01",
+      "path": "refs/master04/world_01_masked_scavenger.png",
+      "sha256": "fce8bd389e0fdfdfc58e8df182fceb398bb038119ed0b38ba5171b0b81e56f12"
+    },
+    {
+      "id": "M04-02",
+      "path": "refs/master04/world_02_heavy_mechanical_arms.png",
+      "sha256": "a71042678c1898320a3d949d0108bde7e6f931c8f1bf8b316a057084be179a3b"
+    },
+    {
+      "id": "M04-03",
+      "path": "refs/master04/world_03_helmet_and_coat.png",
+      "sha256": "b9b19bea6f2c614c738d513c4466cfa69f2ec712656c77bbb466241fa6266ac6"
+    },
+    {
+      "id": "M04-04",
+      "path": "refs/master04/world_04_cloak_and_mechanical_arm.png",
+      "sha256": "cba9f26bc23a28aa13a6b4fb0e36034a97e70a05431978ca7d6da5a76ef26453"
+    },
+    {
+      "id": "M04-05",
+      "path": "refs/master04/world_05_rebuilt_robot.png",
+      "sha256": "43ba4e232f2380db8c1332bc3156dca8cfca830465011eea6ecb5ff571bebec9"
+    },
+    {
+      "id": "M04-06",
+      "path": "refs/master04/world_06_asymmetric_machine.png",
+      "sha256": "cf327580c3a57429457d9210a5d00beea489525de201564d28f57a960af505ea"
+    },
+    {
+      "id": "M04-07",
+      "path": "refs/master04/world_07_repurposed_machine_head.png",
+      "sha256": "86671cce6c441acc094f02cd9a37e928b5f1e056451aedb10e74e8612417982a"
+    },
+    {
+      "id": "R-01",
+      "path": "review_only/dense_pump_station.png",
+      "sha256": "c623f97bb6c526a68311821b975750d8883adcea38d9bd7eee146ae28936ebbc"
+    },
+    {
+      "id": "R-02",
+      "path": "review_only/split_day_night_concept_only.png",
+      "sha256": "aee93b8678072b4da0ca14dd53a1f9e146e931726d87a8251f8dcfb9223cbd5c"
+    },
+    {
+      "id": "R-03",
+      "path": "review_only/store_center_obstructed.png",
+      "sha256": "9825b6bee2543fd94bb553869bda918d3788864eb1903231d387970b2bb29bb8"
+    },
+    {
+      "id": "A-01",
+      "path": "refs/current/night_courtyard.png",
+      "sha256": "c8c3147a1723ac60cdc7021a9de9d6955346dbf985d9713d641ec0cc592ceb44"
+    },
+    {
+      "id": "A-02",
+      "path": "refs/current/day_alley.png",
+      "sha256": "f72ade5e2d3a03faceb13bc594bb345306d7353323dcb302cfdc26789814e756"
+    }
+  ]
+}

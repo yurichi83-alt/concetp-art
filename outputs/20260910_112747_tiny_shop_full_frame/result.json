@@ -1,0 +1,19 @@
+{
+  "status": "candidate_pass",
+  "file": "tiny_city_shop_day.png",
+  "source": "C:\\Users\\Yeon Hee Kang\\.codex\\generated_images\\01a08867-7e38-7162-8368-5c8c0df7a0c0\\exec-1526c0c3-c4ac-47f7-aa0f-6f2045e423ee.png",
+  "sha256": "bb72d694f7dc20a546c8a8ee99c279de49d223ba7ab58cbdb091b3e42ca660e2",
+  "source_hash_match": true,
+  "width": 1385,
+  "height": 1136,
+  "backend": "builtin_image_gen",
+  "master_version": "2.2",
+  "execution_rules_version": "1.3",
+  "requested_final_count": 1,
+  "user_approved": false,
+  "master_promoted": false,
+  "prompt": "prompt.txt",
+  "review": "review.md",
+  "previous_run": "20260910_112435_tiny_shop_cutaway_fix",
+  "next_run": null
+}

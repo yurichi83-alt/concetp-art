@@ -1,0 +1,120 @@
+{
+  "projection": "parallel_orthographic",
+  "world_bounds": [
+    0,
+    0,
+    -3,
+    20,
+    20,
+    6.5
+  ],
+  "camera_mapping": "u=768+(x-y)*34*sqrt(3)/2; v=270+(x+y)*17-z*34",
+  "projected_X_Y_angles_degrees": [
+    30,
+    150
+  ],
+  "constant_extrusion_vertical_px": 102,
+  "buildings": [
+    {
+      "id": "scrapyard",
+      "rects": [
+        [
+          0,
+          0,
+          6,
+          10
+        ],
+        [
+          0,
+          10,
+          4,
+          11.7
+        ]
+      ],
+      "z": [
+        4.4,
+        3.0
+      ],
+      "mechanized_visible_mass_fraction": 0.5,
+      "roof_functional_coverage_plan": 0.55,
+      "entry": "decorative_local_door"
+    },
+    {
+      "id": "auto_repair",
+      "rects": [
+        [
+          9,
+          0,
+          20,
+          6.5
+        ]
+      ],
+      "z": 4.3,
+      "raised_roof_strip": [
+        9,
+        0,
+        20,
+        2,
+        5.0
+      ],
+      "roof_functional_coverage_plan": 0.51,
+      "entry": "service_bay_terminates_in_room_not_map_exit"
+    }
+  ],
+  "protected_routes": [
+    {
+      "exit": "left",
+      "rect": [
+        0,
+        12,
+        10,
+        15
+      ],
+      "height": 3,
+      "state": "open",
+      "connection": "x<0; yardgate at x0 y12..15"
+    },
+    {
+      "exit": "right",
+      "rect": [
+        6.2,
+        0,
+        8.8,
+        13
+      ],
+      "height": 3,
+      "state": "open",
+      "connection": "y<0; separate alley"
+    }
+  ],
+  "central_clear_rect": [
+    7,
+    10,
+    18,
+    19
+  ],
+  "nonbuilding_volumes": [
+    {
+      "id": "wreck",
+      "rect": [
+        1,
+        16.2,
+        4.8,
+        18
+      ],
+      "height": 1.2
+    },
+    {
+      "id": "bins",
+      "rect": [
+        5.2,
+        16.3,
+        6,
+        17.3
+      ],
+      "height": 1
+    }
+  ],
+  "final_evidence": "Inspect actual upper/lower base vectors, paving/footing/roof line families and both routes. Coordinates/guide are not enforced geometry.",
+  "preflight": "PLANNED: orthogonal edges and route/center overlap checks passed, not final-image QA"
+}

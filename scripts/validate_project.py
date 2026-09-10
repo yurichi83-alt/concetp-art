@@ -22,7 +22,7 @@ REQUIRED = [
     "docs/05_GENERATION_RULES.md", "docs/06_QA.md", "docs/07_CODEX_SETUP.md",
     "docs/08_COMMANDS.md", "docs/09_SOURCES.md", "docs/10_CURRENT_REFERENCES.md", "state/setup_status.json",
     "state/approvals.json", "templates/brief.md", "templates/preflight.md",
-    "templates/review.md", "templates/references.json", "outputs/README.md",
+    "templates/review.md", "templates/references.json", "templates/generation_prompt.md", "outputs/README.md",
 ]
 
 def inside(root: Path, rel: str) -> Path:

@@ -1,0 +1,20 @@
+{
+  "inputs": [
+    {
+      "path": "C:\\Users\\Yeon Hee Kang\\OneDrive\\문서\\Codex\\background-concept-art\\concetp-art\\outputs\\20260910_123045_alley_diverse_cassette\\alley_diverse_cassette_candidate.png",
+      "role": "edit target; two cut face contents only",
+      "submitted": true,
+      "visually_inspected": true,
+      "sha256": "4ed9579797fd2ae07590e6bf4139a7b831e71ada720411e0744f71ab229c9cf0"
+    },
+    {
+      "path": "C:\\Users\\Yeon Hee Kang\\OneDrive\\문서\\Codex\\background-concept-art\\concetp-art\\outputs\\20260910_121332_alley_baseline\\alley_baseline.png",
+      "role": "cut face soil/foundation/utility content only; no above-ground design or geometry transfer",
+      "submitted": true,
+      "visually_inspected": true,
+      "sha256": "84c90b8ce8cfc5b09bae6bd6eee07e7b7b0849dbedc2103a677f554b2cb412eb"
+    }
+  ],
+  "mechanism": "referenced_image_paths",
+  "scope": "local correction supported by structural_auto_correction_20260909; no generated master promotion"
+}

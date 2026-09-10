@@ -1,0 +1,20 @@
+{
+  "status": "candidate_pass",
+  "file": "tiny_city_shop_balcony_day.png",
+  "source": "C:\\Users\\Yeon Hee Kang\\.codex\\generated_images\\01a08867-7e38-7162-8368-5c8c0df7a0c0\\exec-9b664a65-3447-4f1c-82e4-7126e82f088b.png",
+  "sha256": "19c9200443dfac0cd1df4d5219be3a0b917f99e675dc162db6b70e01410059d6",
+  "source_copy_hash_match": true,
+  "width": 1385,
+  "height": 1136,
+  "backend": "builtin_image_gen",
+  "master_version": "2.2",
+  "execution_rules_version": "1.3",
+  "architectural_revision": "architecture_entrances_roofs_20260910",
+  "requested_final_count": 1,
+  "master_promoted": false,
+  "user_approved": false,
+  "review": "review.md",
+  "prompt": "prompt.txt",
+  "previous_run": "20260910_114238_tiny_shop_balcony",
+  "next_run": null
+}

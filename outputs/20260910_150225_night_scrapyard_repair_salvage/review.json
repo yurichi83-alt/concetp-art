@@ -1,0 +1,110 @@
+{
+  "image": "C:/Users/Yeon Hee Kang/OneDrive/문서/Codex/background-concept-art/concetp-art/outputs/20260910_150225_night_scrapyard_repair_salvage/night_scrapyard_repair_salvage.png",
+  "native_image_size": [
+    1374,
+    1145
+  ],
+  "status": "needs_revision",
+  "actual_image_opened": true,
+  "projection": "parallel_orthographic",
+  "coordinate_method": "Manual approximate native-image endpoint readings; approximately +/-4px; no image edit. Screen angles not 3D rotation.",
+  "lines": {
+    "base_top_left": {
+      "a": [
+        107,
+        565
+      ],
+      "b": [
+        690,
+        903
+      ],
+      "screen_angle_degrees": 30.103436620579018
+    },
+    "base_bottom_left": {
+      "a": [
+        107,
+        674
+      ],
+      "b": [
+        689,
+        1027
+      ],
+      "screen_angle_degrees": 31.238035064484833
+    },
+    "base_top_right": {
+      "a": [
+        690,
+        903
+      ],
+      "b": [
+        1267,
+        607
+      ],
+      "screen_angle_degrees": -27.157744995694696
+    },
+    "base_bottom_right": {
+      "a": [
+        689,
+        1027
+      ],
+      "b": [
+        1267,
+        708
+      ],
+      "screen_angle_degrees": -28.894442707981813
+    },
+    "repair_roof_right": {
+      "a": [
+        1087,
+        515
+      ],
+      "b": [
+        1265,
+        394
+      ],
+      "screen_angle_degrees": -34.206896879776885
+    },
+    "repair_front_footing_approx": {
+      "a": [
+        765,
+        490
+      ],
+      "b": [
+        1087,
+        681
+      ],
+      "screen_angle_degrees": 30.675049138352765
+    }
+  },
+  "base_corner_vertical_vectors": {
+    "left": [
+      0,
+      109
+    ],
+    "front": [
+      -1,
+      124
+    ],
+    "right": [
+      0,
+      101
+    ]
+  },
+  "qa": {
+    "C01": "PASS",
+    "C02": "FAIL",
+    "C03": "UNCERTAIN: convex impression is not proven physical curvature",
+    "C04": "FAIL",
+    "L01": "PASS",
+    "L02": "UNCERTAIN: right transition appears closed despite planned open state",
+    "L03": "UNCERTAIN: right open-state connection not fully demonstrated",
+    "L04": "PASS",
+    "L05": "UNCERTAIN",
+    "L06": "PASS visible aisle beside car and workbench, depth readable",
+    "L07": "UNCERTAIN: some footing segments occluded by props; roof mismatch alone not footprint rotation",
+    "W04": "PASS two buildings have entries",
+    "W05": "roof functional masses appear broadly within requested coverage, visual estimate",
+    "R01": "all scene materials present; right exit state needs correction"
+  },
+  "correction_strategy": "Reconstruct from own same-scene guide, remove M01/M02 image cameras while retaining their rules through guide/text; do not submit faulty art; explicit equal base vectors and roof-ground axis parallelism."
+}

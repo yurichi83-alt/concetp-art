@@ -1,0 +1,160 @@
+{
+  "projection": "single orthographic XYZ basis from depth-buffer renderer",
+  "base": [
+    0,
+    16,
+    0,
+    16,
+    -1.6,
+    0
+  ],
+  "roofs": {
+    "left": {
+      "area": 32,
+      "footprints": [
+        [
+          1.3,
+          3.3,
+          1.5,
+          5.5
+        ],
+        [
+          3.5,
+          4.7,
+          1.5,
+          5.5
+        ],
+        [
+          1.3,
+          3.3,
+          6,
+          8.5
+        ]
+      ],
+      "fraction": 0.5562499999999999
+    },
+    "right": {
+      "area": 29.639999999999997,
+      "footprints": [
+        [
+          8.3,
+          11.4,
+          1.4,
+          4.5
+        ],
+        [
+          8.3,
+          10.5,
+          5,
+          7.8
+        ]
+      ],
+      "fraction": 0.5320512820512819
+    },
+    "shop": {
+      "area": 12.600000000000001,
+      "footprints": [
+        [
+          5.2,
+          6.55,
+          6.1,
+          8.5
+        ],
+        [
+          6.7,
+          7.8,
+          6.1,
+          8.5
+        ]
+      ],
+      "fraction": 0.4666666666666665
+    }
+  },
+  "doors": {
+    "left": "ground door x2.2..3.5 y9, second-floor balcony door",
+    "right": "ground roller shutter x9..10.95 y8.8",
+    "shop": "open front y9.2, clear aisle x5.9..7.6"
+  },
+  "protected_routes": {
+    "left": [
+      0,
+      8,
+      11,
+      14,
+      0,
+      2.4
+    ],
+    "right": [
+      13,
+      15.5,
+      0,
+      14,
+      0,
+      2.4
+    ],
+    "center": [
+      6,
+      13,
+      10,
+      14,
+      0,
+      2.4
+    ]
+  },
+  "objects": {
+    "left_building": [
+      1,
+      5,
+      1,
+      9,
+      0,
+      5.3
+    ],
+    "right_building": [
+      8,
+      11.8,
+      1,
+      8.8,
+      0,
+      5.6
+    ],
+    "shop": [
+      5,
+      8,
+      5,
+      9.6,
+      0,
+      3.2
+    ],
+    "balcony": [
+      1.3,
+      4.8,
+      9,
+      10.3,
+      2.1,
+      3.85
+    ]
+  },
+  "route_collisions": [],
+  "notes": "current-run geometry only; roof fractions are plan footprints, not final pixel measurement; total planned heights <=6.35",
+  "inherited_plan": "outputs\\20260910_114238_tiny_shop_balcony\\structure_plan.json",
+  "edit_type": "additive; preserve existing camera/buildings/base",
+  "motorcycle": {
+    "count": 1,
+    "envelope_including_handlebars_and_stand": [
+      11.9,
+      12.75,
+      4.1,
+      6.5,
+      0,
+      1.45
+    ],
+    "orientation": "parallel to side wall, wheels along Y",
+    "protected_route_intersections": []
+  },
+  "facade_edits": {
+    "white_building": "one window and one vent on visible second-storey wall; balcony door retained",
+    "blue_building": "torn posters and graffiti on side wall ground-floor level facing right gate path"
+  },
+  "metric_limit": "plan coordinates only, final image separately reviewed"
+}

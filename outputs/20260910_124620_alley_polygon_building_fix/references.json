@@ -1,0 +1,12 @@
+{
+  "inputs": [
+    {
+      "path": "C:\\Users\\Yeon Hee Kang\\OneDrive\\문서\\Codex\\background-concept-art\\concetp-art\\outputs\\20260910_124032_alley_reference_shapes\\alley_reference_candidate.png",
+      "role": "local architectural geometry edit target, preserve cassette machinery and base",
+      "submitted": true,
+      "visually_inspected": true,
+      "sha256": "d6fc6d3291ee0684ba2cb135abc5672095fa626a6e29f66d8c19e37855eff402"
+    }
+  ],
+  "mechanism": "referenced_image_paths"
+}

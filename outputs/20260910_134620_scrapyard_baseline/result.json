@@ -1,0 +1,26 @@
+{
+  "status": "candidate_pass",
+  "backend": "builtin_image_gen",
+  "master_version": "2.3",
+  "execution_version": "1.4",
+  "source": "C:\\Users\\Yeon Hee Kang\\.codex\\generated_images\\01a08867-7e38-7162-8368-5c8c0df7a0c0\\exec-b3ffe47c-c931-4659-a864-3e179eb5b161.png",
+  "output": "C:\\Users\\Yeon Hee Kang\\OneDrive\\문서\\Codex\\background-concept-art\\concetp-art\\outputs\\20260910_134620_scrapyard_baseline\\scrapyard_grocery_salvage.png",
+  "sha256": "97d0a6fd4ce8ecb64938b83ebe5ec7fad53e165bf6c855d6f60d7384021f1dcf",
+  "source_copy_hash_match": true,
+  "size": [
+    1385,
+    1136
+  ],
+  "requested_final_count": 1,
+  "pair_total_requested": 2,
+  "generation_mode": "independent_new_scene",
+  "cassette_futurism": false,
+  "scrapyard_mechanized_fraction_target": 0.5,
+  "final_fraction_validation": "visual approximation, not exact volume measurement",
+  "paired_output_input": false,
+  "user_approved": false,
+  "master_promoted": false,
+  "prompt": "prompt.txt",
+  "review": "review.md",
+  "reference_hashes_verified": 29
+}

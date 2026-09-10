@@ -1,0 +1,33 @@
+{
+  "status": "candidate_pass",
+  "output_file": "hardware_appliance_v22_test.png",
+  "source_file": "C:\\Users\\Yeon Hee Kang\\.codex\\generated_images\\01a08867-7e38-7162-8368-5c8c0df7a0c0\\exec-f3db2498-fd75-48a1-9ecd-6d4258716192.png",
+  "width": 1385,
+  "height": 1136,
+  "sha256": "6241d33f585f782728789e7a1c055c52f3faa2b99e9c30bdb79df5f1de721816",
+  "source_copy_hash_match": true,
+  "backend": "builtin_image_gen",
+  "actual_generated_image_count": 1,
+  "requested_final_image_count": 1,
+  "master_version": "2.2",
+  "execution_rules_version": "1.3",
+  "review": "review.md",
+  "user_approved": false,
+  "master_promoted": false,
+  "prompt_file": "prompt.txt",
+  "references_file": "references.json",
+  "previous_run": "outputs\\20260910_110250_hardware_appliance_v22_test",
+  "structural_correction": "L06 hardware room entry; local rubble and wall stump removal",
+  "structural_checks": {
+    "C01": "PASS",
+    "C02": "PASS",
+    "C03": "PASS",
+    "C04": "PASS",
+    "L01": "PASS",
+    "L02": "PASS",
+    "L03": "PASS",
+    "L04": "PASS",
+    "L05": "PASS",
+    "L06": "PASS"
+  }
+}

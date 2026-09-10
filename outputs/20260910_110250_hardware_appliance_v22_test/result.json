@@ -1,0 +1,20 @@
+{
+  "status": "needs_revision",
+  "output_file": "hardware_appliance_v22_candidate.png",
+  "source_file": "C:\\Users\\Yeon Hee Kang\\.codex\\generated_images\\01a08867-7e38-7162-8368-5c8c0df7a0c0\\exec-b2569ac4-7c7b-40b7-94cd-9f0297b15d09.png",
+  "width": 1385,
+  "height": 1136,
+  "sha256": "5c6a627a10d1d93d1f3a9cf940ac0f4f93898aa4ff23bd96bb89596fa0c0c14a",
+  "source_copy_hash_match": true,
+  "backend": "builtin_image_gen",
+  "actual_generated_image_count": 1,
+  "requested_final_image_count": 1,
+  "master_version": "2.2",
+  "execution_rules_version": "1.3",
+  "review": "review.md",
+  "user_approved": false,
+  "master_promoted": false,
+  "prompt_file": "prompt.txt",
+  "references_file": "references.json",
+  "next_run": "outputs\\20260910_111121_hardware_interior_access_fix"
+}

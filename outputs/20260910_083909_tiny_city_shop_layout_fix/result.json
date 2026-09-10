@@ -1,0 +1,17 @@
+{
+  "run_id": "20260910_083909_tiny_city_shop_layout_fix",
+  "previous_run": "20260910_083443_tiny_city_shop_day",
+  "status": "needs_structural_revision",
+  "structural_status": "needs_revision",
+  "backend": "builtin_image_gen.imagegen",
+  "generation_calls": 1,
+  "task_generation_calls_so_far": 2,
+  "requested_final_count": 1,
+  "final_delivered_count": 0,
+  "source_path": "C:\\Users\\Yeon Hee Kang\\.codex\\generated_images\\01a08867-7e38-7162-8368-5c8c0df7a0c0\\exec-a48aee9e-247b-4cb9-9a03-0b1e38d07c91.png",
+  "output_path": "C:\\Users\\Yeon Hee Kang\\OneDrive\\문서\\Codex\\background-concept-art\\concetp-art\\outputs\\20260910_083909_tiny_city_shop_layout_fix\\tiny_city_shop_layout_candidate.png",
+  "sha256": "1c327a5a0aa9899359a70a0093e1f1bea07745979dfbe67ca411b7bb21752751",
+  "source_and_copy_hash_match": true,
+  "user_approval": "none",
+  "master_promotion": false
+}

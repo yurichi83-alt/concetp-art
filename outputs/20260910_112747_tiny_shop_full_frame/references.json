@@ -1,0 +1,13 @@
+{
+  "inputs": [
+    {
+      "path": "C:/Users/Yeon Hee Kang/OneDrive/문서/Codex/background-concept-art/concetp-art/outputs/20260910_112435_tiny_shop_cutaway_fix/tiny_shop_cutaway_candidate.png",
+      "role": "edit_target",
+      "visually_inspected": true,
+      "submitted": true,
+      "sha256": "3c21d4acb9f4a05d63fa1410568209d20c9908276ce01fc10aee1b7916c7a514"
+    }
+  ],
+  "prior_run": "outputs/20260910_112435_tiny_shop_cutaway_fix",
+  "mechanism": "referenced_image_paths"
+}

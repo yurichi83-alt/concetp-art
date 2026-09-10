@@ -1,0 +1,73 @@
+{
+  "projection": "one orthographic XYZ basis; renderer preserved from tested geometric schematic, scene replaced",
+  "base": [
+    0,
+    16,
+    0,
+    16,
+    -1.1,
+    0
+  ],
+  "routes": {
+    "left": [
+      0,
+      8,
+      11,
+      14
+    ],
+    "right": [
+      13,
+      15.5,
+      0,
+      14
+    ],
+    "center": [
+      6,
+      13,
+      10,
+      14
+    ]
+  },
+  "building_and_prop_footprints": {
+    "left_building": [
+      1,
+      5,
+      1,
+      9
+    ],
+    "right_building": [
+      8,
+      11.8,
+      1,
+      8.8
+    ],
+    "tiny_shop": [
+      5,
+      8,
+      5,
+      9.65
+    ],
+    "small_prop": [
+      11.9,
+      12.35,
+      7.4,
+      8.2
+    ]
+  },
+  "heights": [
+    6.0,
+    6.4,
+    2.75
+  ],
+  "walk_volume_height": 2.5,
+  "shop_clear_aisle": [
+    5.9,
+    7.6,
+    5.9,
+    9.2
+  ],
+  "route_collisions": [],
+  "frame": "single cubic virtual volume",
+  "numeric_scope": "this scene only, final raster not metric-certified",
+  "guide_role": "new current-run coordinate diagram; not master promotion"
+}

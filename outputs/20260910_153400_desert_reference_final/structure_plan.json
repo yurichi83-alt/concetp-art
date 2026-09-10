@@ -1,0 +1,81 @@
+{
+  "projection": "parallel_orthographic",
+  "mapping": "u=768+(x-y)*29.44486;v=280+(x+y)*17-z*34",
+  "base": [
+    0,
+    0,
+    20,
+    20
+  ],
+  "depth": 2.6,
+  "constant_depth_screen_px": 88.4,
+  "buildings": [
+    {
+      "id": "hangar",
+      "footprint": [
+        0,
+        0,
+        6,
+        11
+      ],
+      "roof": "semicylinder x crosssection radius3 above z2, extrudedalongY",
+      "entry": "terminatingworkroom",
+      "roof_coverage_plan": 0.5
+    },
+    {
+      "id": "service_tower",
+      "footprint": [
+        9,
+        0,
+        20,
+        5
+      ],
+      "roof": "steppedlevelplatforms, heightmax6.1",
+      "entry": "decorativeclosedhumanentry",
+      "roof_coverage_plan": 0.6
+    }
+  ],
+  "central_clear": [
+    7,
+    7,
+    18,
+    18
+  ],
+  "routes": [
+    {
+      "side": "left11",
+      "rect": [
+        0,
+        13,
+        10,
+        16
+      ],
+      "state": "preclearclosedgate",
+      "postclear": "x<0"
+    },
+    {
+      "side": "right1",
+      "rect": [
+        6.1,
+        0,
+        8.9,
+        14
+      ],
+      "state": "preclearclosedgate",
+      "postclear": "y<0"
+    }
+  ],
+  "props": [
+    {
+      "id": "vehicle",
+      "rect": [
+        1.3,
+        17,
+        5,
+        19
+      ]
+    }
+  ],
+  "guide_not_enforced_geometry": true,
+  "final_QA_pending": true
+}

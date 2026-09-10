@@ -1,0 +1,12 @@
+{
+  "image": "C:/Users/Yeon Hee Kang/OneDrive/문서/Codex/background-concept-art/concetp-art/outputs/20260910_154355_harbor_reference/harbor_outpost.png",
+  "source_image": "C:/Users/Yeon Hee Kang/.codex/generated_images/01a08867-7e38-7162-8368-5c8c0df7a0c0/exec-2db02345-0bbd-478c-ae98-f0798b645e4a.png",
+  "status": "uncertain",
+  "structural_status": "uncertain",
+  "sha256": "CD503F41A0CC36DB0CAEF99749CBB56524EE46525B780EF8AFA549643A49ADD3",
+  "image_count": 1,
+  "input_reference_count": 4,
+  "master_modified": false,
+  "review": "review.json",
+  "prompt": "generation_prompt.md"
+}

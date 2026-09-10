@@ -1,0 +1,19 @@
+{
+  "status": "candidate_pass",
+  "backend": "builtin_image_gen",
+  "file": "all_machines_cassette_futurism.png",
+  "source": "C:\\Users\\Yeon Hee Kang\\.codex\\generated_images\\01a08867-7e38-7162-8368-5c8c0df7a0c0\\exec-717b99b5-8061-4fe5-8303-1af14ccaac39.png",
+  "sha256": "69716edaf6d713317a8095c0f8e91a8883008cd9783da48827306a76856f8d34",
+  "source_copy_hash_match": true,
+  "width": 1385,
+  "height": 1136,
+  "master_version": "2.2",
+  "execution_rules_version": "1.3",
+  "actual_generation_count": 1,
+  "requested_final_count": 1,
+  "master_promoted": false,
+  "user_approved": false,
+  "review": "review.md",
+  "prompt": "prompt.txt",
+  "reference_hashes_verified": 29
+}

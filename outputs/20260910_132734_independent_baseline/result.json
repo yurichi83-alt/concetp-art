@@ -1,0 +1,24 @@
+{
+  "status": "candidate_pass",
+  "backend": "builtin_image_gen",
+  "master_version": "2.3",
+  "execution_version": "1.4",
+  "source": "C:\\Users\\Yeon Hee Kang\\.codex\\generated_images\\01a08867-7e38-7162-8368-5c8c0df7a0c0\\exec-fac8296f-ef58-4a75-8256-f529d87ed189.png",
+  "output": "C:\\Users\\Yeon Hee Kang\\OneDrive\\문서\\Codex\\background-concept-art\\concetp-art\\outputs\\20260910_132734_independent_baseline\\independent_alley_baseline.png",
+  "sha256": "d1e90900944de36c1cf507950281c67a8a86093f8cfd0f9398be38367a4047a1",
+  "source_copy_hash_match": true,
+  "size": [
+    1385,
+    1136
+  ],
+  "requested_final_count": 1,
+  "pair_total_requested": 2,
+  "generation_mode": "independent_new_scene",
+  "cassette_futurism": false,
+  "paired_output_input": false,
+  "user_approved": false,
+  "master_promoted": false,
+  "prompt": "prompt.txt",
+  "review": "review.md",
+  "reference_hashes_verified": 29
+}

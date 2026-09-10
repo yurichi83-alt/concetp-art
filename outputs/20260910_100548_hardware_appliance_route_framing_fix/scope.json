@@ -1,0 +1,12 @@
+{
+  "run_id": "20260910_100548_hardware_appliance_route_framing_fix",
+  "previous_run": "20260910_100011_hardware_appliance_salvage_rebuild",
+  "active_user_direction": "All buildings and manufactured props use Salvage Cyberpunk unless user explicitly requests an exception.",
+  "applies_to_future_requests": true,
+  "cassette_futurism": "retained including appliances",
+  "crt_and_video_screens": false,
+  "master_update_authorized": false,
+  "master_promotion": false,
+  "user_approval_of_result": "pending"
+}
+

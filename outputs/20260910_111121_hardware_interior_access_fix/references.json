@@ -1,0 +1,45 @@
+{
+  "input_limit": 5,
+  "inputs": [
+    {
+      "order": 1,
+      "path": "C:/Users/Yeon Hee Kang/OneDrive/문서/Codex/background-concept-art/concetp-art/outputs/20260910_110250_hardware_appliance_v22_test/hardware_appliance_v22_candidate.png",
+      "role": "edit_target",
+      "visually_inspected": true,
+      "submitted": true,
+      "input_status": "submitted_via_referenced_image_paths",
+      "sha256": "5c6a627a10d1d93d1f3a9cf940ac0f4f93898aa4ff23bd96bb89596fa0c0c14a"
+    },
+    {
+      "order": 2,
+      "path": "C:/Users/Yeon Hee Kang/OneDrive/문서/Codex/background-concept-art/concetp-art/refs/master02/layout_two_exits.png",
+      "role": "layout_guardrail",
+      "visually_inspected": true,
+      "submitted": true,
+      "input_status": "submitted_via_referenced_image_paths",
+      "sha256": "444031765bb112361022fb23f593f3d386907ccb2bd005353b0514ed2f588a26"
+    },
+    {
+      "order": 3,
+      "path": "C:/Users/Yeon Hee Kang/OneDrive/문서/Codex/background-concept-art/concetp-art/refs/master03/ldi_10_storefront_style_anchor.png",
+      "role": "style_only",
+      "visually_inspected": true,
+      "submitted": true,
+      "input_status": "submitted_via_referenced_image_paths",
+      "sha256": "c24fe55ad76c6c8bfbd88dee7059a09fd7a592dc60e5d4a6c7c0704f11f19345"
+    },
+    {
+      "order": 4,
+      "path": "C:/Users/Yeon Hee Kang/OneDrive/문서/Codex/background-concept-art/concetp-art/refs/master04/world_02_heavy_mechanical_arms.png",
+      "role": "world_design_only",
+      "visually_inspected": true,
+      "submitted": true,
+      "input_status": "submitted_via_referenced_image_paths",
+      "sha256": "a71042678c1898320a3d949d0108bde7e6f931c8f1bf8b316a057084be179a3b"
+    }
+  ],
+  "structure_guide_inherited_from": "outputs/20260910_110250_hardware_appliance_v22_test/structure_plan.png",
+  "structure_guide_submitted_this_edit": false,
+  "prior_run": "outputs/20260910_110250_hardware_appliance_v22_test",
+  "actual_submitted_count": 4
+}

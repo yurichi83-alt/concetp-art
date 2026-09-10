@@ -1,0 +1,143 @@
+{
+  "source": "C:/Users/Yeon Hee Kang/OneDrive/문서/Codex/background-concept-art/concetp-art/outputs/20260910_134620_scrapyard_baseline/scrapyard_grocery_salvage.png",
+  "source_sha256": "97d0a6fd4ce8ecb64938b83ebe5ec7fad53e165bf6c855d6f60d7384021f1dcf",
+  "review_type": "new_reassessment_preserve_original_logs",
+  "overall_status": "needs_revision",
+  "previous_status": "candidate_pass",
+  "method": "Manual approximate image endpoints at native1385x1136; arithmetic2Dangles only, not inferred3D rotations or fitted perspective model.",
+  "axes": [
+    {
+      "id": "base_top_left",
+      "a": [
+        44,
+        610
+      ],
+      "b": [
+        750,
+        942
+      ],
+      "angle_degrees": 25.185488285100984
+    },
+    {
+      "id": "roof_front",
+      "a": [
+        829,
+        404
+      ],
+      "b": [
+        1128,
+        502
+      ],
+      "angle_degrees": 18.14703275636492
+    },
+    {
+      "id": "base_top_right",
+      "a": [
+        750,
+        942
+      ],
+      "b": [
+        1352,
+        622
+      ],
+      "angle_degrees": -27.99339013776443
+    },
+    {
+      "id": "roof_right",
+      "a": [
+        1128,
+        502
+      ],
+      "b": [
+        1283,
+        390
+      ],
+      "angle_degrees": -35.85114701420616
+    },
+    {
+      "id": "base_bottom_left",
+      "a": [
+        44,
+        697
+      ],
+      "b": [
+        750,
+        1066
+      ],
+      "angle_degrees": 27.59439855735125
+    },
+    {
+      "id": "base_bottom_right",
+      "a": [
+        750,
+        1066
+      ],
+      "b": [
+        1352,
+        710
+      ],
+      "angle_degrees": -30.598462249848186
+    }
+  ],
+  "vertical_samples": [
+    {
+      "position": "left",
+      "top": [
+        44,
+        610
+      ],
+      "bottom": [
+        44,
+        697
+      ],
+      "screen_height_px": 87
+    },
+    {
+      "position": "near_corner",
+      "top": [
+        750,
+        942
+      ],
+      "bottom": [
+        750,
+        1066
+      ],
+      "screen_height_px": 124
+    },
+    {
+      "position": "right",
+      "top": [
+        1352,
+        622
+      ],
+      "bottom": [
+        1352,
+        710
+      ],
+      "screen_height_px": 88
+    }
+  ],
+  "qa": {
+    "C04": "FAIL",
+    "C02": "FAIL_relative_to_planned_parallel_projection",
+    "C03": "UNCERTAIN",
+    "L07": "UNCERTAIN"
+  },
+  "curvature_claim": "Physical convex floor not established. Mostly straight visible top outline; perspective/depth/lighting may contribute to convex impression.",
+  "input_overflow_evidence": false,
+  "master_changed": false,
+  "original_image_changed": false,
+  "original_qa_logs_changed": false,
+  "image_generation_performed": false,
+  "official_sources": [
+    "https://developers.openai.com/api/docs/guides/image-generation",
+    "https://developers.openai.com/api/docs/guides/image-prompting",
+    "https://learn.chatgpt.com/docs/image-generation"
+  ],
+  "submitted_input_stats": {
+    "characters": 7629,
+    "whitespace_words": 1103,
+    "utf8_bytes": 7631,
+    "reference_image_count": 5
+  }
+}

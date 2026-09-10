@@ -1,0 +1,36 @@
+# Render the new 3D schematic with a depth buffer; avoid painter-order occlusion errors.
+canvas=np.full((H,W,3),[23,33,46],dtype=np.uint8)
+depth=np.full((H,W),-1e9,dtype=float)
+def rgb(c):
+ return tuple(int(c[i:i+2],16) for i in (1,3,5))
+def tri(v,col):
+ q=np.array([p(a) for a in v]); zz=np.array([sum(a) for a in v])
+ xmin=max(0,int(np.floor(q[:,0].min()))); xmax=min(W-1,int(np.ceil(q[:,0].max())))
+ ymin=max(0,int(np.floor(q[:,1].min()))); ymax=min(H-1,int(np.ceil(q[:,1].max())))
+ xx,yy=np.meshgrid(np.arange(xmin,xmax+1)+.5,np.arange(ymin,ymax+1)+.5)
+ den=(q[1,1]-q[2,1])*(q[0,0]-q[2,0])+(q[2,0]-q[1,0])*(q[0,1]-q[2,1])
+ if abs(den)<1e-9: return
+ a=((q[1,1]-q[2,1])*(xx-q[2,0])+(q[2,0]-q[1,0])*(yy-q[2,1]))/den
+ b=((q[2,1]-q[0,1])*(xx-q[2,0])+(q[0,0]-q[2,0])*(yy-q[2,1]))/den
+ c=1-a-b; z=a*zz[0]+b*zz[1]+c*zz[2]
+ db=depth[ymin:ymax+1,xmin:xmax+1]
+ mask=(a>=-.0001)&(b>=-.0001)&(c>=-.0001)&(z>=db)
+ db[mask]=z[mask]; canvas[ymin:ymax+1,xmin:xmax+1][mask]=rgb(col)
+for v,col,stroke,width in faces:
+ for k in range(1,len(v)-1): tri([v[0],v[k],v[k+1]],col)
+def depthline(a,b,col,width):
+ x1,y1=p(a); x2,y2=p(b)
+ count=max(2,int(max(abs(x2-x1),abs(y2-y1))*2))
+ for t in np.linspace(0,1,count):
+  x=round(x1+(x2-x1)*t); y=round(y1+(y2-y1)*t); z=sum(a)+(sum(b)-sum(a))*t
+  for dx in range(-(width//2),width//2+1):
+   for dy in range(-(width//2),width//2+1):
+    u,vv=x+dx,y+dy
+    if 0<=u<W and 0<=vv<H and z+.07>=depth[vv,u]: canvas[vv,u]=rgb(col)
+for v,col,stroke,width in faces:
+ for a,b in zip(v,v[1:]+v[:1]): depthline(a,b,stroke,width)
+for v,col,width in segments:
+ for a,b in zip(v,v[1:]): depthline(a,b,col,width)
+im=Image.fromarray(canvas)
+im.save(RUN/'structure_plan.png')
+

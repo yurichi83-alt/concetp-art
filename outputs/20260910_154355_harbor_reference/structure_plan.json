@@ -1,0 +1,91 @@
+{
+  "projection": "single_coherent_mild_perspective",
+  "camera": {
+    "distance": 95,
+    "focal_pixel": 3400,
+    "elevation_degrees": 38,
+    "azimuth_degrees": 45,
+    "target": [
+      10,
+      10,
+      0
+    ]
+  },
+  "squarebase": [
+    0,
+    0,
+    20,
+    20
+  ],
+  "depth": 2.5,
+  "buildings": [
+    {
+      "id": "left_workshop",
+      "rect": [
+        0,
+        0,
+        6,
+        10
+      ],
+      "height": 5.8,
+      "roofcoverage": 0.55
+    },
+    {
+      "id": "right_store",
+      "rect": [
+        8,
+        0,
+        15,
+        5.5
+      ],
+      "height": 4.5,
+      "roofcoverage": 0.56
+    }
+  ],
+  "routes": [
+    {
+      "gate": "left11",
+      "rect": [
+        0,
+        12,
+        10,
+        15
+      ],
+      "state": "preclearclosed",
+      "onward": "x<0"
+    },
+    {
+      "gate": "right1",
+      "rect": [
+        16,
+        0,
+        19,
+        15
+      ],
+      "state": "preclearclosed",
+      "onward": "y<0"
+    }
+  ],
+  "center": [
+    7,
+    9,
+    15,
+    18
+  ],
+  "props": [
+    [
+      1,
+      17,
+      4,
+      19
+    ],
+    [
+      11.8,
+      6.2,
+      13.7,
+      7.5
+    ]
+  ],
+  "guidance_not_hard_constraint": true,
+  "final_measurement": "sameaxisVP/horizon andconsistentdepth, NOTequalpixelthickness required for perspective"
+}

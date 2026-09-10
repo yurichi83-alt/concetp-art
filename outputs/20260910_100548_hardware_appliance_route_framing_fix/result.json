@@ -1,0 +1,30 @@
+{
+  "run_id": "20260910_100548_hardware_appliance_route_framing_fix",
+  "previous_run": "20260910_100011_hardware_appliance_salvage_rebuild",
+  "original_user_rejected_run": "20260910_094940_ruined_hardware_appliance_night",
+  "status": "candidate_pass",
+  "structural_status": "candidate_pass_visual_only",
+  "backend": "builtin_image_gen.imagegen",
+  "generation_calls_this_run": 1,
+  "generation_calls_current_revision_request": 2,
+  "requested_final_count": 1,
+  "final_delivered_count": 1,
+  "source_path": "C:\\Users\\Yeon Hee Kang\\.codex\\generated_images\\01a08867-7e38-7162-8368-5c8c0df7a0c0\\exec-8b1f5419-bdfd-4c59-9ad0-a5eb8314b4f6.png",
+  "output_path": "C:\\Users\\Yeon Hee Kang\\OneDrive\\문서\\Codex\\background-concept-art\\concetp-art\\outputs\\20260910_100548_hardware_appliance_route_framing_fix\\hardware_appliance_salvage_revised.png",
+  "width": 1254,
+  "height": 1254,
+  "sha256": "55bfd560ccfd8beaa3a08ef1d26c5c9f3fbe38ef77ccc516f32dd012756aa8da",
+  "source_and_copy_hash_match": true,
+  "observed_changes": [
+    "continuous clear right exterior lane and barrier-free gateway",
+    "spacious visible showroom interior floor with sparse perimeter merchandise",
+    "cassette-futurist thick repaired appliance casings and physical controls",
+    "ruined depot rebuilt with reclaimed metal structure and defunct advanced technology",
+    "original breach/rubble/night/solar panels/generator retained"
+  ],
+  "active_user_direction": "All buildings and props use Salvage Cyberpunk unless explicitly excepted by the user; main-reference update deferred.",
+  "green_crt_or_video_screens_observed": false,
+  "quantitative_ratios_and_collider_clearance_verified": false,
+  "user_approval": "pending",
+  "master_promotion": false
+}

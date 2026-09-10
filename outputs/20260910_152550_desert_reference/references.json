@@ -1,0 +1,30 @@
+{
+  "master": "2.4",
+  "execution": "1.5",
+  "planned_inputs": [
+    "C:\\Users\\Yeon Hee Kang\\OneDrive\\문서\\Codex\\background-concept-art\\concetp-art\\outputs\\20260910_152550_desert_reference\\structure_guide.png",
+    "C:\\Users\\Yeon Hee Kang\\OneDrive\\문서\\Codex\\background-concept-art\\concetp-art\\outputs\\20260910_152550_desert_reference\\user_reference.png",
+    "C:\\Users\\Yeon Hee Kang\\OneDrive\\문서\\Codex\\background-concept-art\\concetp-art\\refs\\master03\\ldi_10_storefront_style_anchor.png",
+    "C:\\Users\\Yeon Hee Kang\\OneDrive\\문서\\Codex\\background-concept-art\\concetp-art\\refs\\master04\\world_02_heavy_mechanical_arms.png"
+  ],
+  "submitted_to_generation": [
+    "C:\\Users\\Yeon Hee Kang\\OneDrive\\문서\\Codex\\background-concept-art\\concetp-art\\outputs\\20260910_152550_desert_reference\\structure_guide.png",
+    "C:\\Users\\Yeon Hee Kang\\OneDrive\\문서\\Codex\\background-concept-art\\concetp-art\\outputs\\20260910_152550_desert_reference\\user_reference.png",
+    "C:\\Users\\Yeon Hee Kang\\OneDrive\\문서\\Codex\\background-concept-art\\concetp-art\\refs\\master03\\ldi_10_storefront_style_anchor.png",
+    "C:\\Users\\Yeon Hee Kang\\OneDrive\\문서\\Codex\\background-concept-art\\concetp-art\\refs\\master04\\world_02_heavy_mechanical_arms.png"
+  ],
+  "delivery_status": "returned_image_saved",
+  "roles": [
+    "ONLYgeometrycamera",
+    "userdesertsubject/paletteonly",
+    "M03artonly",
+    "M04designonly"
+  ],
+  "omitted": "M01/M02 visually inspected earlier in same session, spatial constraints retained in own guide/text; omitted images to avoid competing cameras. No prior generated scene input.",
+  "tool": "builtinimagegen",
+  "path_limit_evidence": "previous runtime directly rejected morethan5;4used",
+  "prompt_chars": 4661,
+  "utf8_bytes": 4663,
+  "words": 652,
+  "internal_model_token_rewrite": "unknown"
+}

@@ -8,7 +8,7 @@
       "path": "refs/master01/composition_cutaway.png",
       "group": "master01",
       "title": "쿼터뷰 디오라마·바닥 단면",
-      "use_only": "카메라, 전체 베이스, 두께와 측면 단면만 참고",
+      "use_only": "공통 쿼터뷰 카메라·투영, 기본 베이스 입체, 상하 대응 모서리·두께와 두 평면 단면",
       "exclude": "네온·상점가·일본풍·팔레트·고밀도 재질은 제외",
       "positive_reference": true,
       "source_kind": "user_supplied_master",
@@ -17,15 +17,16 @@
       "height": 908,
       "sha256": "849912ebad9cd750ca79fba6bd8fce6061a5b0ee169a6da5908c60abae94b1a3",
       "reference_role": "master",
-      "generation_input_allowed": true
+      "generation_input_allowed": true,
+      "role_clarification_approval_id": "master_update_20260910_v2_2"
     },
     {
       "id": "M02-01",
       "path": "refs/master02/layout_two_exits.png",
       "group": "master02",
       "title": "상단 두 면 차단·출구 두 개 도해",
-      "use_only": "이동 경계, 각 뒤쪽 면의 출구, 높이 상한만 참고",
-      "exclude": "파란 벽·글자·아이콘·화살표·입구 표시·정중앙 배치는 복사하지 않음",
+      "use_only": "공통 바닥과 기본 입체, 상단 좌·우 직교 경계 방향과 기능 출구 하나씩, 상태에 맞는 접근 및 개방 후 연결 동선, 높이 상한. 각 면 중앙·중간·끝 위치와 출구 형태 가변; 건물 입구 겸용 가능",
+      "exclude": "파란 벽·글자·아이콘·화살표·입구 표시와 도해의 문틀/좌표를 의무 복제하지 않음. 중앙 배치 금지가 아니며 중앙·편심·끝 모두 가능",
       "positive_reference": true,
       "source_kind": "user_supplied_master",
       "original_filename": "54d26c18-3796-4483-a123-58e19f9d4ae4.png",
@@ -33,7 +34,8 @@
       "height": 696,
       "sha256": "444031765bb112361022fb23f593f3d386907ccb2bd005353b0514ed2f588a26",
       "reference_role": "master",
-      "generation_input_allowed": true
+      "generation_input_allowed": true,
+      "role_clarification_approval_id": "master_update_20260910_v2_3"
     },
     {
       "id": "M03-01",
@@ -516,7 +518,9 @@
     }
   ],
   "preferred_result_count": 2,
-  "master_version": "2.1",
+  "master_version": "2.4",
   "original_master_image_count": 19,
-  "approved_supplement_count": 5
+  "approved_supplement_count": 5,
+  "geometry_role_clarification_approval_id": "master_update_20260910_v2_3",
+  "execution_and_geometry_review_approval_id": "master_update_20260910_v2_4"
 }

@@ -1,0 +1,366 @@
+{
+  "master_version": "2.4",
+  "execution_rules_version": "1.5",
+  "image": "C:\\Users\\Yeon Hee Kang\\OneDrive\\문서\\Codex\\background-concept-art\\concetp-art\\outputs\\20260910_151850_night_scrapyard_repair_cassette_rebuild\\night_scrapyard_repair_cassette.png",
+  "native_dimensions": [
+    1377,
+    1142
+  ],
+  "actually_opened": true,
+  "planned_projection": "parallel_orthographic",
+  "plan_is_not_final_evidence": true,
+  "status": "needs_revision",
+  "structural_status": "needs_revision",
+  "user_approval": null,
+  "selected_final_candidate": true,
+  "checks": {
+    "C01": {
+      "status": "PASS",
+      "evidence": "one completequarterviewdi orama, fullbase and rearboundaries framed"
+    },
+    "C02": {
+      "status": "UNCERTAIN",
+      "evidence": "Bothcutfaces visible andstraight. Upperleft/rightcorners are partly covered by rearwall joins; observed displacement estimates84,99,104px differ. They do not prove constantdepth under selectedparallelcamera. No falsePASS."
+    },
+    "C03": {
+      "status": "PASS",
+      "evidence": "Visiblelongperimeter edges straight, fourcorner rectangularblock impression without visible bevel orcurve; physical3Dplanarity/curvature unproven."
+    },
+    "C04": {
+      "status": "FAIL",
+      "evidence": "SameXfamily localbuilding roof/footing andglobalbase do not fully agree. JunkyardfootingX~26.25deg androofX~27.18deg vsbaseupperX~28.92deg. Shortsegment uncertainty affects exactdifference, butcommoncamera hasnotbeenpreserved reliably. Screenangles arenotphysical3Dyaw."
+    },
+    "L01": {
+      "status": "PASS",
+      "evidence": "Rearbarriers connect through two buildings and wallsegments, no unintendedthirdgap."
+    },
+    "L02": {
+      "status": "PASS",
+      "evidence": "Exactly two assignedfunctionalclosedgates on rearleft/rearright; closedbuildingdoors decorative. Transitionstate credible, futureopening planned."
+    },
+    "L03": {
+      "status": "PASS",
+      "evidence": "Centralfloor clear; bothclosedgateapproaches empty withclearoverhead and openingtrack/roller. Bins peripheralfrontleft outsidegateapproach, car recessedbetweenbuildings. Postclearconnection remains plannednotanimated."
+    },
+    "L04": {
+      "status": "PASS",
+      "evidence": "Lowfrontprops do nothidecenter orbothcuts."
+    },
+    "L05": {
+      "status": "PASS",
+      "evidence": "Visible walls/plinths grounded, humanthresholds meetpaving; roofhousings/ducts on brackets/rails, no floatingmass. Camera inconsistency separatelyC04."
+    },
+    "L06": {
+      "status": "NOT_APPLICABLE",
+      "evidence": "Closedworkshopdoors; noexposedroomrequirescirculationreview."
+    },
+    "L07": {
+      "status": "UNCERTAIN",
+      "evidence": "Rebuild exposes maincontactcorners and bothcamera-facingwall directions with no diagonallycutcorner. YetglobalC04 mismatch prevents certifyingcommonXYfootprint; cannot inferactual3Drotation fromroof alone."
+    },
+    "S01": {
+      "status": "PASS",
+      "evidence": "Broadwalls/tiles withselectedlargepeelingpatches; lowerdetailthanpreviousattempts, notuniformmicrograin."
+    },
+    "S02": {
+      "status": "PASS",
+      "evidence": "Densemachinearea atrear, quietcenter andbarebuildingfoundation strips."
+    },
+    "S03": {
+      "status": "PASS",
+      "evidence": "Stylizedvolumes/material planes, no photoDOF orbrushstroke."
+    },
+    "S04": {
+      "status": "UNCERTAIN",
+      "evidence": "Majorforms/cassettejunctions readable, butglobalcamera caveat C04remains."
+    },
+    "W01": {
+      "status": "PASS",
+      "evidence": "Recoveredmoduleprocessor replacesbuildinghalf, retrofittedcontrolpanel/ducts and workshop compressor functional relationships."
+    },
+    "W02": {
+      "status": "PASS",
+      "evidence": "Largepatchedpanels/fadedpaint onbothbuildings andworncar/gates; oldmaintainedworld."
+    },
+    "W03": {
+      "status": "PASS",
+      "evidence": "Machinery prominent onjunkbuilding and repairroof, notonlysubsoil."
+    },
+    "W04": {
+      "status": "PASS",
+      "evidence": "Junkyardservicehumandoor+closedshutter; repairshutterhas humanwicket, allgroundeddecorativeentries."
+    },
+    "W05": {
+      "status": "PASS_visual_estimate",
+      "evidence": "Junkyardcombinedsteppedroof: largeprocessmodules occupyupperhalf pluslowroofvent/crate~50–65%; repairroof: duct/airunit+cylinderbank+cover~45–60%. Notexact3Darea certification."
+    },
+    "R01": {
+      "status": "PASS_visual_estimate",
+      "evidence": "Nightcoolbluegray; scrapyard+autorepair; visuallyabouthalfjunkyardmechanized; chimney/2bins/wreckcar. Cassettedials/vents/chunkymodules, nogreenCRT. Percentageisvisualestimate."
+    },
+    "R02": {
+      "status": "PASS",
+      "evidence": "Independentplanforautorepairshop andprocessorbuilding/carservicepocket; no siblingoroldscene usedascomposition."
+    }
+  },
+  "line_evidence": [
+    {
+      "id": "G01a",
+      "feature": "base_X_upper",
+      "a": [
+        31,
+        629
+      ],
+      "b": [
+        670,
+        982
+      ],
+      "angle_degrees": 28.917,
+      "visibility": "upperleftjoin partly hidden by rear wall; observedrimjunction"
+    },
+    {
+      "id": "G01b",
+      "feature": "base_X_lower",
+      "a": [
+        31,
+        713
+      ],
+      "b": [
+        670,
+        1081
+      ],
+      "angle_degrees": 29.938,
+      "visibility": "loweredge endpoints visible"
+    },
+    {
+      "id": "G02a",
+      "feature": "base_Y_upper",
+      "a": [
+        670,
+        982
+      ],
+      "b": [
+        1354,
+        627
+      ],
+      "angle_degrees": -27.43,
+      "visibility": "rightupperjoin partly hidden by rear wall"
+    },
+    {
+      "id": "G02b",
+      "feature": "base_Y_lower",
+      "a": [
+        670,
+        1081
+      ],
+      "b": [
+        1354,
+        731
+      ],
+      "angle_degrees": -27.099,
+      "visibility": "loweredge endpoints visible"
+    },
+    {
+      "id": "G04a",
+      "feature": "junkyard_footing_X",
+      "a": [
+        350,
+        494.5
+      ],
+      "b": [
+        499,
+        568
+      ],
+      "angle_degrees": 26.257,
+      "visibility": "nativepoints from2xcrop330,330; leftfoundation line partly interrupted by wall-mountedmeter, maincorner visible"
+    },
+    {
+      "id": "G04b",
+      "feature": "junkyard_footing_Y",
+      "a": [
+        499,
+        568
+      ],
+      "b": [
+        633,
+        498.5
+      ],
+      "angle_degrees": -27.414,
+      "visibility": "bareplinth along serviceentrance wall"
+    },
+    {
+      "id": "G05a",
+      "feature": "junkyard_level_roof_X",
+      "a": [
+        351.5,
+        350.5
+      ],
+      "b": [
+        498.5,
+        426
+      ],
+      "angle_degrees": 27.185,
+      "visibility": "levelparapet edge, notpitch orshadow"
+    },
+    {
+      "id": "G05b",
+      "feature": "junkyard_level_roof_Y",
+      "a": [
+        499,
+        425
+      ],
+      "b": [
+        633,
+        356
+      ],
+      "angle_degrees": -27.245,
+      "visibility": "levelparapet edge"
+    },
+    {
+      "id": "G05c",
+      "feature": "repair_level_roof_X",
+      "a": [
+        811,
+        380
+      ],
+      "b": [
+        1065,
+        512
+      ],
+      "angle_degrees": 27.46,
+      "visibility": "from2xcrop800,360"
+    },
+    {
+      "id": "G05d",
+      "feature": "repair_footing_X",
+      "a": [
+        835,
+        557.5
+      ],
+      "b": [
+        1065,
+        677.5
+      ],
+      "angle_degrees": 27.553,
+      "visibility": "shutterthreshold/frontwallplinth; notawning"
+    },
+    {
+      "id": "G05e",
+      "feature": "repair_level_roof_Y",
+      "a": [
+        1065,
+        512
+      ],
+      "b": [
+        1210,
+        433
+      ],
+      "angle_degrees": -28.583,
+      "visibility": "rightlevelparapet"
+    },
+    {
+      "id": "G05f",
+      "feature": "repair_footing_Y",
+      "a": [
+        1065,
+        677.5
+      ],
+      "b": [
+        1212,
+        597
+      ],
+      "angle_degrees": -28.706,
+      "visibility": "baregroundcontact wall, smallwallmountedbox does not eraseentireline"
+    },
+    {
+      "id": "G03",
+      "feature": "paving_X",
+      "a": [
+        492,
+        686
+      ],
+      "b": [
+        718,
+        814
+      ],
+      "angle_degrees": 29.526,
+      "visibility": "representative concretegrid joint approximate"
+    }
+  ],
+  "corner_vectors": [
+    {
+      "upper": [
+        31,
+        629
+      ],
+      "lower": [
+        31,
+        713
+      ],
+      "vector": [
+        0,
+        84
+      ],
+      "visibility": "partlyoccludedupperjoin, uncertain"
+    },
+    {
+      "upper": [
+        670,
+        982
+      ],
+      "lower": [
+        670,
+        1081
+      ],
+      "vector": [
+        0,
+        99
+      ],
+      "visibility": "frontcornerclear"
+    },
+    {
+      "upper": [
+        1354,
+        627
+      ],
+      "lower": [
+        1354,
+        731
+      ],
+      "vector": [
+        0,
+        104
+      ],
+      "visibility": "partlyoccludedupperjoin, uncertain"
+    }
+  ],
+  "reading_method": "Manualpoints atnative1377x1142usingfullviewandinspectiononly2xcrops. Croporiginsembeddedinspect.py. Clearpointapprox2pxselectionerror, largeratpartlyoccludedrimjunctions. No universalangle/pixeltolerance andnoactual3Drotation orcurvaturemeasurement.",
+  "convex_floor": "No visiblebowedlongoutline; perspective/thicknessjoinuncertainty distinct fromunprovenphysical3Dconvexity.",
+  "difference_from_plan": "Exactsharedorthographicaxis andconstantcornerdisplacementnotconfirmed; buildingcontactvisibility improvedsubstantially.",
+  "exit_records": [
+    {
+      "direction": "11",
+      "type": "slidingsecuritygate",
+      "shown": "closed",
+      "approach": "wideandclearfromcenter, binsinfrontleftpocketdonotfillapproach",
+      "postclear": "retractintoadjacentwallpocket thenlevelpassagebeyondrearleft; plannednotobservedanimation",
+      "building_entry_shared": false
+    },
+    {
+      "direction": "1",
+      "type": "rollersecuritygate",
+      "shown": "closed",
+      "approach": "clearstripbesiderightbuilding andoverheadrollspace",
+      "postclear": "rollup andlevelpassagebeyondrearright; plannednotobservedanimation",
+      "building_entry_shared": false
+    }
+  ],
+  "attempt_history": [
+    "20260910_150239_night_scrapyard_repair_cassette",
+    "20260910_151135_night_scrapyard_repair_cassette_geometryfix",
+    "20260910_151850_night_scrapyard_repair_cassette_rebuild"
+  ],
+  "stop_reason": "Repeatedsubtleprojectionfault after distinctsingle-guideinitial, targetededit andsingle-geometr ysourcefullrebuild strategies. No additional reliable corrective strategy using this wrapper; stop blindrepetition andreport remainingdefect. No API/install/3Dproject authorized.",
+  "artifact_role": "testcandidate only, notpositivegeometryreference ormaster",
+  "master_changed": false
+}

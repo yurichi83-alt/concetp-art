@@ -1,0 +1,51 @@
+{
+  "inputs": [
+    {
+      "id": "structure_plan",
+      "path": "C:\\Users\\Yeon Hee Kang\\OneDrive\\문서\\Codex\\background-concept-art\\concetp-art\\outputs\\20260910_111843_tiny_city_shop_v22\\structure_plan.png",
+      "role": "primary scene geometry, no diagram coloring in art",
+      "submitted": true,
+      "visually_inspected": true,
+      "sha256": "e51de2d6b65c399a5b3670102cc18baa79c3084bf068f4573d2fcf19fc958a3d"
+    },
+    {
+      "id": "M02-01",
+      "path": "C:\\Users\\Yeon Hee Kang\\OneDrive\\문서\\Codex\\background-concept-art\\concetp-art\\refs\\master02\\layout_two_exits.png",
+      "role": "공통 바닥과 기본 입체, 인접한 두 직교 경계, 각 출구와 중앙부터 문턱 너머까지 연속 보행 공간, 높이 상한",
+      "exclude": "파란 벽·글자·아이콘·화살표·입구 표시·정중앙 배치는 복사하지 않음",
+      "submitted": true,
+      "visually_inspected": true,
+      "sha256": "444031765bb112361022fb23f593f3d386907ccb2bd005353b0514ed2f588a26"
+    },
+    {
+      "id": "M01-01",
+      "path": "C:\\Users\\Yeon Hee Kang\\OneDrive\\문서\\Codex\\background-concept-art\\concetp-art\\refs\\master01\\composition_cutaway.png",
+      "role": "공통 쿼터뷰 카메라·투영, 기본 베이스 입체, 상하 대응 모서리·두께와 두 평면 단면",
+      "exclude": "네온·상점가·일본풍·팔레트·고밀도 재질은 제외",
+      "submitted": true,
+      "visually_inspected": true,
+      "sha256": "849912ebad9cd750ca79fba6bd8fce6061a5b0ee169a6da5908c60abae94b1a3"
+    },
+    {
+      "id": "M03-10",
+      "path": "C:\\Users\\Yeon Hee Kang\\OneDrive\\문서\\Codex\\background-concept-art\\concetp-art\\refs\\master03\\ldi_10_storefront_style_anchor.png",
+      "role": "큰 깨끗한 색면, 선택적 손상, 특징적 큰 윤곽, 디테일 집중과 여백의 대비",
+      "exclude": "상점 종류·건축 양식·상호·캐릭터·카메라 제외",
+      "submitted": true,
+      "visually_inspected": true,
+      "sha256": "c24fe55ad76c6c8bfbd88dee7059a09fd7a592dc60e5d4a6c7c0704f11f19345"
+    },
+    {
+      "id": "M04-02",
+      "path": "C:\\Users\\Yeon Hee Kang\\OneDrive\\문서\\Codex\\background-concept-art\\concetp-art\\refs\\master04\\world_02_heavy_mechanical_arms.png",
+      "role": "큰 산업기계 덩어리·도장 패널·관절의 기능감",
+      "exclude": "인물 직접 삽입·포토리얼 표면·동일 복장 복제 제외",
+      "submitted": true,
+      "visually_inspected": true,
+      "sha256": "a71042678c1898320a3d949d0108bde7e6f931c8f1bf8b316a057084be179a3b"
+    }
+  ],
+  "limit": 5,
+  "mechanism": "referenced_image_paths",
+  "omitted": "extra style images and all previous generated results; fresh location design"
+}

@@ -1,0 +1,19 @@
+{
+  "status": "candidate_pass",
+  "backend": "builtin_image_gen",
+  "file": "tiny_shop_windows_posters_motorcycle.png",
+  "source": "C:\\Users\\Yeon Hee Kang\\.codex\\generated_images\\01a08867-7e38-7162-8368-5c8c0df7a0c0\\exec-41ce5b16-30dd-4100-9c59-13092e54a6a7.png",
+  "source_copy_hash_match": true,
+  "sha256": "895f50ea67027d357c788e86707a0720c54b5af5da149b3a90666a8251b63cc9",
+  "width": 1385,
+  "height": 1136,
+  "master_version": "2.2",
+  "execution_rules_version": "1.3",
+  "requested_final_count": 1,
+  "actual_generation_count": 1,
+  "master_promoted": false,
+  "user_approved": false,
+  "review": "review.md",
+  "prompt": "prompt.txt",
+  "reference_hashes_verified": 29
+}

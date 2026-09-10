@@ -1,0 +1,6 @@
+interface:
+  display_name: "게임 배경 컨셉"
+  short_description: "짧은 장면 요청에 마스터 v2.1과 디오라마 공간 규칙 적용"
+  default_prompt: "Use $game-env-art to create an environment image from the user's scene keywords while preserving the project masters."
+policy:
+  allow_implicit_invocation: true

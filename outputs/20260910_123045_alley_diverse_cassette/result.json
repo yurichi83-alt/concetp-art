@@ -1,0 +1,14 @@
+{
+  "status": "needs_revision",
+  "backend": "builtin_image_gen",
+  "source": "C:\\Users\\Yeon Hee Kang\\.codex\\generated_images\\01a08867-7e38-7162-8368-5c8c0df7a0c0\\exec-4e2cc1aa-5aec-41d5-8e6b-de4b0f2526e8.png",
+  "output": "C:\\Users\\Yeon Hee Kang\\OneDrive\\문서\\Codex\\background-concept-art\\concetp-art\\outputs\\20260910_123045_alley_diverse_cassette\\alley_diverse_cassette_candidate.png",
+  "sha256": "4ed9579797fd2ae07590e6bf4139a7b831e71ada720411e0744f71ab229c9cf0",
+  "copy_hash_match": true,
+  "failed_checks": [
+    "C02"
+  ],
+  "reason": "both cuts rendered as closed brown cladding with stripes, underground section contents omitted",
+  "next_run": "C:\\Users\\Yeon Hee Kang\\OneDrive\\문서\\Codex\\background-concept-art\\concetp-art\\outputs\\20260910_123650_alley_diverse_cutaway_fix",
+  "master_promoted": false
+}

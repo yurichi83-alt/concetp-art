@@ -1,0 +1,12 @@
+from pathlib import Path
+import json,shutil
+ROOT=Path(__file__).resolve().parents[2];RUN=Path(__file__).resolve().parent;PREV=ROOT/'outputs/20260910_151110_night_scrapyard_repair_salvage_corrected'
+for f in ['structure_guide.png','structure_plan.json']: shutil.copy2(PREV/f,RUN/f)
+r=json.loads((PREV/'references.json').read_text(encoding='utf-8'));p=(RUN/'generation_prompt.md').read_text(encoding='utf-8').rstrip()
+r.update(run_id=RUN.name,own_correction_parent_run=PREV.name,delivery_status='submitted_call_initiated',actual_submitted_image_count=2)
+r['submitted_to_generation']=[{'path':str(PREV/'night_scrapyard_repair_salvage.png'),'role':'own same-scene edit target; preserveart/base, fixbuildingalignment and2gates'}, {'path':str(RUN/'structure_guide.png'),'role':'ownscene geometryonly'}];r['planned_inputs']=r['submitted_to_generation']
+r['submitted_prompt'].update(character_count=len(p),utf8_byte_count=len(p.encode('utf-8')),whitespace_word_count=len(p.split()),saved_text_matches_actual_argument=True)
+(RUN/'references.json').write_text(json.dumps(r,ensure_ascii=False,indent=2),encoding='utf-8')
+(RUN/'brief.md').write_text('# Own structural correction — master2.4/execution1.5\n\nParent scene: '+PREV.name+'; finalcount1 of2 independentvariants. Cassetteoutputsneverviewed/input. Preservesexactcurrentkeywords and art throughownsame-scene target. Correctrightbuildingcommonaxis roof/footing, exposebothbuildingfootings, visiblyopenbothassignedgates. Retainconstantdepthbase andallperbuildingentry/roofcoverage. Seepriorbrief/structure_plan forunchangedrequirements; actualeditprompt exactin generation_prompt.md.\n\nCoverage: base/axes→STRUCTURE→C01-C04/L07; exposedcorners→STRUCTURE→L05/L07; gates/routes→CURRENTSCENE→L01-L03; interior→CURRENTSCENE→L06; entries/roof→CURRENTSCENE→W04/W05; currentkeywords→CURRENTSCENE→R01; art/world/referenceexclusions→ART→S01-S04/W01-W03. N/AnewlocationR02(stillowncorrection), no stairs/ramps.\n',encoding='utf-8')
+(RUN/'preflight.md').write_text('# PLANNED, not finalQA\n\nOwnedit targetactuallyopened; ownidenticalguideinspected. TwoexplicitPNGpaths; no otherindependentoutput. Currentnativeimagegencontract; no unknownmodel/token claims. Promptvariablesnone; userkeywordsretained; correctionauthorizedbyexistingstructuralpolicy. Previousguidebaseandroutesvalid. No change to projectedcameraorbaseintended. Finalactualimagecomparisonrequired.\n',encoding='utf-8')
+print('Own-image final structural edit prepared.')

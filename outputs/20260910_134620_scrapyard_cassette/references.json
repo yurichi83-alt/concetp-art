@@ -1,0 +1,52 @@
+{
+  "mode": "new_generation",
+  "input_count": 5,
+  "all_inputs_visually_inspected_before_call": true,
+  "actual_transmission": "Five absolute paths supplied to built-in image_gen.imagegen referenced_image_paths",
+  "inputs": [
+    {
+      "order": 1,
+      "path": "C:\\Users\\Yeon Hee Kang\\OneDrive\\문서\\Codex\\background-concept-art\\concetp-art\\outputs\\20260910_134620_scrapyard_cassette\\structure_guide.png",
+      "role": "New independent geometry guide; preserve square slab, common camera, building faces, two assigned exits and protected space",
+      "sha256": "c17c221ec275fa41dbab4152587859a54d283d3303f92a9babda4ac7d048f1dc",
+      "visually_inspected": true
+    },
+    {
+      "order": 2,
+      "path": "C:\\Users\\Yeon Hee Kang\\OneDrive\\문서\\Codex\\background-concept-art\\concetp-art\\refs\\master02\\layout_two_exits.png",
+      "role": "M02 common boundary/connectivity only; not labels or fixed exit positions",
+      "sha256": "444031765bb112361022fb23f593f3d386907ccb2bd005353b0514ed2f588a26",
+      "visually_inspected": true
+    },
+    {
+      "order": 3,
+      "path": "C:\\Users\\Yeon Hee Kang\\OneDrive\\문서\\Codex\\background-concept-art\\concetp-art\\refs\\master01\\composition_cutaway.png",
+      "role": "M01 camera/base/two cut planes only; no neon or buildings copied",
+      "sha256": "849912ebad9cd750ca79fba6bd8fce6061a5b0ee169a6da5908c60abae94b1a3",
+      "visually_inspected": true
+    },
+    {
+      "order": 4,
+      "path": "C:\\Users\\Yeon Hee Kang\\OneDrive\\문서\\Codex\\background-concept-art\\concetp-art\\refs\\master03\\ldi_10_storefront_style_anchor.png",
+      "role": "M03 broad stylized 3D planes/materials/lighting; no characters/store identities",
+      "sha256": "c24fe55ad76c6c8bfbd88dee7059a09fd7a592dc60e5d4a6c7c0704f11f19345",
+      "visually_inspected": true
+    },
+    {
+      "order": 5,
+      "path": "C:\\Users\\Yeon Hee Kang\\OneDrive\\문서\\Codex\\background-concept-art\\concetp-art\\outputs\\20260910_124032_alley_reference_shapes\\user_cassette_reference.png",
+      "role": "User cassette shape vocabulary only; thick shells, deep mechanical cavities, analog meters, ducts; no layout/palette copying",
+      "sha256": "ee320904654c74d1dd9dde59bd5fef4840b3cb5d67a6c141983eed51320d001d",
+      "visually_inspected": true
+    }
+  ],
+  "omitted": [
+    {
+      "id": "M04-02",
+      "path": "refs/master04/world_02_heavy_mechanical_arms.png",
+      "visually_inspected": true,
+      "reason": "Five input slots prioritize own structural guide + M01/M02/M03 + explicit cassette image. M04 functional repaired high-tech masses and mismatched replacement panels preserved textually."
+    }
+  ],
+  "independence": "New coordinates authored from current keywords and masters. No counterpart scene/guide/prompt/output or previous generated artwork opened/read/reused. User cassette reference is the only scoped nonmaster reference."
+}

@@ -1,0 +1,63 @@
+{
+  "status": "needs_revision",
+  "actually_viewed": true,
+  "final_image": "desert_outpost.png",
+  "projection": "parallel_orthographic",
+  "method": "Approximate native1374x1145 observations; ambiguous/covered points are not measured physical3D geometry.",
+  "base_samples": {
+    "left_upper": [
+      95,
+      568
+    ],
+    "left_lower": [
+      95,
+      647
+    ],
+    "front_upper": [
+      686,
+      909
+    ],
+    "front_lower": [
+      686,
+      1020
+    ],
+    "right_upper": [
+      1286,
+      558
+    ],
+    "right_lower": [
+      1286,
+      668
+    ]
+  },
+  "sample_limit": "Left topedge partly covered/rough. Vectors79/111/110px do not certifyconstantdepth; exactpoint selection uncertain.",
+  "qa": {
+    "C01": "PASS fullquarterviewbase",
+    "C02": "UNCERTAIN/FAIL apparentconstantdepthnotpreservedreliably",
+    "C03": "PASS visibleoverallstraightquadoutline; physical3Dunverified",
+    "C04": "UNCERTAIN same-axisbuilding/baseconsistencynotfullyestablished",
+    "L01": "PASS rearblockingmassestwo directions",
+    "L02": "UNCERTAIN rightgatepartlyoccludedbehindrightbuilding",
+    "L03": "UNCERTAIN center/leftapproachclear; righttransitionnotfullyvisible",
+    "L04": "PASS",
+    "L05": "UNCERTAIN localcontactshidden",
+    "L06": "N/A interiorlargelyclosed",
+    "L07": "UNCERTAIN footingscovered; noobviousdiagonalbuildingcorner",
+    "S01": "PASS broadstylizedplaneswithselectedwear",
+    "S02": "PASS quietcenter",
+    "S03": "PASS stylized3D",
+    "S04": "PASS majorformsreadable",
+    "W01": "PASS recoveredpumps/gatedrives/powerassemblies",
+    "W02": "PASS patchedpaintandwornstructure",
+    "W03": "PASS functionalmechanicsvisible",
+    "W04": "PASS humanentryeachbuilding",
+    "W05": "UNCERTAIN hangarroofequipmentmayunderfill40percent; righttopfunctionalcoverageplausible",
+    "R01": "PASS desertday/archedhangar/canvas/vehicle/serviceplatform/sourcepalette",
+    "R02": "PASS freshscene"
+  },
+  "final_count": 1,
+  "attempts": 3,
+  "stop_reason": "Repeated geometry/occlusion uncertainty after reference-role restriction and guide-only completion. No effective new scoped correction strategy identified; preserveallattempts and disclose notmastercompliantPASS.",
+  "master_updated": false,
+  "backend": "builtinimagegen"
+}

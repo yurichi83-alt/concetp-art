@@ -1,0 +1,19 @@
+{
+  "run_id": "20260910_093245_junkdealer_grocer_cassette_no_crt",
+  "type": "continued_temporary_test",
+  "scene_keywords": "고물상, 식료품 상점 / 낮, 웜톤 / 고물상 건물의 절반은 기계화, 쓰레기통, 굴뚝 / 한 장",
+  "cassette_futurism": "retained for this test by explicit current user instruction",
+  "excluded_motif": "green CRT-like elements; implement without monitor/video screens, including amber CRT substitutions",
+  "mechanization_target": {
+    "subject": "junk-dealer building only",
+    "target": "approximately half of the visible building mass/envelope is integrated machinery",
+    "measurement": "qualitative visual design target; exact area/volume not measured",
+    "supersedes_for_this_scene": "previous trial's 100-to-130 relative presence target is not accumulated"
+  },
+  "small_props": "functional analog mechanical features retained, no screens",
+  "master_update_authorized": false,
+  "master_promotion": false,
+  "user_approval_of_result": "pending",
+  "future_reference_update": "Only after a future explicit instruction to add/update the main references."
+}
+

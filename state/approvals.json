@@ -1,6 +1,6 @@
 {
   "schema_version": 1,
-  "master_version_approved": "2.1",
+  "master_version_approved": "2.4",
   "generated_style_anchor": null,
   "entries": [
     {
@@ -176,9 +176,152 @@
       ],
       "scoped_result_reuse": "기존 부분 선호는 해당 속성의 향후 비교 기준으로만 유지. 두 결과 전체를 마스터 이미지로 등록하지 않는다.",
       "history_path": "state/history/20260909_232904_master_v2_1"
+    },
+    {
+      "id": "master_update_20260910_v2_2",
+      "date": "2026-09-10",
+      "type": "geometry_and_traversal_master_reinforcement",
+      "status": "active",
+      "evidence": "보강안 내용은 적절해보여. 승인할게 메인 래퍼런스 갱신해줘",
+      "proposal_path": "outputs/20260910_102058_geometry_master_reinforcement_proposal/proposal_ko.md",
+      "scope": "승인 제안의 7개 기하·동선 규칙, 구조안/실행·검수·템플릿 및 관련 설정·참조 역할 동기화",
+      "master_version_before": "2.1",
+      "master_version_after": "2.2",
+      "execution_rules_version_after": "1.3",
+      "approved_aspects": [
+        "cubic_shared_spatial_frame",
+        "single_projection",
+        "base_corner_and_plane_consistency",
+        "perpendicular_rear_boundaries",
+        "continuous_walkable_route_volumes",
+        "usable_interior_circulation",
+        "geometry_first_generation_and_hard_QA_gate"
+      ],
+      "structural_checks": [
+        "C01",
+        "C02",
+        "C03",
+        "C04",
+        "L01",
+        "L02",
+        "L03",
+        "L04",
+        "L05",
+        "L06"
+      ],
+      "preserved_aspects": [
+        "24_reference_image_files_and_hashes",
+        "LDI_art_and_v2_1_style_content",
+        "Salvage_Cyberpunk_world_content",
+        "preferred_and_review_only_hierarchy",
+        "existing_structural_auto_correction"
+      ],
+      "not_approved_aspects": [
+        "generated_image_master_promotion",
+        "explanatory_SVG_positive_reference_registration",
+        "separately_deferred_cassette_CRT_and_all_props_style_master_updates",
+        "fixed_camera_numbers_or_global_passage_width",
+        "new_concept_image_generation_in_this_update",
+        "external_API_installation_global_settings",
+        "git_commit_or_push"
+      ],
+      "history_path": "state/history/20260910_103725_master_v2_2",
+      "update_record_path": "outputs/20260910_103725_master_v2_2_update"
+    },
+    {
+      "id": "architecture_entrances_roofs_20260910",
+      "date": "2026-09-10",
+      "type": "direct_user_master_addition",
+      "status": "active",
+      "evidence": "추가로 메인 레퍼런스에 추가할 내용도 알려줄게. 건물 같은경우 들어갈 수 있는 입구가 있어야해. 실제 게임플레이에서 들어갈 수 있는 구조는 아니고 외관상 설득력 있는 디자인을 위해서 건물에는 문이던 아니면 셔터던 어떤 형태로든 들어 갈 수 있는 디자인적인 요소가 있어야해. 그리고 건물의 옥상이 밋밋한 형태는 피해줘. salvage cyberpunk 의 기계적 요소던 아니면 다른 디자인 요소로 풀어내든 건물의 윗면은 40%~80% 는 설득력 있는 소품이나 기계등을 배치해야해.",
+      "scope": "건물별 외관상 출입구와 건물별 옥상/지붕40~80% 기능적 구성; master2.2 additive revision",
+      "not_authorized_by_this_entry": [
+        "new_image_generation",
+        "generated_image_master_promotion",
+        "cassette_futurism_permanent_style_promotion",
+        "expanded_structural_auto_correction_scope",
+        "git_commit_push"
+      ],
+      "history_path": "state\\history\\20260910_113645_architecture_rules",
+      "update_record_path": "outputs\\20260910_113645_architecture_rules_update"
+    },
+    {
+      "id": "master_update_20260910_v2_3",
+      "date": "2026-09-10",
+      "type": "orthogonal_buildings_functional_exits_boundary_diversity",
+      "status": "active",
+      "evidence": "좋아 내용 반영해줘.",
+      "proposal_path": "outputs/20260910_130219_geometry_gameplay_reference_proposal/proposal_ko.md",
+      "scope": "승인 제안 A~F: 건물 직교 지상 경계/지붕 정합, 가변 두 기능 출구와 개폐 상태·입구 겸용, 비건물 차단체, 계획/QA 일관화",
+      "master_version_before": "2.2",
+      "master_version_after": "2.3",
+      "execution_rules_version_after": "1.4",
+      "approved_aspects": [
+        "orthogonal_building_player_contact_footprints",
+        "roof_plane_and_support_clarity",
+        "variable_functional_exit_positions_forms_states",
+        "building_entry_exit_dual_role",
+        "nonbuilding_boundary_diversity",
+        "building_only_entry_and_roof_rules",
+        "L07_and_state_aware_structural_QA"
+      ],
+      "preserved_aspects": [
+        "24_master_image_files_and_hashes",
+        "LDI_art_and_salvage_world",
+        "previous_reference_approval_history",
+        "square_base_shared_camera_two_cut_faces",
+        "structural_correction_only_during_generation_requests"
+      ],
+      "not_approved_aspects": [
+        "new_image_generation_in_this_update",
+        "cassette_reference_permanent_promotion",
+        "generated_image_master_promotion",
+        "fixed_camera_width_coordinates_or_mechanical_ratio",
+        "external_API_installation",
+        "git_commit_push"
+      ],
+      "history_path": "state/history/20260910_131529_master_v2_3",
+      "update_record_path": "outputs/20260910_131529_master_v2_3_update"
+    },
+    {
+      "id": "master_update_20260910_v2_4",
+      "date": "2026-09-10",
+      "type": "projection_evidence_and_execution_prompt_reinforcement",
+      "status": "active",
+      "evidence": "좋아 보강해줘",
+      "proposal_path": "outputs/20260910_140555_scrapyard_geometry_recheck/analysis_ko.md",
+      "scope": "승인된 재검토 분석에 따라 투영별 최종 선·모서리 대조, 기단 가시성, 요구사항 누락 없는 실행 프롬프트 압축, 참조 역할과 도구 입력 근거 기록을 보강한다.",
+      "master_version_before": "2.3",
+      "master_version_after": "2.4",
+      "execution_rules_version_after": "1.5",
+      "approved_aspects": [
+        "projection_specific_final_image_evidence",
+        "visible_grounding_and_uncertainty",
+        "compact_requirement_covered_execution_prompt",
+        "geometry_vs_style_reference_roles",
+        "actual_tool_input_and_unknown_limit_records",
+        "preserved_review_history_with_explicit_reassessment"
+      ],
+      "preserved_aspects": [
+        "24_master_and_2_preferred_and_3_review_image_files_and_roles",
+        "LDI_art_and_salvage_world",
+        "existing_geometry_exits_entrances_and_rooftop_rules",
+        "historical_approvals",
+        "structural_correction_only_for_generation_requests"
+      ],
+      "not_approved_aspects": [
+        "new_image_generation_in_this_update",
+        "cassette_style_or_generated_image_master_promotion",
+        "fixed_screen_angle_pixel_tolerance_or_prompt_length_limit",
+        "actual_3D_scene_creation_in_this_update",
+        "external_API_installation_or_global_settings",
+        "git_commit_or_push"
+      ],
+      "history_path": "state/history/20260910_141650_master_v2_4",
+      "update_record_path": "outputs/20260910_141650_master_v2_4_update"
     }
   ],
-  "note": "Masters v2.1 retain the original 19 images and add 5 explicitly scoped LDI architectural supplements. A-01/A-02 remain subordinate preferred results. Other generated examples are reusable only for their approved aspects; no whole-image promotion.",
+  "note": "Master set v2.4 / execution v1.5: approved final-image geometry evidence and compact prompt workflow. All29 reference images/roles and all prior approval entries are preserved.",
   "preferred_generated_results": [
     "A-01",
     "A-02"

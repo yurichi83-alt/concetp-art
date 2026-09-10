@@ -1,0 +1,266 @@
+{
+  "approval_pending_record": "master_update_20260910_v2_4",
+  "before_master": "2.3",
+  "before_execution": "1.4",
+  "files": [
+    {
+      "path": "AGENTS.md",
+      "sha256": "4ad895aee43361a24aa95ed3c2a0d170fa78f1fab7e04ac4702edbe370013c8e"
+    },
+    {
+      "path": "FIRST_MESSAGE.txt",
+      "sha256": "cd379de1a5a8dcd8790bc76b55fb799d3aefee49643215b68870477a37d353b1"
+    },
+    {
+      "path": "README_KO.md",
+      "sha256": "1d499f2afc4a8963d3f8826fdac0d751fc31a5b36eebfc8aee04ddcce64f49b4"
+    },
+    {
+      "path": "START_HERE_KO.md",
+      "sha256": "26a43e7fb3fd1d7ef5a12e7125c3d883d70c9bb65bce8081dec454874c4b411d"
+    },
+    {
+      "path": "REFERENCE_INDEX.html",
+      "sha256": "7717f3f223063eb8e51379beb41b470d6aa676e12649708d2fd2b573521acd9b"
+    },
+    {
+      "path": "project.json",
+      "sha256": "18a4cf45071c2a48977a58550bb0d8a9e341a9d480b6bb0c2fe895f6ad2987b8"
+    },
+    {
+      "path": "refs/manifest.json",
+      "sha256": "e8c7e23b574fb7b47232357829900d11adc3483445a550bc28bb0ea9874c2645"
+    },
+    {
+      "path": "refs/REFERENCE_MAP.md",
+      "sha256": "321e94d8c4280d63ac34576460bb38e566ea69eec481198984edc443a51f4bd8"
+    },
+    {
+      "path": "state/approvals.json",
+      "sha256": "a63ae797cf5627fc1b5fcf72b49a701e7cb767228b1551f18c9ca635b9bc57dd"
+    },
+    {
+      "path": "state/CHANGELOG.md",
+      "sha256": "7b95b09d7b067d4ae591b41dc070c16093e3c2341530b56ca1d5124e1723521b"
+    },
+    {
+      "path": ".agents/skills/game-env-art/SKILL.md",
+      "sha256": "511bd570b1796bcea49f40932a54e5b43d29d67be84c5093069fa4396c41b8a0"
+    },
+    {
+      "path": ".agents/skills/game-env-art/agents/openai.yaml",
+      "sha256": "c9f2e6717b91af113e180279c7b5d8f861af4084a458a146ba952600b19c7510"
+    },
+    {
+      "path": "scripts/validate_project.py",
+      "sha256": "a3fdc04b2dfcf77cdf94aedbfdccf125f55f04671d791094d8b22e173aa8c9d2"
+    },
+    {
+      "path": "docs/00_INDEX.md",
+      "sha256": "226b77e2fac1d07a3cac4cdebbc1d956bef1bc52d1080cb8d2fcc12e6739d230"
+    },
+    {
+      "path": "docs/01_COMPOSITION.md",
+      "sha256": "0218970b3dd4f9eaaecb28838ddf2df7f7cb8dbcaeb604dec44f7dd760883129"
+    },
+    {
+      "path": "docs/02_LAYOUT.md",
+      "sha256": "000bc8d8fce7d710604e0802331bb0b0691f25e1c5548310ebc60fa76ccabdeb"
+    },
+    {
+      "path": "docs/03_VISUAL_STYLE_V2.md",
+      "sha256": "df93afb0c418df19934143631f95341beecc84155f7220d9345fcba4fda353ff"
+    },
+    {
+      "path": "docs/04_WORLD_DESIGN_V2.md",
+      "sha256": "34cb47fc49b49ef5088aff4fa125de7609a5d1e428b43a386e9bc45b0522b131"
+    },
+    {
+      "path": "docs/05_GENERATION_RULES.md",
+      "sha256": "694347a4ce8a615dd68c8b3f4faca05e16281e1ae1ac95c0a82bd53f28df79ae"
+    },
+    {
+      "path": "docs/06_QA.md",
+      "sha256": "a22d44cba65b5458dac6064d16d9d1df65d3945eae3da5867ae7711b046e5dad"
+    },
+    {
+      "path": "docs/07_CODEX_SETUP.md",
+      "sha256": "e5501c14e74f17855b1d6db1e9ee45242ebffbd4aa0aa96d3228a24f1ca9b906"
+    },
+    {
+      "path": "docs/08_COMMANDS.md",
+      "sha256": "1caa9102cd180f8a21d1c2029bc37a10594018e16fd247793d4d11af8412f888"
+    },
+    {
+      "path": "docs/09_SOURCES.md",
+      "sha256": "dead031c6d27d8389a4778afd5f9b5ceb4c01774a15319a7b82d389016b95bc2"
+    },
+    {
+      "path": "docs/10_CURRENT_REFERENCES.md",
+      "sha256": "cbfb68ff5c9aac4208d71f2e7827b848981197a3842341eb37120342988595a6"
+    },
+    {
+      "path": "templates/brief.md",
+      "sha256": "3fa148e4ddf4c3e81c9ebcf028b55a070b3d91938baddd5453a72cf7d08c39a8"
+    },
+    {
+      "path": "templates/preflight.md",
+      "sha256": "8006774d249a685fa47353a4fc7333bf1a43d43a6b8abf44f2485764a6fdd8c3"
+    },
+    {
+      "path": "templates/references.json",
+      "sha256": "0e7b8090e5df9668408388b45f11bddcb464be84da2b0e5d04dfaccb619cefc9"
+    },
+    {
+      "path": "templates/review.md",
+      "sha256": "10c5ba00bcc985d3f4a9b15b4936f063ea7272320d6da99d7a4eafb4222a9511"
+    }
+  ],
+  "reference_images": [
+    {
+      "id": "M01-01",
+      "path": "refs/master01/composition_cutaway.png",
+      "sha256": "849912ebad9cd750ca79fba6bd8fce6061a5b0ee169a6da5908c60abae94b1a3"
+    },
+    {
+      "id": "M02-01",
+      "path": "refs/master02/layout_two_exits.png",
+      "sha256": "444031765bb112361022fb23f593f3d386907ccb2bd005353b0514ed2f588a26"
+    },
+    {
+      "id": "M03-01",
+      "path": "refs/master03/ldi_01_attic.png",
+      "sha256": "44fd28dabb4e15a929ed4c456d50b3cdccf5c1ddd9ce40bf2171337d811c37a1"
+    },
+    {
+      "id": "M03-02",
+      "path": "refs/master03/ldi_02_reading_room.png",
+      "sha256": "1a056798a7c30187aa474edce8760d69b0c5c17884a6a90d0a7667952cdd5ea4"
+    },
+    {
+      "id": "M03-03",
+      "path": "refs/master03/ldi_03_dark_corner.png",
+      "sha256": "100f790c81d8b7d7ed03e794e5b0f18b01f03f8a42d2747be104e7ba3a2ac750"
+    },
+    {
+      "id": "M03-04",
+      "path": "refs/master03/ldi_04_large_interior.png",
+      "sha256": "927a9a7e3252a05749e002ef54c356285c96531a6540a7198c511af63a83d56a"
+    },
+    {
+      "id": "M03-05",
+      "path": "refs/master03/ldi_05_fog_forest.png",
+      "sha256": "25ba7d65d72df2ab73158be93a88555c18880cf05edd7141df247e5da054ea86"
+    },
+    {
+      "id": "M03-06",
+      "path": "refs/master03/ldi_06_night_path.png",
+      "sha256": "17fc77804f384406ed6602d01544ee4da42f284312620a4cb255f93d76be3a13"
+    },
+    {
+      "id": "M03-07",
+      "path": "refs/master03/ldi_07_station.png",
+      "sha256": "9b69c652cfdfebda4e3c1b7dbb3c2263ae435c83fd0cf8afff6b5c124a5464b2"
+    },
+    {
+      "id": "M03-08",
+      "path": "refs/master03/ldi_08_pub_exterior.png",
+      "sha256": "f0c7eceb1e6096cf5f5d62b20837f64c37dec2a769e0e5a49a125655e9e53325"
+    },
+    {
+      "id": "M03-09",
+      "path": "refs/master03/ldi_09_pub_interior.png",
+      "sha256": "529834d0f3ec3c2274032825af530062b04ec4b13489775674eae7a393404ba5"
+    },
+    {
+      "id": "M03-10",
+      "path": "refs/master03/ldi_10_storefront_style_anchor.png",
+      "sha256": "c24fe55ad76c6c8bfbd88dee7059a09fd7a592dc60e5d4a6c7c0704f11f19345"
+    },
+    {
+      "id": "M03-11",
+      "path": "refs/master03/ldi_11_pub_clean_surfaces.png",
+      "sha256": "9046367233123ab4a582c2fcc740986b23a7c37c2b8e331c7cd3768464837ac9"
+    },
+    {
+      "id": "M03-12",
+      "path": "refs/master03/ldi_12_gas_station_building_only.png",
+      "sha256": "442efe855f44adbf96b4ab5ebf036c3f80fec800964a63d17ffbe19b23945648"
+    },
+    {
+      "id": "M03-13",
+      "path": "refs/master03/ldi_13_kiosk_materials.png",
+      "sha256": "9c0812ff9b7b49a558b67a6a68a9e7b719ebab6213c364ab48917e84b24afe4f"
+    },
+    {
+      "id": "M03-14",
+      "path": "refs/master03/ldi_14_attic_structure_light.png",
+      "sha256": "d960230559dae398857ab4f45da18581396cf3083af91c571889fc8da53caa05"
+    },
+    {
+      "id": "M03-15",
+      "path": "refs/master03/ldi_15_street_light_planes.png",
+      "sha256": "784aa1ef3f5d26b0727b21ca23581e9249193af39c7258b4c662fd2e1ce2cf95"
+    },
+    {
+      "id": "M04-01",
+      "path": "refs/master04/world_01_masked_scavenger.png",
+      "sha256": "fce8bd389e0fdfdfc58e8df182fceb398bb038119ed0b38ba5171b0b81e56f12"
+    },
+    {
+      "id": "M04-02",
+      "path": "refs/master04/world_02_heavy_mechanical_arms.png",
+      "sha256": "a71042678c1898320a3d949d0108bde7e6f931c8f1bf8b316a057084be179a3b"
+    },
+    {
+      "id": "M04-03",
+      "path": "refs/master04/world_03_helmet_and_coat.png",
+      "sha256": "b9b19bea6f2c614c738d513c4466cfa69f2ec712656c77bbb466241fa6266ac6"
+    },
+    {
+      "id": "M04-04",
+      "path": "refs/master04/world_04_cloak_and_mechanical_arm.png",
+      "sha256": "cba9f26bc23a28aa13a6b4fb0e36034a97e70a05431978ca7d6da5a76ef26453"
+    },
+    {
+      "id": "M04-05",
+      "path": "refs/master04/world_05_rebuilt_robot.png",
+      "sha256": "43ba4e232f2380db8c1332bc3156dca8cfca830465011eea6ecb5ff571bebec9"
+    },
+    {
+      "id": "M04-06",
+      "path": "refs/master04/world_06_asymmetric_machine.png",
+      "sha256": "cf327580c3a57429457d9210a5d00beea489525de201564d28f57a960af505ea"
+    },
+    {
+      "id": "M04-07",
+      "path": "refs/master04/world_07_repurposed_machine_head.png",
+      "sha256": "86671cce6c441acc094f02cd9a37e928b5f1e056451aedb10e74e8612417982a"
+    },
+    {
+      "id": "R-01",
+      "path": "review_only/dense_pump_station.png",
+      "sha256": "c623f97bb6c526a68311821b975750d8883adcea38d9bd7eee146ae28936ebbc"
+    },
+    {
+      "id": "R-02",
+      "path": "review_only/split_day_night_concept_only.png",
+      "sha256": "aee93b8678072b4da0ca14dd53a1f9e146e931726d87a8251f8dcfb9223cbd5c"
+    },
+    {
+      "id": "R-03",
+      "path": "review_only/store_center_obstructed.png",
+      "sha256": "9825b6bee2543fd94bb553869bda918d3788864eb1903231d387970b2bb29bb8"
+    },
+    {
+      "id": "A-01",
+      "path": "refs/current/night_courtyard.png",
+      "sha256": "c8c3147a1723ac60cdc7021a9de9d6955346dbf985d9713d641ec0cc592ceb44"
+    },
+    {
+      "id": "A-02",
+      "path": "refs/current/day_alley.png",
+      "sha256": "f72ade5e2d3a03faceb13bc594bb345306d7353323dcb302cfdc26789814e756"
+    }
+  ]
+}

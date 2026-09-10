@@ -1,0 +1,15 @@
+{
+  "run_id": "20260910_100011_hardware_appliance_salvage_rebuild",
+  "active_user_direction": "Every building and manufactured prop uses Salvage Cyberpunk as its design foundation unless user explicitly requests an exception.",
+  "applies_to_future_requests": true,
+  "master_update_authorized": false,
+  "master_promotion": false,
+  "record_location_policy": "Output run only; no main documents/reference/approval-ledger change.",
+  "cassette_futurism": "retained, including each appliance",
+  "crt_and_video_screens": false,
+  "mechanization_target": "about 1/3 appliance building, service bay moved away from right route",
+  "height_target": "retailer about 1.3x ruin main roof height",
+  "quantitative_validation": false,
+  "user_approval_of_new_result": "pending"
+}
+

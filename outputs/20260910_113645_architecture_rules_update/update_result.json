@@ -1,0 +1,26 @@
+{
+  "status": "complete",
+  "approval_id": "architecture_entrances_roofs_20260910",
+  "changed_files": [
+    "AGENTS.md",
+    "docs/00_INDEX.md",
+    "docs/02_LAYOUT.md",
+    "docs/04_WORLD_DESIGN_V2.md",
+    "docs/05_GENERATION_RULES.md",
+    "docs/06_QA.md",
+    "docs/10_CURRENT_REFERENCES.md",
+    "templates/brief.md",
+    "templates/preflight.md",
+    "templates/review.md",
+    "project.json",
+    "state/approvals.json",
+    "state/CHANGELOG.md"
+  ],
+  "master_version": "2.2",
+  "additive_revision": "entrances_roofs_20260910",
+  "previous_files_preserved": 13,
+  "all_reference_hashes_preserved": 29,
+  "existing_approval_entries_preserved": true,
+  "structural_auto_correction_scope_unchanged": true,
+  "image_generation_performed": false
+}

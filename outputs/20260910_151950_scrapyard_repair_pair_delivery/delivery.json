@@ -1,0 +1,37 @@
+{
+  "final_deliverable_count": 2,
+  "generation_backend": "builtin_image_gen",
+  "independent_generation": true,
+  "references_29_hashes_preserved": true,
+  "image_files_valid": true,
+  "geometry_all_pass": false,
+  "deliverables": [
+    {
+      "style": "salvage",
+      "image": "C:\\Users\\Yeon Hee Kang\\OneDrive\\문서\\Codex\\background-concept-art\\concetp-art\\outputs\\20260910_151110_night_scrapyard_repair_salvage_corrected\\night_scrapyard_repair_salvage.png",
+      "size_px": [
+        1374,
+        1145
+      ],
+      "sha256": "77fe8deb4f999c964d926fa6d4fc29dd5e352b54b6780a80a0abe126ada6dc1e",
+      "prompt_path": "C:\\Users\\Yeon Hee Kang\\OneDrive\\문서\\Codex\\background-concept-art\\concetp-art\\outputs\\20260910_151110_night_scrapyard_repair_salvage_corrected\\generation_prompt.md",
+      "actual_input_count": 3,
+      "status": "uncertain",
+      "cross_variant_output_input": false
+    },
+    {
+      "style": "cassette",
+      "image": "C:\\Users\\Yeon Hee Kang\\OneDrive\\문서\\Codex\\background-concept-art\\concetp-art\\outputs\\20260910_151850_night_scrapyard_repair_cassette_rebuild\\night_scrapyard_repair_cassette.png",
+      "size_px": [
+        1377,
+        1142
+      ],
+      "sha256": "039913e07257f5964ba298b3178a1aee8402c9336561c71ea3c191c19ec50993",
+      "prompt_path": "C:\\Users\\Yeon Hee Kang\\OneDrive\\문서\\Codex\\background-concept-art\\concetp-art\\outputs\\20260910_151850_night_scrapyard_repair_cassette_rebuild\\generation_prompt.md",
+      "actual_input_count": 4,
+      "status": "needs_revision",
+      "cross_variant_output_input": false
+    }
+  ],
+  "scope": "Saved files and submitted input independence; geometry judgments from actual reviews."
+}

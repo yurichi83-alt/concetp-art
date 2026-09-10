@@ -1,0 +1,22 @@
+{
+  "mechanism": "referenced_image_paths",
+  "inputs": [
+    {
+      "id": "baseline_edit_target",
+      "path": "C:\\Users\\Yeon Hee Kang\\OneDrive\\문서\\Codex\\background-concept-art\\concetp-art\\outputs\\20260910_121332_alley_baseline\\alley_baseline.png",
+      "role": "preserve entire scene; change machine designs only",
+      "submitted": true,
+      "visually_inspected": true,
+      "sha256": "84c90b8ce8cfc5b09bae6bd6eee07e7b7b0849dbedc2103a677f554b2cb412eb"
+    },
+    {
+      "id": "M03-10",
+      "path": "C:\\Users\\Yeon Hee Kang\\OneDrive\\문서\\Codex\\background-concept-art\\concetp-art\\refs\\master03\\ldi_10_storefront_style_anchor.png",
+      "role": "surface economy only, no architecture/world/camera transfer",
+      "submitted": true,
+      "visually_inspected": true,
+      "sha256": "c24fe55ad76c6c8bfbd88dee7059a09fd7a592dc60e5d4a6c7c0704f11f19345"
+    }
+  ],
+  "omitted": "M01/M02 geometry and M04 salvage world inherited from actual baseline; no previous generated art used as style master"
+}

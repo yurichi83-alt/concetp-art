@@ -1,0 +1,3 @@
+# Own structural correction preflight
+
+PLANNED: C04linealignment andL07groundingvisibilityonly, preservebaseandcassetteidentity. Actualownimageopened. 5inputs:ownimage/M02/M03/M04/usercassetteattachment. Actualruntime5pathlimitconfirmed. Promptthreepart/allactiveuserkeywordsandmastersretained; noothervariantreference. FinalimagePENDING, noPASSclaim.

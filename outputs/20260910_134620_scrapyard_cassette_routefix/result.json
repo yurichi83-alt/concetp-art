@@ -1,0 +1,21 @@
+{
+  "status": "candidate_pass",
+  "tool": "built-in image_gen.imagegen",
+  "intent": "local_structural_edit",
+  "source_path": "C:\\Users\\Yeon Hee Kang\\.codex\\generated_images\\01a089a3-c81b-7403-8631-dfe51add7b3c\\exec-02aa5a24-a506-4e88-8de4-cf81d8db5a7d.png",
+  "saved_path": "C:\\Users\\Yeon Hee Kang\\OneDrive\\문서\\Codex\\background-concept-art\\concetp-art\\outputs\\20260910_134620_scrapyard_cassette_routefix\\scrapyard_cassette_final.png",
+  "sha256": "447b4e21c361dffa29b6ab36cefec5a138b43548fbc94780d40056ca48ea59db",
+  "source_sha256": "447b4e21c361dffa29b6ab36cefec5a138b43548fbc94780d40056ca48ea59db",
+  "byte_exact_copy": true,
+  "dimensions": [
+    1416,
+    1111
+  ],
+  "original_run": "C:\\Users\\Yeon Hee Kang\\OneDrive\\문서\\Codex\\background-concept-art\\concetp-art\\outputs\\20260910_134620_scrapyard_cassette",
+  "review": "review.md",
+  "correction": "rear right wall opened for continuous service exit",
+  "master_unchanged": true,
+  "independence": "Only own initial candidate used in correction. No counterpart or prior unrelated generation used.",
+  "final_visual_review": "All applicable C01-C04/L01-L07 PASS; L06 N/A hidden interiors. W04/W05 PASS by observation. Separate independent audit PASS.",
+  "stop_reason": "Applicable structural checks pass after one local route repair; no further generation."
+}

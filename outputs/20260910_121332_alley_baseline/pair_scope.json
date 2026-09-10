@@ -1,0 +1,23 @@
+{
+  "requested_final_count": 2,
+  "baseline": {
+    "world": "salvage_cyberpunk",
+    "cassette_futurism": false
+  },
+  "variant": {
+    "source": "completed_baseline_image",
+    "change_scope": "machine_designs_only",
+    "cassette_futurism": true
+  },
+  "preserve_between_images": [
+    "architecture",
+    "camera",
+    "lighting",
+    "litter_positions",
+    "bins_positions",
+    "roof_occupancy",
+    "two_exits",
+    "base"
+  ],
+  "master_update": false
+}

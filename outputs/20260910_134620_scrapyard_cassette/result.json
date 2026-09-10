@@ -1,0 +1,18 @@
+{
+  "status": "needs_revision",
+  "tool": "built-in image_gen.imagegen",
+  "intent": "new_generation",
+  "source_path": "C:\\Users\\Yeon Hee Kang\\.codex\\generated_images\\01a089a3-c81b-7403-8631-dfe51add7b3c\\exec-1ae7303d-eebe-423a-ab33-9b2f3f8a5523.png",
+  "saved_path": "C:\\Users\\Yeon Hee Kang\\OneDrive\\문서\\Codex\\background-concept-art\\concetp-art\\outputs\\20260910_134620_scrapyard_cassette\\scrapyard_cassette_initial.png",
+  "sha256": "ba3343e2e9c2d2bfbf33ebeeeb10263a4e42c90f03773a72e832775b665790be",
+  "source_sha256": "ba3343e2e9c2d2bfbf33ebeeeb10263a4e42c90f03773a72e832775b665790be",
+  "byte_exact_copy": true,
+  "dimensions": [
+    1416,
+    1111
+  ],
+  "review": "review.md",
+  "fault": "L02/L03: right rear service passage ended at undifferentiated solid wall",
+  "correction_run": "C:\\Users\\Yeon Hee Kang\\OneDrive\\문서\\Codex\\background-concept-art\\concetp-art\\outputs\\20260910_134620_scrapyard_cassette_routefix",
+  "independence": "No counterpart scene, guide, prompt or art and no previous generated artwork read/opened/reused. Only masters, own new guide, and explicit user cassette reference were image inputs."
+}

@@ -1,0 +1,23 @@
+{
+  "run_id": "20260910_094940_ruined_hardware_appliance_night",
+  "status": "candidate_pass",
+  "structural_status": "candidate_pass",
+  "backend": "builtin_image_gen.imagegen",
+  "generation_calls": 1,
+  "requested_final_count": 1,
+  "final_delivered_count": 1,
+  "source_path": "C:\\Users\\Yeon Hee Kang\\.codex\\generated_images\\01a08867-7e38-7162-8368-5c8c0df7a0c0\\exec-aeb286a2-36c4-43b8-bb60-28de86762cec.png",
+  "output_path": "C:\\Users\\Yeon Hee Kang\\OneDrive\\문서\\Codex\\background-concept-art\\concetp-art\\outputs\\20260910_094940_ruined_hardware_appliance_night\\ruined_hardware_appliance_night.png",
+  "width": 1536,
+  "height": 1024,
+  "sha256": "e83caac60cebabfa503dfe70e13386dc3662e62a4f09f202ecea0a224f81eb39",
+  "source_and_copy_hash_match": true,
+  "green_crt_or_video_screens_observed": false,
+  "mechanization_fraction": "approximately one third of appliance building expressed by side service stack; not measured",
+  "height_ratio": "1.3x was the design target; perceived height affected by gable/perspective and rooftop equipment, exact roof-height ratio unverified",
+  "metric_height_and_passage_width_verified": false,
+  "style_caveat": "Localized ruin/rubble clear; remaining minor weathering and earth texture are more detailed than the calmest style masters.",
+  "user_approval": "pending",
+  "master_promotion": false,
+  "temporary_cassette_futurism": true
+}

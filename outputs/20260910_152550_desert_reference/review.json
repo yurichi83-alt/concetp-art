@@ -1,0 +1,23 @@
+{
+  "status": "needs_revision",
+  "actually_viewed": true,
+  "projection": "parallel_orthographic",
+  "observations": {
+    "C01": "PASS",
+    "C02": "FAIL near basecorner appears deeper than sidecorners",
+    "C03": "UNCERTAIN rough perimeter hides exactplane",
+    "C04": "FAIL rightplatform horizontal edges not coherent withbaseaxis",
+    "L01": "PASS",
+    "L02": "PASS twoclosedgates",
+    "L03": "PASS clearapproaches",
+    "L04": "PASS",
+    "L05": "UNCERTAIN",
+    "L06": "N/A closedhangar",
+    "L07": "UNCERTAIN props hidecontacts",
+    "W04": "PASS",
+    "W05": "visualcoverage plausible",
+    "R01": "source desertvocabulary reflected"
+  },
+  "next_strategy": "Use only geometric blockout and user scene reference; explicitly treat guide as immutable geometric target, remove auxiliary image cameras.",
+  "image": "desert_outpost.png"
+}

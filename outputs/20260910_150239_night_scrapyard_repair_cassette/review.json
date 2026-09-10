@@ -1,0 +1,204 @@
+{
+  "image": "C:\\Users\\Yeon Hee Kang\\OneDrive\\문서\\Codex\\background-concept-art\\concetp-art\\outputs\\20260910_150239_night_scrapyard_repair_cassette\\night_scrapyard_repair_cassette.png",
+  "dimensions": [
+    1377,
+    1142
+  ],
+  "actually_opened": true,
+  "planned_projection": "parallel_orthographic",
+  "status": "needs_revision",
+  "structural_status": "needs_revision",
+  "C01": "PASS",
+  "C02": "PASS_observed_correspondences",
+  "C03": "PASS_observed_outline_no_proven_floor_curvature",
+  "C04": "FAIL_small_but_observable_common_axis_roof_drift",
+  "L01": "PASS",
+  "L02": "PASS_two_assigned_closed_gates",
+  "L03": "PASS_visible_approaches;postclear_planned_not_animated",
+  "L04": "PASS",
+  "L05": "PASS_visible_supported_roofs_and_grounded_entries",
+  "L06": "N/A_closed_interiors",
+  "L07": "UNCERTAIN_occluded_critical_junkyard_footing_and_repair_side_footing",
+  "W04": "PASS_two_closed_human_entries",
+  "W05": "PASS_visual_estimate_each_total_roof_about50to65percent;not_metric_validation",
+  "art_world_request": "Keywords and cassette modules present; denser wear than preferred art. No aesthetic-only iteration.",
+  "line_endpoints": {
+    "base_X_upper": {
+      "points": [
+        [
+          31,
+          610
+        ],
+        [
+          677,
+          991
+        ]
+      ],
+      "screen_angle_degrees": 30.531
+    },
+    "base_X_lower": {
+      "points": [
+        [
+          29,
+          729
+        ],
+        [
+          677,
+          1110
+        ]
+      ],
+      "screen_angle_degrees": 30.454
+    },
+    "base_Y_upper": {
+      "points": [
+        [
+          677,
+          991
+        ],
+        [
+          1356,
+          618
+        ]
+      ],
+      "screen_angle_degrees": -28.782
+    },
+    "base_Y_lower": {
+      "points": [
+        [
+          677,
+          1110
+        ],
+        [
+          1356,
+          740
+        ]
+      ],
+      "screen_angle_degrees": -28.587
+    },
+    "junkyard_low_roof_X": {
+      "points": [
+        [
+          346,
+          356.5
+        ],
+        [
+          494,
+          436
+        ]
+      ],
+      "screen_angle_degrees": 28.243
+    },
+    "junkyard_low_roof_Y": {
+      "points": [
+        [
+          494,
+          436
+        ],
+        [
+          686,
+          329
+        ]
+      ],
+      "screen_angle_degrees": -29.131
+    },
+    "repair_roof_X": {
+      "points": [
+        [
+          780,
+          389
+        ],
+        [
+          1006,
+          514
+        ]
+      ],
+      "screen_angle_degrees": 28.947
+    },
+    "repair_roof_Y": {
+      "points": [
+        [
+          1006,
+          514
+        ],
+        [
+          1179,
+          423
+        ]
+      ],
+      "screen_angle_degrees": -27.745
+    },
+    "paving_X": {
+      "points": [
+        [
+          523,
+          650
+        ],
+        [
+          740,
+          777
+        ]
+      ],
+      "screen_angle_degrees": 30.338
+    },
+    "paving_Y": {
+      "points": [
+        [
+          748,
+          907
+        ],
+        [
+          1077,
+          723
+        ]
+      ],
+      "screen_angle_degrees": -29.217
+    }
+  },
+  "base_corner_correspondences": [
+    {
+      "upper": [
+        31,
+        610
+      ],
+      "lower": [
+        29,
+        729
+      ],
+      "vector": [
+        -2,
+        119
+      ]
+    },
+    {
+      "upper": [
+        677,
+        991
+      ],
+      "lower": [
+        677,
+        1110
+      ],
+      "vector": [
+        0,
+        119
+      ]
+    },
+    {
+      "upper": [
+        1356,
+        618
+      ],
+      "lower": [
+        1356,
+        740
+      ],
+      "vector": [
+        0,
+        122
+      ]
+    }
+  ],
+  "method": "Manual native-endpoint reading using full native image and two 2x inspection crops; crop origins junkyard320,300 repair760,350. Estimated native selection uncertainty about2px for clear edges, larger where partially occluded. Screen-angle difference is not physical3D rotation. No universal tolerance used.",
+  "finding": "Base directions are broadly consistent above/below and planar outlines are straight. Low junkyard roofX is about28.24deg against base30.53deg; shortness causes uncertainty in precise delta but the same-axis discrepancy and occluded grounding warrant targeted alignment/visibility correction, not whole-base reshaping. Roof alone cannot prove ground-plane rotation.",
+  "correction": "Preserve constant-depth base and its camera. Align building level edges and revealed footing bands to the base direction families; relocate obscuring small crates/bins beside walls without blocking exits. Same cassette scene only; no sibling output input."
+}

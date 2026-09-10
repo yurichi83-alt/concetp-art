@@ -1,0 +1,9 @@
+{
+  "master_version": "2.2",
+  "execution_rules_version": "1.3",
+  "mode": "builtin_imagegen",
+  "master_update": false,
+  "requested_final_count": 1,
+  "previous_run": "outputs\\20260910_110250_hardware_appliance_v22_test",
+  "status": "candidate_pass"
+}

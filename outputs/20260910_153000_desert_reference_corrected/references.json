@@ -1,0 +1,20 @@
+{
+  "master": "2.4",
+  "execution": "1.5",
+  "own_parent": "C:\\Users\\Yeon Hee Kang\\OneDrive\\문서\\Codex\\background-concept-art\\concetp-art\\outputs\\20260910_152550_desert_reference",
+  "submitted_to_generation": [
+    "C:\\Users\\Yeon Hee Kang\\OneDrive\\문서\\Codex\\background-concept-art\\concetp-art\\outputs\\20260910_153000_desert_reference_corrected\\structure_guide.png",
+    "C:\\Users\\Yeon Hee Kang\\OneDrive\\문서\\Codex\\background-concept-art\\concetp-art\\outputs\\20260910_153000_desert_reference_corrected\\user_reference.png"
+  ],
+  "delivery_status": "returned_image_saved",
+  "roles": [
+    "geometrytarget",
+    "desertsubjectonly"
+  ],
+  "inspected": true,
+  "source_art_world_masters": "inspected earlier; text preserved, omitted images for geometry correction",
+  "prompt_chars": 3444,
+  "utf8_bytes": 3446,
+  "unknown": "model/token/rewrite",
+  "backend": "builtinimagegen"
+}

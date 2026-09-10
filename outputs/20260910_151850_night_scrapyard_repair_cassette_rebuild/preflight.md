@@ -1,0 +1,3 @@
+# Structural rebuild preflight
+
+PLANNED, notfinalPASS. FourinspectedPNGinputs: ownsingleorthographicguide/M03/M04/usercassetteattachment. Original01/02read/inspected andframing/cuts/twodirectionalexitconnectivitypreservedinprompt. Removedsecondgeometrycamera. No failedoutputorothersceneinput. Bothbuildingfootingstripsplannedbare; onlyrequiredwreckcar/binsperipheraloutsidecenter/routes. Allcurrentkeywordconstraints preserved. NewactualfinalPNGreviewrequired. Stopifthisdistinctstrategyfailsandrepeatedfaultsremainwithoutanotherreliableapproach.

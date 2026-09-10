@@ -1,0 +1,105 @@
+{
+  "base": [
+    0,
+    16,
+    0,
+    16,
+    -1.5,
+    0
+  ],
+  "projection": "common orthographic XYZ basis from deterministic renderer",
+  "roofs": {
+    "left": {
+      "area": 32.66,
+      "occupied": 19.25,
+      "fraction": 0.5894060012247399
+    },
+    "right": {
+      "area": 32.45,
+      "occupied": 16.11,
+      "fraction": 0.4964560862865947
+    }
+  },
+  "protected_routes": {
+    "left": [
+      0,
+      8,
+      11,
+      14,
+      0,
+      2.4
+    ],
+    "right": [
+      13,
+      15.5,
+      0,
+      14,
+      0,
+      2.4
+    ],
+    "center": [
+      5.6,
+      13,
+      9.8,
+      14,
+      0,
+      2.4
+    ]
+  },
+  "objects": {
+    "left_building": [
+      0.9,
+      5.5,
+      0.9,
+      8,
+      0,
+      3.8
+    ],
+    "right_building": [
+      6.3,
+      11.8,
+      0.9,
+      6.8,
+      0,
+      5.5
+    ],
+    "left_bin": [
+      1.15,
+      2.95,
+      8.3,
+      9.65,
+      0,
+      1.4
+    ],
+    "right_bin": [
+      9,
+      10.1,
+      7.15,
+      8.3,
+      0,
+      1.3
+    ],
+    "bags_left": [
+      3.05,
+      3.45,
+      8.5,
+      9.35,
+      0,
+      0.6
+    ],
+    "bags_right": [
+      10.15,
+      10.8,
+      7.2,
+      8.3,
+      0,
+      0.6
+    ]
+  },
+  "collisions": [],
+  "mechanical_building": "right block rightmost full-height fifth, 1.1/5.5 width = 20% envelope volume; distinct from roof occupancy",
+  "entrances": "left x3.5..4.9 at y8, right x7.1..8.4 at y6.8, clear in front",
+  "numeric_limit": "planned envelope ratio and footprints only; final image separately visually reviewed",
+  "new_generation": true,
+  "previous_art_inputs": false
+}

@@ -1,0 +1,23 @@
+{
+  "run_id": "20260910_082127_scrapyard_night_barrel_fire",
+  "status": "generated_and_reviewed_with_surface_density_note",
+  "backend": "builtin_image_gen.imagegen",
+  "generation_calls": 1,
+  "requested_final_count": 1,
+  "final_delivered_count": 1,
+  "source_path": "C:\\Users\\Yeon Hee Kang\\.codex\\generated_images\\01a08867-7e38-7162-8368-5c8c0df7a0c0\\exec-7efee6d8-8823-4ff4-b7b0-654e3ffa7b4a.png",
+  "output_path": "C:\\Users\\Yeon Hee Kang\\OneDrive\\문서\\Codex\\background-concept-art\\concetp-art\\outputs\\20260910_082127_scrapyard_night_barrel_fire\\scrapyard_night_barrel_fire.png",
+  "width": 1448,
+  "height": 1086,
+  "bytes": 2073376,
+  "sha256": "ea9f36fb2545a0d9382e8088787fb506ede6f3059d1573955ec3b751875c548d",
+  "source_and_copy_hash_match": true,
+  "prompt_file": "brief.md",
+  "reference_record": "references.json",
+  "review_file": "review.md",
+  "user_approval": "none",
+  "master_promotion": false,
+  "structural_status": "candidate_pass",
+  "art_world_request_status": "uncertain_surface_density",
+  "visual_review_source": "Full-resolution displayed image_gen result"
+}

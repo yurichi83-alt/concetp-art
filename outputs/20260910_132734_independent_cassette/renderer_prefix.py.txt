@@ -1,0 +1,33 @@
+from pathlib import Path
+import json, math, hashlib
+import numpy as np
+from PIL import Image, ImageDraw
+ROOT=Path(__file__).resolve().parents[2]
+RUN=Path(__file__).resolve().parent
+W,H=1280,1050
+im=Image.new('RGB',(W,H),'#17212e')
+draw=ImageDraw.Draw(im)
+faces=[]
+segments=[]
+svg=['<svg xmlns="http://www.w3.org/2000/svg" width="1280" height="1050" viewBox="0 0 1280 1050"><rect width="1280" height="1050" fill="#17212e"/>']
+def p(v):
+ x,y,z=v
+ return (640+32*(x-y),310+32/math.sqrt(3)*(x+y)-64/math.sqrt(3)*z)
+def poly(v,col,stroke='#33414d',width=2):
+ faces.append((v,col,stroke,width))
+ pts=[p(q) for q in v]
+ draw.polygon(pts,fill=col)
+ draw.line(pts+[pts[0]],fill=stroke,width=width)
+ svg.append('<polygon points="'+ ' '.join(f'{a:.3f},{b:.3f}' for a,b in pts)+'" fill="'+col+'" stroke="'+stroke+'" stroke-width="'+str(width)+'"/>')
+def line(v,col='#6f858c',width=2):
+ segments.append((v,col,width))
+ pts=[p(q) for q in v]
+ draw.line(pts,fill=col,width=width)
+ svg.append('<polyline points="'+ ' '.join(f'{a:.3f},{b:.3f}' for a,b in pts)+'" fill="none" stroke="'+col+'" stroke-width="'+str(width)+'"/>')
+def plane(a,b,c,d,z,col):
+ poly([(a,c,z),(b,c,z),(b,d,z),(a,d,z)],col)
+def box(a,b,c,d,z,h,colors=('#7e929b','#637986','#9aadb3')):
+ poly([(b,c,z),(b,d,z),(b,d,h),(b,c,h)],colors[0])
+ poly([(a,d,z),(b,d,z),(b,d,h),(a,d,h)],colors[1])
+ plane(a,b,c,d,h,colors[2])
+

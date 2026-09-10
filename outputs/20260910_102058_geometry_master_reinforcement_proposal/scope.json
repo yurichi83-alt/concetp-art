@@ -1,0 +1,26 @@
+{
+  "status": "proposal_pending_user_review",
+  "task": "Analyze geometry and traversal failures; propose master reinforcement without applying it.",
+  "main_update_authorized": false,
+  "main_update_applied": false,
+  "concept_image_generation_requested": false,
+  "concept_image_generation_performed": false,
+  "original_master_count": 24,
+  "positive_reference_promotion": false,
+  "proposal_scope": [
+    "shared cubic spatial frame",
+    "single projection system",
+    "base geometry and corner correspondence",
+    "rear boundary geometry",
+    "volume-aware continuous routes",
+    "usable interior circulation",
+    "geometry-first generation and hard QA"
+  ],
+  "separate_pending_style_directions_not_auto_promoted": [
+    "cassette futurism",
+    "exclude green CRT/video screens",
+    "Salvage Cyberpunk for all buildings/props unless explicitly excepted"
+  ],
+  "new_diagram": "explanatory unapproved SVG only, not an active positive master"
+}
+

@@ -1,0 +1,13 @@
+{
+  "image": "C:\\Users\\Yeon Hee Kang\\OneDrive\\문서\\Codex\\background-concept-art\\concetp-art\\outputs\\20260910_153400_desert_reference_final\\desert_outpost.png",
+  "size_px": [
+    1374,
+    1145
+  ],
+  "sha256": "68262a085f77a8b1380c97d9397ac58b450e12faba11603e906856f9d3690905",
+  "status": "needs_revision",
+  "final_count": 1,
+  "prompt": "C:\\Users\\Yeon Hee Kang\\OneDrive\\문서\\Codex\\background-concept-art\\concetp-art\\outputs\\20260910_153400_desert_reference_final\\generation_prompt.md",
+  "review": "C:\\Users\\Yeon Hee Kang\\OneDrive\\문서\\Codex\\background-concept-art\\concetp-art\\outputs\\20260910_153400_desert_reference_final\\review.json",
+  "backend": "builtinimagegen"
+}

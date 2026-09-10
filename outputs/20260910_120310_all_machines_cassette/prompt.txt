@@ -1,0 +1,38 @@
+Use case: style-transfer / precise-object-edit. Produce ONE edited final image. The user explicitly requests that ALL MACHINES be changed to CASSETTE FUTURISM. This is a substantial redesign of the machinery itself, not a subtle pass of added knobs.
+
+INPUT ROLES:
+Image1 is the source scene/edit target. Preserve architectural volumes, spatial layout, balcony, windows, doors, roofs, motorcycle parking LOCATION and geometry of the scene, but REPLACE THE DESIGNS OF EVERY MACHINE.
+Image2 is material-rendering guidance ONLY: Little Devil Inside broad quiet color planes, stylized 3D solid forms and selective detail. Do not import the pictured era, characters, storefront design, text or camera.
+
+PRIMARY CHANGE:
+Redesign 100% of visible mechanical/electrical equipment into one unmistakable cassette-futurist family. The existing generic HVAC boxes, bare round fan grilles, outdoor electrical cabinets and conventional bike mechanics are the parts to CHANGE. Do not merely keep those shapes and add miniature buttons. Give them NEW clearly different industrial-design housings, cassette bays and analog control arrangements, within their existing spatial envelopes.
+
+DESIGN GRAMMAR — MAKE THIS READ AT DIORAMA SCALE:
+Late-1970s/1980s imagined advanced technology, robust modular appliances and spacecraft-like analog service equipment:
+- Chunky cream/aged ivory or faded olive molded/painted housings with clipped corners and thick dark bumper edges on THE MACHINES, not on the ground base.
+- Broad charcoal inset CONTROL FASCIAS with large tactile square push-buttons, a few oversized rotary knobs, toggle rows and white-faced needle meters. Analog hardware with bold graphic organization, no screens.
+- CLEAR removable rectangular cartridge modules fitted into rack-like insertion slots; deep recessed U-shaped pull handles, spring latches, visible seam around each removable cartridge, simple robust socket connections.
+- Sliding cassette-bay covers, stacked service drawers and ribbed heat-sink/louver bands integrated into the machine silhouette.
+- Off-white, dark brown/charcoal, muted olive, a restrained industrial orange accent; substantial rubberized leads and standardized chunky connectors.
+- Show patched replacement cartridges and salvaged incompatible modules joined with purposeful adapters: this remains SALVAGE CYBERPUNK.
+- These are functional future machines using cassette-era design language. Do not turn them all into literal audio tape players, radios or boomboxes; no gratuitous reels on every object.
+- Avoid tiny unreadable details. A few BOLD faces, insertion bays and control elements per machine. Recovered, used and repaired, with broad calm paint planes.
+
+APPLY ACROSS ALL THESE ZONES, NOT ONLY THE ROOFS:
+A. LEFT BIG-BUILDING ROOF: redesign every pump, compressor, power box and controller around the storage tank into chunky rack-cartridge assemblies with unmistakable sloped analog control fascias. The tank retains its storage function, position and broad tank volume, but replace the tank's external instrumentation, service hatch/housing, flange covers and access fittings with the same cassette-futurist modular language. Do not leave its attached systems generic.
+B. RIGHT BIG-BUILDING ROOF: replace ALL standard air-conditioning/power-machine housings with cohesive cassette-rack power/filter units: large removable service cassettes, handles, black inset control faces, broad louvers. Each differs functionally, not identical cloned boxes. Keep the existing meaningful rooftop coverage and maintenance gaps.
+C. SMALL-SHOP ROOF: redesign its cooling and canopy motor units into this same family, with clear removable cartridge casing and physical controls. Keep food storage/awning functionality.
+D. ALL WALL EQUIPMENT: the newly added WHITE building's upstairs ventilation unit, the BLUE building's wall fans, stacked exhaust modules, gate-side electrical cabinets, utility switches and shutter/awning motor enclosures must ALL use new chunky cartridge/filter housings and analog panels. Replace exposed generic round-fan-in-square-box fronts with designed coarse-louver cartridge faces. Architectural WINDOWS remain windows and are not machines.
+E. SHOP EQUIPMENT: the small weighing/payment device and any visible electrical shop fixtures become retrofuture instruments with modular casings, analog dial/physical number rollers and tactile keys. Keep its counter/stock and clear entrance.
+F. MOTORCYCLE: keep exactly ONE motorcycle at its current wall-side parking spot and roughly the same compact dimensions, parallel to the graffiti wall. REDESIGN its tank/power pod, engine enclosure, side modules, headlamp housing and instrument cluster to match the same cassette-futurist language. Distinct angular cream fairing/power casings, a large side-insert removable energy cartridge with recessed handle and latch, ribbed block modules, squared physical lamp surround and white analog gauges with tactile switches. Keep two wheels, functional fork/handlebars/seat/frame, stand, grounding and a believable wheelbase. Do not leave it a conventional naked vintage bike with luggage boxes. No rider, no weapons.
+G. GROUND-CUT UTILITIES: keep the existing conduit routes and two flat soil cross-sections, but redesign junction/control housings and coupling hardware with cassette-style service drawers, simple analog meters and modular covers. Passive long pipe lengths can remain pipes; do not make the ground itself into equipment.
+
+NO CRTS OR DISPLAYS:
+No green phosphor, no CRT, no LCD, no video/computer/TV monitors, no substitute amber screens, no holograms. Dark control FASCIAS are flat panels with visible physical buttons, needle gauges and cartridge slots, NOT black blank rectangular screens. No neon cyberpunk lighting.
+
+PRESERVE ALL NON-MECHANICAL SCENE FEATURES:
+Keep the exact camera, single coherent projection, square four-corner base with constant depth, corresponding vertical corners, straight paving, planar exposed soil cutaway faces, and whole-object framing. Do not chamfer/bevel/round the BASE.
+Keep BOTH tall buildings in their exact positions/colors, the small grocery tightly between them, the white building's second-floor balcony and door/window, all building entry doors, blue building's closed full-height shutter, the shop's open doorway and visible clear interior aisle, the torn posters/graffiti, balcony plants/cloth and existing groceries.
+The machinery designs may change shape within their occupied areas, but do not change the architecture or footprint allocation. Retain 40-80% meaningful equipment coverage on EACH roof. No new roof towers or equipment spilling past the frame.
+Preserve both perpendicular rear boundary walls and BOTH exterior exits. Keep the central courtyard and both continuous walking paths from foreground through and beyond each gate completely clear. The redesigned motorcycle stays close to its wall, its handlebars/body/stand do not intrude into the right walking lane. No new floor-standing machine anywhere.
+Same DAYLIGHT, restrained shadows, quiet background, Little Devil Inside-like stylized 3D surface economy. Do not increase all-over grunge, bolts or scratches. ONE finished scene, no diagram, split comparison, labels, text overlay or extra people.

@@ -1,0 +1,39 @@
+{
+  "ok": true,
+  "master_version": "2.2",
+  "execution_rules_version": "1.3",
+  "package_version": "1.2.0",
+  "master_images_unchanged": 24,
+  "preferred_images_unchanged": 2,
+  "review_images_unchanged": 3,
+  "backups_verified": 24,
+  "qa_template_config_checks_matched": [
+    "C01",
+    "C02",
+    "C03",
+    "C04",
+    "L01",
+    "L02",
+    "L03",
+    "L04",
+    "L05",
+    "L06"
+  ],
+  "approved_clauses_verified": 7,
+  "historical_approvals_preserved": true,
+  "style_world_bodies_preserved": "errors list reports any exception",
+  "package_validation": {
+    "ok": true,
+    "root": "C:\\Users\\Yeon Hee Kang\\OneDrive\\문서\\Codex\\background-concept-art\\concetp-art",
+    "master_images": 24,
+    "review_only_images": 3,
+    "preferred_result_images": 2,
+    "agents_bytes": 5223,
+    "errors": [],
+    "warnings": [],
+    "scope": "Files only. No visual or Codex-runtime validation."
+  },
+  "git_diff_check_passed": true,
+  "errors": [],
+  "scope": "File integrity, approval scope and policy consistency only; no image generation or geometry-model test performed."
+}
