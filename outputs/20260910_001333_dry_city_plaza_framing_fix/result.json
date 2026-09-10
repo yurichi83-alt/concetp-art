@@ -1,0 +1,29 @@
+{
+  "tool": "image_gen.imagegen",
+  "intent": "structural_framing_correction",
+  "master_version": "2.1",
+  "execution_rules_version": "1.2",
+  "source": "/Users/hyojinnoh/.codex/generated_images/01a08610-9124-7bd1-9961-9126ad377251/exec-d866935c-0954-4e46-b395-5c2be5e9e0a2.png",
+  "saved_image": "/Users/hyojinnoh/Documents/Codex/GameConcept_Codex/outputs/20260910_001333_dry_city_plaza_framing_fix/moonlit_dry_city_plaza_final.png",
+  "dimensions": [
+    1536,
+    1024
+  ],
+  "sha256": "fa6a4b8e7305d78568b35840ca06f82a71202ae3386f0272a99933d4fd702ac3",
+  "parent_run": "/Users/hyojinnoh/Documents/Codex/GameConcept_Codex/outputs/20260910_000927_moonlit_dry_city_plaza",
+  "tool_calls_this_run": 1,
+  "total_calls_this_request": 2,
+  "structural_correction_calls": 1,
+  "final_deliverable_count": 1,
+  "qa_status": "candidate_pass",
+  "master_updated": false,
+  "user_approved_result": false,
+  "opened_for_review": true,
+  "structural_status": "candidate_pass",
+  "structural_failures": [],
+  "style_reservations": [
+    "Fine roof seams and localized wall weathering remain denser than the LDI supplement; not exact style equivalence."
+  ],
+  "stop_reason": "Observed framing fault corrected and structural review passed. No further automatic variation.",
+  "independent_visual_review": true
+}

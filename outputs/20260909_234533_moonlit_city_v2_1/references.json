@@ -1,0 +1,81 @@
+{
+  "run_id": "20260909_234533_moonlit_city_v2_1",
+  "master_version": "2.1",
+  "execution_rules_version": "1.2",
+  "tool": "image_gen.imagegen",
+  "intent": "new_location",
+  "status": "submitted_and_generated",
+  "inputs": [
+    {
+      "id": "M02-01",
+      "path": "refs/master02/layout_two_exits.png",
+      "use_only": "이동 경계, 각 뒤쪽 면의 출구, 높이 상한만 참고",
+      "exclude": "파란 벽·글자·아이콘·화살표·입구 표시·정중앙 배치는 복사하지 않음",
+      "sha256": "444031765bb112361022fb23f593f3d386907ccb2bd005353b0514ed2f588a26",
+      "absolute_path": "/Users/hyojinnoh/Documents/Codex/GameConcept_Codex/refs/master02/layout_two_exits.png",
+      "input_index": 1,
+      "visually_inspected": true,
+      "submitted": true,
+      "submitted_via": "referenced_image_paths"
+    },
+    {
+      "id": "M01-01",
+      "path": "refs/master01/composition_cutaway.png",
+      "use_only": "카메라, 전체 베이스, 두께와 측면 단면만 참고",
+      "exclude": "네온·상점가·일본풍·팔레트·고밀도 재질은 제외",
+      "sha256": "849912ebad9cd750ca79fba6bd8fce6061a5b0ee169a6da5908c60abae94b1a3",
+      "absolute_path": "/Users/hyojinnoh/Documents/Codex/GameConcept_Codex/refs/master01/composition_cutaway.png",
+      "input_index": 2,
+      "visually_inspected": true,
+      "submitted": true,
+      "submitted_via": "referenced_image_paths"
+    },
+    {
+      "id": "M03-10",
+      "path": "refs/master03/ldi_10_storefront_style_anchor.png",
+      "use_only": "큰 깨끗한 색면, 선택적 손상, 특징적 큰 윤곽, 디테일 집중과 여백의 대비",
+      "exclude": "상점 종류·건축 양식·상호·캐릭터·카메라 제외",
+      "sha256": "c24fe55ad76c6c8bfbd88dee7059a09fd7a592dc60e5d4a6c7c0704f11f19345",
+      "absolute_path": "/Users/hyojinnoh/Documents/Codex/GameConcept_Codex/refs/master03/ldi_10_storefront_style_anchor.png",
+      "input_index": 3,
+      "visually_inspected": true,
+      "submitted": true,
+      "submitted_via": "referenced_image_paths"
+    },
+    {
+      "id": "M04-02",
+      "path": "refs/master04/world_02_heavy_mechanical_arms.png",
+      "use_only": "큰 산업기계 덩어리·도장 패널·관절의 기능감",
+      "exclude": "인물 직접 삽입·포토리얼 표면·동일 복장 복제 제외",
+      "sha256": "a71042678c1898320a3d949d0108bde7e6f931c8f1bf8b316a057084be179a3b",
+      "absolute_path": "/Users/hyojinnoh/Documents/Codex/GameConcept_Codex/refs/master04/world_02_heavy_mechanical_arms.png",
+      "input_index": 4,
+      "visually_inspected": true,
+      "submitted": true,
+      "submitted_via": "referenced_image_paths"
+    },
+    {
+      "id": "M03-11",
+      "path": "refs/master03/ldi_11_pub_clean_surfaces.png",
+      "use_only": "넓은 벽 색면, 창틀·몰딩의 큰 형태, 큰 포장석의 재질과 명암",
+      "exclude": "세계관·시대·서사·캐릭터·차량·UI·상호/포스터 문자·카메라·공간 배치 복사 제외. 자연물 묘사 제외.",
+      "sha256": "9046367233123ab4a582c2fcc740986b23a7c37c2b8e331c7cd3768464837ac9",
+      "absolute_path": "/Users/hyojinnoh/Documents/Codex/GameConcept_Codex/refs/master03/ldi_11_pub_clean_surfaces.png",
+      "input_index": 5,
+      "visually_inspected": true,
+      "submitted": true,
+      "submitted_via": "referenced_image_paths"
+    }
+  ],
+  "omitted_references_and_reasons": [
+    "Previous generated results are not submitted: approved mechanical presence is conveyed in words to avoid copying buildings and cutaway design.",
+    "Other LDI supplements are not submitted under the five-input tool limit. M03-11 chosen for broad clean architectural surfaces.",
+    "M03-12 is not used; its nature exclusion remains in the master policy."
+  ],
+  "approval_ids": [
+    "master_update_20260909_v2_1",
+    "structural_auto_correction_20260909"
+  ],
+  "internal_model_reference_influence": "unknown",
+  "tool_calls": 1
+}

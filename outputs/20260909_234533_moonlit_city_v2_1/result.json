@@ -1,0 +1,21 @@
+{
+  "tool": "image_gen.imagegen",
+  "tool_calls_this_run": 1,
+  "source": "/Users/hyojinnoh/.codex/generated_images/01a08610-9124-7bd1-9961-9126ad377251/exec-8ec8094d-6de1-42af-8a29-2d4c8a2c2c20.png",
+  "saved_image": "/Users/hyojinnoh/Documents/Codex/GameConcept_Codex/outputs/20260909_234533_moonlit_city_v2_1/moonlit_city_attempt01.png",
+  "dimensions": [
+    1448,
+    1086
+  ],
+  "sha256": "736ef051f07c3f611e1c9aad6f8b30df9ff894aa883f69b5cd41919d2f7978d7",
+  "qa_status": "needs_revision",
+  "master_updated": false,
+  "user_approved_result": false,
+  "opened_for_review": true,
+  "structural_status": "fail",
+  "structural_failures": [
+    "C01_outer_boundary_and_base_cropped"
+  ],
+  "next_run": "/Users/hyojinnoh/Documents/Codex/GameConcept_Codex/outputs/20260909_234825_moonlit_city_framing_fix",
+  "final_deliverable": "/Users/hyojinnoh/Documents/Codex/GameConcept_Codex/outputs/20260909_234825_moonlit_city_framing_fix/moonlit_city_final.png"
+}

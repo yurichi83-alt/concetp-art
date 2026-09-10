@@ -1,0 +1,68 @@
+{
+  "status": "submitted_and_generated",
+  "tool": "image_gen.imagegen",
+  "intent": "structural_framing_correction",
+  "parent_run": "outputs/20260909_234533_moonlit_city_v2_1",
+  "approval_id": "structural_auto_correction_20260909",
+  "inputs": [
+    {
+      "input_index": 1,
+      "id": "edit_target",
+      "path": "/Users/hyojinnoh/Documents/Codex/GameConcept_Codex/outputs/20260909_234533_moonlit_city_v2_1/moonlit_city_attempt01.png",
+      "role": "preserve new city design; fix full framing",
+      "visually_inspected": true,
+      "submitted": true,
+      "submitted_via": "referenced_image_paths",
+      "sha256": "736ef051f07c3f611e1c9aad6f8b30df9ff894aa883f69b5cd41919d2f7978d7"
+    },
+    {
+      "input_index": 2,
+      "id": "M02-01",
+      "path": "/Users/hyojinnoh/Documents/Codex/GameConcept_Codex/refs/master02/layout_two_exits.png",
+      "role": "이동 경계, 각 뒤쪽 면의 출구, 높이 상한만 참고",
+      "exclude": "파란 벽·글자·아이콘·화살표·입구 표시·정중앙 배치는 복사하지 않음",
+      "sha256": "444031765bb112361022fb23f593f3d386907ccb2bd005353b0514ed2f588a26",
+      "visually_inspected": true,
+      "submitted": true,
+      "submitted_via": "referenced_image_paths"
+    },
+    {
+      "input_index": 3,
+      "id": "M01-01",
+      "path": "/Users/hyojinnoh/Documents/Codex/GameConcept_Codex/refs/master01/composition_cutaway.png",
+      "role": "카메라, 전체 베이스, 두께와 측면 단면만 참고",
+      "exclude": "네온·상점가·일본풍·팔레트·고밀도 재질은 제외",
+      "sha256": "849912ebad9cd750ca79fba6bd8fce6061a5b0ee169a6da5908c60abae94b1a3",
+      "visually_inspected": true,
+      "submitted": true,
+      "submitted_via": "referenced_image_paths"
+    },
+    {
+      "input_index": 4,
+      "id": "M03-11",
+      "path": "/Users/hyojinnoh/Documents/Codex/GameConcept_Codex/refs/master03/ldi_11_pub_clean_surfaces.png",
+      "role": "넓은 벽 색면, 창틀·몰딩의 큰 형태, 큰 포장석의 재질과 명암",
+      "exclude": "세계관·시대·서사·캐릭터·차량·UI·상호/포스터 문자·카메라·공간 배치 복사 제외. 자연물 묘사 제외.",
+      "sha256": "9046367233123ab4a582c2fcc740986b23a7c37c2b8e331c7cd3768464837ac9",
+      "visually_inspected": true,
+      "submitted": true,
+      "submitted_via": "referenced_image_paths"
+    },
+    {
+      "input_index": 5,
+      "id": "M04-02",
+      "path": "/Users/hyojinnoh/Documents/Codex/GameConcept_Codex/refs/master04/world_02_heavy_mechanical_arms.png",
+      "role": "큰 산업기계 덩어리·도장 패널·관절의 기능감",
+      "exclude": "인물 직접 삽입·포토리얼 표면·동일 복장 복제 제외",
+      "sha256": "a71042678c1898320a3d949d0108bde7e6f931c8f1bf8b316a057084be179a3b",
+      "visually_inspected": true,
+      "submitted": true,
+      "submitted_via": "referenced_image_paths"
+    }
+  ],
+  "omitted_references_and_reasons": [
+    "M03-10 omitted for five-input editing limit; existing target plus approved M03-11 maintain architectural rendering role."
+  ],
+  "internal_model_reference_influence": "unknown",
+  "tool_calls": 1
+}

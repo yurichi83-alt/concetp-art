@@ -1,0 +1,24 @@
+{
+  "tool": "image_gen.imagegen",
+  "intent": "reference_based_generation",
+  "master_version": "2.1",
+  "execution_rules_version": "1.2",
+  "source": "/Users/hyojinnoh/.codex/generated_images/01a08610-9124-7bd1-9961-9126ad377251/exec-b98e46c1-b053-48a8-bfc7-2d46e052533c.png",
+  "saved_image": "/Users/hyojinnoh/Documents/Codex/GameConcept_Codex/outputs/20260910_000927_moonlit_dry_city_plaza/dry_city_plaza_attempt01.png",
+  "dimensions": [
+    1536,
+    1024
+  ],
+  "sha256": "e95780d4c8a91eb6067cef4f580427360d899aea7421702bd41ccff6c2ad84d7",
+  "tool_calls_this_run": 1,
+  "qa_status": "needs_revision",
+  "master_updated": false,
+  "user_approved_result": false,
+  "opened_for_review": true,
+  "structural_status": "fail",
+  "structural_failures": [
+    "C01_nearest_foundation_bottom_corner_cropped"
+  ],
+  "next_run": "/Users/hyojinnoh/Documents/Codex/GameConcept_Codex/outputs/20260910_001333_dry_city_plaza_framing_fix",
+  "final_deliverable": "/Users/hyojinnoh/Documents/Codex/GameConcept_Codex/outputs/20260910_001333_dry_city_plaza_framing_fix/moonlit_dry_city_plaza_final.png"
+}

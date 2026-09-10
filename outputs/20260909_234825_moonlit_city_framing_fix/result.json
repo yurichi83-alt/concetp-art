@@ -1,0 +1,30 @@
+{
+  "tool": "image_gen.imagegen",
+  "intent": "structural_framing_correction",
+  "master_version": "2.1",
+  "execution_rules_version": "1.2",
+  "source": "/Users/hyojinnoh/.codex/generated_images/01a08610-9124-7bd1-9961-9126ad377251/exec-d4a2ff73-dc58-40b5-b93d-f175d3ff3a0d.png",
+  "saved_image": "/Users/hyojinnoh/Documents/Codex/GameConcept_Codex/outputs/20260909_234825_moonlit_city_framing_fix/moonlit_city_final.png",
+  "dimensions": [
+    1536,
+    1024
+  ],
+  "sha256": "6fa43783d0c8fced9a6ced65b268596b8b600a7a6b7feb699c823cddd3f9e3c4",
+  "parent_run": "outputs/20260909_234533_moonlit_city_v2_1",
+  "tool_calls_this_run": 1,
+  "total_calls_this_request": 2,
+  "structural_correction_calls": 1,
+  "final_deliverable_count": 1,
+  "qa_status": "needs_revision",
+  "master_updated": false,
+  "user_approved_result": false,
+  "opened_for_review": true,
+  "structural_status": "candidate_pass",
+  "structural_failures": [],
+  "style_reservations": [
+    "S01_fine_wall_weathering_and_road_surface_noise",
+    "S03_rendering_closeness_to_LDI_uncertain"
+  ],
+  "independent_visual_review": true,
+  "stop_reason": "Observed structural fault corrected; structural review passed. No automatic regeneration for remaining surface-style reservations."
+}
