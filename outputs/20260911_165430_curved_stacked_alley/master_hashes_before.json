@@ -1,0 +1,19 @@
+{
+  "AGENTS.md": "e204c25a58ea9eb6714a100991e62297cd157b919bcb1a7c420db6e51797a4ef",
+  "project.json": "1adb1a5d06b8ed79d77edd93f3686a9357c0d6657387d39088f6f3c766568fb4",
+  "refs/manifest.json": "c604f95cbc2d5f68add6acc56d032329483e4287cd9b0acf734b4b68af9f3243",
+  "state/approvals.json": "d58af85c5b65106539c063da4e61955270c6c4e6213d7e9891822220c5a18a8a",
+  "state/CHANGELOG.md": "2ca9c13d68a5c6d2b9bf16fc49d5401985d83ae99d8212acae0adff89a6dd8cf",
+  "docs/00_INDEX.md": "6e1ec206c378e53dcd39c063cb22ab4c51c7f8ecd7dd816388554bf33b52375f",
+  "docs/01_COMPOSITION.md": "5b5b1c721ca41f1885d907ce87783d93d74fd810506ea118b4520f6714ec9261",
+  "docs/02_LAYOUT.md": "8a60392e16b41bc1b2cb3b18e36cea5c63c46cc467dd016224c7fec8bc8cf1be",
+  "docs/03_VISUAL_STYLE_V2.md": "75714a68ccaacf911fced38bce28c9654ebf65c98c35b6c88146befbe6c66f93",
+  "docs/04_WORLD_DESIGN_V2.md": "ce135b29e22e8d10d266daf98c269a35f31d83aea19e2005c0a536f263caa6d1",
+  "docs/05_GENERATION_RULES.md": "36dfe91848ce79886ab8dea90b7fabeb35680873a15d0af594f68bde3f4184d3",
+  "docs/06_QA.md": "439913075b9848a3914b02160ce8dccc6135153dfd3de042299f4b311e7e9592",
+  "docs/07_CODEX_SETUP.md": "e5501c14e74f17855b1d6db1e9ee45242ebffbd4aa0aa96d3228a24f1ca9b906",
+  "docs/08_COMMANDS.md": "47b2dd9d480ed293008c6c3f4d6ef0f4f946f1e230643d9bdecaf00f74cb4afb",
+  "docs/09_SOURCES.md": "dead031c6d27d8389a4778afd5f9b5ceb4c01774a15319a7b82d389016b95bc2",
+  "docs/10_CURRENT_REFERENCES.md": "181eb0b9a08b9bb74c57d41a89b1a4a1cf68c4d3f8a41dfba02def0cabcc859f",
+  ".agents/skills/game-env-art/SKILL.md": "ba94c4c3c53d554bbd849b89de27ee26b4df97b29124103979c1a6c339257ce3"
+}

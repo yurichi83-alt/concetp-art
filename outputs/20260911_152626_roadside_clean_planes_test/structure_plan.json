@@ -1,0 +1,11 @@
+{
+  "mode": "preserve_existing_scene_for_material_test",
+  "parent": "outputs/20260911_150332_roadside_night_puddles",
+  "geometry_reference": "outputs/20260911_142553_roadside_shops_dawn/structure_plan.json",
+  "projection_required": "single_orthographic_parallel",
+  "left_exit": "existing passage beside guardhouse; keep booth/bicycle out of approach",
+  "right_exit": "existing passage behind pickup; keep approach clear",
+  "building_entries": "retain doors/shutters as visual building entries, map exits separate",
+  "roofs": "retain all existing equipment/supports; inherited guardhouse coverage uncertainty",
+  "existing_geometry_status": "needs_revision: inherited C04/L07; prior repeated correction stopped without progress. This style test does not claim repair or promote source to geometry master."
+}

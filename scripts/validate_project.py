@@ -1,7 +1,7 @@
 #!/usr/bin/env python3
 """Read-only package validation. No network, installations, or image-model calls.
 
-Python 3.9+. Checks required files, reference integrity, IDs, and PNG dimensions.
+Python 3.9+. Checks required files, reference integrity, IDs, and PNG/JPEG dimensions.
 Does NOT verify visual layout, style, exits, or model availability.
 """
 from __future__ import annotations
@@ -33,6 +33,48 @@ def inside(root: Path, rel: str) -> Path:
         raise ValueError(f"Unsafe path outside project: {rel}") from exc
     return path
 
+def image_dimensions(data: bytes) -> tuple[str, tuple[int, int]]:
+    """Read PNG/JPEG header dimensions; this is not a full image decoder."""
+    if data.startswith(b"\x89PNG\r\n\x1a\n"):
+        if len(data) < 24 or data[8:16] != b"\x00\x00\x00\rIHDR":
+            raise ValueError("Truncated or invalid PNG header")
+        width, height = struct.unpack(">II", data[16:24])
+        if not width or not height:
+            raise ValueError("Invalid PNG dimensions")
+        return "PNG", (width, height)
+    if not data.startswith(b"\xff\xd8"):
+        raise ValueError("Unsupported image format (expected PNG or JPEG)")
+    pos = 2
+    sof = {0xC0, 0xC1, 0xC2, 0xC3, 0xC5, 0xC6, 0xC7, 0xC9, 0xCA, 0xCB, 0xCD, 0xCE, 0xCF}
+    while pos < len(data):
+        if data[pos] != 0xFF:
+            raise ValueError("Invalid JPEG marker")
+        while pos < len(data) and data[pos] == 0xFF:
+            pos += 1
+        if pos >= len(data):
+            raise ValueError("Truncated JPEG marker")
+        marker = data[pos]
+        pos += 1
+        if marker in (0xD9, 0xDA):
+            break
+        if marker == 0x01 or 0xD0 <= marker <= 0xD7:
+            continue
+        if marker in (0x00, 0xD8) or pos + 2 > len(data):
+            raise ValueError("Invalid or truncated JPEG segment")
+        length = int.from_bytes(data[pos:pos + 2], "big")
+        if length < 2 or pos + length > len(data):
+            raise ValueError("Truncated JPEG segment")
+        if marker in sof:
+            if length < 8:
+                raise ValueError("Truncated JPEG frame")
+            height, width = struct.unpack(">HH", data[pos + 3:pos + 7])
+            if not width or not height:
+                raise ValueError("Invalid JPEG dimensions")
+            return "JPEG", (width, height)
+        pos += length
+    raise ValueError("JPEG frame dimensions not found")
+
+
 def validate(root: Path) -> dict:
     errors, warnings = [], []
     for rel in REQUIRED:
@@ -46,7 +88,7 @@ def validate(root: Path) -> dict:
         return {"ok": False, "errors": errors + [str(exc)], "warnings": warnings}
     refs = manifest.get("references", [])
     ids = set()
-    masters, reviews, preferred = 0, 0, 0
+    masters, reviews, preferred, scoped_support = 0, 0, 0, 0
     for item in refs:
         try:
             rid = item["id"]
@@ -57,15 +99,26 @@ def validate(root: Path) -> dict:
             data = path.read_bytes()
             if hashlib.sha256(data).hexdigest() != item["sha256"]:
                 errors.append(f"Reference changed/hash mismatch: {rid}")
-            if data[:8] != b"\x89PNG\r\n\x1a\n":
-                errors.append(f"Not a PNG file: {rid}")
-            elif len(data) < 24:
-                errors.append(f"Truncated PNG: {rid}")
-            else:
-                wh = struct.unpack(">II", data[16:24])
-                if wh != (item["width"], item["height"]):
-                    errors.append(f"Reference dimensions changed: {rid}")
-            if item["positive_reference"]:
+            actual_format, wh = image_dimensions(data)
+            if item.get("format") and item["format"] != actual_format:
+                errors.append(f"Reference format mismatch: {rid}")
+            if wh != (item["width"], item["height"]):
+                errors.append(f"Reference dimensions changed: {rid}")
+            if item.get("reference_role") == "scoped_style_support":
+                scoped_support += 1
+                if item.get("group") != "style_support" or item.get("positive_reference") is not True:
+                    errors.append(f"Invalid scoped style support group/positive status: {rid}")
+                aspects = item.get("approved_aspects")
+                if not isinstance(aspects, list) or not aspects or not all(
+                        isinstance(aspect, str) and aspect.strip() for aspect in aspects):
+                    errors.append(f"Missing approved aspects for scoped style support: {rid}")
+                if item.get("default_generation_input") is not False:
+                    errors.append(f"Scoped style support cannot be a default generation input: {rid}")
+                if not isinstance(item.get("generation_input_allowed"), bool):
+                    errors.append(f"Missing generation input permission for scoped style support: {rid}")
+                if not isinstance(item.get("approval_id"), str) or not item["approval_id"].strip():
+                    errors.append(f"Missing approval id for scoped style support: {rid}")
+            elif item["positive_reference"]:
                 if item.get("reference_role") == "preferred_result":
                     preferred += 1
                 else:
@@ -82,13 +135,27 @@ def validate(root: Path) -> dict:
         errors.append("Preferred result reference count mismatch")
     if reviews != manifest.get("review_only_count"):
         errors.append("Review-only count mismatch")
+    if scoped_support != manifest.get("scoped_style_support_count", 0):
+        errors.append("Scoped style support reference count mismatch")
     for field in ("default_inspection_ids", "default_generation_priority_ids",
-                  "optional_scene_style_ids", "optional_world_reference_ids", "preferred_result_reference_ids"):
+                  "optional_scene_style_ids", "optional_world_reference_ids", "preferred_result_reference_ids",
+                  "approved_user_added_reference_ids", "optional_surface_style_ids", "approved_surface_example_ids"):
         for rid in project.get(field, []):
             if rid not in ids:
                 errors.append(f"Unknown {field} reference: {rid}")
-            elif not next(item for item in refs if item["id"] == rid)["positive_reference"]:
+                continue
+            item = next(item for item in refs if item["id"] == rid)
+            if not item.get("positive_reference"):
                 errors.append(f"Inactive reference in default generation path: {rid}")
+            is_scoped_support = item.get("reference_role") == "scoped_style_support"
+            if field in ("default_inspection_ids", "default_generation_priority_ids") and is_scoped_support:
+                errors.append(f"Scoped style support cannot appear in {field}: {rid}")
+            if field in ("optional_surface_style_ids", "approved_surface_example_ids"):
+                if not is_scoped_support:
+                    errors.append(f"Wrong reference role in {field}: {rid}")
+                expected_input_permission = field == "optional_surface_style_ids"
+                if item.get("generation_input_allowed") is not expected_input_permission:
+                    errors.append(f"Wrong generation input permission in {field}: {rid}")
     for field in ("read_first", "execution_rules", "qa_rules", "reference_manifest", "approvals"):
         if not inside(root, project.get(field, "")).is_file():
             errors.append(f"Missing project config target: {field}")
@@ -107,7 +174,8 @@ def validate(root: Path) -> dict:
             except (OSError, ValueError) as exc:
                 errors.append(f"Invalid JSON {p.relative_to(root)}: {exc}")
     return {"ok": not errors, "root": str(root), "master_images": masters,
-            "review_only_images": reviews, "preferred_result_images": preferred, "agents_bytes": size,
+            "review_only_images": reviews, "preferred_result_images": preferred,
+            "scoped_style_support_images": scoped_support, "agents_bytes": size,
             "errors": errors, "warnings": warnings,
             "scope": "Files only. No visual or Codex-runtime validation."}
 
@@ -126,7 +194,8 @@ def main() -> int:
     else:
         print("PASS" if report["ok"] else "FAIL")
         print("Scope: file integrity only; no visual QA or native-generation test.")
-        for key in ("master_images", "preferred_result_images", "review_only_images", "agents_bytes"):
+        for key in ("master_images", "preferred_result_images", "review_only_images",
+                    "scoped_style_support_images", "agents_bytes"):
             if key in report:
                 print(f"{key}: {report[key]}")
         for message in report["errors"]:

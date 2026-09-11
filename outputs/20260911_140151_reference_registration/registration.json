@@ -1,0 +1,135 @@
+{
+  "approval": {
+    "id": "reference_registration_20260911_m03_16_m04_08",
+    "date": "2026-09-11",
+    "type": "user_added_master_reference_registration",
+    "status": "active",
+    "evidence": "마스터 3, 4 에 이미지를 한장씩 추가했는데 확인하고 마스터 이미지에 등록해줘",
+    "scope": "마스터03의 test_01.jpg와 마스터04의 retro_futurism.png를 실제 확인하고 역할별 선택 가능한 마스터로 등록",
+    "reference_ids": [
+      "M03-16",
+      "M04-08"
+    ],
+    "master_image_count_before": 24,
+    "master_image_count_after": 26,
+    "reference_catalog_revision": "2026-09-11-user-additions-01",
+    "master_version": "2.5",
+    "execution_rules_version": "1.6",
+    "package_version_after": "1.5.1",
+    "source_records": [
+      {
+        "id": "M03-16",
+        "path": "refs/master03/test_01.jpg",
+        "sha256": "3a44c7457cc2f91645060d14c3ff686a6ba1df782b2f4392565d70266738fd97",
+        "width": 1444,
+        "height": 1952,
+        "format": "JPEG"
+      },
+      {
+        "id": "M04-08",
+        "path": "refs/master04/retro_futurism.png",
+        "sha256": "bb4d6dbe04e77705d276038dcf2c869ade350a39b9a4eda5c2b0f4d15854c00c",
+        "width": 1254,
+        "height": 1254,
+        "format": "PNG"
+      }
+    ],
+    "preserved_default_generation_priority_ids": [
+      "M02-01",
+      "M01-01",
+      "M03-10",
+      "M04-02"
+    ],
+    "preserved_aspects": [
+      "existing_reference_records_and_image_bytes",
+      "existing_approval_entries",
+      "orthographic_and_geometry_rules",
+      "LDI_art_baseline_and_salvage_world",
+      "existing_green_CRT_exclusion"
+    ],
+    "interpretation": "Scoped registration of these two files; no global priority promotion or blanket cassette-style mandate.",
+    "history_path": "state/history/20260911_140151_reference_registration",
+    "update_record_path": "outputs/20260911_140151_reference_registration"
+  },
+  "registered_references": [
+    {
+      "id": "M03-16",
+      "path": "refs/master03/test_01.jpg",
+      "group": "master03",
+      "title": "계단식 건축과 큰 색면·명암 표현",
+      "use_only": "건축의 큰 덩어리·실루엣, 넓은 색면, 따뜻한 전경과 차가운 배경의 색 관계, 빛·그림자 위계, 선택적 큰 손상과 재질 단순화. 높이·지붕 변주는 기존 직교 구조 안에서 해석",
+      "exclude": "원본의 낮은 시점·원근·공간 배치, 중세/판타지 세계관, 대성당 높이, 인물·깃발·문자, 대각선 보행 경계 제외. 프로젝트 전체를 회화풍으로 전환하지 않음",
+      "width": 1444,
+      "height": 1952,
+      "format": "JPEG",
+      "sha256": "3a44c7457cc2f91645060d14c3ff686a6ba1df782b2f4392565d70266738fd97",
+      "reference_aspects": [
+        "architectural_masses",
+        "broad_color_planes",
+        "light_shadow_hierarchy",
+        "selective_material_damage"
+      ],
+      "provenance_note": "사용자가 마스터03 폴더에 추가한 외부 아트 이미지. 작가·작품·출처 미확인; Little Devil Inside 자료로 단정하지 않음",
+      "positive_reference": true,
+      "source_kind": "user_added_master",
+      "original_filename": "test_01.jpg",
+      "reference_role": "master",
+      "generation_input_allowed": true,
+      "registration_date": "2026-09-11",
+      "approval_id": "reference_registration_20260911_m03_16_m04_08",
+      "reference_catalog_revision": "2026-09-11-user-additions-01",
+      "selection_scope": "Approved optional reference. Select by explicit filename/ID or relevant approved aspects; existing global default priorities unchanged."
+    },
+    {
+      "id": "M04-08",
+      "path": "refs/master04/retro_futurism.png",
+      "group": "master04",
+      "title": "레트로 퓨처리즘 기계·가전 디자인 모음",
+      "use_only": "둥근/각진 케이스의 다양한 비례와 실루엣, 다이얼·노브·손잡이·통풍구·안테나 등 아날로그 조작부, 모듈 조합과 기능적 결합. Salvage Cyberpunk의 회수·수리·개조된 설비와 소품으로 해석",
+      "exclude": "콜라주 배치·흰 배경·원본 카메라·문자/로고·선화/회화 마감의 직접 복사, 화면·소형 장치의 무분별한 증식 제외. 기존 녹색 CRT 제외 지시는 별도 재허용 전까지 우선",
+      "width": 1254,
+      "height": 1254,
+      "format": "PNG",
+      "sha256": "bb4d6dbe04e77705d276038dcf2c869ade350a39b9a4eda5c2b0f4d15854c00c",
+      "reference_aspects": [
+        "varied_retro_device_silhouettes",
+        "analog_controls",
+        "modular_casings",
+        "functional_repair_and_reuse"
+      ],
+      "provenance_note": "사용자가 마스터04 폴더에 추가한 레트로 기기 디자인 모음. 작가·작품·출처 미확인",
+      "positive_reference": true,
+      "source_kind": "user_added_master",
+      "original_filename": "retro_futurism.png",
+      "reference_role": "master",
+      "generation_input_allowed": true,
+      "registration_date": "2026-09-11",
+      "approval_id": "reference_registration_20260911_m03_16_m04_08",
+      "reference_catalog_revision": "2026-09-11-user-additions-01",
+      "selection_scope": "Approved optional reference. Select by explicit filename/ID or relevant approved aspects; existing global default priorities unchanged."
+    }
+  ],
+  "changed_files": [
+    "refs/manifest.json",
+    "project.json",
+    "state/approvals.json",
+    "templates/references.json",
+    "README_KO.md",
+    "START_HERE_KO.md",
+    "docs/00_INDEX.md",
+    "docs/01_COMPOSITION.md",
+    "docs/02_LAYOUT.md",
+    "docs/03_VISUAL_STYLE_V2.md",
+    "docs/04_WORLD_DESIGN_V2.md",
+    "docs/05_GENERATION_RULES.md",
+    "docs/06_QA.md",
+    "AGENTS.md",
+    "docs/10_CURRENT_REFERENCES.md",
+    "refs/REFERENCE_MAP.md",
+    "REFERENCE_INDEX.html",
+    "state/CHANGELOG.md",
+    "scripts/validate_project.py"
+  ],
+  "verification_status": "passed",
+  "verification_report": "validation.json"
+}

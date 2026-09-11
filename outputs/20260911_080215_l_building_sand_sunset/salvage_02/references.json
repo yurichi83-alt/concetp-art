@@ -1,0 +1,24 @@
+{
+  "master": "2.4",
+  "execution": "1.5",
+  "initial_inputs": [
+    "C:/Users/Yeon Hee Kang/OneDrive/문서/Codex/background-concept-art/concetp-art/refs/master01/composition_cutaway.png",
+    "C:/Users/Yeon Hee Kang/OneDrive/문서/Codex/background-concept-art/concetp-art/refs/master02/layout_two_exits.png",
+    "C:/Users/Yeon Hee Kang/OneDrive/문서/Codex/background-concept-art/concetp-art/refs/master03/ldi_10_storefront_style_anchor.png",
+    "C:/Users/Yeon Hee Kang/OneDrive/문서/Codex/background-concept-art/concetp-art/refs/master04/world_02_heavy_mechanical_arms.png"
+  ],
+  "initial_input_count": 4,
+  "correction_inputs": [
+    "C:/Users/Yeon Hee Kang/.codex/generated_images/01a08867-7e38-7162-8368-5c8c0df7a0c0/exec-d4d1353d-692f-4e8f-ac56-c6d3bcb2ad49.png"
+  ],
+  "correction_input_count_per_call": 1,
+  "independent_variants": true,
+  "backend": "builtin_imagegen",
+  "prompt": "generation_prompt.md",
+  "correction_prompt": "correction_prompt.md",
+  "final_prompt": "correction_prompt.md",
+  "delivery_status": "returned_image_saved",
+  "internal_tokens_model_rewrite": "unknown",
+  "prompt_chars": 3524,
+  "prompt_utf8_bytes": 3524
+}

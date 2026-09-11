@@ -1,0 +1,18 @@
+{
+  "image": "roadside_night_puddles.png",
+  "dimensions": [
+    1448,
+    1086
+  ],
+  "sha256": "c68fd19d796602244b18d98417e9e9aaec1dcf53670d5ed13f9c64857eda19af",
+  "backend": "builtin_imagegen",
+  "model_version": null,
+  "image_calls": 1,
+  "requested_final_count": 1,
+  "selected_final": true,
+  "edit_scope_status": "pass_visual_review",
+  "observed_small_puddles": 2,
+  "status": "needs_revision",
+  "geometry_status": "inherited_prior_geometry_and_roof_uncertainty",
+  "review": "review.md"
+}

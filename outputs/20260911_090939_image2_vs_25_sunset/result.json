@@ -1,0 +1,57 @@
+{
+  "status": "comparison_on_hold_premise_corrected",
+  "builtin": {
+    "status": "generated_and_reviewed",
+    "qa_status": "needs_revision",
+    "path": "builtin/builtin_first_output.png",
+    "size": [
+      1536,
+      1024
+    ],
+    "first_output_only": true,
+    "calls": 1,
+    "corrections": 0,
+    "documented_product_model": null,
+    "per_call_model_snapshot": null,
+    "internal_quality": null,
+    "generated_source": "C:/Users/Yeon Hee Kang/.codex/generated_images/01a08867-7e38-7162-8368-5c8c0df7a0c0/exec-63441e49-1811-456d-bd47-e3d8e79e1d09.png",
+    "product_rollout_announcement": "ChatGPT Images 2.5 includes Codex",
+    "display_label": "Current built-in image output; exact runtime model unverified"
+  },
+  "api25": {
+    "status": "on_hold_comparison_premise_corrected",
+    "actual_call_made": false,
+    "target_model": "gpt-image-2.5-sunburst",
+    "quality": "auto",
+    "size": "1536x1024",
+    "n": 1,
+    "dry_run_validated": true
+  },
+  "comparison": {
+    "status": "not_validated_as_2_vs_25",
+    "identical_prompt_verified": true,
+    "identical_reference_order_verified": true,
+    "first_outputs_only": true,
+    "confounds": [
+      "different access paths",
+      "unexposed builtin quality and internal processing",
+      "uncontrolled randomness",
+      "one sample per model"
+    ],
+    "required_clarification": "Choose explicit API model comparison only after the corrected product/runtime distinction is understood; API is optional for built-in Images 2.5."
+  },
+  "master_updated": false,
+  "model_identity_correction": {
+    "date": "2026-09-11",
+    "official_release_date": "2026-09-08",
+    "official_release": "https://openai.com/index/introducing-chatgpt-images-2-5/",
+    "official_release_claim": "Images 2.5 available / rolling out to all ChatGPT, ChatGPT Work and Codex users across desktop, mobile and web.",
+    "conflicting_usage_guide": "https://learn.chatgpt.com/docs/image-generation",
+    "usage_guide_text_at_check": "Built-in image generation uses gpt-image-2.",
+    "conclusion": "Do not claim API is required for Images 2.5 in Codex, or that this built-in output is a confirmed Image 2 baseline.",
+    "actual_builtin_call_model_snapshot": null,
+    "builtin_model_selection_parameter_available": false,
+    "requires_api_key_for_builtin": false,
+    "api_calls_made": 0
+  }
+}

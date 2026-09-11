@@ -1,0 +1,1 @@
+Four inspected inputs. Geometry guide primary, previous output design only, scoped3/4 source art. Common30-degree projected horizontal axis families are scene-specific guide values, not a new permanent master setting. Same final deliverable count1. Actual output still requires review.

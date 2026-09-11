@@ -1,0 +1,57 @@
+{
+  "run_id": "20260911_143917_roadside_painterly_color",
+  "masters_version": "2.5",
+  "execution_rules_version": "1.6",
+  "reference_catalog_revision": "2026-09-11-user-additions-02",
+  "edit_target_parent_run": "20260911_142553_roadside_shops_dawn_geometry",
+  "delivery_status": "completed",
+  "delivery_mechanism": "referenced_image_paths",
+  "actual_submitted_image_count": 2,
+  "inspected_for_planning": [
+    {
+      "index": 1,
+      "path": "C:\\Users\\Yeon Hee Kang\\OneDrive\\문서\\Codex\\background-concept-art\\concetp-art\\outputs\\final\\20260911_142553__roadside_shops_dawn.png",
+      "role": "Edit target: preserve camera, all design and object placement",
+      "sha256": "5976f8c5af4af4daba67490ae920ef5c6d5fede1017a96d4a31375886811b3f4"
+    },
+    {
+      "index": 2,
+      "path": "C:\\Users\\Yeon Hee Kang\\OneDrive\\사진\\ref\\516775102_10165409110462784_1284394492496771934_n.jpg",
+      "archived_copy": "color_light_brush_reference.jpg",
+      "role": "User style reference: palette, light/shadow, visible brushwork ONLY; source scene/camera/content excluded",
+      "sha256": "3c2155518d7893ff08b1feeb0c0da9411e689b10ec9de82231c90d39ca799335"
+    }
+  ],
+  "submitted_to_generation": [
+    {
+      "index": 1,
+      "path": "C:\\Users\\Yeon Hee Kang\\OneDrive\\문서\\Codex\\background-concept-art\\concetp-art\\outputs\\final\\20260911_142553__roadside_shops_dawn.png",
+      "role": "Edit target: preserve camera, all design and object placement",
+      "sha256": "5976f8c5af4af4daba67490ae920ef5c6d5fede1017a96d4a31375886811b3f4",
+      "status": "submitted"
+    },
+    {
+      "index": 2,
+      "path": "C:\\Users\\Yeon Hee Kang\\OneDrive\\사진\\ref\\516775102_10165409110462784_1284394492496771934_n.jpg",
+      "archived_copy": "color_light_brush_reference.jpg",
+      "role": "User style reference: palette, light/shadow, visible brushwork ONLY; source scene/camera/content excluded",
+      "sha256": "3c2155518d7893ff08b1feeb0c0da9411e689b10ec9de82231c90d39ca799335",
+      "status": "submitted"
+    }
+  ],
+  "scene_only_override": "User explicitly requests painterly brushwork and reference light/color, overriding no-brush and former night lighting for this edit. No master update.",
+  "master_source_delivery": "No masters directly resubmitted: design/camera preserved through edit target; attached user reference determines style.",
+  "submitted_prompt": {
+    "path": "generation_prompt.txt",
+    "character_count": 4424,
+    "returned_model_info": null,
+    "saved_text_matches_actual_argument": true,
+    "utf8_byte_count": 4424
+  },
+  "tool_contract": {
+    "tool": "builtin image_gen.imagegen",
+    "model": "unknown",
+    "size_control": "not exposed",
+    "reference_weight_control": "not exposed"
+  }
+}

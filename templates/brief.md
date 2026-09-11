@@ -1,10 +1,10 @@
-# Generation brief — masters v2.4 / execution v1.5
+# Generation brief — masters v2.6 / execution v1.7
 
 - run_id:
 - request_original:
 - active_user_changes_and_scene_only_exceptions:
-- masters: v2.4
-- execution_rules: v1.5
+- masters: v2.6
+- execution_rules: v1.7
 - request_mode: new_location / edit_existing / own_structural_correction (select one)
 - edit_target_and_preserved_aspects:
 - scene_location:
@@ -23,7 +23,7 @@
 - structure_plan_artifact_and_coordinate_source:
 - structure_guide_image_path:
 - common_XYZ_scale_and_square_footprint:
-- selected_projection_mode: CHOOSE ONE: parallel_orthographic / coherent_weak_perspective
+- selected_projection_mode: orthographic_parallel (mandatory for the final image)
 - selected_camera_and_scene_only_parameters:
 - projection_specific_expected_line_families_and_top_bottom_correspondence:
 - base_top_bottom_corner_pairs_vertical_axes_consistent_depth_and_two_planar_front_cuts:
@@ -39,7 +39,7 @@
 - previous_faulty_geometry_not_to_preserve:
 - actual_3D_source_if_already_available_or_future_precision_need:
 
-Choose one projection before writing the prompt; do not leave alternatives or use only “orthographic-style.” Record camera parameters as this scene's choices. The delivered 2D guide is a visual reference, not a geometry lock; saved coordinates are not automatically supplied as enforced geometry. A future need for modeling precision requires an actual 3D geometry/camera source and separate validation, not an unrequested Unity/mesh task.
+Use the mandatory single orthographic camera for the final image; weak perspective is not an option and “orthographic-style” alone is insufficient. Record rotation/elevation/scale as scene choices, without fixing a universal isometric angle. The delivered 2D guide is a visual reference, not a geometry lock; saved coordinates are not automatically supplied as enforced geometry. A future need for modeling precision requires an actual 3D geometry/camera source and separate validation, not an unrequested Unity/mesh task.
 
 ## Scene and building plan
 - Back-left blocking boundary composition:
@@ -52,6 +52,9 @@ Choose one projection before writing the prompt; do not leave alternatives or us
 - Large age / repair / functional recovered technology relationships across buildings and everyday facilities:
 - Relative mechanical presence without a fixed global percentage or copied devices:
 - Form / thickness / material separation / later three-view readability:
+- Broad base-color areas / selected nearby-tone large directional flat strokes / surface-relative scale and open space:
+- Surface color variation on intact areas kept separate from rust, dirt, peeling and repair quantity:
+- No raised/wavy-glass/mosaic/all-over fine texture; large light-shadow masses and material differences preserved:
 - Lighting and atmosphere without obscuring structural evidence:
 
 | Building | Human-scale entry / grounded threshold | Role: decorative / left exit / right exit | Roof form, functional 40~80% plan, support and connections | Remaining broad surfaces / height / visibility |
@@ -75,7 +78,9 @@ One assigned transition toward back-left (approximately 11 o'clock), one toward 
 - Stairs/ramps: XY alignment, level connections; no third exit through front soil cuts:
 
 ## Reference roles and tool evidence
-Use references.json for inspected versus actually submitted images, input order, scope/exclusions, omitted roles/reasons, confirmed parameter-specific contract and unknown capabilities. Geometry sources govern projection; style/world sources supply their approved aspects and exclude their camera/layout. This is an instruction, not a claimed reference-weight or mask control. M03-12 is building-only. Do not cross-input independent new scenes.
+Use references.json for inspected versus actually submitted images, input order, scope/exclusions, omitted roles/reasons, confirmed parameter-specific contract and unknown capabilities. The mandatory orthographic rule overrides every reference camera, including M01; geometry sources govern base/framing/connectivity within it; style/world sources supply their approved aspects and exclude their camera/layout. This is an instruction, not a claimed reference-weight or mask control. M03-12 is building-only. Do not cross-input independent new scenes.
+
+M03-10 remains the primary style anchor and default input priority is unchanged. B03-01~04 are separate surface-expression support, not additional masters. B03-02~04 generated examples are not automatic inputs or whole-image/geometry QA approvals. The current approval permits comparison only and does not authorize generation inputs. A later explicit user reference/edit request is handled within its own scope; this surface approval does not approve their architecture/layout/geometry. Do not inherit night, specific colors, white lamps or a 50% damage reduction. M04 source-technique exclusions do not prohibit the approved Master03 brushwork.
 
 ## Requirement-to-prompt-and-check coverage ledger
 For every applicable visual requirement, record a short exact clause from the compiled prompt, the plan evidence and its final QA check. Expand grouped rows into individual requirements if a clause covers only part. Add every active user constraint; no row may conceal an unmapped subcondition. N/A needs a reason. Operational requirements belong to preflight rather than image text. This ledger, history and approval bookkeeping are not pasted into the generation prompt. No arbitrary length target permits deleting constraints.
@@ -83,7 +88,7 @@ For every applicable visual requirement, record a short exact clause from the co
 | Requirement / source | Exact prompt clause and section | Plan evidence | Final QA IDs / observation | Coverage: MAPPED / UNMAPPED / CONFLICT / N/A + reason |
 |---|---|---|---|---|
 | 01: single scene, quarter-view, whole independent base and boundaries | | | C01 | UNMAPPED |
-| 01: square base, shared XYZ/scale, selected single projection | | | C03/C04 | UNMAPPED |
+| 01: square base, shared XYZ/scale, mandatory orthographic projection | | | C03/C04 | UNMAPPED |
 | 01: two planar cuts, top/bottom corners, constant depth, no unrequested curve/bevel/warp | | | C02/C03/C04 | UNMAPPED |
 | 01/02: orthogonal building contact footprints; permitted massing and nonbuilding exceptions | | | L07/C04 | UNMAPPED |
 | 01/04: roof surfaces/joins, wall tops, supports and grounding | | | C04/L05 | UNMAPPED |
@@ -95,7 +100,9 @@ For every applicable visual requirement, record a short exact clause from the co
 | 01/02: exposed room depth/entry/internal circulation or justified N/A | | | L06 | UNMAPPED |
 | 04: per-building human entry, role and credible grounding; nonbuilding exception | | | W04/L05 | UNMAPPED |
 | 04: per-building functional roof40~80%, support/connections/space; nonbuilding exception | | | W05/C04/L05 | UNMAPPED |
-| 03: large forms/broad color fields/selective wear, material distinctions, restrained detail/reflection/light | | | S01/S02/S03/S04 | UNMAPPED |
+| 03: large forms and broad clean base-color areas with selected nearby-tone broad directional flat strokes; surface-relative size/density/space | | | S01/S02/S03 | UNMAPPED |
+| 03: color variation also on intact areas, separate from selective wear; no raised/wavy-glass/mosaic/all-over fine texture | | | S01/S03 | UNMAPPED |
+| 03: large light-shadow masses, material distinctions, restrained reflections and clear silhouette/thickness/grounding/joins | | | S03/S04 | UNMAPPED |
 | 03/04: age is retained; functional salvaged technology across place; relative machine presence | | | W01/W02/W03 | UNMAPPED |
 | 01~04: structural versus art/world reference roles and camera/content exclusions | | | C04/S01~S04/W01~W03 | UNMAPPED |
 | 03 supplement scope, M03-12 building-only if used, approved-aspect examples only | | | reference audit + S/W checks | UNMAPPED |
@@ -119,7 +126,7 @@ For every applicable visual requirement, record a short exact clause from the co
 The compiled file is the intended submitted text, not an unavailable hidden prompt. Counts are metadata, not a token-budget estimate, capacity percentage, or proof of no truncation/compliance.
 
 ## Final comparison plan and status
-- compare_actual_base_top_bottom_footings_walls_roofs_paving_against_selected_projection:
+- compare_actual_base_top_bottom_footings_walls_roofs_paving_against_required_orthographic_projection:
 - endpoint_or_line_annotations_if_needed_with_pixel_reading_uncertainty:
 - final_roof_joins_supports_and_each_exit_state_volume_comparison:
 - occluded_critical_evidence_means_UNCERTAIN_not_PASS:

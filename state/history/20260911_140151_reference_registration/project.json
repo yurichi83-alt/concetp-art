@@ -1,0 +1,292 @@
+{
+  "project_name": "GameConcept_Codex",
+  "package_version": "1.5.0",
+  "master_version": "2.5",
+  "execution_rules_version": "1.6",
+  "created_date": "2026-09-09",
+  "purpose": "Keyword-driven game environment concept images. Not an app-development task.",
+  "primary_language": "ko",
+  "preferred_backend": "available_builtin_image_generation",
+  "external_api_requires_explicit_consent": true,
+  "auto_regenerate": true,
+  "default_scene_count": 1,
+  "default_single_scene_per_image": true,
+  "read_first": "docs/00_INDEX.md",
+  "execution_rules": "docs/05_GENERATION_RULES.md",
+  "qa_rules": "docs/06_QA.md",
+  "reference_manifest": "refs/manifest.json",
+  "approvals": "state/approvals.json",
+  "default_inspection_ids": [
+    "M02-01",
+    "M01-01",
+    "M03-10",
+    "M03-11",
+    "M04-02",
+    "M04-04"
+  ],
+  "default_generation_priority_ids": [
+    "M02-01",
+    "M01-01",
+    "M03-10",
+    "M04-02"
+  ],
+  "optional_scene_style_ids": [
+    "M03-08",
+    "M03-02",
+    "M03-06",
+    "M03-11",
+    "M03-12",
+    "M03-13",
+    "M03-14",
+    "M03-15"
+  ],
+  "optional_world_reference_ids": [
+    "M04-02",
+    "M04-04"
+  ],
+  "generation_reference_selection": "Masters 01-04 v2.5: preserve the original 19 and add 5 scoped LDI architectural supplements (24 master images). Select a small role-labeled set; for a new scene balance composition/layout, architectural rendering and a Master04 world-design image before redundant style images or generated-result examples. M03-10 remains representative; select an additional scene-relevant LDI supplement when capacity allows. Consult docs/05_GENERATION_RULES.md for tool limits and scoped result reuse. M01/M02 govern basic geometry, mandatory single orthographic projection, perpendicular boundaries and continuous walking volumes. Compare final art to a scene-specific structure guide. M02 supplies functional direction/connectivity, not fixed gate locations; building ground footprints are orthogonal and roof planes are validated separately. The mandatory orthographic rule overrides every reference camera including M01; geometry references govern base/framing/connectivity; art and world references exclude their own camera/layout. A supplied guide is a visual cue, not a hard geometric constraint.",
+  "immutable_reference_images": true,
+  "not_a_codex_runtime_config": true,
+  "limits": "Reference instructions guide image generation but do not guarantee geometry. Original master style/world must not be changed by interpreting a preferred example as replacement.",
+  "current_visual_reference_policy": "docs/10_CURRENT_REFERENCES.md",
+  "preferred_result_reference_ids": [
+    "A-01",
+    "A-02"
+  ],
+  "art_direction": {
+    "source": "Little Devil Inside",
+    "reference_aspects": [
+      "architectural_forms",
+      "mapping_texture_depiction",
+      "lighting",
+      "color_palette"
+    ],
+    "exclude": [
+      "world_setting",
+      "characters",
+      "story"
+    ]
+  },
+  "world_setting": "Salvage Cyberpunk",
+  "auto_regenerate_scope": "observed_structural_errors_only",
+  "requested_scene_count_semantics": "final_deliverables; structural correction attempts are preserved separately",
+  "structural_correction_policy": {
+    "approval_id": "structural_auto_correction_20260909",
+    "reference": "docs/05_GENERATION_RULES.md",
+    "checks": [
+      "C01",
+      "C02",
+      "C03",
+      "C04",
+      "L01",
+      "L02",
+      "L03",
+      "L04",
+      "L05",
+      "L06",
+      "L07"
+    ],
+    "requires_actual_image_review": true,
+    "stop_on": [
+      "structural_checks_pass",
+      "user_stop",
+      "tool_unavailable_or_limit",
+      "cannot_inspect_output",
+      "repeated_fault_without_new_corrective_strategy"
+    ],
+    "external_api_requires_explicit_consent": true,
+    "auto_master_promotion": false,
+    "checks_clarification_approval_id": "master_update_20260910_v2_3",
+    "non_generation_requests_excluded": [
+      "analysis",
+      "review_only",
+      "master_update",
+      "file_organization"
+    ],
+    "pass_gate": "All applicable structural checks including mandatory final orthographic projection PASS; any FAIL => needs_revision; critical uncertainty => uncertain.",
+    "global_geometry_fault_strategy": "Rebuild common structure without preserving faulty geometry; zoom-out alone is not geometry correction.",
+    "evidence_reinforcement_approval_id": "master_update_20260910_v2_4",
+    "projection_approval_id": "master_update_20260911_v2_5"
+  },
+  "master_update_approval_id": "master_update_20260911_v2_5",
+  "scene_interpretation": "New location keywords redesign building function, masses, layout, paving and subsurface infrastructure under unchanged spatial constraints; do not inherit prior scene-only props, weather or the same cutaway design. Explicit edits preserve the requested aspects of their target.",
+  "approved_ldi_supplement_ids": [
+    "M03-11",
+    "M03-12",
+    "M03-13",
+    "M03-14",
+    "M03-15"
+  ],
+  "scoped_result_examples": [
+    {
+      "path": "outputs/20260909_224840_alley_structure_fix/day_alley_structure_fixed.png",
+      "approved_aspects": [
+        "ground_cutaway_mechanical_design",
+        "garbage_bag_treatment"
+      ],
+      "default_generation_input": false,
+      "allowed_use": "Aspect-only comparison; vary actual infrastructure by location. No whole-image approval."
+    },
+    {
+      "path": "outputs/20260909_225844_alley_building_bin_technology/alley_building_bin_technology.png",
+      "approved_aspects": [
+        "mechanical_element_presence_relative_to_architecture"
+      ],
+      "default_generation_input": false,
+      "allowed_use": "Relative visual presence only, no fixed percentage or exact buildings/devices. A new location must be redesigned."
+    }
+  ],
+  "updated_date": "2026-09-11",
+  "geometry_policy": {
+    "approval_id": "master_update_20260910_v2_3",
+    "spatial_frame": "single cubic virtual space with shared XYZ axes and scale",
+    "default_base_footprint": "square; shape exceptions require explicit user request",
+    "allowed_projection": [
+      "single orthographic projection"
+    ],
+    "fixed_camera_numbers": null,
+    "base_geometry": "four-corner plane extruded by consistent depth; corresponding vertical corners and planar front cuts",
+    "unrequested_base_curves_bevels_or_warping": false,
+    "rear_boundaries": "two adjacent perpendicular back-boundary directions, expressed through buildings or other blocking objects; one functional exit per direction",
+    "routes": "reserve approach and post-clear/open-state passage volume to each transition; planned lock is distinct from accidental obstruction",
+    "interior": "when applicable, room depth and entry-to-functional-space circulation",
+    "workflow": [
+      "Record mandatory single orthographic camera; shared-coordinate building footprints and separate roof/support plan",
+      "Check orthogonal polygon edges, base corners, grounding and route volumes; plan visible evidence",
+      "Assign two functional exit roles, positions, forms, states and post-clear connections",
+      "Compile requirement-covered prompt and transmit role-labeled guide/reference inputs",
+      "Inspect actual final image parallel same-world-axis line families, depth-invariant scale and constant-depth corner vectors under orthographic projection, then traversal and art"
+    ],
+    "numeric_clearance_requires_3d_validation": true,
+    "building_footprints": "common XY-axis orthogonal ground footprint and player-contact walls; L/T/U and right-angle setbacks permitted; no diagonal/chamfered/curved building traversal boundary",
+    "prop_shape_exception": "tanks/vehicles/props may be curved or rotated; same camera, grounding and clear exit routes required",
+    "roof_geometry": "varied roof profiles allowed; explicit plane/surface joins, wall-top alignment and supported equipment; uncertainty is not PASS",
+    "review_reinforcement_approval_id": "master_update_20260910_v2_4",
+    "required_final_projection": "orthographic_parallel",
+    "projection_approval_id": "master_update_20260911_v2_5",
+    "reference_camera_priority": "Mandatory orthographic projection overrides all reference cameras, including M01; preserve assigned structure/art/world roles."
+  },
+  "architectural_design_policy": {
+    "approval_id": "architecture_entrances_roofs_20260910",
+    "building_entry": {
+      "required_per_building": true,
+      "closed_door_or_shutter_allowed": true,
+      "actual_gameplay_entry_required": false,
+      "human_scale_and_grounding_required": true,
+      "inspection_panel_or_vent_is_not_entry": true,
+      "distinct_role_from_map_exit": true,
+      "may_double_as_designated_exit": true,
+      "physical_separation_required": false,
+      "applies_to": "buildings only; non-building tanks/vehicles exempt"
+    },
+    "rooftop": {
+      "coverage_min": 0.4,
+      "coverage_max": 0.8,
+      "scope": "each_building_roof_not_scene_average_or_mechanical_ratio",
+      "planned_measure": "union_of_functional_element_footprints_on_roof_plane",
+      "allowed": "purposeful equipment, props or functional architectural elements with credible support and connections",
+      "exclude_from_coverage": [
+        "shadows",
+        "grime",
+        "paint",
+        "plain_roof_surface"
+      ],
+      "final_image_measure": "visual_estimate_or_uncertain_not_exact_metric_validation",
+      "applies_to": "buildings only; do not impose roof occupancy on tanks/vehicles"
+    },
+    "qa_ids": [
+      "W04",
+      "W05"
+    ],
+    "structural_auto_correction_scope_changed": false,
+    "role_scope_clarification_approval_id": "master_update_20260910_v2_3"
+  },
+  "architectural_design_revision": "2026-09-10-entrances-roofs",
+  "functional_exit_policy": {
+    "approval_id": "master_update_20260910_v2_3",
+    "count": 2,
+    "directions": [
+      "back_left_approximately_11_oclock",
+      "back_right_approximately_1_oclock"
+    ],
+    "position_per_side": "center/intermediate/end, symmetric or asymmetric; no fixed coordinates or forced alternation",
+    "forms": [
+      "door_or_gate",
+      "building_entry_or_internal_transition",
+      "alley",
+      "facility_passage",
+      "stairs",
+      "underground_parking_ramp"
+    ],
+    "state": "record pre-clear locked or post-clear open; preserve approach, opening clearance and usable post-clear connection",
+    "building_entry_may_double_as_exit": true,
+    "count_by": "assigned traversal function, not visible door count",
+    "front_cutaway_is_not_third_exit": true
+  },
+  "boundary_object_policy": {
+    "approval_id": "master_update_20260910_v2_3",
+    "allowed": [
+      "building",
+      "wall",
+      "fence",
+      "container",
+      "cylindrical_tank",
+      "car",
+      "truck",
+      "industrial_equipment",
+      "debris",
+      "terrain"
+    ],
+    "requirements": "readable blocking role along two rear directions; no unintended third route; protect center and designated exits"
+  },
+  "generation_prompt_template": "templates/generation_prompt.md",
+  "execution_prompt_policy": {
+    "approval_id": "master_update_20260910_v2_4",
+    "order": [
+      "STRUCTURE",
+      "CURRENT_SCENE",
+      "ART_AND_REFERENCE_ROLES"
+    ],
+    "compile": "Remove history and duplicate explanation; retain every applicable requirement through a coverage ledger. Do not append all master documents verbatim.",
+    "hard_character_or_token_budget": null,
+    "record": "Exact submitted prompt, character/UTF-8 byte counts, actual reference paths/count/roles, confirmed tool contract and unknown limits separately.",
+    "independent_outputs": "When the user requests independent variants, each starts from masters and its own scene plan; never feed one generated variant into the other."
+  },
+  "geometry_review_policy": {
+    "approval_id": "master_update_20260910_v2_4",
+    "actual_image_required": true,
+    "plan_is_not_final_evidence": true,
+    "parallel_projection": "Compare same-world-axis line families across base top/bottom, paving, building footings, wall tops and level roof edges. Corresponding top/bottom corner displacement vectors of a constant-depth base must agree. Equal actual lengths in the same 3D direction retain screen length at every depth.",
+    "no_posthoc_projection_switch_to_pass": true,
+    "universal_screen_angle_or_pixel_threshold": null,
+    "observations": "Record native image dimensions, line endpoints, world-axis assignment, visibility, uncertainty and justified verdict; screen-angle differences are not measured 3D rotation.",
+    "occlusion": "Critical hidden footing/corner evidence remains UNCERTAIN. Prefer legible ground contacts when planning.",
+    "exclude_false_matches": "Do not compare sloped roofs, awnings, shadows or rotated/curved props as if they were level building-axis edges.",
+    "reassessments": "Preserve prior outputs and reviews; a new evidenced review supersedes a prior PASS. Failed or uncertain geometry is not a positive geometry reference.",
+    "future_modeling": "For exact geometry, separately retain a validated 3D blockout and camera as the authority. A 2D guide or coordinate JSON does not constrain the image generator as a geometry engine.",
+    "projection_approval_id": "master_update_20260911_v2_5",
+    "required_final_projection": "orthographic_parallel",
+    "perspective_result_policy": "FAIL when perspective convergence or depth-based scaling contradicts orthographic projection, even if perspective is coherent; missing critical evidence is UNCERTAIN."
+  },
+  "tool_input_evidence_policy": {
+    "approval_id": "master_update_20260910_v2_4",
+    "successful_call_is_not_constraint_verification": true,
+    "unknown_unless_exposed": [
+      "internal_model_version",
+      "token_budget",
+      "revised_prompt",
+      "reference_weights",
+      "referenced_image_paths_hard_limit"
+    ],
+    "limits_source": "Record the current tool contract. The documented maximum of 5 for num_last_images_to_include must not be transferred to referenced_image_paths.",
+    "no_truncation_claim_without_evidence": true
+  },
+  "latest_reassessments": [
+    {
+      "source_path": "outputs/20260910_134620_scrapyard_baseline/scrapyard_grocery_salvage.png",
+      "review_path": "outputs/20260910_140555_scrapyard_geometry_recheck/recheck.json",
+      "status": "needs_revision",
+      "role": "diagnostic_only; supersedes prior candidate_pass without rewriting original records"
+    }
+  ]
+}

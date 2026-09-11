@@ -1,8 +1,8 @@
 {
   "project_name": "GameConcept_Codex",
-  "package_version": "1.4.0",
-  "master_version": "2.4",
-  "execution_rules_version": "1.5",
+  "package_version": "1.6.0",
+  "master_version": "2.6",
+  "execution_rules_version": "1.7",
   "created_date": "2026-09-09",
   "purpose": "Keyword-driven game environment concept images. Not an app-development task.",
   "primary_language": "ko",
@@ -38,13 +38,16 @@
     "M03-12",
     "M03-13",
     "M03-14",
-    "M03-15"
+    "M03-15",
+    "M03-16",
+    "M03-17"
   ],
   "optional_world_reference_ids": [
     "M04-02",
-    "M04-04"
+    "M04-04",
+    "M04-08"
   ],
-  "generation_reference_selection": "Masters 01-04 v2.4: preserve the original 19 and add 5 scoped LDI architectural supplements (24 master images). Select a small role-labeled set; for a new scene balance composition/layout, architectural rendering and a Master04 world-design image before redundant style images or generated-result examples. M03-10 remains representative; select an additional scene-relevant LDI supplement when capacity allows. Consult docs/05_GENERATION_RULES.md for tool limits and scoped result reuse. M01/M02 govern basic geometry, single projection, perpendicular boundaries and continuous walking volumes. Compare final art to a scene-specific structure guide. M02 supplies functional direction/connectivity, not fixed gate locations; building ground footprints are orthogonal and roof planes are validated separately. Geometry references govern camera/layout; art and world references exclude their own camera/layout. A supplied guide is a visual cue, not a hard geometric constraint.",
+  "generation_reference_selection": "Masters 01-04 v2.6: preserve the original 19 and 5 scoped LDI architectural supplements, plus 3 user-added optional references (27 master images). Select a small role-labeled set; for a new scene balance composition/layout, architectural rendering and a Master04 world-design image before redundant style images or generated-result examples. M03-10 remains representative; select an additional scene-relevant LDI supplement when capacity allows. Consult docs/05_GENERATION_RULES.md for tool limits and scoped result reuse. M01/M02 govern basic geometry, mandatory single orthographic projection, perpendicular boundaries and continuous walking volumes. Compare final art to a scene-specific structure guide. M02 supplies functional direction/connectivity, not fixed gate locations; building ground footprints are orthogonal and roof planes are validated separately. The mandatory orthographic rule overrides every reference camera including M01; geometry references govern base/framing/connectivity; art and world references exclude their own camera/layout. A supplied guide is a visual cue, not a hard geometric constraint. M03-16/M03-17/M04-08 are scoped optional masters. Explicit filename/ID selection applies to the current request; registration alone does not change global priorities, the LDI rendering baseline or Salvage Cyberpunk world, or mandate cassette futurism in every image. Apply Master03 v2.2 clean broad planes and sparse broad flat directional brushwork even on intact surfaces. B03-01 is optional surface-only support, never a new global priority; B03-02/03/04 are approved surface comparison examples, not automatic generation inputs or geometry anchors. Record the actual inputs and their assigned roles.",
   "immutable_reference_images": true,
   "not_a_codex_runtime_config": true,
   "limits": "Reference instructions guide image generation but do not guarantee geometry. Original master style/world must not be changed by interpreting a preferred example as replacement.",
@@ -59,7 +62,9 @@
       "architectural_forms",
       "mapping_texture_depiction",
       "lighting",
-      "color_palette"
+      "color_palette",
+      "broad_clean_color_planes",
+      "sparse_flat_directional_brushwork"
     ],
     "exclude": [
       "world_setting",
@@ -103,11 +108,12 @@
       "master_update",
       "file_organization"
     ],
-    "pass_gate": "All applicable structural checks PASS; any FAIL => needs_revision; critical uncertainty => uncertain.",
+    "pass_gate": "All applicable structural checks including mandatory final orthographic projection PASS; any FAIL => needs_revision; critical uncertainty => uncertain.",
     "global_geometry_fault_strategy": "Rebuild common structure without preserving faulty geometry; zoom-out alone is not geometry correction.",
-    "evidence_reinforcement_approval_id": "master_update_20260910_v2_4"
+    "evidence_reinforcement_approval_id": "master_update_20260910_v2_4",
+    "projection_approval_id": "master_update_20260911_v2_5"
   },
-  "master_update_approval_id": "master_update_20260910_v2_4",
+  "master_update_approval_id": "master_update_20260911_v2_6_brush_planes",
   "scene_interpretation": "New location keywords redesign building function, masses, layout, paving and subsurface infrastructure under unchanged spatial constraints; do not inherit prior scene-only props, weather or the same cutaway design. Explicit edits preserve the requested aspects of their target.",
   "approved_ldi_supplement_ids": [
     "M03-11",
@@ -133,17 +139,57 @@
       ],
       "default_generation_input": false,
       "allowed_use": "Relative visual presence only, no fixed percentage or exact buildings/devices. A new location must be redesigned."
+    },
+    {
+      "reference_id": "B03-02",
+      "path": "outputs/final/20260911_153546__night_alley_01.png",
+      "approved_aspects": [
+        "large_clean_base_color_planes",
+        "sparse_broad_directional_flat_brushwork",
+        "neighboring_hue_value_patches_independent_of_weathering"
+      ],
+      "approval_id": "master_update_20260911_v2_6_brush_planes",
+      "default_generation_input": false,
+      "generation_input_allowed": false,
+      "geometry_approved": false,
+      "allowed_use": "Surface treatment comparison only; preserve original needs_revision QA and exclude layout/geometry from approval."
+    },
+    {
+      "reference_id": "B03-03",
+      "path": "outputs/final/20260911_153546__night_alley_02.png",
+      "approved_aspects": [
+        "large_clean_base_color_planes",
+        "sparse_broad_directional_flat_brushwork",
+        "neighboring_hue_value_patches_independent_of_weathering"
+      ],
+      "approval_id": "master_update_20260911_v2_6_brush_planes",
+      "default_generation_input": false,
+      "generation_input_allowed": false,
+      "geometry_approved": false,
+      "allowed_use": "Surface treatment comparison only; preserve original needs_revision QA and exclude layout/geometry from approval."
+    },
+    {
+      "reference_id": "B03-04",
+      "path": "outputs/final/20260911_153546__night_alley_03.png",
+      "approved_aspects": [
+        "large_clean_base_color_planes",
+        "sparse_broad_directional_flat_brushwork",
+        "neighboring_hue_value_patches_independent_of_weathering"
+      ],
+      "approval_id": "master_update_20260911_v2_6_brush_planes",
+      "default_generation_input": false,
+      "generation_input_allowed": false,
+      "geometry_approved": false,
+      "allowed_use": "Surface treatment comparison only; preserve original needs_revision QA and exclude layout/geometry from approval."
     }
   ],
-  "updated_date": "2026-09-10",
+  "updated_date": "2026-09-11",
   "geometry_policy": {
     "approval_id": "master_update_20260910_v2_3",
     "spatial_frame": "single cubic virtual space with shared XYZ axes and scale",
     "default_base_footprint": "square; shape exceptions require explicit user request",
-    "default_projection_preference": "consistent parallel quarter-view",
     "allowed_projection": [
-      "single parallel/orthographic projection",
-      "single coherent weak-perspective projection"
+      "single orthographic projection"
     ],
     "fixed_camera_numbers": null,
     "base_geometry": "four-corner plane extruded by consistent depth; corresponding vertical corners and planar front cuts",
@@ -152,17 +198,20 @@
     "routes": "reserve approach and post-clear/open-state passage volume to each transition; planned lock is distinct from accidental obstruction",
     "interior": "when applicable, room depth and entry-to-functional-space circulation",
     "workflow": [
-      "Select and record one projection; shared-coordinate building footprints and separate roof/support plan",
+      "Record mandatory single orthographic camera; shared-coordinate building footprints and separate roof/support plan",
       "Check orthogonal polygon edges, base corners, grounding and route volumes; plan visible evidence",
       "Assign two functional exit roles, positions, forms, states and post-clear connections",
       "Compile requirement-covered prompt and transmit role-labeled guide/reference inputs",
-      "Inspect actual final image line families and corresponding corners under the selected projection, then traversal and art"
+      "Inspect actual final image parallel same-world-axis line families, depth-invariant scale and constant-depth corner vectors under orthographic projection, then traversal and art"
     ],
     "numeric_clearance_requires_3d_validation": true,
     "building_footprints": "common XY-axis orthogonal ground footprint and player-contact walls; L/T/U and right-angle setbacks permitted; no diagonal/chamfered/curved building traversal boundary",
     "prop_shape_exception": "tanks/vehicles/props may be curved or rotated; same camera, grounding and clear exit routes required",
     "roof_geometry": "varied roof profiles allowed; explicit plane/surface joins, wall-top alignment and supported equipment; uncertainty is not PASS",
-    "review_reinforcement_approval_id": "master_update_20260910_v2_4"
+    "review_reinforcement_approval_id": "master_update_20260910_v2_4",
+    "required_final_projection": "orthographic_parallel",
+    "projection_approval_id": "master_update_20260911_v2_5",
+    "reference_camera_priority": "Mandatory orthographic projection overrides all reference cameras, including M01; preserve assigned structure/art/world roles."
   },
   "architectural_design_policy": {
     "approval_id": "architecture_entrances_roofs_20260910",
@@ -254,15 +303,17 @@
     "approval_id": "master_update_20260910_v2_4",
     "actual_image_required": true,
     "plan_is_not_final_evidence": true,
-    "parallel_projection": "Compare same-world-axis line families across base top/bottom, paving, building footings, wall tops and level roof edges. Corresponding top/bottom corner displacement vectors of a constant-depth base must agree.",
-    "weak_perspective": "Check one coherent camera, common vanishing-point families and horizon; allow depth-dependent screen scale, not independent local cameras.",
+    "parallel_projection": "Compare same-world-axis line families across base top/bottom, paving, building footings, wall tops and level roof edges. Corresponding top/bottom corner displacement vectors of a constant-depth base must agree. Equal actual lengths in the same 3D direction retain screen length at every depth.",
     "no_posthoc_projection_switch_to_pass": true,
     "universal_screen_angle_or_pixel_threshold": null,
     "observations": "Record native image dimensions, line endpoints, world-axis assignment, visibility, uncertainty and justified verdict; screen-angle differences are not measured 3D rotation.",
     "occlusion": "Critical hidden footing/corner evidence remains UNCERTAIN. Prefer legible ground contacts when planning.",
     "exclude_false_matches": "Do not compare sloped roofs, awnings, shadows or rotated/curved props as if they were level building-axis edges.",
     "reassessments": "Preserve prior outputs and reviews; a new evidenced review supersedes a prior PASS. Failed or uncertain geometry is not a positive geometry reference.",
-    "future_modeling": "For exact geometry, separately retain a validated 3D blockout and camera as the authority. A 2D guide or coordinate JSON does not constrain the image generator as a geometry engine."
+    "future_modeling": "For exact geometry, separately retain a validated 3D blockout and camera as the authority. A 2D guide or coordinate JSON does not constrain the image generator as a geometry engine.",
+    "projection_approval_id": "master_update_20260911_v2_5",
+    "required_final_projection": "orthographic_parallel",
+    "perspective_result_policy": "FAIL when perspective convergence or depth-based scaling contradicts orthographic projection, even if perspective is coherent; missing critical evidence is UNCERTAIN."
   },
   "tool_input_evidence_policy": {
     "approval_id": "master_update_20260910_v2_4",
@@ -284,5 +335,59 @@
       "status": "needs_revision",
       "role": "diagnostic_only; supersedes prior candidate_pass without rewriting original records"
     }
-  ]
+  ],
+  "reference_catalog_revision": "2026-09-11-brush-support-01",
+  "reference_catalog_approval_id": "master_update_20260911_v2_6_brush_planes",
+  "approved_user_added_reference_ids": [
+    "M03-16",
+    "M04-08",
+    "M03-17"
+  ],
+  "visual_style_component_version": "2.2",
+  "optional_surface_style_ids": [
+    "B03-01"
+  ],
+  "approved_surface_example_ids": [
+    "B03-02",
+    "B03-03",
+    "B03-04"
+  ],
+  "surface_style_policy": {
+    "approval_id": "master_update_20260911_v2_6_brush_planes",
+    "reference": "docs/03_VISUAL_STYLE_V2.md",
+    "base": "Large calm clean base-color planes remain dominant and readable.",
+    "positive_treatment": "Add selected sparse broad directional flat pigment strokes/patches in neighboring hue and value, including intact wall, road, roof and vehicle/body surfaces.",
+    "weathering_relationship": "Brushwork is pictorial color variation, independent of rust, grime, peeling or damage; do not require damage to justify a stroke.",
+    "stroke_scale": "Vary with the size and direction of each surface; no fixed pixel size or area percentage.",
+    "avoid": [
+      "embossed or impasto relief",
+      "wavy or broken-glass ripple texture",
+      "tiny mosaic fragments",
+      "all-over granular microdetail",
+      "uniform single-color dead planes"
+    ],
+    "preserve": [
+      "coherent large light/shadow groups",
+      "legible volume and silhouettes",
+      "structural thickness and grounding",
+      "distinct material response",
+      "existing mandatory orthographic geometry"
+    ],
+    "scene_dependent": [
+      "time of day",
+      "palette",
+      "lighting color",
+      "puddles",
+      "amount of wear"
+    ],
+    "default_anchor_unchanged": "M03-10",
+    "optional_surface_input": "B03-01",
+    "comparison_only_examples": [
+      "B03-02",
+      "B03-03",
+      "B03-04"
+    ],
+    "geometry_approval_from_examples": false,
+    "auto_regeneration_scope_changed": false
+  }
 }

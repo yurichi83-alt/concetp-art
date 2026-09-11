@@ -1,0 +1,43 @@
+{
+  "image": "reconstructed.png",
+  "dimensions": [
+    1448,
+    1086
+  ],
+  "sha256": "6f7bc57a6d12066834496d652ea4623840d0174ccd78e92ef0e1013182dc58e0",
+  "backend": "builtin_imagegen",
+  "model_version": null,
+  "source": "C:/Users/Yeon Hee Kang/.codex/generated_images/01a08867-7e38-7162-8368-5c8c0df7a0c0/exec-47a51666-e6df-4fc1-ace0-55b19a3fc6e3.png",
+  "selected_final": true,
+  "status": "needs_revision",
+  "scene_keywords": "present; exact30% mechanical volume not measurable",
+  "style_status": "partial_visual_match_pending_user",
+  "checks": {
+    "C01": "PASS",
+    "C02": "PASS",
+    "C03": "PASS",
+    "C04": "FAIL",
+    "L01": "PASS",
+    "L02": "UNCERTAIN",
+    "L03": "UNCERTAIN",
+    "L04": "PASS",
+    "L05": "PASS",
+    "L06": "NOT_APPLICABLE",
+    "L07": "UNCERTAIN",
+    "S01": "PASS",
+    "S02": "PASS",
+    "S03": "UNCERTAIN",
+    "S04": "PASS",
+    "W01": "PASS",
+    "W02": "PASS",
+    "W03": "PASS",
+    "W04": "PASS",
+    "W05": "UNCERTAIN",
+    "R01": "UNCERTAIN",
+    "R02": "PASS"
+  },
+  "generation_calls_for_this_variant": 2,
+  "previous_or_sibling_images_used": false,
+  "master_updated": false,
+  "review": "review.md"
+}

@@ -1,0 +1,37 @@
+{
+  "status": "pass",
+  "scope": "Document/configuration consistency and file preservation only; no generated-image or Codex-runtime validation.",
+  "checks": {
+    "versions_synchronized": true,
+    "mandatory_orthographic_only": true,
+    "no_old_template_alternative": true,
+    "prompt_explicit_orthographic": true,
+    "old_approval_entries_unchanged": true,
+    "unrelated_policies_preserved": true,
+    "existing_references_outputs_unchanged": true,
+    "skill_frontmatter_and_ui_basic": true,
+    "project_file_integrity": true,
+    "git_diff_check": true
+  },
+  "protected_existing_files_verified": 797,
+  "protected_mismatches": [],
+  "project_validation": {
+    "ok": true,
+    "root": "C:\\Users\\Yeon Hee Kang\\OneDrive\\문서\\Codex\\background-concept-art\\concetp-art",
+    "master_images": 24,
+    "review_only_images": 3,
+    "preferred_result_images": 2,
+    "agents_bytes": 7363,
+    "errors": [],
+    "warnings": [],
+    "scope": "Files only. No visual or Codex-runtime validation."
+  },
+  "skill_quick_validate": {
+    "status": "unavailable",
+    "attempted": true,
+    "reason": "ModuleNotFoundError: No module named 'yaml' (PyYAML absent); no dependency installed.",
+    "fallback": "Project validator and focused existing frontmatter/UI checks passed; not equivalent to executing the unavailable validator."
+  },
+  "new_images_generated": 0,
+  "git_commit_or_push": false
+}

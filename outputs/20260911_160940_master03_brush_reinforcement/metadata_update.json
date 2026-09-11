@@ -1,0 +1,15 @@
+{
+  "approval_id": "master_update_20260911_v2_6_brush_planes",
+  "master_count": 27,
+  "scoped_support_count": 4,
+  "support_ids": [
+    "B03-01",
+    "B03-02",
+    "B03-03",
+    "B03-04"
+  ],
+  "master_version": "2.6",
+  "execution_rules_version": "1.7",
+  "visual_style_component_version": "2.2",
+  "package_version": "1.6.0"
+}

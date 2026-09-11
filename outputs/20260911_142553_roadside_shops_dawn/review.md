@@ -1,0 +1,2 @@
+# First image review
+Actual image opened at 1448x1086. Entire base, L-building, two clear side alley gaps, telephone booth, utility pole, weeds and pickup are present. Broad white-light request FAIL: warm yellow/amber interior windows and shop lights dominate. Correct only color temperature, preserve structure and scene. This is one own-scene refinement, not an independent requested variant. Final geometry review follows the selected corrected image.

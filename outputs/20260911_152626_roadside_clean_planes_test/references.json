@@ -1,0 +1,88 @@
+{
+  "run_id": "20260911_152626_roadside_clean_planes_test",
+  "master_version": "2.5",
+  "execution_rules_version": "1.6",
+  "catalog_revision": "2026-09-11-user-additions-02",
+  "delivery_status": "completed",
+  "delivery_mechanism": "referenced_image_paths",
+  "actual_submitted_image_count": 3,
+  "inspected_for_planning": [
+    {
+      "index": 1,
+      "path": "C:\\Users\\Yeon Hee Kang\\OneDrive\\문서\\Codex\\background-concept-art\\concetp-art\\outputs\\final\\20260911_150332__roadside_night_puddles.png",
+      "role": "edit target: latest night scene; preserve content/layout/lighting, replace surface finish",
+      "sha256": "c68fd19d796602244b18d98417e9e9aaec1dcf53670d5ed13f9c64857eda19af"
+    },
+    {
+      "index": 2,
+      "path": "C:\\Users\\Yeon Hee Kang\\OneDrive\\문서\\Codex\\background-concept-art\\concetp-art\\refs\\master03\\ldi_10_storefront_style_anchor.png",
+      "role": "M03-10: broad calm color planes and restrained material/light expression only",
+      "sha256": "c24fe55ad76c6c8bfbd88dee7059a09fd7a592dc60e5d4a6c7c0704f11f19345"
+    },
+    {
+      "index": 3,
+      "path": "C:\\Users\\Yeon Hee Kang\\OneDrive\\문서\\Codex\\background-concept-art\\concetp-art\\outputs\\20260911_152626_roadside_clean_planes_test\\brush_color_reference.jpg",
+      "role": "user attachment: sparse large neighboring-tone brush patches and grouped lighting only",
+      "sha256": "1017bd1ab7a7a500601fdd74ab0d7e105f330aefc75ba9bba30461cbea5b7638"
+    }
+  ],
+  "planned_submission": [
+    {
+      "index": 1,
+      "path": "C:\\Users\\Yeon Hee Kang\\OneDrive\\문서\\Codex\\background-concept-art\\concetp-art\\outputs\\final\\20260911_150332__roadside_night_puddles.png",
+      "role": "edit target: latest night scene; preserve content/layout/lighting, replace surface finish",
+      "sha256": "c68fd19d796602244b18d98417e9e9aaec1dcf53670d5ed13f9c64857eda19af"
+    },
+    {
+      "index": 2,
+      "path": "C:\\Users\\Yeon Hee Kang\\OneDrive\\문서\\Codex\\background-concept-art\\concetp-art\\refs\\master03\\ldi_10_storefront_style_anchor.png",
+      "role": "M03-10: broad calm color planes and restrained material/light expression only",
+      "sha256": "c24fe55ad76c6c8bfbd88dee7059a09fd7a592dc60e5d4a6c7c0704f11f19345"
+    },
+    {
+      "index": 3,
+      "path": "C:\\Users\\Yeon Hee Kang\\OneDrive\\문서\\Codex\\background-concept-art\\concetp-art\\outputs\\20260911_152626_roadside_clean_planes_test\\brush_color_reference.jpg",
+      "role": "user attachment: sparse large neighboring-tone brush patches and grouped lighting only",
+      "sha256": "1017bd1ab7a7a500601fdd74ab0d7e105f330aefc75ba9bba30461cbea5b7638"
+    }
+  ],
+  "external_reference_source": "C:\\Users\\Yeon Hee Kang\\OneDrive\\사진\\ref\\516752053_10165409110267784_3247313175898683043_n.jpg",
+  "submitted_prompt": {
+    "path": "generation_prompt.txt",
+    "character_count": 4222,
+    "utf8_bytes": 4224,
+    "whitespace_words": 614,
+    "saved_text_matches_actual_argument": true
+  },
+  "scope": "one scene-only clean color planes plus sparse broad tone brushwork test; no master update",
+  "omissions": "M01/M02/structure guide/M04 images omitted in this surface-only edit; target carries existing design and layout, retained requirements are stated in text. M03-10 explicitly included with supplementary brush reference.",
+  "tool_contract": {
+    "tool": "builtin image_gen.imagegen",
+    "internal_model_version": null,
+    "reference_weights": null,
+    "referenced_image_paths_hard_limit": null
+  },
+  "submitted_to_generation": [
+    {
+      "index": 1,
+      "path": "C:/Users/Yeon Hee Kang/OneDrive/문서/Codex/background-concept-art/concetp-art/outputs/final/20260911_150332__roadside_night_puddles.png",
+      "role": "edit target: latest night scene; preserve content/layout/lighting, replace surface finish",
+      "sha256": "c68fd19d796602244b18d98417e9e9aaec1dcf53670d5ed13f9c64857eda19af",
+      "status": "submitted"
+    },
+    {
+      "index": 2,
+      "path": "C:/Users/Yeon Hee Kang/OneDrive/문서/Codex/background-concept-art/concetp-art/refs/master03/ldi_10_storefront_style_anchor.png",
+      "role": "M03-10: broad calm color planes and restrained material/light expression only",
+      "sha256": "c24fe55ad76c6c8bfbd88dee7059a09fd7a592dc60e5d4a6c7c0704f11f19345",
+      "status": "submitted"
+    },
+    {
+      "index": 3,
+      "path": "C:/Users/Yeon Hee Kang/OneDrive/문서/Codex/background-concept-art/concetp-art/outputs/20260911_152626_roadside_clean_planes_test/brush_color_reference.jpg",
+      "role": "user attachment: sparse large neighboring-tone brush patches and grouped lighting only",
+      "sha256": "1017bd1ab7a7a500601fdd74ab0d7e105f330aefc75ba9bba30461cbea5b7638",
+      "status": "submitted"
+    }
+  ]
+}

@@ -1,0 +1,19 @@
+{
+  "image": "roadside_guardhouse_brush.png",
+  "dimensions": [
+    1448,
+    1086
+  ],
+  "sha256": "f2a873b5553d3a55f119d6e0953ec1ccbe15c2fbc91c95f2f1a85cd77a6c1192",
+  "backend": "builtin_imagegen",
+  "model_version": null,
+  "image_calls": 1,
+  "requested_final_count": 1,
+  "selected_final": true,
+  "edit_scope_status": "requested_visual_changes_present",
+  "new_exit_obstruction_observed": false,
+  "status": "needs_revision",
+  "geometry_status": "inherited_C04_L07_issues",
+  "guardhouse_roof_coverage_status": "uncertain_visual_measurement",
+  "review": "review.md"
+}

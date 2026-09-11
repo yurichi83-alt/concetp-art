@@ -1,0 +1,136 @@
+{
+  "scope": "Latest14 direct run-folder references.json records,20260910_182329 through20260911_101122_correction02. Includes own corrections, not14 independent user requests. Nested variant/backup records excluded from this count; selected nested records inspected separately. No inspection/planned/omission fields counted as actual submitted references.",
+  "records": [
+    {
+      "record": "outputs/20260910_182329_scrapyard_warm_sunset/references.json",
+      "input_field": "inputs",
+      "input_count": 4,
+      "master34": [
+        "M03-10",
+        "M04-02"
+      ]
+    },
+    {
+      "record": "outputs/20260910_183000_scrapyard_spatial_rebuild/references.json",
+      "input_field": "inputs",
+      "input_count": 4,
+      "master34": [
+        "M03-10",
+        "M04-02"
+      ]
+    },
+    {
+      "record": "outputs/20260910_183400_scrapyard_exit_fix/references.json",
+      "input_field": "inputs",
+      "input_count": 5,
+      "master34": [
+        "M03-10",
+        "M04-02"
+      ]
+    },
+    {
+      "record": "outputs/20260910_184527_city_three_buildings_night/references.json",
+      "input_field": "inputs",
+      "input_count": 4,
+      "master34": [
+        "M03-10",
+        "M04-02"
+      ]
+    },
+    {
+      "record": "outputs/20260910_184900_city_square_base_fix/references.json",
+      "input_field": "inputs",
+      "input_count": 5,
+      "master34": [
+        "M03-10",
+        "M04-02"
+      ]
+    },
+    {
+      "record": "outputs/20260910_185100_city_full_framing/references.json",
+      "input_field": "inputs",
+      "input_count": 5,
+      "master34": [
+        "M03-10",
+        "M04-02"
+      ]
+    },
+    {
+      "record": "outputs/20260910_185824_city_night_new_arrangement/references.json",
+      "input_field": "references",
+      "input_count": 4,
+      "master34": [
+        "M03-10",
+        "M04-02"
+      ]
+    },
+    {
+      "record": "outputs/20260910_190552_city_cool_night_orthographic/references.json",
+      "input_field": "references",
+      "input_count": 5,
+      "master34": [
+        "M03-10",
+        "M03-11",
+        "M04-02"
+      ]
+    },
+    {
+      "record": "outputs/20260910_191326_city_projection_rebuild/references.json",
+      "input_field": "references",
+      "input_count": 5,
+      "master34": [
+        "M03-10",
+        "M04-02"
+      ]
+    },
+    {
+      "record": "outputs/20260911_090939_image2_vs_25_sunset/references.json",
+      "input_field": "actual_inputs_builtin",
+      "input_count": 4,
+      "master34": [
+        "M03-10",
+        "M04-02"
+      ]
+    },
+    {
+      "record": "outputs/20260911_093324_builtin_4k_sunset_test/references.json",
+      "input_field": "inputs",
+      "input_count": 4,
+      "master34": [
+        "M03-10",
+        "M04-02"
+      ]
+    },
+    {
+      "record": "outputs/20260911_101122_desert_cylinder_night/references.json",
+      "input_field": "submitted_to_generation",
+      "input_count": 5,
+      "master34": [
+        "M03-10",
+        "M04-02"
+      ]
+    },
+    {
+      "record": "outputs/20260911_101122_desert_cylinder_night_correction01/references.json",
+      "input_field": "submitted_to_generation",
+      "input_count": 3,
+      "master34": [
+        "M03-10",
+        "M04-02"
+      ]
+    },
+    {
+      "record": "outputs/20260911_101122_desert_cylinder_night_correction02/references.json",
+      "input_field": "submitted_to_generation",
+      "input_count": 3,
+      "master34": [
+        "M03-10",
+        "M04-02"
+      ]
+    }
+  ],
+  "base_pair_present": 14,
+  "additional_master03": 1,
+  "alternative_master04": 0,
+  "source_limit": "Audit of saved transmission records; not independent inspection of hidden model processing or exhaustive tool logs."
+}

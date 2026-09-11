@@ -1,0 +1,41 @@
+{
+  "status": "partially_completed_api_key_required",
+  "builtin": {
+    "status": "generated_and_reviewed",
+    "qa_status": "needs_revision",
+    "path": "builtin/builtin_first_output.png",
+    "size": [
+      1536,
+      1024
+    ],
+    "first_output_only": true,
+    "calls": 1,
+    "corrections": 0,
+    "documented_product_model": "gpt-image-2",
+    "per_call_model_snapshot": null,
+    "internal_quality": null,
+    "generated_source": "C:/Users/Yeon Hee Kang/.codex/generated_images/01a08867-7e38-7162-8368-5c8c0df7a0c0/exec-63441e49-1811-456d-bd47-e3d8e79e1d09.png"
+  },
+  "api25": {
+    "status": "blocked_missing_api_key",
+    "actual_call_made": false,
+    "target_model": "gpt-image-2.5-sunburst",
+    "quality": "auto",
+    "size": "1536x1024",
+    "n": 1,
+    "dry_run_validated": true
+  },
+  "comparison": {
+    "status": "pending_second_image",
+    "identical_prompt_verified": true,
+    "identical_reference_order_verified": true,
+    "first_outputs_only": true,
+    "confounds": [
+      "different access paths",
+      "unexposed builtin quality and internal processing",
+      "uncontrolled randomness",
+      "one sample per model"
+    ]
+  },
+  "master_updated": false
+}

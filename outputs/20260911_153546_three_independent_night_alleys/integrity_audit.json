@@ -1,0 +1,49 @@
+{
+  "master_files_checked": 53,
+  "master_changes": [],
+  "request_records": [
+    {
+      "request": "outputs\\20260911_153546_three_independent_night_alleys\\01_western_machine_house\\submitted_request.json",
+      "input_count": 5,
+      "generated_output_hash_reuse": false
+    },
+    {
+      "request": "outputs\\20260911_153546_three_independent_night_alleys\\02_eastern_power_house\\submitted_request.json",
+      "input_count": 5,
+      "generated_output_hash_reuse": false
+    },
+    {
+      "request": "outputs\\20260911_153546_three_independent_night_alleys\\03_rear_compressor_house\\submitted_request.json",
+      "input_count": 5,
+      "generated_output_hash_reuse": false
+    },
+    {
+      "request": "outputs\\20260911_153546_three_independent_night_alleys\\03_rear_compressor_house\\reconstruction01\\submitted_request.json",
+      "input_count": 5,
+      "generated_output_hash_reuse": false
+    },
+    {
+      "request": "outputs\\20260911_153546_three_independent_night_alleys\\02_eastern_power_house\\reconstruction01\\submitted_request.json",
+      "input_count": 5,
+      "generated_output_hash_reuse": false
+    },
+    {
+      "request": "outputs\\20260911_153546_three_independent_night_alleys\\02_eastern_power_house\\reconstruction02\\submitted_request.json",
+      "input_count": 5,
+      "generated_output_hash_reuse": false
+    },
+    {
+      "request": "outputs\\20260911_153546_three_independent_night_alleys\\01_western_machine_house\\reconstruction01\\submitted_request.json",
+      "input_count": 5,
+      "generated_output_hash_reuse": false
+    },
+    {
+      "request": "outputs\\20260911_153546_three_independent_night_alleys\\01_western_machine_house\\reconstruction02\\submitted_request.json",
+      "input_count": 5,
+      "generated_output_hash_reuse": false
+    }
+  ],
+  "generated_originals": 8,
+  "independent_all_calls": true,
+  "external_api_calls": 0
+}

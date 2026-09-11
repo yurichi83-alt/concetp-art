@@ -1,0 +1,12 @@
+{
+  "image": "roadside_shops_initial.png",
+  "dimensions": [
+    1448,
+    1086
+  ],
+  "backend": "builtin_imagegen",
+  "model_version": null,
+  "status": "needs_revision",
+  "reason": "White-light request: shop interiors and practical light pools are visibly amber.",
+  "selected_final": false
+}

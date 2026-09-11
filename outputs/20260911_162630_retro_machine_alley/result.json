@@ -1,0 +1,22 @@
+{
+  "scene": "night_retro_machine_alley",
+  "requested_images": 1,
+  "backend": "builtin_image_gen",
+  "selected_source": "outputs/20260911_162630_retro_machine_alley/reconstruction02/final.png",
+  "qa_status": "needs_revision",
+  "format": "PNG",
+  "width": 1448,
+  "height": 1086,
+  "sha256": "1a9a9536ad414ee9167c745fc2b95579ff1795adfddf378ea80beec155c578db",
+  "bytes": 1654577,
+  "master_version": "2.6",
+  "execution_rules_version": "1.7",
+  "master_files_unchanged": true,
+  "user_attachment_registered_as_master": false,
+  "machine_ratio": "One building designed for about40% visible mechanical integration; visual estimate, not exact pixel/3D measurement.",
+  "final_prompt": "outputs/20260911_162630_retro_machine_alley/reconstruction02/generation_prompt.md",
+  "review": "outputs/20260911_162630_retro_machine_alley/reconstruction02/review.md",
+  "completed_at": "2026-09-11T16:44:11.675493",
+  "internal_model_version": "not_exposed",
+  "final_collection_path": "outputs/final/20260911_162630__retro_machine_alley.png"
+}

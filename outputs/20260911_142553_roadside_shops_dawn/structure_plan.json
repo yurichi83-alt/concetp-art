@@ -1,0 +1,149 @@
+{
+  "projection": "orthographic_parallel",
+  "camera": {
+    "formula": "(800+(x-y)*33*sqrt(3)/2,290+(x+y)*33/2-z*33)",
+    "scene_only": true
+  },
+  "base": {
+    "footprint": [
+      [
+        0,
+        0
+      ],
+      [
+        20,
+        0
+      ],
+      [
+        20,
+        20
+      ],
+      [
+        0,
+        20
+      ]
+    ],
+    "top_z": 0,
+    "bottom_z": -2
+  },
+  "building": {
+    "id": "L_shop",
+    "footprint": [
+      [
+        0,
+        0
+      ],
+      [
+        13,
+        0
+      ],
+      [
+        13,
+        4
+      ],
+      [
+        4,
+        4
+      ],
+      [
+        4,
+        13
+      ],
+      [
+        0,
+        13
+      ]
+    ],
+    "wings": [
+      {
+        "bounds": [
+          0,
+          0,
+          4,
+          13
+        ],
+        "height": 5,
+        "roof_coverage": 0.55
+      },
+      {
+        "bounds": [
+          4,
+          0,
+          13,
+          4
+        ],
+        "height": 3.3,
+        "roof_coverage": 0.5555555555555556
+      }
+    ],
+    "entrances": "human doors/shutters facing street, decorative; two map exits are separate alleys",
+    "roof": "level supported equipment platforms and coherent roof height step"
+  },
+  "exits": [
+    {
+      "id": "back_left",
+      "gap": [
+        0,
+        13,
+        0.45,
+        16
+      ],
+      "state": "open",
+      "route_bounds": [
+        0,
+        13,
+        10,
+        16
+      ]
+    },
+    {
+      "id": "back_right",
+      "gap": [
+        13,
+        0,
+        16,
+        0.45
+      ],
+      "state": "open",
+      "route_bounds": [
+        13,
+        0,
+        16,
+        10
+      ]
+    }
+  ],
+  "clear_center": [
+    7,
+    7,
+    14,
+    14
+  ],
+  "props": {
+    "phone": [
+      4.6,
+      10.4,
+      5.8,
+      11.8
+    ],
+    "pole": [
+      5.3,
+      8.3,
+      5.55,
+      8.55
+    ],
+    "truck": [
+      16.7,
+      9,
+      19,
+      13
+    ]
+  },
+  "intended_height_max": 6.5,
+  "plan_checks": {
+    "orthogonal_footprint": true,
+    "clear_routes": true,
+    "roof_coverage_planned": true
+  },
+  "limitations": "2D diagram and scene coordinates are planning only, not hard image-generator geometry control or verified 3D gameplay collision."
+}

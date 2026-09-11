@@ -1,0 +1,311 @@
+{
+  "status": "uncertain",
+  "structural_status": "uncertain",
+  "actually_opened": true,
+  "inspection": "Actual native generated image visually inspected; exact copied output saved in project",
+  "native_size": [
+    1536,
+    1024
+  ],
+  "master": "2.4",
+  "execution": "1.5",
+  "planned_projection": "coherent_weak_perspective",
+  "projection_not_relabelled": true,
+  "plan": "structure_plan.json",
+  "final_compared_to_plan": true,
+  "checks": {
+    "C01": [
+      "PASS",
+      "Complete final base, front cuts, roof and both rear gate boundaries visible."
+    ],
+    "C02": [
+      "UNCERTAIN",
+      "Both cut faces visible; manual upper/lower landmarks retained. Rough fill and corner/cap layering make exact corresponding lower plane uncertain under the preselected mild perspective."
+    ],
+    "C03": [
+      "PASS",
+      "No clear bending of long slab outlines; planar floor impression. Physical3D curvature not certified."
+    ],
+    "C04": [
+      "UNCERTAIN",
+      "Two principal ground direction families visible; short/partly occluded foundations prevent reliable common VP/horizon confirmation across all heights."
+    ],
+    "L01": [
+      "PASS",
+      "Two adjacent blocking directions connected by joined building and gates."
+    ],
+    "L02": [
+      "PASS",
+      "One designated closed sliding gate on each rear direction; other doors local decorative entrances."
+    ],
+    "L03": [
+      "PASS",
+      "Center and both wide gate approaches visually open; car,bike and pole outside center. Postclear operation remains planned, not animated proof."
+    ],
+    "L04": [
+      "PASS",
+      "No high foreground structure covers center; cassette shelter removed."
+    ],
+    "L05": [
+      "PASS",
+      "Visible roof-wall connections and rooftop equipment supports readable; closed entries grounded."
+    ],
+    "L06": [
+      "NOT_APPLICABLE",
+      "No exposed interior requested or shown."
+    ],
+    "L07": [
+      "UNCERTAIN",
+      "Visible wall segments align with scene axes but equipment obscures some critical footing corners; roof alone cannot prove full ground polygon."
+    ],
+    "S01": [
+      "PASS",
+      "Broad plaster/cladding/sand/road color regions and selective repair patches."
+    ],
+    "S02": [
+      "PASS",
+      "Equipment concentrated on roof/periphery, center materially quieter."
+    ],
+    "S03": [
+      "PASS",
+      "Stylized3D rendering with distinct material cues, no character/UI."
+    ],
+    "S04": [
+      "PASS",
+      "Major object/support/entry forms readable; not mesh validation."
+    ],
+    "W01": [
+      "PASS",
+      "Facade bypass feeds, replacement plant housings and recovered equipment present."
+    ],
+    "W02": [
+      "PASS",
+      "Aged panels, repairs and active service devices throughout."
+    ],
+    "W03": [
+      "PASS",
+      "Mechanical plant prominent on roof and facade, not only underground cuts."
+    ],
+    "W04": [
+      "PASS",
+      "Human doors and shutters visible; no extra functional exit count."
+    ],
+    "W05": [
+      "PASS",
+      "Approximately half of rooftop composition occupied by supported functional plant/structures; visual estimate only."
+    ],
+    "R01": [
+      "UNCERTAIN",
+      "Sunset, yellow road sand, car, bike, wall graffiti and snapped pole present. Coverage aimed at60% but no exact segmentation; joined stepped L mass readable, hidden footprint not certified."
+    ],
+    "R02": [
+      "PASS",
+      "New sand-covered roadside scheme, independent master-based call. Variants have distinct wing massing/cladding/plant."
+    ]
+  },
+  "measurement": {
+    "method": "Approximate manual native-pixel endpoints from displayed final output; origin top-left; several-pixel selection uncertainty. Caps and rough earth affect lower landmarks. No angle tolerance, no claimed physical3D yaw.",
+    "points": {
+      "left": [
+        210,
+        470
+      ],
+      "front": [
+        744,
+        817
+      ],
+      "right": [
+        1328,
+        510
+      ],
+      "lowerleft": [
+        211,
+        562
+      ],
+      "lowerfront": [
+        742,
+        960
+      ],
+      "lowerright": [
+        1326,
+        601
+      ],
+      "roof": [
+        [
+          749,
+          271
+        ],
+        [
+          876,
+          316
+        ]
+      ],
+      "footing": [
+        [
+          772,
+          491
+        ],
+        [
+          915,
+          554
+        ]
+      ],
+      "paving": [
+        [
+          504,
+          578
+        ],
+        [
+          743,
+          721
+        ]
+      ]
+    },
+    "line_pairs": [
+      {
+        "id": "G01",
+        "feature": "left base top/lower",
+        "a": [
+          [
+            210,
+            470
+          ],
+          [
+            744,
+            817
+          ]
+        ],
+        "b": [
+          [
+            211,
+            562
+          ],
+          [
+            742,
+            960
+          ]
+        ],
+        "status": "UNCERTAIN"
+      },
+      {
+        "id": "G02",
+        "feature": "right base top/lower",
+        "a": [
+          [
+            744,
+            817
+          ],
+          [
+            1328,
+            510
+          ]
+        ],
+        "b": [
+          [
+            742,
+            960
+          ],
+          [
+            1326,
+            601
+          ]
+        ],
+        "status": "UNCERTAIN"
+      },
+      {
+        "id": "G03",
+        "feature": "paving/base direction family",
+        "a": [
+          [
+            504,
+            578
+          ],
+          [
+            743,
+            721
+          ]
+        ],
+        "b": [
+          [
+            210,
+            470
+          ],
+          [
+            744,
+            817
+          ]
+        ],
+        "status": "UNCERTAIN under common-horizon test"
+      },
+      {
+        "id": "G04/G05",
+        "feature": "visible footing/level roof in principal building",
+        "a": [
+          [
+            772,
+            491
+          ],
+          [
+            915,
+            554
+          ]
+        ],
+        "b": [
+          [
+            749,
+            271
+          ],
+          [
+            876,
+            316
+          ]
+        ],
+        "status": "UNCERTAIN partial footing occlusion; not comparing awning slopes"
+      }
+    ],
+    "correspondence_points": [
+      [
+        "left",
+        [
+          210,
+          470
+        ],
+        [
+          211,
+          562
+        ]
+      ],
+      [
+        "front",
+        [
+          744,
+          817
+        ],
+        [
+          742,
+          960
+        ]
+      ],
+      [
+        "right",
+        [
+          1328,
+          510
+        ],
+        [
+          1326,
+          601
+        ]
+      ]
+    ],
+    "projection_limits": "Mild perspective allows unequal screen angles and apparent depth; these alone not failure or proof of pass. Offimage common horizon not robustly determined."
+  },
+  "stop_reason": "Observed cropping and central obstruction corrected. Remaining decisive geometry partly unobservable; stop with uncertainty rather than speculative repeated regeneration.",
+  "requires_3d_validation": [
+    "exact collision clearance",
+    "height/depth",
+    "gate animation"
+  ],
+  "master_modified": false,
+  "user_approved": false
+}

@@ -1,0 +1,37 @@
+{
+  "run_id": "20260911_144559_roadside_reduced_wear",
+  "edit_target_parent_run": "20260911_143917_roadside_painterly_color",
+  "masters_version": "2.5",
+  "execution_rules_version": "1.6",
+  "reference_catalog_revision": "2026-09-11-user-additions-02",
+  "delivery_status": "completed",
+  "delivery_mechanism": "referenced_image_paths",
+  "actual_submitted_image_count": 1,
+  "inspected_for_planning": [
+    {
+      "path": "C:\\Users\\Yeon Hee Kang\\OneDrive\\문서\\Codex\\background-concept-art\\concetp-art\\outputs\\final\\20260911_143917__roadside_painterly_color.png",
+      "role": "latest completed painterly image, inspected"
+    }
+  ],
+  "submitted_to_generation": [
+    {
+      "index": 1,
+      "path": "C:\\Users\\Yeon Hee Kang\\OneDrive\\문서\\Codex\\background-concept-art\\concetp-art\\outputs\\final\\20260911_143917__roadside_painterly_color.png",
+      "role": "edit target; preserve all design, color and lighting",
+      "sha256": "72a365bcb910f178a4f0ec02d54c8b6d1780e0ca87d0e332fc1cd352365537b3",
+      "status": "submitted"
+    }
+  ],
+  "scope": "Reduce wall/vehicle weathering coverage approximately by half; replace asphalt mosaic with broad directional strokes. Scene-only edit, no master update.",
+  "submitted_prompt": {
+    "path": "generation_prompt.txt",
+    "character_count": 2850,
+    "returned_model_info": null,
+    "saved_text_matches_actual_argument": true
+  },
+  "tool_contract": {
+    "tool": "builtin image_gen.imagegen",
+    "model": "unknown",
+    "pixel_size_control": "not exposed"
+  }
+}

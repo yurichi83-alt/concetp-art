@@ -1,0 +1,30 @@
+{
+  "run_id": "20260911_142553_roadside_shops_dawn_white_lighting",
+  "masters_version": "2.5",
+  "execution_rules_version": "1.6",
+  "reference_catalog_revision": "2026-09-11-user-additions-02",
+  "own_correction_parent_run": "20260911_142553_roadside_shops_dawn",
+  "delivery_status": "completed",
+  "delivery_mechanism": "referenced_image_paths",
+  "actual_submitted_image_count": 1,
+  "inspected_for_planning": [
+    {
+      "path": "C:\\Users\\Yeon Hee Kang\\OneDrive\\문서\\Codex\\background-concept-art\\concetp-art\\outputs\\20260911_142553_roadside_shops_dawn\\roadside_shops_initial.png",
+      "role": "own generated image lighting edit target"
+    }
+  ],
+  "submitted_to_generation": [
+    {
+      "index": 1,
+      "path": "C:\\Users\\Yeon Hee Kang\\OneDrive\\문서\\Codex\\background-concept-art\\concetp-art\\outputs\\20260911_142553_roadside_shops_dawn\\roadside_shops_initial.png",
+      "role": "edit target; preserve scene and geometry, white light only"
+    }
+  ],
+  "master_reference_delivery": "M03-17 and M04-08 were submitted to first generation; this correction submits only its own generated result.",
+  "submitted_prompt": {
+    "path": "generation_prompt.txt",
+    "character_count": 1647,
+    "returned_model_info": null,
+    "saved_text_matches_actual_argument": true
+  }
+}

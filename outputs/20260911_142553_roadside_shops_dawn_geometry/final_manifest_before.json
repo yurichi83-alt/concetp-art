@@ -1,0 +1,836 @@
+{
+  "schema_version": 1,
+  "purpose": "final_delivered_images_not_master_approval",
+  "selection_date": "2026-09-11",
+  "policy": "요청별 최종 전달본. 독립 시안 및 사용자 별도 수정 요청의 전달본은 각각 보존. 자동 보정 중간 시도, 참조/가이드 제외. QA 실패/보류도 실제 전달본이면 상태와 함께 보관.",
+  "images": [
+    {
+      "filename": "20260909_210805__trading_yard_night_barrels.png",
+      "source": "outputs/20260909_210805_trading_yard_night_barrels/trading_yard_night_barrels.png",
+      "qa_status": "needs_revision",
+      "selection_reason": "요청별 전달본; 자동 보정 중간본 제외",
+      "evidence": [
+        "outputs/20260909_210805_trading_yard_night_barrels/review.md"
+      ],
+      "sha256": "00de0c2c030e9edcf1623088e933d9ac9051d0283ca2225bcee6cf64712ef57b",
+      "bytes": 2028316
+    },
+    {
+      "filename": "20260909_213351__cold_night_shopping_street.png",
+      "source": "outputs/20260909_213351_cold_night_shopping_street/cold_night_shopping_street.png",
+      "qa_status": "uncertain",
+      "selection_reason": "요청별 전달본; 자동 보정 중간본 제외",
+      "evidence": [
+        "outputs/20260909_213351_cold_night_shopping_street/review.md"
+      ],
+      "sha256": "a0fb3a2101fd4327bb2d7b4a81709e5611494a008a027853a2c87166093076c2",
+      "bytes": 2246222
+    },
+    {
+      "filename": "20260909_215624__shopping_street_clean_surfaces.png",
+      "source": "outputs/20260909_215624_shopping_street_clean_surfaces/shopping_street_clean_surfaces.png",
+      "qa_status": "candidate_pass",
+      "selection_reason": "요청별 전달본; 자동 보정 중간본 제외",
+      "evidence": [
+        "outputs/20260909_215624_shopping_street_clean_surfaces/review.md"
+      ],
+      "sha256": "40acb69a6e613ba7d582421c6408c217534af680823962e02599e71cdce8c280",
+      "bytes": 1992665
+    },
+    {
+      "filename": "20260909_220938__shopping_street_salvage_redesign.png",
+      "source": "outputs/20260909_220938_shopping_street_salvage_redesign/shopping_street_salvage_redesign.png",
+      "qa_status": "uncertain",
+      "selection_reason": "요청별 전달본; 자동 보정 중간본 제외",
+      "evidence": [
+        "outputs/20260909_220938_shopping_street_salvage_redesign/result.json",
+        "outputs/20260909_220938_shopping_street_salvage_redesign/review.md"
+      ],
+      "sha256": "e706434f7a1fb2c46dc0df47da03a3ce4968db78818b6cd23d07be8c3b7a3844",
+      "bytes": 1993508
+    },
+    {
+      "filename": "20260909_222803__declining_salvage_shopping_street.png",
+      "source": "outputs/20260909_222803_declining_salvage_shopping_street/declining_salvage_shopping_street.png",
+      "qa_status": "needs_revision",
+      "selection_reason": "요청별 전달본; 자동 보정 중간본 제외",
+      "evidence": [
+        "outputs/20260909_222803_declining_salvage_shopping_street/result.json",
+        "outputs/20260909_222803_declining_salvage_shopping_street/review.md"
+      ],
+      "sha256": "7e87d53accb6358c8582aed482ed5715f347bca6285140db66b68b632e19f43a",
+      "bytes": 2243909
+    },
+    {
+      "filename": "20260909_224840__day_alley_structure_fixed.png",
+      "source": "outputs/20260909_224840_alley_structure_fix/day_alley_structure_fixed.png",
+      "qa_status": "structural_pass_with_art_reservations",
+      "selection_reason": "요청별 전달본; 자동 보정 중간본 제외",
+      "evidence": [
+        "outputs/20260909_224840_alley_structure_fix/result.json",
+        "outputs/20260909_224840_alley_structure_fix/review.md"
+      ],
+      "sha256": "88f65804eca834cde67dd6c8f03b88aef4935ba0acde3718ce7722e050c2977e",
+      "bytes": 2320902
+    },
+    {
+      "filename": "20260909_225844__alley_building_bin_technology.png",
+      "source": "outputs/20260909_225844_alley_building_bin_technology/alley_building_bin_technology.png",
+      "qa_status": "candidate_pass_for_requested_edit",
+      "selection_reason": "요청별 전달본; 자동 보정 중간본 제외",
+      "evidence": [
+        "outputs/20260909_225844_alley_building_bin_technology/result.json",
+        "outputs/20260909_225844_alley_building_bin_technology/review.md"
+      ],
+      "sha256": "560583ee40db23c73a98d11b51fe93e50132ac258354c3b51b4a3253c1c365b3",
+      "bytes": 2296600
+    },
+    {
+      "filename": "20260909_230638__moonlit_city_low_fog.png",
+      "source": "outputs/20260909_230638_moonlit_city_low_fog/moonlit_city_low_fog.png",
+      "qa_status": "uncertain",
+      "selection_reason": "요청별 전달본; 자동 보정 중간본 제외",
+      "evidence": [
+        "outputs/20260909_230638_moonlit_city_low_fog/result.json",
+        "outputs/20260909_230638_moonlit_city_low_fog/review.md"
+      ],
+      "sha256": "c5493ad499d794597992b5ef338a799a708c61868ef9fe05736eeeeb8333db33",
+      "bytes": 2204025
+    },
+    {
+      "filename": "20260909_234825__moonlit_city_final.png",
+      "source": "outputs/20260909_234825_moonlit_city_framing_fix/moonlit_city_final.png",
+      "qa_status": "needs_revision",
+      "selection_reason": "요청별 전달본; 자동 보정 중간본 제외",
+      "evidence": [
+        "outputs/20260909_234825_moonlit_city_framing_fix/result.json",
+        "outputs/20260909_234825_moonlit_city_framing_fix/review.md"
+      ],
+      "sha256": "6fa43783d0c8fced9a6ced65b268596b8b600a7a6b7feb699c823cddd3f9e3c4",
+      "bytes": 2300864
+    },
+    {
+      "filename": "20260910_001333__moonlit_dry_city_plaza_final.png",
+      "source": "outputs/20260910_001333_dry_city_plaza_framing_fix/moonlit_dry_city_plaza_final.png",
+      "qa_status": "candidate_pass",
+      "selection_reason": "요청별 전달본; 자동 보정 중간본 제외",
+      "evidence": [
+        "outputs/20260910_001333_dry_city_plaza_framing_fix/result.json",
+        "outputs/20260910_001333_dry_city_plaza_framing_fix/review.md"
+      ],
+      "sha256": "fa6a4b8e7305d78568b35840ca06f82a71202ae3386f0272a99933d4fd702ac3",
+      "bytes": 2068684
+    },
+    {
+      "filename": "20260910_081337__slum_alley_sunset.png",
+      "source": "outputs/20260910_081337_slum_alley_sunset/slum_alley_sunset.png",
+      "qa_status": "generated_and_reviewed",
+      "selection_reason": "요청별 전달본; 자동 보정 중간본 제외",
+      "evidence": [
+        "outputs/20260910_081337_slum_alley_sunset/result.json",
+        "outputs/20260910_081337_slum_alley_sunset/review.md"
+      ],
+      "sha256": "ee352001b27f52be4610d666e2746527b713a7f0c715dc32d09fc196af3c1da5",
+      "bytes": 2252461
+    },
+    {
+      "filename": "20260910_082127__scrapyard_night_barrel_fire.png",
+      "source": "outputs/20260910_082127_scrapyard_night_barrel_fire/scrapyard_night_barrel_fire.png",
+      "qa_status": "generated_and_reviewed_with_surface_density_note",
+      "selection_reason": "요청별 전달본; 자동 보정 중간본 제외",
+      "evidence": [
+        "outputs/20260910_082127_scrapyard_night_barrel_fire/result.json",
+        "outputs/20260910_082127_scrapyard_night_barrel_fire/review.md"
+      ],
+      "sha256": "ea9f36fb2545a0d9382e8088787fb506ede6f3059d1573955ec3b751875c548d",
+      "bytes": 2073376
+    },
+    {
+      "filename": "20260910_084302__tiny_city_shop_day.png",
+      "source": "outputs/20260910_084302_tiny_city_shop_rebuild/tiny_city_shop_day.png",
+      "qa_status": "generated_and_reviewed",
+      "selection_reason": "요청별 전달본; 자동 보정 중간본 제외",
+      "evidence": [
+        "outputs/20260910_084302_tiny_city_shop_rebuild/result.json",
+        "outputs/20260910_084302_tiny_city_shop_rebuild/review.md"
+      ],
+      "sha256": "9f19644762e7e6be66e34825ea4b19a821e3ebc7fa44843f7ac0608a046a1a06",
+      "bytes": 2388704
+    },
+    {
+      "filename": "20260910_091407__tiny_shop_cassette_trial.png",
+      "source": "outputs/20260910_091407_tiny_shop_cassette_trial/tiny_shop_cassette_trial.png",
+      "qa_status": "temporary_test_generated_and_reviewed",
+      "selection_reason": "요청별 전달본; 자동 보정 중간본 제외",
+      "evidence": [
+        "outputs/20260910_091407_tiny_shop_cassette_trial/result.json",
+        "outputs/20260910_091407_tiny_shop_cassette_trial/review.md"
+      ],
+      "sha256": "c7dab65a196748a81f76ee7b21389b4a2a963c6b290114f42221295267c74539",
+      "bytes": 2421138
+    },
+    {
+      "filename": "20260910_093731__junkdealer_grocer_cassette_no_crt.png",
+      "source": "outputs/20260910_093731_junkdealer_grocer_framing_fix/junkdealer_grocer_cassette_no_crt.png",
+      "qa_status": "candidate_pass_with_style_caveat",
+      "selection_reason": "요청별 전달본; 자동 보정 중간본 제외",
+      "evidence": [
+        "outputs/20260910_093731_junkdealer_grocer_framing_fix/result.json",
+        "outputs/20260910_093731_junkdealer_grocer_framing_fix/review.md"
+      ],
+      "sha256": "deccef878fcdfbb62deeaafb83ca1fe995bbfe9bbebb8467a071a926c4e91746",
+      "bytes": 2145762
+    },
+    {
+      "filename": "20260910_094940__ruined_hardware_appliance_night.png",
+      "source": "outputs/20260910_094940_ruined_hardware_appliance_night/ruined_hardware_appliance_night.png",
+      "qa_status": "candidate_pass",
+      "selection_reason": "요청별 전달본; 자동 보정 중간본 제외",
+      "evidence": [
+        "outputs/20260910_094940_ruined_hardware_appliance_night/result.json",
+        "outputs/20260910_094940_ruined_hardware_appliance_night/review.md"
+      ],
+      "sha256": "e83caac60cebabfa503dfe70e13386dc3662e62a4f09f202ecea0a224f81eb39",
+      "bytes": 2158890
+    },
+    {
+      "filename": "20260910_100548__hardware_appliance_salvage_revised.png",
+      "source": "outputs/20260910_100548_hardware_appliance_route_framing_fix/hardware_appliance_salvage_revised.png",
+      "qa_status": "candidate_pass",
+      "selection_reason": "요청별 전달본; 자동 보정 중간본 제외",
+      "evidence": [
+        "outputs/20260910_100548_hardware_appliance_route_framing_fix/result.json",
+        "outputs/20260910_100548_hardware_appliance_route_framing_fix/review.md"
+      ],
+      "sha256": "55bfd560ccfd8beaa3a08ef1d26c5c9f3fbe38ef77ccc516f32dd012756aa8da",
+      "bytes": 2233033
+    },
+    {
+      "filename": "20260910_111121__hardware_appliance_v22_test.png",
+      "source": "outputs/20260910_111121_hardware_interior_access_fix/hardware_appliance_v22_test.png",
+      "qa_status": "candidate_pass",
+      "selection_reason": "요청별 전달본; 자동 보정 중간본 제외",
+      "evidence": [
+        "outputs/20260910_111121_hardware_interior_access_fix/result.json",
+        "outputs/20260910_111121_hardware_interior_access_fix/review.md"
+      ],
+      "sha256": "6241d33f585f782728789e7a1c055c52f3faa2b99e9c30bdb79df5f1de721816",
+      "bytes": 1923216
+    },
+    {
+      "filename": "20260910_112747__tiny_city_shop_day.png",
+      "source": "outputs/20260910_112747_tiny_shop_full_frame/tiny_city_shop_day.png",
+      "qa_status": "candidate_pass",
+      "selection_reason": "요청별 전달본; 자동 보정 중간본 제외",
+      "evidence": [
+        "outputs/20260910_112747_tiny_shop_full_frame/result.json",
+        "outputs/20260910_112747_tiny_shop_full_frame/review.md"
+      ],
+      "sha256": "bb72d694f7dc20a546c8a8ee99c279de49d223ba7ab58cbdb091b3e42ca660e2",
+      "bytes": 1964443
+    },
+    {
+      "filename": "20260910_114834__tiny_city_shop_balcony_day.png",
+      "source": "outputs/20260910_114834_balcony_shop_entry_fix/tiny_city_shop_balcony_day.png",
+      "qa_status": "candidate_pass",
+      "selection_reason": "요청별 전달본; 자동 보정 중간본 제외",
+      "evidence": [
+        "outputs/20260910_114834_balcony_shop_entry_fix/result.json",
+        "outputs/20260910_114834_balcony_shop_entry_fix/review.md"
+      ],
+      "sha256": "19c9200443dfac0cd1df4d5219be3a0b917f99e675dc162db6b70e01410059d6",
+      "bytes": 2155204
+    },
+    {
+      "filename": "20260910_115606__tiny_shop_windows_posters_motorcycle.png",
+      "source": "outputs/20260910_115606_windows_posters_motorcycle/tiny_shop_windows_posters_motorcycle.png",
+      "qa_status": "candidate_pass",
+      "selection_reason": "요청별 전달본; 자동 보정 중간본 제외",
+      "evidence": [
+        "outputs/20260910_115606_windows_posters_motorcycle/result.json",
+        "outputs/20260910_115606_windows_posters_motorcycle/review.md"
+      ],
+      "sha256": "895f50ea67027d357c788e86707a0720c54b5af5da149b3a90666a8251b63cc9",
+      "bytes": 2115191
+    },
+    {
+      "filename": "20260910_120310__all_machines_cassette_futurism.png",
+      "source": "outputs/20260910_120310_all_machines_cassette/all_machines_cassette_futurism.png",
+      "qa_status": "candidate_pass",
+      "selection_reason": "요청별 전달본; 자동 보정 중간본 제외",
+      "evidence": [
+        "outputs/20260910_120310_all_machines_cassette/result.json",
+        "outputs/20260910_120310_all_machines_cassette/review.md"
+      ],
+      "sha256": "69716edaf6d713317a8095c0f8e91a8883008cd9783da48827306a76856f8d34",
+      "bytes": 2105623
+    },
+    {
+      "filename": "20260910_121332__alley_baseline.png",
+      "source": "outputs/20260910_121332_alley_baseline/alley_baseline.png",
+      "qa_status": "candidate_pass",
+      "selection_reason": "요청별 전달본; 자동 보정 중간본 제외",
+      "evidence": [
+        "outputs/20260910_121332_alley_baseline/result.json",
+        "outputs/20260910_121332_alley_baseline/review.md"
+      ],
+      "sha256": "84c90b8ce8cfc5b09bae6bd6eee07e7b7b0849dbedc2103a677f554b2cb412eb",
+      "bytes": 2120003
+    },
+    {
+      "filename": "20260910_122140__alley_cassette_futurism.png",
+      "source": "outputs/20260910_122140_alley_cassette_variant/alley_cassette_futurism.png",
+      "qa_status": "candidate_pass",
+      "selection_reason": "요청별 전달본; 자동 보정 중간본 제외",
+      "evidence": [
+        "outputs/20260910_122140_alley_cassette_variant/result.json",
+        "outputs/20260910_122140_alley_cassette_variant/review.md"
+      ],
+      "sha256": "324e6b4dc28fb32f06f8bb73c257cabc58ad455789dbe82a4635a248ddfce3a6",
+      "bytes": 2115658
+    },
+    {
+      "filename": "20260910_123650__alley_diverse_cassette_final.png",
+      "source": "outputs/20260910_123650_alley_diverse_cutaway_fix/alley_diverse_cassette_final.png",
+      "qa_status": "candidate_pass",
+      "selection_reason": "요청별 전달본; 자동 보정 중간본 제외",
+      "evidence": [
+        "outputs/20260910_123650_alley_diverse_cutaway_fix/result.json",
+        "outputs/20260910_123650_alley_diverse_cutaway_fix/review.md"
+      ],
+      "sha256": "04390aa3033efdf905450b4786a5d6c808a99a883d595e96bba5908c676dba2d",
+      "bytes": 1850883
+    },
+    {
+      "filename": "20260910_124620__alley_reference_varied_buildings_final.png",
+      "source": "outputs/20260910_124620_alley_polygon_building_fix/alley_reference_varied_buildings_final.png",
+      "qa_status": "candidate_pass",
+      "selection_reason": "요청별 전달본; 자동 보정 중간본 제외",
+      "evidence": [
+        "outputs/20260910_124620_alley_polygon_building_fix/result.json",
+        "outputs/20260910_124620_alley_polygon_building_fix/review.md"
+      ],
+      "sha256": "162294e93c41482573ba2efe8308e71d9ea3349a109c353b05d617cc149cd782",
+      "bytes": 2122367
+    },
+    {
+      "filename": "20260910_132734__independent_alley_baseline.png",
+      "source": "outputs/20260910_132734_independent_baseline/independent_alley_baseline.png",
+      "qa_status": "candidate_pass",
+      "selection_reason": "요청별 전달본; 자동 보정 중간본 제외",
+      "evidence": [
+        "outputs/20260910_132734_independent_baseline/result.json",
+        "outputs/20260910_132734_independent_baseline/review.md"
+      ],
+      "sha256": "d1e90900944de36c1cf507950281c67a8a86093f8cfd0f9398be38367a4047a1",
+      "bytes": 1993834
+    },
+    {
+      "filename": "20260910_132734__cassette_day_alley_final.png",
+      "source": "outputs/20260910_132734_independent_cassette_routefix/cassette_day_alley_final.png",
+      "qa_status": "candidate_pass",
+      "selection_reason": "요청별 전달본; 자동 보정 중간본 제외",
+      "evidence": [
+        "outputs/20260910_132734_independent_cassette_routefix/result.json",
+        "outputs/20260910_132734_independent_cassette_routefix/review.md"
+      ],
+      "sha256": "b3347775ecc92535d84dc2b2e641e2d39596f963e4404cfe6dab18cd010742f0",
+      "bytes": 2049226
+    },
+    {
+      "filename": "20260910_134620__scrapyard_grocery_salvage.png",
+      "source": "outputs/20260910_134620_scrapyard_baseline/scrapyard_grocery_salvage.png",
+      "qa_status": "needs_revision",
+      "selection_reason": "전달본 보관; 후속 재검토 needs_revision 유지",
+      "evidence": [
+        "outputs/20260910_140555_scrapyard_geometry_recheck/recheck.json",
+        "outputs/20260910_134620_scrapyard_baseline/result.json",
+        "outputs/20260910_134620_scrapyard_baseline/review.md"
+      ],
+      "sha256": "97d0a6fd4ce8ecb64938b83ebe5ec7fad53e165bf6c855d6f60d7384021f1dcf",
+      "bytes": 2156858
+    },
+    {
+      "filename": "20260910_134620__scrapyard_cassette_final.png",
+      "source": "outputs/20260910_134620_scrapyard_cassette_routefix/scrapyard_cassette_final.png",
+      "qa_status": "candidate_pass",
+      "selection_reason": "요청별 전달본; 자동 보정 중간본 제외",
+      "evidence": [
+        "outputs/20260910_134620_scrapyard_cassette_routefix/result.json",
+        "outputs/20260910_134620_scrapyard_cassette_routefix/review.md"
+      ],
+      "sha256": "447b4e21c361dffa29b6ab36cefec5a138b43548fbc94780d40056ca48ea59db",
+      "bytes": 2185713
+    },
+    {
+      "filename": "20260910_151110__night_scrapyard_repair_salvage.png",
+      "source": "outputs/20260910_151110_night_scrapyard_repair_salvage_corrected/night_scrapyard_repair_salvage.png",
+      "qa_status": "uncertain",
+      "selection_reason": "최종 delivery.json 지정본 (파일명/시각순서보다 전달 선택 우선)",
+      "evidence": [
+        "outputs/20260910_151950_scrapyard_repair_pair_delivery/delivery.json",
+        "outputs/20260910_151110_night_scrapyard_repair_salvage_corrected/review.md"
+      ],
+      "sha256": "77fe8deb4f999c964d926fa6d4fc29dd5e352b54b6780a80a0abe126ada6dc1e",
+      "bytes": 1818985
+    },
+    {
+      "filename": "20260910_151850__night_scrapyard_repair_cassette.png",
+      "source": "outputs/20260910_151850_night_scrapyard_repair_cassette_rebuild/night_scrapyard_repair_cassette.png",
+      "qa_status": "needs_revision",
+      "selection_reason": "최종 delivery.json 지정본 (파일명/시각순서보다 전달 선택 우선)",
+      "evidence": [
+        "outputs/20260910_151950_scrapyard_repair_pair_delivery/delivery.json",
+        "outputs/20260910_151850_night_scrapyard_repair_cassette_rebuild/result.json",
+        "outputs/20260910_151850_night_scrapyard_repair_cassette_rebuild/review.md"
+      ],
+      "sha256": "039913e07257f5964ba298b3178a1aee8402c9336561c71ea3c191c19ec50993",
+      "bytes": 2025085
+    },
+    {
+      "filename": "20260910_153400__desert_outpost.png",
+      "source": "outputs/20260910_153400_desert_reference_final/desert_outpost.png",
+      "qa_status": "needs_revision",
+      "selection_reason": "요청별 전달본; 자동 보정 중간본 제외",
+      "evidence": [
+        "outputs/20260910_153400_desert_reference_final/result.json"
+      ],
+      "sha256": "68262a085f77a8b1380c97d9397ac58b450e12faba11603e906856f9d3690905",
+      "bytes": 1906445
+    },
+    {
+      "filename": "20260910_154355__harbor_outpost.png",
+      "source": "outputs/20260910_154355_harbor_reference/harbor_outpost.png",
+      "qa_status": "uncertain",
+      "selection_reason": "요청별 전달본; 자동 보정 중간본 제외",
+      "evidence": [
+        "outputs/20260910_154355_harbor_reference/result.json",
+        "outputs/20260910_154355_harbor_reference/review.md"
+      ],
+      "sha256": "cd503f41a0cc36db0caef99749cbb56524ee46525b780ef8afa549643a49add3",
+      "bytes": 2103212
+    },
+    {
+      "filename": "20260910_183400__scrapyard_warm_sunset.png",
+      "source": "outputs/20260910_183400_scrapyard_exit_fix/scrapyard_warm_sunset.png",
+      "qa_status": "uncertain",
+      "selection_reason": "요청별 전달본; 자동 보정 중간본 제외",
+      "evidence": [
+        "outputs/20260910_183400_scrapyard_exit_fix/result.json",
+        "outputs/20260910_183400_scrapyard_exit_fix/review.md"
+      ],
+      "sha256": "9407f8b7330dc5eba7ad7488c1512a8d7b194014166efc6322d59ad47b762f56",
+      "bytes": 2428487
+    },
+    {
+      "filename": "20260910_185100__city_three_buildings_night.png",
+      "source": "outputs/20260910_185100_city_full_framing/city_three_buildings_night.png",
+      "qa_status": "uncertain",
+      "selection_reason": "요청별 전달본; 자동 보정 중간본 제외",
+      "evidence": [
+        "outputs/20260910_185100_city_full_framing/result.json",
+        "outputs/20260910_185100_city_full_framing/review.md"
+      ],
+      "sha256": "27a12d52a7cf2762b5a5981d81bb9ee5636576e66ffa39da3a53184e43be375b",
+      "bytes": 1917450
+    },
+    {
+      "filename": "20260910_185824__city_three_buildings_cool_night.png",
+      "source": "outputs/20260910_185824_city_night_new_arrangement/city_three_buildings_cool_night.png",
+      "qa_status": "uncertain",
+      "selection_reason": "요청별 전달본; 자동 보정 중간본 제외",
+      "evidence": [
+        "outputs/20260910_185824_city_night_new_arrangement/result.json",
+        "outputs/20260910_185824_city_night_new_arrangement/review.md"
+      ],
+      "sha256": "3772470e8b917042fe759162b59aa07fc7768e6c853dbb0793892e3f323e27af",
+      "bytes": 2206679
+    },
+    {
+      "filename": "20260910_191326__city_cool_night_rebuilt.png",
+      "source": "outputs/20260910_191326_city_projection_rebuild/city_cool_night_rebuilt.png",
+      "qa_status": "needs_revision",
+      "selection_reason": "요청별 전달본; 자동 보정 중간본 제외",
+      "evidence": [
+        "outputs/20260910_191326_city_projection_rebuild/result.json",
+        "outputs/20260910_191326_city_projection_rebuild/review.md"
+      ],
+      "sha256": "720c1657c17e8b69ede38f101fbfa39c784e909dd1d96691f6c8c67eb25026e7",
+      "bytes": 2082109
+    },
+    {
+      "filename": "20260911_080215__cassette_01.png",
+      "source": "outputs/20260911_080215_l_building_sand_sunset/cassette_01/cassette_01.png",
+      "qa_status": "uncertain",
+      "selection_reason": "요청별 전달본; 자동 보정 중간본 제외",
+      "evidence": [
+        "outputs/20260911_080215_l_building_sand_sunset/README.md",
+        "outputs/20260911_080215_l_building_sand_sunset/cassette_01/result.json",
+        "outputs/20260911_080215_l_building_sand_sunset/cassette_01/review.md"
+      ],
+      "sha256": "45b7d7f399eafef14dc629e3844fdcc17b82e74fc95a4b460089447e6e1b9fc1",
+      "bytes": 2156214
+    },
+    {
+      "filename": "20260911_080215__salvage_01.png",
+      "source": "outputs/20260911_080215_l_building_sand_sunset/salvage_01/salvage_01.png",
+      "qa_status": "uncertain",
+      "selection_reason": "요청별 전달본; 자동 보정 중간본 제외",
+      "evidence": [
+        "outputs/20260911_080215_l_building_sand_sunset/README.md",
+        "outputs/20260911_080215_l_building_sand_sunset/salvage_01/result.json",
+        "outputs/20260911_080215_l_building_sand_sunset/salvage_01/review.md"
+      ],
+      "sha256": "d1790081aaf16cf19bc10fa747996d1281fad71227382ee3873756e08edcccd0",
+      "bytes": 2224407
+    },
+    {
+      "filename": "20260911_080215__salvage_02.png",
+      "source": "outputs/20260911_080215_l_building_sand_sunset/salvage_02/salvage_02.png",
+      "qa_status": "uncertain",
+      "selection_reason": "요청별 전달본; 자동 보정 중간본 제외",
+      "evidence": [
+        "outputs/20260911_080215_l_building_sand_sunset/README.md",
+        "outputs/20260911_080215_l_building_sand_sunset/salvage_02/result.json",
+        "outputs/20260911_080215_l_building_sand_sunset/salvage_02/review.md"
+      ],
+      "sha256": "22151b42df9fbfe02a15920805ded07a9e57e9b10091b13d78ce032abe2c7ffd",
+      "bytes": 2160479
+    },
+    {
+      "source": "outputs/20260911_083852_orthographic_edits/salvage_02/salvage_02_orthographic_candidate.png",
+      "filename": "20260911_083852__salvage_02_orthographic_candidate.png",
+      "qa_status": "needs_revision",
+      "selection_reason": "사용자 정투영 편집 요청의 최종 전달 보정본; 평행선 불일치가 남아 정투영 검증 미통과",
+      "evidence": [
+        "outputs/20260911_083852_orthographic_edits/salvage_02/result.json",
+        "outputs/20260911_083852_orthographic_edits/salvage_02/review.json"
+      ],
+      "sha256": "fb255ebeda26e75ce9e6beb854696b184b5f4e3e07605dd6e6428a3f5760eff6",
+      "bytes": 2466159
+    },
+    {
+      "source": "outputs/20260911_083852_orthographic_edits/cassette_01/cassette_01_orthographic_candidate.png",
+      "filename": "20260911_083852__cassette_01_orthographic_candidate.png",
+      "qa_status": "needs_revision",
+      "selection_reason": "사용자 정투영 편집 요청의 최종 전달 보정본; 평행선 불일치가 남아 정투영 검증 미통과",
+      "evidence": [
+        "outputs/20260911_083852_orthographic_edits/cassette_01/result.json",
+        "outputs/20260911_083852_orthographic_edits/cassette_01/review.json"
+      ],
+      "sha256": "0f0eff1d071701dbbb77e933add743bd1ba88a5ef92409992c9f6395c05fa3cd",
+      "bytes": 2253998
+    },
+    {
+      "filename": "20260911_090939__builtin_first_output.png",
+      "source": "outputs/20260911_090939_image2_vs_25_sunset/builtin/builtin_first_output.png",
+      "qa_status": "needs_revision",
+      "selection_reason": "First uncorrected built-in comparison output; exact runtime model unverified. Previous Image 2 label withdrawn.",
+      "evidence": [
+        "outputs/20260911_090939_image2_vs_25_sunset/builtin/review.md",
+        "outputs/20260911_090939_image2_vs_25_sunset/result.json",
+        "outputs/20260911_090939_image2_vs_25_sunset/MODEL_IDENTITY_CORRECTION.md"
+      ],
+      "sha256": "76a1a67a445bb13393b27837cdf90df8e622d2aefc7a0a87bde637017e6815ee",
+      "bytes": 2378753
+    },
+    {
+      "filename": "20260911_093324__builtin_resolution_test_1672x941.png",
+      "source": "outputs/20260911_093324_builtin_4k_sunset_test/builtin_resolution_test.png",
+      "qa_status": "needs_revision",
+      "selection_reason": "User-requested native4K test: actual returned PNG1672x941, no upscaling. First output retained as test evidence.",
+      "evidence": [
+        "outputs/20260911_093324_builtin_4k_sunset_test/result.json",
+        "outputs/20260911_093324_builtin_4k_sunset_test/review.md"
+      ],
+      "sha256": "319bc527dbb2e8d462d8545e5e612cc49da3b01b40294c11516460b95d477149",
+      "bytes": 2247781
+    },
+    {
+      "filename": "20260911_101122__desert_cylinder_night.png",
+      "source": "outputs/20260911_101122_desert_cylinder_night_correction02/desert_cylinder_night.png",
+      "qa_status": "needs_revision",
+      "selection_reason": "Night sand/two-storey+cylinder+attached one-storey test; latest after2 structural corrections. Orthographic corner-thickness discrepancy remains; delivered test, not QA approval.",
+      "evidence": [
+        "outputs/20260911_101122_desert_cylinder_night_correction02/result.json",
+        "outputs/20260911_101122_desert_cylinder_night_correction02/review.md"
+      ],
+      "sha256": "58b839c72dc22c15806034f70fc42228a8bb6adf78b8a4fca44852039d39ceec",
+      "bytes": 1843063
+    }
+  ],
+  "excluded": [
+    {
+      "source": "outputs/20260909_215624_shopping_street_clean_surfaces/inputs/ldi_user_01.png",
+      "reason": "참조/가이드/검수 확대본"
+    },
+    {
+      "source": "outputs/20260909_215624_shopping_street_clean_surfaces/inputs/ldi_user_02.png",
+      "reason": "참조/가이드/검수 확대본"
+    },
+    {
+      "source": "outputs/20260909_215624_shopping_street_clean_surfaces/inputs/ldi_user_03.png",
+      "reason": "참조/가이드/검수 확대본"
+    },
+    {
+      "source": "outputs/20260909_215624_shopping_street_clean_surfaces/inputs/ldi_user_04.png",
+      "reason": "참조/가이드/검수 확대본"
+    },
+    {
+      "source": "outputs/20260909_215624_shopping_street_clean_surfaces/inputs/ldi_user_05.png",
+      "reason": "참조/가이드/검수 확대본"
+    },
+    {
+      "source": "outputs/20260909_223829_day_narrow_salvage_alley/day_narrow_salvage_alley.png",
+      "reason": "자동 보정 중간본 또는 최종 전달 선택에서 제외된 시도"
+    },
+    {
+      "source": "outputs/20260909_234533_moonlit_city_v2_1/moonlit_city_attempt01.png",
+      "reason": "자동 보정 중간본 또는 최종 전달 선택에서 제외된 시도"
+    },
+    {
+      "source": "outputs/20260910_000927_moonlit_dry_city_plaza/dry_city_plaza_attempt01.png",
+      "reason": "자동 보정 중간본 또는 최종 전달 선택에서 제외된 시도"
+    },
+    {
+      "source": "outputs/20260910_083443_tiny_city_shop_day/tiny_city_shop_day_candidate.png",
+      "reason": "자동 보정 중간본 또는 최종 전달 선택에서 제외된 시도"
+    },
+    {
+      "source": "outputs/20260910_083909_tiny_city_shop_layout_fix/tiny_city_shop_layout_candidate.png",
+      "reason": "자동 보정 중간본 또는 최종 전달 선택에서 제외된 시도"
+    },
+    {
+      "source": "outputs/20260910_093245_junkdealer_grocer_cassette_no_crt/junkdealer_grocer_candidate.png",
+      "reason": "자동 보정 중간본 또는 최종 전달 선택에서 제외된 시도"
+    },
+    {
+      "source": "outputs/20260910_100011_hardware_appliance_salvage_rebuild/hardware_appliance_salvage_candidate.png",
+      "reason": "자동 보정 중간본 또는 최종 전달 선택에서 제외된 시도"
+    },
+    {
+      "source": "outputs/20260910_102058_geometry_master_reinforcement_proposal/user_marked_corner.png",
+      "reason": "참조/가이드/검수 확대본"
+    },
+    {
+      "source": "outputs/20260910_110250_hardware_appliance_v22_test/hardware_appliance_v22_candidate.png",
+      "reason": "자동 보정 중간본 또는 최종 전달 선택에서 제외된 시도"
+    },
+    {
+      "source": "outputs/20260910_110250_hardware_appliance_v22_test/structure_plan.png",
+      "reason": "참조/가이드/검수 확대본"
+    },
+    {
+      "source": "outputs/20260910_111843_tiny_city_shop_v22/structure_plan.png",
+      "reason": "참조/가이드/검수 확대본"
+    },
+    {
+      "source": "outputs/20260910_111843_tiny_city_shop_v22/tiny_city_shop_candidate.png",
+      "reason": "자동 보정 중간본 또는 최종 전달 선택에서 제외된 시도"
+    },
+    {
+      "source": "outputs/20260910_112435_tiny_shop_cutaway_fix/tiny_shop_cutaway_candidate.png",
+      "reason": "자동 보정 중간본 또는 최종 전달 선택에서 제외된 시도"
+    },
+    {
+      "source": "outputs/20260910_114238_tiny_shop_balcony/structure_plan.png",
+      "reason": "참조/가이드/검수 확대본"
+    },
+    {
+      "source": "outputs/20260910_114238_tiny_shop_balcony/tiny_shop_balcony_candidate.png",
+      "reason": "자동 보정 중간본 또는 최종 전달 선택에서 제외된 시도"
+    },
+    {
+      "source": "outputs/20260910_121332_alley_baseline/structure_plan.png",
+      "reason": "참조/가이드/검수 확대본"
+    },
+    {
+      "source": "outputs/20260910_123045_alley_diverse_cassette/alley_diverse_cassette_candidate.png",
+      "reason": "자동 보정 중간본 또는 최종 전달 선택에서 제외된 시도"
+    },
+    {
+      "source": "outputs/20260910_123045_alley_diverse_cassette/structure_plan.png",
+      "reason": "참조/가이드/검수 확대본"
+    },
+    {
+      "source": "outputs/20260910_124032_alley_reference_shapes/alley_reference_candidate.png",
+      "reason": "자동 보정 중간본 또는 최종 전달 선택에서 제외된 시도"
+    },
+    {
+      "source": "outputs/20260910_124032_alley_reference_shapes/structure_plan.png",
+      "reason": "참조/가이드/검수 확대본"
+    },
+    {
+      "source": "outputs/20260910_124032_alley_reference_shapes/user_cassette_reference.png",
+      "reason": "참조/가이드/검수 확대본"
+    },
+    {
+      "source": "outputs/20260910_130219_geometry_gameplay_reference_proposal/user_geometry_issue.png",
+      "reason": "참조/가이드/검수 확대본"
+    },
+    {
+      "source": "outputs/20260910_132734_independent_baseline/structure_plan.png",
+      "reason": "참조/가이드/검수 확대본"
+    },
+    {
+      "source": "outputs/20260910_132734_independent_cassette/cassette_day_alley.png",
+      "reason": "자동 보정 중간본 또는 최종 전달 선택에서 제외된 시도"
+    },
+    {
+      "source": "outputs/20260910_132734_independent_cassette/structure_plan.png",
+      "reason": "참조/가이드/검수 확대본"
+    },
+    {
+      "source": "outputs/20260910_132734_independent_cassette_routefix/structure_plan.png",
+      "reason": "참조/가이드/검수 확대본"
+    },
+    {
+      "source": "outputs/20260910_134620_scrapyard_baseline/structure_plan.png",
+      "reason": "참조/가이드/검수 확대본"
+    },
+    {
+      "source": "outputs/20260910_134620_scrapyard_cassette/scrapyard_cassette_initial.png",
+      "reason": "자동 보정 중간본 또는 최종 전달 선택에서 제외된 시도"
+    },
+    {
+      "source": "outputs/20260910_134620_scrapyard_cassette/structure_guide.png",
+      "reason": "참조/가이드/검수 확대본"
+    },
+    {
+      "source": "outputs/20260910_150225_night_scrapyard_repair_salvage/night_scrapyard_repair_salvage.png",
+      "reason": "자동 보정 중간본 또는 최종 전달 선택에서 제외된 시도"
+    },
+    {
+      "source": "outputs/20260910_150225_night_scrapyard_repair_salvage/structure_guide.png",
+      "reason": "참조/가이드/검수 확대본"
+    },
+    {
+      "source": "outputs/20260910_150239_night_scrapyard_repair_cassette/junkyard_inspection_2x.png",
+      "reason": "참조/가이드/검수 확대본"
+    },
+    {
+      "source": "outputs/20260910_150239_night_scrapyard_repair_cassette/night_scrapyard_repair_cassette.png",
+      "reason": "자동 보정 중간본 또는 최종 전달 선택에서 제외된 시도"
+    },
+    {
+      "source": "outputs/20260910_150239_night_scrapyard_repair_cassette/repair_inspection_2x.png",
+      "reason": "참조/가이드/검수 확대본"
+    },
+    {
+      "source": "outputs/20260910_150239_night_scrapyard_repair_cassette/structure_guide.png",
+      "reason": "참조/가이드/검수 확대본"
+    },
+    {
+      "source": "outputs/20260910_151110_night_scrapyard_repair_salvage_corrected/structure_guide.png",
+      "reason": "참조/가이드/검수 확대본"
+    },
+    {
+      "source": "outputs/20260910_151135_night_scrapyard_repair_cassette_geometryfix/night_scrapyard_repair_cassette_geometryfix.png",
+      "reason": "자동 보정 중간본 또는 최종 전달 선택에서 제외된 시도"
+    },
+    {
+      "source": "outputs/20260910_151500_night_scrapyard_repair_salvage_final/night_scrapyard_repair_salvage.png",
+      "reason": "자동 보정 중간본 또는 최종 전달 선택에서 제외된 시도"
+    },
+    {
+      "source": "outputs/20260910_151500_night_scrapyard_repair_salvage_final/structure_guide.png",
+      "reason": "참조/가이드/검수 확대본"
+    },
+    {
+      "source": "outputs/20260910_151850_night_scrapyard_repair_cassette_rebuild/junkyard_inspection_2x.png",
+      "reason": "참조/가이드/검수 확대본"
+    },
+    {
+      "source": "outputs/20260910_151850_night_scrapyard_repair_cassette_rebuild/left_base_corner_inspection_2x.png",
+      "reason": "참조/가이드/검수 확대본"
+    },
+    {
+      "source": "outputs/20260910_151850_night_scrapyard_repair_cassette_rebuild/repair_inspection_2x.png",
+      "reason": "참조/가이드/검수 확대본"
+    },
+    {
+      "source": "outputs/20260910_151850_night_scrapyard_repair_cassette_rebuild/right_base_corner_inspection_2x.png",
+      "reason": "참조/가이드/검수 확대본"
+    },
+    {
+      "source": "outputs/20260910_151850_night_scrapyard_repair_cassette_rebuild/structure_guide.png",
+      "reason": "참조/가이드/검수 확대본"
+    },
+    {
+      "source": "outputs/20260910_152550_desert_reference/desert_outpost.png",
+      "reason": "자동 보정 중간본 또는 최종 전달 선택에서 제외된 시도"
+    },
+    {
+      "source": "outputs/20260910_152550_desert_reference/structure_guide.png",
+      "reason": "참조/가이드/검수 확대본"
+    },
+    {
+      "source": "outputs/20260910_152550_desert_reference/user_reference.png",
+      "reason": "참조/가이드/검수 확대본"
+    },
+    {
+      "source": "outputs/20260910_153000_desert_reference_corrected/desert_outpost.png",
+      "reason": "자동 보정 중간본 또는 최종 전달 선택에서 제외된 시도"
+    },
+    {
+      "source": "outputs/20260910_153000_desert_reference_corrected/structure_guide.png",
+      "reason": "참조/가이드/검수 확대본"
+    },
+    {
+      "source": "outputs/20260910_153000_desert_reference_corrected/user_reference.png",
+      "reason": "참조/가이드/검수 확대본"
+    },
+    {
+      "source": "outputs/20260910_153400_desert_reference_final/structure_guide.png",
+      "reason": "참조/가이드/검수 확대본"
+    },
+    {
+      "source": "outputs/20260910_154355_harbor_reference/structure_guide.png",
+      "reason": "참조/가이드/검수 확대본"
+    },
+    {
+      "source": "outputs/20260910_154355_harbor_reference/user_reference.png",
+      "reason": "참조/가이드/검수 확대본"
+    },
+    {
+      "source": "outputs/20260910_182329_scrapyard_warm_sunset/scrapyard_attempt01.png",
+      "reason": "자동 보정 중간본 또는 최종 전달 선택에서 제외된 시도"
+    },
+    {
+      "source": "outputs/20260910_183000_scrapyard_spatial_rebuild/scrapyard_attempt02.png",
+      "reason": "자동 보정 중간본 또는 최종 전달 선택에서 제외된 시도"
+    },
+    {
+      "source": "outputs/20260910_184527_city_three_buildings_night/city_three_buildings_attempt01.png",
+      "reason": "자동 보정 중간본 또는 최종 전달 선택에서 제외된 시도"
+    },
+    {
+      "source": "outputs/20260910_184900_city_square_base_fix/city_square_base_attempt02.png",
+      "reason": "자동 보정 중간본 또는 최종 전달 선택에서 제외된 시도"
+    },
+    {
+      "source": "outputs/20260910_190552_city_cool_night_orthographic/city_attempt01.png",
+      "reason": "자동 보정 중간본 또는 최종 전달 선택에서 제외된 시도"
+    },
+    {
+      "source": "outputs/20260910_191326_city_projection_rebuild/structure_guide.png",
+      "reason": "참조/가이드/검수 확대본"
+    },
+    {
+      "source": "outputs/20260911_080215_l_building_sand_sunset/cassette_01/attempt01.png",
+      "reason": "자동 보정 중간본 또는 최종 전달 선택에서 제외된 시도"
+    },
+    {
+      "source": "outputs/20260911_080215_l_building_sand_sunset/cassette_01/attempt02.png",
+      "reason": "자동 보정 중간본 또는 최종 전달 선택에서 제외된 시도"
+    },
+    {
+      "source": "outputs/20260911_080215_l_building_sand_sunset/salvage_01/attempt01.png",
+      "reason": "자동 보정 중간본 또는 최종 전달 선택에서 제외된 시도"
+    },
+    {
+      "source": "outputs/20260911_080215_l_building_sand_sunset/salvage_02/attempt01.png",
+      "reason": "자동 보정 중간본 또는 최종 전달 선택에서 제외된 시도"
+    }
+  ]
+}

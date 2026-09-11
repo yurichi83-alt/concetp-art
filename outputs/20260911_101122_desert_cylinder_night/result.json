@@ -1,0 +1,15 @@
+{
+  "qa_status": "needs_revision",
+  "image": "desert_cylinder_night_initial.png",
+  "actual_resolution": [
+    1448,
+    1086
+  ],
+  "backend": "builtin_image_gen",
+  "returned_model_info": null,
+  "generated_images": 1,
+  "rejected_pre_generation_dispatches": 1,
+  "api_calls": 0,
+  "next_correction_run": "outputs/20260911_101122_desert_cylinder_night_correction01",
+  "final_selected": false
+}

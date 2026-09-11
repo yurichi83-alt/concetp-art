@@ -1,7 +1,7 @@
 {
   "run_id": "",
-  "masters_version": "2.4",
-  "execution_rules_version": "1.5",
+  "masters_version": "2.6",
+  "execution_rules_version": "1.7",
   "request_group_id": null,
   "scene_id": null,
   "independent_new_scenes_requested": false,
@@ -20,8 +20,11 @@
     "world_design_inputs": [],
     "edit_target_input": null,
     "role_balance_and_selection_reason": "",
-    "camera_rule": "Selected scene projection and01/02 structure govern geometry. Art/world images supply their approved aspects; exclude their camera and layout.",
-    "ldi_supplement_scope": "M03-11~15: architecture/materials/lighting/color only; exclude nature, world/story, characters, vehicles, camera/layout, UI/text and source shop identity. M03-12: building only, excluding trees/grass/forest/natural ground. This is not a project-wide vegetation ban."
+    "camera_rule": "Final orthographic projection is mandatory and overrides every reference camera including M01. M01/M02 structure informs base/framing/connectivity; art/world images supply only approved aspects and exclude camera/layout.",
+    "ldi_supplement_scope": "M03-11~15: architecture/materials/lighting/color only; exclude nature, world/story, characters, vehicles, camera/layout, UI/text and source shop identity. M03-12: building only, excluding trees/grass/forest/natural ground. This is not a project-wide vegetation ban.",
+    "user_added_reference_scope": "M03-16: architectural masses/color/value/material simplification only, not confirmed LDI; exclude source camera/world/layout. M04-08: varied retro casings/analog controls/modular joins, adapted to Salvage Cyberpunk and Master03 finish; retain existing green-CRT exclusion. Named selections apply to the current request without promoting global defaults. M03-17: architectural proportions, roof silhouettes, faded color planes and selective paint peeling only; exclude source perspective, vertical overcrowding and coastal scene content. Orthogonal building footprints and all existing structure/roof rules remain mandatory.",
+    "surface_style_support_inputs": [],
+    "surface_style_scope": "Master03 v2.2: broad clean base-color planes plus sparse broad directional flat nearby-tone brushwork, also on intact areas and separate from damage. M03-10 stays representative. B03-01 may be selected for surface-only support; B03-02/03/04 are comparison-only, not automatic generation inputs. Do not transfer their camera/layout/night/palette or promote geometry. Record actual submitted images and roles only."
   },
   "omitted_references_and_reasons": [],
   "scoped_result_approval": null,
@@ -32,9 +35,22 @@
     "selected_image_parameter": null,
     "confirmed_contract_facts_with_evidence": [],
     "parameter_specific_limits": {
-      "referenced_image_paths_max_count": { "status": "unknown", "value": null, "evidence": null },
-      "num_last_images_to_include_max_count": { "status": "unknown_until_current_contract_checked", "value": null, "evidence": null },
-      "prompt_text_max_length": { "status": "unknown", "value": null, "unit": null, "evidence": null }
+      "referenced_image_paths_max_count": {
+        "status": "unknown",
+        "value": null,
+        "evidence": null
+      },
+      "num_last_images_to_include_max_count": {
+        "status": "unknown_until_current_contract_checked",
+        "value": null,
+        "evidence": null
+      },
+      "prompt_text_max_length": {
+        "status": "unknown",
+        "value": null,
+        "unit": null,
+        "evidence": null
+      }
     },
     "limit_scope_note": "If the current contract specifies recent-conversation selection max5, that fact applies only to num_last_images_to_include. Do not infer the same maximum for referenced_image_paths. An actual5-image call establishes usage only.",
     "supported_input_formats_verified": [],
@@ -49,7 +65,11 @@
   "submitted_prompt": {
     "path": "generation_prompt.md",
     "saved_text_matches_actual_argument": "not_submitted",
-    "section_order": ["STRUCTURE MUST KEEP", "CURRENT SCENE", "ART / REFERENCE ROLES"],
+    "section_order": [
+      "STRUCTURE MUST KEEP",
+      "CURRENT SCENE",
+      "ART / REFERENCE ROLES"
+    ],
     "character_count": null,
     "character_count_method": null,
     "utf8_byte_count": null,
@@ -66,7 +86,7 @@
     "path": null,
     "coordinate_camera_source_path": null,
     "actual_3d_source_path_if_available": null,
-    "projection_mode": null,
+    "projection_mode": "orthographic_parallel",
     "selected_camera": null,
     "projection_specific_final_comparison": null,
     "inspected": false,
@@ -82,5 +102,6 @@
     "final_base_footing_wall_roof_paving_line_comparison_required": true,
     "critical_occlusion_is_uncertain": true,
     "M02_role": "two functional exits on back-left/back-right directions; locations/forms/states variable, building-entry sharing allowed, no fixed gate template"
-  }
+  },
+  "reference_catalog_revision": "2026-09-11-brush-support-01"
 }

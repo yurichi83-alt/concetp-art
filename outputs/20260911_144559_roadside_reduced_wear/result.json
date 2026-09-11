@@ -1,0 +1,18 @@
+{
+  "image": "roadside_reduced_wear.png",
+  "dimensions": [
+    1448,
+    1086
+  ],
+  "sha256": "9be5042b67f1fdc1218a9e4f4835f0501fd0e516bcba40497a939e234a624a90",
+  "backend": "builtin_imagegen",
+  "model_version": null,
+  "requested_final_count": 1,
+  "image_calls": 1,
+  "selected_final": true,
+  "edit_scope_status": "pass_visual_review",
+  "wear_reduction": "approximately_half_visual_target_not_exact_pixel_measurement",
+  "geometry_status": "inherited_needs_revision",
+  "status": "needs_revision",
+  "review": "review.md"
+}

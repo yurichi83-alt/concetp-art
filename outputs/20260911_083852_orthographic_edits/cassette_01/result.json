@@ -1,0 +1,12 @@
+{
+  "image": "C:/Users/Yeon Hee Kang/OneDrive/문서/Codex/background-concept-art/concetp-art/outputs/20260911_083852_orthographic_edits/cassette_01/cassette_01_orthographic_candidate.png",
+  "source": "C:/Users/Yeon Hee Kang/.codex/generated_images/01a08867-7e38-7162-8368-5c8c0df7a0c0/exec-28fbf644-5e6a-40b0-b499-768821cb3e9a.png",
+  "status": "needs_revision",
+  "request": "orthographic conversion",
+  "projection_validated": false,
+  "attempt_count": 2,
+  "final_delivered_count": 1,
+  "original_preserved": true,
+  "review": "review.json",
+  "final_prompt": "correction_prompt.md"
+}

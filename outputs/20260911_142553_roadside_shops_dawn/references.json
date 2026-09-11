@@ -1,0 +1,193 @@
+{
+  "run_id": "20260911_142553_roadside_shops_dawn",
+  "masters_version": "2.5",
+  "execution_rules_version": "1.6",
+  "request_group_id": null,
+  "scene_id": "20260911_142553_roadside_shops_dawn",
+  "independent_new_scenes_requested": false,
+  "own_correction_parent_run": null,
+  "other_independent_scene_outputs_excluded": [],
+  "inspected_for_planning": [
+    {
+      "id": "M01-01",
+      "path": "refs/master01/composition_cutaway.png",
+      "use_only": "필수 정사영에 맞춘 쿼터뷰 구성, 기본 베이스 입체, 상하 대응 모서리·두께와 두 평면 단면",
+      "exclude": "네온·상점가·일본풍·팔레트·고밀도 재질은 제외; 원본의 원근·렌즈 왜곡은 제외하고 필수 정사영 규칙 우선"
+    },
+    {
+      "id": "M02-01",
+      "path": "refs/master02/layout_two_exits.png",
+      "use_only": "공통 바닥과 기본 입체, 상단 좌·우 직교 경계 방향과 기능 출구 하나씩, 상태에 맞는 접근 및 개방 후 연결 동선, 높이 상한. 각 면 중앙·중간·끝 위치와 출구 형태 가변; 건물 입구 겸용 가능",
+      "exclude": "파란 벽·글자·아이콘·화살표·입구 표시와 도해의 문틀/좌표를 의무 복제하지 않음. 중앙 배치 금지가 아니며 중앙·편심·끝 모두 가능"
+    },
+    {
+      "id": "M03-17",
+      "path": "refs/master03/test_02.jpg",
+      "use_only": "폭·높이·상층 후퇴에 따른 건축 덩어리와 실루엣의 변화, 다양한 지붕 윤곽, 창·발코니·외부 연결부의 선택적 디테일, 바랜 적색·청색·크림색의 큰 색면과 도장 박리, 넓은 명암으로 읽히는 재질",
+      "exclude": "원본 카메라·원근·초고층 적층·과밀 배치·해안 도시 세계관·물/배/인물/식생의 자동 삽입 제외. 원통형 건물이나 회전된 건물의 보행 경계를 복사하지 않고 직교 건물 규칙 유지; 원통 형태는 허용된 비건물 탱크 등에 해석. 지붕 비움·높이·동선·구조 불일치의 근거로 사용하지 않음"
+    },
+    {
+      "id": "M04-08",
+      "path": "refs/master04/retro_futurism.png",
+      "use_only": "둥근/각진 케이스의 다양한 비례와 실루엣, 다이얼·노브·손잡이·통풍구·안테나 등 아날로그 조작부, 모듈 조합과 기능적 결합. Salvage Cyberpunk의 회수·수리·개조된 설비와 소품으로 해석",
+      "exclude": "콜라주 배치·흰 배경·원본 카메라·문자/로고·선화/회화 마감의 직접 복사, 화면·소형 장치의 무분별한 증식 제외. 기존 녹색 CRT 제외 지시는 별도 재허용 전까지 우선"
+    }
+  ],
+  "submitted_to_generation": [
+    {
+      "index": 1,
+      "id": "scene_geometry_guide",
+      "path": "C:\\Users\\Yeon Hee Kang\\OneDrive\\문서\\Codex\\background-concept-art\\concetp-art\\outputs\\20260911_142553_roadside_shops_dawn\\structure_guide.png",
+      "status": "submitted"
+    },
+    {
+      "index": 2,
+      "id": "M01-01",
+      "path": "C:\\Users\\Yeon Hee Kang\\OneDrive\\문서\\Codex\\background-concept-art\\concetp-art\\refs\\master01\\composition_cutaway.png",
+      "status": "submitted"
+    },
+    {
+      "index": 3,
+      "id": "M02-01",
+      "path": "C:\\Users\\Yeon Hee Kang\\OneDrive\\문서\\Codex\\background-concept-art\\concetp-art\\refs\\master02\\layout_two_exits.png",
+      "status": "submitted"
+    },
+    {
+      "index": 4,
+      "id": "M03-17",
+      "path": "C:\\Users\\Yeon Hee Kang\\OneDrive\\문서\\Codex\\background-concept-art\\concetp-art\\refs\\master03\\test_02.jpg",
+      "status": "submitted"
+    },
+    {
+      "index": 5,
+      "id": "M04-08",
+      "path": "C:\\Users\\Yeon Hee Kang\\OneDrive\\문서\\Codex\\background-concept-art\\concetp-art\\refs\\master04\\retro_futurism.png",
+      "status": "submitted"
+    }
+  ],
+  "delivery_status": "completed",
+  "delivery_mechanism": "referenced_image_paths",
+  "actual_submitted_image_count": 5,
+  "actual_count_is_not_a_hard_limit": true,
+  "note": "Record actual delivery, not prose paths or inspection alone. Each submitted entry includes id, path/source, input index when exposed, role, camera/layout/content exclusions, delivery status and any scoped approval. Keep geometry01/02, art03 and world04 sufficiently represented; explain omissions rather than adding redundant sources. A reference camera exclusion is an instruction, not a confirmed weight/mask control.",
+  "reference_role_mapping": {
+    "geometry_projection_inputs": [],
+    "art_expression_inputs": [],
+    "world_design_inputs": [],
+    "edit_target_input": null,
+    "role_balance_and_selection_reason": "",
+    "camera_rule": "Final orthographic projection is mandatory and overrides every reference camera including M01. M01/M02 structure informs base/framing/connectivity; art/world images supply only approved aspects and exclude camera/layout.",
+    "ldi_supplement_scope": "M03-11~15: architecture/materials/lighting/color only; exclude nature, world/story, characters, vehicles, camera/layout, UI/text and source shop identity. M03-12: building only, excluding trees/grass/forest/natural ground. This is not a project-wide vegetation ban.",
+    "user_added_reference_scope": "M03-16: architectural masses/color/value/material simplification only, not confirmed LDI; exclude source camera/world/layout. M04-08: varied retro casings/analog controls/modular joins, adapted to Salvage Cyberpunk and Master03 finish; retain existing green-CRT exclusion. Named selections apply to the current request without promoting global defaults. M03-17: architectural proportions, roof silhouettes, faded color planes and selective paint peeling only; exclude source perspective, vertical overcrowding and coastal scene content. Orthogonal building footprints and all existing structure/roof rules remain mandatory."
+  },
+  "omitted_references_and_reasons": [
+    {
+      "ids": [
+        "M03-10",
+        "M04-02"
+      ],
+      "reason": "User selected M03-17/M04-08 for this request; not submitted."
+    },
+    {
+      "ids": [
+        "A-01",
+        "A-02"
+      ],
+      "reason": "Avoid generated-result layout carryover; preserve the four role-specific masters plus scene guide."
+    }
+  ],
+  "scoped_result_approval": null,
+  "tool_contract": {
+    "checked_at": "2026-09-11",
+    "tool_name": "image_gen.imagegen",
+    "contract_source": "current exposed tool schema",
+    "selected_image_parameter": "referenced_image_paths",
+    "confirmed_contract_facts_with_evidence": [
+      "Prompt and referenced_image_paths accepted fields; no exposed model/size/seed control.",
+      "Prior observed path-input rejection above five images; this call plans five."
+    ],
+    "parameter_specific_limits": {
+      "referenced_image_paths_max_count": {
+        "status": "unknown",
+        "value": null,
+        "evidence": null
+      },
+      "num_last_images_to_include_max_count": {
+        "status": "unknown_until_current_contract_checked",
+        "value": null,
+        "evidence": null
+      },
+      "prompt_text_max_length": {
+        "status": "unknown",
+        "value": null,
+        "unit": null,
+        "evidence": null
+      }
+    },
+    "limit_scope_note": "If the current contract specifies recent-conversation selection max5, that fact applies only to num_last_images_to_include. Do not infer the same maximum for referenced_image_paths. An actual5-image call establishes usage only.",
+    "supported_input_formats_verified": [
+      "PNG",
+      "JPEG"
+    ],
+    "unexposed_or_unverified": {
+      "internal_model_version": "unknown",
+      "reference_weights": "unknown",
+      "prompt_text_limit": "unknown",
+      "revised_prompt": "unknown"
+    }
+  },
+  "submitted_prompt": {
+    "path": "generation_prompt.txt",
+    "saved_text_matches_actual_argument": true,
+    "section_order": [
+      "STRUCTURE MUST KEEP",
+      "CURRENT SCENE",
+      "ART / REFERENCE ROLES"
+    ],
+    "character_count": 8202,
+    "character_count_method": null,
+    "utf8_byte_count": 8206,
+    "utf8_byte_count_method": null,
+    "whitespace_word_count": 1169,
+    "word_count_method": null,
+    "returned_token_usage": null,
+    "returned_model_info": null,
+    "returned_revised_prompt": null,
+    "truncation_or_rewrite_evidence": "unknown",
+    "note": "Measure the exact submitted text if reporting statistics. Counts are metadata, not token usage, capacity percentage, proof of no truncation, or proof of compliance. Store model/revised_prompt/token fields only when actually returned; null means unavailable or not yet returned.",
+    "sha256": "53fab1765cc409697c07ee84d6d4a06a09b3538cfb53368d447dea3219c0cabc"
+  },
+  "structure_guide": {
+    "path": "outputs/20260911_142553_roadside_shops_dawn/structure_guide.png",
+    "coordinate_camera_source_path": "outputs/20260911_142553_roadside_shops_dawn/structure_plan.json",
+    "actual_3d_source_path_if_available": null,
+    "projection_mode": "orthographic_parallel",
+    "selected_camera": null,
+    "projection_specific_final_comparison": null,
+    "inspected": true,
+    "submitted": true,
+    "input_format_verified": false,
+    "role": "scene-specific2D structure reference, not an enforced geometry lock or automatically a positive master",
+    "coordinates_submitted_as_enforced_geometry": false,
+    "building_orthogonal_footprints_checked": false,
+    "roof_planes_and_supports_checked": false,
+    "upper_lower_correspondence_checked": false,
+    "polygon_roof_checks_separate_from_AABB": false,
+    "functional_exit_roles_locations_states_recorded": false,
+    "final_base_footing_wall_roof_paving_line_comparison_required": true,
+    "critical_occlusion_is_uncertain": true,
+    "M02_role": "two functional exits on back-left/back-right directions; locations/forms/states variable, building-entry sharing allowed, no fixed gate template"
+  },
+  "reference_catalog_revision": "2026-09-11-user-additions-02",
+  "selected_reference_ids": [
+    "M01-01",
+    "M02-01",
+    "M03-17",
+    "M04-08"
+  ],
+  "requested_overrides": {
+    "master03": "M03-17",
+    "master04": "M04-08",
+    "scope": "this first generation, not global defaults"
+  }
+}

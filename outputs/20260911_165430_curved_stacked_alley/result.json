@@ -1,0 +1,22 @@
+{
+  "backend": "builtin_image_gen",
+  "internal_model_version": "not_exposed",
+  "requested_final_images": 1,
+  "source": "outputs/20260911_165430_curved_stacked_alley/initial.png",
+  "final_collection_path": "outputs/final/20260911_165430__curved_stacked_alley.png",
+  "width": 1448,
+  "height": 1086,
+  "format": "PNG",
+  "bytes": 1739053,
+  "sha256": "adc42a57d94dab3700b51bea0fc22c62886b9a26dbecbcb09e3e652fb299b01f",
+  "qa_status": "uncertain",
+  "actual_prompt": "outputs/20260911_165430_curved_stacked_alley/generation_prompt.md",
+  "review": "outputs/20260911_165430_curved_stacked_alley/review.md",
+  "scene_only_curved_architecture_exception": true,
+  "orthogonal_collision_plan_only": true,
+  "engine_collision_implemented": false,
+  "master_files_unchanged": true,
+  "protected_files_count": 17,
+  "prior_generated_scene_inputs": false,
+  "completed_at": "2026-09-11T17:09:00.269400"
+}

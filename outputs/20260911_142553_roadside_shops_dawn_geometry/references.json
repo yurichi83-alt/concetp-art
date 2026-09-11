@@ -1,0 +1,78 @@
+{
+  "run_id": "20260911_142553_roadside_shops_dawn_geometry",
+  "own_correction_parent_run": "20260911_142553_roadside_shops_dawn_white_lighting",
+  "original_run": "20260911_142553_roadside_shops_dawn",
+  "masters_version": "2.5",
+  "execution_rules_version": "1.6",
+  "reference_catalog_revision": "2026-09-11-user-additions-02",
+  "delivery_status": "completed",
+  "actual_submitted_image_count": 4,
+  "delivery_mechanism": "referenced_image_paths",
+  "submitted_to_generation": [
+    {
+      "index": 1,
+      "path": "C:\\Users\\Yeon Hee Kang\\OneDrive\\문서\\Codex\\background-concept-art\\concetp-art\\outputs\\20260911_142553_roadside_shops_dawn\\structure_guide.png",
+      "role": "authoritative planned orthographic axes and layout; not final art",
+      "status": "submitted"
+    },
+    {
+      "index": 2,
+      "path": "C:\\Users\\Yeon Hee Kang\\OneDrive\\문서\\Codex\\background-concept-art\\concetp-art\\outputs\\20260911_142553_roadside_shops_dawn_white_lighting\\roadside_shops_dawn.png",
+      "role": "own result subject design and white light only; faulty geometry excluded",
+      "status": "submitted"
+    },
+    {
+      "index": 3,
+      "id": "M03-17",
+      "path": "C:\\Users\\Yeon Hee Kang\\OneDrive\\문서\\Codex\\background-concept-art\\concetp-art\\refs\\master03\\test_02.jpg",
+      "role": "user-selected architectural art only",
+      "status": "submitted"
+    },
+    {
+      "index": 4,
+      "id": "M04-08",
+      "path": "C:\\Users\\Yeon Hee Kang\\OneDrive\\문서\\Codex\\background-concept-art\\concetp-art\\refs\\master04\\retro_futurism.png",
+      "role": "user-selected retro device design only",
+      "status": "submitted"
+    }
+  ],
+  "inspected_for_planning": [
+    {
+      "index": 1,
+      "path": "C:\\Users\\Yeon Hee Kang\\OneDrive\\문서\\Codex\\background-concept-art\\concetp-art\\outputs\\20260911_142553_roadside_shops_dawn\\structure_guide.png",
+      "role": "authoritative planned orthographic axes and layout; not final art"
+    },
+    {
+      "index": 2,
+      "path": "C:\\Users\\Yeon Hee Kang\\OneDrive\\문서\\Codex\\background-concept-art\\concetp-art\\outputs\\20260911_142553_roadside_shops_dawn_white_lighting\\roadside_shops_dawn.png",
+      "role": "own result subject design and white light only; faulty geometry excluded"
+    },
+    {
+      "index": 3,
+      "id": "M03-17",
+      "path": "C:\\Users\\Yeon Hee Kang\\OneDrive\\문서\\Codex\\background-concept-art\\concetp-art\\refs\\master03\\test_02.jpg",
+      "role": "user-selected architectural art only"
+    },
+    {
+      "index": 4,
+      "id": "M04-08",
+      "path": "C:\\Users\\Yeon Hee Kang\\OneDrive\\문서\\Codex\\background-concept-art\\concetp-art\\refs\\master04\\retro_futurism.png",
+      "role": "user-selected retro device design only"
+    }
+  ],
+  "omitted_references_and_reasons": [
+    {
+      "ids": [
+        "M01-01",
+        "M02-01"
+      ],
+      "reason": "Present in original generation; correction uses scene guide and explicit structural constraints to avoid redundant camera imagery."
+    }
+  ],
+  "submitted_prompt": {
+    "path": "generation_prompt.txt",
+    "character_count": 4175,
+    "returned_model_info": null,
+    "saved_text_matches_actual_argument": true
+  }
+}

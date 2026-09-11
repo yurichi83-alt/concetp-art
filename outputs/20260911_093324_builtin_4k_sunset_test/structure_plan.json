@@ -1,0 +1,34 @@
+{
+  "projection": "orthographic_parallel",
+  "selected_before_generation": true,
+  "master_version": "2.4",
+  "execution_version": "1.5",
+  "base": "square top, constant vertical extrusion, two front plane cuts",
+  "building": "one L footprint; unequal axis aligned wings, long right and short left; stepped level roofs",
+  "roof_coverage_target": 0.6,
+  "building_entry": "decorative human door and shutter; no exposed interior",
+  "exits": [
+    {
+      "direction": "rear_left_11",
+      "position": "outer end beyond short wing",
+      "form": "closed sliding gate",
+      "role": "map_exit",
+      "access": "clear approach, turning area, gate pocket and planned postclear passage"
+    },
+    {
+      "direction": "rear_right_1",
+      "position": "outer end beyond long wing",
+      "form": "closed sliding gate",
+      "role": "map_exit",
+      "access": "clear approach, turning area, gate pocket and planned postclear passage"
+    }
+  ],
+  "props": "car left peripheral bay; motorcycle right recess; broken pole stump plus fallen top front-left separate recess",
+  "center": "protected continuous clear court and two routes",
+  "sand": "thin yellow surface layer, target 60% road; retain exposed footing and outer edge inspection strips",
+  "max_planned_height_m": 6.5,
+  "guide_input": null,
+  "metric_3d_validation": false,
+  "final_evidence": "same-axis lines at base/paving/footings/wall tops/level roofs; equal top-bottom corner vectors; visible contact boundary and gate routes"
+}
+

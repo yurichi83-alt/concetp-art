@@ -1,0 +1,15 @@
+{
+  "projection": "coherent_weak_perspective",
+  "selected_before_generation": true,
+  "base": "square planar top,constant world depth",
+  "building": "joined unequal-wing L, orthogonal contact boundaries",
+  "central_space": "clear",
+  "exits": "one closed sliding gate per rear direction beyond wing ends; broad clear approach/turns; planned postclear passage and sliding pockets",
+  "props": "three separate peripheral bays for car,bike,snapped pole, outside protected routes",
+  "entry": "local door/shutter, not scene exit",
+  "roof_coverage": 0.55,
+  "sand_road_coverage": 0.6,
+  "sand_depth": "thin surface layer; exposed footing/outline strips",
+  "height_planned_max_m": 6.5,
+  "scene_design": "Long LEFT wing and short RIGHT wing: chalky warm-grey plaster and rust-red repair panels with a slightly higher rear service mass, clearly joined L-shaped roof. About55% roof coverage by supported large ventilation, salvaged compressor and power plant with a few broad ducts. Car in front-left peripheral bay; bike front-right; broken pole and crossarm in side service bay parallel to boundary. Distinct large external rebuilt actuator and bypass power device. Basic salvage design, no cassette-styled design theme."
+}

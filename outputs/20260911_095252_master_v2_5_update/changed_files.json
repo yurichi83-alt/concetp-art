@@ -1,0 +1,31 @@
+{
+  "approval_id": "master_update_20260911_v2_5",
+  "snapshot": "state/history/20260911_095252_master_v2_5",
+  "changed_files": [
+    ".agents/skills/game-env-art/SKILL.md",
+    ".agents/skills/game-env-art/agents/openai.yaml",
+    "AGENTS.md",
+    "FIRST_MESSAGE.txt",
+    "README_KO.md",
+    "REFERENCE_INDEX.html",
+    "START_HERE_KO.md",
+    "docs/00_INDEX.md",
+    "docs/01_COMPOSITION.md",
+    "docs/02_LAYOUT.md",
+    "docs/03_VISUAL_STYLE_V2.md",
+    "docs/04_WORLD_DESIGN_V2.md",
+    "docs/05_GENERATION_RULES.md",
+    "docs/06_QA.md",
+    "docs/08_COMMANDS.md",
+    "docs/10_CURRENT_REFERENCES.md",
+    "project.json",
+    "refs/manifest.json",
+    "state/CHANGELOG.md",
+    "state/approvals.json",
+    "templates/brief.md",
+    "templates/generation_prompt.md",
+    "templates/preflight.md",
+    "templates/references.json",
+    "templates/review.md"
+  ]
+}

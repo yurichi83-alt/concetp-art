@@ -1,0 +1,51 @@
+{
+  "run_id": "20260911_145740_roadside_guardhouse_brush",
+  "edit_target_parent_run": "20260911_145152_roadside_flat_matte_road",
+  "masters_version": "2.5",
+  "execution_rules_version": "1.6",
+  "reference_catalog_revision": "2026-09-11-user-additions-02",
+  "delivery_status": "completed",
+  "delivery_mechanism": "referenced_image_paths",
+  "actual_submitted_image_count": 2,
+  "inspected_for_planning": [
+    {
+      "index": 1,
+      "path": "C:\\Users\\Yeon Hee Kang\\OneDrive\\문서\\Codex\\background-concept-art\\concetp-art\\outputs\\final\\20260911_145152__roadside_flat_matte_road.png",
+      "role": "edit target; retain scene and add only requested elements",
+      "sha256": "ed41d8db2fe1ce7223d748be22dc9e07cd35456a4ea680c64c56cbb600c49cc9"
+    },
+    {
+      "index": 2,
+      "path": "C:\\Users\\YEONHE~1\\AppData\\Local\\Temp\\codex-clipboard-1b467ec3-ea8b-46f9-86b1-e0cf023ad021.png",
+      "role": "white-wall brush transitions only; use larger strokes in grey-blue road color",
+      "sha256": "0acb54f329fcb232108427613a2948d0549e898ad81581d80658506f219c55fe"
+    }
+  ],
+  "submitted_to_generation": [
+    {
+      "index": 1,
+      "path": "C:\\Users\\Yeon Hee Kang\\OneDrive\\문서\\Codex\\background-concept-art\\concetp-art\\outputs\\final\\20260911_145152__roadside_flat_matte_road.png",
+      "role": "edit target; retain scene and add only requested elements",
+      "sha256": "ed41d8db2fe1ce7223d748be22dc9e07cd35456a4ea680c64c56cbb600c49cc9",
+      "status": "submitted"
+    },
+    {
+      "index": 2,
+      "path": "C:\\Users\\YEONHE~1\\AppData\\Local\\Temp\\codex-clipboard-1b467ec3-ea8b-46f9-86b1-e0cf023ad021.png",
+      "role": "white-wall brush transitions only; use larger strokes in grey-blue road color",
+      "sha256": "0acb54f329fcb232108427613a2948d0549e898ad81581d80658506f219c55fe",
+      "status": "submitted"
+    }
+  ],
+  "submitted_prompt": {
+    "path": "generation_prompt.txt",
+    "character_count": 4809,
+    "returned_model_info": null,
+    "saved_text_matches_actual_argument": true
+  },
+  "scope": "Road: larger flat pigment strokes without wavy relief. Add small guardhouse beside solid wall on left exit periphery and bicycle in front, keeping exit and door paths open. Scene-only edit.",
+  "tool_contract": {
+    "tool": "builtin image_gen.imagegen",
+    "model": "unknown"
+  }
+}

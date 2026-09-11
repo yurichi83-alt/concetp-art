@@ -1,0 +1,26 @@
+{
+  "status": "resolution_test_completed_requested_size_not_met",
+  "qa_status": "needs_revision",
+  "backend": "builtin_image_gen",
+  "documented_product_rollout": "Images2.5 includes Codex",
+  "returned_model_snapshot": null,
+  "requested_resolution": [
+    3840,
+    2160
+  ],
+  "actual_resolution": [
+    1672,
+    941
+  ],
+  "native_4k_request_met": false,
+  "actual_format": "PNG",
+  "actual_bytes": 2247781,
+  "resize_upscale_crop_applied": false,
+  "calls": 1,
+  "api_calls": 0,
+  "actual_image_source": "C:/Users/Yeon Hee Kang/.codex/generated_images/01a08867-7e38-7162-8368-5c8c0df7a0c0/exec-b69e1c9c-ad3a-4a9e-9328-251a69637459.png",
+  "saved_path": "builtin_resolution_test.png",
+  "review": "review.md",
+  "scope": "Observed result of this one built-in request; not a verified universal resolution ceiling.",
+  "master_updated": false
+}

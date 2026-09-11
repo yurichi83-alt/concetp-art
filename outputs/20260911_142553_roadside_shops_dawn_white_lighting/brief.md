@@ -1,0 +1,1 @@
+Same requested single scene. Change only amber/yellow artificial lights to white at predawn; preserve the first result and all geometry. Parent contains original brief, exact master references and orthographic plan. User-selected first-generation M03-17/M04-08 unchanged.

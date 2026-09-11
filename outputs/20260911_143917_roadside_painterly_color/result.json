@@ -1,0 +1,18 @@
+{
+  "image": "roadside_painterly_color.png",
+  "format": "PNG",
+  "dimensions": [
+    1448,
+    1086
+  ],
+  "sha256": "72a365bcb910f178a4f0ec02d54c8b6d1780e0ca87d0e332fc1cd352365537b3",
+  "backend": "builtin_imagegen",
+  "model_version": null,
+  "requested_final_count": 1,
+  "image_calls": 1,
+  "selected_final": true,
+  "edit_scope_status": "pass_visual_review",
+  "geometry_status": "inherited_needs_revision_not_repaired_in_style_only_edit",
+  "status": "needs_revision",
+  "review": "review.md"
+}

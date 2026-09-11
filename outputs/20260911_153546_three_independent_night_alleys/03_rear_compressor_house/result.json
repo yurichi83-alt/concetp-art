@@ -1,0 +1,14 @@
+{
+  "image": "initial.png",
+  "generated_source": "C:\\Users\\Yeon Hee Kang\\.codex\\generated_images\\01a08867-7e38-7162-8368-5c8c0df7a0c0\\exec-0223d9c5-9c9e-4dd7-83b8-5a43b6cece1a.png",
+  "dimensions": [
+    1448,
+    1086
+  ],
+  "sha256": "d35ef70f4a6325c8473dd7d7893bc9c9fb742edf9d9e3e63f61e72ad3f3003d9",
+  "backend": "builtin_imagegen",
+  "model_version": null,
+  "selected_final": false,
+  "status": "needs_revision",
+  "next_action": "new reconstruction from independent structure guide and master refs; no generated image used"
+}

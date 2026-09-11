@@ -1,0 +1,17 @@
+{
+  "image": "roadside_flat_matte_road.png",
+  "dimensions": [
+    1448,
+    1086
+  ],
+  "sha256": "ed41d8db2fe1ce7223d748be22dc9e07cd35456a4ea680c64c56cbb600c49cc9",
+  "backend": "builtin_imagegen",
+  "model_version": null,
+  "image_calls": 1,
+  "requested_final_count": 1,
+  "selected_final": true,
+  "edit_scope_status": "pass_visual_review",
+  "status": "needs_revision",
+  "geometry_status": "inherited_needs_revision_not_repaired_by_material_edit",
+  "review": "review.md"
+}

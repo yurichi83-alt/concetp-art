@@ -1,0 +1,9 @@
+{
+  "api_key": "missing_at_last_check",
+  "api_calls": 0,
+  "dependency_environment": "C:/Users/Yeon Hee Kang/OneDrive/문서/Codex/tmp/image-api-compare-venv",
+  "dependency_installation": "running_at_last_check",
+  "exec_session_id": 56853,
+  "next_step": "Poll installation completion and verify SDK import; after user confirms local key setup, recheck key presence without printing its value, then run saved command with identical prompt and references.",
+  "user_needs_help_with": "Windows user environment variable setup"
+}

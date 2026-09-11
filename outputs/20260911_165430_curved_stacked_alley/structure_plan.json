@@ -1,0 +1,458 @@
+{
+  "scope": "This image only. No masters or approval files changed. Visual curves permitted at ground and upper room exteriors; gameplay bounds approximated by common-axis boxes. No engine collision asset is made.",
+  "projection": {
+    "type": "orthographic",
+    "image_size": [
+      1600,
+      1200
+    ],
+    "scale": 45.0,
+    "formula": "u=800+(x-y)*45*sqrt(3)/2;v=382+(x+y)*45/2-z*45"
+  },
+  "base": {
+    "square_xy": [
+      0,
+      0,
+      14,
+      14
+    ],
+    "top_z": 0,
+    "bottom_z": -1.15,
+    "front_cutaway_faces": [
+      "x=14",
+      "y=14"
+    ],
+    "straight_uniform_depth": true
+  },
+  "visual_volumes": [
+    {
+      "id": "A_ground_house",
+      "type": "box",
+      "visual_AABB": [
+        0.3,
+        0.3,
+        0,
+        2.9,
+        5.65,
+        2.65
+      ],
+      "collision_AABB": [
+        0.3,
+        0.3,
+        0,
+        2.9,
+        5.65,
+        2.65
+      ]
+    },
+    {
+      "id": "A_round_ground_machine_annex",
+      "type": "rounded_visual_shell",
+      "visual_AABB": [
+        2.85,
+        0.9,
+        0,
+        4.6,
+        3.75,
+        2.3
+      ],
+      "collision_AABB": [
+        2.85,
+        0.9,
+        0,
+        4.6,
+        3.75,
+        2.3
+      ],
+      "note": "Collision bounds deliberately rectangular and aligned with common world X/Y; curved shell is a visual shape."
+    },
+    {
+      "id": "A_load_bearing_machine_collar",
+      "type": "box",
+      "visual_AABB": [
+        3.05,
+        1.1,
+        2.3,
+        4.25,
+        3.35,
+        2.65
+      ],
+      "collision_AABB": [
+        3.05,
+        1.1,
+        2.3,
+        4.25,
+        3.35,
+        2.65
+      ]
+    },
+    {
+      "id": "A_vertical_machine_spine",
+      "type": "box",
+      "visual_AABB": [
+        0.3,
+        0.45,
+        0,
+        1.4,
+        2.95,
+        5.2
+      ],
+      "collision_AABB": [
+        0.3,
+        0.45,
+        0,
+        1.4,
+        2.95,
+        5.2
+      ]
+    },
+    {
+      "id": "A_projecting_capsule_home",
+      "type": "rounded_visual_shell",
+      "visual_AABB": [
+        1.3,
+        0.45,
+        2.65,
+        4.6,
+        3.7,
+        5.65
+      ],
+      "collision_AABB": [
+        1.3,
+        0.45,
+        2.65,
+        4.6,
+        3.7,
+        5.65
+      ],
+      "note": "Collision bounds deliberately rectangular and aligned with common world X/Y; curved shell is a visual shape."
+    },
+    {
+      "id": "A_setback_rear_home",
+      "type": "box",
+      "visual_AABB": [
+        0.3,
+        3.15,
+        2.65,
+        2.5,
+        5.65,
+        4.95
+      ],
+      "collision_AABB": [
+        0.3,
+        3.15,
+        2.65,
+        2.5,
+        5.65,
+        4.95
+      ]
+    },
+    {
+      "id": "A_terrace_slab",
+      "type": "box",
+      "visual_AABB": [
+        2.5,
+        3.8,
+        2.55,
+        4.25,
+        5.65,
+        2.72
+      ],
+      "collision_AABB": [
+        2.5,
+        3.8,
+        2.55,
+        4.25,
+        5.65,
+        2.72
+      ]
+    },
+    {
+      "id": "A_terrace_support",
+      "type": "box",
+      "visual_AABB": [
+        2.65,
+        5.45,
+        0,
+        2.78,
+        5.58,
+        2.55
+      ],
+      "collision_AABB": [
+        2.65,
+        5.45,
+        0,
+        2.78,
+        5.58,
+        2.55
+      ]
+    },
+    {
+      "id": "A_terrace_support",
+      "type": "box",
+      "visual_AABB": [
+        4.05,
+        5.45,
+        0,
+        4.18,
+        5.58,
+        2.55
+      ],
+      "collision_AABB": [
+        4.05,
+        5.45,
+        0,
+        4.18,
+        5.58,
+        2.55
+      ]
+    },
+    {
+      "id": "B_ground_shop",
+      "type": "box",
+      "visual_AABB": [
+        8,
+        0.3,
+        0,
+        12.9,
+        3.8,
+        2.6
+      ],
+      "collision_AABB": [
+        8,
+        0.3,
+        0,
+        12.9,
+        3.8,
+        2.6
+      ]
+    },
+    {
+      "id": "B_upper_timber_home",
+      "type": "box",
+      "visual_AABB": [
+        8,
+        0.3,
+        2.6,
+        10.45,
+        2.8,
+        4.85
+      ],
+      "collision_AABB": [
+        8,
+        0.3,
+        2.6,
+        10.45,
+        2.8,
+        4.85
+      ]
+    },
+    {
+      "id": "B_taller_side_module",
+      "type": "box",
+      "visual_AABB": [
+        10.45,
+        0.3,
+        2.6,
+        12.55,
+        1.9,
+        5.25
+      ],
+      "collision_AABB": [
+        10.45,
+        0.3,
+        2.6,
+        12.55,
+        1.9,
+        5.25
+      ]
+    },
+    {
+      "id": "B_open_upper_deck",
+      "type": "box",
+      "visual_AABB": [
+        10.45,
+        1.9,
+        2.5,
+        12.7,
+        3.9,
+        2.65
+      ],
+      "collision_AABB": [
+        10.45,
+        1.9,
+        2.5,
+        12.7,
+        3.9,
+        2.65
+      ]
+    },
+    {
+      "id": "large_bin",
+      "type": "box",
+      "visual_AABB": [
+        8.5,
+        4.15,
+        0,
+        9.9,
+        5.05,
+        1.2
+      ],
+      "collision_AABB": [
+        8.5,
+        4.15,
+        0,
+        9.9,
+        5.05,
+        1.2
+      ]
+    },
+    {
+      "id": "scrap",
+      "type": "box",
+      "visual_AABB": [
+        1.0,
+        11.6,
+        0,
+        2.8,
+        12.8,
+        0.7
+      ],
+      "collision_AABB": [
+        1.0,
+        11.6,
+        0,
+        2.8,
+        12.8,
+        0.7
+      ]
+    },
+    {
+      "id": "planks",
+      "type": "box",
+      "visual_AABB": [
+        0.65,
+        10.7,
+        0,
+        2.45,
+        11.35,
+        0.28
+      ],
+      "collision_AABB": [
+        0.65,
+        10.7,
+        0,
+        2.45,
+        11.35,
+        0.28
+      ]
+    }
+  ],
+  "functional_exits": [
+    {
+      "id": "left_11",
+      "boundary": "x=0",
+      "boundary_interval": [
+        8.0,
+        10.4
+      ],
+      "protected_walking_volume": [
+        0,
+        8,
+        0,
+        6.5,
+        10.4,
+        3.0
+      ],
+      "state": "open",
+      "width": 2.4
+    },
+    {
+      "id": "right_1",
+      "boundary": "y=0",
+      "boundary_interval": [
+        4.9,
+        7.2
+      ],
+      "protected_walking_volume": [
+        4.9,
+        0,
+        0,
+        7.2,
+        8,
+        3.0
+      ],
+      "state": "open",
+      "width": 2.3
+    }
+  ],
+  "protected_central_play_space": [
+    4.9,
+    7,
+    0,
+    12,
+    11,
+    3
+  ],
+  "buildings": [
+    {
+      "id": "A",
+      "description": "Different-depth rooms: large rounded projecting upper capsule, narrower rear room, visibly empty terrace, rounded ground machine annex and vertical machinery spine. Machine target about 40 percent of visible architectural design, distributed over side room, spine, roof and connections; not a lower-floor band or exact volumetric measurement.",
+      "people_entry": "x-facing rear ground wall at y=4.35..5.2",
+      "max_height": 6.25,
+      "roof_occupancy_target": 0.55,
+      "roof_note": "Supported low service machinery arranged on each available roof area, adjust final rooftop plan coverage to 40-80 percent without filling the open terrace."
+    },
+    {
+      "id": "B",
+      "description": "Wide ground shop with two unequal upper room modules, supported sloping main roof and taller flat-roof side module, empty upper deck and external straight stair.",
+      "people_entry": "y-facing ground shop wall x=8.45..10.05",
+      "max_height": 5.95,
+      "roof_occupancy_target": 0.5,
+      "roof_note": "Roof plant is supported and connected, retain roof profile and open deck."
+    }
+  ],
+  "props": [
+    {
+      "id": "large_bin",
+      "bounds": [
+        8.5,
+        4.15,
+        0,
+        9.9,
+        5.05,
+        1.2
+      ]
+    },
+    {
+      "id": "scrap",
+      "bounds": [
+        1.0,
+        11.6,
+        0,
+        2.8,
+        12.8,
+        0.7
+      ]
+    },
+    {
+      "id": "planks",
+      "bounds": [
+        0.65,
+        10.7,
+        0,
+        2.45,
+        11.35,
+        0.28
+      ]
+    }
+  ],
+  "plan_validation": {
+    "protected_exit_collision_AABB_conflicts": [],
+    "all_geometry_within_45px_safe_frame": true,
+    "largest_z_m": 6.25,
+    "common_axis_collision_bounds": true,
+    "disclaimer": "Plan-level analytic geometry only. Final generated-image geometry, exits and framing require separate visual QA."
+  },
+  "guide_role": "Massing, common projection, clear exits and square base only; no words, labels, arrows or collision lines are drawn. Neutral colors and smooth code rendering are not final surface style."
+}

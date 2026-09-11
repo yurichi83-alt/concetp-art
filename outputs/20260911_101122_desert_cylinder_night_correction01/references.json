@@ -1,0 +1,153 @@
+{
+  "run_id": "20260911_101122_desert_cylinder_night_correction01",
+  "masters_version": "2.5",
+  "execution_rules_version": "1.6",
+  "request_group_id": "20260911_101122_desert_cylinder_night",
+  "scene_id": "desert_cylinder_night",
+  "independent_new_scenes_requested": false,
+  "own_correction_parent_run": "outputs/20260911_101122_desert_cylinder_night",
+  "other_independent_scene_outputs_excluded": [],
+  "inspected_for_planning": [
+    "refs/master01/composition_cutaway.png",
+    "refs/master02/layout_two_exits.png",
+    "refs/master03/ldi_10_storefront_style_anchor.png",
+    "refs/master03/ldi_06_night_path.png",
+    "refs/master04/world_02_heavy_mechanical_arms.png"
+  ],
+  "submitted_to_generation": [
+    {
+      "index": 1,
+      "path": "C:/Users/Yeon Hee Kang/OneDrive/문서/Codex/background-concept-art/concetp-art/outputs/20260911_101122_desert_cylinder_night_correction01/structure_guide.png",
+      "role": "sole structural camera/geometry guide",
+      "status": "submitted"
+    },
+    {
+      "index": 2,
+      "path": "C:/Users/Yeon Hee Kang/OneDrive/문서/Codex/background-concept-art/concetp-art/refs/master03/ldi_10_storefront_style_anchor.png",
+      "role": "M03-10 expression only",
+      "status": "submitted"
+    },
+    {
+      "index": 3,
+      "path": "C:/Users/Yeon Hee Kang/OneDrive/문서/Codex/background-concept-art/concetp-art/refs/master04/world_02_heavy_mechanical_arms.png",
+      "role": "M04-02 machinery only",
+      "status": "submitted"
+    }
+  ],
+  "delivery_status": "completed",
+  "delivery_mechanism": "referenced_image_paths",
+  "actual_submitted_image_count": 3,
+  "actual_count_is_not_a_hard_limit": true,
+  "note": "Record actual delivery, not prose paths or inspection alone. Each submitted entry includes id, path/source, input index when exposed, role, camera/layout/content exclusions, delivery status and any scoped approval. Keep geometry01/02, art03 and world04 sufficiently represented; explain omissions rather than adding redundant sources. A reference camera exclusion is an instruction, not a confirmed weight/mask control.",
+  "reference_role_mapping": {
+    "geometry_projection_inputs": [],
+    "art_expression_inputs": [],
+    "world_design_inputs": [],
+    "edit_target_input": null,
+    "role_balance_and_selection_reason": "",
+    "camera_rule": "Final orthographic projection is mandatory and overrides every reference camera including M01. M01/M02 structure informs base/framing/connectivity; art/world images supply only approved aspects and exclude camera/layout.",
+    "ldi_supplement_scope": "M03-11~15: architecture/materials/lighting/color only; exclude nature, world/story, characters, vehicles, camera/layout, UI/text and source shop identity. M03-12: building only, excluding trees/grass/forest/natural ground. This is not a project-wide vegetation ban."
+  },
+  "omitted_references_and_reasons": [
+    {
+      "id": "M01/M02",
+      "reason": "Inspected approved spatial rules retained in guide and text; omit these image cameras to reduce competing projections during structural reconstruction."
+    },
+    {
+      "id": "M03-06/11..15",
+      "reason": "Night and material expression retained in text and representativeM03-10; avoid extra camera/style inputs."
+    }
+  ],
+  "scoped_result_approval": null,
+  "tool_contract": {
+    "checked_at": null,
+    "tool_name": "image_gen.imagegen",
+    "contract_source": "current session tool schema",
+    "selected_image_parameter": "referenced_image_paths",
+    "confirmed_contract_facts_with_evidence": [
+      "prompt and referenced_image_paths are exposed; model/size/seed controls are not exposed",
+      "num_last_images_to_include maximum5 is recent-conversation selection only; not a path-count limit"
+    ],
+    "parameter_specific_limits": {
+      "referenced_image_paths_max_count": {
+        "status": "confirmed_by_actual_validation_error",
+        "value": 5,
+        "evidence": "Current call rejected: referenced_image_paths must contain at most5 paths"
+      },
+      "num_last_images_to_include_max_count": {
+        "status": "unknown_until_current_contract_checked",
+        "value": null,
+        "evidence": null
+      },
+      "prompt_text_max_length": {
+        "status": "unknown",
+        "value": null,
+        "unit": null,
+        "evidence": null
+      }
+    },
+    "limit_scope_note": "If the current contract specifies recent-conversation selection max5, that fact applies only to num_last_images_to_include. Do not infer the same maximum for referenced_image_paths. An actual5-image call establishes usage only.",
+    "supported_input_formats_verified": [
+      "PNG"
+    ],
+    "unexposed_or_unverified": {
+      "internal_token_budget": "unknown",
+      "reference_weights": "unknown",
+      "per_reference_camera_exclusion_control": "unknown",
+      "masks_coordinates_depth_normals_seed_control": "unknown",
+      "internal_prompt_rewriting": "unknown"
+    }
+  },
+  "submitted_prompt": {
+    "path": "generation_prompt.md",
+    "saved_text_matches_actual_argument": true,
+    "section_order": [
+      "STRUCTURE MUST KEEP",
+      "CURRENT SCENE",
+      "ART / REFERENCE ROLES"
+    ],
+    "character_count": 8380,
+    "character_count_method": "Python len Unicode codepoints",
+    "utf8_byte_count": 8384,
+    "utf8_byte_count_method": "len(text.encode('utf-8'))",
+    "whitespace_word_count": null,
+    "word_count_method": null,
+    "returned_token_usage": null,
+    "returned_model_info": null,
+    "returned_revised_prompt": null,
+    "truncation_or_rewrite_evidence": "unknown",
+    "note": "Measure the exact submitted text if reporting statistics. Counts are metadata, not token usage, capacity percentage, proof of no truncation, or proof of compliance. Store model/revised_prompt/token fields only when actually returned; null means unavailable or not yet returned."
+  },
+  "structure_guide": {
+    "path": "outputs/20260911_101122_desert_cylinder_night_correction01/structure_guide.png",
+    "coordinate_camera_source_path": "outputs/20260911_101122_desert_cylinder_night_correction01/structure_plan.json",
+    "actual_3d_source_path_if_available": null,
+    "projection_mode": "orthographic_parallel",
+    "selected_camera": {
+      "formula": "screen=(800+(x-y)*33*sqrt(3)/2,270+(x+y)*33/2-z*33)",
+      "elevation_degrees": 35.26438968,
+      "azimuth_degrees": 45,
+      "scene_only": true
+    },
+    "projection_specific_final_comparison": null,
+    "inspected": true,
+    "submitted": true,
+    "input_format_verified": false,
+    "role": "scene-specific2D structure reference, not an enforced geometry lock or automatically a positive master",
+    "coordinates_submitted_as_enforced_geometry": false,
+    "building_orthogonal_footprints_checked": true,
+    "roof_planes_and_supports_checked": true,
+    "upper_lower_correspondence_checked": true,
+    "polygon_roof_checks_separate_from_AABB": false,
+    "functional_exit_roles_locations_states_recorded": true,
+    "final_base_footing_wall_roof_paving_line_comparison_required": true,
+    "critical_occlusion_is_uncertain": true,
+    "M02_role": "two functional exits on back-left/back-right directions; locations/forms/states variable, building-entry sharing allowed, no fixed gate template"
+  },
+  "planned_input_order": [
+    "C:/Users/Yeon Hee Kang/OneDrive/문서/Codex/background-concept-art/concetp-art/outputs/20260911_101122_desert_cylinder_night_correction01/structure_guide.png",
+    "C:/Users/Yeon Hee Kang/OneDrive/문서/Codex/background-concept-art/concetp-art/refs/master03/ldi_10_storefront_style_anchor.png",
+    "C:/Users/Yeon Hee Kang/OneDrive/문서/Codex/background-concept-art/concetp-art/refs/master04/world_02_heavy_mechanical_arms.png"
+  ],
+  "dispatch_history": []
+}

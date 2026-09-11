@@ -1,0 +1,64 @@
+{
+  "run_id": "20260911_145152_roadside_flat_matte_road",
+  "edit_target_parent_run": "20260911_144559_roadside_reduced_wear",
+  "masters_version": "2.5",
+  "execution_rules_version": "1.6",
+  "reference_catalog_revision": "2026-09-11-user-additions-02",
+  "delivery_status": "completed",
+  "delivery_mechanism": "referenced_image_paths",
+  "actual_submitted_image_count": 3,
+  "inspected_for_planning": [
+    {
+      "index": 1,
+      "path": "C:\\Users\\Yeon Hee Kang\\OneDrive\\문서\\Codex\\background-concept-art\\concetp-art\\outputs\\final\\20260911_144559__roadside_reduced_wear.png",
+      "role": "edit target; asphalt material change only",
+      "sha256": "9be5042b67f1fdc1218a9e4f4835f0501fd0e516bcba40497a939e234a624a90"
+    },
+    {
+      "index": 2,
+      "path": "C:\\Users\\YEONHE~1\\AppData\\Local\\Temp\\codex-clipboard-a49abad7-826d-46c1-b46f-f3dbcc2acd4f.png",
+      "role": "negative example: remove glass-like embossed outlines",
+      "sha256": "30c982931ebca093aae767e3de2f0f4e57b9efe3de00e5732f1fbaa5ef37965d"
+    },
+    {
+      "index": 3,
+      "path": "C:\\Users\\YEONHE~1\\AppData\\Local\\Temp\\codex-clipboard-3791b8fa-173b-4f49-bc60-587447b716e9.png",
+      "role": "positive example: matte quiet color field; exclude red hue",
+      "sha256": "ec1b48a5aeb9a75c9c9bf5d1706a16d7f4f8cb52488074675fe6b64f93f5009e"
+    }
+  ],
+  "submitted_to_generation": [
+    {
+      "index": 1,
+      "path": "C:\\Users\\Yeon Hee Kang\\OneDrive\\문서\\Codex\\background-concept-art\\concetp-art\\outputs\\final\\20260911_144559__roadside_reduced_wear.png",
+      "role": "edit target; asphalt material change only",
+      "sha256": "9be5042b67f1fdc1218a9e4f4835f0501fd0e516bcba40497a939e234a624a90",
+      "status": "submitted"
+    },
+    {
+      "index": 2,
+      "path": "C:\\Users\\YEONHE~1\\AppData\\Local\\Temp\\codex-clipboard-a49abad7-826d-46c1-b46f-f3dbcc2acd4f.png",
+      "role": "negative example: remove glass-like embossed outlines",
+      "sha256": "30c982931ebca093aae767e3de2f0f4e57b9efe3de00e5732f1fbaa5ef37965d",
+      "status": "submitted"
+    },
+    {
+      "index": 3,
+      "path": "C:\\Users\\YEONHE~1\\AppData\\Local\\Temp\\codex-clipboard-3791b8fa-173b-4f49-bc60-587447b716e9.png",
+      "role": "positive example: matte quiet color field; exclude red hue",
+      "sha256": "ec1b48a5aeb9a75c9c9bf5d1706a16d7f4f8cb52488074675fe6b64f93f5009e",
+      "status": "submitted"
+    }
+  ],
+  "scope": "Asphalt only: replace glass-like relief marks with nearly uniform matte grey-blue fields. Preserve scene, shadows, markings and reduced weathering. No master update.",
+  "submitted_prompt": {
+    "path": "generation_prompt.txt",
+    "character_count": 2887,
+    "returned_model_info": null,
+    "saved_text_matches_actual_argument": true
+  },
+  "tool_contract": {
+    "tool": "builtin image_gen.imagegen",
+    "model": "unknown"
+  }
+}

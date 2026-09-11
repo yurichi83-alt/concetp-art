@@ -1,0 +1,97 @@
+{
+  "scene_id": "02",
+  "projection": "single_orthographic_parallel",
+  "coordinate_frame": {
+    "x": "rear corner toward screen lower-right",
+    "y": "rear corner toward screen lower-left",
+    "z": "vertical",
+    "base": [
+      18,
+      18,
+      1.1
+    ]
+  },
+  "buildings": [
+    {
+      "id": "A",
+      "box": [
+        8.7,
+        0.7,
+        14.8,
+        4.6
+      ],
+      "h": 4.7
+    },
+    {
+      "id": "B",
+      "box": [
+        0.7,
+        0.7,
+        3.5,
+        5.1
+      ],
+      "h": 4.6
+    },
+    {
+      "id": "C",
+      "box": [
+        0.7,
+        9.3,
+        4.8,
+        14
+      ],
+      "h": 6.3
+    }
+  ],
+  "external_stair_footprint": [
+    12.8,
+    4.8,
+    16.2,
+    7.6
+  ],
+  "dumpster": [
+    14.7,
+    9,
+    17,
+    11
+  ],
+  "utility_pole": [
+    5.1,
+    12.6
+  ],
+  "exits": [
+    {
+      "side": "left",
+      "range": [
+        6,
+        8.2
+      ],
+      "box": [
+        0,
+        6,
+        8,
+        8.2
+      ],
+      "type": "open gated alley between narrow B and three-storey C; gate leaves secured outside clearance"
+    },
+    {
+      "side": "right",
+      "range": [
+        10.7,
+        12.7
+      ],
+      "box": [
+        10.7,
+        0,
+        12.7,
+        10
+      ],
+      "type": "rectangular through-passage beneath house A through its mechanical ground level; open toward the rear-right edge"
+    }
+  ],
+  "exits_plan_note": "variation02 right exit intentionally traverses ground floor of A, protected void reserved between supports; other exit corridors avoid all building footprints.",
+  "roof_coverage_planned": "about half of each building roof, visually inspect actual outcome",
+  "measurements": "planning only, not verified 3D dimensions/collision",
+  "guide": "structure_guide.png",
+  "guide_submitted": false
+}

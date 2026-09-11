@@ -1,0 +1,337 @@
+{
+  "run_id": "20260911_162630_retro_machine_alley",
+  "masters_version": "2.6",
+  "execution_rules_version": "1.7",
+  "request_group_id": "20260911_162630_retro_machine_alley",
+  "scene_id": "retro_alley",
+  "independent_new_scenes_requested": false,
+  "own_correction_parent_run": null,
+  "other_independent_scene_outputs_excluded": [],
+  "inspected_for_planning": [
+    {
+      "id": "scene_guide",
+      "input_index": 1,
+      "path": "outputs/20260911_162630_retro_machine_alley/structure_guide.png",
+      "absolute_path": "C:\\Users\\Yeon Hee Kang\\OneDrive\\문서\\Codex\\background-concept-art\\concetp-art\\outputs\\20260911_162630_retro_machine_alley\\structure_guide.png",
+      "role": "orthographic common axes, square base, building masses and two reserved exits; no final palette/materials",
+      "sha256": "81e778391dba3006bb1b4d844ea058664064aa1e2017e6dd35c4f39c9b132d41",
+      "inspected": true,
+      "delivery_status": "prepared_not_submitted"
+    },
+    {
+      "id": "M01-01",
+      "input_index": 2,
+      "path": "refs/master01/composition_cutaway.png",
+      "absolute_path": "C:\\Users\\Yeon Hee Kang\\OneDrive\\문서\\Codex\\background-concept-art\\concetp-art\\refs\\master01\\composition_cutaway.png",
+      "role": "full standalone base and two cutaway faces; exclude perspective, neon, buildings/signs/props",
+      "sha256": "849912ebad9cd750ca79fba6bd8fce6061a5b0ee169a6da5908c60abae94b1a3",
+      "inspected": true,
+      "delivery_status": "prepared_not_submitted"
+    },
+    {
+      "id": "M02-01",
+      "input_index": 3,
+      "path": "refs/master02/layout_two_exits.png",
+      "absolute_path": "C:\\Users\\Yeon Hee Kang\\OneDrive\\문서\\Codex\\background-concept-art\\concetp-art\\refs\\master02\\layout_two_exits.png",
+      "role": "two adjacent blocking directions and two connected exits; exclude labels/colors/icons and fixed gate positions",
+      "sha256": "444031765bb112361022fb23f593f3d386907ccb2bd005353b0514ed2f588a26",
+      "inspected": true,
+      "delivery_status": "prepared_not_submitted"
+    },
+    {
+      "id": "M03-10",
+      "input_index": 4,
+      "path": "refs/master03/ldi_10_storefront_style_anchor.png",
+      "absolute_path": "C:\\Users\\Yeon Hee Kang\\OneDrive\\문서\\Codex\\background-concept-art\\concetp-art\\refs\\master03\\ldi_10_storefront_style_anchor.png",
+      "role": "simplified architecture/materials and clean broad color planes; exclude camera/world/people/storefront identity",
+      "sha256": "c24fe55ad76c6c8bfbd88dee7059a09fd7a592dc60e5d4a6c7c0704f11f19345",
+      "inspected": true,
+      "delivery_status": "prepared_not_submitted"
+    },
+    {
+      "id": "M04-02",
+      "input_index": 5,
+      "path": "refs/master04/world_02_heavy_mechanical_arms.png",
+      "absolute_path": "C:\\Users\\Yeon Hee Kang\\OneDrive\\문서\\Codex\\background-concept-art\\concetp-art\\refs\\master04\\world_02_heavy_mechanical_arms.png",
+      "role": "recovered technology/repair/functional joins translated into buildings; exclude human/armor/camera/photoreal density",
+      "sha256": "a71042678c1898320a3d949d0108bde7e6f931c8f1bf8b316a057084be179a3b",
+      "inspected": true,
+      "delivery_status": "prepared_not_submitted"
+    },
+    {
+      "id": "user_retro_machine",
+      "input_index": 6,
+      "path": "outputs/20260911_162630_retro_machine_alley/user_retro_machine_reference.png",
+      "absolute_path": "C:\\Users\\Yeon Hee Kang\\OneDrive\\문서\\Codex\\background-concept-art\\concetp-art\\outputs\\20260911_162630_retro_machine_alley\\user_retro_machine_reference.png",
+      "role": "retro casing/instrument/control shapes only; exclude dense rust/lettering/branding/UI/photoreal finish",
+      "sha256": "36cdfc9f28cded00cb4ab974cf1b0ae08e3c56a2764cdd85a6aee58fa3cfb5cb",
+      "inspected": true,
+      "delivery_status": "prepared_not_submitted"
+    },
+    {
+      "id": "B03-01",
+      "input_index": 7,
+      "path": "refs/style_support/brush_planes_reference.jpg",
+      "absolute_path": "C:\\Users\\Yeon Hee Kang\\OneDrive\\문서\\Codex\\background-concept-art\\concetp-art\\refs\\style_support\\brush_planes_reference.jpg",
+      "role": "broad clean color planes plus sparse large flat neighboring-tone strokes; exclude fantasy architecture/harbor/people/day/palette/camera",
+      "sha256": "1017bd1ab7a7a500601fdd74ab0d7e105f330aefc75ba9bba30461cbea5b7638",
+      "inspected": true,
+      "delivery_status": "prepared_not_submitted"
+    }
+  ],
+  "submitted_to_generation": [
+    {
+      "id": "scene_guide",
+      "input_index": 1,
+      "path": "outputs/20260911_162630_retro_machine_alley/structure_guide.png",
+      "absolute_path": "C:\\Users\\Yeon Hee Kang\\OneDrive\\문서\\Codex\\background-concept-art\\concetp-art\\outputs\\20260911_162630_retro_machine_alley\\structure_guide.png",
+      "role": "orthographic common axes, square base, building masses and two reserved exits; no final palette/materials",
+      "sha256": "81e778391dba3006bb1b4d844ea058664064aa1e2017e6dd35c4f39c9b132d41",
+      "inspected": true,
+      "delivery_status": "submitted_in_call"
+    },
+    {
+      "id": "M01-01",
+      "input_index": 2,
+      "path": "refs/master01/composition_cutaway.png",
+      "absolute_path": "C:\\Users\\Yeon Hee Kang\\OneDrive\\문서\\Codex\\background-concept-art\\concetp-art\\refs\\master01\\composition_cutaway.png",
+      "role": "full standalone base and two cutaway faces; exclude perspective, neon, buildings/signs/props",
+      "sha256": "849912ebad9cd750ca79fba6bd8fce6061a5b0ee169a6da5908c60abae94b1a3",
+      "inspected": true,
+      "delivery_status": "submitted_in_call"
+    },
+    {
+      "id": "M02-01",
+      "input_index": 3,
+      "path": "refs/master02/layout_two_exits.png",
+      "absolute_path": "C:\\Users\\Yeon Hee Kang\\OneDrive\\문서\\Codex\\background-concept-art\\concetp-art\\refs\\master02\\layout_two_exits.png",
+      "role": "two adjacent blocking directions and two connected exits; exclude labels/colors/icons and fixed gate positions",
+      "sha256": "444031765bb112361022fb23f593f3d386907ccb2bd005353b0514ed2f588a26",
+      "inspected": true,
+      "delivery_status": "submitted_in_call"
+    },
+    {
+      "id": "M03-10",
+      "input_index": 4,
+      "path": "refs/master03/ldi_10_storefront_style_anchor.png",
+      "absolute_path": "C:\\Users\\Yeon Hee Kang\\OneDrive\\문서\\Codex\\background-concept-art\\concetp-art\\refs\\master03\\ldi_10_storefront_style_anchor.png",
+      "role": "simplified architecture/materials and clean broad color planes; exclude camera/world/people/storefront identity",
+      "sha256": "c24fe55ad76c6c8bfbd88dee7059a09fd7a592dc60e5d4a6c7c0704f11f19345",
+      "inspected": true,
+      "delivery_status": "submitted_in_call"
+    },
+    {
+      "id": "M04-02",
+      "input_index": 5,
+      "path": "refs/master04/world_02_heavy_mechanical_arms.png",
+      "absolute_path": "C:\\Users\\Yeon Hee Kang\\OneDrive\\문서\\Codex\\background-concept-art\\concetp-art\\refs\\master04\\world_02_heavy_mechanical_arms.png",
+      "role": "recovered technology/repair/functional joins translated into buildings; exclude human/armor/camera/photoreal density",
+      "sha256": "a71042678c1898320a3d949d0108bde7e6f931c8f1bf8b316a057084be179a3b",
+      "inspected": true,
+      "delivery_status": "submitted_in_call"
+    },
+    {
+      "id": "user_retro_machine",
+      "input_index": 6,
+      "path": "outputs/20260911_162630_retro_machine_alley/user_retro_machine_reference.png",
+      "absolute_path": "C:\\Users\\Yeon Hee Kang\\OneDrive\\문서\\Codex\\background-concept-art\\concetp-art\\outputs\\20260911_162630_retro_machine_alley\\user_retro_machine_reference.png",
+      "role": "retro casing/instrument/control shapes only; exclude dense rust/lettering/branding/UI/photoreal finish",
+      "sha256": "36cdfc9f28cded00cb4ab974cf1b0ae08e3c56a2764cdd85a6aee58fa3cfb5cb",
+      "inspected": true,
+      "delivery_status": "submitted_in_call"
+    },
+    {
+      "id": "B03-01",
+      "input_index": 7,
+      "path": "refs/style_support/brush_planes_reference.jpg",
+      "absolute_path": "C:\\Users\\Yeon Hee Kang\\OneDrive\\문서\\Codex\\background-concept-art\\concetp-art\\refs\\style_support\\brush_planes_reference.jpg",
+      "role": "broad clean color planes plus sparse large flat neighboring-tone strokes; exclude fantasy architecture/harbor/people/day/palette/camera",
+      "sha256": "1017bd1ab7a7a500601fdd74ab0d7e105f330aefc75ba9bba30461cbea5b7638",
+      "inspected": true,
+      "delivery_status": "submitted_in_call"
+    }
+  ],
+  "delivery_status": "submitted_waiting_result",
+  "delivery_mechanism": "referenced_image_paths",
+  "actual_submitted_image_count": 7,
+  "actual_count_is_not_a_hard_limit": true,
+  "note": "Record actual delivery, not prose paths or inspection alone. Each submitted entry includes id, path/source, input index when exposed, role, camera/layout/content exclusions, delivery status and any scoped approval. Keep geometry01/02, art03 and world04 sufficiently represented; explain omissions rather than adding redundant sources. A reference camera exclusion is an instruction, not a confirmed weight/mask control.",
+  "reference_role_mapping": {
+    "geometry_projection_inputs": [
+      "scene_guide",
+      "M01-01",
+      "M02-01"
+    ],
+    "art_expression_inputs": [
+      "M03-10"
+    ],
+    "world_design_inputs": [
+      "M04-02",
+      "user_retro_machine"
+    ],
+    "edit_target_input": null,
+    "role_balance_and_selection_reason": "Current machine attachment guides design while M03-10/B03-01 guide finish. Original 01/02/04 roles retained. No previous generated examples are inputs.",
+    "camera_rule": "Final orthographic projection is mandatory and overrides every reference camera including M01. M01/M02 structure informs base/framing/connectivity; art/world images supply only approved aspects and exclude camera/layout.",
+    "ldi_supplement_scope": "M03-11~15: architecture/materials/lighting/color only; exclude nature, world/story, characters, vehicles, camera/layout, UI/text and source shop identity. M03-12: building only, excluding trees/grass/forest/natural ground. This is not a project-wide vegetation ban.",
+    "user_added_reference_scope": "M03-16: architectural masses/color/value/material simplification only, not confirmed LDI; exclude source camera/world/layout. M04-08: varied retro casings/analog controls/modular joins, adapted to Salvage Cyberpunk and Master03 finish; retain existing green-CRT exclusion. Named selections apply to the current request without promoting global defaults. M03-17: architectural proportions, roof silhouettes, faded color planes and selective paint peeling only; exclude source perspective, vertical overcrowding and coastal scene content. Orthogonal building footprints and all existing structure/roof rules remain mandatory.",
+    "surface_style_support_inputs": [
+      "B03-01"
+    ],
+    "surface_style_scope": "Master03 v2.2: broad clean base-color planes plus sparse broad directional flat nearby-tone brushwork, also on intact areas and separate from damage. M03-10 stays representative. B03-01 may be selected for surface-only support; B03-02/03/04 are comparison-only, not automatic generation inputs. Do not transfer their camera/layout/night/palette or promote geometry. Record actual submitted images and roles only."
+  },
+  "omitted_references_and_reasons": [],
+  "scoped_result_approval": null,
+  "tool_contract": {
+    "checked_at": "2026-09-11T16:31:20.894350",
+    "tool_name": "image_gen.imagegen",
+    "contract_source": "Current callable tool schema/developer instructions",
+    "selected_image_parameter": "referenced_image_paths",
+    "confirmed_contract_facts_with_evidence": [
+      "prompt and referenced_image_paths are available; num_last_images_to_include cannot be combined with paths",
+      "num_last_images_to_include has max5; referenced_image_paths maximum is not exposed"
+    ],
+    "parameter_specific_limits": {
+      "referenced_image_paths_max_count": {
+        "status": "unknown",
+        "value": null,
+        "evidence": null
+      },
+      "num_last_images_to_include_max_count": {
+        "status": "confirmed_current_contract",
+        "value": 5,
+        "evidence": "tool description limits recent conversation selection to5"
+      },
+      "prompt_text_max_length": {
+        "status": "unknown",
+        "value": null,
+        "unit": null,
+        "evidence": null
+      }
+    },
+    "limit_scope_note": "If the current contract specifies recent-conversation selection max5, that fact applies only to num_last_images_to_include. Do not infer the same maximum for referenced_image_paths. An actual5-image call establishes usage only.",
+    "supported_input_formats_verified": [],
+    "unexposed_or_unverified": {
+      "internal_token_budget": "unknown",
+      "reference_weights": "unknown",
+      "per_reference_camera_exclusion_control": "unknown",
+      "masks_coordinates_depth_normals_seed_control": "unknown",
+      "internal_prompt_rewriting": "unknown"
+    }
+  },
+  "submitted_prompt": {
+    "path": "generation_prompt.md",
+    "saved_text_matches_actual_argument": true,
+    "section_order": [
+      "STRUCTURE MUST KEEP",
+      "CURRENT SCENE",
+      "ART / REFERENCE ROLES"
+    ],
+    "character_count": 8864,
+    "character_count_method": "Python len of exact UTF-8-decoded saved text",
+    "utf8_byte_count": 8866,
+    "utf8_byte_count_method": "len(text.encode(utf-8))",
+    "whitespace_word_count": 1248,
+    "word_count_method": "Python whitespace split; not token count",
+    "returned_token_usage": null,
+    "returned_model_info": null,
+    "returned_revised_prompt": null,
+    "truncation_or_rewrite_evidence": "unknown",
+    "note": "Measure the exact submitted text if reporting statistics. Counts are metadata, not token usage, capacity percentage, proof of no truncation, or proof of compliance. Store model/revised_prompt/token fields only when actually returned; null means unavailable or not yet returned."
+  },
+  "structure_guide": {
+    "path": "outputs/20260911_162630_retro_machine_alley/structure_guide.png",
+    "coordinate_camera_source_path": "outputs/20260911_162630_retro_machine_alley/structure_plan.json",
+    "actual_3d_source_path_if_available": null,
+    "projection_mode": "orthographic_parallel",
+    "selected_camera": "See structure_plan.json; single mathematical orthographic projector",
+    "projection_specific_final_comparison": null,
+    "inspected": true,
+    "submitted": true,
+    "input_format_verified": false,
+    "role": "scene-specific2D structure reference, not an enforced geometry lock or automatically a positive master",
+    "coordinates_submitted_as_enforced_geometry": false,
+    "building_orthogonal_footprints_checked": true,
+    "roof_planes_and_supports_checked": true,
+    "upper_lower_correspondence_checked": true,
+    "polygon_roof_checks_separate_from_AABB": true,
+    "functional_exit_roles_locations_states_recorded": true,
+    "final_base_footing_wall_roof_paving_line_comparison_required": true,
+    "critical_occlusion_is_uncertain": true,
+    "M02_role": "two functional exits on back-left/back-right directions; locations/forms/states variable, building-entry sharing allowed, no fixed gate template"
+  },
+  "reference_catalog_revision": "2026-09-11-brush-support-01",
+  "planned_inputs": [
+    {
+      "id": "scene_guide",
+      "input_index": 1,
+      "path": "outputs/20260911_162630_retro_machine_alley/structure_guide.png",
+      "absolute_path": "C:\\Users\\Yeon Hee Kang\\OneDrive\\문서\\Codex\\background-concept-art\\concetp-art\\outputs\\20260911_162630_retro_machine_alley\\structure_guide.png",
+      "role": "orthographic common axes, square base, building masses and two reserved exits; no final palette/materials",
+      "sha256": "81e778391dba3006bb1b4d844ea058664064aa1e2017e6dd35c4f39c9b132d41",
+      "inspected": true,
+      "delivery_status": "submitted_in_call"
+    },
+    {
+      "id": "M01-01",
+      "input_index": 2,
+      "path": "refs/master01/composition_cutaway.png",
+      "absolute_path": "C:\\Users\\Yeon Hee Kang\\OneDrive\\문서\\Codex\\background-concept-art\\concetp-art\\refs\\master01\\composition_cutaway.png",
+      "role": "full standalone base and two cutaway faces; exclude perspective, neon, buildings/signs/props",
+      "sha256": "849912ebad9cd750ca79fba6bd8fce6061a5b0ee169a6da5908c60abae94b1a3",
+      "inspected": true,
+      "delivery_status": "submitted_in_call"
+    },
+    {
+      "id": "M02-01",
+      "input_index": 3,
+      "path": "refs/master02/layout_two_exits.png",
+      "absolute_path": "C:\\Users\\Yeon Hee Kang\\OneDrive\\문서\\Codex\\background-concept-art\\concetp-art\\refs\\master02\\layout_two_exits.png",
+      "role": "two adjacent blocking directions and two connected exits; exclude labels/colors/icons and fixed gate positions",
+      "sha256": "444031765bb112361022fb23f593f3d386907ccb2bd005353b0514ed2f588a26",
+      "inspected": true,
+      "delivery_status": "submitted_in_call"
+    },
+    {
+      "id": "M03-10",
+      "input_index": 4,
+      "path": "refs/master03/ldi_10_storefront_style_anchor.png",
+      "absolute_path": "C:\\Users\\Yeon Hee Kang\\OneDrive\\문서\\Codex\\background-concept-art\\concetp-art\\refs\\master03\\ldi_10_storefront_style_anchor.png",
+      "role": "simplified architecture/materials and clean broad color planes; exclude camera/world/people/storefront identity",
+      "sha256": "c24fe55ad76c6c8bfbd88dee7059a09fd7a592dc60e5d4a6c7c0704f11f19345",
+      "inspected": true,
+      "delivery_status": "submitted_in_call"
+    },
+    {
+      "id": "M04-02",
+      "input_index": 5,
+      "path": "refs/master04/world_02_heavy_mechanical_arms.png",
+      "absolute_path": "C:\\Users\\Yeon Hee Kang\\OneDrive\\문서\\Codex\\background-concept-art\\concetp-art\\refs\\master04\\world_02_heavy_mechanical_arms.png",
+      "role": "recovered technology/repair/functional joins translated into buildings; exclude human/armor/camera/photoreal density",
+      "sha256": "a71042678c1898320a3d949d0108bde7e6f931c8f1bf8b316a057084be179a3b",
+      "inspected": true,
+      "delivery_status": "submitted_in_call"
+    },
+    {
+      "id": "user_retro_machine",
+      "input_index": 6,
+      "path": "outputs/20260911_162630_retro_machine_alley/user_retro_machine_reference.png",
+      "absolute_path": "C:\\Users\\Yeon Hee Kang\\OneDrive\\문서\\Codex\\background-concept-art\\concetp-art\\outputs\\20260911_162630_retro_machine_alley\\user_retro_machine_reference.png",
+      "role": "retro casing/instrument/control shapes only; exclude dense rust/lettering/branding/UI/photoreal finish",
+      "sha256": "36cdfc9f28cded00cb4ab974cf1b0ae08e3c56a2764cdd85a6aee58fa3cfb5cb",
+      "inspected": true,
+      "delivery_status": "submitted_in_call"
+    },
+    {
+      "id": "B03-01",
+      "input_index": 7,
+      "path": "refs/style_support/brush_planes_reference.jpg",
+      "absolute_path": "C:\\Users\\Yeon Hee Kang\\OneDrive\\문서\\Codex\\background-concept-art\\concetp-art\\refs\\style_support\\brush_planes_reference.jpg",
+      "role": "broad clean color planes plus sparse large flat neighboring-tone strokes; exclude fantasy architecture/harbor/people/day/palette/camera",
+      "sha256": "1017bd1ab7a7a500601fdd74ab0d7e105f330aefc75ba9bba30461cbea5b7638",
+      "inspected": true,
+      "delivery_status": "submitted_in_call"
+    }
+  ],
+  "prior_generated_images_used": false,
+  "submitted_at": "2026-09-11T16:31:53.322949"
+}

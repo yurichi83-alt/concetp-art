@@ -1,0 +1,1 @@
+Same requested single image; global orthographic axis correction. Use original scene structure_plan.json and guide. Prior rendered geometry is excluded; prior design, subjects and corrected white practical lighting retained. User-selected M03-17 and M04-08 are explicitly resubmitted.

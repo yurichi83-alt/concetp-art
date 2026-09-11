@@ -1,0 +1,8 @@
+{
+  "requested_final_count": 3,
+  "selected_final_count": 3,
+  "actual_generation_calls": 8,
+  "independent_all_calls": true,
+  "status": "delivered_test_candidates_with_qa_issues",
+  "master_updated": false
+}

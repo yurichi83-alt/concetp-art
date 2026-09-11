@@ -1,0 +1,80 @@
+{
+  "master_version": "2.4",
+  "execution_version": "1.5",
+  "inspected": [
+    {
+      "index": 1,
+      "path": "C:/Users/Yeon Hee Kang/OneDrive/문서/Codex/background-concept-art/concetp-art/refs/master01/composition_cutaway.png",
+      "role": "geometry_block"
+    },
+    {
+      "index": 2,
+      "path": "C:/Users/Yeon Hee Kang/OneDrive/문서/Codex/background-concept-art/concetp-art/refs/master02/layout_two_exits.png",
+      "role": "two_rear_directions_connectivity"
+    },
+    {
+      "index": 3,
+      "path": "C:/Users/Yeon Hee Kang/OneDrive/문서/Codex/background-concept-art/concetp-art/refs/master03/ldi_10_storefront_style_anchor.png",
+      "role": "art_forms_material_light_only"
+    },
+    {
+      "index": 4,
+      "path": "C:/Users/Yeon Hee Kang/OneDrive/문서/Codex/background-concept-art/concetp-art/refs/master04/world_02_heavy_mechanical_arms.png",
+      "role": "salvaged_machine_design_only"
+    }
+  ],
+  "planned_inputs_both": [
+    "C:/Users/Yeon Hee Kang/OneDrive/문서/Codex/background-concept-art/concetp-art/refs/master01/composition_cutaway.png",
+    "C:/Users/Yeon Hee Kang/OneDrive/문서/Codex/background-concept-art/concetp-art/refs/master02/layout_two_exits.png",
+    "C:/Users/Yeon Hee Kang/OneDrive/문서/Codex/background-concept-art/concetp-art/refs/master03/ldi_10_storefront_style_anchor.png",
+    "C:/Users/Yeon Hee Kang/OneDrive/문서/Codex/background-concept-art/concetp-art/refs/master04/world_02_heavy_mechanical_arms.png"
+  ],
+  "actual_inputs_builtin": [
+    "C:/Users/Yeon Hee Kang/OneDrive/문서/Codex/background-concept-art/concetp-art/refs/master01/composition_cutaway.png",
+    "C:/Users/Yeon Hee Kang/OneDrive/문서/Codex/background-concept-art/concetp-art/refs/master02/layout_two_exits.png",
+    "C:/Users/Yeon Hee Kang/OneDrive/문서/Codex/background-concept-art/concetp-art/refs/master03/ldi_10_storefront_style_anchor.png",
+    "C:/Users/Yeon Hee Kang/OneDrive/문서/Codex/background-concept-art/concetp-art/refs/master04/world_02_heavy_mechanical_arms.png"
+  ],
+  "actual_inputs_api": [],
+  "reference_order_same": true,
+  "other_generated_variants_used": false,
+  "prompt_path": "generation_prompt.md",
+  "builtin_contract": {
+    "model_selector": false,
+    "quality_selector": false,
+    "reference_paths": true,
+    "recent_images_max": 5,
+    "reference_path_max": "unknown",
+    "prompt_max": "unknown",
+    "internal_rewrite": "unknown",
+    "documented_product_model": "gpt-image-2",
+    "per_call_model_snapshot": null
+  },
+  "api_plan": {
+    "model": "gpt-image-2.5-sunburst",
+    "quality": "auto",
+    "size": "1536x1024",
+    "n": 1,
+    "output_format": "png",
+    "endpoint": "/v1/images/edits",
+    "endpoint_reason": "same4 reference image inputs; intent is new scene from references, not editing baseline output",
+    "augment": false,
+    "status": "blocked_missing_api_key",
+    "dry_run_validated": true
+  },
+  "sources": [
+    "https://learn.chatgpt.com/docs/image-generation",
+    "https://developers.openai.com/api/docs/models/gpt-image-2.5-sunburst"
+  ],
+  "builtin_delivery_status": "completed",
+  "prompt_metadata": {
+    "sha256_utf8_stripped": "75047247972168e1c1b9a819cd574a4768db29eea15eb85468f4ea8494a83cc6",
+    "characters": 5082,
+    "utf8_bytes": 5082,
+    "words_whitespace": 729,
+    "same_text_verified_against_api_dry_run": true,
+    "tokens": null,
+    "returned_revised_prompt": null,
+    "per_call_model_snapshot": null
+  }
+}

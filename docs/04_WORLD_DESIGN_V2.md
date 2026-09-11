@@ -1,6 +1,6 @@
-# Master 04 v2.4 — Salvage Cyberpunk
+# Master 04 v2.5 — Salvage Cyberpunk
 
-> 기준 관계: 마스터 01~04 v2.4와 원본 19장 + 승인된 LDI 보강 5장(총 24장)이 기준이다. Little Devil Inside 아트 표현(세계관 제외)과 Salvage Cyberpunk 세계관은 고정한다. A-01/A-02는 그 기준으로 생성된 결과 중 사용자 선호 예시이며 마스터를 대체하지 않는다. 상세: `docs/10_CURRENT_REFERENCES.md`.
+> 기준 관계: 마스터 01~04 v2.6와 원본 19장 + 승인된 LDI 보강 5장 + 사용자 추가 3장(총 27장)이 기준이다. Little Devil Inside 아트 표현(세계관 제외)과 Salvage Cyberpunk 세계관은 고정한다. A-01/A-02는 그 기준으로 생성된 결과 중 사용자 선호 예시이며 마스터를 대체하지 않는다. 상세: `docs/10_CURRENT_REFERENCES.md`.
 
 ## 작업용 명칭
 Salvage Cyberpunk / Post-Apocalyptic Industrial Salvage Sci-Fi.
@@ -63,7 +63,7 @@ Salvage Cyberpunk / Post-Apocalyptic Industrial Salvage Sci-Fi.
 
 ## 건축 외관 보완 — 2026-09-10
 
-원승인: architecture_entrances_roofs_20260910. 아래 입구 역할·대상 범위와 형태 다양성은 master_update_20260910_v2_3 승인으로 명확화했다. 마스터 세트 v2.4에서도 유지한다.
+원승인: architecture_entrances_roofs_20260910. 아래 입구 역할·대상 범위와 형태 다양성은 master_update_20260910_v2_3 승인으로 명확화했다. 마스터 세트 v2.5에서도 유지한다.
 
 ### 건물과 비건물 경계물의 구분
 건물의 바닥 점유 형태와 플레이어 이동 공간에 접한 고정 외벽은 공통 X/Y축에 평행한 직교 선분으로 만든다. 사선 모서리·회전된 건물·쐐기형 틈·곡선 건물 경계로 플레이어가 돌아가게 만들지 않는다. 화면에서 사선으로 보이는 정상 쿼터뷰 투영은 이 제한과 다르다. 실제 평면과 보행 경계를 검사한다.
@@ -95,3 +95,9 @@ Salvage Cyberpunk / Post-Apocalyptic Industrial Salvage Sci-Fi.
 
 ## 승인된 v2.3 보강 — 2026-09-10
 승인 ID: master_update_20260910_v2_3. 건물 직교 평면과 지붕·높이의 다양성, 두 기능 출구의 입구 겸용, 비건물 차단체와 건물 전용 외관 규칙의 대상 구분을 반영했다. 기존 Salvage Cyberpunk 세계관과 마스터03 아트 표현은 유지한다. 이번 승인으로 카세트 퓨처리즘 이미지나 이전 출력물을 메인 참조로 승격하지 않는다.
+
+## 사용자 추가 기계 디자인 참조 — M04-08 / 2026-09-11
+
+[retro_futurism.png](../refs/master04/retro_futurism.png)(1254×1254)를 레트로 퓨처리즘 기계·가전 디자인의 선택 가능한 마스터로 등록한다. 둥근/각진 케이스의 다양한 비례, 다이얼·노브·손잡이·통풍구·안테나, 모듈 조합과 기능적 결합을 참고한다. 이를 Salvage Cyberpunk의 회수·수리·개조된 설비와 생활 소품으로 옮기고 표면 마감은 마스터03을 따른다.
+
+콜라주 배치·흰 배경·원본 카메라·문자/로고·선화 마감은 복사하지 않는다. 화면과 소형 기기를 무분별하게 늘리거나 녹색 CRT를 재도입하지 않는다. 기존 녹색 CRT 제외 지시는 별도 재허용 전까지 우선한다. 파일명 또는 M04-08로 선택 가능하며 최우선 M04-02는 유지한다. 이번 승인은 이 파일의 등록이며 모든 이미지의 카세트 퓨처리즘 의무화나 과거 미승인 자료 전체의 승격이 아니다.

@@ -1,0 +1,88 @@
+{
+  "approval": {
+    "id": "reference_registration_20260911_m03_17",
+    "date": "2026-09-11",
+    "type": "user_added_master_reference_registration",
+    "status": "active",
+    "evidence": "마스터3 폴더에 한장 더 추가했어. 이것도 추가해줘",
+    "scope": "test_02.jpg를 건축 비례·지붕·색면·손상 표현의 선택 가능한 마스터03 참조로 등록",
+    "reference_ids": [
+      "M03-17"
+    ],
+    "master_image_count_before": 26,
+    "master_image_count_after": 27,
+    "reference_catalog_revision": "2026-09-11-user-additions-02",
+    "master_version": "2.5",
+    "execution_rules_version": "1.6",
+    "package_version_after": "1.5.2",
+    "source_records": [
+      {
+        "id": "M03-17",
+        "path": "refs/master03/test_02.jpg",
+        "width": 1638,
+        "height": 2048,
+        "format": "JPEG",
+        "sha256": "18081082d25a104b5830b5f5a27bfeb1659cb9f6b241311c240e60998387cbe3"
+      }
+    ],
+    "preserved_default_generation_priority_ids": [
+      "M02-01",
+      "M01-01",
+      "M03-10",
+      "M04-02"
+    ],
+    "history_path": "state/history/20260911_141832_reference_registration",
+    "update_record_path": "outputs/20260911_141832_reference_registration"
+  },
+  "registered_reference": {
+    "id": "M03-17",
+    "path": "refs/master03/test_02.jpg",
+    "group": "master03",
+    "title": "다양한 건축 비례·지붕과 바랜 색면 표현",
+    "use_only": "폭·높이·상층 후퇴에 따른 건축 덩어리와 실루엣의 변화, 다양한 지붕 윤곽, 창·발코니·외부 연결부의 선택적 디테일, 바랜 적색·청색·크림색의 큰 색면과 도장 박리, 넓은 명암으로 읽히는 재질",
+    "exclude": "원본 카메라·원근·초고층 적층·과밀 배치·해안 도시 세계관·물/배/인물/식생의 자동 삽입 제외. 원통형 건물이나 회전된 건물의 보행 경계를 복사하지 않고 직교 건물 규칙 유지; 원통 형태는 허용된 비건물 탱크 등에 해석. 지붕 비움·높이·동선·구조 불일치의 근거로 사용하지 않음",
+    "width": 1638,
+    "height": 2048,
+    "format": "JPEG",
+    "sha256": "18081082d25a104b5830b5f5a27bfeb1659cb9f6b241311c240e60998387cbe3",
+    "reference_aspects": [
+      "architectural_proportions_and_silhouettes",
+      "roof_profile_variation",
+      "faded_color_planes",
+      "selective_paint_peeling",
+      "architectural_detail_hierarchy"
+    ],
+    "provenance_note": "사용자가 마스터03 폴더에 추가한 외부 건축 아트. 작가·작품·출처 및 제작 방식 미확인; Little Devil Inside 자료로 단정하지 않음",
+    "positive_reference": true,
+    "source_kind": "user_added_master",
+    "original_filename": "test_02.jpg",
+    "reference_role": "master",
+    "generation_input_allowed": true,
+    "registration_date": "2026-09-11",
+    "approval_id": "reference_registration_20260911_m03_17",
+    "reference_catalog_revision": "2026-09-11-user-additions-02",
+    "selection_scope": "Approved optional reference. Select by explicit filename/ID or relevant approved aspects; existing global default priorities unchanged."
+  },
+  "changed_files": [
+    "refs/manifest.json",
+    "project.json",
+    "state/approvals.json",
+    "templates/references.json",
+    "AGENTS.md",
+    "README_KO.md",
+    "START_HERE_KO.md",
+    "docs/00_INDEX.md",
+    "docs/01_COMPOSITION.md",
+    "docs/02_LAYOUT.md",
+    "docs/03_VISUAL_STYLE_V2.md",
+    "docs/04_WORLD_DESIGN_V2.md",
+    "docs/05_GENERATION_RULES.md",
+    "docs/06_QA.md",
+    "docs/10_CURRENT_REFERENCES.md",
+    "refs/REFERENCE_MAP.md",
+    "REFERENCE_INDEX.html",
+    "state/CHANGELOG.md"
+  ],
+  "verification_status": "passed",
+  "verification_report": "validation.json"
+}

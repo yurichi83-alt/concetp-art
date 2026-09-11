@@ -1,0 +1,1 @@
+{"status":"needs_revision","C04":"FAIL: horizontal roof and base families remain visibly nonparallel under explicitly planned orthographic projection","C01":"PASS whole base visible","next_strategy":"rebuild projection with computed orthographic guide plus original content reference; do not preserve failed projection"}

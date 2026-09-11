@@ -1,0 +1,25 @@
+{
+  "ok": true,
+  "root": "C:\\Users\\Yeon Hee Kang\\OneDrive\\문서\\Codex\\background-concept-art\\concetp-art",
+  "master_images": 26,
+  "review_only_images": 3,
+  "preferred_result_images": 2,
+  "agents_bytes": 7380,
+  "errors": [],
+  "warnings": [],
+  "scope": "Files only. No visual or Codex-runtime validation.",
+  "group_counts": {
+    "master01": 1,
+    "master02": 1,
+    "master03": 16,
+    "master04": 8
+  },
+  "full_decoded_images": 31,
+  "preserved_image_hashes": 31,
+  "prior_reference_records_preserved": 29,
+  "prior_approval_entries_preserved": 13,
+  "default_priorities_and_core_policies_unchanged": true,
+  "gallery_ids_and_links_verified": 31,
+  "reference_map_rows_verified": 31,
+  "rejected_invalid_headers": 8
+}

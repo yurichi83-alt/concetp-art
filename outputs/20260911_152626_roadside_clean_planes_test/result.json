@@ -1,0 +1,24 @@
+{
+  "image": "roadside_clean_planes_test.png",
+  "dimensions": [
+    1448,
+    1086
+  ],
+  "sha256": "63d79da630055e4d91c44ac35596491340ee1ad334042bb71654b4c5b43f974e",
+  "backend": "builtin_imagegen",
+  "model_version": null,
+  "generated_source": "C:/Users/Yeon Hee Kang/.codex/generated_images/01a08867-7e38-7162-8368-5c8c0df7a0c0/exec-96291f99-466e-43da-b373-462242ccb155.png",
+  "image_calls": 1,
+  "requested_final_count": 1,
+  "selected_final": true,
+  "edit_scope_status": "partial_visual_match",
+  "observed_small_puddles": 2,
+  "remaining_style_observations": [
+    "fine angular marks remain along some road brush edges",
+    "some wall patches still read jointly as paint wear"
+  ],
+  "status": "needs_revision",
+  "geometry_status": "inherited_prior_C04_L07_and_guardhouse_roof_uncertainty",
+  "master_update": false,
+  "review": "review.md"
+}

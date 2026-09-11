@@ -1,0 +1,59 @@
+{
+  "master_version": "2.4",
+  "execution_version": "1.5",
+  "inputs": [
+    {
+      "index": 1,
+      "path": "refs/master01/composition_cutaway.png",
+      "role": "basic_block_and_two_front_cuts",
+      "inspected_in_conversation": true
+    },
+    {
+      "index": 2,
+      "path": "refs/master02/layout_two_exits.png",
+      "role": "two_rear_boundary_directions_and_connectivity",
+      "inspected_in_conversation": true
+    },
+    {
+      "index": 3,
+      "path": "refs/master03/ldi_10_storefront_style_anchor.png",
+      "role": "art_form_material_light_only",
+      "inspected_in_conversation": true
+    },
+    {
+      "index": 4,
+      "path": "refs/master04/world_02_heavy_mechanical_arms.png",
+      "role": "salvaged_machine_design_only",
+      "inspected_in_conversation": true
+    }
+  ],
+  "actual_submission": {
+    "mechanism": "referenced_image_paths",
+    "count": 4,
+    "status": "completed"
+  },
+  "other_generated_outputs_used": false,
+  "requested_native_resolution": [
+    3840,
+    2160
+  ],
+  "requested_aspect_ratio": "16:9",
+  "explicit_size_argument_available": false,
+  "explicit_model_argument_available": false,
+  "documented_rollout": "Images2.5 includes Codex per 2026-09-08 official announcement",
+  "per_call_model_snapshot": null,
+  "confirmed_latest_result_model": null,
+  "api_calls": 0,
+  "internal_rewrite": "unknown",
+  "prompt_path": "generation_prompt.md",
+  "prior_prompt_path": "outputs/20260911_090939_image2_vs_25_sunset/generation_prompt.md",
+  "only_prompt_change": "3:2 composition replaced with16:9 and native3840x2160 request",
+  "actual_resolution": [
+    1672,
+    941
+  ],
+  "resolution_request_met": false,
+  "prompt_sha256": "fd4c94bf6d7f1db1039ee92b1210c4f0c1901931c709558955e7a31d9f9032f3",
+  "prompt_characters": 5198,
+  "only_declared_prompt_change_verified": true
+}

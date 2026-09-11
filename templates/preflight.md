@@ -1,4 +1,4 @@
-# Preflight — masters v2.4 / execution v1.5
+# Preflight — masters v2.6 / execution v1.7
 
 This is a plan and submission check, not output QA. Use PLANNED / BLOCKED / UNKNOWN or N/A with a reason. Do not mark an unseen image correct. Resolve missing required inputs, contradictory instructions, unmapped requirements and prompt variables before calling the tool.
 
@@ -15,6 +15,7 @@ This is a plan and submission check, not output QA. Use PLANNED / BLOCKED / UNKN
 | Geometry01/02, art03 and world04 roles sufficiently represented; redundant images avoided and omissions explained | UNKNOWN | |
 | Each input index/role/exclusion mapped; art/world camera excluded without claiming enforced weights/masks | UNKNOWN | |
 | LDI supplement scope / M03-12 building-only exclusion respected | UNKNOWN | |
+| M03-10/default priority unchanged; B03-01~04 surface-only support separate from masters; generated B03-02~04 not automatic inputs or geometry/overall approvals | UNKNOWN | |
 | Requested final count / one scene per image / current aspect ratio supported | UNKNOWN | |
 | Independent new scenes, when requested: separate plan/prompt/input set and no other scene's output or correction as input | UNKNOWN | |
 | Own correction has own scene ID and parent run; corrections do not alter final requested count | UNKNOWN | |
@@ -33,6 +34,8 @@ Review brief.md's requirement-to-prompt-and-check ledger against the active mast
 | Every applicable01/02 structure constraint maps to prompt and planned/final check | UNKNOWN | |
 | Building entry/roof and nonbuilding exceptions map to prompt and W04/W05 checks | UNKNOWN | |
 | All03 art and04 world requirements map to prompt and relevant S/W checks | UNKNOWN | |
+| Positive broad-color-plane / sparse nearby-tone directional flat-brush clauses present; no blanket brushwork ban, including from M04 role exclusions | UNKNOWN | |
+| Surface color variation and wear separated; no fixed global brush size/coverage/tone count or inherited night/color/white-light/50%-wear condition | UNKNOWN | |
 | Current user additions/exclusions/count/independence/edit preservation map to appropriate prompt or execution check | UNKNOWN | |
 | Reference role exclusions map to actual input index and prompt role clause | UNKNOWN | |
 | N/A decisions justified; no UNMAPPED or CONFLICT remains | UNKNOWN | |
@@ -42,7 +45,7 @@ Review brief.md's requirement-to-prompt-and-check ledger against the active mast
 | Item | Status | Plan evidence and intended final check |
 |---|---|---|
 | Shared cubic space / square base / common XYZ and scale | UNKNOWN | |
-| Exactly one selected projection, explicit camera choice; no orthographic-style ambiguity or mixed test criteria | UNKNOWN | |
+| Final orthographic projection mandatory; one camera for all objects, parallel same-axis lines, no depth-based scaling, equal-depth base correspondence; rule overrides reference cameras | UNKNOWN | |
 | Top/bottom corner correspondence / vertical axes / constant extrusion / two planar cuts | UNKNOWN | |
 | Building footprint polygons/contact walls parallel to common X/Y axes, or building-free N/A | UNKNOWN | |
 | Roof planes/surfaces defined separately: slopes/ridges/valleys/eaves, wall joins and support | UNKNOWN | |
@@ -63,7 +66,9 @@ Review brief.md's requirement-to-prompt-and-check ledger against the active mast
 | Each building human-scale door/shutter with credible grounding; decorative/shared-exit role, closed allowed | UNKNOWN | |
 | Each building roof40~80% functional footprint plan, support/connections/remaining space; preserved height/framing/routes | UNKNOWN | |
 | Building entry/roof percentage exempt for nonbuildings; final2D coverage remains estimate/uncertain | UNKNOWN | |
-| Broad forms/color areas/selective damage/material differences; functional salvaged technology and place-wide repairs | UNKNOWN | |
+| Broad forms/base colors with selected broad directional flat strokes, surface-relative scale/space, and color variation on intact surfaces | UNKNOWN | |
+| Raised/wavy-glass/mosaic/all-over fine texture excluded; coherent large light-shadow masses, material differences and grounding readable | UNKNOWN | |
+| Selective damage separate from brushwork; functional salvaged technology and place-wide repairs | UNKNOWN | |
 | New architecture/paving/cutaway or explicit edit preservation; no unrelated prior scene carryover | UNKNOWN | |
 | Lighting/atmosphere preserve structural evidence; no unrequested figures/text/UI | UNKNOWN | |
 | Final actual-image line/footing/upper-lower/roof/route comparison planned; guide/AABB/prompt success cannot substitute | UNKNOWN | |

@@ -1,0 +1,12 @@
+{
+  "image": "reconstructed.png",
+  "dimensions": [
+    1448,
+    1086
+  ],
+  "status": "needs_revision",
+  "selected_final": false,
+  "backend": "builtin_imagegen",
+  "model_version": null,
+  "source": "C:\\Users\\Yeon Hee Kang\\.codex\\generated_images\\01a08867-7e38-7162-8368-5c8c0df7a0c0\\exec-2f1a71c6-9aaa-4b96-ad46-f198958b899f.png"
+}

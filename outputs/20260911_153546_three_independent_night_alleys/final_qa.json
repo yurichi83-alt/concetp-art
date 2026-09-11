@@ -1,0 +1,287 @@
+[
+  {
+    "title": "서쪽 기계 주택 골목",
+    "finalRel": "01_western_machine_house/reconstruction02",
+    "image": "final.png",
+    "source": "exec-911322a9-d775-4d3c-8090-0239bc784336.png",
+    "calls": 3,
+    "edges": {
+      "base_x_top": [
+        [
+          137,
+          626
+        ],
+        [
+          730,
+          912
+        ]
+      ],
+      "base_x_bottom": [
+        [
+          138,
+          706
+        ],
+        [
+          730,
+          993
+        ]
+      ],
+      "base_y_top": [
+        [
+          730,
+          912
+        ],
+        [
+          1315,
+          617
+        ]
+      ],
+      "base_y_bottom": [
+        [
+          730,
+          993
+        ],
+        [
+          1315,
+          700
+        ]
+      ],
+      "roof_a_level": [
+        [
+          258,
+          343
+        ],
+        [
+          381,
+          394
+        ]
+      ],
+      "roof_b_level": [
+        [
+          939,
+          313
+        ],
+        [
+          1035,
+          350
+        ]
+      ]
+    },
+    "exit": "좌측: A와 C 사이 뒤쪽 골목에 문짝이 옆으로 빠진 개구부와 바닥 연결이 보임. 우측: B 옆 열린 슬라이딩 철문, 중앙에서 접근하는 공간 확보. 계단 하부와 전봇대는 골목 출구를 가로막지 않음.",
+    "observations": "A의 펌프/발전 구조층 위 초록 집, 집 문까지 연결된 계단, B의 좁은 회색 건물과 세로 기계 모듈, C의3층(상부2개 창층+지상 출입층) 확인. 대형 쓰레기통과 굵은 고철링 외곽 배치. 의도했던 아스팔트가 넓은 포장판처럼 해석됐으며 색면은 비교적 조용함.",
+    "checks": {
+      "C01": "PASS",
+      "C02": "PASS",
+      "C03": "PASS",
+      "C04": "FAIL",
+      "L01": "PASS",
+      "L02": "PASS",
+      "L03": "PASS",
+      "L04": "PASS",
+      "L05": "PASS",
+      "L06": "NOT_APPLICABLE",
+      "L07": "UNCERTAIN",
+      "S01": "PASS",
+      "S02": "PASS",
+      "S03": "UNCERTAIN",
+      "S04": "PASS",
+      "W01": "PASS",
+      "W02": "PASS",
+      "W03": "PASS",
+      "W04": "PASS",
+      "W05": "UNCERTAIN",
+      "R01": "UNCERTAIN",
+      "R02": "PASS"
+    }
+  },
+  {
+    "title": "동쪽 발전 주택 골목",
+    "finalRel": "02_eastern_power_house/reconstruction02",
+    "image": "final.png",
+    "source": "exec-bc4cc851-000d-4480-844b-81a0ec244ae7.png",
+    "calls": 3,
+    "edges": {
+      "base_x_top": [
+        [
+          142,
+          659
+        ],
+        [
+          774,
+          887
+        ]
+      ],
+      "base_x_bottom": [
+        [
+          142,
+          734
+        ],
+        [
+          774,
+          969
+        ]
+      ],
+      "base_y_top": [
+        [
+          774,
+          887
+        ],
+        [
+          1315,
+          660
+        ]
+      ],
+      "base_y_bottom": [
+        [
+          774,
+          969
+        ],
+        [
+          1315,
+          734
+        ]
+      ],
+      "roof_a_level": [
+        [
+          770,
+          253
+        ],
+        [
+          1067,
+          339
+        ]
+      ],
+      "roof_c_level": [
+        [
+          259,
+          303
+        ],
+        [
+          444,
+          365
+        ]
+      ]
+    },
+    "exit": "좌측 계획 출구 쪽 철문은 닫힌 상태로 해석됨. 막힘없는 문 앞 공간은 있지만 열린 상태 프롬프트와 차이가 있음. 우측 A 기계층의 두 장치군 사이 통과 공간이 보이며, 그 뒤편 연결 전체는 일부 가려져 UNCERTAIN. 외부 계단은 오른쪽2개 비행과 중간참, 상층문 연결이 보임.",
+    "observations": "A는 오른쪽 파란 집 아래 발전/변전 설비층, B는 중앙 뒤 폭 좁은 적색 건물과 세로팬 모듈/서비스 배관, C는 왼쪽3층과 닫힌셔터. 대형쓰레기통/고철은 오른쪽 가장자리. 도로 큰색패치가 보이나 일부는 황색 벗겨짐/오염으로 읽힘. 옥상 장비량은 갖추되 면적을 정확히 검증하지 못함.",
+    "checks": {
+      "C01": "PASS",
+      "C02": "UNCERTAIN",
+      "C03": "PASS",
+      "C04": "FAIL",
+      "L01": "PASS",
+      "L02": "UNCERTAIN",
+      "L03": "UNCERTAIN",
+      "L04": "PASS",
+      "L05": "PASS",
+      "L06": "UNCERTAIN",
+      "L07": "UNCERTAIN",
+      "S01": "PASS",
+      "S02": "PASS",
+      "S03": "UNCERTAIN",
+      "S04": "PASS",
+      "W01": "PASS",
+      "W02": "PASS",
+      "W03": "PASS",
+      "W04": "PASS",
+      "W05": "UNCERTAIN",
+      "R01": "UNCERTAIN",
+      "R02": "PASS"
+    }
+  },
+  {
+    "title": "뒤쪽 압축기 주택 골목",
+    "finalRel": "03_rear_compressor_house/reconstruction01",
+    "image": "reconstructed.png",
+    "source": "exec-47a51666-e6df-4fc1-ace0-55b19a3fc6e3.png",
+    "calls": 2,
+    "edges": {
+      "base_x_top": [
+        [
+          24,
+          635
+        ],
+        [
+          705,
+          970
+        ]
+      ],
+      "base_x_bottom": [
+        [
+          24,
+          733
+        ],
+        [
+          705,
+          1066
+        ]
+      ],
+      "base_y_top": [
+        [
+          705,
+          970
+        ],
+        [
+          1421,
+          641
+        ]
+      ],
+      "base_y_bottom": [
+        [
+          705,
+          1066
+        ],
+        [
+          1421,
+          738
+        ]
+      ],
+      "roof_b_level": [
+        [
+          181,
+          241
+        ],
+        [
+          282,
+          279
+        ]
+      ],
+      "roof_c_level": [
+        [
+          916,
+          152
+        ],
+        [
+          1157,
+          259
+        ]
+      ]
+    },
+    "exit": "좌측 B와 A 사이 철망문은 닫혀 있어 열린 상태 요청과 차이. 접근부 바닥은 보이나 문 개방 후 폭과 실제 연결은 불확실. 오른쪽은 C 옆 바깥 통로로 생성되어 계획한 A/C 사이 위치와 다름; 불빛/바닥은 보이나 전환 전체는 가려짐. 뒤쪽 위치 변경 자체는 허용되지만 연결 검증은 UNCERTAIN.",
+    "observations": "A는 중앙뒤 압축기/기계1층과 박공2층 집, 전면 외부계단으로 문 연결. B는 왼쪽 좁은 자주색 건물과 큰 세로설비, C는 오른쪽3층과2개 발코니. 대형쓰레기통/고철은 오른쪽전면외곽. 큰 포장 단위/단색면 유지, 패치 일부가 여전히 도장박리로 읽힘.",
+    "checks": {
+      "C01": "PASS",
+      "C02": "PASS",
+      "C03": "PASS",
+      "C04": "FAIL",
+      "L01": "PASS",
+      "L02": "UNCERTAIN",
+      "L03": "UNCERTAIN",
+      "L04": "PASS",
+      "L05": "PASS",
+      "L06": "NOT_APPLICABLE",
+      "L07": "UNCERTAIN",
+      "S01": "PASS",
+      "S02": "PASS",
+      "S03": "UNCERTAIN",
+      "S04": "PASS",
+      "W01": "PASS",
+      "W02": "PASS",
+      "W03": "PASS",
+      "W04": "PASS",
+      "W05": "UNCERTAIN",
+      "R01": "UNCERTAIN",
+      "R02": "PASS"
+    }
+  }
+]

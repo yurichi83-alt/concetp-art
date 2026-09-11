@@ -1,0 +1,97 @@
+{
+  "scene_id": "01",
+  "projection": "single_orthographic_parallel",
+  "coordinate_frame": {
+    "x": "rear corner toward screen lower-right",
+    "y": "rear corner toward screen lower-left",
+    "z": "vertical",
+    "base": [
+      18,
+      18,
+      1.1
+    ]
+  },
+  "buildings": [
+    {
+      "id": "A",
+      "box": [
+        0.7,
+        7.8,
+        4.7,
+        13.4
+      ],
+      "h": 4.5
+    },
+    {
+      "id": "B",
+      "box": [
+        9,
+        0.6,
+        12,
+        4.6
+      ],
+      "h": 4.4
+    },
+    {
+      "id": "C",
+      "box": [
+        0.6,
+        0.6,
+        5,
+        3.9
+      ],
+      "h": 6.25
+    }
+  ],
+  "external_stair_footprint": [
+    4.8,
+    8.1,
+    6.2,
+    12.8
+  ],
+  "dumpster": [
+    1,
+    14.6,
+    3.6,
+    16.4
+  ],
+  "utility_pole": [
+    6.8,
+    13.8
+  ],
+  "exits": [
+    {
+      "side": "left",
+      "range": [
+        4.6,
+        7
+      ],
+      "box": [
+        0,
+        4.6,
+        7.5,
+        7
+      ],
+      "type": "open pedestrian alley between building C and building A; no overhead lintel"
+    },
+    {
+      "side": "right",
+      "range": [
+        13.5,
+        16
+      ],
+      "box": [
+        13.5,
+        0,
+        16,
+        8
+      ],
+      "type": "fully retracted sideways corrugated gate near the far right part of rear boundary"
+    }
+  ],
+  "exits_plan_note": "variation02 right exit intentionally traverses ground floor of A, protected void reserved between supports; other exit corridors avoid all building footprints.",
+  "roof_coverage_planned": "about half of each building roof, visually inspect actual outcome",
+  "measurements": "planning only, not verified 3D dimensions/collision",
+  "guide": "structure_guide.png",
+  "guide_submitted": false
+}

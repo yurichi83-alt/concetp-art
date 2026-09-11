@@ -1,0 +1,15 @@
+{
+  "projection": "coherent_weak_perspective",
+  "selected_before_generation": true,
+  "base": "square planar top,constant world depth",
+  "building": "joined unequal-wing L, orthogonal contact boundaries",
+  "central_space": "clear",
+  "exits": "one closed sliding gate per rear direction beyond wing ends; broad clear approach/turns; planned postclear passage and sliding pockets",
+  "props": "three separate peripheral bays for car,bike,snapped pole, outside protected routes",
+  "entry": "local door/shutter, not scene exit",
+  "roof_coverage": 0.55,
+  "sand_road_coverage": 0.6,
+  "sand_depth": "thin surface layer; exposed footing/outline strips",
+  "height_planned_max_m": 6.5,
+  "scene_design": "Independent joined L building with unequal wings, ochre masonry, faded sage/graphite cladding, stepped level roofs, human door and shutter into inner court. About55% roof coverage. Add CASSETTE FUTURISM to EVERY mechanical device and both vehicles: bulky removable cartridge modules, recessed analog gauges, tactile key banks, ribbed shells, smoked amber indicators, hinged service bays and chunky connectors. Diverse shapes: horizontal rounded pods, flat rack control banks, tall narrow consoles, broad vented boxes. Mix aged olive, brown, charcoal, warm-grey and limited ivory, avoid repeated white boxes/orange handles. Preserve salvaged repairs and functional connections; design car/motorcycle as analog retrofuturist machines, not modern cars with decals. Place each vehicle and snapped pole in separate peripheral bays, never in central space or exit routes. No green screens."
+}

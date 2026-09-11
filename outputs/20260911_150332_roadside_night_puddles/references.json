@@ -1,0 +1,38 @@
+{
+  "run_id": "20260911_150332_roadside_night_puddles",
+  "edit_target_parent_run": "20260911_145740_roadside_guardhouse_brush",
+  "masters_version": "2.5",
+  "execution_rules_version": "1.6",
+  "reference_catalog_revision": "2026-09-11-user-additions-02",
+  "delivery_status": "completed",
+  "delivery_mechanism": "referenced_image_paths",
+  "actual_submitted_image_count": 1,
+  "inspected_for_planning": [
+    {
+      "index": 1,
+      "path": "C:\\Users\\Yeon Hee Kang\\OneDrive\\문서\\Codex\\background-concept-art\\concetp-art\\outputs\\final\\20260911_145740__roadside_guardhouse_brush.png",
+      "role": "latest edit target: preserve all design and brushwork; night and two small puddles only",
+      "sha256": "f2a873b5553d3a55f119d6e0953ec1ccbe15c2fbc91c95f2f1a85cd77a6c1192"
+    }
+  ],
+  "submitted_to_generation": [
+    {
+      "index": 1,
+      "path": "C:\\Users\\Yeon Hee Kang\\OneDrive\\문서\\Codex\\background-concept-art\\concetp-art\\outputs\\final\\20260911_145740__roadside_guardhouse_brush.png",
+      "role": "latest edit target: preserve all design and brushwork; night and two small puddles only",
+      "sha256": "f2a873b5553d3a55f119d6e0953ec1ccbe15c2fbc91c95f2f1a85cd77a6c1192",
+      "status": "submitted"
+    }
+  ],
+  "submitted_prompt": {
+    "path": "generation_prompt.txt",
+    "character_count": 3087,
+    "returned_model_info": null,
+    "saved_text_matches_actual_argument": true
+  },
+  "scope": "Night lighting using existing white lamps and two small local puddles. Dry matte road otherwise, all prior design preserved. No master update.",
+  "tool_contract": {
+    "tool": "builtin image_gen.imagegen",
+    "model": "unknown"
+  }
+}

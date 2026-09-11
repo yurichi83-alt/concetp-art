@@ -1,0 +1,9 @@
+# Correction01 actual-image review — master2.5/execution1.6
+Source: desert_cylinder_night_corrected01.png; native1448x1086; viewed native.
+Overall needs_revision: C04 FAIL; C02 improved.
+Approximate native base corners: left upper(82,522), lower(82,610); front upper(724,917), lower(724,1007); right upper(1364,524), lower(1364,610). Vertical vectors88/90/86px are near endpoint reading uncertainty2–3px, not the prior11px front expansion. No universal pixel tolerance.
+Representative same-Y comparisons: base front→right upper(724,917)→(1364,524), slope-393/640=-.614; left building level wall-top(443,274)→(706,134), slope-140/263=-.532; its visible courtyard footing(443,467)→(703,333), slope-134/260=-.515. The3–4degree screen-direction difference is observable across long edges; not a claimed physical building rotation.
+Right building level courtyard wall-top(909,318)→(1129,437), slope119/220=.541 vs base left→front395/642=.615. Bases/roof line families remain inconsistent under mandatory shared orthographic camera.
+C01 framed; C03 basic flat straight square-block appearance; C02 improved but no blanket whole-camera PASS. L01–L04 central routes and two entrances remain accessible. Left entrance became hinged double doors, whose clear approach can accommodate opening but differs from planned upward retraction. L05/L07 must recheck with camera alignment; some side footing hidden by boxes. L06 N/A closed interiors.
+Two-storey + cylinder + attached one-storey, dry sand/cacti, mostly buried car and scrap present; grid removed. Roof equipment occupies roughly40–65% per building, visual estimate. No added functional exit. No master promotion.
+Next strategy: finish original guide in place; explicit shared30degree screen axes and unchanged framing rather than generic re-generation/re-projection. No generated failed image used as reference.

@@ -1,0 +1,186 @@
+{
+  "status": "needs_revision",
+  "structural_status": "needs_revision",
+  "actually_opened": true,
+  "native_size": [
+    1536,
+    1024
+  ],
+  "planned_projection": "orthographic_parallel",
+  "input_target": "C:/Users/Yeon Hee Kang/OneDrive/문서/Codex/background-concept-art/concetp-art/outputs/20260911_080215_l_building_sand_sunset/salvage_02/salvage_02.png",
+  "checks": {
+    "C01": "PASS: whole block/boundaries now framed",
+    "C02": "FAIL: upper/lower corresponding visible corner vectors do not match constant-depth parallel projection",
+    "C03": "PASS: straight outline, no clear curve; physical3D not certified",
+    "C04": "FAIL: level roof/base direction families remain nonparallel despite selected orthographic guide",
+    "L01": "PASS: two connected rear blocking directions",
+    "L02": "PASS: one closed gate per rear direction, other entries local",
+    "L03": "PASS: visible center and two approaches clear; postclear mechanism only planned",
+    "L04": "PASS: no tall center obstruction",
+    "L05": "PASS: visible supports and entry grounding",
+    "L06": "NOT_APPLICABLE: no exposed interior",
+    "L07": "UNCERTAIN: partly obscured footings; upper-edge error not evidence of physical3D footprint yaw",
+    "S01": "PASS: broad organized colors/selective repairs",
+    "S02": "PASS: periphery/roof detail, open center",
+    "S03": "PASS: stylized3D",
+    "S04": "UNCERTAIN: projection inconsistency limits reconstruction use",
+    "W01": "PASS: recovered active machinery",
+    "W02": "PASS: repaired aged materials",
+    "W03": "PASS: facade and rooftop machinery",
+    "W04": "PASS: human doors/shutters",
+    "W05": "PASS visual estimate: functional roof assemblies within broad40-80 target, exact area not certified",
+    "R01": "FAIL: exact requested orthographic conversion not achieved; scene keywords largely retained",
+    "R02": "NOT_APPLICABLE: explicit edit"
+  },
+  "manual_measurement": {
+    "origin": "top-left",
+    "units": "native pixels",
+    "error": "approximate manual endpoint reading, several pixels; cap and ground roughness noted; no universal tolerance",
+    "points": {
+      "left": [
+        163,
+        470
+      ],
+      "front": [
+        745,
+        854
+      ],
+      "right": [
+        1372,
+        480
+      ],
+      "lowerleft": [
+        164,
+        556
+      ],
+      "lowerfront": [
+        749,
+        954
+      ],
+      "lowerright": [
+        1372,
+        558
+      ],
+      "roof": [
+        [
+          751,
+          190
+        ],
+        [
+          1020,
+          326
+        ]
+      ],
+      "footing": [
+        [
+          752,
+          401
+        ],
+        [
+          1024,
+          532
+        ]
+      ]
+    },
+    "line_pairs": [
+      {
+        "feature": "base left top/lower",
+        "a": [
+          [
+            163,
+            470
+          ],
+          [
+            745,
+            854
+          ]
+        ],
+        "b": [
+          [
+            164,
+            556
+          ],
+          [
+            749,
+            954
+          ]
+        ]
+      },
+      {
+        "feature": "base right top/lower",
+        "a": [
+          [
+            745,
+            854
+          ],
+          [
+            1372,
+            480
+          ]
+        ],
+        "b": [
+          [
+            749,
+            954
+          ],
+          [
+            1372,
+            558
+          ]
+        ]
+      },
+      {
+        "feature": "level roof vs same-axis base",
+        "a": [
+          [
+            751,
+            190
+          ],
+          [
+            1020,
+            326
+          ]
+        ],
+        "b": [
+          [
+            163,
+            470
+          ],
+          [
+            745,
+            854
+          ]
+        ]
+      },
+      {
+        "feature": "visible footing vs level roof",
+        "a": [
+          [
+            752,
+            401
+          ],
+          [
+            1024,
+            532
+          ]
+        ],
+        "b": [
+          [
+            751,
+            190
+          ],
+          [
+            1020,
+            326
+          ]
+        ]
+      }
+    ],
+    "expected": "parallel same-world-axis lines at all elevations; identical base vertical screen vectors",
+    "finding": "Observed differences exceed endpoint ambiguity for selected roof/base pair. No posthoc perspective relabeling or claimed physical3D rotation."
+  },
+  "attempt_count": 2,
+  "stop_reason": "Projection mismatch repeated after text-only conversion and computed orthographic guide strategy; no supported hard camera constraint available in this workflow. Retain candid needs_revision rather than identical retries.",
+  "master_promoted": false,
+  "user_approved": false
+}

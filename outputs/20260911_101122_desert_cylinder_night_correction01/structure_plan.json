@@ -1,0 +1,175 @@
+{
+  "projection": "orthographic_parallel",
+  "camera": {
+    "formula": "screen=(800+(x-y)*33*sqrt(3)/2,270+(x+y)*33/2-z*33)",
+    "elevation_degrees": 35.26438968,
+    "azimuth_degrees": 45,
+    "scene_only": true
+  },
+  "base": {
+    "xy": [
+      [
+        0,
+        0
+      ],
+      [
+        20,
+        0
+      ],
+      [
+        20,
+        20
+      ],
+      [
+        0,
+        20
+      ]
+    ],
+    "top_z": 0,
+    "bottom_z": -2
+  },
+  "buildings": [
+    {
+      "id": "two_storey",
+      "footprint": [
+        [
+          0,
+          4
+        ],
+        [
+          4,
+          4
+        ],
+        [
+          4,
+          13
+        ],
+        [
+          0,
+          13
+        ]
+      ],
+      "height": 5.4,
+      "roof_equipment_z_max": 6.1,
+      "roof_coverage": 0.5666666666666667,
+      "entry": {
+        "x": 4,
+        "y": [
+          8.3,
+          10.7
+        ],
+        "role": "back_left_transition",
+        "state": "closed_upward_retracting",
+        "post_clear": "walk_into_building"
+      }
+    },
+    {
+      "id": "single_storey",
+      "footprint": [
+        [
+          10,
+          0
+        ],
+        [
+          17,
+          0
+        ],
+        [
+          17,
+          4
+        ],
+        [
+          10,
+          4
+        ]
+      ],
+      "height": 2.8,
+      "roof_equipment_z_max": 3.65,
+      "roof_coverage": 0.5785714285714285,
+      "entry": {
+        "y": 4,
+        "x": [
+          13.3,
+          15.7
+        ],
+        "role": "back_right_transition",
+        "state": "closed_upward_retracting",
+        "post_clear": "walk_into_building"
+      }
+    }
+  ],
+  "cylinder": {
+    "center": [
+      8,
+      2
+    ],
+    "radius": 2,
+    "height": 5.5,
+    "classification": "nonbuilding",
+    "attachment": "tangent to single-storey left wall at x10; short service collar"
+  },
+  "central_clear_region": [
+    [
+      5,
+      6
+    ],
+    [
+      15,
+      6
+    ],
+    [
+      15,
+      14
+    ],
+    [
+      5,
+      14
+    ]
+  ],
+  "routes": [
+    {
+      "exit": "left",
+      "xy_rectangle": [
+        4,
+        8.3,
+        10,
+        10.7
+      ]
+    },
+    {
+      "exit": "right",
+      "xy_rectangle": [
+        13.3,
+        4,
+        15.7,
+        10
+      ]
+    }
+  ],
+  "buried_car": {
+    "xy_bounds": [
+      2,
+      15.5,
+      6.2,
+      17.4
+    ],
+    "buried_fraction_target": 0.8,
+    "above_ground_height": 0.38
+  },
+  "buried_scrap": {
+    "xy_bounds": [
+      16.7,
+      11.5,
+      18.3,
+      14
+    ]
+  },
+  "plan_checks": {
+    "building_edges_orthogonal": true,
+    "roof_support_and_coverage_planned": true,
+    "tank_single_storey_tangent": true,
+    "clear_route_volumes_planned": true,
+    "geometry_image_lock_claim": false,
+    "final_image_checked": false
+  }
+}

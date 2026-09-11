@@ -1,0 +1,62 @@
+ M .agents/skills/game-env-art/SKILL.md
+ M .agents/skills/game-env-art/agents/openai.yaml
+ M AGENTS.md
+ M FIRST_MESSAGE.txt
+ M README_KO.md
+ M REFERENCE_INDEX.html
+ M START_HERE_KO.md
+ M docs/00_INDEX.md
+ M docs/01_COMPOSITION.md
+ M docs/02_LAYOUT.md
+ M docs/03_VISUAL_STYLE_V2.md
+ M docs/04_WORLD_DESIGN_V2.md
+ M docs/05_GENERATION_RULES.md
+ M docs/06_QA.md
+ M docs/08_COMMANDS.md
+ M docs/10_CURRENT_REFERENCES.md
+ M outputs/README.md
+ M project.json
+ M refs/REFERENCE_MAP.md
+ M refs/manifest.json
+ M scripts/validate_project.py
+ M state/CHANGELOG.md
+ M state/approvals.json
+ M templates/brief.md
+ M templates/generation_prompt.md
+ M templates/preflight.md
+ M templates/references.json
+ M templates/review.md
+?? outputs/20260911_080215_l_building_sand_sunset/
+?? outputs/20260911_083852_orthographic_edits/
+?? outputs/20260911_090939_image2_vs_25_sunset/
+?? outputs/20260911_093324_builtin_4k_sunset_test/
+?? outputs/20260911_095252_master_v2_5_update/
+?? outputs/20260911_101122_desert_cylinder_night/
+?? outputs/20260911_101122_desert_cylinder_night_correction01/
+?? outputs/20260911_101122_desert_cylinder_night_correction02/
+?? outputs/20260911_140151_reference_registration/
+?? outputs/20260911_141832_reference_registration/
+?? outputs/20260911_142553_roadside_shops_dawn/
+?? outputs/20260911_142553_roadside_shops_dawn_geometry/
+?? outputs/20260911_142553_roadside_shops_dawn_white_lighting/
+?? outputs/20260911_143917_roadside_painterly_color/
+?? outputs/20260911_144559_roadside_reduced_wear/
+?? outputs/20260911_145152_roadside_flat_matte_road/
+?? outputs/20260911_145740_roadside_guardhouse_brush/
+?? outputs/20260911_150332_roadside_night_puddles/
+?? outputs/20260911_152626_roadside_clean_planes_test/
+?? outputs/20260911_153546_three_independent_night_alleys/
+?? outputs/20260911_160940_master03_brush_reinforcement/
+?? outputs/20260911_reference_selection_audit/
+?? outputs/FINAL_INDEX.md
+?? outputs/final/
+?? outputs/final_manifest.json
+?? refs/master03/test_01.jpg
+?? refs/master03/test_02.jpg
+?? refs/master04/retro_futurism.png
+?? scripts/backfill_final_images_20260911.py
+?? scripts/collect_final_images.py
+?? state/history/20260911_095252_master_v2_5/
+?? state/history/20260911_140151_reference_registration/
+?? state/history/20260911_141832_reference_registration/
+?? state/history/20260911_160940_master03_brush_reinforcement/

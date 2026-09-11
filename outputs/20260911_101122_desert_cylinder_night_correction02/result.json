@@ -1,0 +1,31 @@
+{
+  "status": "delivered_test_needs_revision",
+  "qa_status": "needs_revision",
+  "saved_path": "desert_cylinder_night.png",
+  "backend": "builtin_image_gen",
+  "returned_model_info": null,
+  "actual_resolution": [
+    1448,
+    1086
+  ],
+  "actual_format": "PNG",
+  "actual_bytes": 1843063,
+  "sha256": "58b839c72dc22c15806034f70fc42228a8bb6adf78b8a4fca44852039d39ceec",
+  "resize_upscale_crop_applied": false,
+  "requested_final_count": 1,
+  "actual_generations_in_request": 3,
+  "structural_corrections": 2,
+  "pre_generation_validation_rejections": 1,
+  "api_calls": 0,
+  "stop_reason": "repeated_fault_without_new_corrective_strategy",
+  "remaining_faults": [
+    "C02 unequal base corner displacement vectors",
+    "C04 common orthographic projection mismatch",
+    "L05/L07 partial footing visibility uncertainty"
+  ],
+  "master_updated": false,
+  "final_collection_filename": "20260911_101122__desert_cylinder_night.png",
+  "review": "review.md",
+  "generation_prompt": "generation_prompt.txt",
+  "source_tool_file": "C:/Users/Yeon Hee Kang/.codex/generated_images/01a08867-7e38-7162-8368-5c8c0df7a0c0/exec-4db02479-38b3-41af-ab80-e27d748df60b.png"
+}

@@ -1,0 +1,18 @@
+{
+  "backend": "builtin_imagegen",
+  "initial_inputs": [
+    "C:/Users/Yeon Hee Kang/OneDrive/문서/Codex/background-concept-art/concetp-art/outputs/20260911_080215_l_building_sand_sunset/salvage_02/salvage_02.png"
+  ],
+  "final_inputs": [
+    "C:/Users/Yeon Hee Kang/OneDrive/문서/Codex/background-concept-art/concetp-art/outputs/20260911_083852_orthographic_edits/orthographic_guide.png",
+    "C:/Users/Yeon Hee Kang/OneDrive/문서/Codex/background-concept-art/concetp-art/outputs/20260911_080215_l_building_sand_sunset/salvage_02/salvage_02.png"
+  ],
+  "roles": [
+    "exact parallel-axis guide only, not hard geometry control",
+    "original content edit target; perspective must change"
+  ],
+  "final_input_count": 2,
+  "prompt": "generation_prompt.md",
+  "final_prompt": "correction_prompt.md",
+  "internal_model_tokens_rewrite": "unknown"
+}

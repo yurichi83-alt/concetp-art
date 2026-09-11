@@ -1,4 +1,4 @@
-# Image review — master v2.4 / execution v1.5
+# Image review — master v2.6 / execution v1.7
 
 - image_path_or_artifact:
 - native_image_size_px:
@@ -7,12 +7,12 @@
 - user_approval: none
 - structural_status: not_reviewed
 - art_world_request_status: not_reviewed
-- masters: v2.4
-- execution_rules: v1.5
-- further_generation_authorized: C01_to_C04_and_L01_to_L07_only_for_generation_requests (standing scope retained; final evidence strengthened by master_update_20260910_v2_4)
+- masters: v2.6
+- execution_rules: v1.7
+- further_generation_authorized: C01_to_C04_and_L01_to_L07_only_for_generation_requests (standing scope retained; final evidence strengthened by master_update_20260910_v2_4; orthographic required by master_update_20260911_v2_5)
 - structure_plan_path:
 - structure_plan_preflight_status: not_reviewed
-- planned_projection: SELECT orthographic_parallel OR coherent_weak_perspective
+- planned_projection: orthographic_parallel (mandatory for the final image)
 - final_projection_evidence_status: not_reviewed
 - structure_plan_and_actual_final_image_compared: false
 - structural_gate: any_FAIL_means_needs_revision; otherwise_critical_uncertainty_means_uncertain; all_applicable_final_checks_PASS_and_justified_NA_required
@@ -22,9 +22,9 @@
 | ID | PASS / FAIL / UNCERTAIN / NOT_REVIEWED / NOT_APPLICABLE | Visible evidence |
 |---|---|---|
 | C01 | NOT_REVIEWED | |
-| C02 | NOT_REVIEWED | Both cuts; upper/lower line pairs and corner correspondence vectors tested against the selected projection. Cite evidence rows. |
+| C02 | NOT_REVIEWED | Both cuts; upper/lower line pairs and corner correspondence vectors tested against the required orthographic projection. Cite evidence rows. |
 | C03 | NOT_REVIEWED | Basic plane/corners and visible outline geometry. Separate convex impression, visible line bending, and unverified physical 3D curvature. |
-| C04 | NOT_REVIEWED | Same-world-direction line pairs across base upper/lower edges, paving, footings, level wall tops/roof edges; selected projection and roof joins. Cite evidence rows. |
+| C04 | NOT_REVIEWED | Same-world-direction line pairs across base upper/lower edges, paving, footings, level wall tops/roof edges; required orthographic projection and roof joins. Cite evidence rows. |
 | L01 | NOT_REVIEWED | |
 | L02 | NOT_REVIEWED | Exactly two assigned functional exits toward rear-left/rear-right: position/type/shown state/post-clear connection/entrance-sharing. Count functions, not visible doors. |
 | L03 | NOT_REVIEWED | Both approaches: start, narrowest, turn, transition, opening clearance and state-appropriate/post-clear connection; object-volume intrusion. |
@@ -32,10 +32,10 @@
 | L05 | NOT_REVIEWED | Ground/foundation/walls/entrances/transition levels plus roof-wall joins and machinery support. Ambiguous roof structure is UNCERTAIN, not an intentional-shape PASS. |
 | L06 | NOT_REVIEWED | Interior entry/aisle/functional space and depth, or justified N/A. |
 | L07 | NOT_REVIEWED | Compare actual visible footings/player-contact walls with planned common-XY polygon edges. Occluded critical footing is UNCERTAIN; roof/awning/shadow alone cannot prove footprint rotation. Props/vehicles/round tanks exempt; building-free N/A needs reason. |
-| S01 | NOT_REVIEWED | |
-| S02 | NOT_REVIEWED | |
-| S03 | NOT_REVIEWED | |
-| S04 | NOT_REVIEWED | |
+| S01 | NOT_REVIEWED | Broad clean base-color areas with selected nearby-tone color variation, including intact surfaces; brushwork distinguished from rust/dirt/peeling. |
+| S02 | NOT_REVIEWED | Surface-relative broad stroke size, directional variation and open space; no all-over equal small marks or fixed global density. |
+| S03 | NOT_REVIEWED | Flat brushwork and coherent modeled volume coexist. Inspect raised relief, wavy/refractive-glass patterns, mosaic/fine noise, excessive stroke density or unreadable form. Brushwork itself is not a failure. |
+| S04 | NOT_REVIEWED | Large light-shadow masses preserve silhouette, thickness, grounding, mechanical joins and distinct material cues despite surface strokes. |
 | W01 | NOT_REVIEWED | |
 | W02 | NOT_REVIEWED | |
 | W03 | NOT_REVIEWED | |
@@ -45,6 +45,8 @@
 | R02 | NOT_REVIEWED | New location only; NOT_APPLICABLE for an explicit edit. |
 
 ## Measurement caveat
+Brush size, coverage and tone count have no universal numeric threshold. Judge observable surface organization and readability. B03-01~04 approve only color-plane/brushwork traits; generated B03-02~04 do not certify geometry, layout, exits or overall QA. Their night/palette/white lamps/damage quantity are not fixed checks. This surface update does not expand structural auto-correction scope.
+
 Height approximately <= 6.5m and collision clearance require 3D validation.
 Closed-state imagery does not visually prove a later opening animation or all hidden interior space. Distinguish visible evidence from the planned post-clear connection; do not require an exposed outside floor for every valid transition type.
 For future precise modeling, retain the fixed 3D blockout/camera as the geometry source and use generated 2D images as appearance/material/lighting guidance. This review does not authorize separate 3D production.
@@ -75,18 +77,18 @@ Use the actual native-resolution image, origin (0,0) at top-left, +x right, +y d
 
 Classify each line before comparing it: same-world-direction level edges, sloping roof line, ridge/eave, awning, shadow, or rotated nonbuilding feature. Quarter-view diagonals are normal; they must remain consistent for the same ground direction. Do not force pitched roof lines or sloping ridges/eaves into horizontal XY groups. Inspect their roof-plane/wall/support joins separately.
 
-For orthographic/parallel projection, compare parallelism across locations and heights. For coherent weak perspective, compare direction-specific vanishing points, a common horizon for horizontal directions, and depth-dependent scale. Do not impose equal screen angles/lengths on weak perspective, or relabel an orthographic-plan mismatch as perspective without evidence. Optional screen angles may use atan2(dy,dx), with method and reading error recorded; they are not measured 3D rotation angles. No universal angle/pixel tolerance is derived from one example.
+For the mandatory orthographic projection, compare parallelism across locations and heights and screen length of equal real lengths in the same 3D direction. Perspective convergence or depth-based scaling is FAIL even when coherent; do not relabel it as an acceptable alternative. Optional screen angles may use atan2(dy,dx), with method and reading error recorded; they are not measured 3D rotation angles. No universal angle/pixel tolerance is derived from one example.
 
 ## Upper/lower correspondence evidence
-For an orthographic base lowered by the same depth, corresponding vectors share screen direction and length. For weak perspective, test the correspondences and apparent thickness against the same camera/depth behavior rather than equal pixels.
+For the constant-depth orthographic base, corresponding upper/lower displacement vectors must share screen direction and length. Perspective-dependent apparent thickness is not an exemption.
 
-| Vector ID / QA IDs | Visible corresponding corner | Upper point (native x,y) | Lower point (native x,y) | Observed vector (dx,dy), optional length | Relation to other corners / selected projection | Status / occlusion / uncertainty |
+| Vector ID / QA IDs | Visible corresponding corner | Upper point (native x,y) | Lower point (native x,y) | Observed vector (dx,dy), optional length | Relation to other corners / required orthographic projection | Status / occlusion / uncertainty |
 |---|---|---|---|---|---|---|
 | V01 / C02,C03 | | | | | | NOT_REVIEWED |
 | V02 / C02,C03 | | | | | | NOT_REVIEWED |
 | V03 / C02,C03 | | | | | | NOT_REVIEWED |
 
-- Weak-perspective vanishing-point/horizon and depth evidence, if selected (state approximate or indeterminate; exact off-image VP calculation is not mandatory):
+- Observed perspective convergence/depth-based scaling violations, or insufficient evidence (C02/C04; no alternative perspective PASS):
 - Convex floor impression:
 - Observed straightness/bending of long outlines:
 - Projection/thickness correspondence and lighting/paving cues:

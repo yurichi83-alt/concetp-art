@@ -1,0 +1,55 @@
+{
+  "delivery_status": "completed",
+  "actual_submitted_image_count": 5,
+  "delivery_mechanism": "referenced_image_paths",
+  "submitted_to_generation": [
+    {
+      "index": 1,
+      "path": "C:\\Users\\Yeon Hee Kang\\OneDrive\\문서\\Codex\\background-concept-art\\concetp-art\\outputs\\20260911_153546_three_independent_night_alleys\\02_eastern_power_house\\reconstruction02\\wide_margin_guide.png",
+      "sha256": "80111c5e3f6c2cc6fcf73c53ee6767549253f91f727bc1c13fc239ce8057d80b",
+      "role": "new scene guide",
+      "status": "submitted"
+    },
+    {
+      "index": 2,
+      "path": "C:\\Users\\Yeon Hee Kang\\OneDrive\\문서\\Codex\\background-concept-art\\concetp-art\\refs\\master02\\layout_two_exits.png",
+      "sha256": "444031765bb112361022fb23f593f3d386907ccb2bd005353b0514ed2f588a26",
+      "role": "original master or user style reference",
+      "status": "submitted"
+    },
+    {
+      "index": 3,
+      "path": "C:\\Users\\Yeon Hee Kang\\OneDrive\\문서\\Codex\\background-concept-art\\concetp-art\\refs\\master03\\ldi_10_storefront_style_anchor.png",
+      "sha256": "c24fe55ad76c6c8bfbd88dee7059a09fd7a592dc60e5d4a6c7c0704f11f19345",
+      "role": "original master or user style reference",
+      "status": "submitted"
+    },
+    {
+      "index": 4,
+      "path": "C:\\Users\\Yeon Hee Kang\\OneDrive\\문서\\Codex\\background-concept-art\\concetp-art\\refs\\master04\\world_02_heavy_mechanical_arms.png",
+      "sha256": "a71042678c1898320a3d949d0108bde7e6f931c8f1bf8b316a057084be179a3b",
+      "role": "original master or user style reference",
+      "status": "submitted"
+    },
+    {
+      "index": 5,
+      "path": "C:\\Users\\Yeon Hee Kang\\OneDrive\\문서\\Codex\\background-concept-art\\concetp-art\\outputs\\20260911_153546_three_independent_night_alleys\\brush_light_reference.jpg",
+      "sha256": "1017bd1ab7a7a500601fdd74ab0d7e105f330aefc75ba9bba30461cbea5b7638",
+      "role": "original master or user style reference",
+      "status": "submitted"
+    }
+  ],
+  "previous_generated_images_used": false,
+  "sibling_generated_images_used": false,
+  "master_version": "2.5",
+  "temporary_style_override": "broad base planes with sparse large neighboring-tone pigment patches",
+  "master_updated": false,
+  "internal_model_version": null,
+  "reference_weights": null,
+  "submitted_prompt": {
+    "path": "generation_prompt.txt",
+    "character_count": 9663,
+    "utf8_bytes": 9669,
+    "saved_text_matches_actual_argument": true
+  }
+}
