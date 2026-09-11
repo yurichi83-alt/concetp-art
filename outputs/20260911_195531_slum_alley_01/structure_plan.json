@@ -1,0 +1,97 @@
+{
+  "projection": "orthographic_parallel",
+  "guide_basis_pixels": {
+    "x": [
+      32,
+      -16
+    ],
+    "y": [
+      -32,
+      -16
+    ],
+    "z": [
+      0,
+      -40
+    ]
+  },
+  "guide_origin": [
+    600,
+    870
+  ],
+  "base": [
+    0,
+    0,
+    16,
+    16,
+    -1.8,
+    0
+  ],
+  "boxes": [
+    [
+      "A",
+      [
+        4,
+        12,
+        8,
+        16,
+        0,
+        5.6
+      ]
+    ],
+    [
+      "B",
+      [
+        10,
+        11,
+        16,
+        16,
+        0,
+        2.8
+      ]
+    ],
+    [
+      "B_house",
+      [
+        13,
+        11,
+        16,
+        16,
+        2.8,
+        5.4
+      ]
+    ],
+    [
+      "C",
+      [
+        12,
+        4,
+        16,
+        8,
+        0,
+        2.8
+      ]
+    ]
+  ],
+  "rear_exit_intervals": [
+    [
+      "left",
+      0.8,
+      3.5
+    ],
+    [
+      "right",
+      0.7,
+      3.3
+    ]
+  ],
+  "design": "A occupies the back-left wing. B occupies the far rear corner: wide scrap workshop below, house over only its right half, open utility terrace to the left. C is on the right wing, with a squat recovered compressor-and-power-coupler frame BESIDE its inward end, staying in the perimeter strip. Left exit: open ground-level gap near the left end of the rear-left wall, with visible continuous paving into a narrow outward alley; no door swing, no overhead obstruction. Right exit: open ground-level gap near the right end of the rear-right wall beyond C, continuous outward paving and no obstruction. Both are clear from the center and bounded at their sides. Other rear gaps are closed solid boundary. Front cutaway: a shallow coarse masonry service foundation with one horizontal insulated coolant main on the left face, a sealed chunky power junction and cable tray on the right, solid sharp structural corners and no walkable tunnel.",
+  "central_reserved_xy": [
+    3.5,
+    3.5,
+    10.5,
+    10.5
+  ],
+  "roof_occupancy": "planned per building 40-80%, visual result estimate only",
+  "clearance": "planned human-scale; numeric dimensions/colliders require 3D validation",
+  "guide_limit": "2D drawn guide is not hard geometry control or validated 3D asset"
+}

@@ -1,0 +1,62 @@
+{
+  "actual_input_count": 5,
+  "actual_inputs": [
+    {
+      "order": 1,
+      "path": "/Users/hyojinnoh/Documents/Codex/GameConcept_Codex/outputs/20260911_195833_slum_alley_01_geometry_rebuild/structure_guide.png",
+      "relative_path": "outputs/20260911_195833_slum_alley_01_geometry_rebuild/structure_guide.png",
+      "sha256": "5a43a1a41b12712fcc1bedabb68f88fdd7834014a3ca63c0b96f69d376f2865f",
+      "role": "scene-specific orthographic geometry"
+    },
+    {
+      "order": 2,
+      "path": "/Users/hyojinnoh/Documents/Codex/GameConcept_Codex/refs/master02/layout_two_exits.png",
+      "relative_path": "refs/master02/layout_two_exits.png",
+      "sha256": "444031765bb112361022fb23f593f3d386907ccb2bd005353b0514ed2f588a26",
+      "role": "M02 connectivity only"
+    },
+    {
+      "order": 3,
+      "path": "/Users/hyojinnoh/Documents/Codex/GameConcept_Codex/refs/master03/ldi_10_storefront_style_anchor.png",
+      "relative_path": "refs/master03/ldi_10_storefront_style_anchor.png",
+      "sha256": "c24fe55ad76c6c8bfbd88dee7059a09fd7a592dc60e5d4a6c7c0704f11f19345",
+      "role": "M03 LDI architecture/material/light only"
+    },
+    {
+      "order": 4,
+      "path": "/Users/hyojinnoh/Documents/Codex/GameConcept_Codex/refs/master04/world_02_heavy_mechanical_arms.png",
+      "relative_path": "refs/master04/world_02_heavy_mechanical_arms.png",
+      "sha256": "a71042678c1898320a3d949d0108bde7e6f931c8f1bf8b316a057084be179a3b",
+      "role": "M04 functional recovered machinery only"
+    },
+    {
+      "order": 5,
+      "path": "/Users/hyojinnoh/Documents/Codex/GameConcept_Codex/refs/style_support/brush_planes_reference.jpg",
+      "relative_path": "refs/style_support/brush_planes_reference.jpg",
+      "sha256": "1017bd1ab7a7a500601fdd74ab0d7e105f330aefc75ba9bba30461cbea5b7638",
+      "role": "B03-01 flat surface brushwork only"
+    }
+  ],
+  "inspected_not_submitted": [
+    {
+      "id": "M01-01",
+      "path": "refs/master01/composition_cutaway.png",
+      "reason": "Five-path tool limit: replace source perspective composition image with new orthographic guide retaining M01 base/cuts/framing in text."
+    }
+  ],
+  "confirmed_contract": {
+    "tool": "image_gen.imagegen",
+    "referenced_image_paths_max": 5,
+    "evidence": "Actual previous validation error: referenced_image_paths must contain at most 5 paths",
+    "external_api": false
+  },
+  "unknown": [
+    "internal model name",
+    "internal tokens",
+    "revised prompt",
+    "numeric reference weights"
+  ],
+  "independent_variant": "01",
+  "prior_generated_images_submitted": false,
+  "parent_run": "outputs/20260911_195531_slum_alley_01"
+}

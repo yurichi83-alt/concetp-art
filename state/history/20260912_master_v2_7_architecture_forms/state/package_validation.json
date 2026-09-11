@@ -1,0 +1,11 @@
+{
+  "ok": true,
+  "root": "/Users/hyojinnoh/Documents/Codex/GameConcept_Codex",
+  "master_images": 24,
+  "review_only_images": 3,
+  "preferred_result_images": 2,
+  "agents_bytes": 4484,
+  "errors": [],
+  "warnings": [],
+  "scope": "Files only. No visual or Codex-runtime validation."
+}

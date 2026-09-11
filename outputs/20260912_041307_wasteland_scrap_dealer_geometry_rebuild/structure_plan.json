@@ -1,0 +1,284 @@
+{
+  "scene": "고철상 / 낮 / 황무지 / 한 장",
+  "masters_version": "2.7",
+  "execution_rules_version": "1.8",
+  "guide_role": "visual structure/form guide, not hard geometry control; labels/colors are guide-only",
+  "camera": {
+    "projection": "orthographic_parallel",
+    "canvas": [
+      1440,
+      1440
+    ],
+    "origin": [
+      720,
+      300
+    ],
+    "basis": {
+      "x": [
+        35,
+        20
+      ],
+      "y": [
+        -35,
+        20
+      ],
+      "z": [
+        0,
+        -40
+      ]
+    },
+    "scene_choice_not_global_default": true
+  },
+  "base": {
+    "x": [
+      0,
+      16
+    ],
+    "y": [
+      0,
+      16
+    ],
+    "top_z": 0,
+    "bottom_z": -2.5,
+    "visible_front_faces": [
+      "x=16",
+      "y=16"
+    ],
+    "sharp_square_planar": true
+  },
+  "buildings": [
+    {
+      "id": "workshop",
+      "footprint": {
+        "x": [
+          0.7,
+          4.8
+        ],
+        "y": [
+          2,
+          11.5
+        ]
+      },
+      "wall_z": 2.6,
+      "barrel_roof": {
+        "axis": "Y",
+        "apex_z": 4.0
+      },
+      "upper_office": {
+        "x": [
+          1.1,
+          3.85
+        ],
+        "y": [
+          2.3,
+          4.7
+        ],
+        "floor_z": 4.3,
+        "top_z": 5.8,
+        "support": "service platform and four visible wall-supported posts"
+      },
+      "entries": [
+        {
+          "face": "x+",
+          "y": [
+            6.3,
+            7.85
+          ],
+          "state": "closed human shutter",
+          "role": "decorative building entry, not map exit"
+        },
+        {
+          "face": "x+",
+          "y": [
+            9.3,
+            10.85
+          ],
+          "state": "closed human shutter",
+          "role": "decorative service entry"
+        }
+      ],
+      "external_stairs": {
+        "x": [
+          4.8,
+          6
+        ],
+        "y": [
+          1.7,
+          5
+        ],
+        "top_z": 4.3,
+        "form": "two compact switchback flights and rear landing; visual guide, not dimensional stair certification",
+        "role": "office access, not map exit"
+      },
+      "roof_functional_coverage": {
+        "target_fraction": 0.57,
+        "method": "nonoverlapping projected functional coverage across main roof; visual estimate only",
+        "rear_service_platform": {
+          "x": [
+            0.7,
+            4.8
+          ],
+          "y": [
+            2,
+            5.6
+          ],
+          "area": 14.76
+        },
+        "side_maintenance_canopy": {
+          "x": [
+            3.5,
+            4.8
+          ],
+          "y": [
+            5.6,
+            8.8
+          ],
+          "area": 4.16
+        },
+        "broad_exhaust_duct": {
+          "x": [
+            2.25,
+            3.05
+          ],
+          "y": [
+            8.8,
+            10.9
+          ],
+          "area": 1.68
+        },
+        "main_roof_plan_area": 38.95,
+        "planned_fraction": 0.529,
+        "office_roof_functional_cover_fraction": 0.52,
+        "support_connections": "rear platform posts, wall-supported maintenance canopy and duct saddles; raised functional weather/vent cover integrated with office roof, not paint",
+        "do_not_duplicate_machinery": true
+      }
+    }
+  ],
+  "nonbuilding_boundary_machine": {
+    "x": [
+      6.3,
+      11
+    ],
+    "y": [
+      0.3,
+      4
+    ],
+    "top_z": 3.8,
+    "role": "nonbuilding rotary sorter: exposed circular drum end, concentric rim, large toothed drive gear and separate projecting motor casing; no windows or human entrance; rear panels provide continuity",
+    "layout_adjustment": "main body starts at x6.3 within requested x5..11 zone to keep exterior stairs x4.8..6 clear; motor casing extends to x11.4, short of right path x11.8"
+  },
+  "rear_boundaries": {
+    "x0": {
+      "closed_y_intervals": [
+        [
+          0,
+          12
+        ],
+        [
+          14.5,
+          16
+        ]
+      ],
+      "height": 2.65
+    },
+    "y0": {
+      "closed_x_intervals": [
+        [
+          0,
+          11.8
+        ],
+        [
+          14.3,
+          16
+        ]
+      ],
+      "height": 2.8
+    },
+    "corner_connection": "panels overlap at rear corner, no third gap"
+  },
+  "functional_exits": [
+    {
+      "id": "A",
+      "direction": "back_left/x0/about11oclock",
+      "boundary_interval_y": [
+        12,
+        14.5
+      ],
+      "state": "open",
+      "form": "delivery floor entrance",
+      "approach": {
+        "x": [
+          0,
+          7
+        ],
+        "y": [
+          12,
+          14.5
+        ]
+      },
+      "post_clear_connection": "same unobstructed flat passage beyond x0",
+      "not_a_building_entry": true
+    },
+    {
+      "id": "B",
+      "direction": "back_right/y0/about1oclock",
+      "boundary_interval_x": [
+        11.8,
+        14.3
+      ],
+      "state": "open",
+      "form": "straight path under deep equipment service deck",
+      "clear_head_z": 3.2,
+      "deck": {
+        "x": [
+          11.35,
+          14.75
+        ],
+        "y": [
+          0.35,
+          2.5
+        ],
+        "underside_z": 3.2,
+        "top_z": 3.55
+      },
+      "connection_to_sorter": "supported beam at x10.65..11.8,y1.15..1.65,z3.2..3.55 outside walking corridor",
+      "approach": {
+        "x": [
+          11.8,
+          14.3
+        ],
+        "y": [
+          0,
+          10
+        ]
+      },
+      "pillars": "four posts, x11.35..11.8 and14.3..14.75 at y0.35..0.8 and2.05..2.5, outside corridor",
+      "post_clear_connection": "same straight passage beyond y0"
+    }
+  ],
+  "central_clear_region": {
+    "x": [
+      6.2,
+      14.3
+    ],
+    "y": [
+      6,
+      14.5
+    ],
+    "connected_to_both_exits": true,
+    "props": "none in central/routes; scene-specific salvage only outside walking regions"
+  },
+  "cutaway_design": "two front planar faces; large ground layers, foundations, a few coarse functional utility forms; no underground third route",
+  "visual_checks": [
+    "whole base and front corners visible",
+    "same-axis straight lines parallel",
+    "constant-depth top/bottom vectors",
+    "building footings and straight storey lines compare to base",
+    "barrel/rounded tangents separate",
+    "two visibly continuous rear boundaries and exactly two exits",
+    "closed workshop shutters not additional map transitions"
+  ],
+  "actual_collision_mesh_uv_validation_required": false,
+  "plan_is_not_final_image_pass": true,
+  "final_png_review_required": true
+}

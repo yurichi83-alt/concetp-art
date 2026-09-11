@@ -1,0 +1,112 @@
+{
+  "projection": "orthographic_parallel",
+  "guide_pixel_basis": {
+    "X": [
+      35,
+      -17.5
+    ],
+    "Y": [
+      -35,
+      -17.5
+    ],
+    "Z": [
+      0,
+      -42
+    ]
+  },
+  "base_square_size": 14,
+  "base_depth": 1.4,
+  "planned_height_ceiling": 6.5,
+  "units": "planning metres only, not 3D/collider verified",
+  "A_rounded_ground_bbox": [
+    9,
+    9.5,
+    13.8,
+    13.8
+  ],
+  "A_corner_radius": 0.65,
+  "A_floor_heights": [
+    0,
+    2.6,
+    5.2
+  ],
+  "A_machinery_target_per_visible_storey": [
+    0.4,
+    0.2
+  ],
+  "B_ground_polygon": [
+    [
+      1,
+      9
+    ],
+    [
+      7,
+      9
+    ],
+    [
+      7,
+      12
+    ],
+    [
+      5,
+      12
+    ],
+    [
+      5,
+      14
+    ],
+    [
+      1,
+      14
+    ]
+  ],
+  "B_upper_house_bounds": [
+    1,
+    10.75,
+    5,
+    14
+  ],
+  "B_ground_area": 26,
+  "B_upper_area": 13,
+  "C_bounds": [
+    9.5,
+    2.8,
+    13.8,
+    5.8
+  ],
+  "C_single_storey": true,
+  "nonbuilding_mechanical_bounds": [
+    7.7,
+    3.6,
+    9.5,
+    5.8
+  ],
+  "exits": [
+    {
+      "direction": "rear_left",
+      "form": "B workshop shutter",
+      "state": "closed intentional",
+      "opening": "vertical roller travel",
+      "connection": "through B to rear-left district",
+      "building_entry_role": "B shares designated exit",
+      "clearance": "free apron; interior beyond closed shutter not exposed"
+    },
+    {
+      "direction": "rear_right",
+      "form": "service ramp",
+      "state": "open",
+      "connection": "descend along X into rear-right service facility",
+      "clearance": "center approach, slope, landing and overhead volume clear"
+    }
+  ],
+  "center_protection": "connected clear central court, no objects on approach/turning/headroom volumes",
+  "roof_scope": "40-80% each roof; built functional roof modules count, plain roof/paint/shadow do not",
+  "scene_design": "Variant design: A stands at the rear RIGHT, a two-storey rounded reclaimed power-station/residential hybrid. A's lower street-facing bow wall genuinely curves down to the ground, with broad curved replaceable armor around a recessed generator/control spine covering approximately40% of the lower facade; a straight recessed door remains visible. The second-storey residence steps back on one side and projects on broad brackets on the other, with a curved deep window bay and a single substantial enclosed service duct around20% of that facade. Short straight service ledges and guardrails at only the recessed base corners visually explain a simple rectangular collision approximation while the rounded ground wall remains apparent. Its roof is a low barrel profile with a long supported ventilation monitor and maintenance strip around half the roof, no solar-panel/tank kit.\nB stands at the rear LEFT. Its workshop ground plan is L-shaped, with a wider front work wing and a recessed rear side. A half-area upper house occupies the outer part; use a patched asymmetrical single-pitch roof with a broad supported ventilation dormer and repair/drying canopy covering roughly half of its roof. A visible external stair beside the workshop connects to the house door and terrace; it is residential access, not a third map transition. Show the old workshop structure and differently sourced lightweight upper house as two construction episodes. A low roof service canopy and the upper dwelling purposefully occupy the lower roof, with open terrace space. The scrap stock stays against the workshop side.\nC sits along the RIGHT wing nearer the foreground but does not hide the front base. It is a long LOW barrel-roof repair shed with a grounded human door and curved roof ribs, an integrated longitudinal vent hood and supported maintenance cradle occupying around half the roof. BESIDE C on its inward side is a reclaimed compressor / heavy coupling frame of broad cylinders and repaired cast housings, visibly grounded and connected to C; this is nonbuilding machinery. Use a separate solid equipment body and short railing toward the rear-right ramp to form its side enclosure.\nLEFT functional transition: B's main grounded workshop roller shutter is the designated rear-left map exit, SHOWN CLOSED with a clear door apron and unobstructed vertical shutter travel; it leads through the workshop into the next rear-left district when raised. No extra freestanding gate on this side, no need to expose B's entire interior. RIGHT functional transition: a clearly visible X-axis-aligned short descending SERVICE RAMP between C and A, leading toward the rear-right edge into an underground service portal integrated with machinery/retaining sides. Its approach from the center, sloping floor, landing and destination mouth must read; not a front-cut tunnel. No machinery in the ramp volume.\nOther rear stretches use anchored salvaged transformer bodies / solid scrap storage frames with short fences connecting to the buildings, not a continuous perimeter masonry wall. Front foundation: large layered brick/concrete footings with one broad insulated cooling manifold on the left cut, thick segmented electrical conduit with a sealed coupling on the right; keep original planar cuts and sharp top/bottom corner correspondence. The center is a modest clear dry service court enclosed by these distinct silhouettes, not three detached boxes around a vast empty square.\nForm sources: INPUT4 is attachment2, for large rounded architectural shells and a recessed middle / horizontal circulation contrast. INPUT5 is attachment5, for the lived-in external stair, add-on house, varied roof/awning profile and construction layers. Reinterpret both in low two-storey scale.",
+  "trial_override": {
+    "source": "current explicit user request 2026-09-12",
+    "curved_ground_buildings_allowed": true,
+    "condition": "must visually accommodate simple orthogonal collision without empty-looking blocked pockets or wall penetration",
+    "permanent_master_update": false
+  },
+  "guide_limit": "2D site footprint projection only; not a 3D scene, collision asset, depth control or forced generation geometry"
+}

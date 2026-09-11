@@ -1,8 +1,8 @@
 {
   "project_name": "GameConcept_Codex",
-  "package_version": "1.6.0",
-  "master_version": "2.6",
-  "execution_rules_version": "1.7",
+  "package_version": "1.7.0",
+  "master_version": "2.7",
+  "execution_rules_version": "1.8",
   "created_date": "2026-09-09",
   "purpose": "Keyword-driven game environment concept images. Not an app-development task.",
   "primary_language": "ko",
@@ -47,7 +47,7 @@
     "M04-04",
     "M04-08"
   ],
-  "generation_reference_selection": "Masters 01-04 v2.6: preserve the original 19 and 5 scoped LDI architectural supplements, plus 3 user-added optional references (27 master images). Select a small role-labeled set; for a new scene balance composition/layout, architectural rendering and a Master04 world-design image before redundant style images or generated-result examples. M03-10 remains representative; select an additional scene-relevant LDI supplement when capacity allows. Consult docs/05_GENERATION_RULES.md for tool limits and scoped result reuse. M01/M02 govern basic geometry, mandatory single orthographic projection, perpendicular boundaries and continuous walking volumes. Compare final art to a scene-specific structure guide. M02 supplies functional direction/connectivity, not fixed gate locations; building ground footprints are orthogonal and roof planes are validated separately. The mandatory orthographic rule overrides every reference camera including M01; geometry references govern base/framing/connectivity; art and world references exclude their own camera/layout. A supplied guide is a visual cue, not a hard geometric constraint. M03-16/M03-17/M04-08 are scoped optional masters. Explicit filename/ID selection applies to the current request; registration alone does not change global priorities, the LDI rendering baseline or Salvage Cyberpunk world, or mandate cassette futurism in every image. Apply Master03 v2.2 clean broad planes and sparse broad flat directional brushwork even on intact surfaces. B03-01 is optional surface-only support, never a new global priority; B03-02/03/04 are approved surface comparison examples, not automatic generation inputs or geometry anchors. Record the actual inputs and their assigned roles.",
+  "generation_reference_selection": "Masters 01-04 v2.7: preserve the original 19 and 5 scoped LDI architectural supplements, plus 3 user-added optional references (27 master images). Select a small role-labeled set; for a new scene balance composition/layout, architectural rendering and a Master04 world-design image before redundant style images or generated-result examples. M03-10 remains representative; select an additional scene-relevant LDI supplement when capacity allows. Consult docs/05_GENERATION_RULES.md for tool limits and scoped result reuse. M01/M02 govern basic geometry, mandatory single orthographic projection, perpendicular boundaries and continuous walking volumes. Compare final art to a scene-specific structure guide. M02 supplies functional direction/connectivity, not fixed gate locations; main straight building structure follows common XY axes; grounded curved walls are allowed with clear visual boundaries; roof surfaces and curve tangents are inspected separately. The mandatory orthographic rule overrides every reference camera including M01; geometry references govern base/framing/connectivity; art and world references exclude their own camera/layout. A supplied guide is a visual cue, not a hard geometric constraint. M03-16/M03-17/M04-08 are scoped optional masters. Explicit filename/ID selection applies to the current request; registration alone does not change global priorities, the LDI rendering baseline or Salvage Cyberpunk world, or mandate cassette futurism in every image. Apply Master03 v2.2 clean broad planes and sparse broad flat directional brushwork even on intact surfaces. B03-01 is optional surface-only support, never a new global priority; B03-02/03/04 are approved surface comparison examples, not automatic generation inputs or geometry anchors. Record the actual inputs and their assigned roles. F-01~07 are optional large-form/facade-depth references, not camera or rendering references; do not submit all seven by default. F-08~11 are form comparison examples only, not automatic generation inputs; preserve their needs_revision QA and do not promote their geometry.",
   "immutable_reference_images": true,
   "not_a_codex_runtime_config": true,
   "limits": "Reference instructions guide image generation but do not guarantee geometry. Original master style/world must not be changed by interpreting a preferred example as replacement.",
@@ -109,12 +109,13 @@
       "file_organization"
     ],
     "pass_gate": "All applicable structural checks including mandatory final orthographic projection PASS; any FAIL => needs_revision; critical uncertainty => uncertain.",
-    "global_geometry_fault_strategy": "Rebuild common structure without preserving faulty geometry; zoom-out alone is not geometry correction.",
+    "global_geometry_fault_strategy": "Rebuild common structure without preserving faulty geometry; zoom-out alone is not geometry correction. Retain the intended large-form design (curves, projections, L wings and mechanical storeys) while rebuilding its common projection; do not flatten every design into boxes.",
     "evidence_reinforcement_approval_id": "master_update_20260910_v2_4",
-    "projection_approval_id": "master_update_20260911_v2_5"
+    "projection_approval_id": "master_update_20260911_v2_5",
+    "form_approval_id": "master_update_20260912_v2_7_architecture_forms"
   },
-  "master_update_approval_id": "master_update_20260911_v2_6_brush_planes",
-  "scene_interpretation": "New location keywords redesign building function, masses, layout, paving and subsurface infrastructure under unchanged spatial constraints; do not inherit prior scene-only props, weather or the same cutaway design. Explicit edits preserve the requested aspects of their target.",
+  "master_update_approval_id": "master_update_20260912_v2_7_architecture_forms",
+  "scene_interpretation": "New location keywords redesign building function, masses, layout, paving and subsurface infrastructure under unchanged spatial constraints; do not inherit prior scene-only props, weather or the same cutaway design. Explicit edits preserve the requested aspects of their target. Interpret city, alley, market by distinct building purposes, silhouettes/depth and street relationships. L shape, second-storey machinery, 40%/20%, half-size upper home, building counts, poles/cars, lighting/palette are current-request values only. Two outputs require independently designed visible forms and layout, not just mirrors or recoloring; no fixed variation count.",
   "approved_ldi_supplement_ids": [
     "M03-11",
     "M03-12",
@@ -183,7 +184,7 @@
       "allowed_use": "Surface treatment comparison only; preserve original needs_revision QA and exclude layout/geometry from approval."
     }
   ],
-  "updated_date": "2026-09-11",
+  "updated_date": "2026-09-12",
   "geometry_policy": {
     "approval_id": "master_update_20260910_v2_3",
     "spatial_frame": "single cubic virtual space with shared XYZ axes and scale",
@@ -198,20 +199,23 @@
     "routes": "reserve approach and post-clear/open-state passage volume to each transition; planned lock is distinct from accidental obstruction",
     "interior": "when applicable, room depth and entry-to-functional-space circulation",
     "workflow": [
-      "Record mandatory single orthographic camera; shared-coordinate building footprints and separate roof/support plan",
-      "Check orthogonal polygon edges, base corners, grounding and route volumes; plan visible evidence",
+      "Record mandatory single orthographic camera; shared-coordinate large forms, facade depth, straight/curved ground boundaries and separate roof/support plan",
+      "Check common axes for straight structure, coherent curves, unchanged square base corners, grounding and visually continuous routes; plan visible evidence",
       "Assign two functional exit roles, positions, forms, states and post-clear connections",
       "Compile requirement-covered prompt and transmit role-labeled guide/reference inputs",
       "Inspect actual final image parallel same-world-axis line families, depth-invariant scale and constant-depth corner vectors under orthographic projection, then traversal and art"
     ],
     "numeric_clearance_requires_3d_validation": true,
-    "building_footprints": "common XY-axis orthogonal ground footprint and player-contact walls; L/T/U and right-angle setbacks permitted; no diagonal/chamfered/curved building traversal boundary",
+    "building_footprints": "Main arrangement and straight structural segments follow common XY axes. Rounded ground corners, curved facades and rounded machine-like buildings are allowed with readable grounding and walking/blocking boundaries. No arbitrary oblique building rotation, ambiguous wedge gaps or implausible joints. Curve tangents are distinct from level axis lines; do not wrap every curved building in a rectangular plinth or impose curve counts/radii.",
     "prop_shape_exception": "tanks/vehicles/props may be curved or rotated; same camera, grounding and clear exit routes required",
     "roof_geometry": "varied roof profiles allowed; explicit plane/surface joins, wall-top alignment and supported equipment; uncertainty is not PASS",
     "review_reinforcement_approval_id": "master_update_20260910_v2_4",
     "required_final_projection": "orthographic_parallel",
     "projection_approval_id": "master_update_20260911_v2_5",
-    "reference_camera_priority": "Mandatory orthographic projection overrides all reference cameras, including M01; preserve assigned structure/art/world roles."
+    "reference_camera_priority": "Mandatory orthographic projection overrides all reference cameras, including M01; preserve assigned structure/art/world roles.",
+    "architecture_form_approval_id": "master_update_20260912_v2_7_architecture_forms",
+    "current_concept_collision_validation_required": false,
+    "collision_scope": "Actual collider/mesh/UV construction and validation belong to a separately requested later 3D task. Their absence does not fail or hold current concept art; inspect visible grounding, support, boundary clarity and walking continuity."
   },
   "architectural_design_policy": {
     "approval_id": "architecture_entrances_roofs_20260910",
@@ -239,16 +243,25 @@
         "plain_roof_surface"
       ],
       "final_image_measure": "visual_estimate_or_uncertain_not_exact_metric_validation",
-      "applies_to": "buildings only; do not impose roof occupancy on tanks/vehicles"
+      "applies_to": "buildings only; do not impose roof occupancy on tanks/vehicles",
+      "mechanical_storey_application": "Keep per-building functional roof composition at 40–80%, distinct from requested facade/storey machinery proportions. Choose supported useful elements; do not add redundant machinery above a machinery storey merely to satisfy coverage, or repeat the same tanks/panels."
     },
     "qa_ids": [
       "W04",
       "W05"
     ],
     "structural_auto_correction_scope_changed": false,
-    "role_scope_clarification_approval_id": "master_update_20260910_v2_3"
+    "role_scope_clarification_approval_id": "master_update_20260910_v2_3",
+    "form_approval_id": "master_update_20260912_v2_7_architecture_forms",
+    "design_order": [
+      "large_masses_and_silhouettes",
+      "facade_depth_and_functional_spaces",
+      "surface_depiction"
+    ],
+    "form_options": "Choose purpose-driven L/T/U wings, unequal widths/heights, setbacks/projections, deep openings, stairs, balconies, decks, supported curved housings and roof profiles. Use only suitable choices; no mandatory feature bundle or fixed number of variants.",
+    "mechanical_storey": "When requested or functionally appropriate, machinery may form a cladding shell, frame, plant annex or an entire nonhabitable storey. A mechanical second storey is that storey itself, not a residential second storey plus rooftop props. Ground-level human access remains building-specific."
   },
-  "architectural_design_revision": "2026-09-10-entrances-roofs",
+  "architectural_design_revision": "2026-09-12-architecture-forms",
   "functional_exit_policy": {
     "approval_id": "master_update_20260910_v2_3",
     "count": 2,
@@ -263,12 +276,15 @@
       "alley",
       "facility_passage",
       "stairs",
-      "underground_parking_ramp"
+      "underground_parking_ramp",
+      "passage_between_or_below_equipment"
     ],
     "state": "record pre-clear locked or post-clear open; preserve approach, opening clearance and usable post-clear connection",
     "building_entry_may_double_as_exit": true,
     "count_by": "assigned traversal function, not visible door count",
-    "front_cutaway_is_not_third_exit": true
+    "front_cutaway_is_not_third_exit": true,
+    "form_approval_id": "master_update_20260912_v2_7_architecture_forms",
+    "accidental_obstruction": "Do not retroactively label a fence/stock blocking a planned open route as an intended locked exit."
   },
   "boundary_object_policy": {
     "approval_id": "master_update_20260910_v2_3",
@@ -284,7 +300,8 @@
       "debris",
       "terrain"
     ],
-    "requirements": "readable blocking role along two rear directions; no unintended third route; protect center and designated exits"
+    "requirements": "readable blocking role along two rear directions; no unintended third route; protect center and designated exits; use legible connected blocking masses, not tiny low props; buildings are optional boundary carriers. Maintain central combat space with scene-appropriate street widths, not the same oversized empty courtyard everywhere.",
+    "form_approval_id": "master_update_20260912_v2_7_architecture_forms"
   },
   "generation_prompt_template": "templates/generation_prompt.md",
   "execution_prompt_policy": {
@@ -303,17 +320,20 @@
     "approval_id": "master_update_20260910_v2_4",
     "actual_image_required": true,
     "plan_is_not_final_evidence": true,
-    "parallel_projection": "Compare same-world-axis line families across base top/bottom, paving, building footings, wall tops and level roof edges. Corresponding top/bottom corner displacement vectors of a constant-depth base must agree. Equal actual lengths in the same 3D direction retain screen length at every depth.",
+    "parallel_projection": "Compare same-world-axis line families across base top/bottom, paving, building footings, wall tops and level roof edges. Corresponding top/bottom corner displacement vectors of a constant-depth base must agree. Equal actual lengths in the same 3D direction retain screen length at every depth. Also compare footings, floor edges, shutter horizontal lines, terrace beams and upper walls against matching ground-axis lines; internally coherent building lines can still contradict the scene camera.",
     "no_posthoc_projection_switch_to_pass": true,
     "universal_screen_angle_or_pixel_threshold": null,
     "observations": "Record native image dimensions, line endpoints, world-axis assignment, visibility, uncertainty and justified verdict; screen-angle differences are not measured 3D rotation.",
     "occlusion": "Critical hidden footing/corner evidence remains UNCERTAIN. Prefer legible ground contacts when planning.",
-    "exclude_false_matches": "Do not compare sloped roofs, awnings, shadows or rotated/curved props as if they were level building-axis edges.",
+    "exclude_false_matches": "Distinguish true horizontal straight structural edges from roof slopes, awnings, shadows, rotated props and curved-building tangent lines. Partial occlusion alone does not prove building rotation or wall tilt.",
     "reassessments": "Preserve prior outputs and reviews; a new evidenced review supersedes a prior PASS. Failed or uncertain geometry is not a positive geometry reference.",
     "future_modeling": "For exact geometry, separately retain a validated 3D blockout and camera as the authority. A 2D guide or coordinate JSON does not constrain the image generator as a geometry engine.",
     "projection_approval_id": "master_update_20260911_v2_5",
     "required_final_projection": "orthographic_parallel",
-    "perspective_result_policy": "FAIL when perspective convergence or depth-based scaling contradicts orthographic projection, even if perspective is coherent; missing critical evidence is UNCERTAIN."
+    "perspective_result_policy": "FAIL when perspective convergence or depth-based scaling contradicts orthographic projection, even if perspective is coherent; missing critical evidence is UNCERTAIN.",
+    "form_approval_id": "master_update_20260912_v2_7_architecture_forms",
+    "collision_mesh_uv_validation_required": false,
+    "collision_mesh_uv_scope": "Actual collider/mesh/UV construction and validation belong to a separately requested later 3D task. Their absence does not fail or hold current concept art; inspect visible grounding, support, boundary clarity and walking continuity."
   },
   "tool_input_evidence_policy": {
     "approval_id": "master_update_20260910_v2_4",
@@ -336,8 +356,8 @@
       "role": "diagnostic_only; supersedes prior candidate_pass without rewriting original records"
     }
   ],
-  "reference_catalog_revision": "2026-09-11-brush-support-01",
-  "reference_catalog_approval_id": "master_update_20260911_v2_6_brush_planes",
+  "reference_catalog_revision": "2026-09-12-architecture-form-01",
+  "reference_catalog_approval_id": "master_update_20260912_v2_7_architecture_forms",
   "approved_user_added_reference_ids": [
     "M03-16",
     "M04-08",
@@ -389,5 +409,44 @@
     ],
     "geometry_approval_from_examples": false,
     "auto_regeneration_scope_changed": false
+  },
+  "optional_architecture_form_ids": [
+    "F-01",
+    "F-02",
+    "F-03",
+    "F-04",
+    "F-05",
+    "F-06",
+    "F-07"
+  ],
+  "approved_architecture_example_ids": [
+    "F-08",
+    "F-09",
+    "F-10",
+    "F-11"
+  ],
+  "architecture_form_policy": {
+    "approval_id": "master_update_20260912_v2_7_architecture_forms",
+    "reference": "docs/10_CURRENT_REFERENCES.md",
+    "optional_inputs": [
+      "F-01",
+      "F-02",
+      "F-03",
+      "F-04",
+      "F-05",
+      "F-06",
+      "F-07"
+    ],
+    "comparison_only_examples": [
+      "F-08",
+      "F-09",
+      "F-10",
+      "F-11"
+    ],
+    "approved_scope": "large building forms, facade depth, purposeful reuse and structural machinery; preserve 01/02 geometry and 03/04 art/world roles",
+    "existing_master_count": 27,
+    "geometry_approval_from_examples": false,
+    "default_reference_priorities_changed": false,
+    "new_fixed_curve_counts_radii_or_scene_values": false
   }
 }

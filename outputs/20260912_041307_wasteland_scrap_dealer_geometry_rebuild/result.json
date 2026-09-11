@@ -1,0 +1,149 @@
+{
+  "status": "needs_revision",
+  "structural_status": "needs_revision",
+  "selected_for_delivery": true,
+  "master_promoted": false,
+  "user_approved": false,
+  "request_original": "고철상 / 낮 / 황무지 / 한 장",
+  "final_requested_count": 1,
+  "parent_run": "outputs/20260912_041307_wasteland_scrap_dealer",
+  "image": {
+    "path": "outputs/20260912_041307_wasteland_scrap_dealer_geometry_rebuild/image.png",
+    "dimensions": [
+      1254,
+      1254
+    ],
+    "sha256": "7f41256eefa41b9ff0029c35bcbe2c5ff637b0981276af1b8e80ee1c90de7af7",
+    "bytes": 2794862
+  },
+  "generation": {
+    "tool": "image_gen.imagegen",
+    "source_path": "/Users/hyojinnoh/.codex/generated_images/01a08610-9124-7bd1-9961-9126ad377251/exec-e9b43560-2689-43fd-9d4f-ba08da3b75d8.png",
+    "prompt_path": "outputs/20260912_041307_wasteland_scrap_dealer_geometry_rebuild/generation_prompt.md",
+    "prompt_sha256": "6bc14a419c4128ee3864caeef36b66ed06555fd595e75b745f49144d3eda2cbe",
+    "actual_input_count": 4,
+    "references_path": "outputs/20260912_041307_wasteland_scrap_dealer_geometry_rebuild/references.json",
+    "internal_model": "unconfirmed",
+    "tokens": "unconfirmed",
+    "internal_revised_prompt": "unconfirmed",
+    "external_api_used": false
+  },
+  "review": {
+    "path": "outputs/20260912_041307_wasteland_scrap_dealer_geometry_rebuild/review.md",
+    "actual_png_opened": true,
+    "checks": [
+      {
+        "id": "C01",
+        "status": "FAIL",
+        "observation": "베이스는 프레임 안이지만 왼쪽 배송 틈 바깥의 연결 금속판/고철 경계가 x=0,y약386~565에서 잘림."
+      },
+      {
+        "id": "C02",
+        "status": "UNCERTAIN",
+        "observation": "앞끝/오른쪽 깊이137/136px로 이전보다 정돈됨. 왼쪽 하단은 돌무더기에 가려 모든 대응점의 동일 깊이 확정 불가."
+      },
+      {
+        "id": "C03",
+        "status": "PASS",
+        "observation": "보이는 베이스의 두 앞면은 직선 모서리로 만남. 요청하지 않은 곡률·모따기·추가 꼭짓점 미발견. 실제3D곡률 검증은 아님."
+      },
+      {
+        "id": "C04",
+        "status": "FAIL",
+        "observation": "상층 데크 양축 수평선이 베이스보다 완만한 오류 반복. 표의 G03/G04 참조. 곡면/경사 지붕선은 축 대조에서 제외."
+      },
+      {
+        "id": "L01",
+        "status": "PASS",
+        "observation": "후방 두 방향의 높은 회수 금속판, 작업장과 분류기 설비가 경계로 읽힘. 비지정 제3의 큰 통과 틈은 발견하지 못함."
+      },
+      {
+        "id": "L02",
+        "status": "PASS",
+        "observation": "왼쪽 배송 틈과 오른쪽 데크 아래 열린 통로가 각 방향 하나씩 식별됨. 셔터와 사무문은 닫힌 건물 입구로 맵 전환 수에서 제외."
+      },
+      {
+        "id": "L03",
+        "status": "UNCERTAIN",
+        "observation": "중앙에서 두 입구까지 바닥이 열리고 기둥은 통로 가장자리에 있음. 오른쪽 프레임 뒤 일부 가림/왼쪽 외부연결 크롭으로 전체 전환부 확정은 제한됨."
+      },
+      {
+        "id": "L04",
+        "status": "PASS",
+        "observation": "고철 보관함은 전면 가장자리에 집중되고 중앙·두 단면을 크게 가리지 않음."
+      },
+      {
+        "id": "L05",
+        "status": "UNCERTAIN",
+        "observation": "계단 발과 상층 받침기둥·기계 기초는 보임. 상층 뒤/계단 뒤 일부 접합은 가림; 투영 오류 별도 유지."
+      },
+      {
+        "id": "L06",
+        "status": "NOT_APPLICABLE",
+        "observation": "닫힌 셔터/문, 실내 미노출."
+      },
+      {
+        "id": "L07",
+        "status": "UNCERTAIN",
+        "observation": "셔터 문턱·작업장 오른쪽 접지는 읽히나 전면 차양 아래 물품과 기둥 뒤 일부 기단 가림. 지상 임의 회전이나 곡면 접선 자체를 FAIL로 단정하지 않음."
+      },
+      {
+        "id": "S01",
+        "status": "PASS",
+        "observation": "넓은 회녹색 기계 외장·도장판·황토 바닥에 큰 톤 변화와 선택적 교체판이 읽힘. 세부 박리는 여전히 다소 많음."
+      },
+      {
+        "id": "S02",
+        "status": "PASS",
+        "observation": "기계 접합/보관함에 디테일 집중, 중앙은 큰 작업 슬랩과 마른 흙 여백. 균일 미세부품 도배는 아님."
+      },
+      {
+        "id": "S03",
+        "status": "PASS",
+        "observation": "큰 형태와 평면 톤 변화가 함께 읽힘. 요철 붓자국/물결 유리/블러 미발견. 세밀한 고철 묘사는 다음 사용자 평가 대상으로 남김."
+      },
+      {
+        "id": "S04",
+        "status": "PASS",
+        "observation": "작업장 곡면 몸체, 편심 사무실/계단/데크, 분류기 링과 구동 하우징의 부피가 분리되어 읽힘. 정밀3면도/메시/UV 인증은 아님."
+      },
+      {
+        "id": "W01",
+        "status": "PASS",
+        "observation": "회수 기계껍질의 작업장 전환, 교체판, 구동 하우징/대형 링/공급관과 정비 접근이 기능적으로 결합."
+      },
+      {
+        "id": "W02",
+        "status": "PASS",
+        "observation": "소재가 다른 보수판·낡은 도장·외부 보강과 재사용 부품 더미로 오래 유지하는 장소가 읽힘."
+      },
+      {
+        "id": "W03",
+        "status": "PASS",
+        "observation": "건축의 주 몸체와 별도 큰 분류설비가 기계 부피를 이루며 단면에만 집중되지 않음."
+      },
+      {
+        "id": "W04",
+        "status": "PASS",
+        "observation": "작업장 큰 사람/작업용 셔터, 상층 사무실 문과 계단이 있음. 분류기는 비건물로 입구의무 미적용."
+      },
+      {
+        "id": "W05",
+        "status": "UNCERTAIN",
+        "observation": "작업장 후방 데크/사무실·환기·차양, 상층 큰 보호 덮개/차양의 기능은 읽힘. 곡면/가림/투영차이 때문에 각 건물 평면점유40~80% 충족을 확정하지 않음; 기계비중과 혼동하지 않음."
+      },
+      {
+        "id": "R01",
+        "status": "PASS",
+        "observation": "고철상·낮·마른 황무지가 식별됨. 최종 선택1장, 중간 보정시도는 별도 보존."
+      },
+      {
+        "id": "R02",
+        "status": "PASS",
+        "observation": "이전 낮 시가지01을 실제 열람 비교: ㄱ자 도시주거/기계2층·차량·도로 대신 낮고 긴 곡면 작업장, 독립 분류기, 배송/설비하부 출구, 작업슬랩/흙 마당과 지층으로 바뀜. 기어원통은 반복되는 기계 언어지만 용도와 대형부피 관계가 달라 단순 재색칠은 아님."
+      }
+    ],
+    "collision_validation_required": false
+  },
+  "stop_reason": "C04 repeats after geometry reconstruction with explicit axis vectors and reduced reference camera influence; no new verified geometry-control strategy. C01 cropped connected boundary and other uncertainty retained; no pass claimed."
+}

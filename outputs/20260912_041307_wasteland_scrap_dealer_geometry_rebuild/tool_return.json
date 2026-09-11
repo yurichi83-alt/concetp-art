@@ -1,0 +1,13 @@
+{
+  "tool": "image_gen.imagegen",
+  "source_path": "/Users/hyojinnoh/.codex/generated_images/01a08610-9124-7bd1-9961-9126ad377251/exec-e9b43560-2689-43fd-9d4f-ba08da3b75d8.png",
+  "copied_to": "/Users/hyojinnoh/Documents/Codex/GameConcept_Codex/outputs/20260912_041307_wasteland_scrap_dealer_geometry_rebuild/image.png",
+  "returned_keys": [
+    "image_url",
+    "output_hint"
+  ],
+  "model": "unconfirmed",
+  "usage": "unconfirmed",
+  "revised_prompt": "unconfirmed",
+  "source_sha256": "7f41256eefa41b9ff0029c35bcbe2c5ff637b0981276af1b8e80ee1c90de7af7"
+}

@@ -1,0 +1,68 @@
+{
+  "actual_input_count": 5,
+  "inputs": [
+    {
+      "order": 1,
+      "path": "/Users/hyojinnoh/Documents/Codex/GameConcept_Codex/outputs/20260912_030156_slum_curved_architecture_02/site_guide.png",
+      "relative_path": "outputs/20260912_030156_slum_curved_architecture_02/site_guide.png",
+      "sha256": "4d812116571ed5f9050ea07e61a5318f01b927a6e832c92e2265dd54686e5384",
+      "role": "site guide: base/axes/contact footprints/route reservations only"
+    },
+    {
+      "order": 2,
+      "path": "/Users/hyojinnoh/Documents/Codex/GameConcept_Codex/refs/master03/ldi_10_storefront_style_anchor.png",
+      "relative_path": "refs/master03/ldi_10_storefront_style_anchor.png",
+      "sha256": "c24fe55ad76c6c8bfbd88dee7059a09fd7a592dc60e5d4a6c7c0704f11f19345",
+      "role": "M03-10: LDI large forms/clean planes/light; no source world/camera"
+    },
+    {
+      "order": 3,
+      "path": "/Users/hyojinnoh/Documents/Codex/GameConcept_Codex/refs/master04/world_02_heavy_mechanical_arms.png",
+      "relative_path": "refs/master04/world_02_heavy_mechanical_arms.png",
+      "sha256": "a71042678c1898320a3d949d0108bde7e6f931c8f1bf8b316a057084be179a3b",
+      "role": "M04-02: large functional reclaimed machinery design only"
+    },
+    {
+      "order": 4,
+      "path": "/Users/hyojinnoh/Documents/Codex/GameConcept_Codex/outputs/20260912_024611_architecture_direction_analysis/analysis_inputs/attachment_03.png",
+      "relative_path": "outputs/20260912_024611_architecture_direction_analysis/analysis_inputs/attachment_03.png",
+      "sha256": "b04bfbcc011d538e0559eb81e1d44a4956cdb994398b08d45598be9308b5668f",
+      "role": "current user architectural shape trial only; no surface density/camera/height copy"
+    },
+    {
+      "order": 5,
+      "path": "/Users/hyojinnoh/Documents/Codex/GameConcept_Codex/outputs/20260912_024611_architecture_direction_analysis/analysis_inputs/attachment_06.png",
+      "relative_path": "outputs/20260912_024611_architecture_direction_analysis/analysis_inputs/attachment_06.png",
+      "sha256": "a3efc155c97ab937a14945106bdb3d0c0d18ac36faa02e353a1a79dcb8bdd7ad",
+      "role": "current user architectural shape trial only; no surface density/camera/height copy"
+    }
+  ],
+  "inspected_not_submitted": [
+    {
+      "id": "M01-01",
+      "path": "refs/master01/composition_cutaway.png",
+      "reason": "actual five-path limit; whole square base and two cuts retained via new guide/text, source camera excluded"
+    },
+    {
+      "id": "M02-01",
+      "path": "refs/master02/layout_two_exits.png",
+      "reason": "functional two-direction connectivity re-planned in guide/text; retain explicit LDI+world and two current shape references"
+    }
+  ],
+  "confirmed_contract": {
+    "tool": "image_gen.imagegen",
+    "referenced_image_paths_max": 5,
+    "evidence": "previous actual validation error: referenced_image_paths must contain at most 5 paths",
+    "builtin_no_external_api": true
+  },
+  "unknown": [
+    "internal model",
+    "internal tokens",
+    "internal revised prompt",
+    "numeric image weights",
+    "hard geometry/collider control"
+  ],
+  "independent_scene": "02",
+  "previous_outputs_used_as_positive_input": false,
+  "reference_approval_scope": "current two-image trial only, attachments not promoted to master"
+}

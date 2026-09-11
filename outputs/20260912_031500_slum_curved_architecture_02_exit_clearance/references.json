@@ -1,0 +1,24 @@
+{
+  "tool": "image_gen.imagegen",
+  "actual_input_count": 1,
+  "inputs": [
+    {
+      "order": 1,
+      "path": "/Users/hyojinnoh/Documents/Codex/GameConcept_Codex/outputs/20260912_030800_slum_curved_architecture_02_rebuild/image.png",
+      "relative_path": "outputs/20260912_030800_slum_curved_architecture_02_rebuild/image.png",
+      "sha256": "56396175ae6ac566d6e1d0909b1a81706aead8503fced90e5b13433ced939ae2",
+      "role": "explicit local edit target; known failed geometry is not a positive master"
+    }
+  ],
+  "parent_run": "outputs/20260912_030800_slum_curved_architecture_02_rebuild",
+  "original_design_reference_record": "outputs/20260912_030800_slum_curved_architecture_02_rebuild/references.json",
+  "other_references_resubmitted": false,
+  "opened_before_edit": true,
+  "unknown": [
+    "internal model",
+    "internal tokens",
+    "internal revised prompt",
+    "image weights",
+    "hard geometry/collider control"
+  ]
+}

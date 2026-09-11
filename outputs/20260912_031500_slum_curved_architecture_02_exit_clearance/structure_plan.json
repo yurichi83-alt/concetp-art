@@ -1,0 +1,111 @@
+{
+  "projection": "orthographic_parallel",
+  "guide_pixel_basis": {
+    "X": [
+      34,
+      -17
+    ],
+    "Y": [
+      -34,
+      -17
+    ],
+    "Z": [
+      0,
+      -46
+    ]
+  },
+  "base_square_size": 14,
+  "base_depth": 1.4,
+  "planned_height_ceiling": 6.5,
+  "units": "planning metres only, not 3D/collider verified",
+  "A_rounded_ground_bbox": [
+    0.8,
+    9,
+    5.3,
+    13.8
+  ],
+  "A_corner_radius": 0.65,
+  "A_floor_heights": [
+    0,
+    2.6,
+    5.2
+  ],
+  "A_machinery_target_per_visible_storey": [
+    0.4,
+    0.2
+  ],
+  "B_ground_polygon": [
+    [
+      8,
+      9
+    ],
+    [
+      14,
+      9
+    ],
+    [
+      14,
+      14
+    ],
+    [
+      8,
+      14
+    ]
+  ],
+  "B_upper_house_bounds": [
+    8,
+    9,
+    11,
+    14
+  ],
+  "B_ground_area": 30,
+  "B_upper_area": 15,
+  "C_bounds": [
+    10,
+    2.5,
+    13.8,
+    5.8
+  ],
+  "C_single_storey": true,
+  "nonbuilding_mechanical_bounds": [
+    11.7,
+    8,
+    14,
+    9
+  ],
+  "exits": [
+    {
+      "direction": "rear_left",
+      "form": "external stairs and upper service passage",
+      "state": "stair open; destination door closed",
+      "opening": "door slides into wall pocket",
+      "connection": "ascend Y then landing into rear-left service route",
+      "building_entry_role": "A upper entry shares designated exit",
+      "clearance": "full approach, steps, rail spacing and landing planned"
+    },
+    {
+      "direction": "rear_right",
+      "form": "machinery-defined alley under high service conduit",
+      "state": "open",
+      "connection": "ground-level X route between C and machinery out rear-right",
+      "clearance": "clear headroom and floor, no extra gaps below machine"
+    }
+  ],
+  "center_protection": "connected clear central court, no objects on approach/turning/headroom volumes",
+  "roof_scope": "40-80% each roof; built functional roof modules count, plain roof/paint/shadow do not",
+  "scene_design": "Variant design: A forms the LEFT wing, a two-storey compact housing/service block. Its lower facade consists of a rounded recessed service bay and broad reclaimed wraparound actuator casings with a deep utility spine, occupying about40% of the first-floor visible walls. The upper dwelling is a chunky rounded-corner module projecting over a narrower structural waist, with a deep inset window, substantial brackets, and one recessed mechanical band/duct around20% of upper facade. At ground level shallow rounded corners blend into short axis-aligned work ledges/supports, leaving no broad walkable-looking corner pocket behind an invisible rectangular wall. Give A a stepped roof silhouette with a raised louvered service spine and attached broad utility canopy/maintenance deck taking roughly half its roof, no common solar/tank kit.\nB occupies the rear RIGHT corner: wide ground-level scrap workshop, with the upper home exactly half the workshop footprint, offset to its LEFT half. The upper home has a short asymmetric pitched roof with a large salvage ventilation dormer and a supported service canopy. A broad projecting workshop awning, recessed shutter bay and different wall-depth zones give the lower storey a different silhouette. Open remaining terrace carries a grounded salvaged hoist base and sorted stock behind a railing; the house plus purposeful terrace elements occupy40–80% of lower roof, the house's own supported dormer/canopy around half its roof. A small supported access stair/landing connects the house to the workshop side. B's shutter and household door are closed ordinary entries, NOT extra map exits.\nC is on the RIGHT near-front wing, a low one-storey repair shed with a distinctly stepped SAWTOOTH / north-light roof, a wide asymmetrical entrance canopy and deep human door. Raised ventilation/light monitors and a roof-mounted repair canopy make its roof functional over roughly half its area without piling tanks on it. Beside C, toward the back, a large upright recycled heat-exchanger / pressure-buffer machine with a heavy support frame and visible replacement connector forms part of the rear-right barrier. It is not a fourth building. A high supported service conduit bridges only the narrow peripheral connection, never low across the center.\nLEFT functional transition: a visible external STAIR immediately to the right of A ascends along the Y axis to a real landing and an upper service passage toward the rear-left boundary. Show substantial stair stringers, adequate width, railings and clear landing; the designated upper door is closed with sensible sliding travel into its wall pocket and unobstructed approach. A's ordinary ground door is not another map transition. RIGHT functional transition: an OPEN ground-level service alley between C and the upright mechanical assembly leading toward the rear-right boundary, under a sufficiently high supported conduit. Its entrance, whole clear passage and outward continuation read together; it is defined by building/machinery, not a new masonry wall gate.\nRemaining rear gaps are stopped by mechanically anchored closed scrap-bin bodies, machine housings and short heavy fences that meet the buildings, with no accidental third routes beneath or between them. Keep the center free with a readable alley elbow and outer perimeter detail, not a huge empty plaza. Front foundation: visibly different from variant1, large reclaimed masonry bays with a sealed modular power-distribution bank embedded in the left face and a heavy horizontal drainage drum in the right; neither is walkable. Keep the square slab sharp, straight-sided and constant-depth, with entire cutaways visible.\nForm sources: INPUT4 is attachment3, for the supported larger upper module and recessed middle-storey depth. INPUT5 is attachment6, for large integrated utility channels, deep panel layering and building-scale mechanical form. Adapt them into an older repaired settlement with selective mismatched replacement parts, not a pristine corporate SF block.",
+  "trial_override": {
+    "source": "current explicit user request 2026-09-12",
+    "curved_ground_buildings_allowed": true,
+    "condition": "must visually accommodate simple orthogonal collision without empty-looking blocked pockets or wall penetration",
+    "permanent_master_update": false
+  },
+  "guide_limit": "2D site footprint projection only; not a 3D scene, collision asset, depth control or forced generation geometry",
+  "parent_run": "outputs/20260912_030800_slum_curved_architecture_02_rebuild",
+  "correction_strategy": "articulated orthographic volumetric guide instead of site-only footprints, preserving silhouette and curve trial",
+  "guide_origin": [
+    620,
+    927
+  ],
+  "local_correction": "Remove right exit timber barrier and two drums; preserve buildings and curved silhouette; global C04 remains unresolved."
+}

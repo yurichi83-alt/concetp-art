@@ -1,0 +1,182 @@
+{
+  "status": "needs_revision",
+  "selected_for_delivery": true,
+  "user_approved": false,
+  "master_promoted": false,
+  "variant": "01",
+  "parent_run": "outputs/20260912_030156_slum_curved_architecture_01",
+  "image": {
+    "path": "outputs/20260912_030800_slum_curved_architecture_01_rebuild/image.png",
+    "sha256": "7a1bdec828a891463591289e2953d4fdc314e42e6832e934673487836c43a9ce",
+    "dimensions": [
+      1254,
+      1254
+    ],
+    "bytes": 2037163
+  },
+  "generation": {
+    "tool": "image_gen.imagegen",
+    "source": "/Users/hyojinnoh/.codex/generated_images/01a08610-9124-7bd1-9961-9126ad377251/exec-38d70ee5-c409-48e5-9277-61fe3c3b8bbc.png",
+    "prompt_path": "outputs/20260912_030800_slum_curved_architecture_01_rebuild/generation_prompt.md",
+    "prompt_sha256": "4824066dcb3f9b87eaea99259d7d527ed23df6f50af74b82dfbf186f3a9db658",
+    "actual_input_count": 5,
+    "actual_inputs": [
+      {
+        "path": "/Users/hyojinnoh/Documents/Codex/GameConcept_Codex/outputs/20260912_030800_slum_curved_architecture_01_rebuild/structure_guide.png",
+        "sha256": "96f4a75f88417e4e48b21aeb542cfd6e9eb81852df5055d7a49a2febf7216168",
+        "role": "new articulated orthographic guide; curves/roof/stair forms + common axes; no previous image geometry"
+      },
+      {
+        "path": "/Users/hyojinnoh/Documents/Codex/GameConcept_Codex/refs/master03/ldi_10_storefront_style_anchor.png",
+        "sha256": "c24fe55ad76c6c8bfbd88dee7059a09fd7a592dc60e5d4a6c7c0704f11f19345",
+        "role": "M03-10: LDI large forms/clean planes/light; no source world/camera"
+      },
+      {
+        "path": "/Users/hyojinnoh/Documents/Codex/GameConcept_Codex/refs/master04/world_02_heavy_mechanical_arms.png",
+        "sha256": "a71042678c1898320a3d949d0108bde7e6f931c8f1bf8b316a057084be179a3b",
+        "role": "M04-02: large functional reclaimed machinery design only"
+      },
+      {
+        "path": "/Users/hyojinnoh/Documents/Codex/GameConcept_Codex/outputs/20260912_024611_architecture_direction_analysis/analysis_inputs/attachment_02.png",
+        "sha256": "50938fa4321e45f16eabfc4d7ec632e3b8d39a18f179343f255921f5cfdaf68b",
+        "role": "current user architectural shape trial only; no surface density/camera/height copy"
+      },
+      {
+        "path": "/Users/hyojinnoh/Documents/Codex/GameConcept_Codex/outputs/20260912_024611_architecture_direction_analysis/analysis_inputs/attachment_05.png",
+        "sha256": "5e41df5256233d7457190f441bc6a8953f777fb7f382cd51db0f3c4e3e4b42f6",
+        "role": "current user architectural shape trial only; no surface density/camera/height copy"
+      }
+    ],
+    "model": "unconfirmed",
+    "usage": "unconfirmed",
+    "internal_revised_prompt": "unconfirmed",
+    "external_api_or_install": false
+  },
+  "review": {
+    "path": "outputs/20260912_030800_slum_curved_architecture_01_rebuild/review.md",
+    "opened_actual_png": true,
+    "plan_is_not_pass_evidence": true,
+    "checks": [
+      {
+        "id": "C01",
+        "status": "PASS",
+        "evidence": "옥상·기계·두 전면 단면 전체가 프레임 안에 있음"
+      },
+      {
+        "id": "C02",
+        "status": "UNCERTAIN",
+        "evidence": "상하 수직 대응은 개선됐으나 위치별 깊이를 완전히 동일하다고 확정하기 어려움"
+      },
+      {
+        "id": "C03",
+        "status": "PASS 후보",
+        "evidence": "사각 베이스·일정한 두 전면의 큰 윤곽이 명확. 국소 기초는 별도 구조로 읽힘"
+      },
+      {
+        "id": "C04",
+        "status": "FAIL",
+        "evidence": "B의 수평 발코니 바닥 두 축과 베이스 축의 불일치가 반복됨"
+      },
+      {
+        "id": "L01",
+        "status": "PASS 후보",
+        "evidence": "B/A 및 우측 진입부 경계가 인접한 두 차단 방향을 형성"
+      },
+      {
+        "id": "L02",
+        "status": "PASS 후보",
+        "evidence": "좌측 B 닫힌 셔터가 기능 출구 겸용. 우측 내려가는 진입부 끝은 닫힌 문으로 식별. 다른 A/C/상층 문은 일반 입구"
+      },
+      {
+        "id": "L03",
+        "status": "UNCERTAIN",
+        "evidence": "B 셔터 앞 중앙 접근과 수직 개방 여유는 보임. 우측 진입 바닥/난간은 보이나 최종 램프 경사와 C 뒤쪽 전체 접근 폭이 부분 가려짐"
+      },
+      {
+        "id": "L04",
+        "status": "PASS",
+        "evidence": "중앙 보행 바닥과 전면 두 단면이 잘 보임"
+      },
+      {
+        "id": "L05",
+        "status": "PASS 후보",
+        "evidence": "B 외부 계단 지지, A 곡면 외장/옥상 장비 받침, C 모니터의 접합이 읽힘. C04의 공통 축 실패는 유지"
+      },
+      {
+        "id": "L06",
+        "status": "N/A",
+        "evidence": "기능 출구 내부 미노출. 외부 고철 적치 공간만 노출"
+      },
+      {
+        "id": "L07",
+        "status": "PASS 후보 / 이번 예외",
+        "evidence": "A 둥근 지상 외피 주변의 작은 받침과 보호대가 시각적 경계를 설명. 넓은 빈 모서리에 보이지 않는 차단을 요구하는 명백한 상황은 없음"
+      },
+      {
+        "id": "S01",
+        "status": "PASS 후보",
+        "evidence": "A의 넓은 도장면, 포장 색면과 선택적인 보수 흔적이 구분됨"
+      },
+      {
+        "id": "S02",
+        "status": "PASS 후보",
+        "evidence": "설비는 건물 가장자리와 옥상, 고철은 작업장 주변에 모이며 중앙은 상대적으로 비어 있음"
+      },
+      {
+        "id": "S03",
+        "status": "UNCERTAIN",
+        "evidence": "입체는 명확하나 금속의 가는 선·손상 밀도에 모형 렌더 성향이 남음. LDI 표현의 최종 선호는 사용자 평가 필요"
+      },
+      {
+        "id": "S04",
+        "status": "PASS 후보",
+        "evidence": "건물 부피, 층 구분, 외부 계단/설비 결합을 읽을 수 있음. 3면도·메시 정합을 검증한 것은 아님"
+      },
+      {
+        "id": "W01",
+        "status": "PASS 후보",
+        "evidence": "대형 기계 베이·외부 우회 배관·교체 외판이 건축/생활 설비와 결합함"
+      },
+      {
+        "id": "W02",
+        "status": "PASS 후보",
+        "evidence": "재사용 판재·다른 재질의 증축·부분 보수 흔적이 있음. 전면 오염으로만 쇠락을 표현하지 않음"
+      },
+      {
+        "id": "W03",
+        "status": "PASS 후보",
+        "evidence": "단면 외에 A의 외벽 및 C 옆 기계에서도 기계적 존재감이 드러남"
+      },
+      {
+        "id": "W04",
+        "status": "PASS",
+        "evidence": "A 사람용 문/셔터, B 고철상 셔터와 상층 주택 문, C 사람용 문 식별"
+      },
+      {
+        "id": "W05",
+        "status": "UNCERTAIN",
+        "evidence": "건물별 기능적 지붕 구성이 있으나 최종 2D의 40~80% 점유는 정확히 검증할 수 없음. 특히 C 모니터/배관의 투영 점유만으로 수치 충족을 확정하지 않음"
+      },
+      {
+        "id": "R01",
+        "status": "UNCERTAIN",
+        "evidence": "슬럼 골목·차가운 밤·A 2층과 하층 기계 우세·B 고철상과 작은 상층 집·C 단층과 옆 기계는 식별. A 40%/20%와 B 정확한 절반은 계획값이며 최종 이미지 정량 검증 아님. 독립 최종 2장은 묶음에서 관리"
+      },
+      {
+        "id": "R02",
+        "status": "NOT_APPLICABLE",
+        "evidence": "같은 장소 키워드의 형태 시험/보정 요청이다. 다만 두 독립 시안은 A 위치·B 계단·C 지붕·출구 유형·단면 장치가 실제로 다름"
+      }
+    ],
+    "requires_3d_validation": [
+      "actual collider",
+      "world dimensions",
+      "A floor machinery percentages",
+      "B half footprint",
+      "roof occupancy",
+      "three-view mesh/UV consistency"
+    ]
+  },
+  "trial_exception": "Curved ground-level building boundaries allowed only for current two-image trial if visually compatible with axis-aligned collision; no permanent master change.",
+  "global_geometry_stop_reason": "After articulated orthographic guide reconstruction, C04 same-axis inconsistency repeated; no further validated geometry strategy. No indefinite identical retries."
+}

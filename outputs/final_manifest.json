@@ -747,6 +747,102 @@
       ],
       "sha256": "adc42a57d94dab3700b51bea0fc22c62886b9a26dbecbcb09e3e652fb299b01f",
       "bytes": 1739053
+    },
+    {
+      "filename": "20260911_195833__slum_alley_01.png",
+      "source": "outputs/20260911_195833_slum_alley_01_geometry_rebuild/image.png",
+      "qa_status": "needs_revision",
+      "selection_reason": "슬럼 골목 두 장 요청의 독립 시안 01 최종 전달용 보정본. C04 반복 불일치로 보정 중단; 전체 QA 합격/마스터 승격 아님.",
+      "evidence": [
+        "outputs/20260911_195833_slum_alley_01_geometry_rebuild/result.json",
+        "outputs/20260911_195833_slum_alley_01_geometry_rebuild/review.md"
+      ],
+      "sha256": "77d90ff5961176e0a5aea581ed2a3d7e93517c1be75bee269c56ce5e20383f89",
+      "bytes": 1573097
+    },
+    {
+      "filename": "20260911_195833__slum_alley_02.png",
+      "source": "outputs/20260911_195833_slum_alley_02_geometry_rebuild/image.png",
+      "qa_status": "needs_revision",
+      "selection_reason": "슬럼 골목 두 장 요청의 독립 시안 02 최종 전달용 보정본. C04 반복 불일치로 보정 중단; 전체 QA 합격/마스터 승격 아님.",
+      "evidence": [
+        "outputs/20260911_195833_slum_alley_02_geometry_rebuild/result.json",
+        "outputs/20260911_195833_slum_alley_02_geometry_rebuild/review.md"
+      ],
+      "sha256": "2b2d466b989c81ddd5f0490e2e433d87ee6ed075a74496a62efe4a4ce9cb0dd3",
+      "bytes": 1600046
+    },
+    {
+      "filename": "20260912_030800__slum_curved_architecture_01.png",
+      "source": "outputs/20260912_030800_slum_curved_architecture_01_rebuild/image.png",
+      "qa_status": "needs_revision",
+      "selection_reason": "곡면 보행 경계 허용 두 장 테스트의 독립 시안 01 최종 전달본. C04 반복 오차와 일부 동선 불확실이 남음; 마스터 승인 아님.",
+      "evidence": [
+        "outputs/20260912_030800_slum_curved_architecture_01_rebuild/result.json",
+        "outputs/20260912_030800_slum_curved_architecture_01_rebuild/review.md"
+      ],
+      "sha256": "7a1bdec828a891463591289e2953d4fdc314e42e6832e934673487836c43a9ce",
+      "bytes": 2037163
+    },
+    {
+      "filename": "20260912_031500__slum_curved_architecture_02.png",
+      "source": "outputs/20260912_031500_slum_curved_architecture_02_exit_clearance/image.png",
+      "qa_status": "needs_revision",
+      "selection_reason": "곡면 보행 경계 허용 두 장 테스트의 독립 시안 02 최종 전달본. C04 반복 오차와 일부 동선 불확실이 남음; 마스터 승인 아님.",
+      "evidence": [
+        "outputs/20260912_031500_slum_curved_architecture_02_exit_clearance/result.json",
+        "outputs/20260912_031500_slum_curved_architecture_02_exit_clearance/review.md"
+      ],
+      "sha256": "240a5a6e9b0cbeffac885ed15284e836993c8a9b362341b85d5343c0ae9b65e8",
+      "bytes": 1955069
+    },
+    {
+      "filename": "20260912_033801__city_day_l_building_01.png",
+      "source": "outputs/20260912_033801_city_day_l_building_01_geometry_rebuild/image.png",
+      "qa_status": "needs_revision",
+      "selection_reason": "낮 시가지·ㄱ자A·B기계2층 두 장 시험의 시안 01 보정 후 최종 전달본. 상층 공통 투영 오차는 남음; 마스터 승인 아님.",
+      "evidence": [
+        "outputs/20260912_033801_city_day_l_building_01_geometry_rebuild/result.json",
+        "outputs/20260912_033801_city_day_l_building_01_geometry_rebuild/review.md"
+      ],
+      "sha256": "a452ca457b1ece58a22bdb32ff7789b3857bd04e5a6434cede27bec3bf67b44d",
+      "bytes": 1975677
+    },
+    {
+      "filename": "20260912_033801__city_day_l_building_02.png",
+      "source": "outputs/20260912_033801_city_day_l_building_02_geometry_rebuild/image.png",
+      "qa_status": "needs_revision",
+      "selection_reason": "낮 시가지·ㄱ자A·B기계2층 두 장 시험의 시안 02 보정 후 최종 전달본. 상층 공통 투영 오차는 남음; 마스터 승인 아님.",
+      "evidence": [
+        "outputs/20260912_033801_city_day_l_building_02_geometry_rebuild/result.json",
+        "outputs/20260912_033801_city_day_l_building_02_geometry_rebuild/review.md"
+      ],
+      "sha256": "71e69cba1c2ca95746b933aa1a7e9b61dc2f50f4a43392f915f0ad77b8def6f6",
+      "bytes": 1956776
+    },
+    {
+      "filename": "20260912_041307__wasteland_scrap_dealer.png",
+      "source": "outputs/20260912_041307_wasteland_scrap_dealer_geometry_rebuild/image.png",
+      "qa_status": "needs_revision",
+      "selection_reason": "고철상/낮/황무지 요청의 최종1장. 전체기하 보정 후 선택본이며 상층투영 차이·왼쪽 연결경계 크롭이 남음. 마스터승인 아님.",
+      "evidence": [
+        "outputs/20260912_041307_wasteland_scrap_dealer_geometry_rebuild/result.json",
+        "outputs/20260912_041307_wasteland_scrap_dealer_geometry_rebuild/review.md"
+      ],
+      "sha256": "7f41256eefa41b9ff0029c35bcbe2c5ff637b0981276af1b8e80ee1c90de7af7",
+      "bytes": 2794862
+    },
+    {
+      "filename": "20260912_043450__wasteland_scrap_retro.png",
+      "source": "outputs/20260912_043450_wasteland_scrap_retro_geometry_rebuild/image.png",
+      "qa_status": "uncertain",
+      "selection_reason": "고철상/낮/황무지 추가1장. 사용자지정M04-08레트로퓨처리즘 적용,보정후선택. 공통투영/단면대응은불확실,마스터승인아님.",
+      "evidence": [
+        "outputs/20260912_043450_wasteland_scrap_retro_geometry_rebuild/result.json",
+        "outputs/20260912_043450_wasteland_scrap_retro_geometry_rebuild/review.md"
+      ],
+      "sha256": "3f00b6d23a2764b0965f0a50bab450d13683c6385e5958404d3b463f34cccd2c",
+      "bytes": 2727144
     }
   ],
   "excluded": [
@@ -1099,5 +1195,5 @@
       "reason": "새 구조 도해 또는 사용자 스타일 참조; 생성 최종 결과 아님"
     }
   ],
-  "updated_date": "2026-09-11"
+  "updated_date": "2026-09-12"
 }

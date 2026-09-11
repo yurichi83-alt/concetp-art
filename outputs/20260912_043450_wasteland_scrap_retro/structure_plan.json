@@ -1,0 +1,78 @@
+{
+  "projection": "orthographic_parallel",
+  "guide_camera": {
+    "origin": [
+      650,
+      250
+    ],
+    "X": [
+      28,
+      16
+    ],
+    "Y": [
+      -28,
+      16
+    ],
+    "Z": [
+      0,
+      -34
+    ]
+  },
+  "base": {
+    "square": [
+      16,
+      16
+    ],
+    "depth": 2.3
+  },
+  "buildings": [
+    {
+      "id": "workshop_with_service_tower",
+      "footprint": [
+        0.6,
+        1,
+        5.4,
+        8.6
+      ],
+      "ground_corner_radius": 0.7,
+      "body_height": 3.8,
+      "tower_footprint": [
+        0.8,
+        1.2,
+        3.6,
+        3.9
+      ],
+      "total_height": 5.8,
+      "entrances": "closed human workshop shutter and ordinary personnel door; not map exits",
+      "roof_plan": "main maintenance canopy14.44 + tower7.56 + vent1.4 of36.48 =64%; tower functional cover3.04 of7.56=40.2%, approximate plan only"
+    }
+  ],
+  "nonbuilding": "stepped modular induction-sorter and charging rig, retro analog control bank",
+  "exits": [
+    {
+      "id": "A",
+      "direction": "rear-left",
+      "type": "open delivery gap",
+      "range_y": [
+        10.5,
+        13.8
+      ],
+      "approach": "clear dry level route, no leaf"
+    },
+    {
+      "id": "B",
+      "direction": "rear-right",
+      "type": "closed salvage roller gate",
+      "range_x": [
+        12,
+        14.8
+      ],
+      "post_clear": "rolls upward into housing; level route to exterior",
+      "approach": "clear center to gate, no boxes in opening"
+    }
+  ],
+  "center": "clear center and transit paths; flush weighing pad",
+  "cutaway": "dry strata, foundations, broad old power conduits, no basement rooms",
+  "actual_collision_verified": false,
+  "plan_is_not_result_QA": true
+}

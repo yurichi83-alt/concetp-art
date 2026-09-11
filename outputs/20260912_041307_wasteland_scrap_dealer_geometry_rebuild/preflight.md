@@ -1,0 +1,1 @@
+Same inspected geometry guide copied unchanged; whole-geometry reconstruction authorized by observed C04 failure. Four paths (guide/LDI/world/brush) within confirmed maximum5. No previous failed generated image submitted. Long curve/offset office/deep machinery exit preserved. Native output must be opened and judged independently.

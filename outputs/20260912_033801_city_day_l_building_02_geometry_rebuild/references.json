@@ -1,0 +1,24 @@
+{
+  "tool": "image_gen.imagegen",
+  "actual_input_count": 2,
+  "inputs": [
+    {
+      "order": 1,
+      "path": "/Users/hyojinnoh/Documents/Codex/GameConcept_Codex/outputs/20260912_033801_city_day_l_building_02_geometry_rebuild/structure_guide.png",
+      "relative_path": "outputs/20260912_033801_city_day_l_building_02_geometry_rebuild/structure_guide.png",
+      "sha256": "a687b865fa091d34d7bcf8ed081589b41d2024b0b2e409db8b9040dc1e0360da",
+      "role": "geometry guide, same scene"
+    },
+    {
+      "order": 2,
+      "path": "/Users/hyojinnoh/Documents/Codex/GameConcept_Codex/outputs/20260912_033801_city_day_l_building_02/image.png",
+      "relative_path": "outputs/20260912_033801_city_day_l_building_02/image.png",
+      "sha256": "1501df453d618a0c808743d1edb51bb6723cf25d47be363b63792c997f657738",
+      "role": "own variant appearance only, geometry failure excluded"
+    }
+  ],
+  "parent_run": "outputs/20260912_033801_city_day_l_building_02",
+  "other_variant_used": false,
+  "opened_before_call": true,
+  "internal_model": "unconfirmed"
+}

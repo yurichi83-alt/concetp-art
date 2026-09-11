@@ -1,0 +1,127 @@
+{
+  "ok": true,
+  "checks": {
+    "existing_36_reference_bytes_preserved": true,
+    "previous_approval_entries_preserved": true,
+    "existing_output_and_qa_files_preserved": true,
+    "default_reference_priorities_preserved": true,
+    "core_master_27_ids_paths_preserved": true,
+    "only_prior_m03_16_17_role_metadata_changed": true,
+    "master03_surface_component_unchanged": true,
+    "existing_surface_policy_unchanged": true,
+    "existing_world_and_art_direction_unchanged": true,
+    "existing_height_policy_and_roof_range_unchanged": true,
+    "catalog_47_unique_figure_ids": true,
+    "catalog_all_reference_image_paths_match": true,
+    "catalog_local_links_exist": true,
+    "package_file_validation_pass": true,
+    "scope_guard_negative_cases_pass": true
+  },
+  "validation": {
+    "ok": true,
+    "root": "/Users/hyojinnoh/Documents/Codex/GameConcept_Codex",
+    "master_images": 27,
+    "review_only_images": 3,
+    "preferred_result_images": 2,
+    "scoped_style_support_images": 4,
+    "agents_bytes": 10152,
+    "architecture_form_reference_images": 7,
+    "architecture_form_example_images": 4,
+    "errors": [],
+    "warnings": [],
+    "scope": "Files only. No visual or Codex-runtime validation."
+  },
+  "negative_tests": [
+    {
+      "name": "comparison_cannot_be_generation_input",
+      "passed": true,
+      "errors": [
+        "Wrong scoped architecture generation input permission: F-08"
+      ]
+    },
+    {
+      "name": "form_cannot_be_global_default",
+      "passed": true,
+      "errors": [
+        "Scoped architecture cannot appear in default_generation_priority_ids: F-01"
+      ]
+    },
+    {
+      "name": "geometry_approval_not_inferred",
+      "passed": true,
+      "errors": [
+        "Scoped architecture cannot approve geometry: F-08"
+      ]
+    },
+    {
+      "name": "qa_history_not_overwritten",
+      "passed": true,
+      "errors": [
+        "Architecture example registration QA must remain needs_revision: F-08"
+      ]
+    },
+    {
+      "name": "reference_missing_is_rejected",
+      "passed": true,
+      "errors": [
+        "Invalid reference record: [Errno 2] No such file or directory: '/Users/hyojinnoh/Documents/Codex/GameConcept_Codex/refs/architecture_form/missing.png'",
+        "Architecture form reference count mismatch"
+      ]
+    },
+    {
+      "name": "reference_hash_mismatch_rejected",
+      "passed": true,
+      "errors": [
+        "Reference changed/hash mismatch: F-01",
+        "Scoped architecture source/copy mismatch: F-01"
+      ]
+    },
+    {
+      "name": "architecture_count_mismatch_rejected",
+      "passed": true,
+      "errors": [
+        "Architecture form reference count mismatch"
+      ]
+    },
+    {
+      "name": "unknown_approval_rejected",
+      "passed": true,
+      "errors": [
+        "Unknown approved architecture scope: F-01"
+      ]
+    }
+  ],
+  "changed_active_files": [
+    "README_KO.md",
+    "AGENTS.md",
+    "START_HERE_KO.md",
+    "FIRST_MESSAGE.txt",
+    "REFERENCE_INDEX.html",
+    "project.json",
+    "docs/01_COMPOSITION.md",
+    "docs/06_QA.md",
+    "docs/08_COMMANDS.md",
+    "docs/00_INDEX.md",
+    "docs/02_LAYOUT.md",
+    "docs/10_CURRENT_REFERENCES.md",
+    "docs/04_WORLD_DESIGN_V2.md",
+    "docs/03_VISUAL_STYLE_V2.md",
+    "docs/05_GENERATION_RULES.md",
+    "templates/references.json",
+    "templates/generation_prompt.md",
+    "templates/preflight.md",
+    "templates/brief.md",
+    "templates/review.md",
+    "refs/manifest.json",
+    "refs/REFERENCE_MAP.md",
+    "scripts/validate_project.py",
+    "state/package_validation.json",
+    "state/approvals.json",
+    "state/CHANGELOG.md",
+    ".agents/skills/game-env-art/SKILL.md",
+    ".agents/skills/game-env-art/agents/openai.yaml"
+  ],
+  "preserved_reference_hash_count": 36,
+  "preserved_output_and_qa_hash_count": 29,
+  "scope": "File/metadata/preservation and scoped-reference guard checks only; no generated image, visual regrading, actual collider or Codex runtime test."
+}

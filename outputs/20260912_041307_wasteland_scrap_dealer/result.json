@@ -1,0 +1,19 @@
+{
+  "status": "needs_revision",
+  "selected_for_delivery": false,
+  "master_promoted": false,
+  "image": {
+    "path": "outputs/20260912_041307_wasteland_scrap_dealer/image.png",
+    "dimensions": [
+      1254,
+      1254
+    ]
+  },
+  "review": {
+    "path": "outputs/20260912_041307_wasteland_scrap_dealer/review.md",
+    "actual_png_opened": true,
+    "reason_for_failure": "C02 varying corner-depth and C04 common-axis mismatch; L05/L07 partly obscured",
+    "additional_evidence": "outputs/20260912_041307_wasteland_scrap_dealer/independent_review.md"
+  },
+  "next_run": "outputs/20260912_041307_wasteland_scrap_dealer_geometry_rebuild"
+}

@@ -1,0 +1,15 @@
+{
+  "master_and_rules_changed": [],
+  "baseline_paths_verified": 17,
+  "requested_final_count": 2,
+  "generated_runs": 5,
+  "selected_final_count": 2,
+  "selected": [
+    "outputs/20260912_030800_slum_curved_architecture_01_rebuild/image.png",
+    "outputs/20260912_031500_slum_curved_architecture_02_exit_clearance/image.png"
+  ],
+  "all_results_opened_and_reviewed": true,
+  "master_status": "not_updated",
+  "qa_status": "needs_revision",
+  "request_scope": "current two-image test only"
+}

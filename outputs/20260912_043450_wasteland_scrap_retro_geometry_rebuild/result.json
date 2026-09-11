@@ -1,0 +1,149 @@
+{
+  "status": "uncertain",
+  "structural_status": "uncertain",
+  "selected_for_delivery": true,
+  "master_promoted": false,
+  "user_approved": false,
+  "parent_run": "outputs/20260912_043450_wasteland_scrap_retro",
+  "request": "고철상 / 낮 / 황무지 / 한 장; M04-08 retro_futurism.png 선택",
+  "image": {
+    "path": "outputs/20260912_043450_wasteland_scrap_retro_geometry_rebuild/image.png",
+    "dimensions": [
+      1351,
+      1164
+    ],
+    "sha256": "3f00b6d23a2764b0965f0a50bab450d13683c6385e5958404d3b463f34cccd2c",
+    "bytes": 2727144
+  },
+  "generation": {
+    "tool": "image_gen.imagegen",
+    "source_path": "/Users/hyojinnoh/.codex/generated_images/01a08610-9124-7bd1-9961-9126ad377251/exec-9b81fc7d-4151-46af-8966-2c6d228ca5d5.png",
+    "prompt_path": "outputs/20260912_043450_wasteland_scrap_retro_geometry_rebuild/generation_prompt.md",
+    "prompt_sha256": "af3201a012121c1c944ea430495b71d4394161d50e1082f1d2040e628cf0c9e8",
+    "actual_input_count": 3,
+    "references_path": "outputs/20260912_043450_wasteland_scrap_retro_geometry_rebuild/references.json",
+    "selected_world_reference": "M04-08",
+    "internal_model": "unconfirmed",
+    "tokens": "unconfirmed",
+    "internal_revised_prompt": "unconfirmed",
+    "external_api_used": false
+  },
+  "review": {
+    "path": "outputs/20260912_043450_wasteland_scrap_retro_geometry_rebuild/review.md",
+    "actual_png_opened": true,
+    "checks": [
+      {
+        "id": "C01",
+        "status": "PASS",
+        "observation": "베이스·양쪽후방연결경계가프레임안. 직전다른시안의왼경계크롭없음."
+      },
+      {
+        "id": "C02",
+        "status": "UNCERTAIN",
+        "observation": "세대응점은보이나양끝하단의흙겹침과두께차이가있어동일벡터를확정하지못함. 표참조."
+      },
+      {
+        "id": "C03",
+        "status": "PASS",
+        "observation": "두앞단면과날카로운사각외곽, 새모따기/곡률미발견. 물리3D곡률인증아님."
+      },
+      {
+        "id": "C04",
+        "status": "UNCERTAIN",
+        "observation": "큰선군은정돈됐으나기단대비건물상층/기계외장의동일축선이좀더평평하게읽힘. 짧은선과곡면끝점의판독한계도있어완전정사영PASS를확정하지않음."
+      },
+      {
+        "id": "L01",
+        "status": "PASS",
+        "observation": "높은회수금속판과작업장/대형설비가두후방방향의연속차단형성."
+      },
+      {
+        "id": "L02",
+        "status": "PASS",
+        "observation": "왼쪽열린배송틈과오른쪽닫힌롤러게이트가정확히2기능전환. 작업장셔터/사람문은일반입구."
+      },
+      {
+        "id": "L03",
+        "status": "PASS",
+        "observation": "중앙에서양쪽접근바닥이연속되고박스/고철함은통로밖. 오른쪽은닫힌상태이며상부롤수납/개방후연결은계획임."
+      },
+      {
+        "id": "L04",
+        "status": "PASS",
+        "observation": "낮은가장자리보관함만배치, 중앙·단면노출."
+      },
+      {
+        "id": "L05",
+        "status": "PASS",
+        "observation": "서비스타워본체가작업장에접지하며덕트/분류설비기초와롤러프레임연결읽힘. 도해계획을결과검증으로대체하지않음."
+      },
+      {
+        "id": "L06",
+        "status": "NOT_APPLICABLE",
+        "observation": "실내미노출, 닫힌문뒤공간을추정검증하지않음."
+      },
+      {
+        "id": "L07",
+        "status": "UNCERTAIN",
+        "observation": "둥근작업장모서리와셔터문턱이연속됨. 후방기단일부가림, 주축과베이스의미세차이를지상회전으로단정하지않음."
+      },
+      {
+        "id": "S01",
+        "status": "PASS",
+        "observation": "크림/청회색의넓고깨끗한기본면과가까운톤의넓은표면변화, 선택적큰교체판."
+      },
+      {
+        "id": "S02",
+        "status": "PASS",
+        "observation": "세부는고철함/배관연결/계기와통풍구에집중, 중앙넓은여백."
+      },
+      {
+        "id": "S03",
+        "status": "PASS",
+        "observation": "평면적인톤변화와큰입체공존. 고철내부세부는있으나요철붓질/작은전면모자이크없음."
+      },
+      {
+        "id": "S04",
+        "status": "PASS",
+        "observation": "둥근모서리와단차타워,기계흡입부/패널/통풍부/배관이분리되어읽힘. 3면도/메시검증아님."
+      },
+      {
+        "id": "W01",
+        "status": "PASS",
+        "observation": "레트로케이스+큰아날로그계기+흡입부/어댑터/전력연결이회수장비기능으로묶임."
+      },
+      {
+        "id": "W02",
+        "status": "PASS",
+        "observation": "다른색교체판·선택적박리·보강판·재사용부품재고로쇠락과유지상태표현."
+      },
+      {
+        "id": "W03",
+        "status": "PASS",
+        "observation": "기계가서비스타워/워크숍외장/큰분류설비부피를이룸. 단면에만기계집중하지않음."
+      },
+      {
+        "id": "W04",
+        "status": "PASS",
+        "observation": "워크숍셔터와별도사람문이접지. 상부는비거주서비스타워,오른쪽기계는비건물."
+      },
+      {
+        "id": "W05",
+        "status": "UNCERTAIN",
+        "observation": "워크숍에대형정비덮개/서비스타워/덕트/냉각,타워위유지보수랙이보임. 큰판이단순지붕인지기능덮개인지일부모호해각건물40~80%를확정하지않음."
+      },
+      {
+        "id": "R01",
+        "status": "PASS",
+        "observation": "고철상/낮/황무지와사용자지정M04-08레트로디자인. 최종선택1장."
+      },
+      {
+        "id": "R02",
+        "status": "PASS",
+        "observation": "직전고철상배럴/기어드럼/상층사무실대신둥근모서리단차타워와계기은행/분류투입부,우측닫힌롤러출구/넓은계량패드로큰형태와역할변경. 단순재색칠아님."
+      }
+    ],
+    "collision_validation_required": false
+  },
+  "stop_reason": "Common projection remains uncertain after reconstruction with sole geometry guide; no new verified geometry-control strategy. Preserve output without pass claim."
+}

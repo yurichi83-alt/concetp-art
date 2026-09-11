@@ -1,0 +1,1 @@
+Actual C04 observation authorizes geometry correction. Same inspected guide copied byte-identically, retains rounded forms/steps/base/two exits. Three local inputs within confirmed limit5: guide/LDI/M04-08. Exact prompt in tool_arguments.json. No earlier generated output input. Structural guide is not a guarantee; inspect returned PNG.

@@ -1,0 +1,148 @@
+{
+  "status": "needs_revision",
+  "selected_for_delivery": false,
+  "master_promoted": false,
+  "user_approved": false,
+  "variant": "02",
+  "parent_run": null,
+  "image": {
+    "path": "outputs/20260912_033801_city_day_l_building_02/image.png",
+    "dimensions": [
+      1254,
+      1254
+    ],
+    "sha256": "1501df453d618a0c808743d1edb51bb6723cf25d47be363b63792c997f657738",
+    "bytes": 1967437
+  },
+  "generation": {
+    "tool": "image_gen.imagegen",
+    "source_path": "/Users/hyojinnoh/.codex/generated_images/01a08610-9124-7bd1-9961-9126ad377251/exec-0550da32-45da-4368-b4b9-78c124d2d6cd.png",
+    "prompt_path": "outputs/20260912_033801_city_day_l_building_02/generation_prompt.md",
+    "prompt_sha256": "2fffea05e26e6eaa790b424a3dd4015e9981ec12d53186469aecedeed0e3e29c",
+    "actual_input_count": 5,
+    "references_path": "outputs/20260912_033801_city_day_l_building_02/references.json",
+    "internal_model": "unconfirmed",
+    "tokens": "unconfirmed",
+    "internal_revised_prompt": "unconfirmed",
+    "external_api_used": false
+  },
+  "review": {
+    "path": "outputs/20260912_033801_city_day_l_building_02/review.md",
+    "actual_png_opened": true,
+    "checks": [
+      {
+        "id": "C01",
+        "status": "PASS 후보",
+        "observation": "베이스·건물·전봇대는 프레임 안. 전선 일부는 왼쪽 화면 밖으로 이어짐."
+      },
+      {
+        "id": "C02",
+        "status": "UNCERTAIN",
+        "observation": "기단 앞쪽과 좌측 대응 깊이가 다르게 보임."
+      },
+      {
+        "id": "C03",
+        "status": "PASS 후보",
+        "observation": "사각의 기본 기단과 두 앞 단면이 명확."
+      },
+      {
+        "id": "C04",
+        "status": "FAIL",
+        "observation": "A 상층의 수평 옥상/외벽선이 기단의 같은 방향 선보다 평평함."
+      },
+      {
+        "id": "L01",
+        "status": "PASS 후보",
+        "observation": "건물/측면 벽의 두 차단 방향은 확인."
+      },
+      {
+        "id": "L02",
+        "status": "UNCERTAIN",
+        "observation": "오른쪽 A 닫힌 출입문은 식별. 왼쪽 건물 사이 후방 전환은 B 뒤에 가려져 개방 여부가 명확하지 않음."
+      },
+      {
+        "id": "L03",
+        "status": "UNCERTAIN",
+        "observation": "왼쪽 출구의 접근/통과부가 좁게 겹침. 오른쪽 문 앞은 비어 있음."
+      },
+      {
+        "id": "L04",
+        "status": "PASS",
+        "observation": "중앙 공간 확보, 차량은 오른쪽 가장자리."
+      },
+      {
+        "id": "L05",
+        "status": "PASS 후보",
+        "observation": "B 기계층은 철골/받침에 지지되고 A 두 날개가 연결."
+      },
+      {
+        "id": "L06",
+        "status": "N/A",
+        "observation": "노출 실내 없음."
+      },
+      {
+        "id": "L07",
+        "status": "UNCERTAIN",
+        "observation": "A 안쪽 기단은 일부 읽히나 후방 접촉부가 B에 가려짐. 곡면 테스트 예외를 유지."
+      },
+      {
+        "id": "S01",
+        "status": "PASS 후보",
+        "observation": "넓은 도장/콘크리트 색면과 선택적인 교체 패널이 읽힘."
+      },
+      {
+        "id": "S02",
+        "status": "PASS 후보",
+        "observation": "기계는 B 상층·A 옥상·외벽에 집중되고 중앙 도로는 비어 있음."
+      },
+      {
+        "id": "S03",
+        "status": "PASS 후보",
+        "observation": "큰 명암과 절제된 표면 변화. 일부 미세 모서리 디테일은 남지만 전면 오염으로 채우지 않음."
+      },
+      {
+        "id": "S04",
+        "status": "PASS 후보",
+        "observation": "ㄱ자 날개·층구분·기계 받침과 지상 출입구가 읽힘. C04 오차는 별도 유지."
+      },
+      {
+        "id": "W01",
+        "status": "PASS 후보",
+        "observation": "회수한 큰 기계 하우징/연결관/보수 패널이 도시 설비로 기능함."
+      },
+      {
+        "id": "W02",
+        "status": "PASS 후보",
+        "observation": "혼합 교체판·낡은 도장과 수리된 차량이 유지/재사용 상태를 보여줌."
+      },
+      {
+        "id": "W03",
+        "status": "PASS",
+        "observation": "B의 비거주 기계 구조가 2층 높이/부피 자체를 차지함. 일반 집 옥상에 작은 AC 몇 개를 둔 구성이 아님."
+      },
+      {
+        "id": "W04",
+        "status": "PASS",
+        "observation": "A 출입문과 지정 전환문, B 사람용 문이 지상에 있음."
+      },
+      {
+        "id": "W05",
+        "status": "UNCERTAIN",
+        "observation": "A의 날개별 기능적 옥상 설비와 B 기계층의 지지/정비 영역은 읽힘. 정확한 투영 점유율을 수치 합격으로 확정하지 않음."
+      },
+      {
+        "id": "R01",
+        "status": "PASS 후보",
+        "observation": "낮 시가지·연결된 ㄱ자 A·B 기계 2층·전봇대·자동차1대가 확인됨. 최종 전달 두 장은 별도 묶음에 등록."
+      },
+      {
+        "id": "R02",
+        "status": "PASS",
+        "observation": "이전 슬럼의 세 건물/고철상/야간을 복사하지 않음. 새 ㄱ자 구조·2층 기계·도로·주차 구성을 설계함."
+      }
+    ],
+    "collision_validation_required": false,
+    "reason_for_failure": "Observed C04 horizontal projection mismatch, not collision validation."
+  },
+  "stop_reason": null
+}

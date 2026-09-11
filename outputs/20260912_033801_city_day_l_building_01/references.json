@@ -1,0 +1,51 @@
+{
+  "tool": "image_gen.imagegen",
+  "actual_input_count": 5,
+  "inputs": [
+    {
+      "order": 1,
+      "path": "/Users/hyojinnoh/Documents/Codex/GameConcept_Codex/outputs/20260912_033801_city_day_l_building_01/structure_guide.png",
+      "relative_path": "outputs/20260912_033801_city_day_l_building_01/structure_guide.png",
+      "sha256": "b296588fe3ca480820e6b8ba342156579b5afb20c72cef9b7b5a7763aea527f0",
+      "role": "current geometric guide"
+    },
+    {
+      "order": 2,
+      "path": "/Users/hyojinnoh/Documents/Codex/GameConcept_Codex/refs/master01/composition_cutaway.png",
+      "relative_path": "refs/master01/composition_cutaway.png",
+      "sha256": "849912ebad9cd750ca79fba6bd8fce6061a5b0ee169a6da5908c60abae94b1a3",
+      "role": "M01 framing/base cuts only"
+    },
+    {
+      "order": 3,
+      "path": "/Users/hyojinnoh/Documents/Codex/GameConcept_Codex/refs/master02/layout_two_exits.png",
+      "relative_path": "refs/master02/layout_two_exits.png",
+      "sha256": "444031765bb112361022fb23f593f3d386907ccb2bd005353b0514ed2f588a26",
+      "role": "M02 two directions and connectivity only"
+    },
+    {
+      "order": 4,
+      "path": "/Users/hyojinnoh/Documents/Codex/GameConcept_Codex/refs/master03/ldi_10_storefront_style_anchor.png",
+      "relative_path": "refs/master03/ldi_10_storefront_style_anchor.png",
+      "sha256": "c24fe55ad76c6c8bfbd88dee7059a09fd7a592dc60e5d4a6c7c0704f11f19345",
+      "role": "M03 LDI architecture/material/light only"
+    },
+    {
+      "order": 5,
+      "path": "/Users/hyojinnoh/Documents/Codex/GameConcept_Codex/refs/master04/world_02_heavy_mechanical_arms.png",
+      "relative_path": "refs/master04/world_02_heavy_mechanical_arms.png",
+      "sha256": "a71042678c1898320a3d949d0108bde7e6f931c8f1bf8b316a057084be179a3b",
+      "role": "M04 recovered advanced machinery design only"
+    }
+  ],
+  "previous_outputs_used": false,
+  "geometry_reference_priority_restored": true,
+  "confirmed_path_limit": 5,
+  "unknown": [
+    "internal model",
+    "internal prompt",
+    "tokens",
+    "numeric weights",
+    "hard camera constraint"
+  ]
+}

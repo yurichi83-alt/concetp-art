@@ -1,6 +1,6 @@
 {
   "schema_version": 1,
-  "master_version_approved": "2.6",
+  "master_version_approved": "2.7",
   "generated_style_anchor": null,
   "entries": [
     {
@@ -481,13 +481,63 @@
       "existing_original_reference_bytes_preserved": true,
       "snapshot_path": "state/history/20260911_160940_master03_brush_reinforcement",
       "update_record_path": "outputs/20260911_160940_master03_brush_reinforcement"
+    },
+    {
+      "approval_id": "master_update_20260912_v2_7_architecture_forms",
+      "date": "2026-09-12",
+      "status": "approved",
+      "user_request": "좋아 결과는 만족 스러워. 그럼 마스터 레퍼런스에 갱신할 내용을 정리해줘",
+      "user_confirmation": "좋아 메인 레퍼런스에 갱신해줘",
+      "proposal_path": "outputs/20260912_master_architecture_update_proposal/proposal_ko.md",
+      "scope": "Approved architecture diversity, grounded curved building boundaries, machinery as architecture, varied blocking objects/exits, and image-only geometry review scope; register seven form references and four scoped form-comparison examples.",
+      "approved_aspects": [
+        "large_form_and_facade_depth_diversity",
+        "ground_level_curved_building_walls",
+        "functional_structural_mechanical_storeys",
+        "nonbuilding_boundaries_and_varied_exits",
+        "visual_grounding_and_common_projection_without_actual_collider_validation"
+      ],
+      "not_approved_aspects": [
+        "whole_image_or_geometry_promotion",
+        "test_image_qa_override",
+        "fixed_scene_numbers_props_ratios_palette",
+        "reference_camera_microtexture_neon_or_world_copy",
+        "base_curvature",
+        "arbitrary_oblique_building_rotation"
+      ],
+      "reference_ids": [
+        "F-01",
+        "F-02",
+        "F-03",
+        "F-04",
+        "F-05",
+        "F-06",
+        "F-07",
+        "F-08",
+        "F-09",
+        "F-10",
+        "F-11"
+      ],
+      "master_image_count_before": 27,
+      "master_image_count_after": 27,
+      "architecture_form_reference_count": 7,
+      "architecture_form_example_count": 4,
+      "scoped_style_support_count": 4,
+      "master_version": "2.7",
+      "execution_rules_version": "1.8",
+      "package_version_after": "1.7.0",
+      "reference_catalog_revision": "2026-09-12-architecture-form-01",
+      "historical_qa_preserved": true,
+      "existing_original_reference_bytes_preserved": true,
+      "snapshot_path": "state/history/20260912_master_v2_7_architecture_forms",
+      "update_record_path": "outputs/20260912_master_v2_7_update"
     }
   ],
-  "note": "Master set v2.5 / execution v1.6: final orthographic projection required; weak-perspective option superseded. Reference image bytes and prior approval entries preserved; M01 camera interpretation clarified. Catalog 2026-09-11-user-additions-01: 26 masters, 2 preferred and 3 review-only images; scoped optional M03-16/M04-08 added with unchanged defaults. Catalog 2026-09-11-user-additions-02: 27 masters; optional M03-17 added, previous records and default priorities preserved.",
+  "note": "Current master2.7 / execution1.8. Architecture-form update approved; 27 core masters, 4 surface supports, 7 optional form references and 4 form-comparison examples are separate. Ground building curves allowed; actual collision validation excluded from current image acceptance. Orthographic geometry, LDI expression, Salvage Cyberpunk and prior QA remain. Earlier entries and pre-update root metadata preserved in snapshot.",
   "preferred_generated_results": [
     "A-01",
     "A-02"
   ],
-  "reference_catalog_revision": "2026-09-11-user-additions-02",
-  "reference_catalog_approval_id": "reference_registration_20260911_m03_17"
+  "reference_catalog_revision": "2026-09-12-architecture-form-01",
+  "reference_catalog_approval_id": "master_update_20260912_v2_7_architecture_forms"
 }

@@ -1,0 +1,13 @@
+{
+  "tool": "image_gen.imagegen",
+  "source_path": "/Users/hyojinnoh/.codex/generated_images/01a08610-9124-7bd1-9961-9126ad377251/exec-c429b123-7b7e-49cb-a0bf-4399a6a6c7c7.png",
+  "copied_to": "/Users/hyojinnoh/Documents/Codex/GameConcept_Codex/outputs/20260912_041307_wasteland_scrap_dealer/image.png",
+  "returned_keys": [
+    "image_url",
+    "output_hint"
+  ],
+  "model": "unconfirmed",
+  "usage": "unconfirmed",
+  "revised_prompt": "unconfirmed",
+  "source_sha256": "cfbc38dd5277161a34998b8feafb70a555639e970d5f0d1b5c0e8785747207d6"
+}

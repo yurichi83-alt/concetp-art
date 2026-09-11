@@ -1,0 +1,21 @@
+{
+  "status": "proposal_only",
+  "master_update_performed": false,
+  "generation_performed": false,
+  "git_action_performed": false,
+  "current_master_version": "2.6",
+  "current_execution_version": "1.7",
+  "source_request": "좋아 결과는 만족 스러워. 그럼 마스터 레퍼런스에 갱신할 내용을 정리해줘",
+  "independent_readonly_audit_completed": true,
+  "proposal": "proposal_ko.md",
+  "proposal_sha256": "999f20e6d6fee910f8d366d0782d7b07ae7c62c512b2aa4070c525bf56ee53c4",
+  "authoritative_files_changed": [],
+  "authoritative_baseline_file_count": 17,
+  "proposed_reference_scope": {
+    "existing_masters": 27,
+    "external_architecture_form_candidates": 7,
+    "scoped_generated_form_examples": 4,
+    "automatic_whole_image_promotion": false
+  },
+  "collision_review": "excluded by current user instruction; visible image geometry checks remain"
+}

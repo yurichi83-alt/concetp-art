@@ -1,0 +1,7 @@
+{
+  "attempt": 1,
+  "tool": "image_gen.imagegen",
+  "result": "argument_validation_rejected",
+  "error": "`referenced_image_paths` must contain at most 5 paths",
+  "image_generated": false
+}

@@ -1,0 +1,97 @@
+{
+  "projection": "orthographic_parallel",
+  "guide_basis_pixels": {
+    "x": [
+      32,
+      -16
+    ],
+    "y": [
+      -32,
+      -16
+    ],
+    "z": [
+      0,
+      -40
+    ]
+  },
+  "guide_origin": [
+    600,
+    870
+  ],
+  "base": [
+    0,
+    0,
+    16,
+    16,
+    -1.8,
+    0
+  ],
+  "boxes": [
+    [
+      "B",
+      [
+        0,
+        11,
+        6,
+        16,
+        0,
+        2.8
+      ]
+    ],
+    [
+      "B_house",
+      [
+        0,
+        11,
+        3,
+        16,
+        2.8,
+        5.4
+      ]
+    ],
+    [
+      "A",
+      [
+        12,
+        6,
+        16,
+        11,
+        0,
+        5.6
+      ]
+    ],
+    [
+      "C",
+      [
+        11,
+        13,
+        16,
+        16,
+        0,
+        2.8
+      ]
+    ]
+  ],
+  "rear_exit_intervals": [
+    [
+      "left",
+      7,
+      10
+    ],
+    [
+      "right",
+      1,
+      4.5
+    ]
+  ],
+  "design": "B forms the left wing: broad scrap workshop and a half-width upper home offset to the OUTER LEFT, with an exposed right-side terrace. A is the right-wing two-storey repaired residential utility block. C is the low rear-corner workshop, with a compact tall reclaimed pressure-buffer frame BESIDE its left side, isolated from the passage. Left exit: open gap in the middle of the rear-left boundary between B and the C-side machine strip, with a broad visible continuous paved lane outward. Right exit: open gap near the outer right end of the rear-right boundary before A, also clear continuous paving outward. No swing leaves or low lintels, both connected to the central empty elbow of the alley, all other rear gaps blocked by continuous solid boundary. Front cutaway: a patched brick-and-concrete foundation; left front face carries a closed recycled electrical distribution cassette with thick insulated cable bundles; right face has a recessed sealed water-pump cylinder and one elbow pipe. Do not reuse variant1 basement apparatus pattern.",
+  "central_reserved_xy": [
+    3.5,
+    3.5,
+    10.5,
+    10.5
+  ],
+  "roof_occupancy": "planned per building 40-80%, visual result estimate only",
+  "clearance": "planned human-scale; numeric dimensions/colliders require 3D validation",
+  "guide_limit": "2D drawn guide is not hard geometry control or validated 3D asset"
+}

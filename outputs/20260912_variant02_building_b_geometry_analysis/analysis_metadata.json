@@ -1,0 +1,26 @@
+{
+  "task": "B building visual geometry analysis only",
+  "target": "outputs/20260912_031500_slum_curved_architecture_02_exit_clearance/image.png",
+  "attachment_source": "/var/folders/f2/qnxy7xmj7436mrbn1qsk_vn80000gn/T/codex-clipboard-4f5177d8-9ff4-498e-bc37-c18381cbaa92.png",
+  "attachment_copy": "analysis_input.png",
+  "attachment_sha256": "051814be8fdaaf1cfa306567cee2b9d39b6852e40cd69dc37ced74967254949f",
+  "opened": [
+    "user crop",
+    "final02 actual PNG",
+    "02 articulated guide"
+  ],
+  "actual_generation_prompts_checked": [
+    "whole reconstruction",
+    "final local exit repair"
+  ],
+  "C04": "FAIL confirmed",
+  "vertical_edges": "mostly coherent; no claim that all building lines twist",
+  "ground_rotation": "unconfirmed where actual foundation is occluded",
+  "collision_review_required": false,
+  "collision_scope_source": "current explicit user clarification; user handles it after 3D modeling",
+  "user_feedback_scope": "likes result; questions B geometry; no master promotion",
+  "generation_performed": false,
+  "master_changes": [],
+  "report_sha256": "f08a83b4e376647dd0567a49c359311eb8aa9d1515b7b5c5570a8dd80f1d0ca2",
+  "independent_review": "confirmed guide two-axis agreement and final C04 mismatch; local vertical/parallel relations mostly coherent"
+}
