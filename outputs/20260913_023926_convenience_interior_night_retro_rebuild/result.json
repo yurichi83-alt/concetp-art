@@ -1,0 +1,19 @@
+{
+  "status": "needs_revision",
+  "image_path": "image.png",
+  "sha256": "011283f0b1dd88d049b921271c2c88f581bd1e972f2fa64e787fec92a51b7dd0",
+  "failures": [
+    "C04-01",
+    "S01-01",
+    "S02-01",
+    "S03-01",
+    "R01-01",
+    "R03-01"
+  ],
+  "uncertain": [
+    "C02-01",
+    "C03-01"
+  ],
+  "review": "review.md",
+  "requirements": "requirements.json"
+}

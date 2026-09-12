@@ -1,0 +1,313 @@
+{
+  "run_id": "20260912_204620_city_day_retro_m4_correction02",
+  "masters_version": "2.8",
+  "execution_rules_version": "1.9",
+  "request_group_id": "20260912_134234_city_day_master28",
+  "scene_id": "01",
+  "independent_new_scenes_requested": false,
+  "own_correction_parent_run": null,
+  "other_independent_scene_outputs_excluded": [],
+  "inspected_for_planning": [
+    {
+      "id": "M02-01",
+      "path": "refs/master02/layout_two_exits.png",
+      "sha256": "444031765bb112361022fb23f593f3d386907ccb2bd005353b0514ed2f588a26",
+      "role": "geometry",
+      "scope": "공통 바닥과 기본 입체, 상단 좌·우 직교 경계 방향과 기능 출구 하나씩, 상태에 맞는 접근 및 개방 후 연결 동선, 높이 상한. 각 면 중앙·중간·끝 위치와 출구 형태 가변; 건물 입구 겸용 가능",
+      "exclusions": "파란 벽·글자·아이콘·화살표·입구 표시와 도해의 문틀/좌표를 의무 복제하지 않음. 중앙 배치 금지가 아니며 중앙·편심·끝 모두 가능",
+      "inspected": true,
+      "input_index": 1,
+      "authorization_kind": "catalog"
+    },
+    {
+      "id": "M03-10",
+      "path": "refs/master03/ldi_10_storefront_style_anchor.png",
+      "sha256": "c24fe55ad76c6c8bfbd88dee7059a09fd7a592dc60e5d4a6c7c0704f11f19345",
+      "role": "art",
+      "scope": "큰 깨끗한 색면, 온전한 면에도 드문 큰 방향성 평면 붓터치와 인접 색·명도 변화, 별도로 선택적 손상, 특징적 큰 윤곽, 디테일 집중과 여백의 대비",
+      "exclusions": "상점 종류·건축 양식·상호·캐릭터·카메라 제외",
+      "inspected": true,
+      "input_index": 2,
+      "authorization_kind": "catalog"
+    },
+    {
+      "id": "M04-08",
+      "path": "refs/master04/retro_futurism.png",
+      "sha256": "bb4d6dbe04e77705d276038dcf2c869ade350a39b9a4eda5c2b0f4d15854c00c",
+      "role": "world",
+      "scope": "둥근/각진 케이스의 다양한 비례와 실루엣, 다이얼·노브·손잡이·통풍구·안테나 등 아날로그 조작부, 모듈 조합과 기능적 결합. Salvage Cyberpunk의 회수·수리·개조된 설비와 소품으로 해석",
+      "exclusions": "콜라주 배치·흰 배경·원본 카메라·문자/로고·선화/회화 마감의 직접 복사, 화면·소형 장치의 무분별한 증식 제외. 기존 녹색 CRT 제외 지시는 별도 재허용 전까지 우선",
+      "inspected": true,
+      "input_index": 3,
+      "authorization_kind": "catalog"
+    },
+    {
+      "id": "B03-01",
+      "path": "refs/style_support/brush_planes_reference.jpg",
+      "sha256": "1017bd1ab7a7a500601fdd74ab0d7e105f330aefc75ba9bba30461cbea5b7638",
+      "role": "surface",
+      "scope": "넓고 깨끗한 기본 색면, 온전한 면에도 드물게 얹힌 큰 방향성 붓터치와 인접 색·명도 변화. 붓터치는 표면의 평면 색 표현이며 손상·박리·부조와 구분",
+      "exclusions": "카메라·기하·건물과 출구 배치·형태 복제·특정 팔레트·시간대·물웅덩이·고정 노후화 비율은 승인 범위 밖; 판타지 고가 건축·거대한 다리 구조·항구·배·인물·낮 조명 구성은 복사하지 않음",
+      "inspected": true,
+      "input_index": 4,
+      "authorization_kind": "catalog"
+    },
+    {
+      "id": "F-06",
+      "path": "refs/architecture_form/form_06_service_channels.png",
+      "sha256": "a3efc155c97ab937a14945106bdb3d0c0d18ac36faa02e353a1a79dcb8bdd7ad",
+      "role": "architecture_form",
+      "scope": "깊은 서비스 홈, 큰 외장 띠와 패널 겹침, 건물 규모 설비 경로",
+      "exclusions": "원본 카메라·원근·배치 복제·초고층 높이·수상 베이스·미세 질감·실사 밀도·네온·상호/인물 제외. 큰 형태·외벽 깊이만 참고하며 최종 정사영·공통 베이스·LDI 표면 표현·Salvage Cyberpunk 해석을 유지",
+      "inspected": true,
+      "input_index": 5,
+      "authorization_kind": "catalog"
+    },
+    {
+      "id": "OWN-RETRO",
+      "path": "outputs/20260912_204620_city_day_retro_m4/image.png",
+      "sha256": "f2ee31455f128c97b59601f8336781c3145642928ca8c30b8d27e8c303cf1876",
+      "role": "edit_target",
+      "scope": "동일시안 층별기계부피/돌출/곡면/소품/낮빛보존. 카메라표면출구보정.",
+      "exclusions": "이전실패기하/박리위주표면/막힌출구를승인기준으로사용안함",
+      "inspected": true,
+      "input_index": 1,
+      "authorization_kind": "own_correction_target",
+      "authorization_evidence": "현재동일시안 생성의명시기준실패자동보정승인"
+    },
+    {
+      "id": "OWN-RETRO-01",
+      "path": "outputs/20260912_204620_city_day_retro_m4_correction01/image.png",
+      "sha256": "196ae853c0a61655496b790abf8d01282e36f066b3b51afb99ca303f9775c41d",
+      "role": "edit_target",
+      "scope": "동일시안 층별기계부피/돌출/곡면/소품/낮빛보존. 카메라표면출구보정.",
+      "exclusions": "이전실패기하/박리위주표면/막힌출구를승인기준으로사용안함",
+      "inspected": true,
+      "input_index": 1,
+      "authorization_kind": "own_correction_target",
+      "authorization_evidence": "현재동일시안 생성의명시기준실패자동보정승인"
+    }
+  ],
+  "submitted_to_generation": [
+    {
+      "id": "OWN-RETRO-01",
+      "path": "outputs/20260912_204620_city_day_retro_m4_correction01/image.png",
+      "sha256": "196ae853c0a61655496b790abf8d01282e36f066b3b51afb99ca303f9775c41d",
+      "role": "edit_target",
+      "scope": "동일시안 층별기계부피/돌출/곡면/소품/낮빛보존. 카메라표면출구보정.",
+      "exclusions": "이전실패기하/박리위주표면/막힌출구를승인기준으로사용안함",
+      "inspected": true,
+      "input_index": 1,
+      "authorization_kind": "own_correction_target",
+      "authorization_evidence": "현재동일시안 생성의명시기준실패자동보정승인"
+    },
+    {
+      "id": "M02-01",
+      "path": "refs/master02/layout_two_exits.png",
+      "sha256": "444031765bb112361022fb23f593f3d386907ccb2bd005353b0514ed2f588a26",
+      "role": "geometry",
+      "scope": "공통 바닥과 기본 입체, 상단 좌·우 직교 경계 방향과 기능 출구 하나씩, 상태에 맞는 접근 및 개방 후 연결 동선, 높이 상한. 각 면 중앙·중간·끝 위치와 출구 형태 가변; 건물 입구 겸용 가능",
+      "exclusions": "파란 벽·글자·아이콘·화살표·입구 표시와 도해의 문틀/좌표를 의무 복제하지 않음. 중앙 배치 금지가 아니며 중앙·편심·끝 모두 가능",
+      "inspected": true,
+      "input_index": 2,
+      "authorization_kind": "catalog"
+    },
+    {
+      "id": "M03-10",
+      "path": "refs/master03/ldi_10_storefront_style_anchor.png",
+      "sha256": "c24fe55ad76c6c8bfbd88dee7059a09fd7a592dc60e5d4a6c7c0704f11f19345",
+      "role": "art",
+      "scope": "큰 깨끗한 색면, 온전한 면에도 드문 큰 방향성 평면 붓터치와 인접 색·명도 변화, 별도로 선택적 손상, 특징적 큰 윤곽, 디테일 집중과 여백의 대비",
+      "exclusions": "상점 종류·건축 양식·상호·캐릭터·카메라 제외",
+      "inspected": true,
+      "input_index": 3,
+      "authorization_kind": "catalog"
+    },
+    {
+      "id": "M04-08",
+      "path": "refs/master04/retro_futurism.png",
+      "sha256": "bb4d6dbe04e77705d276038dcf2c869ade350a39b9a4eda5c2b0f4d15854c00c",
+      "role": "world",
+      "scope": "둥근/각진 케이스의 다양한 비례와 실루엣, 다이얼·노브·손잡이·통풍구·안테나 등 아날로그 조작부, 모듈 조합과 기능적 결합. Salvage Cyberpunk의 회수·수리·개조된 설비와 소품으로 해석",
+      "exclusions": "콜라주 배치·흰 배경·원본 카메라·문자/로고·선화/회화 마감의 직접 복사, 화면·소형 장치의 무분별한 증식 제외. 기존 녹색 CRT 제외 지시는 별도 재허용 전까지 우선",
+      "inspected": true,
+      "input_index": 4,
+      "authorization_kind": "catalog"
+    },
+    {
+      "id": "B03-01",
+      "path": "refs/style_support/brush_planes_reference.jpg",
+      "sha256": "1017bd1ab7a7a500601fdd74ab0d7e105f330aefc75ba9bba30461cbea5b7638",
+      "role": "surface",
+      "scope": "넓고 깨끗한 기본 색면, 온전한 면에도 드물게 얹힌 큰 방향성 붓터치와 인접 색·명도 변화. 붓터치는 표면의 평면 색 표현이며 손상·박리·부조와 구분",
+      "exclusions": "카메라·기하·건물과 출구 배치·형태 복제·특정 팔레트·시간대·물웅덩이·고정 노후화 비율은 승인 범위 밖; 판타지 고가 건축·거대한 다리 구조·항구·배·인물·낮 조명 구성은 복사하지 않음",
+      "inspected": true,
+      "input_index": 5,
+      "authorization_kind": "catalog"
+    }
+  ],
+  "delivery_status": "submitted",
+  "delivery_mechanism": "referenced_image_paths",
+  "actual_submitted_image_count": 5,
+  "actual_count_is_not_a_hard_limit": true,
+  "note": "The inspected and submitted lists are separate current records. Exact input order/count/path/hash must match tool_arguments.json. Every requirement links to submitted reference IDs or a current text-only reason. Role preservation review covers geometry, art, world, surface and architecture form without requiring one input per role. Do not make art/world reference removal the default geometry fix. A local copied comparison-only image retains its source restrictions by hash. Recent mode may contain conversation-only entries with path/sha256 null and explicit conversation_image_evidence. A user-requested catalog-image edit is role edit_target with current request source/quote/evidence, never a source overwrite or master promotion.",
+  "reference_role_mapping": {
+    "selection_reason": "현재요청M04-08, M02공간, M03-10LDI, B03-01붓질,F06깊이의5장.직전결과입력없음."
+  },
+  "omitted_references_and_reasons": [
+    {
+      "id": "M04-02",
+      "reason": "현재 사용자 m4 레트로퓨처리즘 요청에 따라 등록 M04-08을 이번 세계관디자인 입력으로 선택"
+    },
+    {
+      "id": "M01-01",
+      "reason": "이번 직접 입력은M02 및명시 베이스/단면텍스트. M01은현재마스터01문서범위로적용,이번실제이미지열람/전달주장안함"
+    },
+    {
+      "id": "F-06",
+      "reason": "보정에는기존실제큰형태가구현된시안이미지로해당보존역할담당,기하/표면은보정"
+    }
+  ],
+  "scoped_result_approval": null,
+  "tool_contract": {
+    "checked_at": "2026-09-12T13:42:34.043861",
+    "tool_name": "image_gen.imagegen",
+    "contract_source": "Current session image_gen.imagegen tool schema and official imagegen SKILL.md; prompt and referenced_image_paths supported, alternative recent selection max5; no exposed model/quality/seed.",
+    "selected_image_parameter": "referenced_image_paths",
+    "confirmed_contract_facts_with_evidence": [
+      "Current schema accepts prompt and referenced_image_paths; actual call returned one PNG.",
+      "Recent-image selection supports at most5 per current tool schema; this is not a path-array limit."
+    ],
+    "parameter_specific_limits": {
+      "referenced_image_paths_max_count": {
+        "status": "unknown",
+        "value": null,
+        "evidence": null
+      },
+      "num_last_images_to_include_max_count": {
+        "status": "confirmed",
+        "value": 5,
+        "evidence": "current native imagegen tool contract"
+      },
+      "prompt_text_max_length": {
+        "status": "unknown",
+        "value": null,
+        "unit": null,
+        "evidence": null
+      }
+    },
+    "limit_scope_note": "If the current contract specifies recent-conversation selection max5, that fact applies only to num_last_images_to_include. Do not infer the same maximum for referenced_image_paths. An actual5-image call establishes usage only.",
+    "supported_input_formats_verified": [],
+    "unexposed_or_unverified": {
+      "internal_token_budget": "unknown",
+      "reference_weights": "unknown",
+      "per_reference_camera_exclusion_control": "unknown",
+      "masks_coordinates_depth_normals_seed_control": "unknown",
+      "internal_prompt_rewriting": "unknown"
+    }
+  },
+  "submitted_prompt": {
+    "path": "generation_prompt.md",
+    "saved_text_matches_actual_argument": true,
+    "section_order": [
+      "STRUCTURE MUST KEEP",
+      "CURRENT SCENE",
+      "ART / REFERENCE ROLES"
+    ],
+    "character_count": 3908,
+    "character_count_method": null,
+    "utf8_byte_count": 3910,
+    "utf8_byte_count_method": null,
+    "whitespace_word_count": 548,
+    "word_count_method": null,
+    "returned_token_usage": null,
+    "returned_model_info": null,
+    "returned_revised_prompt": null,
+    "truncation_or_rewrite_evidence": "unknown",
+    "note": "Measure the exact submitted text if reporting statistics. Counts are metadata, not token usage, capacity percentage, proof of no truncation, or proof of compliance. Store model/revised_prompt/token fields only when actually returned; null means unavailable or not yet returned.",
+    "sha256": "37bf248ead9e6136cea9ab74da2cc7b7ba18ae3608e90513659fbab0a0d3b824"
+  },
+  "structure_guide": {
+    "submitted": false,
+    "path": null,
+    "scope": "텍스트 구조계획, 강제기하제어 아님"
+  },
+  "reference_catalog_revision": "2026-09-12-architecture-form-01",
+  "reference_catalog_groups": {
+    "original_masters": 27,
+    "surface_style_support": 4,
+    "architecture_form_support": 7,
+    "architecture_form_examples": 4,
+    "note": "Separate catalogs, not a new master total or a new automatic input set. Existing M02/M01/M03-10/M04-02 role priorities remain unchanged."
+  },
+  "schema_version": 1,
+  "role_preservation_review": [
+    {
+      "role": "geometry",
+      "current_input_ids": [
+        "M02-01"
+      ],
+      "coverage_evidence": "공통 바닥과 기본 입체, 상단 좌·우 직교 경계 방향과 기능 출구 하나씩, 상태에 맞는 접근 및 개방 후 연결 동선, 높이 상한. 각 면 중앙·중간·끝 위치와 출구 형태 가변; 건물 입구 겸용 가능",
+      "text_only_reason": "실제이미지입력",
+      "change_reason": "동일시안02보정:아트/세계관/붓면참조유지",
+      "preservation_evidence": "실제원본일곱차원대조는원장comparison. 큰기능부피/깊이/빛/세계관보존,출구개선,표면후퇴."
+    },
+    {
+      "role": "art",
+      "current_input_ids": [
+        "M03-10"
+      ],
+      "coverage_evidence": "큰 깨끗한 색면, 온전한 면에도 드문 큰 방향성 평면 붓터치와 인접 색·명도 변화, 별도로 선택적 손상, 특징적 큰 윤곽, 디테일 집중과 여백의 대비",
+      "text_only_reason": "실제이미지입력",
+      "change_reason": "동일시안02보정:아트/세계관/붓면참조유지",
+      "preservation_evidence": "실제원본일곱차원대조는원장comparison. 큰기능부피/깊이/빛/세계관보존,출구개선,표면후퇴."
+    },
+    {
+      "role": "world",
+      "current_input_ids": [
+        "M04-08"
+      ],
+      "coverage_evidence": "둥근/각진 케이스의 다양한 비례와 실루엣, 다이얼·노브·손잡이·통풍구·안테나 등 아날로그 조작부, 모듈 조합과 기능적 결합. Salvage Cyberpunk의 회수·수리·개조된 설비와 소품으로 해석",
+      "text_only_reason": "실제이미지입력",
+      "change_reason": "동일시안02보정:아트/세계관/붓면참조유지",
+      "preservation_evidence": "실제원본일곱차원대조는원장comparison. 큰기능부피/깊이/빛/세계관보존,출구개선,표면후퇴."
+    },
+    {
+      "role": "surface",
+      "current_input_ids": [
+        "B03-01"
+      ],
+      "coverage_evidence": "넓고 깨끗한 기본 색면, 온전한 면에도 드물게 얹힌 큰 방향성 붓터치와 인접 색·명도 변화. 붓터치는 표면의 평면 색 표현이며 손상·박리·부조와 구분",
+      "text_only_reason": "실제이미지입력",
+      "change_reason": "동일시안02보정:아트/세계관/붓면참조유지",
+      "preservation_evidence": "실제원본일곱차원대조는원장comparison. 큰기능부피/깊이/빛/세계관보존,출구개선,표면후퇴."
+    },
+    {
+      "role": "architecture_form",
+      "current_input_ids": [
+        "OWN-RETRO-01"
+      ],
+      "coverage_evidence": "실제시안의기계큰부피/돌출창/윙/곡면유지",
+      "text_only_reason": "실제이미지입력",
+      "change_reason": "동일시안02보정:아트/세계관/붓면참조유지",
+      "preservation_evidence": "실제원본일곱차원대조는원장comparison. 큰기능부피/깊이/빛/세계관보존,출구개선,표면후퇴."
+    }
+  ],
+  "input_entry_format": {
+    "id": "",
+    "path": "project-relative preserved local image path, or null for conversation-only recent image",
+    "sha256": "64 lowercase hex for local files; null when no local source exists",
+    "role": "geometry | art | world | surface | architecture_form | edit_target | comparison",
+    "scope": "specific approved visual role",
+    "exclusions": "camera/layout/content exclusions for this selected image",
+    "inspected": false,
+    "input_index": "1-based, submitted list only",
+    "authorization_kind": "catalog | scene_structure_guide | explicit_current_request | own_correction_target",
+    "authorization_evidence": "current request or same-scene correction evidence when needed",
+    "conversation_image_evidence": "required for every recent-mode selection, identifying actual conversation image and inspection; never invent local files/hashes",
+    "authorization_source": "source of actual current user instruction for explicit_current_request",
+    "authorization_quote": "actual current instruction quote for explicit_current_request"
+  },
+  "requirements_ledger": "requirements.json",
+  "exact_prompt_matches": true
+}

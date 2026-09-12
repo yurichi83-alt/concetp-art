@@ -1,0 +1,33 @@
+{
+  "run_id": "20260912_204620_city_day_retro_m4_correction02",
+  "status": "needs_revision",
+  "image_path": "image.png",
+  "sha256": "1ac72cfdc6822bcba399f375f826091e7c5d03bf357413e127e84ec69034da62",
+  "native_pixel_size": [
+    1254,
+    1254
+  ],
+  "actually_opened": true,
+  "review_path": "review.md",
+  "reviewer": "independent sub-agent /root/retro_qa",
+  "requirements_ledger": "requirements.json",
+  "failed_requirement_ids": [
+    "C01-01",
+    "C04-01",
+    "S01-01",
+    "S02-01",
+    "S03-01",
+    "R01-01",
+    "R03-01",
+    "USER-4"
+  ],
+  "uncertain_requirement_ids": [
+    "C02-01",
+    "C03-01",
+    "L07-01",
+    "USER-1"
+  ],
+  "returned_model_info": null,
+  "returned_token_usage": null,
+  "not_user_approved": true
+}

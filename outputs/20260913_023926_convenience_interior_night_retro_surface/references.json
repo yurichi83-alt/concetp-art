@@ -1,0 +1,329 @@
+{
+  "run_id": "20260913_023926_convenience_interior_night_retro_surface",
+  "masters_version": "2.8",
+  "execution_rules_version": "1.9",
+  "request_group_id": "20260913_023926_convenience_interior_night_retro",
+  "scene_id": "01",
+  "independent_new_scenes_requested": 1,
+  "own_correction_parent_run": "outputs/20260913_023926_convenience_interior_night_retro_rebuild",
+  "other_independent_scene_outputs_excluded": [],
+  "inspected_for_planning": [
+    {
+      "id": "M01-01",
+      "path": "refs/master01/composition_cutaway.png",
+      "sha256": "849912ebad9cd750ca79fba6bd8fce6061a5b0ee169a6da5908c60abae94b1a3",
+      "role": "geometry",
+      "scope": "필수 정사영에 맞춘 쿼터뷰 구성, 기본 베이스 입체, 상하 대응 모서리·두께와 두 평면 단면",
+      "exclusions": "네온·상점가·일본풍·팔레트·고밀도 재질은 제외; 원본의 원근·렌즈 왜곡은 제외하고 필수 정사영 규칙 우선",
+      "inspected": true,
+      "input_index": 1
+    },
+    {
+      "id": "M02-01",
+      "path": "refs/master02/layout_two_exits.png",
+      "sha256": "444031765bb112361022fb23f593f3d386907ccb2bd005353b0514ed2f588a26",
+      "role": "geometry",
+      "scope": "공통 바닥과 기본 입체, 상단 좌·우 직교 경계 방향과 기능 출구 하나씩, 상태에 맞는 접근 및 개방 후 연결 동선, 높이 상한. 각 면 중앙·중간·끝 위치와 출구 형태 가변; 건물 입구 겸용 가능",
+      "exclusions": "파란 벽·글자·아이콘·화살표·입구 표시와 도해의 문틀/좌표를 의무 복제하지 않음. 중앙 배치 금지가 아니며 중앙·편심·끝 모두 가능",
+      "inspected": true,
+      "input_index": 2
+    },
+    {
+      "id": "M03-10",
+      "path": "refs/master03/ldi_10_storefront_style_anchor.png",
+      "sha256": "c24fe55ad76c6c8bfbd88dee7059a09fd7a592dc60e5d4a6c7c0704f11f19345",
+      "role": "art",
+      "scope": "큰 깨끗한 색면, 온전한 면에도 드문 큰 방향성 평면 붓터치와 인접 색·명도 변화, 별도로 선택적 손상, 특징적 큰 윤곽, 디테일 집중과 여백의 대비",
+      "exclusions": "상점 종류·건축 양식·상호·캐릭터·카메라 제외",
+      "inspected": true,
+      "input_index": 3
+    },
+    {
+      "id": "M03-14",
+      "path": "refs/master03/ldi_14_attic_structure_light.png",
+      "sha256": "d960230559dae398857ab4f45da18581396cf3083af91c571889fc8da53caa05",
+      "role": "art",
+      "scope": "큰 목재 구조와 판재 표현, 선택적 큰 파손, 건축 공간의 조명 구획",
+      "exclusions": "세계관·시대·서사·캐릭터·차량·UI·상호/포스터 문자·카메라·공간 배치 복사 제외. 자연물 묘사 제외.",
+      "inspected": true,
+      "input_index": 4
+    },
+    {
+      "id": "M04-08",
+      "path": "refs/master04/retro_futurism.png",
+      "sha256": "bb4d6dbe04e77705d276038dcf2c869ade350a39b9a4eda5c2b0f4d15854c00c",
+      "role": "world",
+      "scope": "둥근/각진 케이스의 다양한 비례와 실루엣, 다이얼·노브·손잡이·통풍구·안테나 등 아날로그 조작부, 모듈 조합과 기능적 결합. Salvage Cyberpunk의 회수·수리·개조된 설비와 소품으로 해석",
+      "exclusions": "콜라주 배치·흰 배경·원본 카메라·문자/로고·선화/회화 마감의 직접 복사, 화면·소형 장치의 무분별한 증식 제외. 기존 녹색 CRT 제외 지시는 별도 재허용 전까지 우선",
+      "inspected": true,
+      "input_index": 5
+    },
+    {
+      "id": "B03-01",
+      "path": "refs/style_support/brush_planes_reference.jpg",
+      "sha256": "1017bd1ab7a7a500601fdd74ab0d7e105f330aefc75ba9bba30461cbea5b7638",
+      "role": "surface",
+      "scope": "넓고 깨끗한 기본 색면, 온전한 면에도 드물게 얹힌 큰 방향성 붓터치와 인접 색·명도 변화. 붓터치는 표면의 평면 색 표현이며 손상·박리·부조와 구분",
+      "exclusions": "카메라·기하·건물과 출구 배치·형태 복제·특정 팔레트·시간대·물웅덩이·고정 노후화 비율은 승인 범위 밖; 판타지 고가 건축·거대한 다리 구조·항구·배·인물·낮 조명 구성은 복사하지 않음",
+      "inspected": true,
+      "input_index": 6
+    },
+    {
+      "id": "OWN-SHOP",
+      "path": "outputs/20260913_023926_convenience_interior_night_retro/image.png",
+      "sha256": "ae806c4c1e67c8afa3fa2825da5b8e917de5fe6824474e330c59602ba38fa794",
+      "role": "edit_target",
+      "scope": "자기 시안 중앙진열/투영/표면 수정; 유효한 실내 형태/깊이/소품 보존",
+      "exclusions": "실패구도/표면마스터승격금지",
+      "inspected": true,
+      "input_index": 1,
+      "authorization_kind": "explicit_current_request",
+      "authorization_source": "현재 편의점 생성 요청 및 master_update_20260912_v2_8_pipeline_quality",
+      "authorization_quote": "편의점 실내 / 밤 / 노후화, 어지럽혀 있음. 바닥에 쓰레기. 넘치는 쓰레기통 / 한 장 m4 레트로 퓨처리즘",
+      "authorization_evidence": "자기시안 명시기준 자동보정 승인"
+    },
+    {
+      "id": "OWN-REBUILD",
+      "path": "outputs/20260913_023926_convenience_interior_night_retro_rebuild/image.png",
+      "sha256": "011283f0b1dd88d049b921271c2c88f581bd1e972f2fa64e787fec92a51b7dd0",
+      "role": "edit_target",
+      "scope": "자기 시안 표면만 보정; 기하/실내 기능/소품/밤 보존",
+      "exclusions": "미달표면마스터승격금지",
+      "inspected": true,
+      "input_index": 1,
+      "authorization_kind": "explicit_current_request",
+      "authorization_source": "현재 생성 요청과 승인된 자동보정 범위",
+      "authorization_quote": "편의점 실내 / 밤 / 노후화, 어지럽혀 있음. 바닥에 쓰레기. 넘치는 쓰레기통 / 한 장 m4 레트로 퓨처리즘",
+      "authorization_evidence": "명시 표면조건 자기시안 보정"
+    }
+  ],
+  "submitted_to_generation": [
+    {
+      "id": "OWN-REBUILD",
+      "path": "outputs/20260913_023926_convenience_interior_night_retro_rebuild/image.png",
+      "sha256": "011283f0b1dd88d049b921271c2c88f581bd1e972f2fa64e787fec92a51b7dd0",
+      "role": "edit_target",
+      "scope": "자기 시안 표면만 보정; 기하/실내 기능/소품/밤 보존",
+      "exclusions": "미달표면마스터승격금지",
+      "inspected": true,
+      "input_index": 1,
+      "authorization_kind": "explicit_current_request",
+      "authorization_source": "현재 생성 요청과 승인된 자동보정 범위",
+      "authorization_quote": "편의점 실내 / 밤 / 노후화, 어지럽혀 있음. 바닥에 쓰레기. 넘치는 쓰레기통 / 한 장 m4 레트로 퓨처리즘",
+      "authorization_evidence": "명시 표면조건 자기시안 보정"
+    },
+    {
+      "id": "M02-01",
+      "path": "refs/master02/layout_two_exits.png",
+      "sha256": "444031765bb112361022fb23f593f3d386907ccb2bd005353b0514ed2f588a26",
+      "role": "geometry",
+      "scope": "공통 바닥과 기본 입체, 상단 좌·우 직교 경계 방향과 기능 출구 하나씩, 상태에 맞는 접근 및 개방 후 연결 동선, 높이 상한. 각 면 중앙·중간·끝 위치와 출구 형태 가변; 건물 입구 겸용 가능",
+      "exclusions": "파란 벽·글자·아이콘·화살표·입구 표시와 도해의 문틀/좌표를 의무 복제하지 않음. 중앙 배치 금지가 아니며 중앙·편심·끝 모두 가능",
+      "inspected": true,
+      "input_index": 2
+    },
+    {
+      "id": "M03-10",
+      "path": "refs/master03/ldi_10_storefront_style_anchor.png",
+      "sha256": "c24fe55ad76c6c8bfbd88dee7059a09fd7a592dc60e5d4a6c7c0704f11f19345",
+      "role": "art",
+      "scope": "큰 깨끗한 색면, 온전한 면에도 드문 큰 방향성 평면 붓터치와 인접 색·명도 변화, 별도로 선택적 손상, 특징적 큰 윤곽, 디테일 집중과 여백의 대비",
+      "exclusions": "상점 종류·건축 양식·상호·캐릭터·카메라 제외",
+      "inspected": true,
+      "input_index": 3
+    },
+    {
+      "id": "M04-08",
+      "path": "refs/master04/retro_futurism.png",
+      "sha256": "bb4d6dbe04e77705d276038dcf2c869ade350a39b9a4eda5c2b0f4d15854c00c",
+      "role": "world",
+      "scope": "둥근/각진 케이스의 다양한 비례와 실루엣, 다이얼·노브·손잡이·통풍구·안테나 등 아날로그 조작부, 모듈 조합과 기능적 결합. Salvage Cyberpunk의 회수·수리·개조된 설비와 소품으로 해석",
+      "exclusions": "콜라주 배치·흰 배경·원본 카메라·문자/로고·선화/회화 마감의 직접 복사, 화면·소형 장치의 무분별한 증식 제외. 기존 녹색 CRT 제외 지시는 별도 재허용 전까지 우선",
+      "inspected": true,
+      "input_index": 4
+    },
+    {
+      "id": "B03-01",
+      "path": "refs/style_support/brush_planes_reference.jpg",
+      "sha256": "1017bd1ab7a7a500601fdd74ab0d7e105f330aefc75ba9bba30461cbea5b7638",
+      "role": "surface",
+      "scope": "넓고 깨끗한 기본 색면, 온전한 면에도 드물게 얹힌 큰 방향성 붓터치와 인접 색·명도 변화. 붓터치는 표면의 평면 색 표현이며 손상·박리·부조와 구분",
+      "exclusions": "카메라·기하·건물과 출구 배치·형태 복제·특정 팔레트·시간대·물웅덩이·고정 노후화 비율은 승인 범위 밖; 판타지 고가 건축·거대한 다리 구조·항구·배·인물·낮 조명 구성은 복사하지 않음",
+      "inspected": true,
+      "input_index": 5
+    }
+  ],
+  "delivery_status": "submitted",
+  "delivery_mechanism": "referenced_image_paths",
+  "actual_submitted_image_count": 5,
+  "actual_count_is_not_a_hard_limit": true,
+  "note": "The inspected and submitted lists are separate current records. Exact input order/count/path/hash must match tool_arguments.json. Every requirement links to submitted reference IDs or a current text-only reason. Role preservation review covers geometry, art, world, surface and architecture form without requiring one input per role. Do not make art/world reference removal the default geometry fix. A local copied comparison-only image retains its source restrictions by hash. Recent mode may contain conversation-only entries with path/sha256 null and explicit conversation_image_evidence. A user-requested catalog-image edit is role edit_target with current request source/quote/evidence, never a source overwrite or master promotion.",
+  "reference_role_mapping": {
+    "geometry": [
+      "M02-01"
+    ],
+    "art": [
+      "M03-10"
+    ],
+    "world": [
+      "M04-08"
+    ],
+    "surface": [
+      "B03-01"
+    ]
+  },
+  "omitted_references_and_reasons": [
+    {
+      "id": "previous_outputs",
+      "reason": "새 장소이므로 이전 시가지 생성물 미전달"
+    },
+    {
+      "id": "M01-01",
+      "reason": "실제 경로 입력 상한5장. M01은 열람/텍스트로 단면 조건 유지, M02에 공간 시각근거 유지."
+    },
+    {
+      "id": "M03-14",
+      "reason": "편집대상 추가로 실제5장 입력 한도 안에서 M03-10/M4/붓질/공간 시각근거 보존; 실내 조명은 대상 보존"
+    },
+    {
+      "id": "OWN-SHOP",
+      "reason": "기하 전체재구성. 실패투영 입력대신 M02 공간시각자료; 유효한기능형태/깊이/소품은보존텍스트와실제전후비교로유지"
+    }
+  ],
+  "scoped_result_approval": null,
+  "tool_contract": {
+    "tool": "image_gen.imagegen",
+    "available": true,
+    "arguments": [
+      "prompt",
+      "referenced_image_paths"
+    ],
+    "path_input_limit": 5,
+    "model": "unknown",
+    "quality": "unknown",
+    "seed": "unknown",
+    "reference_weights": "unknown",
+    "uses_separately_paid_api": false,
+    "contract_source": "Current session native image_gen.imagegen schema and /Users/hyojinnoh/.codex/skills/.system/imagegen/SKILL.md",
+    "limit_evidence": "Actual rejected call: referenced_image_paths must contain at most 5 paths. No image returned."
+  },
+  "submitted_prompt": {
+    "path": "generation_prompt.md",
+    "character_count": 8831,
+    "utf8_byte_count": 8833,
+    "whitespace_word_count": 1310,
+    "sha256": "33b04f48e5bf4ed21f8a7a2a201a2decc1114c5c53efee5c78589ae583de1a8d",
+    "saved_text_matches_actual_argument": true
+  },
+  "structure_guide": {
+    "path": null,
+    "coordinate_camera_source_path": null,
+    "actual_3d_source_path_if_available": null,
+    "projection_mode": "orthographic_parallel",
+    "selected_camera": null,
+    "projection_specific_final_comparison": null,
+    "inspected": false,
+    "submitted": false,
+    "input_format_verified": false,
+    "role": "scene-specific2D structure reference, not an enforced geometry lock or automatically a positive master",
+    "coordinates_submitted_as_enforced_geometry": false,
+    "roof_planes_and_supports_checked": false,
+    "upper_lower_correspondence_checked": false,
+    "functional_exit_roles_locations_states_recorded": false,
+    "final_base_footing_wall_roof_paving_line_comparison_required": true,
+    "critical_occlusion_is_uncertain": true,
+    "M02_role": "two functional exits on back-left/back-right directions; locations/forms/states variable, building-entry sharing/stairs/landings/ramps/equipment passages allowed, substantial nonbuilding boundaries with visible continuity, no fixed gate or repeated courtyard template",
+    "building_main_placement_and_straight_XY_structure_checked": false,
+    "ground_level_curved_boundaries_grounding_continuity_walk_block_readability_checked": false,
+    "curve_tangents_separated_from_straight_axis_lines": false,
+    "form_and_facade_depth_present_in_guide_not_only_box_positions": false,
+    "straight_axes_curved_boundaries_roof_checks_separate_from_optional_planning_volumes": false,
+    "requested_approved_curves_projections_wings_preserved_during_correction": null,
+    "final_base_paving_footing_storey_floor_shutter_terrace_upper_wall_comparison_required": true,
+    "actual_collision_mesh_UV_validation_in_image_scope": false,
+    "missing_actual_collision_mesh_UV_validation_is_image_failure": false,
+    "visual_grounding_thickness_support_boundary_route_checks_required": true
+  },
+  "reference_catalog_revision": "2026-09-12-architecture-form-01",
+  "reference_catalog_groups": {
+    "original_masters": 27,
+    "surface_style_support": 4,
+    "architecture_form_support": 7,
+    "architecture_form_examples": 4,
+    "note": "Separate catalogs, not a new master total or a new automatic input set. Existing M02/M01/M03-10/M04-02 role priorities remain unchanged."
+  },
+  "schema_version": 1,
+  "role_preservation_review": [
+    {
+      "role": "geometry",
+      "previous_input_ids": [],
+      "current_input_ids": [
+        "M02-01"
+      ],
+      "coverage_evidence": "M02 실제 도해로 기본바닥/두경계/출구 유지, M01 단면 텍스트 유지",
+      "text_only_reason": "",
+      "change_reason": "단일 표면보정: 기하/기능부피/배치 보존",
+      "preservation_evidence": "실제 rebuild/surface 전체와 표면 확대를 대조. requirements.json R03 및 review.md의7차원에서 보존/표면 후퇴 기록."
+    },
+    {
+      "role": "art",
+      "previous_input_ids": [],
+      "current_input_ids": [
+        "M03-10"
+      ],
+      "coverage_evidence": "LDI 대표 원본 입력 유지; 실제 자기시안의 실내 조명은 보존",
+      "text_only_reason": "",
+      "change_reason": "단일 표면보정: 기하/기능부피/배치 보존",
+      "preservation_evidence": "실제 rebuild/surface 전체와 표면 확대를 대조. requirements.json R03 및 review.md의7차원에서 보존/표면 후퇴 기록."
+    },
+    {
+      "role": "world",
+      "previous_input_ids": [],
+      "current_input_ids": [
+        "M04-08"
+      ],
+      "coverage_evidence": "실제 선택 참조와 generation_prompt.md의 해당 역할 구절을 연결. 형태는 새 편의점의 깊은 냉장/계산/폐기 설비를 텍스트로 설계.",
+      "text_only_reason": "",
+      "change_reason": "단일 표면보정: 기하/기능부피/배치 보존",
+      "preservation_evidence": "실제 rebuild/surface 전체와 표면 확대를 대조. requirements.json R03 및 review.md의7차원에서 보존/표면 후퇴 기록."
+    },
+    {
+      "role": "surface",
+      "previous_input_ids": [],
+      "current_input_ids": [
+        "B03-01"
+      ],
+      "coverage_evidence": "실제 선택 참조와 generation_prompt.md의 해당 역할 구절을 연결. 형태는 새 편의점의 깊은 냉장/계산/폐기 설비를 텍스트로 설계.",
+      "text_only_reason": "",
+      "change_reason": "단일 표면보정: 기하/기능부피/배치 보존",
+      "preservation_evidence": "실제 rebuild/surface 전체와 표면 확대를 대조. requirements.json R03 및 review.md의7차원에서 보존/표면 후퇴 기록."
+    },
+    {
+      "role": "architecture_form",
+      "previous_input_ids": [],
+      "current_input_ids": [
+        "OWN-REBUILD"
+      ],
+      "coverage_evidence": "실제 재구성된 실내 형태/깊이 보존",
+      "text_only_reason": "",
+      "change_reason": "단일 표면보정: 기하/기능부피/배치 보존",
+      "preservation_evidence": "실제 rebuild/surface 전체와 표면 확대를 대조. requirements.json R03 및 review.md의7차원에서 보존/표면 후퇴 기록."
+    }
+  ],
+  "input_entry_format": {
+    "id": "",
+    "path": "project-relative preserved local image path, or null for conversation-only recent image",
+    "sha256": "64 lowercase hex for local files; null when no local source exists",
+    "role": "geometry | art | world | surface | architecture_form | edit_target | comparison",
+    "scope": "specific approved visual role",
+    "exclusions": "camera/layout/content exclusions for this selected image",
+    "inspected": false,
+    "input_index": "1-based, submitted list only",
+    "authorization_kind": "catalog | scene_structure_guide | explicit_current_request | own_correction_target",
+    "authorization_evidence": "current request or same-scene correction evidence when needed",
+    "conversation_image_evidence": "required for every recent-mode selection, identifying actual conversation image and inspection; never invent local files/hashes",
+    "authorization_source": "source of actual current user instruction for explicit_current_request",
+    "authorization_quote": "actual current instruction quote for explicit_current_request"
+  },
+  "requirements_ledger": "requirements.json"
+}

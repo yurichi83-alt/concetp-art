@@ -1,0 +1,21 @@
+{
+  "status": "needs_revision",
+  "image_path": "image.png",
+  "sha256": "ae806c4c1e67c8afa3fa2825da5b8e917de5fe6824474e330c59602ba38fa794",
+  "review_method": "independent agent actual whole image and native-resolution crops",
+  "failures": [
+    "C02-01",
+    "C04-01",
+    "L03-01",
+    "S01-01",
+    "S03-01",
+    "R01-01",
+    "USER-2"
+  ],
+  "uncertain": [
+    "C03-01",
+    "W05-01"
+  ],
+  "requirements": "requirements.json",
+  "review": "review.md"
+}

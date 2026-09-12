@@ -1,0 +1,24 @@
+{
+  "run_id": "20260912_212000_retro_city_cool_night_fix01",
+  "status": "needs_revision",
+  "image_path": "image.png",
+  "sha256": "bf0cd215367fce21d573db9918570802812a1b03cca986fbf8db48cc79ffc01b",
+  "actually_opened": true,
+  "review_path": "review.md",
+  "reviewed_at": "2026-09-12T21:31:02.246319+09:00",
+  "review_method": "Independent night_initial_qa actual whole/crops and initial night baseline; references opened earlier in same review turn.",
+  "failed_requirements": [
+    "C01-01",
+    "C04-01",
+    "S01-01",
+    "S03-01",
+    "R01-01",
+    "R03-01"
+  ],
+  "uncertain_requirements": [
+    "C02-01",
+    "C03-01",
+    "L07-01",
+    "USER-1"
+  ]
+}

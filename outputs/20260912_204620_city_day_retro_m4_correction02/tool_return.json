@@ -1,0 +1,15 @@
+{
+  "tool": "image_gen.imagegen",
+  "actual_arguments_file": "tool_arguments.json",
+  "returned_file": "/Users/hyojinnoh/.codex/generated_images/01a08610-9124-7bd1-9961-9126ad377251/call_7S3B9EbSHHrSUAMUJinOhce4.png",
+  "workspace_copy": "image.png",
+  "sha256": "1ac72cfdc6822bcba399f375f826091e7c5d03bf357413e127e84ec69034da62",
+  "image_size": [
+    1254,
+    1254
+  ],
+  "returned_model": null,
+  "returned_tokens": null,
+  "returned_revised_prompt": null,
+  "metadata_note": "반환되지않은내부설정은미확인. native도구사용, 별도API없음."
+}

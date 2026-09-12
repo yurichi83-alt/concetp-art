@@ -1,0 +1,39 @@
+{
+  "run_id": "20260912_204620_city_day_retro_m4",
+  "status": "needs_revision",
+  "image_path": "image.png",
+  "sha256": "f2ee31455f128c97b59601f8336781c3145642928ca8c30b8d27e8c303cf1876",
+  "requirements_ledger": "requirements.json",
+  "review_path": "review.md",
+  "actually_opened": true,
+  "native_pixel_size": [
+    1254,
+    1254
+  ],
+  "source_output": "/Users/hyojinnoh/.codex/generated_images/01a08610-9124-7bd1-9961-9126ad377251/call_AVdwEB1cEKwtfQjVIJaT2Es0.png",
+  "structure_status": "needs_revision",
+  "art_surface_status": "needs_revision",
+  "request_status": "needs_revision",
+  "reviewer": "independent sub-agent /root/retro_qa",
+  "not_user_approved": true,
+  "returned_model_info": null,
+  "returned_token_usage": null,
+  "next_action": "root가명시기준실패보정준비;선택미정",
+  "failed_requirement_ids": [
+    "C02-01",
+    "C04-01",
+    "S01-01",
+    "S02-01",
+    "S03-01",
+    "R01-01",
+    "USER-3",
+    "USER-4"
+  ],
+  "uncertain_requirement_ids": [
+    "C03-01",
+    "L02-01",
+    "L03-01",
+    "L07-01",
+    "USER-1"
+  ]
+}

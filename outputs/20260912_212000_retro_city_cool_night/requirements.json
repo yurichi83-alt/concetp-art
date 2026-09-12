@@ -1,0 +1,1351 @@
+{
+  "schema_version": 1,
+  "masters_version": "2.8",
+  "execution_rules_version": "1.9",
+  "approval_id": "master_update_20260912_v2_8_pipeline_quality",
+  "run_id": "20260912_212000_retro_city_cool_night",
+  "request_original": "밤, 쿨 톤 으로 바꾸고 니드 리비전 내용도 반영해줘",
+  "request_mode": "edit_existing",
+  "request_group_id": "20260912_212000_retro_city_cool_night",
+  "scene_id": "01",
+  "requested_final_count": 1,
+  "prompt_path": "generation_prompt.md",
+  "tool_arguments_path": "tool_arguments.json",
+  "references_path": "references.json",
+  "requirements": [
+    {
+      "id": "C01-01",
+      "source": "docs/01_COMPOSITION.md",
+      "check_ids": [
+        "C01"
+      ],
+      "applicable": true,
+      "critical": true,
+      "na_reason": "",
+      "positive_visual": "한 정사영 쿼터뷰의 단독 디오라마·정사각 베이스와 연결 경계 전체",
+      "forbidden_visual": "전면 모서리·두 단면 크롭 또는 붙은 경계를 배경으로 면제",
+      "prompt_clauses": [
+        "Edit the attached urban diorama, correcting its camera and surface defects as you convert it to COOL NIGHT. Reconstruct the SAME architectural design in a rigorous parallel orthographic view. All horizontal world-X edges, from the pavement to the highest roof, slope identically on the page; all world-Y edges do likewise. Upper roofs must not flatten toward a horizon. Use a high isometric camera with approximately30degree diagonal axes, vertical Z, no convergence. The entire square slab and both planar front cut faces fit within generous empty margins. Flat square ground, constant slab thickness, every upper corner directly above its lower partner with identical vertical displacement. Expose the visible footing corners and pavement joins rather than hiding the geometric evidence with props. No curved/beveled base or cut-off tip. Keep broad subsurface utility volumes and soil layers."
+      ],
+      "reference_ids": [
+        "M02-01"
+      ],
+      "text_only_reason": "",
+      "planned_evidence": "실제전체PNG와원본표면확대에서 한 정사영 쿼터뷰의 단독 디오라마·정사각 베이스와 연결 경계 전체",
+      "observation": {
+        "status": "PASS",
+        "basis": "actual_image",
+        "regions": [
+          "전체와 네 외곽 끝"
+        ],
+        "evidence": "단독 디오라마와 두 단면, 모든 외곽이 프레임 안에 보인다.",
+        "positive_evidence": "전면 최하단에도 배경 여백이 남는다.",
+        "forbidden_evidence": "크롭이나 추가 디오라마 없음."
+      }
+    },
+    {
+      "id": "C02-01",
+      "source": "docs/01_COMPOSITION.md",
+      "check_ids": [
+        "C02"
+      ],
+      "applicable": true,
+      "critical": true,
+      "na_reason": "",
+      "positive_visual": "두 평면 전면 단면과 동일 깊이 상하 대응 벡터·평행 선군",
+      "forbidden_visual": "상하 대응 방향/길이 모순·가까운 단면만 확대",
+      "prompt_clauses": [
+        "Edit the attached urban diorama, correcting its camera and surface defects as you convert it to COOL NIGHT. Reconstruct the SAME architectural design in a rigorous parallel orthographic view. All horizontal world-X edges, from the pavement to the highest roof, slope identically on the page; all world-Y edges do likewise. Upper roofs must not flatten toward a horizon. Use a high isometric camera with approximately30degree diagonal axes, vertical Z, no convergence. The entire square slab and both planar front cut faces fit within generous empty margins. Flat square ground, constant slab thickness, every upper corner directly above its lower partner with identical vertical displacement. Expose the visible footing corners and pavement joins rather than hiding the geometric evidence with props. No curved/beveled base or cut-off tip. Keep broad subsurface utility volumes and soil layers."
+      ],
+      "reference_ids": [
+        "M02-01"
+      ],
+      "text_only_reason": "",
+      "planned_evidence": "실제전체PNG와원본표면확대에서 두 평면 전면 단면과 동일 깊이 상하 대응 벡터·평행 선군",
+      "observation": {
+        "status": "UNCERTAIN",
+        "basis": "actual_image",
+        "regions": [
+          "양 전면 단면 및 상하 모서리"
+        ],
+        "evidence": "두 평면 단면은 보이나 왼쪽/중앙/오른쪽 끝의 상하 대응 간격 차이가 있고 뒤쪽 대응은 가려져 일정 깊이를 확정하기 어렵다.",
+        "positive_evidence": "연속 배관과 흙층이 두 면으로 이어진다.",
+        "forbidden_evidence": "명백한 곡면 단면은 없지만 동일 깊이 대응의 확증 부족."
+      }
+    },
+    {
+      "id": "C03-01",
+      "source": "docs/01_COMPOSITION.md",
+      "check_ids": [
+        "C03"
+      ],
+      "applicable": true,
+      "critical": true,
+      "na_reason": "",
+      "positive_visual": "정사각 기본 평면·네 모서리·일정 깊이의 명확한 베이스",
+      "forbidden_visual": "미요청 바닥 곡률·모따기·비틀림·추가 꼭짓점",
+      "prompt_clauses": [
+        "Edit the attached urban diorama, correcting its camera and surface defects as you convert it to COOL NIGHT. Reconstruct the SAME architectural design in a rigorous parallel orthographic view. All horizontal world-X edges, from the pavement to the highest roof, slope identically on the page; all world-Y edges do likewise. Upper roofs must not flatten toward a horizon. Use a high isometric camera with approximately30degree diagonal axes, vertical Z, no convergence. The entire square slab and both planar front cut faces fit within generous empty margins. Flat square ground, constant slab thickness, every upper corner directly above its lower partner with identical vertical displacement. Expose the visible footing corners and pavement joins rather than hiding the geometric evidence with props. No curved/beveled base or cut-off tip. Keep broad subsurface utility volumes and soil layers."
+      ],
+      "reference_ids": [
+        "M02-01"
+      ],
+      "text_only_reason": "",
+      "planned_evidence": "실제전체PNG와원본표면확대에서 정사각 기본 평면·네 모서리·일정 깊이의 명확한 베이스",
+      "observation": {
+        "status": "UNCERTAIN",
+        "basis": "actual_image",
+        "regions": [
+          "베이스 전체/후방 가려진 꼭짓점"
+        ],
+        "evidence": "전면 두 외곽은 직선 사각 베이스로 읽히지만 후방 기준점이 건축물에 가려져 정확한 정사각 평면은 불확실하다.",
+        "positive_evidence": "전면 추가 꼭짓점·모따기·굽힘은 보이지 않는다.",
+        "forbidden_evidence": "사각형 인상만으로 정사각 및 일정 두께를 확정하지 않음."
+      }
+    },
+    {
+      "id": "C04-01",
+      "source": "docs/01_COMPOSITION.md",
+      "check_ids": [
+        "C04"
+      ],
+      "applicable": true,
+      "critical": true,
+      "na_reason": "",
+      "positive_visual": "베이스/포장과 기단·층 바닥·셔터·테라스·상층·지붕의 단일 정사영, 지붕 접합",
+      "forbidden_visual": "같은 방향 직선군 원근 수렴·거리별 크기 변화·물체별 카메라·지붕 모순; 곡면 접선/경사선을 수평선으로 오판",
+      "prompt_clauses": [
+        "Edit the attached urban diorama, correcting its camera and surface defects as you convert it to COOL NIGHT. Reconstruct the SAME architectural design in a rigorous parallel orthographic view. All horizontal world-X edges, from the pavement to the highest roof, slope identically on the page; all world-Y edges do likewise. Upper roofs must not flatten toward a horizon. Use a high isometric camera with approximately30degree diagonal axes, vertical Z, no convergence. The entire square slab and both planar front cut faces fit within generous empty margins. Flat square ground, constant slab thickness, every upper corner directly above its lower partner with identical vertical displacement. Expose the visible footing corners and pavement joins rather than hiding the geometric evidence with props. No curved/beveled base or cut-off tip. Keep broad subsurface utility volumes and soil layers."
+      ],
+      "reference_ids": [
+        "M02-01"
+      ],
+      "text_only_reason": "",
+      "planned_evidence": "실제전체PNG와원본표면확대에서 베이스/포장과 기단·층 바닥·셔터·테라스·상층·지붕의 단일 정사영, 지붕 접합",
+      "observation": {
+        "status": "FAIL",
+        "basis": "actual_image",
+        "regions": [
+          "A 상층 지붕·3층 데크, B 지붕, 전면 베이스"
+        ],
+        "evidence": "A/B 상층의 직선 가로 띠와 데크는 지면/베이스 동방향보다 수평에 가까워 단일 평행 정사영 선군이 아니다.",
+        "positive_evidence": "수직 기둥은 대체로 평행하고 곡면 창은 의도된 국소 형태이다.",
+        "forbidden_evidence": "상층만 낮은 시점처럼 펼쳐지는 직선 선군 불일치."
+      }
+    },
+    {
+      "id": "L01-01",
+      "source": "docs/02_LAYOUT.md",
+      "check_ids": [
+        "L01"
+      ],
+      "applicable": true,
+      "critical": true,
+      "na_reason": "",
+      "positive_visual": "같은 베이스 위 뒤쪽 두 직교 방향의 시각적 차단 연속성",
+      "forbidden_visual": "낮은 소품만 차단체로 삼음·끼인 틈이 제3이동로로 읽힘",
+      "prompt_clauses": [
+        "Keep both substantial rear blocking boundaries and exactly two open functional exits, one in each rear direction. Both must connect the central street through the threshold to a plainly visible continuation lane outside; no railings, stock or fences across either continuation. Keep central combat space clear, footings grounded, supports/joins coherent and pedestrian approaches wide and unobstructed. Building doors remain closed human entrances, not extra map exits. No exposed interior room or tall foreground barrier. Curved cladding remains local and coherent; straight building axes align with the shared ground axes."
+      ],
+      "reference_ids": [
+        "M02-01"
+      ],
+      "text_only_reason": "",
+      "planned_evidence": "실제전체PNG와원본표면확대에서 같은 베이스 위 뒤쪽 두 직교 방향의 시각적 차단 연속성",
+      "observation": {
+        "status": "PASS",
+        "basis": "actual_image",
+        "regions": [
+          "좌우 뒤쪽 벽/중앙 건물 사이"
+        ],
+        "evidence": "뒤쪽 두 방향의 높은 벽과 건물, 배관 경계가 시각적 차단을 구성한다.",
+        "positive_evidence": "중간 접합 틈은 설비/건축으로 막혀 제3통로가 아니다.",
+        "forbidden_evidence": "낮은 프랍만 경계로 쓰거나 추가 빈 이동 틈 없음."
+      }
+    },
+    {
+      "id": "L02-01",
+      "source": "docs/02_LAYOUT.md",
+      "check_ids": [
+        "L02"
+      ],
+      "applicable": true,
+      "critical": true,
+      "na_reason": "",
+      "positive_visual": "11시/1시 방향에 기능 출구 하나씩, 각 위치·역할·표시 상태·개방 후 연결",
+      "forbidden_visual": "누락/제3전환·장식문을 역할 없이 출구로 셈·우발 차단을 의도된 잠금으로 소급",
+      "prompt_clauses": [
+        "Keep both substantial rear blocking boundaries and exactly two open functional exits, one in each rear direction. Both must connect the central street through the threshold to a plainly visible continuation lane outside; no railings, stock or fences across either continuation. Keep central combat space clear, footings grounded, supports/joins coherent and pedestrian approaches wide and unobstructed. Building doors remain closed human entrances, not extra map exits. No exposed interior room or tall foreground barrier. Curved cladding remains local and coherent; straight building axes align with the shared ground axes."
+      ],
+      "reference_ids": [
+        "M02-01"
+      ],
+      "text_only_reason": "",
+      "planned_evidence": "실제전체PNG와원본표면확대에서 11시/1시 방향에 기능 출구 하나씩, 각 위치·역할·표시 상태·개방 후 연결",
+      "observation": {
+        "status": "PASS",
+        "basis": "actual_image",
+        "regions": [
+          "좌측 문틀/우측 문틀"
+        ],
+        "evidence": "좌측과 우측 각각 열린 문틀 하나, 총 두 기능 출구가 있으며 문틀 너머 포장이 계속 보인다.",
+        "positive_evidence": "좌측 출구는 외측 벽 아래 보행길, 우측은 B 옆 보행길에 연결된다.",
+        "forbidden_evidence": "건물의 닫힌 빨간 문은 장식 입구이며 추가 맵 출구로 세지 않음."
+      }
+    },
+    {
+      "id": "L03-01",
+      "source": "docs/02_LAYOUT.md",
+      "check_ids": [
+        "L03"
+      ],
+      "applicable": true,
+      "critical": true,
+      "na_reason": "",
+      "positive_visual": "중앙과 양 출구의 접근·좁은 부분·높이·회전·전환·개방 장치 여유",
+      "forbidden_visual": "외곽 상자/차량/잔해/돌출도 보행 부피 침범·열린 출구 연결 차단",
+      "prompt_clauses": [
+        "Keep both substantial rear blocking boundaries and exactly two open functional exits, one in each rear direction. Both must connect the central street through the threshold to a plainly visible continuation lane outside; no railings, stock or fences across either continuation. Keep central combat space clear, footings grounded, supports/joins coherent and pedestrian approaches wide and unobstructed. Building doors remain closed human entrances, not extra map exits. No exposed interior room or tall foreground barrier. Curved cladding remains local and coherent; straight building axes align with the shared ground axes."
+      ],
+      "reference_ids": [
+        "M02-01"
+      ],
+      "text_only_reason": "",
+      "planned_evidence": "실제전체PNG와원본표면확대에서 중앙과 양 출구의 접근·좁은 부분·높이·회전·전환·개방 장치 여유",
+      "observation": {
+        "status": "PASS",
+        "basis": "actual_image",
+        "regions": [
+          "중앙 도로에서 양 출구까지"
+        ],
+        "evidence": "중앙에서 좌우 인도를 통해 두 문틀과 그 너머까지 연속 통과 공간이 읽힌다.",
+        "positive_evidence": "차량은 양 전면 외곽에 있고 쓰레기는 B 오른쪽 포켓에 모여 있다.",
+        "forbidden_evidence": "양 연결부를 가로막는 난간·문짝·상자 없음. 실제 콜리전 미검증은 이미지 판정 범위 밖."
+      }
+    },
+    {
+      "id": "L04-01",
+      "source": "docs/02_LAYOUT.md",
+      "check_ids": [
+        "L04"
+      ],
+      "applicable": true,
+      "critical": true,
+      "na_reason": "",
+      "positive_visual": "카메라 전면이 열려 중앙 바닥과 두 단면이 읽힘",
+      "forbidden_visual": "높은 전면 담/폐차 더미/붐으로 중앙이나 단면 가림",
+      "prompt_clauses": [
+        "Keep both substantial rear blocking boundaries and exactly two open functional exits, one in each rear direction. Both must connect the central street through the threshold to a plainly visible continuation lane outside; no railings, stock or fences across either continuation. Keep central combat space clear, footings grounded, supports/joins coherent and pedestrian approaches wide and unobstructed. Building doors remain closed human entrances, not extra map exits. No exposed interior room or tall foreground barrier. Curved cladding remains local and coherent; straight building axes align with the shared ground axes."
+      ],
+      "reference_ids": [
+        "M02-01"
+      ],
+      "text_only_reason": "",
+      "planned_evidence": "실제전체PNG와원본표면확대에서 카메라 전면이 열려 중앙 바닥과 두 단면이 읽힘",
+      "observation": {
+        "status": "PASS",
+        "basis": "actual_image",
+        "regions": [
+          "전면 전체"
+        ],
+        "evidence": "전면은 낮은 차량과 볼라드만 있어 중앙과 단면이 충분히 노출된다.",
+        "positive_evidence": "두 전면 절단면과 배관 모두 관찰 가능.",
+        "forbidden_evidence": "높은 전면 차폐 없음."
+      }
+    },
+    {
+      "id": "L05-01",
+      "source": "docs/01_COMPOSITION.md + docs/02_LAYOUT.md",
+      "check_ids": [
+        "L05"
+      ],
+      "applicable": true,
+      "critical": true,
+      "na_reason": "",
+      "positive_visual": "기초/입구/전환 높이/지붕과 벽/기계 지지의 설득력 있는 접합",
+      "forbidden_visual": "근거 없는 지면 단절·뜨는 장비·맞지 않는 지붕/벽·불연속 받침",
+      "prompt_clauses": [
+        "Keep both substantial rear blocking boundaries and exactly two open functional exits, one in each rear direction. Both must connect the central street through the threshold to a plainly visible continuation lane outside; no railings, stock or fences across either continuation. Keep central combat space clear, footings grounded, supports/joins coherent and pedestrian approaches wide and unobstructed. Building doors remain closed human entrances, not extra map exits. No exposed interior room or tall foreground barrier. Curved cladding remains local and coherent; straight building axes align with the shared ground axes."
+      ],
+      "reference_ids": [
+        "M02-01"
+      ],
+      "text_only_reason": "",
+      "planned_evidence": "실제전체PNG와원본표면확대에서 기초/입구/전환 높이/지붕과 벽/기계 지지의 설득력 있는 접합",
+      "observation": {
+        "status": "PASS",
+        "basis": "actual_image",
+        "regions": [
+          "A/B 지지 프레임·입구·옥상"
+        ],
+        "evidence": "기계 하우징은 프레임과 바닥 위에 놓이고 상층 아래 굵은 기둥/보가 연결되며 문턱이 인도에 닿는다.",
+        "positive_evidence": "A 돌출 창 하부와 B 상층 하부 받침이 드러난다.",
+        "forbidden_evidence": "근거 없이 떠 있는 주된 설비는 보이지 않음; 단일 투영 실패는 C04에 별도 기록."
+      }
+    },
+    {
+      "id": "L06-01",
+      "source": "docs/02_LAYOUT.md",
+      "check_ids": [
+        "L06"
+      ],
+      "applicable": false,
+      "critical": true,
+      "na_reason": "노출실내방없음",
+      "positive_visual": "내부 적용 장면의 입구→통로→기능 영역과 방 깊이",
+      "forbidden_visual": "얕은 진열 상자형 방·막힌 내부 이동",
+      "prompt_clauses": [
+        "Keep both substantial rear blocking boundaries and exactly two open functional exits, one in each rear direction. Both must connect the central street through the threshold to a plainly visible continuation lane outside; no railings, stock or fences across either continuation. Keep central combat space clear, footings grounded, supports/joins coherent and pedestrian approaches wide and unobstructed. Building doors remain closed human entrances, not extra map exits. No exposed interior room or tall foreground barrier. Curved cladding remains local and coherent; straight building axes align with the shared ground axes."
+      ],
+      "reference_ids": [
+        "M02-01"
+      ],
+      "text_only_reason": "",
+      "planned_evidence": "실제전체PNG와원본표면확대에서 내부 적용 장면의 입구→통로→기능 영역과 방 깊이",
+      "observation": {
+        "status": "NOT_APPLICABLE",
+        "basis": "actual_image",
+        "regions": [
+          "닫힌 건물 외관"
+        ],
+        "evidence": "실내 방을 노출하지 않은 외관 장면.",
+        "positive_evidence": "입구 문이 닫혀 방 깊이/실내 동선 미적용.",
+        "forbidden_evidence": "실내 검증을 수행한 것으로 주장하지 않음."
+      }
+    },
+    {
+      "id": "L07-01",
+      "source": "docs/01_COMPOSITION.md + docs/02_LAYOUT.md",
+      "check_ids": [
+        "L07"
+      ],
+      "applicable": true,
+      "critical": true,
+      "na_reason": "",
+      "positive_visual": "기단·주된 배치와 직선축은 공통XY, 지상 곡면은 접지·연속 경계·보행/차단 구분",
+      "forbidden_visual": "임의 건물 회전·좁은 쐐기 틈·숨은 기단을 계획으로 PASS·곡면을 무조건 큰 사각 받침으로 감쌈",
+      "prompt_clauses": [
+        "Keep both substantial rear blocking boundaries and exactly two open functional exits, one in each rear direction. Both must connect the central street through the threshold to a plainly visible continuation lane outside; no railings, stock or fences across either continuation. Keep central combat space clear, footings grounded, supports/joins coherent and pedestrian approaches wide and unobstructed. Building doors remain closed human entrances, not extra map exits. No exposed interior room or tall foreground barrier. Curved cladding remains local and coherent; straight building axes align with the shared ground axes."
+      ],
+      "reference_ids": [
+        "M02-01"
+      ],
+      "text_only_reason": "",
+      "planned_evidence": "실제전체PNG와원본표면확대에서 기단·주된 배치와 직선축은 공통XY, 지상 곡면은 접지·연속 경계·보행/차단 구분",
+      "observation": {
+        "status": "UNCERTAIN",
+        "basis": "actual_image",
+        "regions": [
+          "A1 기단/B1 기계 뒤 접촉면"
+        ],
+        "evidence": "보이는 기둥 발은 인도에 닿지만 A/B 핵심 바닥 접합 일부가 하우징과 배관에 가려져 전체 직선축 대응을 확정하지 못한다.",
+        "positive_evidence": "B 곡면 외장은 연속 지지 위에 놓이고 독립적 회전 건물은 확인되지 않는다.",
+        "forbidden_evidence": "옥상 선만으로 지상 회전각을 추정하지 않음."
+      }
+    },
+    {
+      "id": "S01-01",
+      "source": "docs/03_VISUAL_STYLE_V2.md",
+      "check_ids": [
+        "S01"
+      ],
+      "applicable": true,
+      "critical": true,
+      "na_reason": "",
+      "positive_visual": "넓고 정돈된 기본 색면, 온전한 면에서도 가까운 톤의 큰 방향성 평면 색 변화",
+      "forbidden_visual": "온면 단색/블러만·녹/박리/손상만을 붓표현으로 셈",
+      "prompt_clauses": [
+        "Replace the ROAD texture completely: the central road is continuous dry matte ASPHALT, with NO tile grid, checkerboard, mosaic, rectangular seams, repeated scratch networks or wavy/refractive marks. Preserve just the two localized pavement breaks, a manhole and sparse paper. Across intact asphalt, walls, machine casings and car bodies, deliberately paint a few clearly visible WIDE FLAT directional swipes of nearby color/value, separated by broad calm areas. These are painterly pigment shapes, not chips, rust or stains. Reduce the tiny scattered wear marks. Sidewalk large tile joints remain distinct from the road. Preserve physical depth/material readability through broad simple shading; no miniature-photography grain, embossed brush ridges, blur, wet reflections or neon."
+      ],
+      "reference_ids": [
+        "B03-01"
+      ],
+      "text_only_reason": "",
+      "planned_evidence": "실제전체PNG와원본표면확대에서 넓고 정돈된 기본 색면, 온전한 면에서도 가까운 톤의 큰 방향성 평면 색 변화",
+      "observation": {
+        "status": "FAIL",
+        "basis": "actual_image",
+        "regions": [
+          "qa_wall.png/qa_b.png/차량"
+        ],
+        "evidence": "A2 녹청 벽과 A4/B2 넓은 벽은 여백을 유지하지만 큰 방향성 색 변화가 주로 도색 박리 패치로 읽힌다. 하우징/차량의 온전한 면에는 붓질 증거가 부족하다.",
+        "positive_evidence": "도로에 큰 청색/황토색 평면 붓띠가 새로 보인다.",
+        "forbidden_evidence": "도로 한 재질의 붓띠로 다른 온전한 벽/금속/차량의 부재를 대신할 수 없다."
+      }
+    },
+    {
+      "id": "S02-01",
+      "source": "docs/03_VISUAL_STYLE_V2.md",
+      "check_ids": [
+        "S02"
+      ],
+      "applicable": true,
+      "critical": true,
+      "na_reason": "",
+      "positive_visual": "표면별 자국의 큰 크기·성긴 밀도·방향 변화·충분한 여백",
+      "forbidden_visual": "모든 표면에 작은 균등 자국/반복 균열 군집; 소품 밀도로 표면 밀도 PASS",
+      "prompt_clauses": [
+        "Replace the ROAD texture completely: the central road is continuous dry matte ASPHALT, with NO tile grid, checkerboard, mosaic, rectangular seams, repeated scratch networks or wavy/refractive marks. Preserve just the two localized pavement breaks, a manhole and sparse paper. Across intact asphalt, walls, machine casings and car bodies, deliberately paint a few clearly visible WIDE FLAT directional swipes of nearby color/value, separated by broad calm areas. These are painterly pigment shapes, not chips, rust or stains. Reduce the tiny scattered wear marks. Sidewalk large tile joints remain distinct from the road. Preserve physical depth/material readability through broad simple shading; no miniature-photography grain, embossed brush ridges, blur, wet reflections or neon."
+      ],
+      "reference_ids": [
+        "B03-01"
+      ],
+      "text_only_reason": "",
+      "planned_evidence": "실제전체PNG와원본표면확대에서 표면별 자국의 큰 크기·성긴 밀도·방향 변화·충분한 여백",
+      "observation": {
+        "status": "FAIL",
+        "basis": "actual_image",
+        "regions": [
+          "qa_road.png와 하우징/벽 확대"
+        ],
+        "evidence": "도로의 큰 붓띠 아래에 촘촘한 작은 사각 격자와 짧은 잔선이 넓게 남아 자국 크기·밀도 기준 미달이다.",
+        "positive_evidence": "소품 배치는 외곽 중심이며 기본 벽면 여백은 있다.",
+        "forbidden_evidence": "반복 미세 그리드/자국이 연속 도로에 잔존."
+      }
+    },
+    {
+      "id": "S03-01",
+      "source": "docs/03_VISUAL_STYLE_V2.md",
+      "check_ids": [
+        "S03"
+      ],
+      "applicable": true,
+      "critical": true,
+      "na_reason": "",
+      "positive_visual": "큰 명암으로 읽히는 입체와 온전한 면의 절제된 평면 붓터치 공존",
+      "forbidden_visual": "붓표현 부재·부조·물결 유사 가는 잔선/얼룩·굴절유리 인상·모자이크·전면 미세 반복 질감",
+      "prompt_clauses": [
+        "Replace the ROAD texture completely: the central road is continuous dry matte ASPHALT, with NO tile grid, checkerboard, mosaic, rectangular seams, repeated scratch networks or wavy/refractive marks. Preserve just the two localized pavement breaks, a manhole and sparse paper. Across intact asphalt, walls, machine casings and car bodies, deliberately paint a few clearly visible WIDE FLAT directional swipes of nearby color/value, separated by broad calm areas. These are painterly pigment shapes, not chips, rust or stains. Reduce the tiny scattered wear marks. Sidewalk large tile joints remain distinct from the road. Preserve physical depth/material readability through broad simple shading; no miniature-photography grain, embossed brush ridges, blur, wet reflections or neon."
+      ],
+      "reference_ids": [
+        "B03-01"
+      ],
+      "text_only_reason": "",
+      "planned_evidence": "실제전체PNG와원본표면확대에서 큰 명암으로 읽히는 입체와 온전한 면의 절제된 평면 붓터치 공존",
+      "observation": {
+        "status": "FAIL",
+        "basis": "actual_image",
+        "regions": [
+          "도로·벽·기계·차량 표면"
+        ],
+        "evidence": "큰 명암과 입체는 선명하고 도로의 평면 붓띠는 확인되지만 온전한 벽/기계/차량 붓표현 부족 및 도로 미세 격자가 함께 남는다.",
+        "positive_evidence": "젖은 반사나 실제 물결 같은 광택은 보이지 않는다.",
+        "forbidden_evidence": "긍정 붓표현이 일부 재질에 국한되고 반복 미세 모자이크 인상이 완전히 제거되지 않음."
+      }
+    },
+    {
+      "id": "S04-01",
+      "source": "docs/03_VISUAL_STYLE_V2.md",
+      "check_ids": [
+        "S04"
+      ],
+      "applicable": true,
+      "critical": true,
+      "na_reason": "",
+      "positive_visual": "큰 기능 부피·외벽 깊이·두께·빛/재질 경계·접지·기계 결합의 실제 가독성",
+      "forbidden_visual": "큰 하우징/깊은 설비를 얕은 덮개/무늬로 대체·C04나 미검증3D만으로 S04판정",
+      "prompt_clauses": [
+        "Replace the ROAD texture completely: the central road is continuous dry matte ASPHALT, with NO tile grid, checkerboard, mosaic, rectangular seams, repeated scratch networks or wavy/refractive marks. Preserve just the two localized pavement breaks, a manhole and sparse paper. Across intact asphalt, walls, machine casings and car bodies, deliberately paint a few clearly visible WIDE FLAT directional swipes of nearby color/value, separated by broad calm areas. These are painterly pigment shapes, not chips, rust or stains. Reduce the tiny scattered wear marks. Sidewalk large tile joints remain distinct from the road. Preserve physical depth/material readability through broad simple shading; no miniature-photography grain, embossed brush ridges, blur, wet reflections or neon."
+      ],
+      "reference_ids": [
+        "B03-01"
+      ],
+      "text_only_reason": "",
+      "planned_evidence": "실제전체PNG와원본표면확대에서 큰 기능 부피·외벽 깊이·두께·빛/재질 경계·접지·기계 결합의 실제 가독성",
+      "observation": {
+        "status": "PASS",
+        "basis": "actual_image",
+        "regions": [
+          "A 돌출창/설비층/B 서비스홈"
+        ],
+        "evidence": "A 깊은 창과 돌출 창, 3층 큰 하우징과 프레임, B의 큰 기계 외장과 2층 하부 깊이가 명암으로 읽힌다.",
+        "positive_evidence": "서로 다른 금속 외장/벽/유리/포장과 연결 두께 구분이 유지된다.",
+        "forbidden_evidence": "기계 부피가 평면 무늬나 얕은 패널로 축소되지 않음."
+      }
+    },
+    {
+      "id": "W01-01",
+      "source": "docs/04_WORLD_DESIGN_V2.md",
+      "check_ids": [
+        "W01"
+      ],
+      "applicable": true,
+      "critical": true,
+      "na_reason": "",
+      "positive_visual": "회수·수리·개조된 첨단 기술의 현재 기능과 공급/접합 이유",
+      "forbidden_visual": "일반 산업 장비·장식 표시등·단면 기계만으로 세계관 대체",
+      "prompt_clauses": [
+        "Reference roles: input1 is the user-selected EDIT TARGET, only its valid scene contents and distinctive large functional forms are preserved, not its faulty projection, road grid or absent brushwork. Input2 M02 provides square topology/two rear transitions only, not diagram colors/text/icons. Input3 M03-10 provides Little Devil Inside architectural material/color/light simplification, excluding its camera, characters and world. Input4 M04-08 provides RETRO-FUTURIST enamel casing proportions, analog controls and modular connections interpreted as recovered, repaired and repurposed technology in Salvage Cyberpunk. Preserve cream/sage/ochre materials beneath cool night light, no gadget collage or pristine futuristic city. Input5 B03-01 provides broad flat painterly pigment patches on intact surfaces only, excluding fantasy architecture, bridge, water and source camera. Never copy any reference camera. Preserve all requested props and large architectural depth while correcting projection, floor footprints and surfaces."
+      ],
+      "reference_ids": [
+        "M04-08"
+      ],
+      "text_only_reason": "",
+      "planned_evidence": "실제전체PNG와원본표면확대에서 회수·수리·개조된 첨단 기술의 현재 기능과 공급/접합 이유",
+      "observation": {
+        "status": "PASS",
+        "basis": "actual_image",
+        "regions": [
+          "A3/B1/옥상/단면"
+        ],
+        "evidence": "회수한 가전형 외장들이 다른 크기·색으로 조합되고 두꺼운 전력/배관 연결이 옥상과 생활 설비, 지하로 이어진다.",
+        "positive_evidence": "보수 판과 외부 우회 배관이 기존 장비의 재사용을 표현한다.",
+        "forbidden_evidence": "발광 표지판만으로 기술을 대신하지 않음."
+      }
+    },
+    {
+      "id": "W02-01",
+      "source": "docs/04_WORLD_DESIGN_V2.md",
+      "check_ids": [
+        "W02"
+      ],
+      "applicable": true,
+      "critical": true,
+      "na_reason": "",
+      "positive_visual": "장소 전반의 큰 보수·교체·바랜 색면과 유지 흔적",
+      "forbidden_visual": "신품 건축에 SF만 부착·촘촘한 오염을 수리 이력으로 대신함",
+      "prompt_clauses": [
+        "Reference roles: input1 is the user-selected EDIT TARGET, only its valid scene contents and distinctive large functional forms are preserved, not its faulty projection, road grid or absent brushwork. Input2 M02 provides square topology/two rear transitions only, not diagram colors/text/icons. Input3 M03-10 provides Little Devil Inside architectural material/color/light simplification, excluding its camera, characters and world. Input4 M04-08 provides RETRO-FUTURIST enamel casing proportions, analog controls and modular connections interpreted as recovered, repaired and repurposed technology in Salvage Cyberpunk. Preserve cream/sage/ochre materials beneath cool night light, no gadget collage or pristine futuristic city. Input5 B03-01 provides broad flat painterly pigment patches on intact surfaces only, excluding fantasy architecture, bridge, water and source camera. Never copy any reference camera. Preserve all requested props and large architectural depth while correcting projection, floor footprints and surfaces."
+      ],
+      "reference_ids": [
+        "M04-08"
+      ],
+      "text_only_reason": "",
+      "planned_evidence": "실제전체PNG와원본표면확대에서 장소 전반의 큰 보수·교체·바랜 색면과 유지 흔적",
+      "observation": {
+        "status": "PASS",
+        "basis": "actual_image",
+        "regions": [
+          "벽 보수패치·장비 케이스·도로 파손"
+        ],
+        "evidence": "큰 보수 도장과 교체색 패널, 오래 쓴 케이스 및 도로 두 파손이 유지되는 쇠락 환경을 보인다.",
+        "positive_evidence": "장면이 완전 폐허가 되지 않고 작동하는 조명과 정비 설비가 공존한다.",
+        "forbidden_evidence": "신품 도시+네온만 있는 모습 아님."
+      }
+    },
+    {
+      "id": "W03-01",
+      "source": "docs/04_WORLD_DESIGN_V2.md",
+      "check_ids": [
+        "W03"
+      ],
+      "applicable": true,
+      "critical": true,
+      "na_reason": "",
+      "positive_visual": "현재 장면의 큰 기계 기능 부피·깊이·지지·수리/공급 연결",
+      "forbidden_visual": "요청 기계층을 생활층 위 소품으로 대체·하우징을 패널/그릴로 축소·비율을 전역 고정",
+      "prompt_clauses": [
+        "Keep B exactly TWO storeys: its first floor itself is the large retro mechanical support system, with bulky rounded housings, service recess, thick frame and a human-sized closed access door. Its inhabited second floor is wider, shifted slightly sideways, with a supported overhang, rounded end, recessed windows and maintenance deck. Preserve both buildings' specific silhouettes, projecting wings/window pods and functional depths. Each roof retains functional supported equipment over roughly40–80% of its own top with meaningful empty area; roof equipment is not an additional storey. Compact game enclosure planning about6.5m maximum, no dimension labels."
+      ],
+      "reference_ids": [
+        "TARGET-NIGHT"
+      ],
+      "text_only_reason": "",
+      "planned_evidence": "실제전체PNG와원본표면확대에서 현재 장면의 큰 기계 기능 부피·깊이·지지·수리/공급 연결",
+      "observation": {
+        "status": "PASS",
+        "basis": "actual_image",
+        "regions": [
+          "A3/B1과 B/A 옥상"
+        ],
+        "evidence": "A3은 큰 하우징 두 개와 개방 프레임이 층 자체를 이루고 B1은 두 둥근 큰 장비와 깊은 서비스 홈이 몸체를 이룬다.",
+        "positive_evidence": "연결관/받침/정비 발판이 부피와 기능을 설명한다.",
+        "forbidden_evidence": "작은 장치만 벽에 붙인 기계층 아님."
+      }
+    },
+    {
+      "id": "W04-01",
+      "source": "docs/04_WORLD_DESIGN_V2.md",
+      "check_ids": [
+        "W04"
+      ],
+      "applicable": true,
+      "critical": true,
+      "na_reason": "",
+      "positive_visual": "건물별 사람용 문/셔터의 규모·문턱·접지 및 장식/기능 출구 역할",
+      "forbidden_visual": "환기구/점검판으로 입구 대체·비건물에도 건물 입구 강제",
+      "prompt_clauses": [
+        "Keep both substantial rear blocking boundaries and exactly two open functional exits, one in each rear direction. Both must connect the central street through the threshold to a plainly visible continuation lane outside; no railings, stock or fences across either continuation. Keep central combat space clear, footings grounded, supports/joins coherent and pedestrian approaches wide and unobstructed. Building doors remain closed human entrances, not extra map exits. No exposed interior room or tall foreground barrier. Curved cladding remains local and coherent; straight building axes align with the shared ground axes."
+      ],
+      "reference_ids": [
+        "M02-01"
+      ],
+      "text_only_reason": "",
+      "planned_evidence": "실제전체PNG와원본표면확대에서 건물별 사람용 문/셔터의 규모·문턱·접지 및 장식/기능 출구 역할",
+      "observation": {
+        "status": "PASS",
+        "basis": "actual_image",
+        "regions": [
+          "A1/B1 빨간 문"
+        ],
+        "evidence": "A1과 B1 각각 사람이 출입할 크기의 닫힌 문과 손잡이·문턱이 있다.",
+        "positive_evidence": "양 문은 장식 건물 입구이며 후방 기능 출구와 구분된다.",
+        "forbidden_evidence": "환기구/점검판으로 사람용 입구를 대체하지 않음."
+      }
+    },
+    {
+      "id": "W05-01",
+      "source": "docs/04_WORLD_DESIGN_V2.md",
+      "check_ids": [
+        "W05"
+      ],
+      "applicable": true,
+      "critical": true,
+      "na_reason": "",
+      "positive_visual": "건물별 윗면40~80%의 기능적 구성과 받침·연결·여백",
+      "forbidden_visual": "장면평균/기계비율로 혼동·그림자/오염/도색을 점유로 셈·기계층 위 중복 장비 증식",
+      "prompt_clauses": [
+        "Keep B exactly TWO storeys: its first floor itself is the large retro mechanical support system, with bulky rounded housings, service recess, thick frame and a human-sized closed access door. Its inhabited second floor is wider, shifted slightly sideways, with a supported overhang, rounded end, recessed windows and maintenance deck. Preserve both buildings' specific silhouettes, projecting wings/window pods and functional depths. Each roof retains functional supported equipment over roughly40–80% of its own top with meaningful empty area; roof equipment is not an additional storey. Compact game enclosure planning about6.5m maximum, no dimension labels."
+      ],
+      "reference_ids": [
+        "TARGET-NIGHT"
+      ],
+      "text_only_reason": "",
+      "planned_evidence": "실제전체PNG와원본표면확대에서 건물별 윗면40~80%의 기능적 구성과 받침·연결·여백",
+      "observation": {
+        "status": "PASS",
+        "basis": "actual_image",
+        "regions": [
+          "A/B 각각 옥상"
+        ],
+        "evidence": "A 옥상은 큰 송풍 하우징·탱크·기둥 받침 차양/정비대가 대부분을 구성하면서 가장자리 여백이 있다. B 옥상은 대형 장비·관·작은 서비스함이 지배적 면적을 차지한다.",
+        "positive_evidence": "각 지붕을 별도로 보았을 때 계획한 40~80% 범위에 근접한 기능 점유로 읽힌다.",
+        "forbidden_evidence": "정확한 3D 면적 계측 아님. 그림자/오염을 설비 점유로 세지 않음."
+      }
+    },
+    {
+      "id": "R01-01",
+      "source": "현재 사용자 요청 + docs/08_COMMANDS.md",
+      "check_ids": [
+        "R01"
+      ],
+      "applicable": true,
+      "critical": true,
+      "na_reason": "",
+      "positive_visual": "현재밤쿨톤변경과기존소품/기계부피보존및명시실패보정",
+      "forbidden_visual": "현재 요청 누락·직전 소품/날씨/수치를 새 장소에 자동 누적·요청하지 않은 인물/문자/UI",
+      "prompt_clauses": [
+        "Reference roles: input1 is the user-selected EDIT TARGET, only its valid scene contents and distinctive large functional forms are preserved, not its faulty projection, road grid or absent brushwork. Input2 M02 provides square topology/two rear transitions only, not diagram colors/text/icons. Input3 M03-10 provides Little Devil Inside architectural material/color/light simplification, excluding its camera, characters and world. Input4 M04-08 provides RETRO-FUTURIST enamel casing proportions, analog controls and modular connections interpreted as recovered, repaired and repurposed technology in Salvage Cyberpunk. Preserve cream/sage/ochre materials beneath cool night light, no gadget collage or pristine futuristic city. Input5 B03-01 provides broad flat painterly pigment patches on intact surfaces only, excluding fantasy architecture, bridge, water and source camera. Never copy any reference camera. Preserve all requested props and large architectural depth while correcting projection, floor footprints and surfaces."
+      ],
+      "reference_ids": [
+        "M04-08"
+      ],
+      "text_only_reason": "",
+      "planned_evidence": "실제전체PNG와원본표면확대에서 현재 장소·시간·재질·주요 물체·편집 보존의 시각 요구를 개별 행으로 구체화",
+      "observation": {
+        "status": "FAIL",
+        "basis": "actual_image",
+        "regions": [
+          "전체와 도로/벽/층별 부피"
+        ],
+        "evidence": "밤/쿨톤 변경과 요청 소품은 이행했으나 needs_revision 중 정사영·재질별 붓질·도로 잔격자·A3/4 크기 관계가 해결되지 않았다.",
+        "positive_evidence": "USER-6 야간과 기존 기능 부피/소품은 보존된다.",
+        "forbidden_evidence": "명시된 기존 미달 조건의 일부 잔존."
+      }
+    },
+    {
+      "id": "R02-01",
+      "source": "docs/01_COMPOSITION.md + docs/06_QA.md",
+      "check_ids": [
+        "R02"
+      ],
+      "applicable": false,
+      "critical": true,
+      "na_reason": "같은시안보정이므로새독립설계R02미해당;R03적용",
+      "positive_visual": "새 장소/독립 시안의 실제 큰 형태·외벽 깊이·공간/경계/출구·포장/단면 차이",
+      "forbidden_visual": "재색칠/층수/좌우 반전/위치/작은 부품만 변경·다른 계획/미입력을 실제 차이의 근거로 사용",
+      "prompt_clauses": [
+        "Reference roles: input1 is the user-selected EDIT TARGET, only its valid scene contents and distinctive large functional forms are preserved, not its faulty projection, road grid or absent brushwork. Input2 M02 provides square topology/two rear transitions only, not diagram colors/text/icons. Input3 M03-10 provides Little Devil Inside architectural material/color/light simplification, excluding its camera, characters and world. Input4 M04-08 provides RETRO-FUTURIST enamel casing proportions, analog controls and modular connections interpreted as recovered, repaired and repurposed technology in Salvage Cyberpunk. Preserve cream/sage/ochre materials beneath cool night light, no gadget collage or pristine futuristic city. Input5 B03-01 provides broad flat painterly pigment patches on intact surfaces only, excluding fantasy architecture, bridge, water and source camera. Never copy any reference camera. Preserve all requested props and large architectural depth while correcting projection, floor footprints and surfaces."
+      ],
+      "reference_ids": [
+        "M04-08"
+      ],
+      "text_only_reason": "",
+      "planned_evidence": "실제전체PNG와원본표면확대에서 새 장소/독립 시안의 실제 큰 형태·외벽 깊이·공간/경계/출구·포장/단면 차이",
+      "observation": {
+        "status": "NOT_APPLICABLE",
+        "basis": "actual_image",
+        "regions": [
+          "같은 장면 편집"
+        ],
+        "evidence": "새 독립 시안이 아닌 기존 시안 야간 편집이다.",
+        "positive_evidence": "다른 장면 설계 다양성 요구 미적용.",
+        "forbidden_evidence": "R03 전후 보존으로 별도 검수."
+      }
+    },
+    {
+      "id": "R03-01",
+      "source": "docs/06_QA.md + 현재 사용자 편집 요구",
+      "check_ids": [
+        "R03"
+      ],
+      "applicable": true,
+      "critical": true,
+      "na_reason": "",
+      "positive_visual": "같은 시안 편집 전후 명시 변경 밖의 유효한 형태/깊이/아트/빛/세계관/요청 보존",
+      "forbidden_visual": "구조 개선을 이유로 큰 하우징/깊이/붓터치/요청 후퇴를 상쇄·최신 후보 자동 선택",
+      "prompt_clauses": [
+        "Reference roles: input1 is the user-selected EDIT TARGET, only its valid scene contents and distinctive large functional forms are preserved, not its faulty projection, road grid or absent brushwork. Input2 M02 provides square topology/two rear transitions only, not diagram colors/text/icons. Input3 M03-10 provides Little Devil Inside architectural material/color/light simplification, excluding its camera, characters and world. Input4 M04-08 provides RETRO-FUTURIST enamel casing proportions, analog controls and modular connections interpreted as recovered, repaired and repurposed technology in Salvage Cyberpunk. Preserve cream/sage/ochre materials beneath cool night light, no gadget collage or pristine futuristic city. Input5 B03-01 provides broad flat painterly pigment patches on intact surfaces only, excluding fantasy architecture, bridge, water and source camera. Never copy any reference camera. Preserve all requested props and large architectural depth while correcting projection, floor footprints and surfaces."
+      ],
+      "reference_ids": [
+        "M04-08"
+      ],
+      "text_only_reason": "",
+      "planned_evidence": "실제전체PNG와원본표면확대에서 같은 시안 편집 전후 명시 변경 밖의 유효한 형태/깊이/아트/빛/세계관/요청 보존",
+      "observation": {
+        "status": "PASS",
+        "basis": "actual_image",
+        "regions": [
+          "낮 baseline 및 현재 밤 전체/동일 역할 부위"
+        ],
+        "evidence": "A의 원형 끝창/측면 돌출창/깊은 긴 창/설비3층과 B의 곡면 상층/기계1층, 두 출구·소품이 유지되었다. 도로 격자는 줄고 큰 붓띠가 늘었다.",
+        "positive_evidence": "밤 조명은 명시 변경이며 밝은 중간톤으로 재질과 접지 가독성을 유지한다.",
+        "forbidden_evidence": "지정 변경 외 명확한 형태/깊이/요청 후퇴는 관찰되지 않음. 기존 실패의 지속은 해당 항목 실패로 유지."
+      }
+    },
+    {
+      "id": "USER-1",
+      "source": "현재 사용자 요청",
+      "check_ids": [
+        "R01"
+      ],
+      "applicable": true,
+      "critical": true,
+      "na_reason": "",
+      "positive_visual": "Building A: exactly FOUR storeys. Floor1 is a narrow grounded service/entrance core; floor2 is a visibly wider occupied volume overhanging floor1. Give floor2 a short projecting side wing, a recessed full-height window and an offset supported balcony. Floor3 is a NARROWER NONRESIDENTIAL MACHINE FLOOR, made of a load-bearing open frame, two large recovered retro-futurist equipment casings, an inset maintenance aisle and thick functional connections. Floor4 is a WIDER occupied volume overhanging floor3 on both visible sides, with a large rounded projecting window enclosure and an asymmetrical end. Make 1<2 and 3<4 footprints unmistakable, no extra inhabited floor. Keep substantial recesses, support beams and visible undersides, rather than four similar boxes.",
+      "forbidden_visual": "현재 요청 요소 누락 또는 다른층/장치/재질로대체",
+      "prompt_clauses": [
+        "Keep building A exactly FOUR storeys: narrow first-floor human entrance core; wider second-floor inhabited mass with projecting side wing, deep window enclosure and balcony; narrower third-floor NONRESIDENTIAL retro machine structure; wider fourth-floor inhabited mass with rounded projecting end window. CORRECT the third-floor platform: its ENTIRE slab and railing perimeter must fit inside the fourth-floor footprint on both visible sides, with clear overhang beyond it. The first-floor footprint is also visibly smaller than the second. Retain big rounded equipment casings, deep service slots, load-bearing frames, supported overhangs and readable floor separation; do not simplify the building into stacked flat boxes."
+      ],
+      "reference_ids": [
+        "TARGET-NIGHT"
+      ],
+      "text_only_reason": "",
+      "planned_evidence": "해당건물·지면·소품의전체및확대실제관찰",
+      "observation": {
+        "status": "UNCERTAIN",
+        "basis": "actual_image",
+        "regions": [
+          "A 전체 특히 3층 전체 발판/4층 외곽"
+        ],
+        "evidence": "A는 네 층이며1층 코어보다2층의 돌출창/상자 볼륨이 넓고3층은 비거주 기계층이다. 그러나 난간을 포함한3층 전체 발판이4층보다 두 보이는 방향 모두 작다는 관계는 명확하지 않다.",
+        "positive_evidence": "2층 돌출 윙/긴 깊은 창과4층 둥근 끝창이 있다.",
+        "forbidden_evidence": "기계 케이스 자체의 작은 크기를 전체3층 면적 조건으로 대신하지 않음."
+      }
+    },
+    {
+      "id": "USER-2",
+      "source": "현재 사용자 요청",
+      "check_ids": [
+        "R01"
+      ],
+      "applicable": true,
+      "critical": true,
+      "na_reason": "",
+      "positive_visual": "Building B: exactly TWO storeys. Floor1 IS a substantial retro-futurist mechanical structure, not a normal shop with devices attached: two different bulky rounded appliance-like power housings, thick support frame, deep service slot and a closed human access door integrated into the service core. Floor2 is a WIDER inhabited enclosure shifted slightly sideways along the common world axis so its supported overhang and exposed underside are obvious. Give it a curved end, deep window and side maintenance deck. Its silhouette differs strongly from A.",
+      "forbidden_visual": "현재 요청 요소 누락 또는 다른층/장치/재질로대체",
+      "prompt_clauses": [
+        "Keep B exactly TWO storeys: its first floor itself is the large retro mechanical support system, with bulky rounded housings, service recess, thick frame and a human-sized closed access door. Its inhabited second floor is wider, shifted slightly sideways, with a supported overhang, rounded end, recessed windows and maintenance deck. Preserve both buildings' specific silhouettes, projecting wings/window pods and functional depths. Each roof retains functional supported equipment over roughly40–80% of its own top with meaningful empty area; roof equipment is not an additional storey. Compact game enclosure planning about6.5m maximum, no dimension labels."
+      ],
+      "reference_ids": [
+        "TARGET-NIGHT"
+      ],
+      "text_only_reason": "",
+      "planned_evidence": "해당건물·지면·소품의전체및확대실제관찰",
+      "observation": {
+        "status": "PASS",
+        "basis": "actual_image",
+        "regions": [
+          "B 전체"
+        ],
+        "evidence": "B는 큰 가전형 장비와 프레임의1층 위에 더 큰 곡면 주거2층이 약간 어긋나 돌출하고 하부 지지가 드러난다.",
+        "positive_evidence": "사람용 문·서비스 홈·측면 데크·깊은 창 유지.",
+        "forbidden_evidence": "2층을 동일 너비의 평평한 상자로 축소하지 않음."
+      }
+    },
+    {
+      "id": "USER-3",
+      "source": "현재 사용자 요청",
+      "check_ids": [
+        "R01"
+      ],
+      "applicable": true,
+      "critical": true,
+      "na_reason": "",
+      "positive_visual": "Urban street at night (current USER-6 overrides prior daytime). EXACTLY TWO peripheral parked cars, one recognizable pickup truck with an open cargo bed and one compact passenger car. Both leave the center and exits free. A red fire hydrant on the sidewalk. One large industrial dumpster in a side service pocket, with an old refrigerator, discarded washing machine, rubbish bags and loose paper immediately beside it. A few paper posters AND clearly separate painted graffiti on selected walls. No people, UI, neon, glowing signs or green CRT screens.",
+      "forbidden_visual": "현재 요청 요소 누락 또는 다른층/장치/재질로대체",
+      "prompt_clauses": [
+        "Preserve exactly TWO parked cars (one pickup with open cargo bed, one passenger car), red fire hydrant, large industrial dumpster with nearby refrigerator, washing machine, rubbish bags and loose paper, wall posters and separate painted cat graffiti. Preserve the two localized jagged broken roadway holes with exposed substrate and rubble and sparse paper litter. Keep LARGE rectilinear tile patterns on the sidewalks only. Nothing may block the center or either exit."
+      ],
+      "reference_ids": [
+        "TARGET-NIGHT"
+      ],
+      "text_only_reason": "",
+      "planned_evidence": "해당건물·지면·소품의전체및확대실제관찰",
+      "observation": {
+        "status": "PASS",
+        "basis": "actual_image",
+        "regions": [
+          "양 전면 차량/소화전/B 우측 포켓/벽"
+        ],
+        "evidence": "픽업1대와 소형차1대, 빨간 소화전, 대형 쓰레기통·냉장고·세탁기·쓰레기봉지·종이, 벽 포스터와 고양이 낙서가 모두 확인된다.",
+        "positive_evidence": "밤으로 변경하면서 위치와 종류 보존. 원문 중 Daytime은 최신 USER-6 밤 지시로 대체.",
+        "forbidden_evidence": "사람·UI·네온·녹색CRT 없음."
+      }
+    },
+    {
+      "id": "USER-4",
+      "source": "현재 사용자 요청",
+      "check_ids": [
+        "R01"
+      ],
+      "applicable": true,
+      "critical": true,
+      "na_reason": "",
+      "positive_visual": "DRY matte asphalt roadway through the open center, with two localized BROKEN areas showing jagged missing pavement edges and a little exposed substrate, plus sparse paper rubbish. Distinguish real breaks from repair patches. The rest of the road is quiet broad pigment planes. Building-side paving uses LARGE rectilinear tile patterns, not tiny mosaic. No water, puddles, glossy reflections, waviness, refractive-glass appearance, thin squiggles or repeated crack networks.",
+      "forbidden_visual": "현재 요청 요소 누락 또는 다른층/장치/재질로대체",
+      "prompt_clauses": [
+        "Replace the ROAD texture completely: the central road is continuous dry matte ASPHALT, with NO tile grid, checkerboard, mosaic, rectangular seams, repeated scratch networks or wavy/refractive marks. Preserve just the two localized pavement breaks, a manhole and sparse paper. Across intact asphalt, walls, machine casings and car bodies, deliberately paint a few clearly visible WIDE FLAT directional swipes of nearby color/value, separated by broad calm areas. These are painterly pigment shapes, not chips, rust or stains. Reduce the tiny scattered wear marks. Sidewalk large tile joints remain distinct from the road. Preserve physical depth/material readability through broad simple shading; no miniature-photography grain, embossed brush ridges, blur, wet reflections or neon."
+      ],
+      "reference_ids": [
+        "B03-01"
+      ],
+      "text_only_reason": "",
+      "planned_evidence": "해당건물·지면·소품의전체및확대실제관찰",
+      "observation": {
+        "status": "FAIL",
+        "basis": "actual_image",
+        "regions": [
+          "qa_road.png/인도"
+        ],
+        "evidence": "도로는 무광이고 실제로 뚫린 두 파손과 종이, 건물 쪽 큰 타일을 유지하나 연속 아스팔트 면에 미세 사각 격자가 남아 조용한 큰 색면 조건 미달이다.",
+        "positive_evidence": "물·웅덩이·광택 반사는 없고 파손은 평평한 보수패치와 구별된다.",
+        "forbidden_evidence": "잔격자/모자이크 표현이 남음."
+      }
+    },
+    {
+      "id": "USER-5",
+      "source": "현재 사용자 요청",
+      "check_ids": [
+        "R01"
+      ],
+      "applicable": true,
+      "critical": true,
+      "na_reason": "",
+      "positive_visual": "M4 FOR THIS IMAGE: use the attached RETRO-FUTURISM device design sheet (input4). Translate varied rounded enamel shells, stepped rectangular housings, analog dial windows, a few large knobs, handles, broad louvers and practical adapters into building-scale power/service architecture. Cream, muted ochre, faded sage and terracotta accents. Retain the Salvage Cyberpunk logic of recovered technology repaired and repurposed: mismatched replacement shells, useful bypass connections and selective signs of long use. Not a pristine future city, not uniform rusty decay, not small radios glued to every wall. No character or device collage. Preserve meaningful large functional volumes, deep recesses and visible load paths.",
+      "forbidden_visual": "현재 요청 요소 누락 또는 다른층/장치/재질로대체",
+      "prompt_clauses": [
+        "Reference roles: input1 is the user-selected EDIT TARGET, only its valid scene contents and distinctive large functional forms are preserved, not its faulty projection, road grid or absent brushwork. Input2 M02 provides square topology/two rear transitions only, not diagram colors/text/icons. Input3 M03-10 provides Little Devil Inside architectural material/color/light simplification, excluding its camera, characters and world. Input4 M04-08 provides RETRO-FUTURIST enamel casing proportions, analog controls and modular connections interpreted as recovered, repaired and repurposed technology in Salvage Cyberpunk. Preserve cream/sage/ochre materials beneath cool night light, no gadget collage or pristine futuristic city. Input5 B03-01 provides broad flat painterly pigment patches on intact surfaces only, excluding fantasy architecture, bridge, water and source camera. Never copy any reference camera. Preserve all requested props and large architectural depth while correcting projection, floor footprints and surfaces."
+      ],
+      "reference_ids": [
+        "M04-08"
+      ],
+      "text_only_reason": "",
+      "planned_evidence": "해당건물·지면·소품의전체및확대실제관찰",
+      "observation": {
+        "status": "PASS",
+        "basis": "actual_image",
+        "regions": [
+          "M04-08 및 현재 기계층"
+        ],
+        "evidence": "크림/세이지 색의 둥근 에나멜 기기 외장, 넓은 루버·손잡이·점검창과 교체 모듈이 건축 규모로 재해석되어 있다.",
+        "positive_evidence": "색이 다른 회수 외장과 배관 결합/보수 흔적이 Salvage Cyberpunk 관계를 유지한다.",
+        "forbidden_evidence": "기기 콜라주·신품SF·작은 라디오 도배 아님."
+      }
+    },
+    {
+      "id": "USER-6",
+      "source": "현재 사용자 명시 요청",
+      "check_ids": [
+        "R01"
+      ],
+      "applicable": true,
+      "critical": true,
+      "na_reason": "",
+      "positive_visual": "밤/지배적인쿨톤/읽히는형태와재질",
+      "forbidden_visual": "낮햇빛/따뜻한톤지배/검수불가검은면",
+      "prompt_clauses": [
+        "Make the scene unmistakably NIGHT with a dominant cool slate-blue and indigo palette. Broad soft blue moonlight reveals the upper faces, machine volumes, ground joins, dry asphalt brush strokes and both cut faces. Add restrained warm amber light in a few occupied windows and existing practical wall lamps; warm pools stay small within the cool overall scene. The machinery floor remains a nonresidential plant space. Neutral dark blue-grey backdrop; no daylight sun, bright daytime sky or daytime cast-shadow appearance. Keep midtones readable for inspection instead of crushing all details into black. No rain, puddles, fog wall, neon signs or green CRT. The requested night relighting is an intentional change, not a preservation failure."
+      ],
+      "reference_ids": [
+        "M03-10"
+      ],
+      "text_only_reason": "",
+      "planned_evidence": "최종전체및벽/도로확대에서야간쿨톤과가시성실제관찰",
+      "observation": {
+        "status": "PASS",
+        "basis": "actual_image",
+        "regions": [
+          "전체와 벽/바닥 중간톤"
+        ],
+        "evidence": "지배적인 남청·슬레이트 블루 환경과 차가운 상면광, 소수 따뜻한 창/벽등으로 야간 쿨톤이 명확하다.",
+        "positive_evidence": "형태와 접지·두 단면을 볼 만큼 중간톤이 열려 있다.",
+        "forbidden_evidence": "낮 하늘/햇빛 또는 검게 뭉개진 면 없음."
+      }
+    }
+  ],
+  "checks": [
+    {
+      "id": "C01",
+      "applicable": true,
+      "na_reason": "",
+      "status": "PASS",
+      "basis": "actual_image",
+      "regions": [
+        "C01-01: 전체와 네 외곽 끝"
+      ],
+      "evidence": "C01-01: 단독 디오라마와 두 단면, 모든 외곽이 프레임 안에 보인다.",
+      "positive_evidence": "C01-01: 전면 최하단에도 배경 여백이 남는다.",
+      "forbidden_evidence": "C01-01: 크롭이나 추가 디오라마 없음."
+    },
+    {
+      "id": "C02",
+      "applicable": true,
+      "na_reason": "",
+      "status": "UNCERTAIN",
+      "basis": "actual_image",
+      "regions": [
+        "C02-01: 양 전면 단면 및 상하 모서리"
+      ],
+      "evidence": "C02-01: 두 평면 단면은 보이나 왼쪽/중앙/오른쪽 끝의 상하 대응 간격 차이가 있고 뒤쪽 대응은 가려져 일정 깊이를 확정하기 어렵다.",
+      "positive_evidence": "C02-01: 연속 배관과 흙층이 두 면으로 이어진다.",
+      "forbidden_evidence": "C02-01: 명백한 곡면 단면은 없지만 동일 깊이 대응의 확증 부족."
+    },
+    {
+      "id": "C03",
+      "applicable": true,
+      "na_reason": "",
+      "status": "UNCERTAIN",
+      "basis": "actual_image",
+      "regions": [
+        "C03-01: 베이스 전체/후방 가려진 꼭짓점"
+      ],
+      "evidence": "C03-01: 전면 두 외곽은 직선 사각 베이스로 읽히지만 후방 기준점이 건축물에 가려져 정확한 정사각 평면은 불확실하다.",
+      "positive_evidence": "C03-01: 전면 추가 꼭짓점·모따기·굽힘은 보이지 않는다.",
+      "forbidden_evidence": "C03-01: 사각형 인상만으로 정사각 및 일정 두께를 확정하지 않음."
+    },
+    {
+      "id": "C04",
+      "applicable": true,
+      "na_reason": "",
+      "status": "FAIL",
+      "basis": "actual_image",
+      "regions": [
+        "C04-01: A 상층 지붕·3층 데크, B 지붕, 전면 베이스"
+      ],
+      "evidence": "C04-01: A/B 상층의 직선 가로 띠와 데크는 지면/베이스 동방향보다 수평에 가까워 단일 평행 정사영 선군이 아니다.",
+      "positive_evidence": "C04-01: 수직 기둥은 대체로 평행하고 곡면 창은 의도된 국소 형태이다.",
+      "forbidden_evidence": "C04-01: 상층만 낮은 시점처럼 펼쳐지는 직선 선군 불일치."
+    },
+    {
+      "id": "L01",
+      "applicable": true,
+      "na_reason": "",
+      "status": "PASS",
+      "basis": "actual_image",
+      "regions": [
+        "L01-01: 좌우 뒤쪽 벽/중앙 건물 사이"
+      ],
+      "evidence": "L01-01: 뒤쪽 두 방향의 높은 벽과 건물, 배관 경계가 시각적 차단을 구성한다.",
+      "positive_evidence": "L01-01: 중간 접합 틈은 설비/건축으로 막혀 제3통로가 아니다.",
+      "forbidden_evidence": "L01-01: 낮은 프랍만 경계로 쓰거나 추가 빈 이동 틈 없음."
+    },
+    {
+      "id": "L02",
+      "applicable": true,
+      "na_reason": "",
+      "status": "PASS",
+      "basis": "actual_image",
+      "regions": [
+        "L02-01: 좌측 문틀/우측 문틀"
+      ],
+      "evidence": "L02-01: 좌측과 우측 각각 열린 문틀 하나, 총 두 기능 출구가 있으며 문틀 너머 포장이 계속 보인다.",
+      "positive_evidence": "L02-01: 좌측 출구는 외측 벽 아래 보행길, 우측은 B 옆 보행길에 연결된다.",
+      "forbidden_evidence": "L02-01: 건물의 닫힌 빨간 문은 장식 입구이며 추가 맵 출구로 세지 않음."
+    },
+    {
+      "id": "L03",
+      "applicable": true,
+      "na_reason": "",
+      "status": "PASS",
+      "basis": "actual_image",
+      "regions": [
+        "L03-01: 중앙 도로에서 양 출구까지"
+      ],
+      "evidence": "L03-01: 중앙에서 좌우 인도를 통해 두 문틀과 그 너머까지 연속 통과 공간이 읽힌다.",
+      "positive_evidence": "L03-01: 차량은 양 전면 외곽에 있고 쓰레기는 B 오른쪽 포켓에 모여 있다.",
+      "forbidden_evidence": "L03-01: 양 연결부를 가로막는 난간·문짝·상자 없음. 실제 콜리전 미검증은 이미지 판정 범위 밖."
+    },
+    {
+      "id": "L04",
+      "applicable": true,
+      "na_reason": "",
+      "status": "PASS",
+      "basis": "actual_image",
+      "regions": [
+        "L04-01: 전면 전체"
+      ],
+      "evidence": "L04-01: 전면은 낮은 차량과 볼라드만 있어 중앙과 단면이 충분히 노출된다.",
+      "positive_evidence": "L04-01: 두 전면 절단면과 배관 모두 관찰 가능.",
+      "forbidden_evidence": "L04-01: 높은 전면 차폐 없음."
+    },
+    {
+      "id": "L05",
+      "applicable": true,
+      "na_reason": "",
+      "status": "PASS",
+      "basis": "actual_image",
+      "regions": [
+        "L05-01: A/B 지지 프레임·입구·옥상"
+      ],
+      "evidence": "L05-01: 기계 하우징은 프레임과 바닥 위에 놓이고 상층 아래 굵은 기둥/보가 연결되며 문턱이 인도에 닿는다.",
+      "positive_evidence": "L05-01: A 돌출 창 하부와 B 상층 하부 받침이 드러난다.",
+      "forbidden_evidence": "L05-01: 근거 없이 떠 있는 주된 설비는 보이지 않음; 단일 투영 실패는 C04에 별도 기록."
+    },
+    {
+      "id": "L06",
+      "applicable": false,
+      "na_reason": "노출실내방없음",
+      "status": "NOT_APPLICABLE",
+      "basis": "actual_image",
+      "regions": [
+        "L06-01: 닫힌 건물 외관"
+      ],
+      "evidence": "L06-01: 실내 방을 노출하지 않은 외관 장면.",
+      "positive_evidence": "L06-01: 입구 문이 닫혀 방 깊이/실내 동선 미적용.",
+      "forbidden_evidence": "L06-01: 실내 검증을 수행한 것으로 주장하지 않음."
+    },
+    {
+      "id": "L07",
+      "applicable": true,
+      "na_reason": "",
+      "status": "UNCERTAIN",
+      "basis": "actual_image",
+      "regions": [
+        "L07-01: A1 기단/B1 기계 뒤 접촉면"
+      ],
+      "evidence": "L07-01: 보이는 기둥 발은 인도에 닿지만 A/B 핵심 바닥 접합 일부가 하우징과 배관에 가려져 전체 직선축 대응을 확정하지 못한다.",
+      "positive_evidence": "L07-01: B 곡면 외장은 연속 지지 위에 놓이고 독립적 회전 건물은 확인되지 않는다.",
+      "forbidden_evidence": "L07-01: 옥상 선만으로 지상 회전각을 추정하지 않음."
+    },
+    {
+      "id": "S01",
+      "applicable": true,
+      "na_reason": "",
+      "status": "FAIL",
+      "basis": "actual_image",
+      "regions": [
+        "S01-01: qa_wall.png/qa_b.png/차량"
+      ],
+      "evidence": "S01-01: A2 녹청 벽과 A4/B2 넓은 벽은 여백을 유지하지만 큰 방향성 색 변화가 주로 도색 박리 패치로 읽힌다. 하우징/차량의 온전한 면에는 붓질 증거가 부족하다.",
+      "positive_evidence": "S01-01: 도로에 큰 청색/황토색 평면 붓띠가 새로 보인다.",
+      "forbidden_evidence": "S01-01: 도로 한 재질의 붓띠로 다른 온전한 벽/금속/차량의 부재를 대신할 수 없다."
+    },
+    {
+      "id": "S02",
+      "applicable": true,
+      "na_reason": "",
+      "status": "FAIL",
+      "basis": "actual_image",
+      "regions": [
+        "S02-01: qa_road.png와 하우징/벽 확대"
+      ],
+      "evidence": "S02-01: 도로의 큰 붓띠 아래에 촘촘한 작은 사각 격자와 짧은 잔선이 넓게 남아 자국 크기·밀도 기준 미달이다.",
+      "positive_evidence": "S02-01: 소품 배치는 외곽 중심이며 기본 벽면 여백은 있다.",
+      "forbidden_evidence": "S02-01: 반복 미세 그리드/자국이 연속 도로에 잔존."
+    },
+    {
+      "id": "S03",
+      "applicable": true,
+      "na_reason": "",
+      "status": "FAIL",
+      "basis": "actual_image",
+      "regions": [
+        "S03-01: 도로·벽·기계·차량 표면"
+      ],
+      "evidence": "S03-01: 큰 명암과 입체는 선명하고 도로의 평면 붓띠는 확인되지만 온전한 벽/기계/차량 붓표현 부족 및 도로 미세 격자가 함께 남는다.",
+      "positive_evidence": "S03-01: 젖은 반사나 실제 물결 같은 광택은 보이지 않는다.",
+      "forbidden_evidence": "S03-01: 긍정 붓표현이 일부 재질에 국한되고 반복 미세 모자이크 인상이 완전히 제거되지 않음."
+    },
+    {
+      "id": "S04",
+      "applicable": true,
+      "na_reason": "",
+      "status": "PASS",
+      "basis": "actual_image",
+      "regions": [
+        "S04-01: A 돌출창/설비층/B 서비스홈"
+      ],
+      "evidence": "S04-01: A 깊은 창과 돌출 창, 3층 큰 하우징과 프레임, B의 큰 기계 외장과 2층 하부 깊이가 명암으로 읽힌다.",
+      "positive_evidence": "S04-01: 서로 다른 금속 외장/벽/유리/포장과 연결 두께 구분이 유지된다.",
+      "forbidden_evidence": "S04-01: 기계 부피가 평면 무늬나 얕은 패널로 축소되지 않음."
+    },
+    {
+      "id": "W01",
+      "applicable": true,
+      "na_reason": "",
+      "status": "PASS",
+      "basis": "actual_image",
+      "regions": [
+        "W01-01: A3/B1/옥상/단면"
+      ],
+      "evidence": "W01-01: 회수한 가전형 외장들이 다른 크기·색으로 조합되고 두꺼운 전력/배관 연결이 옥상과 생활 설비, 지하로 이어진다.",
+      "positive_evidence": "W01-01: 보수 판과 외부 우회 배관이 기존 장비의 재사용을 표현한다.",
+      "forbidden_evidence": "W01-01: 발광 표지판만으로 기술을 대신하지 않음."
+    },
+    {
+      "id": "W02",
+      "applicable": true,
+      "na_reason": "",
+      "status": "PASS",
+      "basis": "actual_image",
+      "regions": [
+        "W02-01: 벽 보수패치·장비 케이스·도로 파손"
+      ],
+      "evidence": "W02-01: 큰 보수 도장과 교체색 패널, 오래 쓴 케이스 및 도로 두 파손이 유지되는 쇠락 환경을 보인다.",
+      "positive_evidence": "W02-01: 장면이 완전 폐허가 되지 않고 작동하는 조명과 정비 설비가 공존한다.",
+      "forbidden_evidence": "W02-01: 신품 도시+네온만 있는 모습 아님."
+    },
+    {
+      "id": "W03",
+      "applicable": true,
+      "na_reason": "",
+      "status": "PASS",
+      "basis": "actual_image",
+      "regions": [
+        "W03-01: A3/B1과 B/A 옥상"
+      ],
+      "evidence": "W03-01: A3은 큰 하우징 두 개와 개방 프레임이 층 자체를 이루고 B1은 두 둥근 큰 장비와 깊은 서비스 홈이 몸체를 이룬다.",
+      "positive_evidence": "W03-01: 연결관/받침/정비 발판이 부피와 기능을 설명한다.",
+      "forbidden_evidence": "W03-01: 작은 장치만 벽에 붙인 기계층 아님."
+    },
+    {
+      "id": "W04",
+      "applicable": true,
+      "na_reason": "",
+      "status": "PASS",
+      "basis": "actual_image",
+      "regions": [
+        "W04-01: A1/B1 빨간 문"
+      ],
+      "evidence": "W04-01: A1과 B1 각각 사람이 출입할 크기의 닫힌 문과 손잡이·문턱이 있다.",
+      "positive_evidence": "W04-01: 양 문은 장식 건물 입구이며 후방 기능 출구와 구분된다.",
+      "forbidden_evidence": "W04-01: 환기구/점검판으로 사람용 입구를 대체하지 않음."
+    },
+    {
+      "id": "W05",
+      "applicable": true,
+      "na_reason": "",
+      "status": "PASS",
+      "basis": "actual_image",
+      "regions": [
+        "W05-01: A/B 각각 옥상"
+      ],
+      "evidence": "W05-01: A 옥상은 큰 송풍 하우징·탱크·기둥 받침 차양/정비대가 대부분을 구성하면서 가장자리 여백이 있다. B 옥상은 대형 장비·관·작은 서비스함이 지배적 면적을 차지한다.",
+      "positive_evidence": "W05-01: 각 지붕을 별도로 보았을 때 계획한 40~80% 범위에 근접한 기능 점유로 읽힌다.",
+      "forbidden_evidence": "W05-01: 정확한 3D 면적 계측 아님. 그림자/오염을 설비 점유로 세지 않음."
+    },
+    {
+      "id": "R01",
+      "applicable": true,
+      "na_reason": "",
+      "status": "FAIL",
+      "basis": "actual_image",
+      "regions": [
+        "R01-01: 전체와 도로/벽/층별 부피",
+        "USER-1: A 전체 특히 3층 전체 발판/4층 외곽",
+        "USER-2: B 전체",
+        "USER-3: 양 전면 차량/소화전/B 우측 포켓/벽",
+        "USER-4: qa_road.png/인도",
+        "USER-5: M04-08 및 현재 기계층",
+        "USER-6: 전체와 벽/바닥 중간톤"
+      ],
+      "evidence": "R01-01: 밤/쿨톤 변경과 요청 소품은 이행했으나 needs_revision 중 정사영·재질별 붓질·도로 잔격자·A3/4 크기 관계가 해결되지 않았다.; USER-1: A는 네 층이며1층 코어보다2층의 돌출창/상자 볼륨이 넓고3층은 비거주 기계층이다. 그러나 난간을 포함한3층 전체 발판이4층보다 두 보이는 방향 모두 작다는 관계는 명확하지 않다.; USER-2: B는 큰 가전형 장비와 프레임의1층 위에 더 큰 곡면 주거2층이 약간 어긋나 돌출하고 하부 지지가 드러난다.; USER-3: 픽업1대와 소형차1대, 빨간 소화전, 대형 쓰레기통·냉장고·세탁기·쓰레기봉지·종이, 벽 포스터와 고양이 낙서가 모두 확인된다.; USER-4: 도로는 무광이고 실제로 뚫린 두 파손과 종이, 건물 쪽 큰 타일을 유지하나 연속 아스팔트 면에 미세 사각 격자가 남아 조용한 큰 색면 조건 미달이다.; USER-5: 크림/세이지 색의 둥근 에나멜 기기 외장, 넓은 루버·손잡이·점검창과 교체 모듈이 건축 규모로 재해석되어 있다.; USER-6: 지배적인 남청·슬레이트 블루 환경과 차가운 상면광, 소수 따뜻한 창/벽등으로 야간 쿨톤이 명확하다.",
+      "positive_evidence": "R01-01: USER-6 야간과 기존 기능 부피/소품은 보존된다.; USER-1: 2층 돌출 윙/긴 깊은 창과4층 둥근 끝창이 있다.; USER-2: 사람용 문·서비스 홈·측면 데크·깊은 창 유지.; USER-3: 밤으로 변경하면서 위치와 종류 보존. 원문 중 Daytime은 최신 USER-6 밤 지시로 대체.; USER-4: 물·웅덩이·광택 반사는 없고 파손은 평평한 보수패치와 구별된다.; USER-5: 색이 다른 회수 외장과 배관 결합/보수 흔적이 Salvage Cyberpunk 관계를 유지한다.; USER-6: 형태와 접지·두 단면을 볼 만큼 중간톤이 열려 있다.",
+      "forbidden_evidence": "R01-01: 명시된 기존 미달 조건의 일부 잔존.; USER-1: 기계 케이스 자체의 작은 크기를 전체3층 면적 조건으로 대신하지 않음.; USER-2: 2층을 동일 너비의 평평한 상자로 축소하지 않음.; USER-3: 사람·UI·네온·녹색CRT 없음.; USER-4: 잔격자/모자이크 표현이 남음.; USER-5: 기기 콜라주·신품SF·작은 라디오 도배 아님.; USER-6: 낮 하늘/햇빛 또는 검게 뭉개진 면 없음."
+    },
+    {
+      "id": "R02",
+      "applicable": false,
+      "na_reason": "같은시안보정이므로새독립설계R02미해당;R03적용",
+      "status": "NOT_APPLICABLE",
+      "basis": "actual_image",
+      "regions": [
+        "R02-01: 같은 장면 편집"
+      ],
+      "evidence": "R02-01: 새 독립 시안이 아닌 기존 시안 야간 편집이다.",
+      "positive_evidence": "R02-01: 다른 장면 설계 다양성 요구 미적용.",
+      "forbidden_evidence": "R02-01: R03 전후 보존으로 별도 검수."
+    },
+    {
+      "id": "R03",
+      "applicable": true,
+      "na_reason": "",
+      "status": "PASS",
+      "basis": "actual_image",
+      "regions": [
+        "R03-01: 낮 baseline 및 현재 밤 전체/동일 역할 부위"
+      ],
+      "evidence": "R03-01: A의 원형 끝창/측면 돌출창/깊은 긴 창/설비3층과 B의 곡면 상층/기계1층, 두 출구·소품이 유지되었다. 도로 격자는 줄고 큰 붓띠가 늘었다.",
+      "positive_evidence": "R03-01: 밤 조명은 명시 변경이며 밝은 중간톤으로 재질과 접지 가독성을 유지한다.",
+      "forbidden_evidence": "R03-01: 지정 변경 외 명확한 형태/깊이/요청 후퇴는 관찰되지 않음. 기존 실패의 지속은 해당 항목 실패로 유지."
+    }
+  ],
+  "candidate": {
+    "image_path": "image.png",
+    "sha256": "a56899a04e4d062c9661cc69d2a3b24ee3d9922144d6389cbf014941daa641db",
+    "actually_opened": true,
+    "observation_basis": "actual_image",
+    "reviewed_at": "2026-09-12T21:28:53.752151+09:00",
+    "overall_status": "needs_revision",
+    "result_path": "result.json"
+  },
+  "comparison": {
+    "applicable": true,
+    "na_reason": "",
+    "baseline": {
+      "image_path": "outputs/20260912_204620_city_day_retro_m4_frame/image.png",
+      "sha256": "9e2e461b80b1a36eb007114e7ebb67fbce627243d97913d07aa204f853764d93",
+      "actually_opened": true
+    },
+    "preservation_plan": "밤쿨톤은명시변경. 큰하우징·돌출윙/창·깊이·차2대/소화전/폐가전/쓰레기/포스터/낙서/두출구유지;기하/도로/붓질/층별폭관계는수정.",
+    "dimensions": [
+      {
+        "dimension": "structure",
+        "before": "전체 프레이밍/두 출구, 상층 투영 불일치",
+        "after": "전체 프레이밍/두 출구 유지, 상층 투영 여전히 불일치",
+        "change": "preserved",
+        "evidence": "새로운 크롭/차단은 없지만 C04 미해결.",
+        "requirement_ids": [
+          "R03-01"
+        ]
+      },
+      {
+        "dimension": "large_form",
+        "before": "A 돌출윙/원형 끝창/기계층, B 큰 곡면체",
+        "after": "동일 기능 부피와 비대칭 윤곽",
+        "change": "preserved",
+        "evidence": "얕은 상자나 패널로 퇴행하지 않았다.",
+        "requirement_ids": [
+          "R03-01"
+        ]
+      },
+      {
+        "dimension": "facade_depth",
+        "before": "긴 깊은 창·하우징 아래 홈/받침",
+        "after": "깊은 창·그늘진 서비스홈·받침 유지",
+        "change": "preserved",
+        "evidence": "주된 리세스와 연결 두께가 밤에도 드러난다.",
+        "requirement_ids": [
+          "R03-01"
+        ]
+      },
+      {
+        "dimension": "surface",
+        "before": "작은 도로 타일 격자, 벽 박리",
+        "after": "도로 격자가 약해지고 큰 붓띠 증가, 벽 박리는 여전",
+        "change": "improved",
+        "evidence": "도로 일부 개선이나 S01~03/USER-4는 여전히 미달.",
+        "requirement_ids": [
+          "R03-01"
+        ]
+      },
+      {
+        "dimension": "light_material",
+        "before": "따뜻한 낮의 재질 분리",
+        "after": "쿨톤 야간과 제한된 창/램프, 읽히는 중간톤",
+        "change": "improved",
+        "evidence": "명시적 야간 변경을 이행하고 재질을 구분한다.",
+        "requirement_ids": [
+          "R03-01"
+        ]
+      },
+      {
+        "dimension": "world",
+        "before": "회수 레트로 외장/보수/배관",
+        "after": "회수 레트로 외장/보수/배관 유지",
+        "change": "preserved",
+        "evidence": "M04-08 기능적 큰 외장 및 쇠락+유지 공존.",
+        "requirement_ids": [
+          "R03-01"
+        ]
+      },
+      {
+        "dimension": "request",
+        "before": "소품 충족, A3/4 전체면적 불확실/표면 실패",
+        "after": "소품 유지와 야간 이행, A3/4 및 일부 needs_revision 미해결",
+        "change": "improved",
+        "evidence": "USER-6 충족; 잔존 실패를 상쇄하는 전체 합격은 아니다.",
+        "requirement_ids": [
+          "R03-01"
+        ]
+      }
+    ],
+    "unresolved_regressions": []
+  },
+  "selection": {
+    "selected": false,
+    "qa_status": "not_reviewed",
+    "claims_overall_pass": false,
+    "reason": "",
+    "unresolved_limitations": "",
+    "stop_reason": "",
+    "manifest_path": "outputs/final_manifest.json",
+    "considered_candidates": []
+  },
+  "format_notes": {
+    "purpose": "현재 run 단일 시각 요건 원장. 예시 행을 장면의 구체 건물/표면/요청별로 나누어 완성한다. 빈 구절은 preflight FAIL이다. 실제 생성·이미지 판독을 수행하지 않는 기록 검증이며 기존 run을 소급 변경하지 않는다.",
+    "observation_statuses": [
+      "PASS",
+      "FAIL",
+      "UNCERTAIN",
+      "NOT_REVIEWED",
+      "NOT_APPLICABLE"
+    ],
+    "comparison_dimension_format": {
+      "dimension": "structure | large_form | facade_depth | surface | light_material | world | request",
+      "before": "이전 실제 모습/영역",
+      "after": "현재 실제 모습/영역",
+      "change": "improved | preserved | regressed | uncertain | not_reviewed | not_applicable",
+      "evidence": "실제 전후 근거와 불확실",
+      "requirement_ids": [
+        "R03-01"
+      ]
+    },
+    "considered_candidate_format": {
+      "image_path": "프로젝트 상대 원본 PNG 경로",
+      "sha256": "64 hex",
+      "actually_opened": true,
+      "qa_status": "candidate_pass | needs_revision | uncertain | not_reviewed",
+      "dimensions": {
+        "structure": "현재 실제 관찰과 다른 후보 대비 근거. 최초1장이면 비교 대상 부재 명시.",
+        "large_form": "현재 실제 관찰과 다른 후보 대비 근거. 최초1장이면 비교 대상 부재 명시.",
+        "facade_depth": "현재 실제 관찰과 다른 후보 대비 근거. 최초1장이면 비교 대상 부재 명시.",
+        "surface": "현재 실제 관찰과 다른 후보 대비 근거. 최초1장이면 비교 대상 부재 명시.",
+        "light_material": "현재 실제 관찰과 다른 후보 대비 근거. 최초1장이면 비교 대상 부재 명시.",
+        "world": "현재 실제 관찰과 다른 후보 대비 근거. 최초1장이면 비교 대상 부재 명시.",
+        "request": "현재 실제 관찰과 다른 후보 대비 근거. 최초1장이면 비교 대상 부재 명시."
+      }
+    },
+    "command": "python3 scripts/validate_run.py --run outputs/<run> --stage preflight|review|selection [--root PATH] [--json]",
+    "checks_usage": "checks 상태는 연결된 요구행 관찰의 집계. evidence/positive_evidence/forbidden_evidence/regions에는 요구ID와 실제 관찰 위치를 연결하며 같은 상세 문장을 두 번 쓰지 않는다. validator는 그 문자열의 의미·진실성을 판독하지 못한다.",
+    "mandatory_na_exception": {
+      "applies_to": "C01~C04/L01~L05/S01~S04/W01~W03/R01",
+      "check_field": "exception",
+      "format": {
+        "source": "현재 사용자 예외 지시 출처",
+        "quote": "실제 예외 원문"
+      },
+      "limit": "실제 예외인지의 판단은 검수자가 수행한다."
+    },
+    "unreviewed_delivery": "not_reviewed인 정직한 전달 허용. opened=false이면 observation_basis=not_reviewed와 NOT_REVIEWED 관찰·선택/한계/중단 사유를 일치시킨다. 동일시안 baseline/current 자기비교 금지, 알려진 baseline을 후보목록에서 누락하지 않는다.",
+    "conversation_only_baseline": {
+      "image_path": null,
+      "sha256": null,
+      "reference_id": "실제로 inspected된 edit_target 참조 ID",
+      "conversation_image_evidence": "references 항목과 동일한 실제 대화이미지 식별/열람 근거",
+      "actually_opened": true,
+      "note": "로컬 경로 없는 recent 편집일 때만 사용. selection의 해당 baseline 후보에도 같은 reference_id와 근거를 연결한다. 로컬 파일/해시를 꾸며내지 않는다."
+    }
+  }
+}

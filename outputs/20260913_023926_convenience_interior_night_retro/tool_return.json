@@ -1,0 +1,17 @@
+{
+  "tool": "image_gen.imagegen",
+  "source_path": "/Users/hyojinnoh/.codex/generated_images/01a08610-9124-7bd1-9961-9126ad377251/exec-9d4a360d-a7b2-4149-af16-00350ee87acd.png",
+  "copied_to": "image.png",
+  "sha256": "ae806c4c1e67c8afa3fa2825da5b8e917de5fe6824474e330c59602ba38fa794",
+  "dimensions": [
+    1536,
+    1024
+  ],
+  "observed_input_count": 5,
+  "model": null,
+  "quality": null,
+  "seed": null,
+  "token_usage": null,
+  "internal_revised_prompt": null,
+  "rejected_attempt": "rejected_call.json; 6 references exceeded actual path input limit 5; no image returned"
+}

@@ -1,0 +1,29 @@
+{
+  "run_id": "20260912_212000_retro_city_cool_night_frame",
+  "status": "needs_revision",
+  "image_path": "image.png",
+  "sha256": "08af38bb0d15823a911407bc14a07d75ff404dd7b120a7f4b7494853911cda1e",
+  "native_pixel_size": [
+    1254,
+    1254
+  ],
+  "actually_opened": true,
+  "review_path": "review.md",
+  "reviewer": "root sequential structure/art/current-request review; initial and correction1 independent subagent audit",
+  "requirements_ledger": "requirements.json",
+  "failed_requirement_ids": [
+    "C04-01",
+    "S01-01",
+    "S03-01",
+    "R01-01"
+  ],
+  "uncertain_requirement_ids": [
+    "C02-01",
+    "C03-01",
+    "L07-01",
+    "USER-1"
+  ],
+  "whole_request_complete": false,
+  "returned_model_info": null,
+  "returned_token_usage": null
+}

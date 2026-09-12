@@ -1,0 +1,1222 @@
+{
+  "schema_version": 1,
+  "masters_version": "2.8",
+  "execution_rules_version": "1.9",
+  "approval_id": "master_update_20260912_v2_8_pipeline_quality",
+  "run_id": "20260913_023926_convenience_interior_night_retro",
+  "request_original": "편의점 실내 / 밤 / 노후화, 어지럽혀 있음. 바닥에 쓰레기. 넘치는 쓰레기통 / 한 장 / m4 레트로 퓨처리즘",
+  "request_mode": "new_location",
+  "request_group_id": "20260913_023926_convenience_interior_night_retro",
+  "scene_id": "01",
+  "requested_final_count": 1,
+  "prompt_path": "generation_prompt.md",
+  "tool_arguments_path": "tool_arguments.json",
+  "references_path": "references.json",
+  "requirements": [
+    {
+      "id": "C01-01",
+      "source": "docs/01_COMPOSITION.md",
+      "check_ids": [
+        "C01"
+      ],
+      "applicable": true,
+      "critical": true,
+      "na_reason": "",
+      "positive_visual": "한 정사영 쿼터뷰의 단독 디오라마·정사각 베이스와 연결 경계 전체",
+      "forbidden_visual": "전면 모서리·두 단면 크롭 또는 붙은 경계를 배경으로 면제",
+      "prompt_clauses": [
+        "STRUCTURE MUST KEEP. One standalone interior game-environment diorama, one parallel ORTHOGRAPHIC high quarter-view camera. A square flat slab with four corners, two fully exposed planar front cut faces of CONSTANT thickness; every bottom corner is directly vertically below its top partner with the same displacement. Entire base, rear walls, roof remnants and fittings fit inside the picture with generous dark empty margins. All straight shelf, counter, wall-top, floor-joint and base edges in a given world-X or world-Y direction remain PARALLEL at every depth and height; vertical Z is vertical. No perspective convergence, warped floor, bevelled/rounded base, foreshortening changes or cropped corners. Ground-level equipment and wall footings must be visibly grounded, with coherent structural supports. Maximum planned enclosure height about6.5m, not a dimension label."
+      ],
+      "reference_ids": [
+        "M02-01"
+      ],
+      "text_only_reason": "",
+      "planned_evidence": "실제 전체 이미지 및 벽/바닥/장비/실내 동선 확대에서 한 정사영 쿼터뷰의 단독 디오라마·정사각 베이스와 연결 경계 전체",
+      "observation": {
+        "status": "PASS",
+        "basis": "actual_image",
+        "regions": [
+          "전체"
+        ],
+        "evidence": "한 단독 실내 디오라마와 두 전면 단면·벽·기계가 프레임 안에 있다.",
+        "positive_evidence": "빈 외부 여백과 최하단 모서리가 보인다.",
+        "forbidden_evidence": "베이스 크롭이나 둘 이상의 장면은 없다."
+      }
+    },
+    {
+      "id": "C02-01",
+      "source": "docs/01_COMPOSITION.md",
+      "check_ids": [
+        "C02"
+      ],
+      "applicable": true,
+      "critical": true,
+      "na_reason": "",
+      "positive_visual": "두 평면 전면 단면과 동일 깊이 상하 대응 벡터·평행 선군",
+      "forbidden_visual": "상하 대응 방향/길이 모순·가까운 단면만 확대",
+      "prompt_clauses": [
+        "STRUCTURE MUST KEEP. One standalone interior game-environment diorama, one parallel ORTHOGRAPHIC high quarter-view camera. A square flat slab with four corners, two fully exposed planar front cut faces of CONSTANT thickness; every bottom corner is directly vertically below its top partner with the same displacement. Entire base, rear walls, roof remnants and fittings fit inside the picture with generous dark empty margins. All straight shelf, counter, wall-top, floor-joint and base edges in a given world-X or world-Y direction remain PARALLEL at every depth and height; vertical Z is vertical. No perspective convergence, warped floor, bevelled/rounded base, foreshortening changes or cropped corners. Ground-level equipment and wall footings must be visibly grounded, with coherent structural supports. Maximum planned enclosure height about6.5m, not a dimension label."
+      ],
+      "reference_ids": [
+        "M02-01"
+      ],
+      "text_only_reason": "",
+      "planned_evidence": "실제 전체 이미지 및 벽/바닥/장비/실내 동선 확대에서 두 평면 전면 단면과 동일 깊이 상하 대응 벡터·평행 선군",
+      "observation": {
+        "status": "FAIL",
+        "basis": "actual_image",
+        "regions": [
+          "두 전면 단면·전면 중앙/우측 끝"
+        ],
+        "evidence": "전면 중앙 단면의 상하 길이가 우측 끝보다 뚜렷이 길다. 같은 깊이 정사영 벡터가 아니다.",
+        "positive_evidence": "두 단면은 각각 읽히며 관통 배관은 단면 안에 있다.",
+        "forbidden_evidence": "중앙 대응 약(790,908)→(790,1001), 우측 약(1468,681)→(1468,745): 화면 두께 약93/64px."
+      }
+    },
+    {
+      "id": "C03-01",
+      "source": "docs/01_COMPOSITION.md",
+      "check_ids": [
+        "C03"
+      ],
+      "applicable": true,
+      "critical": true,
+      "na_reason": "",
+      "positive_visual": "정사각 기본 평면·네 모서리·일정 깊이의 명확한 베이스",
+      "forbidden_visual": "미요청 바닥 곡률·모따기·비틀림·추가 꼭짓점",
+      "prompt_clauses": [
+        "STRUCTURE MUST KEEP. One standalone interior game-environment diorama, one parallel ORTHOGRAPHIC high quarter-view camera. A square flat slab with four corners, two fully exposed planar front cut faces of CONSTANT thickness; every bottom corner is directly vertically below its top partner with the same displacement. Entire base, rear walls, roof remnants and fittings fit inside the picture with generous dark empty margins. All straight shelf, counter, wall-top, floor-joint and base edges in a given world-X or world-Y direction remain PARALLEL at every depth and height; vertical Z is vertical. No perspective convergence, warped floor, bevelled/rounded base, foreshortening changes or cropped corners. Ground-level equipment and wall footings must be visibly grounded, with coherent structural supports. Maximum planned enclosure height about6.5m, not a dimension label."
+      ],
+      "reference_ids": [
+        "M02-01"
+      ],
+      "text_only_reason": "",
+      "planned_evidence": "실제 전체 이미지 및 벽/바닥/장비/실내 동선 확대에서 정사각 기본 평면·네 모서리·일정 깊이의 명확한 베이스",
+      "observation": {
+        "status": "UNCERTAIN",
+        "basis": "actual_image",
+        "regions": [
+          "베이스 전체·가려진 뒤 꼭짓점"
+        ],
+        "evidence": "전체는 네모 블록이며 직선 전면을 가지나 뒤 기준점이 냉장·벽에 가려 정사각 기본 평면을 확정할 수 없다.",
+        "positive_evidence": "미요청 곡률·둥근 모따기·추가 전면 꼭짓점은 보이지 않는다.",
+        "forbidden_evidence": "확정된 곡률 실패가 아니라 뒤 기준면 가림과 C02 대응 모순 때문에 기본 평면 확정이 어렵다."
+      }
+    },
+    {
+      "id": "C04-01",
+      "source": "docs/01_COMPOSITION.md",
+      "check_ids": [
+        "C04"
+      ],
+      "applicable": true,
+      "critical": true,
+      "na_reason": "",
+      "positive_visual": "베이스/포장과 기단·층 바닥·셔터·테라스·상층·지붕의 단일 정사영, 지붕 접합",
+      "forbidden_visual": "같은 방향 직선군 원근 수렴·거리별 크기 변화·물체별 카메라·지붕 모순; 곡면 접선/경사선을 수평선으로 오판",
+      "prompt_clauses": [
+        "STRUCTURE MUST KEEP. One standalone interior game-environment diorama, one parallel ORTHOGRAPHIC high quarter-view camera. A square flat slab with four corners, two fully exposed planar front cut faces of CONSTANT thickness; every bottom corner is directly vertically below its top partner with the same displacement. Entire base, rear walls, roof remnants and fittings fit inside the picture with generous dark empty margins. All straight shelf, counter, wall-top, floor-joint and base edges in a given world-X or world-Y direction remain PARALLEL at every depth and height; vertical Z is vertical. No perspective convergence, warped floor, bevelled/rounded base, foreshortening changes or cropped corners. Ground-level equipment and wall footings must be visibly grounded, with coherent structural supports. Maximum planned enclosure height about6.5m, not a dimension label."
+      ],
+      "reference_ids": [
+        "M02-01"
+      ],
+      "text_only_reason": "",
+      "planned_evidence": "실제 전체 이미지 및 벽/바닥/장비/실내 동선 확대에서 베이스/포장과 기단·층 바닥·셔터·테라스·상층·지붕의 단일 정사영, 지붕 접합",
+      "observation": {
+        "status": "FAIL",
+        "basis": "actual_image",
+        "regions": [
+          "베이스 사선·계산대 앞 수평·뒷벽 상단"
+        ],
+        "evidence": "한 세계축이어야 하는 베이스 왼쪽 앞선과 계산대 앞 수평선의 기울기가 크게 다르다. 상단으로 갈수록 선군이 평탄해진다.",
+        "positive_evidence": "수직 벽 모서리와 설비 두께는 알아볼 수 있다.",
+        "forbidden_evidence": "베이스 (78,558)→(790,908) 대비 계산대 앞 직선 (410,398)→(590,448). 다른 축에서도 우측 앞선 (790,908)→(1468,681)와 좌후벽 상단 (91,249)→(783,36)의 경사가 완전히 일치하지 않는다. 곡면 접선이 아닌 직선 구간 대조."
+      }
+    },
+    {
+      "id": "L01-01",
+      "source": "docs/02_LAYOUT.md",
+      "check_ids": [
+        "L01"
+      ],
+      "applicable": true,
+      "critical": true,
+      "na_reason": "",
+      "positive_visual": "같은 베이스 위 뒤쪽 두 직교 방향의 시각적 차단 연속성",
+      "forbidden_visual": "낮은 소품만 차단체로 삼음·끼인 틈이 제3이동로로 읽힘",
+      "prompt_clauses": [
+        "Exactly TWO substantial rear walls form the two perpendicular blocking directions; remove the two camera-facing walls and most ceiling as a deliberate architectural cutaway. Two and only two functional exits: one in the left rear wall near its outer third is an OPEN sliding glazed customer entrance with a short visible continuation of the night sidewalk beyond its threshold; one in the right rear wall near its outer third is an OPEN rectangular service doorway into a short dim utility corridor. Doors retract into wall pockets or open fully away from routes. Both exits are human scale, grounded, directly connected to the central sales floor by broad clear aisles. Back corner stays enclosed, no third opening. Interior must have believable room depth, customer aisle, staff access behind checkout, refrigerator access and equipment maintenance access. Keep a clear central playable space and clear routes to both exits, rather than filling the floor with merchandise. Foreground cut edges are presentation cuts, not extra functional exits."
+      ],
+      "reference_ids": [
+        "M02-01"
+      ],
+      "text_only_reason": "",
+      "planned_evidence": "실제 전체 이미지 및 벽/바닥/장비/실내 동선 확대에서 같은 베이스 위 뒤쪽 두 직교 방향의 시각적 차단 연속성",
+      "observation": {
+        "status": "PASS",
+        "basis": "actual_image",
+        "regions": [
+          "좌후벽·우후벽·뒤 모서리"
+        ],
+        "evidence": "높은 두 후방 벽이 이어지고 뒤 코너는 냉장설비 뒤로 폐쇄된다.",
+        "positive_evidence": "각 벽은 차단체로 읽히는 높이와 두께를 가진다.",
+        "forbidden_evidence": "장비 사이 틈이 제3출구로 읽히지 않는다."
+      }
+    },
+    {
+      "id": "L02-01",
+      "source": "docs/02_LAYOUT.md",
+      "check_ids": [
+        "L02"
+      ],
+      "applicable": true,
+      "critical": true,
+      "na_reason": "",
+      "positive_visual": "11시/1시 방향에 기능 출구 하나씩, 각 위치·역할·표시 상태·개방 후 연결",
+      "forbidden_visual": "누락/제3전환·장식문을 역할 없이 출구로 셈·우발 차단을 의도된 잠금으로 소급",
+      "prompt_clauses": [
+        "Exactly TWO substantial rear walls form the two perpendicular blocking directions; remove the two camera-facing walls and most ceiling as a deliberate architectural cutaway. Two and only two functional exits: one in the left rear wall near its outer third is an OPEN sliding glazed customer entrance with a short visible continuation of the night sidewalk beyond its threshold; one in the right rear wall near its outer third is an OPEN rectangular service doorway into a short dim utility corridor. Doors retract into wall pockets or open fully away from routes. Both exits are human scale, grounded, directly connected to the central sales floor by broad clear aisles. Back corner stays enclosed, no third opening. Interior must have believable room depth, customer aisle, staff access behind checkout, refrigerator access and equipment maintenance access. Keep a clear central playable space and clear routes to both exits, rather than filling the floor with merchandise. Foreground cut edges are presentation cuts, not extra functional exits."
+      ],
+      "reference_ids": [
+        "M02-01"
+      ],
+      "text_only_reason": "",
+      "planned_evidence": "실제 전체 이미지 및 벽/바닥/장비/실내 동선 확대에서 11시/1시 방향에 기능 출구 하나씩, 각 위치·역할·표시 상태·개방 후 연결",
+      "observation": {
+        "status": "PASS",
+        "basis": "actual_image",
+        "regions": [
+          "좌측 유리입구·우측 서비스문"
+        ],
+        "evidence": "왼쪽 고객 입구는 야간 보도로, 오른쪽 서비스문은 짧은 창고 복도로 이어진다. 두 곳 모두 바닥 연결이 보인다.",
+        "positive_evidence": "양 후방 방향에 기능 출구 한 곳씩이며 전면은 표현 절개다.",
+        "forbidden_evidence": "별도의 제3기능 출구는 보이지 않는다."
+      }
+    },
+    {
+      "id": "L03-01",
+      "source": "docs/02_LAYOUT.md",
+      "check_ids": [
+        "L03"
+      ],
+      "applicable": true,
+      "critical": true,
+      "na_reason": "",
+      "positive_visual": "중앙과 양 출구의 접근·좁은 부분·높이·회전·전환·개방 장치 여유",
+      "forbidden_visual": "외곽 상자/차량/잔해/돌출도 보행 부피 침범·열린 출구 연결 차단",
+      "prompt_clauses": [
+        "Exactly TWO substantial rear walls form the two perpendicular blocking directions; remove the two camera-facing walls and most ceiling as a deliberate architectural cutaway. Two and only two functional exits: one in the left rear wall near its outer third is an OPEN sliding glazed customer entrance with a short visible continuation of the night sidewalk beyond its threshold; one in the right rear wall near its outer third is an OPEN rectangular service doorway into a short dim utility corridor. Doors retract into wall pockets or open fully away from routes. Both exits are human scale, grounded, directly connected to the central sales floor by broad clear aisles. Back corner stays enclosed, no third opening. Interior must have believable room depth, customer aisle, staff access behind checkout, refrigerator access and equipment maintenance access. Keep a clear central playable space and clear routes to both exits, rather than filling the floor with merchandise. Foreground cut edges are presentation cuts, not extra functional exits."
+      ],
+      "reference_ids": [
+        "M02-01"
+      ],
+      "text_only_reason": "",
+      "planned_evidence": "실제 전체 이미지 및 벽/바닥/장비/실내 동선 확대에서 중앙과 양 출구의 접근·좁은 부분·높이·회전·전환·개방 장치 여유",
+      "observation": {
+        "status": "FAIL",
+        "basis": "actual_image",
+        "regions": [
+          "중앙 바닥·두 진열대·우측 출구 접근"
+        ],
+        "evidence": "중앙 진열대 두 개가 플레이 공간을 차지한다. 출구 길은 남지만 중앙 보호 공간은 확보하지 못했다.",
+        "positive_evidence": "좌측 문 앞과 냉장고 앞, 우측 서비스문으로 돌아가는 통로는 읽힌다.",
+        "forbidden_evidence": "중앙 대형 진열대와 두 번째 섬 진열대가 넓은 중앙 연속 공간을 분절한다."
+      }
+    },
+    {
+      "id": "L04-01",
+      "source": "docs/02_LAYOUT.md",
+      "check_ids": [
+        "L04"
+      ],
+      "applicable": true,
+      "critical": true,
+      "na_reason": "",
+      "positive_visual": "카메라 전면이 열려 중앙 바닥과 두 단면이 읽힘",
+      "forbidden_visual": "높은 전면 담/폐차 더미/붐으로 중앙이나 단면 가림",
+      "prompt_clauses": [
+        "Exactly TWO substantial rear walls form the two perpendicular blocking directions; remove the two camera-facing walls and most ceiling as a deliberate architectural cutaway. Two and only two functional exits: one in the left rear wall near its outer third is an OPEN sliding glazed customer entrance with a short visible continuation of the night sidewalk beyond its threshold; one in the right rear wall near its outer third is an OPEN rectangular service doorway into a short dim utility corridor. Doors retract into wall pockets or open fully away from routes. Both exits are human scale, grounded, directly connected to the central sales floor by broad clear aisles. Back corner stays enclosed, no third opening. Interior must have believable room depth, customer aisle, staff access behind checkout, refrigerator access and equipment maintenance access. Keep a clear central playable space and clear routes to both exits, rather than filling the floor with merchandise. Foreground cut edges are presentation cuts, not extra functional exits."
+      ],
+      "reference_ids": [
+        "M02-01"
+      ],
+      "text_only_reason": "",
+      "planned_evidence": "실제 전체 이미지 및 벽/바닥/장비/실내 동선 확대에서 카메라 전면이 열려 중앙 바닥과 두 단면이 읽힘",
+      "observation": {
+        "status": "PASS",
+        "basis": "actual_image",
+        "regions": [
+          "전면 열린 절개·단면"
+        ],
+        "evidence": "전면 벽이 없어 바닥과 단면을 볼 수 있다.",
+        "positive_evidence": "오른쪽 큰 쓰레기통은 외곽에 위치하고 전체 바닥을 가리지는 않는다.",
+        "forbidden_evidence": "높은 전면 담이나 큰 가림막은 없다."
+      }
+    },
+    {
+      "id": "L05-01",
+      "source": "docs/01_COMPOSITION.md + docs/02_LAYOUT.md",
+      "check_ids": [
+        "L05"
+      ],
+      "applicable": true,
+      "critical": true,
+      "na_reason": "",
+      "positive_visual": "기초/입구/전환 높이/지붕과 벽/기계 지지의 설득력 있는 접합",
+      "forbidden_visual": "근거 없는 지면 단절·뜨는 장비·맞지 않는 지붕/벽·불연속 받침",
+      "prompt_clauses": [
+        "Exactly TWO substantial rear walls form the two perpendicular blocking directions; remove the two camera-facing walls and most ceiling as a deliberate architectural cutaway. Two and only two functional exits: one in the left rear wall near its outer third is an OPEN sliding glazed customer entrance with a short visible continuation of the night sidewalk beyond its threshold; one in the right rear wall near its outer third is an OPEN rectangular service doorway into a short dim utility corridor. Doors retract into wall pockets or open fully away from routes. Both exits are human scale, grounded, directly connected to the central sales floor by broad clear aisles. Back corner stays enclosed, no third opening. Interior must have believable room depth, customer aisle, staff access behind checkout, refrigerator access and equipment maintenance access. Keep a clear central playable space and clear routes to both exits, rather than filling the floor with merchandise. Foreground cut edges are presentation cuts, not extra functional exits."
+      ],
+      "reference_ids": [
+        "M02-01"
+      ],
+      "text_only_reason": "",
+      "planned_evidence": "실제 전체 이미지 및 벽/바닥/장비/실내 동선 확대에서 기초/입구/전환 높이/지붕과 벽/기계 지지의 설득력 있는 접합",
+      "observation": {
+        "status": "PASS",
+        "basis": "actual_image",
+        "regions": [
+          "벽 기초·냉장고/상단 설비·입구 문턱"
+        ],
+        "evidence": "벽과 바닥, 냉장고 받침, 상단 기계의 수평 받침과 배관 접합이 읽힌다.",
+        "positive_evidence": "기계가 바닥/냉장고 위에 놓이고 케이블과 공급관이 연결된다.",
+        "forbidden_evidence": "공중에 뜬 장비나 근거 없는 방의 높이 단절은 보이지 않는다. 투영 문제는 C04 별도."
+      }
+    },
+    {
+      "id": "L06-01",
+      "source": "docs/02_LAYOUT.md",
+      "check_ids": [
+        "L06"
+      ],
+      "applicable": true,
+      "critical": true,
+      "na_reason": "",
+      "positive_visual": "내부 적용 장면의 입구→통로→기능 영역과 방 깊이",
+      "forbidden_visual": "얕은 진열 상자형 방·막힌 내부 이동",
+      "prompt_clauses": [
+        "Exactly TWO substantial rear walls form the two perpendicular blocking directions; remove the two camera-facing walls and most ceiling as a deliberate architectural cutaway. Two and only two functional exits: one in the left rear wall near its outer third is an OPEN sliding glazed customer entrance with a short visible continuation of the night sidewalk beyond its threshold; one in the right rear wall near its outer third is an OPEN rectangular service doorway into a short dim utility corridor. Doors retract into wall pockets or open fully away from routes. Both exits are human scale, grounded, directly connected to the central sales floor by broad clear aisles. Back corner stays enclosed, no third opening. Interior must have believable room depth, customer aisle, staff access behind checkout, refrigerator access and equipment maintenance access. Keep a clear central playable space and clear routes to both exits, rather than filling the floor with merchandise. Foreground cut edges are presentation cuts, not extra functional exits."
+      ],
+      "reference_ids": [
+        "M02-01"
+      ],
+      "text_only_reason": "",
+      "planned_evidence": "실제 전체 이미지 및 벽/바닥/장비/실내 동선 확대에서 내부 적용 장면의 입구→통로→기능 영역과 방 깊이",
+      "observation": {
+        "status": "PASS",
+        "basis": "actual_image",
+        "regions": [
+          "계산대 뒤·냉장고 앞·좌우 출입구"
+        ],
+        "evidence": "얕은 상자 전시가 아니라 손님 통로·직원 작업공간·냉장고 접근 깊이가 있는 실내다.",
+        "positive_evidence": "계산대 뒤 작업대와 의자, 우측 후방 복도까지 기능 공간을 구분한다.",
+        "forbidden_evidence": "실내 기능 영역을 완전히 막는 칸막이는 없다. 중앙 여유의 별도 실패는 L03."
+      }
+    },
+    {
+      "id": "L07-01",
+      "source": "docs/01_COMPOSITION.md + docs/02_LAYOUT.md",
+      "check_ids": [
+        "L07"
+      ],
+      "applicable": true,
+      "critical": true,
+      "na_reason": "",
+      "positive_visual": "기단·주된 배치와 직선축은 공통XY, 지상 곡면은 접지·연속 경계·보행/차단 구분",
+      "forbidden_visual": "임의 건물 회전·좁은 쐐기 틈·숨은 기단을 계획으로 PASS·곡면을 무조건 큰 사각 받침으로 감쌈",
+      "prompt_clauses": [
+        "Exactly TWO substantial rear walls form the two perpendicular blocking directions; remove the two camera-facing walls and most ceiling as a deliberate architectural cutaway. Two and only two functional exits: one in the left rear wall near its outer third is an OPEN sliding glazed customer entrance with a short visible continuation of the night sidewalk beyond its threshold; one in the right rear wall near its outer third is an OPEN rectangular service doorway into a short dim utility corridor. Doors retract into wall pockets or open fully away from routes. Both exits are human scale, grounded, directly connected to the central sales floor by broad clear aisles. Back corner stays enclosed, no third opening. Interior must have believable room depth, customer aisle, staff access behind checkout, refrigerator access and equipment maintenance access. Keep a clear central playable space and clear routes to both exits, rather than filling the floor with merchandise. Foreground cut edges are presentation cuts, not extra functional exits."
+      ],
+      "reference_ids": [
+        "M02-01"
+      ],
+      "text_only_reason": "",
+      "planned_evidence": "실제 전체 이미지 및 벽/바닥/장비/실내 동선 확대에서 기단·주된 배치와 직선축은 공통XY, 지상 곡면은 접지·연속 경계·보행/차단 구분",
+      "observation": {
+        "status": "PASS",
+        "basis": "actual_image",
+        "regions": [
+          "벽 기단·바닥 타일·고정 가구 접지"
+        ],
+        "evidence": "주요 벽과 가구 기초의 세계축 의도 및 접지 경계가 읽힌다.",
+        "positive_evidence": "둥근 계산대 모서리는 연속된 두께와 바닥 접점을 갖는다.",
+        "forbidden_evidence": "확인되는 임의 지상 벽 회전이나 좁은 쐐기 틈은 없다. C04 카메라 실패를 실제 평면 회전으로 확대하지 않는다."
+      }
+    },
+    {
+      "id": "S01-01",
+      "source": "docs/03_VISUAL_STYLE_V2.md",
+      "check_ids": [
+        "S01"
+      ],
+      "applicable": true,
+      "critical": true,
+      "na_reason": "",
+      "positive_visual": "넓고 정돈된 기본 색면, 온전한 면에서도 가까운 톤의 큰 방향성 평면 색 변화",
+      "forbidden_visual": "온면 단색/블러만·녹/박리/손상만을 붓표현으로 셈",
+      "prompt_clauses": [
+        "ART: Little Devil Inside architectural material/light/color simplification, with broad calm base colors. PAINTERLY FINISH IS ESSENTIAL: on INTACT walls, floor and enamel equipment, paint a few large sparse flat directional brush sweeps in close neighboring hues/values; make these visibly painterly at viewing size, independent of peeling, rust and dirt. Keep substantial quiet areas between brush shapes. Broad colored tiles on the sales floor, straight LARGE joints only, localized chips and paper litter. No tiny checkerboard, mosaic patches, wavy/refraction-like patterns, fine repetitive squiggles, engraved or raised brush ridges, uniform procedural grit or photoreal miniature grain. Distinguish enamel metal, paper, glass and worn laminate using simple large light/shadow masses, restrained reflections, real thickness and grounding. No shiny wet floor, rain, puddles, glossy floor reflections or random neon."
+      ],
+      "reference_ids": [
+        "M03-10",
+        "B03-01"
+      ],
+      "text_only_reason": "",
+      "planned_evidence": "실제 전체 이미지 및 벽/바닥/장비/실내 동선 확대에서 넓고 정돈된 기본 색면, 온전한 면에서도 가까운 톤의 큰 방향성 평면 색 변화",
+      "observation": {
+        "status": "FAIL",
+        "basis": "actual_image",
+        "regions": [
+          "qa_wall.png·qa_floor.png·qa_bin.png"
+        ],
+        "evidence": "넓은 기본색은 있으나 벽/냉장 외장의 주된 변화는 벗겨진 페인트·모서리 마모다. 온전한 면의 큰 방향성 붓질 증거가 부족하다.",
+        "positive_evidence": "바닥에 큰 연회색/베이지 색면이 있고 넓은 기본색 여백이 있다.",
+        "forbidden_evidence": "냉장고·쓰레기통 온전한 넓은 면은 단색에 가깝고 붓표현을 박리로 대체한다."
+      }
+    },
+    {
+      "id": "S02-01",
+      "source": "docs/03_VISUAL_STYLE_V2.md",
+      "check_ids": [
+        "S02"
+      ],
+      "applicable": true,
+      "critical": true,
+      "na_reason": "",
+      "positive_visual": "표면별 자국의 큰 크기·성긴 밀도·방향 변화·충분한 여백",
+      "forbidden_visual": "모든 표면에 작은 균등 자국/반복 균열 군집; 소품 밀도로 표면 밀도 PASS",
+      "prompt_clauses": [
+        "ART: Little Devil Inside architectural material/light/color simplification, with broad calm base colors. PAINTERLY FINISH IS ESSENTIAL: on INTACT walls, floor and enamel equipment, paint a few large sparse flat directional brush sweeps in close neighboring hues/values; make these visibly painterly at viewing size, independent of peeling, rust and dirt. Keep substantial quiet areas between brush shapes. Broad colored tiles on the sales floor, straight LARGE joints only, localized chips and paper litter. No tiny checkerboard, mosaic patches, wavy/refraction-like patterns, fine repetitive squiggles, engraved or raised brush ridges, uniform procedural grit or photoreal miniature grain. Distinguish enamel metal, paper, glass and worn laminate using simple large light/shadow masses, restrained reflections, real thickness and grounding. No shiny wet floor, rain, puddles, glossy floor reflections or random neon."
+      ],
+      "reference_ids": [
+        "M03-10",
+        "B03-01"
+      ],
+      "text_only_reason": "",
+      "planned_evidence": "실제 전체 이미지 및 벽/바닥/장비/실내 동선 확대에서 표면별 자국의 큰 크기·성긴 밀도·방향 변화·충분한 여백",
+      "observation": {
+        "status": "PASS",
+        "basis": "actual_image",
+        "regions": [
+          "바닥·벽·기계 확대"
+        ],
+        "evidence": "큰 타일 단위와 비교적 성긴 넓은 색 차이, 장비 외장의 여백이 있다.",
+        "positive_evidence": "잔선/자국이 전 표면을 균등하게 채우지 않고 노후화는 선택 부위에 있다.",
+        "forbidden_evidence": "물결형 미세 잔선·전면 모자이크·균열 군집은 뚜렷하지 않다. 큰 타일 줄눈은 의도된 포장 단위다."
+      }
+    },
+    {
+      "id": "S03-01",
+      "source": "docs/03_VISUAL_STYLE_V2.md",
+      "check_ids": [
+        "S03"
+      ],
+      "applicable": true,
+      "critical": true,
+      "na_reason": "",
+      "positive_visual": "큰 명암으로 읽히는 입체와 온전한 면의 절제된 평면 붓터치 공존",
+      "forbidden_visual": "붓표현 부재·부조·물결 유사 가는 잔선/얼룩·굴절유리 인상·모자이크·전면 미세 반복 질감",
+      "prompt_clauses": [
+        "ART: Little Devil Inside architectural material/light/color simplification, with broad calm base colors. PAINTERLY FINISH IS ESSENTIAL: on INTACT walls, floor and enamel equipment, paint a few large sparse flat directional brush sweeps in close neighboring hues/values; make these visibly painterly at viewing size, independent of peeling, rust and dirt. Keep substantial quiet areas between brush shapes. Broad colored tiles on the sales floor, straight LARGE joints only, localized chips and paper litter. No tiny checkerboard, mosaic patches, wavy/refraction-like patterns, fine repetitive squiggles, engraved or raised brush ridges, uniform procedural grit or photoreal miniature grain. Distinguish enamel metal, paper, glass and worn laminate using simple large light/shadow masses, restrained reflections, real thickness and grounding. No shiny wet floor, rain, puddles, glossy floor reflections or random neon."
+      ],
+      "reference_ids": [
+        "M03-10",
+        "B03-01"
+      ],
+      "text_only_reason": "",
+      "planned_evidence": "실제 전체 이미지 및 벽/바닥/장비/실내 동선 확대에서 큰 명암으로 읽히는 입체와 온전한 면의 절제된 평면 붓터치 공존",
+      "observation": {
+        "status": "FAIL",
+        "basis": "actual_image",
+        "regions": [
+          "벽/기계 온전한 면·바닥 확대"
+        ],
+        "evidence": "큰 조명과 명암으로 입체는 읽히나 온전한 벽·기계 외장의 목표 평면 붓터치는 충분히 보이지 않는다.",
+        "positive_evidence": "유리 냉장문 반사는 국소이고 마른 바닥의 물결/굴절 잔선은 보이지 않는다.",
+        "forbidden_evidence": "부조나 굴절 패턴이 없다는 사실이 긍정 붓표현 부족을 상쇄하지 않는다."
+      }
+    },
+    {
+      "id": "S04-01",
+      "source": "docs/03_VISUAL_STYLE_V2.md",
+      "check_ids": [
+        "S04"
+      ],
+      "applicable": true,
+      "critical": true,
+      "na_reason": "",
+      "positive_visual": "큰 기능 부피·외벽 깊이·두께·빛/재질 경계·접지·기계 결합의 실제 가독성",
+      "forbidden_visual": "큰 하우징/깊은 설비를 얕은 덮개/무늬로 대체·C04나 미검증3D만으로 S04판정",
+      "prompt_clauses": [
+        "ART: Little Devil Inside architectural material/light/color simplification, with broad calm base colors. PAINTERLY FINISH IS ESSENTIAL: on INTACT walls, floor and enamel equipment, paint a few large sparse flat directional brush sweeps in close neighboring hues/values; make these visibly painterly at viewing size, independent of peeling, rust and dirt. Keep substantial quiet areas between brush shapes. Broad colored tiles on the sales floor, straight LARGE joints only, localized chips and paper litter. No tiny checkerboard, mosaic patches, wavy/refraction-like patterns, fine repetitive squiggles, engraved or raised brush ridges, uniform procedural grit or photoreal miniature grain. Distinguish enamel metal, paper, glass and worn laminate using simple large light/shadow masses, restrained reflections, real thickness and grounding. No shiny wet floor, rain, puddles, glossy floor reflections or random neon."
+      ],
+      "reference_ids": [
+        "M03-10",
+        "B03-01"
+      ],
+      "text_only_reason": "",
+      "planned_evidence": "실제 전체 이미지 및 벽/바닥/장비/실내 동선 확대에서 큰 기능 부피·외벽 깊이·두께·빛/재질 경계·접지·기계 결합의 실제 가독성",
+      "observation": {
+        "status": "PASS",
+        "basis": "actual_image",
+        "regions": [
+          "냉장고·계산대·냉동고·압착 쓰레기통"
+        ],
+        "evidence": "큰 냉장 하우징과 깊은 상품 선반, 모서리 두께, 상단 기계 부피, 쓰레기통 모터함이 읽힌다.",
+        "positive_evidence": "유리/금속/벽/바닥 경계와 접지 그림자가 분명하다.",
+        "forbidden_evidence": "기계 부피를 벽 무늬로 대체하지 않았다. C04 투영 문제와 별도 가독성이다."
+      }
+    },
+    {
+      "id": "W01-01",
+      "source": "docs/04_WORLD_DESIGN_V2.md",
+      "check_ids": [
+        "W01"
+      ],
+      "applicable": true,
+      "critical": true,
+      "na_reason": "",
+      "positive_visual": "회수·수리·개조된 첨단 기술의 현재 기능과 공급/접합 이유",
+      "forbidden_visual": "일반 산업 장비·장식 표시등·단면 기계만으로 세계관 대체",
+      "prompt_clauses": [
+        "M4 IS RETRO-FUTURISM for this request: diverse rounded enamel housings, chunky inset analog controls, handles, broad louvers, replaceable modules and repaired bypass connections become the store's refrigeration, register, waste compactor and utility architecture. The world remains SALVAGE CYBERPUNK: dwindling resources, aging recovered advanced equipment kept running through visibly mismatched replacement parts and practical repairs. Neither pristine future showroom nor ordinary contemporary store with decorative radios. No green CRT, no device collage. References IN ORDER: 1 M02-01 two rear boundaries/two exits/connectivity only, exclude blue diagram/text/icons/mandatory coordinates; 2 M03-10 representative LDI clean color/material simplicity only, exclude storefront identity, story, characters and camera; 3 M03-14 LDI interior light zoning and thick architectural construction only, exclude attic layout/story/wooden period setting/camera; 4 M04-08 retro device proportions and functional joins only, exclude collage/drawing technique/camera; 5 B03-01 flat large pigment brush shapes on intact surfaces only, exclude fantasy architecture, bridge, water, daylight and camera. No reference camera may override the shared orthographic requirement."
+      ],
+      "reference_ids": [
+        "M04-08"
+      ],
+      "text_only_reason": "",
+      "planned_evidence": "실제 전체 이미지 및 벽/바닥/장비/실내 동선 확대에서 회수·수리·개조된 첨단 기술의 현재 기능과 공급/접합 이유",
+      "observation": {
+        "status": "PASS",
+        "basis": "actual_image",
+        "regions": [
+          "냉장설비 상단 배관·압착 통 모터·수리함"
+        ],
+        "evidence": "공급관·교체색 외장·수리함이 냉장/폐기 설비 기능으로 연결된다.",
+        "positive_evidence": "작동 중인 낡은 아날로그 계산 장치와 큰 설비의 기능이 읽힌다.",
+        "forbidden_evidence": "단면 기계만으로 세계관을 대체하지 않고 매장 생활 설비에도 적용한다."
+      }
+    },
+    {
+      "id": "W02-01",
+      "source": "docs/04_WORLD_DESIGN_V2.md",
+      "check_ids": [
+        "W02"
+      ],
+      "applicable": true,
+      "critical": true,
+      "na_reason": "",
+      "positive_visual": "장소 전반의 큰 보수·교체·바랜 색면과 유지 흔적",
+      "forbidden_visual": "신품 건축에 SF만 부착·촘촘한 오염을 수리 이력으로 대신함",
+      "prompt_clauses": [
+        "Make neglect/disorder clearly visible: one LARGE OVERFLOWING retro-mechanical waste bin in a front-right service pocket, its lid pushed up by black bags, crumpled paper, disposable cups and crushed cartons visibly overflowing the rim and spilling beside it. Give the bin an old pedal, a broad removable compactor motor casing and mismatched repair panel, not merely a modern plastic basket. Several scattered sheets, crushed cups and flattened boxes lie across selected floor areas, with denser piles near the bin and under shelves. Keep both exit thresholds and a broad middle walking path clear of blocking piles. Show displaced stock, one skewed small carton, a loose shelf panel safely beside the wall, and a few large areas of worn laminate, replaced wall panels and chipped paint. Disorder is object placement plus selective large damage, not gritty noise covering every material."
+      ],
+      "reference_ids": [
+        "M04-08"
+      ],
+      "text_only_reason": "",
+      "planned_evidence": "실제 전체 이미지 및 벽/바닥/장비/실내 동선 확대에서 장소 전반의 큰 보수·교체·바랜 색면과 유지 흔적",
+      "observation": {
+        "status": "PASS",
+        "basis": "actual_image",
+        "regions": [
+          "벽/바닥 보수·장비 교체판"
+        ],
+        "evidence": "바랜 투톤 벽과 선택적 박리, 다른색 교체판·노후 기계로 계속 유지하는 장소가 보인다.",
+        "positive_evidence": "오래된 설비가 작동 중이며 매장 바닥에 재고/폐기물이 남는다.",
+        "forbidden_evidence": "신품 쇼룸 느낌은 아니다."
+      }
+    },
+    {
+      "id": "W03-01",
+      "source": "docs/04_WORLD_DESIGN_V2.md",
+      "check_ids": [
+        "W03"
+      ],
+      "applicable": true,
+      "critical": true,
+      "na_reason": "",
+      "positive_visual": "현재 장면의 큰 기계 기능 부피·깊이·지지·수리/공급 연결",
+      "forbidden_visual": "요청 기계층을 생활층 위 소품으로 대체·하우징을 패널/그릴로 축소·비율을 전역 고정",
+      "prompt_clauses": [
+        "M4 IS RETRO-FUTURISM for this request: diverse rounded enamel housings, chunky inset analog controls, handles, broad louvers, replaceable modules and repaired bypass connections become the store's refrigeration, register, waste compactor and utility architecture. The world remains SALVAGE CYBERPUNK: dwindling resources, aging recovered advanced equipment kept running through visibly mismatched replacement parts and practical repairs. Neither pristine future showroom nor ordinary contemporary store with decorative radios. No green CRT, no device collage. References IN ORDER: 1 M02-01 two rear boundaries/two exits/connectivity only, exclude blue diagram/text/icons/mandatory coordinates; 2 M03-10 representative LDI clean color/material simplicity only, exclude storefront identity, story, characters and camera; 3 M03-14 LDI interior light zoning and thick architectural construction only, exclude attic layout/story/wooden period setting/camera; 4 M04-08 retro device proportions and functional joins only, exclude collage/drawing technique/camera; 5 B03-01 flat large pigment brush shapes on intact surfaces only, exclude fantasy architecture, bridge, water, daylight and camera. No reference camera may override the shared orthographic requirement."
+      ],
+      "reference_ids": [
+        "M04-08"
+      ],
+      "text_only_reason": "",
+      "planned_evidence": "실제 전체 이미지 및 벽/바닥/장비/실내 동선 확대에서 현재 장면의 큰 기계 기능 부피·깊이·지지·수리/공급 연결",
+      "observation": {
+        "status": "PASS",
+        "basis": "actual_image",
+        "regions": [
+          "후면 코너 냉장동·계산부·전면 우측 쓰레기통"
+        ],
+        "evidence": "두 면으로 꺾인 냉장 기능 덩어리, 상단 공조와 우회 배관, 두꺼운 압착 통 구조가 존재한다.",
+        "positive_evidence": "기계가 생활 기능의 큰 부피를 이루며 받침과 접근 공간이 읽힌다.",
+        "forbidden_evidence": "작은 표시등이나 단면 배관만 추가한 장면이 아니다."
+      }
+    },
+    {
+      "id": "W04-01",
+      "source": "docs/04_WORLD_DESIGN_V2.md",
+      "check_ids": [
+        "W04"
+      ],
+      "applicable": true,
+      "critical": true,
+      "na_reason": "",
+      "positive_visual": "건물별 사람용 문/셔터의 규모·문턱·접지 및 장식/기능 출구 역할",
+      "forbidden_visual": "환기구/점검판으로 입구 대체·비건물에도 건물 입구 강제",
+      "prompt_clauses": [
+        "Exactly TWO substantial rear walls form the two perpendicular blocking directions; remove the two camera-facing walls and most ceiling as a deliberate architectural cutaway. Two and only two functional exits: one in the left rear wall near its outer third is an OPEN sliding glazed customer entrance with a short visible continuation of the night sidewalk beyond its threshold; one in the right rear wall near its outer third is an OPEN rectangular service doorway into a short dim utility corridor. Doors retract into wall pockets or open fully away from routes. Both exits are human scale, grounded, directly connected to the central sales floor by broad clear aisles. Back corner stays enclosed, no third opening. Interior must have believable room depth, customer aisle, staff access behind checkout, refrigerator access and equipment maintenance access. Keep a clear central playable space and clear routes to both exits, rather than filling the floor with merchandise. Foreground cut edges are presentation cuts, not extra functional exits."
+      ],
+      "reference_ids": [
+        "M02-01"
+      ],
+      "text_only_reason": "",
+      "planned_evidence": "실제 전체 이미지 및 벽/바닥/장비/실내 동선 확대에서 건물별 사람용 문/셔터의 규모·문턱·접지 및 장식/기능 출구 역할",
+      "observation": {
+        "status": "PASS",
+        "basis": "actual_image",
+        "regions": [
+          "고객 유리문·서비스 입구"
+        ],
+        "evidence": "사람용 입구 둘이 기능 출구를 겸하며 문턱과 바닥 연결이 있다.",
+        "positive_evidence": "투명한 고객 입구와 직사각 서비스 입구를 환기구와 구분할 수 있다.",
+        "forbidden_evidence": "점검판을 사람 출입구로 세지 않았다."
+      }
+    },
+    {
+      "id": "W05-01",
+      "source": "docs/04_WORLD_DESIGN_V2.md",
+      "check_ids": [
+        "W05"
+      ],
+      "applicable": true,
+      "critical": true,
+      "na_reason": "",
+      "positive_visual": "건물별 윗면40~80%의 기능적 구성과 받침·연결·여백",
+      "forbidden_visual": "장면평균/기계비율로 혼동·그림자/오염/도색을 점유로 셈·기계층 위 중복 장비 증식",
+      "prompt_clauses": [
+        "One store enclosure, customer entry and service entry are its two human entrances. Most roof/ceiling and front walls are CUT AWAY to reveal the interior. Retain narrow supported rear roof/service ledges only, with purposeful condenser, vent and electrical service housings occupying roughly40–80% of the REMAINING visible roof surfaces, with empty maintenance space and connected ducts. Do not add a complete opaque roof that hides the room. A wall-mounted broad practical tube fixture and a small checkout lamp are supported by wall brackets. Under the room, show a newly designed two-face cutaway of foundation concrete, one insulated refrigeration conduit and a few thick power conduits plus compact buried service junctions; not the previous city's long red-blue pipe pattern."
+      ],
+      "reference_ids": [
+        "M02-01"
+      ],
+      "text_only_reason": "",
+      "planned_evidence": "실제 전체 이미지 및 벽/바닥/장비/실내 동선 확대에서 건물별 윗면40~80%의 기능적 구성과 받침·연결·여백",
+      "observation": {
+        "status": "UNCERTAIN",
+        "basis": "actual_image",
+        "regions": [
+          "절개 뒤벽 상단·냉장기 위 서비스 영역"
+        ],
+        "evidence": "천장이 생략된 실내의 남은 상부/서비스 턱을 대상으로 본다. 코너의 장비·공급관은 분명하지만 남은 건축 윗면40~80% 점유를 이미지로 확정하기 어렵다.",
+        "positive_evidence": "후면 기계 묶음과 공급관에 기능·지지·여백이 있다.",
+        "forbidden_evidence": "없는 천장을 빈 지붕으로 FAIL하지 않는다. 냉장고 위 장비가 건축 남은 윗면인지 구분 불확실."
+      }
+    },
+    {
+      "id": "R01-01",
+      "source": "현재 사용자 요청 + docs/08_COMMANDS.md",
+      "check_ids": [
+        "R01"
+      ],
+      "applicable": true,
+      "critical": true,
+      "na_reason": "",
+      "positive_visual": "현재 장소·시간·재질·주요 물체·편집 보존의 시각 요구를 개별 행으로 구체화",
+      "forbidden_visual": "현재 요청 누락·직전 소품/날씨/수치를 새 장소에 자동 누적·요청하지 않은 인물/문자/UI",
+      "prompt_clauses": [
+        "CURRENT SCENE: a small aging CONVENIENCE STORE INTERIOR AT NIGHT, disorderly and poorly maintained but still limping along using repaired technology. This is a NEW scene, not the preceding outdoor city: no roads, cars, city towers or repeated streetscape. Design three distinct functional masses around the room edge: a deep bank of cream-and-dusty-teal rounded glass-door refrigeration cabinets inset into the rear corner, with a substantial repaired compressor housing and thick functional tubing; a stepped wraparound checkout counter with a projecting rounded register pod, analog keys/dials and an inset staff space near the left side; two short offset perimeter merchandise racks, partly empty, with a few crooked product cartons, cans and snacks. A chest freezer with broad rounded lid sits along the right edge, leaving the center open. These are sizable functional objects with depth, thick shells, brackets and visible service recesses, not identical boxes or thousands of tiny greebles. Plain simple packaging shapes, only a few tiny generic price labels, no real brands, slogans, people or UI."
+      ],
+      "reference_ids": [
+        "M03-14"
+      ],
+      "text_only_reason": "",
+      "planned_evidence": "실제 전체 이미지 및 벽/바닥/장비/실내 동선 확대에서 현재 장소·시간·재질·주요 물체·편집 보존의 시각 요구를 개별 행으로 구체화",
+      "observation": {
+        "status": "FAIL",
+        "basis": "actual_image",
+        "regions": [
+          "전체·USER-1~4"
+        ],
+        "evidence": "편의점·밤·노후·넘치는 통·M4 레트로는 보이나 현행 중앙 확보와 목표 표면 표현은 실패다.",
+        "positive_evidence": "냉장고/계산대/휴지와 봉투가 현재 요청을 설명한다.",
+        "forbidden_evidence": "중앙 적치와 미충족 붓표현 때문에 전체 요청/마스터 통과로 집계할 수 없다."
+      }
+    },
+    {
+      "id": "R02-01",
+      "source": "docs/01_COMPOSITION.md + docs/06_QA.md",
+      "check_ids": [
+        "R02"
+      ],
+      "applicable": true,
+      "critical": true,
+      "na_reason": "",
+      "positive_visual": "새 장소/독립 시안의 실제 큰 형태·외벽 깊이·공간/경계/출구·포장/단면 차이",
+      "forbidden_visual": "재색칠/층수/좌우 반전/위치/작은 부품만 변경·다른 계획/미입력을 실제 차이의 근거로 사용",
+      "prompt_clauses": [
+        "CURRENT SCENE: a small aging CONVENIENCE STORE INTERIOR AT NIGHT, disorderly and poorly maintained but still limping along using repaired technology. This is a NEW scene, not the preceding outdoor city: no roads, cars, city towers or repeated streetscape. Design three distinct functional masses around the room edge: a deep bank of cream-and-dusty-teal rounded glass-door refrigeration cabinets inset into the rear corner, with a substantial repaired compressor housing and thick functional tubing; a stepped wraparound checkout counter with a projecting rounded register pod, analog keys/dials and an inset staff space near the left side; two short offset perimeter merchandise racks, partly empty, with a few crooked product cartons, cans and snacks. A chest freezer with broad rounded lid sits along the right edge, leaving the center open. These are sizable functional objects with depth, thick shells, brackets and visible service recesses, not identical boxes or thousands of tiny greebles. Plain simple packaging shapes, only a few tiny generic price labels, no real brands, slogans, people or UI."
+      ],
+      "reference_ids": [
+        "M03-14"
+      ],
+      "text_only_reason": "",
+      "planned_evidence": "실제 전체 이미지 및 벽/바닥/장비/실내 동선 확대에서 새 장소/독립 시안의 실제 큰 형태·외벽 깊이·공간/경계/출구·포장/단면 차이",
+      "observation": {
+        "status": "PASS",
+        "basis": "actual_image",
+        "regions": [
+          "전체 및 이전 도심 최종 열람 비교"
+        ],
+        "evidence": "이전 도심의 복수 층 건물/차량/도로와 달리 단일 실내 컷어웨이, 코너 냉장 기능 덩어리, 계산 동선과 큰 실내 타일로 공간 용도와 깊이가 달라졌다.",
+        "positive_evidence": "실제 이전 도심 최종도 열어 윤곽·실내 깊이·설비 기능 차이를 비교했다.",
+        "forbidden_evidence": "층수/색/배치만 바꾼 같은 도심 외관이 아니다. 단면의 설비 표현은 공통 규칙 범위."
+      }
+    },
+    {
+      "id": "R03-01",
+      "source": "docs/06_QA.md + 현재 사용자 편집 요구",
+      "check_ids": [
+        "R03"
+      ],
+      "applicable": false,
+      "critical": true,
+      "na_reason": "새 장면 최초 생성으로 보존 비교 대상 없음",
+      "positive_visual": "같은 시안 편집 전후 명시 변경 밖의 유효한 형태/깊이/아트/빛/세계관/요청 보존",
+      "forbidden_visual": "구조 개선을 이유로 큰 하우징/깊이/붓터치/요청 후퇴를 상쇄·최신 후보 자동 선택",
+      "prompt_clauses": [
+        "CURRENT SCENE: a small aging CONVENIENCE STORE INTERIOR AT NIGHT, disorderly and poorly maintained but still limping along using repaired technology. This is a NEW scene, not the preceding outdoor city: no roads, cars, city towers or repeated streetscape. Design three distinct functional masses around the room edge: a deep bank of cream-and-dusty-teal rounded glass-door refrigeration cabinets inset into the rear corner, with a substantial repaired compressor housing and thick functional tubing; a stepped wraparound checkout counter with a projecting rounded register pod, analog keys/dials and an inset staff space near the left side; two short offset perimeter merchandise racks, partly empty, with a few crooked product cartons, cans and snacks. A chest freezer with broad rounded lid sits along the right edge, leaving the center open. These are sizable functional objects with depth, thick shells, brackets and visible service recesses, not identical boxes or thousands of tiny greebles. Plain simple packaging shapes, only a few tiny generic price labels, no real brands, slogans, people or UI."
+      ],
+      "reference_ids": [
+        "M03-14"
+      ],
+      "text_only_reason": "",
+      "planned_evidence": "실제 전체 이미지 및 벽/바닥/장비/실내 동선 확대에서 같은 시안 편집 전후 명시 변경 밖의 유효한 형태/깊이/아트/빛/세계관/요청 보존",
+      "observation": {
+        "status": "NOT_APPLICABLE",
+        "basis": "actual_image",
+        "regions": [
+          "전체"
+        ],
+        "evidence": "새 장면 최초 생성으로 보존 비교 대상 없음",
+        "positive_evidence": "새 장면 최초 생성으로 보존 비교 대상 없음",
+        "forbidden_evidence": "동일 시안 편집 전후가 아니므로 미해당"
+      }
+    },
+    {
+      "id": "USER-1",
+      "source": "현재 사용자 요청",
+      "check_ids": [
+        "R01"
+      ],
+      "applicable": true,
+      "critical": true,
+      "na_reason": "",
+      "positive_visual": "편의점 실내: 냉장고·계산대·진열대·매장 깊이",
+      "forbidden_visual": "실외 시가지/동일 상자 배치",
+      "prompt_clauses": [
+        "CURRENT SCENE: a small aging CONVENIENCE STORE INTERIOR AT NIGHT, disorderly and poorly maintained but still limping along using repaired technology. This is a NEW scene, not the preceding outdoor city: no roads, cars, city towers or repeated streetscape. Design three distinct functional masses around the room edge: a deep bank of cream-and-dusty-teal rounded glass-door refrigeration cabinets inset into the rear corner, with a substantial repaired compressor housing and thick functional tubing; a stepped wraparound checkout counter with a projecting rounded register pod, analog keys/dials and an inset staff space near the left side; two short offset perimeter merchandise racks, partly empty, with a few crooked product cartons, cans and snacks. A chest freezer with broad rounded lid sits along the right edge, leaving the center open. These are sizable functional objects with depth, thick shells, brackets and visible service recesses, not identical boxes or thousands of tiny greebles. Plain simple packaging shapes, only a few tiny generic price labels, no real brands, slogans, people or UI."
+      ],
+      "reference_ids": [
+        "M03-14"
+      ],
+      "text_only_reason": "",
+      "planned_evidence": "전체와 해당 물체 확대에서 실제 관찰",
+      "observation": {
+        "status": "PASS",
+        "basis": "actual_image",
+        "regions": [
+          "전체"
+        ],
+        "evidence": "냉장고·계산대·상품 진열대·매장 깊이가 있는 편의점 실내다.",
+        "positive_evidence": "상품 냉장과 판매 설비가 구체적으로 읽힌다.",
+        "forbidden_evidence": "시가지 실외나 단순 전시 상자가 아니다."
+      }
+    },
+    {
+      "id": "USER-2",
+      "source": "현재 사용자 요청",
+      "check_ids": [
+        "R01"
+      ],
+      "applicable": true,
+      "critical": true,
+      "na_reason": "",
+      "positive_visual": "넘치는 기계 쓰레기통과 바닥 쓰레기, 어지러운 재고, 노후화",
+      "forbidden_visual": "깨끗이 정돈됨/빈 쓰레기통/동선 차단",
+      "prompt_clauses": [
+        "Make neglect/disorder clearly visible: one LARGE OVERFLOWING retro-mechanical waste bin in a front-right service pocket, its lid pushed up by black bags, crumpled paper, disposable cups and crushed cartons visibly overflowing the rim and spilling beside it. Give the bin an old pedal, a broad removable compactor motor casing and mismatched repair panel, not merely a modern plastic basket. Several scattered sheets, crushed cups and flattened boxes lie across selected floor areas, with denser piles near the bin and under shelves. Keep both exit thresholds and a broad middle walking path clear of blocking piles. Show displaced stock, one skewed small carton, a loose shelf panel safely beside the wall, and a few large areas of worn laminate, replaced wall panels and chipped paint. Disorder is object placement plus selective large damage, not gritty noise covering every material."
+      ],
+      "reference_ids": [
+        "M04-08"
+      ],
+      "text_only_reason": "",
+      "planned_evidence": "전체와 해당 물체 확대에서 실제 관찰",
+      "observation": {
+        "status": "FAIL",
+        "basis": "actual_image",
+        "regions": [
+          "넘치는 통·바닥·중앙"
+        ],
+        "evidence": "통에 봉투와 컵이 넘치고 바닥에 종이/캔/상자가 널려 노후하고 어지럽다. 다만 현재 원장의 금지 조건인 중앙 동선 침범이 있다.",
+        "positive_evidence": "요청의 노후·쓰레기·넘침은 분명히 구현된다.",
+        "forbidden_evidence": "중앙 진열대 두 개의 공간 침범(L03)을 보완해야 한다."
+      }
+    },
+    {
+      "id": "USER-3",
+      "source": "현재 사용자 요청",
+      "check_ids": [
+        "R01"
+      ],
+      "applicable": true,
+      "critical": true,
+      "na_reason": "",
+      "positive_visual": "밤과 실내 조명 구획/읽히는 중간톤",
+      "forbidden_visual": "낮/검은 암부 가림",
+      "prompt_clauses": [
+        "NIGHT is unmistakable in the dark blue surroundings visible through both openings. Dim cool overhead shop light creates broad muted pools, balanced by one tired warm counter lamp and restrained warm refrigerator bulbs; no daylight or sunlight beams. Preserve readable midtones on the floor, machine shells, room corners and cut faces; do not hide geometric joins or litter in black shadow. Muted cream, faded mint/teal, dusty ochre and charcoal reflect decades of use."
+      ],
+      "reference_ids": [
+        "M03-14"
+      ],
+      "text_only_reason": "",
+      "planned_evidence": "전체와 해당 물체 확대에서 실제 관찰",
+      "observation": {
+        "status": "PASS",
+        "basis": "actual_image",
+        "regions": [
+          "좌측 외부·실내 조명"
+        ],
+        "evidence": "문밖 짙은 청색 야간과 실내 따뜻한 냉장/계산대 조명이 대비된다.",
+        "positive_evidence": "벽과 바닥 중간톤이 읽히고 밤인 점이 명료하다.",
+        "forbidden_evidence": "대낮 햇빛이나 주요 물체를 삼키는 검은 암부가 없다."
+      }
+    },
+    {
+      "id": "USER-4",
+      "source": "현재 사용자 요청",
+      "check_ids": [
+        "R01"
+      ],
+      "applicable": true,
+      "critical": true,
+      "na_reason": "",
+      "positive_visual": "M4 레트로 기계로 편의점 기능과 재사용 수리 구현",
+      "forbidden_visual": "새 쇼룸/단순 장식 기계",
+      "prompt_clauses": [
+        "M4 IS RETRO-FUTURISM for this request: diverse rounded enamel housings, chunky inset analog controls, handles, broad louvers, replaceable modules and repaired bypass connections become the store's refrigeration, register, waste compactor and utility architecture. The world remains SALVAGE CYBERPUNK: dwindling resources, aging recovered advanced equipment kept running through visibly mismatched replacement parts and practical repairs. Neither pristine future showroom nor ordinary contemporary store with decorative radios. No green CRT, no device collage. References IN ORDER: 1 M02-01 two rear boundaries/two exits/connectivity only, exclude blue diagram/text/icons/mandatory coordinates; 2 M03-10 representative LDI clean color/material simplicity only, exclude storefront identity, story, characters and camera; 3 M03-14 LDI interior light zoning and thick architectural construction only, exclude attic layout/story/wooden period setting/camera; 4 M04-08 retro device proportions and functional joins only, exclude collage/drawing technique/camera; 5 B03-01 flat large pigment brush shapes on intact surfaces only, exclude fantasy architecture, bridge, water, daylight and camera. No reference camera may override the shared orthographic requirement."
+      ],
+      "reference_ids": [
+        "M04-08"
+      ],
+      "text_only_reason": "",
+      "planned_evidence": "전체와 해당 물체 확대에서 실제 관찰",
+      "observation": {
+        "status": "PASS",
+        "basis": "actual_image",
+        "regions": [
+          "냉장/계산/폐기 설비"
+        ],
+        "evidence": "둥근 에나멜 모서리·큰 아날로그 조작부·교체 모듈을 매장 기능에 적용했다.",
+        "positive_evidence": "낡은 실용 설비와 수리 관로가 이어진다.",
+        "forbidden_evidence": "새 미래 쇼룸이나 장식 라디오만 늘린 구성이 아니다."
+      }
+    }
+  ],
+  "checks": [
+    {
+      "id": "C01",
+      "applicable": true,
+      "na_reason": "",
+      "status": "PASS",
+      "basis": "actual_image",
+      "regions": [
+        "C01-01: 전체"
+      ],
+      "evidence": "C01-01: 한 단독 실내 디오라마와 두 전면 단면·벽·기계가 프레임 안에 있다.",
+      "positive_evidence": "C01-01: 빈 외부 여백과 최하단 모서리가 보인다.",
+      "forbidden_evidence": "C01-01: 베이스 크롭이나 둘 이상의 장면은 없다."
+    },
+    {
+      "id": "C02",
+      "applicable": true,
+      "na_reason": "",
+      "status": "FAIL",
+      "basis": "actual_image",
+      "regions": [
+        "C02-01: 두 전면 단면·전면 중앙/우측 끝"
+      ],
+      "evidence": "C02-01: 전면 중앙 단면의 상하 길이가 우측 끝보다 뚜렷이 길다. 같은 깊이 정사영 벡터가 아니다.",
+      "positive_evidence": "C02-01: 두 단면은 각각 읽히며 관통 배관은 단면 안에 있다.",
+      "forbidden_evidence": "C02-01: 중앙 대응 약(790,908)→(790,1001), 우측 약(1468,681)→(1468,745): 화면 두께 약93/64px."
+    },
+    {
+      "id": "C03",
+      "applicable": true,
+      "na_reason": "",
+      "status": "UNCERTAIN",
+      "basis": "actual_image",
+      "regions": [
+        "C03-01: 베이스 전체·가려진 뒤 꼭짓점"
+      ],
+      "evidence": "C03-01: 전체는 네모 블록이며 직선 전면을 가지나 뒤 기준점이 냉장·벽에 가려 정사각 기본 평면을 확정할 수 없다.",
+      "positive_evidence": "C03-01: 미요청 곡률·둥근 모따기·추가 전면 꼭짓점은 보이지 않는다.",
+      "forbidden_evidence": "C03-01: 확정된 곡률 실패가 아니라 뒤 기준면 가림과 C02 대응 모순 때문에 기본 평면 확정이 어렵다."
+    },
+    {
+      "id": "C04",
+      "applicable": true,
+      "na_reason": "",
+      "status": "FAIL",
+      "basis": "actual_image",
+      "regions": [
+        "C04-01: 베이스 사선·계산대 앞 수평·뒷벽 상단"
+      ],
+      "evidence": "C04-01: 한 세계축이어야 하는 베이스 왼쪽 앞선과 계산대 앞 수평선의 기울기가 크게 다르다. 상단으로 갈수록 선군이 평탄해진다.",
+      "positive_evidence": "C04-01: 수직 벽 모서리와 설비 두께는 알아볼 수 있다.",
+      "forbidden_evidence": "C04-01: 베이스 (78,558)→(790,908) 대비 계산대 앞 직선 (410,398)→(590,448). 다른 축에서도 우측 앞선 (790,908)→(1468,681)와 좌후벽 상단 (91,249)→(783,36)의 경사가 완전히 일치하지 않는다. 곡면 접선이 아닌 직선 구간 대조."
+    },
+    {
+      "id": "L01",
+      "applicable": true,
+      "na_reason": "",
+      "status": "PASS",
+      "basis": "actual_image",
+      "regions": [
+        "L01-01: 좌후벽·우후벽·뒤 모서리"
+      ],
+      "evidence": "L01-01: 높은 두 후방 벽이 이어지고 뒤 코너는 냉장설비 뒤로 폐쇄된다.",
+      "positive_evidence": "L01-01: 각 벽은 차단체로 읽히는 높이와 두께를 가진다.",
+      "forbidden_evidence": "L01-01: 장비 사이 틈이 제3출구로 읽히지 않는다."
+    },
+    {
+      "id": "L02",
+      "applicable": true,
+      "na_reason": "",
+      "status": "PASS",
+      "basis": "actual_image",
+      "regions": [
+        "L02-01: 좌측 유리입구·우측 서비스문"
+      ],
+      "evidence": "L02-01: 왼쪽 고객 입구는 야간 보도로, 오른쪽 서비스문은 짧은 창고 복도로 이어진다. 두 곳 모두 바닥 연결이 보인다.",
+      "positive_evidence": "L02-01: 양 후방 방향에 기능 출구 한 곳씩이며 전면은 표현 절개다.",
+      "forbidden_evidence": "L02-01: 별도의 제3기능 출구는 보이지 않는다."
+    },
+    {
+      "id": "L03",
+      "applicable": true,
+      "na_reason": "",
+      "status": "FAIL",
+      "basis": "actual_image",
+      "regions": [
+        "L03-01: 중앙 바닥·두 진열대·우측 출구 접근"
+      ],
+      "evidence": "L03-01: 중앙 진열대 두 개가 플레이 공간을 차지한다. 출구 길은 남지만 중앙 보호 공간은 확보하지 못했다.",
+      "positive_evidence": "L03-01: 좌측 문 앞과 냉장고 앞, 우측 서비스문으로 돌아가는 통로는 읽힌다.",
+      "forbidden_evidence": "L03-01: 중앙 대형 진열대와 두 번째 섬 진열대가 넓은 중앙 연속 공간을 분절한다."
+    },
+    {
+      "id": "L04",
+      "applicable": true,
+      "na_reason": "",
+      "status": "PASS",
+      "basis": "actual_image",
+      "regions": [
+        "L04-01: 전면 열린 절개·단면"
+      ],
+      "evidence": "L04-01: 전면 벽이 없어 바닥과 단면을 볼 수 있다.",
+      "positive_evidence": "L04-01: 오른쪽 큰 쓰레기통은 외곽에 위치하고 전체 바닥을 가리지는 않는다.",
+      "forbidden_evidence": "L04-01: 높은 전면 담이나 큰 가림막은 없다."
+    },
+    {
+      "id": "L05",
+      "applicable": true,
+      "na_reason": "",
+      "status": "PASS",
+      "basis": "actual_image",
+      "regions": [
+        "L05-01: 벽 기초·냉장고/상단 설비·입구 문턱"
+      ],
+      "evidence": "L05-01: 벽과 바닥, 냉장고 받침, 상단 기계의 수평 받침과 배관 접합이 읽힌다.",
+      "positive_evidence": "L05-01: 기계가 바닥/냉장고 위에 놓이고 케이블과 공급관이 연결된다.",
+      "forbidden_evidence": "L05-01: 공중에 뜬 장비나 근거 없는 방의 높이 단절은 보이지 않는다. 투영 문제는 C04 별도."
+    },
+    {
+      "id": "L06",
+      "applicable": true,
+      "na_reason": "",
+      "status": "PASS",
+      "basis": "actual_image",
+      "regions": [
+        "L06-01: 계산대 뒤·냉장고 앞·좌우 출입구"
+      ],
+      "evidence": "L06-01: 얕은 상자 전시가 아니라 손님 통로·직원 작업공간·냉장고 접근 깊이가 있는 실내다.",
+      "positive_evidence": "L06-01: 계산대 뒤 작업대와 의자, 우측 후방 복도까지 기능 공간을 구분한다.",
+      "forbidden_evidence": "L06-01: 실내 기능 영역을 완전히 막는 칸막이는 없다. 중앙 여유의 별도 실패는 L03."
+    },
+    {
+      "id": "L07",
+      "applicable": true,
+      "na_reason": "",
+      "status": "PASS",
+      "basis": "actual_image",
+      "regions": [
+        "L07-01: 벽 기단·바닥 타일·고정 가구 접지"
+      ],
+      "evidence": "L07-01: 주요 벽과 가구 기초의 세계축 의도 및 접지 경계가 읽힌다.",
+      "positive_evidence": "L07-01: 둥근 계산대 모서리는 연속된 두께와 바닥 접점을 갖는다.",
+      "forbidden_evidence": "L07-01: 확인되는 임의 지상 벽 회전이나 좁은 쐐기 틈은 없다. C04 카메라 실패를 실제 평면 회전으로 확대하지 않는다."
+    },
+    {
+      "id": "S01",
+      "applicable": true,
+      "na_reason": "",
+      "status": "FAIL",
+      "basis": "actual_image",
+      "regions": [
+        "S01-01: qa_wall.png·qa_floor.png·qa_bin.png"
+      ],
+      "evidence": "S01-01: 넓은 기본색은 있으나 벽/냉장 외장의 주된 변화는 벗겨진 페인트·모서리 마모다. 온전한 면의 큰 방향성 붓질 증거가 부족하다.",
+      "positive_evidence": "S01-01: 바닥에 큰 연회색/베이지 색면이 있고 넓은 기본색 여백이 있다.",
+      "forbidden_evidence": "S01-01: 냉장고·쓰레기통 온전한 넓은 면은 단색에 가깝고 붓표현을 박리로 대체한다."
+    },
+    {
+      "id": "S02",
+      "applicable": true,
+      "na_reason": "",
+      "status": "PASS",
+      "basis": "actual_image",
+      "regions": [
+        "S02-01: 바닥·벽·기계 확대"
+      ],
+      "evidence": "S02-01: 큰 타일 단위와 비교적 성긴 넓은 색 차이, 장비 외장의 여백이 있다.",
+      "positive_evidence": "S02-01: 잔선/자국이 전 표면을 균등하게 채우지 않고 노후화는 선택 부위에 있다.",
+      "forbidden_evidence": "S02-01: 물결형 미세 잔선·전면 모자이크·균열 군집은 뚜렷하지 않다. 큰 타일 줄눈은 의도된 포장 단위다."
+    },
+    {
+      "id": "S03",
+      "applicable": true,
+      "na_reason": "",
+      "status": "FAIL",
+      "basis": "actual_image",
+      "regions": [
+        "S03-01: 벽/기계 온전한 면·바닥 확대"
+      ],
+      "evidence": "S03-01: 큰 조명과 명암으로 입체는 읽히나 온전한 벽·기계 외장의 목표 평면 붓터치는 충분히 보이지 않는다.",
+      "positive_evidence": "S03-01: 유리 냉장문 반사는 국소이고 마른 바닥의 물결/굴절 잔선은 보이지 않는다.",
+      "forbidden_evidence": "S03-01: 부조나 굴절 패턴이 없다는 사실이 긍정 붓표현 부족을 상쇄하지 않는다."
+    },
+    {
+      "id": "S04",
+      "applicable": true,
+      "na_reason": "",
+      "status": "PASS",
+      "basis": "actual_image",
+      "regions": [
+        "S04-01: 냉장고·계산대·냉동고·압착 쓰레기통"
+      ],
+      "evidence": "S04-01: 큰 냉장 하우징과 깊은 상품 선반, 모서리 두께, 상단 기계 부피, 쓰레기통 모터함이 읽힌다.",
+      "positive_evidence": "S04-01: 유리/금속/벽/바닥 경계와 접지 그림자가 분명하다.",
+      "forbidden_evidence": "S04-01: 기계 부피를 벽 무늬로 대체하지 않았다. C04 투영 문제와 별도 가독성이다."
+    },
+    {
+      "id": "W01",
+      "applicable": true,
+      "na_reason": "",
+      "status": "PASS",
+      "basis": "actual_image",
+      "regions": [
+        "W01-01: 냉장설비 상단 배관·압착 통 모터·수리함"
+      ],
+      "evidence": "W01-01: 공급관·교체색 외장·수리함이 냉장/폐기 설비 기능으로 연결된다.",
+      "positive_evidence": "W01-01: 작동 중인 낡은 아날로그 계산 장치와 큰 설비의 기능이 읽힌다.",
+      "forbidden_evidence": "W01-01: 단면 기계만으로 세계관을 대체하지 않고 매장 생활 설비에도 적용한다."
+    },
+    {
+      "id": "W02",
+      "applicable": true,
+      "na_reason": "",
+      "status": "PASS",
+      "basis": "actual_image",
+      "regions": [
+        "W02-01: 벽/바닥 보수·장비 교체판"
+      ],
+      "evidence": "W02-01: 바랜 투톤 벽과 선택적 박리, 다른색 교체판·노후 기계로 계속 유지하는 장소가 보인다.",
+      "positive_evidence": "W02-01: 오래된 설비가 작동 중이며 매장 바닥에 재고/폐기물이 남는다.",
+      "forbidden_evidence": "W02-01: 신품 쇼룸 느낌은 아니다."
+    },
+    {
+      "id": "W03",
+      "applicable": true,
+      "na_reason": "",
+      "status": "PASS",
+      "basis": "actual_image",
+      "regions": [
+        "W03-01: 후면 코너 냉장동·계산부·전면 우측 쓰레기통"
+      ],
+      "evidence": "W03-01: 두 면으로 꺾인 냉장 기능 덩어리, 상단 공조와 우회 배관, 두꺼운 압착 통 구조가 존재한다.",
+      "positive_evidence": "W03-01: 기계가 생활 기능의 큰 부피를 이루며 받침과 접근 공간이 읽힌다.",
+      "forbidden_evidence": "W03-01: 작은 표시등이나 단면 배관만 추가한 장면이 아니다."
+    },
+    {
+      "id": "W04",
+      "applicable": true,
+      "na_reason": "",
+      "status": "PASS",
+      "basis": "actual_image",
+      "regions": [
+        "W04-01: 고객 유리문·서비스 입구"
+      ],
+      "evidence": "W04-01: 사람용 입구 둘이 기능 출구를 겸하며 문턱과 바닥 연결이 있다.",
+      "positive_evidence": "W04-01: 투명한 고객 입구와 직사각 서비스 입구를 환기구와 구분할 수 있다.",
+      "forbidden_evidence": "W04-01: 점검판을 사람 출입구로 세지 않았다."
+    },
+    {
+      "id": "W05",
+      "applicable": true,
+      "na_reason": "",
+      "status": "UNCERTAIN",
+      "basis": "actual_image",
+      "regions": [
+        "W05-01: 절개 뒤벽 상단·냉장기 위 서비스 영역"
+      ],
+      "evidence": "W05-01: 천장이 생략된 실내의 남은 상부/서비스 턱을 대상으로 본다. 코너의 장비·공급관은 분명하지만 남은 건축 윗면40~80% 점유를 이미지로 확정하기 어렵다.",
+      "positive_evidence": "W05-01: 후면 기계 묶음과 공급관에 기능·지지·여백이 있다.",
+      "forbidden_evidence": "W05-01: 없는 천장을 빈 지붕으로 FAIL하지 않는다. 냉장고 위 장비가 건축 남은 윗면인지 구분 불확실."
+    },
+    {
+      "id": "R01",
+      "applicable": true,
+      "na_reason": "",
+      "status": "FAIL",
+      "basis": "actual_image",
+      "regions": [
+        "R01-01: 전체·USER-1~4",
+        "USER-1: 전체",
+        "USER-2: 넘치는 통·바닥·중앙",
+        "USER-3: 좌측 외부·실내 조명",
+        "USER-4: 냉장/계산/폐기 설비"
+      ],
+      "evidence": "R01-01: 편의점·밤·노후·넘치는 통·M4 레트로는 보이나 현행 중앙 확보와 목표 표면 표현은 실패다.; USER-1: 냉장고·계산대·상품 진열대·매장 깊이가 있는 편의점 실내다.; USER-2: 통에 봉투와 컵이 넘치고 바닥에 종이/캔/상자가 널려 노후하고 어지럽다. 다만 현재 원장의 금지 조건인 중앙 동선 침범이 있다.; USER-3: 문밖 짙은 청색 야간과 실내 따뜻한 냉장/계산대 조명이 대비된다.; USER-4: 둥근 에나멜 모서리·큰 아날로그 조작부·교체 모듈을 매장 기능에 적용했다.",
+      "positive_evidence": "R01-01: 냉장고/계산대/휴지와 봉투가 현재 요청을 설명한다.; USER-1: 상품 냉장과 판매 설비가 구체적으로 읽힌다.; USER-2: 요청의 노후·쓰레기·넘침은 분명히 구현된다.; USER-3: 벽과 바닥 중간톤이 읽히고 밤인 점이 명료하다.; USER-4: 낡은 실용 설비와 수리 관로가 이어진다.",
+      "forbidden_evidence": "R01-01: 중앙 적치와 미충족 붓표현 때문에 전체 요청/마스터 통과로 집계할 수 없다.; USER-1: 시가지 실외나 단순 전시 상자가 아니다.; USER-2: 중앙 진열대 두 개의 공간 침범(L03)을 보완해야 한다.; USER-3: 대낮 햇빛이나 주요 물체를 삼키는 검은 암부가 없다.; USER-4: 새 미래 쇼룸이나 장식 라디오만 늘린 구성이 아니다."
+    },
+    {
+      "id": "R02",
+      "applicable": true,
+      "na_reason": "",
+      "status": "PASS",
+      "basis": "actual_image",
+      "regions": [
+        "R02-01: 전체 및 이전 도심 최종 열람 비교"
+      ],
+      "evidence": "R02-01: 이전 도심의 복수 층 건물/차량/도로와 달리 단일 실내 컷어웨이, 코너 냉장 기능 덩어리, 계산 동선과 큰 실내 타일로 공간 용도와 깊이가 달라졌다.",
+      "positive_evidence": "R02-01: 실제 이전 도심 최종도 열어 윤곽·실내 깊이·설비 기능 차이를 비교했다.",
+      "forbidden_evidence": "R02-01: 층수/색/배치만 바꾼 같은 도심 외관이 아니다. 단면의 설비 표현은 공통 규칙 범위."
+    },
+    {
+      "id": "R03",
+      "applicable": false,
+      "na_reason": "새 장면 최초 생성으로 편집 보존 미해당",
+      "status": "NOT_APPLICABLE",
+      "basis": "actual_image",
+      "regions": [
+        "R03-01: 전체"
+      ],
+      "evidence": "R03-01: 새 장면 최초 생성으로 보존 비교 대상 없음",
+      "positive_evidence": "R03-01: 새 장면 최초 생성으로 보존 비교 대상 없음",
+      "forbidden_evidence": "R03-01: 동일 시안 편집 전후가 아니므로 미해당"
+    }
+  ],
+  "candidate": {
+    "image_path": "image.png",
+    "sha256": "ae806c4c1e67c8afa3fa2825da5b8e917de5fe6824474e330c59602ba38fa794",
+    "actually_opened": true,
+    "observation_basis": "actual_image",
+    "reviewed_at": "2026-09-12T17:47:16.804592+00:00",
+    "overall_status": "needs_revision",
+    "result_path": "result.json"
+  },
+  "comparison": {
+    "applicable": false,
+    "na_reason": "새 장소 첫 생성으로 동일 시안 baseline 없음",
+    "baseline": {
+      "image_path": null,
+      "sha256": null,
+      "actually_opened": false
+    },
+    "preservation_plan": "",
+    "dimensions": [],
+    "unresolved_regressions": []
+  },
+  "selection": {
+    "selected": false,
+    "qa_status": "not_reviewed",
+    "claims_overall_pass": false,
+    "reason": "",
+    "unresolved_limitations": "",
+    "stop_reason": "",
+    "manifest_path": "outputs/final_manifest.json",
+    "considered_candidates": []
+  },
+  "format_notes": {
+    "purpose": "현재 run 단일 시각 요건 원장. 예시 행을 장면의 구체 건물/표면/요청별로 나누어 완성한다. 빈 구절은 preflight FAIL이다. 실제 생성·이미지 판독을 수행하지 않는 기록 검증이며 기존 run을 소급 변경하지 않는다.",
+    "observation_statuses": [
+      "PASS",
+      "FAIL",
+      "UNCERTAIN",
+      "NOT_REVIEWED",
+      "NOT_APPLICABLE"
+    ],
+    "comparison_dimension_format": {
+      "dimension": "structure | large_form | facade_depth | surface | light_material | world | request",
+      "before": "이전 실제 모습/영역",
+      "after": "현재 실제 모습/영역",
+      "change": "improved | preserved | regressed | uncertain | not_reviewed | not_applicable",
+      "evidence": "실제 전후 근거와 불확실",
+      "requirement_ids": [
+        "R03-01"
+      ]
+    },
+    "considered_candidate_format": {
+      "image_path": "프로젝트 상대 원본 PNG 경로",
+      "sha256": "64 hex",
+      "actually_opened": true,
+      "qa_status": "candidate_pass | needs_revision | uncertain | not_reviewed",
+      "dimensions": {
+        "structure": "현재 실제 관찰과 다른 후보 대비 근거. 최초1장이면 비교 대상 부재 명시.",
+        "large_form": "현재 실제 관찰과 다른 후보 대비 근거. 최초1장이면 비교 대상 부재 명시.",
+        "facade_depth": "현재 실제 관찰과 다른 후보 대비 근거. 최초1장이면 비교 대상 부재 명시.",
+        "surface": "현재 실제 관찰과 다른 후보 대비 근거. 최초1장이면 비교 대상 부재 명시.",
+        "light_material": "현재 실제 관찰과 다른 후보 대비 근거. 최초1장이면 비교 대상 부재 명시.",
+        "world": "현재 실제 관찰과 다른 후보 대비 근거. 최초1장이면 비교 대상 부재 명시.",
+        "request": "현재 실제 관찰과 다른 후보 대비 근거. 최초1장이면 비교 대상 부재 명시."
+      }
+    },
+    "command": "python3 scripts/validate_run.py --run outputs/<run> --stage preflight|review|selection [--root PATH] [--json]",
+    "checks_usage": "checks 상태는 연결된 요구행 관찰의 집계. evidence/positive_evidence/forbidden_evidence/regions에는 요구ID와 실제 관찰 위치를 연결하며 같은 상세 문장을 두 번 쓰지 않는다. validator는 그 문자열의 의미·진실성을 판독하지 못한다.",
+    "mandatory_na_exception": {
+      "applies_to": "C01~C04/L01~L05/S01~S04/W01~W03/R01",
+      "check_field": "exception",
+      "format": {
+        "source": "현재 사용자 예외 지시 출처",
+        "quote": "실제 예외 원문"
+      },
+      "limit": "실제 예외인지의 판단은 검수자가 수행한다."
+    },
+    "unreviewed_delivery": "not_reviewed인 정직한 전달 허용. opened=false이면 observation_basis=not_reviewed와 NOT_REVIEWED 관찰·선택/한계/중단 사유를 일치시킨다. 동일시안 baseline/current 자기비교 금지, 알려진 baseline을 후보목록에서 누락하지 않는다.",
+    "conversation_only_baseline": {
+      "image_path": null,
+      "sha256": null,
+      "reference_id": "실제로 inspected된 edit_target 참조 ID",
+      "conversation_image_evidence": "references 항목과 동일한 실제 대화이미지 식별/열람 근거",
+      "actually_opened": true,
+      "note": "로컬 경로 없는 recent 편집일 때만 사용. selection의 해당 baseline 후보에도 같은 reference_id와 근거를 연결한다. 로컬 파일/해시를 꾸며내지 않는다."
+    }
+  }
+}

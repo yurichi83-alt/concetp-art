@@ -1,0 +1,6 @@
+{
+  "image_returned": false,
+  "requested_reference_count": 6,
+  "error": "referenced_image_paths must contain at most 5 paths",
+  "resolution": "Drop M01 visual input; retain its explicit structure text and M02 visual input; keep LDI, retro and brush references."
+}

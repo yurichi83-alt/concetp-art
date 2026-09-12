@@ -1,0 +1,18 @@
+{
+  "tool": "image_gen.imagegen",
+  "actual_arguments_path": "tool_arguments.json",
+  "returned_output_path": "/Users/hyojinnoh/.codex/generated_images/01a08610-9124-7bd1-9961-9126ad377251/exec-d40afe8f-34b4-4cd2-8ca5-4f7739a89530.png",
+  "copied_output_path": "image.png",
+  "sha256": "a56899a04e4d062c9661cc69d2a3b24ee3d9922144d6389cbf014941daa641db",
+  "dimensions": [
+    1254,
+    1254
+  ],
+  "image_count": 1,
+  "model": null,
+  "quality": null,
+  "seed": null,
+  "returned_token_usage": null,
+  "returned_revised_prompt": null,
+  "evidence": "Parent confirmed actual native call and returned output path; local copied result independently opened for QA."
+}

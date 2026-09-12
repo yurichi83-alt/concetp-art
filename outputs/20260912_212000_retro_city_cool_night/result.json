@@ -1,0 +1,24 @@
+{
+  "run_id": "20260912_212000_retro_city_cool_night",
+  "status": "needs_revision",
+  "image_path": "image.png",
+  "sha256": "a56899a04e4d062c9661cc69d2a3b24ee3d9922144d6389cbf014941daa641db",
+  "actually_opened": true,
+  "review_path": "review.md",
+  "reviewed_at": "2026-09-12T21:28:53.752151+09:00",
+  "review_method": "Independent night_initial_qa opened image, three native-resolution crops, baseline and four role references.",
+  "failed_requirements": [
+    "C04-01",
+    "S01-01",
+    "S02-01",
+    "S03-01",
+    "R01-01",
+    "USER-4"
+  ],
+  "uncertain_requirements": [
+    "C02-01",
+    "C03-01",
+    "L07-01",
+    "USER-1"
+  ]
+}
