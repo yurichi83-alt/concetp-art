@@ -1,0 +1,44 @@
+{
+  "kind": "Scene plan only, not validated 3D/collision geometry; no generated guide submitted",
+  "projection": "orthographic_parallel",
+  "base": {
+    "square": true,
+    "constant_thickness": true,
+    "front_two_planar_cuts": true
+  },
+  "A": {
+    "location": "rear-left",
+    "storeys": 4,
+    "footprint_relationships": "1<2;3<4",
+    "functional_volumes": [
+      "narrow human-entry core",
+      "projecting second with recessed bay",
+      "narrow third plant frame with deep service recess and rounded power housing",
+      "wider fourth with softened corner and projecting window"
+    ],
+    "roof_functional_occupancy_plan": 0.55
+  },
+  "B": {
+    "location": "rear-right",
+    "storeys": 2,
+    "footprint_relationships": "1<2; second shifted on one world axis",
+    "functional_volumes": [
+      "rounded reclaimed support machinery and inset maintenance slot",
+      "larger occupied pod with exposed underside and side deck"
+    ],
+    "roof_functional_occupancy_plan": 0.5
+  },
+  "exits": [
+    "rear-left open service passage",
+    "rear-right open utility gate"
+  ],
+  "center": "clear street; cars in curb bays; dumpster/appliances isolated side pocket",
+  "planned_height_note": "compact ~6.5m visible enclosure; no exact image metric verification",
+  "ref_roles": {
+    "M02-01": "geometry",
+    "M03-10": "art",
+    "M04-02": "world",
+    "B03-01": "surface",
+    "F-03": "architecture_form"
+  }
+}

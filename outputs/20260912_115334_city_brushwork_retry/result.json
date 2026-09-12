@@ -1,0 +1,10 @@
+{
+  "status": "needs_revision",
+  "selected_for_delivery": false,
+  "master_promoted": false,
+  "image": "image.png",
+  "actual_png_opened": true,
+  "reason": "User-requested brushwork still reads primarily as chipped paint and short patches; targeted surface refinement while preserving achieved edits.",
+  "next_run": "outputs/20260912_115334_city_brushwork_retry_surface_refine",
+  "source_path": "/Users/hyojinnoh/.codex/generated_images/01a08610-9124-7bd1-9961-9126ad377251/exec-78877efc-961c-48e9-86f4-9f6cf82f0f5a.png"
+}

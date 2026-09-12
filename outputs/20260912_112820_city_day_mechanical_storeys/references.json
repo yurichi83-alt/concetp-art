@@ -1,0 +1,41 @@
+{
+  "actual_input_count": 4,
+  "actual_references": [
+    {
+      "index": 1,
+      "path": "outputs/final/20260912_111454__city_wet_neon.png",
+      "role": "user-designated edit target; identity/layout, not approved geometry",
+      "actually_opened": true,
+      "sha256": "4f54303fa53d577425a90fb4cdade6e25a21be05b5b1d1573903705cd0aacf37"
+    },
+    {
+      "index": 2,
+      "path": "outputs/20260912_112820_city_day_mechanical_storeys/structure_guide.png",
+      "role": "M01/M02-derived revised geometry and connectivity only",
+      "actually_opened": true,
+      "sha256": "9b739de15c0198e4b8dfde491ec4b0eabe89028a81ee18b9a38fe968907302ff"
+    },
+    {
+      "index": 3,
+      "path": "refs/master03/ldi_10_storefront_style_anchor.png",
+      "role": "M03-10 rendering only",
+      "actually_opened": true,
+      "sha256": "c24fe55ad76c6c8bfbd88dee7059a09fd7a592dc60e5d4a6c7c0704f11f19345"
+    },
+    {
+      "index": 4,
+      "path": "refs/master04/world_02_heavy_mechanical_arms.png",
+      "role": "M04-02 salvaged mechanical housings/joints only",
+      "actually_opened": true,
+      "sha256": "a71042678c1898320a3d949d0108bde7e6f931c8f1bf8b316a057084be179a3b"
+    }
+  ],
+  "path_limit": 5,
+  "path_limit_evidence": "outputs/20260912_041307_wasteland_scrap_dealer/tool_rejection.json",
+  "model": "not_exposed",
+  "usage": "not_exposed",
+  "input_prompt_exact_file": "generation_prompt.md",
+  "mode": "built_in_edit",
+  "master_version": "2.7",
+  "execution_version": "1.8"
+}

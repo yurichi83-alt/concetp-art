@@ -1,0 +1,13 @@
+{
+  "status": "not_run_in_user_codex",
+  "working_directory_confirmed": false,
+  "native_image_generation_available": null,
+  "reference_delivery_supported": null,
+  "local_skill_discovered": null,
+  "output_access_supported": null,
+  "api_authorized": false,
+  "last_checked_at": null,
+  "notes": [
+    "Package contents are prepared. Actual Codex capabilities must be checked at first launch."
+  ]
+}

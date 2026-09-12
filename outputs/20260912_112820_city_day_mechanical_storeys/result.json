@@ -1,0 +1,150 @@
+{
+  "status": "uncertain",
+  "structural_status": "uncertain",
+  "request_status": "visually_fulfilled",
+  "selected_for_delivery": true,
+  "master_promoted": false,
+  "user_approved": false,
+  "request_mode": "edit_existing",
+  "edit_target": "outputs/final/20260912_111454__city_wet_neon.png",
+  "parent_run": null,
+  "image": {
+    "path": "outputs/20260912_112820_city_day_mechanical_storeys/image.png",
+    "dimensions": [
+      1254,
+      1254
+    ],
+    "sha256": "b66bfbd9a9e7bf2681e6997824bb2ebf93a77c2fb9c63445f7378a548724b315",
+    "bytes": 2299317
+  },
+  "generation": {
+    "tool": "image_gen.imagegen",
+    "source_path": "/Users/hyojinnoh/.codex/generated_images/01a08610-9124-7bd1-9961-9126ad377251/exec-fc25c5c6-b593-4640-840b-fd7a1f7a2f52.png",
+    "returned_model": "unconfirmed",
+    "returned_tokens": "unconfirmed",
+    "internal_revised_prompt": "unconfirmed",
+    "actual_input_count": 4,
+    "external_api_used": false,
+    "prompt_path": "outputs/20260912_112820_city_day_mechanical_storeys/generation_prompt.md",
+    "references_path": "outputs/20260912_112820_city_day_mechanical_storeys/references.json",
+    "prompt_sha256": "4096b74f6c53658c2d9e7e7137bcdd61190939cbce8e21e9e37a06f3385572f2"
+  },
+  "review": {
+    "path": "outputs/20260912_112820_city_day_mechanical_storeys/review.md",
+    "actual_png_opened": true,
+    "checks": [
+      {
+        "id": "C01",
+        "status": "PASS",
+        "observation": "단독 디오라마 전체, 양쪽 단면, 모서리, 건물 옥상과 안테나 모두 화면 안에 있음."
+      },
+      {
+        "id": "C02",
+        "status": "UNCERTAIN",
+        "observation": "양쪽 전면 단면은 보이나 우측 상단 턱과 아래 대응점의 깊이가 다른 두 점과 완전히 일치한다고 확정하기 어려움. 아래 수동 대응점 표 참조."
+      },
+      {
+        "id": "C03",
+        "status": "PASS",
+        "observation": "날카로운 사각 기단과 긴 직선 외곽, 두 평면 단면이 읽힘. 지면 곡률이나 비틀림의 명백한 증거 없음. 도로의 둥근 연석은 베이스 곡률과 구분."
+      },
+      {
+        "id": "C04",
+        "status": "UNCERTAIN",
+        "observation": "큰 벽/층/기단 선군은 대체로 같은 방향이지만 A 중간 테라스의 수평부와 B의 짧은 직선부/곡면 경계가 섞여 완전한 단일 정사영 판정에는 제한. 원근 혼입을 허용한 PASS 아님."
+      },
+      {
+        "id": "L01",
+        "status": "PASS",
+        "observation": "후면 두 방향의 도시 외벽이 이어지고 두 도로 틈을 남김. 낮은 소품만으로 차단 경계를 대신하지 않음."
+      },
+      {
+        "id": "L02",
+        "status": "PASS",
+        "observation": "A 왼쪽 거리와 B 오른쪽 거리가 각 후면 방향으로 열린 기능 출구. 건물의 일반 문은 추가 맵 출구로 세지 않음."
+      },
+      {
+        "id": "L03",
+        "status": "PASS",
+        "observation": "도로 굽이 및 양쪽 접근 도로가 이어짐. 자동차는 앞 가장자리에 있으며 돌출층 지지대가 도로까지 내려와 가로막지 않음. 문짝 개방 구조 없는 열린 거리."
+      },
+      {
+        "id": "L04",
+        "status": "PASS",
+        "observation": "중앙과 앞 지면이 보이고 전면 단면을 차량/건물로 가리지 않음."
+      },
+      {
+        "id": "L05",
+        "status": "PASS",
+        "observation": "A3층 기계와 4층 사이 기둥/보, B1층 프레임과 상층 사이 사선 받침이 보임. 접지 받침과 옥상 설비 지지/배관 연결 확인. 부유한 층으로 보이지 않음."
+      },
+      {
+        "id": "L06",
+        "status": "NOT_APPLICABLE",
+        "observation": "보행 가능한 주거 실내 미노출. 개방형 기계층은 설비 리세스와 정비 공간으로 읽힘. 전면 배수 공간은 보행 실내/제3출구가 아님."
+      },
+      {
+        "id": "L07",
+        "status": "UNCERTAIN",
+        "observation": "A앞문턱과 B앞 기둥 받침은 보도에 접지하며 보행/설비 구분이 명확함. B뒤 기단 일부는 큰 상층과 설비에 가려 공통축/경계 전체 판독은 제한. 상층의 각도로 숨은 지상 경계를 추정하지 않음."
+      },
+      {
+        "id": "S01",
+        "status": "PASS",
+        "observation": "넓은 밝은 벽면·회색 기계 외장·마른 포장 위 인접톤 색면이 남고 보수 흔적은 선택적임."
+      },
+      {
+        "id": "S02",
+        "status": "PASS",
+        "observation": "붓터치/색면 크기가 벽·기계·노면에 따라 다르며 전체가 균일한 작은 오염 무늬로 덮이지 않음."
+      },
+      {
+        "id": "S03",
+        "status": "PASS",
+        "observation": "마른 도로와 금속/벽의 평면 색변화가 읽힘. 젖은 유리 물결/양각 붓질 없음. 작은 손상은 있으나 실사 미세질감으로 전면화하지 않음."
+      },
+      {
+        "id": "S04",
+        "status": "PASS",
+        "observation": "일광의 큰 그림자로 돌출층과 기계층의 깊이, 지지부, 접지가 명료해짐. 유리·금속·도장벽·콘크리트 구분."
+      },
+      {
+        "id": "W01",
+        "status": "PASS",
+        "observation": "건물 기계층, 외벽 서비스 배관, 단면 전력·배수 장치가 도시 기능으로 연결됨."
+      },
+      {
+        "id": "W02",
+        "status": "PASS",
+        "observation": "교체 도장판/큰 보수 흔적/회수 금속 기계 외장이 유지돼 전부 신품인 SF로 바뀌지 않음."
+      },
+      {
+        "id": "W03",
+        "status": "PASS",
+        "observation": "A3층과 B1층이 주거 창문 벽체 대신 큰 설비 부피와 구조 프레임으로 구성됨. 작은 에어컨 부착으로 대체되지 않음."
+      },
+      {
+        "id": "W04",
+        "status": "PASS",
+        "observation": "A기존 지상 사람 문, B1층 설비 옆 사람 크기 정비문 확인. 모두 일반 입구로서 출구 두 개와 별도. 상층 접근 코어는 설계 의도이며 숨은 계단 실제 경로 검증은 아님."
+      },
+      {
+        "id": "W05",
+        "status": "PASS",
+        "observation": "A최상부 서비스 설비와 중간 유지보수 데크, B옥상 열교환기/데크가 각 옥상에 넓게 배치. 계획40~80%에 대응하는 시각적 추정이며 정확한 면적/비율 검증 아님."
+      },
+      {
+        "id": "R01",
+        "status": "PASS",
+        "observation": "낮·마른 바닥, A3층 기계와 더 큰4층, B1층 기계와 더 크고 약간 이동한2층. 도로/차량/출구/단면의 기존 도시 정체성 유지. 네온 장치의 소량 발광은 남았지만 젖은 반사와 야간 무드는 제거됨."
+      },
+      {
+        "id": "R02",
+        "status": "NOT_APPLICABLE",
+        "observation": "지정 결과의 명시적 편집이므로 독립 새 배치 차이를 요구하지 않음."
+      }
+    ]
+  },
+  "actual_collision_mesh_UV_validation": false,
+  "final_count": 1
+}

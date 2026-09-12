@@ -1,7 +1,7 @@
 #!/usr/bin/env python3
 """Read-only package validation. No network, installations, or image-model calls.
 
-Python 3.9+. Checks required files, reference integrity, IDs, and PNG/JPEG dimensions.
+Python 3.9+. Checks files, reference integrity, IDs, dimensions and workflow-policy links.
 Does NOT verify visual layout, style, exits, or model availability.
 """
 from __future__ import annotations
@@ -23,6 +23,7 @@ REQUIRED = [
     "docs/08_COMMANDS.md", "docs/09_SOURCES.md", "docs/10_CURRENT_REFERENCES.md", "state/setup_status.json",
     "state/approvals.json", "templates/brief.md", "templates/preflight.md",
     "templates/review.md", "templates/references.json", "templates/generation_prompt.md", "outputs/README.md",
+    "templates/requirements.json", "scripts/validate_run.py", "scripts/test_validate_run.py",
 ]
 
 def inside(root: Path, rel: str) -> Path:
@@ -230,7 +231,59 @@ def validate(root: Path) -> dict:
                     errors.append(f"Reference template metadata disagree: {template_key}")
         except (OSError, ValueError) as exc:
             errors.append(f"Invalid architecture approval record: {exc}")
-    for field in ("read_first", "execution_rules", "qa_rules", "reference_manifest", "approvals"):
+    # Validate current policy wiring; no historical output migration or image scoring.
+    try:
+        approvals = json.loads((root / "state/approvals.json").read_text(encoding="utf-8"))
+        approved = {e.get("approval_id", e.get("id")) for e in approvals.get("entries", [])
+                    if e.get("status") == "approved"}
+        quality = project.get("generation_quality_policy", {})
+        aid = quality.get("approval_id")
+        if not aid or aid not in approved or aid != project.get("master_update_approval_id"):
+            errors.append("Unknown or inconsistent current pipeline-quality approval")
+        if aid != manifest.get("pipeline_quality_approval_id"):
+            errors.append("Reference manifest pipeline-quality metadata disagree")
+        expected_checks = {f"{p}{n:02}" for p, count in (("C", 4), ("L", 7), ("S", 4), ("W", 5), ("R", 3))
+                           for n in range(1, count + 1)}
+        checks = quality.get("required_check_ids", [])
+        if len(checks) != len(expected_checks) or set(checks) != expected_checks:
+            errors.append("Quality gate must cover all C/L/S/W/R checks, including R03")
+        if project.get("auto_regenerate_scope") != "observed_failures_of_explicit_master_or_current_request_requirements":
+            errors.append("Automatic correction scope disagrees with approved full-quality policy")
+        if quality.get("completion_stop") != "all_applicable_required_checks_and_requirements_pass":
+            errors.append("Overall completion cannot stop at structural checks alone")
+        if quality.get("incomplete_is_not_complete") is not True:
+            errors.append("Incomplete stopping must remain distinct from completion")
+        policy = project.get("run_validation_policy", {})
+        if policy.get("enabled_for_new_runs") is not True or policy.get("retrospective") is not False:
+            errors.append("Run validation must apply to new runs without retrospective migration")
+        if policy.get("image_judgment_automated") is not False:
+            errors.append("Record validation must not claim automated visual judgment")
+        if policy.get("stages") != ["preflight", "review", "selection"]:
+            errors.append("Run validation stages are incomplete")
+        if policy.get("ledger_template") != project.get("requirements_template"):
+            errors.append("Requirements template policy links disagree")
+        for field in ("ledger_template", "validator"):
+            if not inside(root, policy.get(field, "")).is_file():
+                errors.append(f"Missing run validation target: {field}")
+        ledger = json.loads(inside(root, policy["ledger_template"]).read_text(encoding="utf-8"))
+        for template_key, config_key in (("masters_version", "master_version"),
+                                         ("execution_rules_version", "execution_rules_version")):
+            if ledger.get(template_key) != project.get(config_key):
+                errors.append(f"Requirements template metadata disagree: {template_key}")
+        if ledger.get("approval_id") != aid:
+            errors.append("Requirements template approval disagrees")
+        ledger_checks = [c.get("id") for c in ledger.get("checks", [])]
+        if len(ledger_checks) != len(expected_checks) or set(ledger_checks) != expected_checks:
+            errors.append("Requirements template must include every C/L/S/W/R check once")
+        dimensions = ["structure", "large_form", "facade_depth", "surface", "light_material", "world", "request"]
+        selection = project.get("candidate_selection_policy", {})
+        if selection.get("comparison_dimensions") != dimensions or selection.get("required_regression_check") != "R03":
+            errors.append("Candidate selection must retain all quality dimensions and R03")
+        if project.get("not_a_codex_runtime_config") is not True:
+            errors.append("Project settings must remain workflow data, not native runtime configuration")
+    except (OSError, ValueError, KeyError, TypeError, AttributeError) as exc:
+        errors.append(f"Invalid pipeline-quality policy or ledger template: {exc}")
+    for field in ("read_first", "execution_rules", "qa_rules", "reference_manifest", "approvals", "requirements_template"):
         if not inside(root, project.get(field, "")).is_file():
             errors.append(f"Missing project config target: {field}")
     size = (root / "AGENTS.md").stat().st_size if (root / "AGENTS.md").exists() else 0

@@ -1,0 +1,57 @@
+{
+  "actual_input_count": 1,
+  "references": [
+    {
+      "index": 1,
+      "path": "outputs/20260912_121353_city_two_cars_appliances_guide_only_rebuild/structure_guide.png",
+      "role": "new native sketch-to-render target; scene structure/large forms",
+      "actually_opened": true,
+      "sha256": "f3bbf5804b83776c4520984afba39a8211c38439370980ecf236f67cefdce7c3"
+    }
+  ],
+  "not_submitted": [
+    {
+      "id": "M01/M02",
+      "reason": "공통 공간·정사영·단면·두 출구 조건을 하나의 구조 가이드와 문장으로 적용."
+    }
+  ],
+  "prior_generated_image_inputs": [],
+  "mode": "own_structural_correction_sketch_to_render",
+  "confirmed_path_limit": 5,
+  "limit_evidence": "outputs/20260912_041307_wasteland_scrap_dealer/tool_rejection.json",
+  "model": "unconfirmed",
+  "tokens": "unconfirmed",
+  "prompt_characters": 6926,
+  "prompt_utf8_bytes": 6928,
+  "prompt_whitespace_words": 976,
+  "parent_run": "outputs/20260912_121353_city_two_cars_appliances_geometry_rebuild",
+  "reviewed_but_not_submitted": [
+    {
+      "index": 2,
+      "path": "refs/master03/ldi_10_storefront_style_anchor.png",
+      "role": "Master03 architecture/material/light expression only",
+      "actually_opened": true,
+      "sha256": "c24fe55ad76c6c8bfbd88dee7059a09fd7a592dc60e5d4a6c7c0704f11f19345",
+      "submitted": false,
+      "reason": "기존 요청에서 실제 열어 본 아트/세계관/붓터치 자료. 보정3에서는 카메라 영향 변수를 줄이려고 이미지 입력에서 제외하고 해당 역할을 문장으로 유지."
+    },
+    {
+      "index": 3,
+      "path": "refs/master04/world_02_heavy_mechanical_arms.png",
+      "role": "Master04 functional salvaged housing/repair design only",
+      "actually_opened": true,
+      "sha256": "a71042678c1898320a3d949d0108bde7e6f931c8f1bf8b316a057084be179a3b",
+      "submitted": false,
+      "reason": "기존 요청에서 실제 열어 본 아트/세계관/붓터치 자료. 보정3에서는 카메라 영향 변수를 줄이려고 이미지 입력에서 제외하고 해당 역할을 문장으로 유지."
+    },
+    {
+      "index": 4,
+      "path": "refs/style_support/brush_planes_reference.jpg",
+      "role": "B03-01 flat brushwork/color plane only, no water or architecture transfer",
+      "actually_opened": true,
+      "sha256": "1017bd1ab7a7a500601fdd74ab0d7e105f330aefc75ba9bba30461cbea5b7638",
+      "submitted": false,
+      "reason": "기존 요청에서 실제 열어 본 아트/세계관/붓터치 자료. 보정3에서는 카메라 영향 변수를 줄이려고 이미지 입력에서 제외하고 해당 역할을 문장으로 유지."
+    }
+  ]
+}

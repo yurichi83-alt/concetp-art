@@ -1,0 +1,50 @@
+{
+  "actual_input_count": 5,
+  "actual_references": [
+    {
+      "index": 1,
+      "path": "outputs/final/20260912_112820__city_day_mechanical_storeys.png",
+      "role": "user edit target; layout/retained forms, explicitly not smooth surface or approved geometry",
+      "actually_opened": true,
+      "sha256": "b66bfbd9a9e7bf2681e6997824bb2ebf93a77c2fb9c63445f7378a548724b315"
+    },
+    {
+      "index": 2,
+      "path": "outputs/20260912_114013_city_brushwork_detail_edit/structure_guide.png",
+      "role": "Master01/02-derived updated structural guide",
+      "actually_opened": true,
+      "sha256": "6a26355f77576e8698b40c75479f1fba53eb3a9d0dcf66faf775206b7c185c80"
+    },
+    {
+      "index": 3,
+      "path": "refs/master03/ldi_10_storefront_style_anchor.png",
+      "role": "M03-10 readable architecture/material/light only",
+      "actually_opened": true,
+      "sha256": "c24fe55ad76c6c8bfbd88dee7059a09fd7a592dc60e5d4a6c7c0704f11f19345"
+    },
+    {
+      "index": 4,
+      "path": "refs/master04/world_02_heavy_mechanical_arms.png",
+      "role": "M04-02 salvaged mechanical housing/joints only",
+      "actually_opened": true,
+      "sha256": "a71042678c1898320a3d949d0108bde7e6f931c8f1bf8b316a057084be179a3b"
+    },
+    {
+      "index": 5,
+      "path": "refs/style_support/brush_planes_reference.jpg",
+      "role": "B03-01 broad flat directional brushwork/color planes only",
+      "actually_opened": true,
+      "sha256": "1017bd1ab7a7a500601fdd74ab0d7e105f330aefc75ba9bba30461cbea5b7638"
+    }
+  ],
+  "path_limit": 5,
+  "path_limit_evidence": "outputs/20260912_041307_wasteland_scrap_dealer/tool_rejection.json",
+  "model": "not_exposed",
+  "usage": "not_exposed",
+  "mode": "built_in_edit",
+  "masters": "2.7",
+  "execution": "1.8",
+  "prompt_characters": 8146,
+  "prompt_utf8_bytes": 8148,
+  "prompt_whitespace_words": 1160
+}

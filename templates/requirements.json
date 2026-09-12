@@ -1,0 +1,956 @@
+{
+  "schema_version": 1,
+  "masters_version": "2.8",
+  "execution_rules_version": "1.9",
+  "approval_id": "master_update_20260912_v2_8_pipeline_quality",
+  "run_id": "",
+  "request_original": "",
+  "request_mode": "new_location",
+  "request_group_id": "",
+  "scene_id": "",
+  "requested_final_count": 1,
+  "prompt_path": "generation_prompt.md",
+  "tool_arguments_path": "tool_arguments.json",
+  "references_path": "references.json",
+  "requirements": [
+    {
+      "id": "C01-01",
+      "source": "docs/01_COMPOSITION.md",
+      "check_ids": [
+        "C01"
+      ],
+      "applicable": true,
+      "critical": true,
+      "na_reason": "",
+      "positive_visual": "한 정사영 쿼터뷰의 단독 디오라마·정사각 베이스와 연결 경계 전체",
+      "forbidden_visual": "전면 모서리·두 단면 크롭 또는 붙은 경계를 배경으로 면제",
+      "prompt_clauses": [],
+      "reference_ids": [],
+      "text_only_reason": "",
+      "planned_evidence": "",
+      "observation": {
+        "status": "NOT_REVIEWED",
+        "basis": "planned",
+        "regions": [],
+        "evidence": "",
+        "positive_evidence": "",
+        "forbidden_evidence": ""
+      }
+    },
+    {
+      "id": "C02-01",
+      "source": "docs/01_COMPOSITION.md",
+      "check_ids": [
+        "C02"
+      ],
+      "applicable": true,
+      "critical": true,
+      "na_reason": "",
+      "positive_visual": "두 평면 전면 단면과 동일 깊이 상하 대응 벡터·평행 선군",
+      "forbidden_visual": "상하 대응 방향/길이 모순·가까운 단면만 확대",
+      "prompt_clauses": [],
+      "reference_ids": [],
+      "text_only_reason": "",
+      "planned_evidence": "",
+      "observation": {
+        "status": "NOT_REVIEWED",
+        "basis": "planned",
+        "regions": [],
+        "evidence": "",
+        "positive_evidence": "",
+        "forbidden_evidence": ""
+      }
+    },
+    {
+      "id": "C03-01",
+      "source": "docs/01_COMPOSITION.md",
+      "check_ids": [
+        "C03"
+      ],
+      "applicable": true,
+      "critical": true,
+      "na_reason": "",
+      "positive_visual": "정사각 기본 평면·네 모서리·일정 깊이의 명확한 베이스",
+      "forbidden_visual": "미요청 바닥 곡률·모따기·비틀림·추가 꼭짓점",
+      "prompt_clauses": [],
+      "reference_ids": [],
+      "text_only_reason": "",
+      "planned_evidence": "",
+      "observation": {
+        "status": "NOT_REVIEWED",
+        "basis": "planned",
+        "regions": [],
+        "evidence": "",
+        "positive_evidence": "",
+        "forbidden_evidence": ""
+      }
+    },
+    {
+      "id": "C04-01",
+      "source": "docs/01_COMPOSITION.md",
+      "check_ids": [
+        "C04"
+      ],
+      "applicable": true,
+      "critical": true,
+      "na_reason": "",
+      "positive_visual": "베이스/포장과 기단·층 바닥·셔터·테라스·상층·지붕의 단일 정사영, 지붕 접합",
+      "forbidden_visual": "같은 방향 직선군 원근 수렴·거리별 크기 변화·물체별 카메라·지붕 모순; 곡면 접선/경사선을 수평선으로 오판",
+      "prompt_clauses": [],
+      "reference_ids": [],
+      "text_only_reason": "",
+      "planned_evidence": "",
+      "observation": {
+        "status": "NOT_REVIEWED",
+        "basis": "planned",
+        "regions": [],
+        "evidence": "",
+        "positive_evidence": "",
+        "forbidden_evidence": ""
+      }
+    },
+    {
+      "id": "L01-01",
+      "source": "docs/02_LAYOUT.md",
+      "check_ids": [
+        "L01"
+      ],
+      "applicable": true,
+      "critical": true,
+      "na_reason": "",
+      "positive_visual": "같은 베이스 위 뒤쪽 두 직교 방향의 시각적 차단 연속성",
+      "forbidden_visual": "낮은 소품만 차단체로 삼음·끼인 틈이 제3이동로로 읽힘",
+      "prompt_clauses": [],
+      "reference_ids": [],
+      "text_only_reason": "",
+      "planned_evidence": "",
+      "observation": {
+        "status": "NOT_REVIEWED",
+        "basis": "planned",
+        "regions": [],
+        "evidence": "",
+        "positive_evidence": "",
+        "forbidden_evidence": ""
+      }
+    },
+    {
+      "id": "L02-01",
+      "source": "docs/02_LAYOUT.md",
+      "check_ids": [
+        "L02"
+      ],
+      "applicable": true,
+      "critical": true,
+      "na_reason": "",
+      "positive_visual": "11시/1시 방향에 기능 출구 하나씩, 각 위치·역할·표시 상태·개방 후 연결",
+      "forbidden_visual": "누락/제3전환·장식문을 역할 없이 출구로 셈·우발 차단을 의도된 잠금으로 소급",
+      "prompt_clauses": [],
+      "reference_ids": [],
+      "text_only_reason": "",
+      "planned_evidence": "",
+      "observation": {
+        "status": "NOT_REVIEWED",
+        "basis": "planned",
+        "regions": [],
+        "evidence": "",
+        "positive_evidence": "",
+        "forbidden_evidence": ""
+      }
+    },
+    {
+      "id": "L03-01",
+      "source": "docs/02_LAYOUT.md",
+      "check_ids": [
+        "L03"
+      ],
+      "applicable": true,
+      "critical": true,
+      "na_reason": "",
+      "positive_visual": "중앙과 양 출구의 접근·좁은 부분·높이·회전·전환·개방 장치 여유",
+      "forbidden_visual": "외곽 상자/차량/잔해/돌출도 보행 부피 침범·열린 출구 연결 차단",
+      "prompt_clauses": [],
+      "reference_ids": [],
+      "text_only_reason": "",
+      "planned_evidence": "",
+      "observation": {
+        "status": "NOT_REVIEWED",
+        "basis": "planned",
+        "regions": [],
+        "evidence": "",
+        "positive_evidence": "",
+        "forbidden_evidence": ""
+      }
+    },
+    {
+      "id": "L04-01",
+      "source": "docs/02_LAYOUT.md",
+      "check_ids": [
+        "L04"
+      ],
+      "applicable": true,
+      "critical": true,
+      "na_reason": "",
+      "positive_visual": "카메라 전면이 열려 중앙 바닥과 두 단면이 읽힘",
+      "forbidden_visual": "높은 전면 담/폐차 더미/붐으로 중앙이나 단면 가림",
+      "prompt_clauses": [],
+      "reference_ids": [],
+      "text_only_reason": "",
+      "planned_evidence": "",
+      "observation": {
+        "status": "NOT_REVIEWED",
+        "basis": "planned",
+        "regions": [],
+        "evidence": "",
+        "positive_evidence": "",
+        "forbidden_evidence": ""
+      }
+    },
+    {
+      "id": "L05-01",
+      "source": "docs/01_COMPOSITION.md + docs/02_LAYOUT.md",
+      "check_ids": [
+        "L05"
+      ],
+      "applicable": true,
+      "critical": true,
+      "na_reason": "",
+      "positive_visual": "기초/입구/전환 높이/지붕과 벽/기계 지지의 설득력 있는 접합",
+      "forbidden_visual": "근거 없는 지면 단절·뜨는 장비·맞지 않는 지붕/벽·불연속 받침",
+      "prompt_clauses": [],
+      "reference_ids": [],
+      "text_only_reason": "",
+      "planned_evidence": "",
+      "observation": {
+        "status": "NOT_REVIEWED",
+        "basis": "planned",
+        "regions": [],
+        "evidence": "",
+        "positive_evidence": "",
+        "forbidden_evidence": ""
+      }
+    },
+    {
+      "id": "L06-01",
+      "source": "docs/02_LAYOUT.md",
+      "check_ids": [
+        "L06"
+      ],
+      "applicable": true,
+      "critical": true,
+      "na_reason": "",
+      "positive_visual": "내부 적용 장면의 입구→통로→기능 영역과 방 깊이",
+      "forbidden_visual": "얕은 진열 상자형 방·막힌 내부 이동",
+      "prompt_clauses": [],
+      "reference_ids": [],
+      "text_only_reason": "",
+      "planned_evidence": "",
+      "observation": {
+        "status": "NOT_REVIEWED",
+        "basis": "planned",
+        "regions": [],
+        "evidence": "",
+        "positive_evidence": "",
+        "forbidden_evidence": ""
+      }
+    },
+    {
+      "id": "L07-01",
+      "source": "docs/01_COMPOSITION.md + docs/02_LAYOUT.md",
+      "check_ids": [
+        "L07"
+      ],
+      "applicable": true,
+      "critical": true,
+      "na_reason": "",
+      "positive_visual": "기단·주된 배치와 직선축은 공통XY, 지상 곡면은 접지·연속 경계·보행/차단 구분",
+      "forbidden_visual": "임의 건물 회전·좁은 쐐기 틈·숨은 기단을 계획으로 PASS·곡면을 무조건 큰 사각 받침으로 감쌈",
+      "prompt_clauses": [],
+      "reference_ids": [],
+      "text_only_reason": "",
+      "planned_evidence": "",
+      "observation": {
+        "status": "NOT_REVIEWED",
+        "basis": "planned",
+        "regions": [],
+        "evidence": "",
+        "positive_evidence": "",
+        "forbidden_evidence": ""
+      }
+    },
+    {
+      "id": "S01-01",
+      "source": "docs/03_VISUAL_STYLE_V2.md",
+      "check_ids": [
+        "S01"
+      ],
+      "applicable": true,
+      "critical": true,
+      "na_reason": "",
+      "positive_visual": "넓고 정돈된 기본 색면, 온전한 면에서도 가까운 톤의 큰 방향성 평면 색 변화",
+      "forbidden_visual": "온면 단색/블러만·녹/박리/손상만을 붓표현으로 셈",
+      "prompt_clauses": [],
+      "reference_ids": [],
+      "text_only_reason": "",
+      "planned_evidence": "",
+      "observation": {
+        "status": "NOT_REVIEWED",
+        "basis": "planned",
+        "regions": [],
+        "evidence": "",
+        "positive_evidence": "",
+        "forbidden_evidence": ""
+      }
+    },
+    {
+      "id": "S02-01",
+      "source": "docs/03_VISUAL_STYLE_V2.md",
+      "check_ids": [
+        "S02"
+      ],
+      "applicable": true,
+      "critical": true,
+      "na_reason": "",
+      "positive_visual": "표면별 자국의 큰 크기·성긴 밀도·방향 변화·충분한 여백",
+      "forbidden_visual": "모든 표면에 작은 균등 자국/반복 균열 군집; 소품 밀도로 표면 밀도 PASS",
+      "prompt_clauses": [],
+      "reference_ids": [],
+      "text_only_reason": "",
+      "planned_evidence": "",
+      "observation": {
+        "status": "NOT_REVIEWED",
+        "basis": "planned",
+        "regions": [],
+        "evidence": "",
+        "positive_evidence": "",
+        "forbidden_evidence": ""
+      }
+    },
+    {
+      "id": "S03-01",
+      "source": "docs/03_VISUAL_STYLE_V2.md",
+      "check_ids": [
+        "S03"
+      ],
+      "applicable": true,
+      "critical": true,
+      "na_reason": "",
+      "positive_visual": "큰 명암으로 읽히는 입체와 온전한 면의 절제된 평면 붓터치 공존",
+      "forbidden_visual": "붓표현 부재·부조·물결 유사 가는 잔선/얼룩·굴절유리 인상·모자이크·전면 미세 반복 질감",
+      "prompt_clauses": [],
+      "reference_ids": [],
+      "text_only_reason": "",
+      "planned_evidence": "",
+      "observation": {
+        "status": "NOT_REVIEWED",
+        "basis": "planned",
+        "regions": [],
+        "evidence": "",
+        "positive_evidence": "",
+        "forbidden_evidence": ""
+      }
+    },
+    {
+      "id": "S04-01",
+      "source": "docs/03_VISUAL_STYLE_V2.md",
+      "check_ids": [
+        "S04"
+      ],
+      "applicable": true,
+      "critical": true,
+      "na_reason": "",
+      "positive_visual": "큰 기능 부피·외벽 깊이·두께·빛/재질 경계·접지·기계 결합의 실제 가독성",
+      "forbidden_visual": "큰 하우징/깊은 설비를 얕은 덮개/무늬로 대체·C04나 미검증3D만으로 S04판정",
+      "prompt_clauses": [],
+      "reference_ids": [],
+      "text_only_reason": "",
+      "planned_evidence": "",
+      "observation": {
+        "status": "NOT_REVIEWED",
+        "basis": "planned",
+        "regions": [],
+        "evidence": "",
+        "positive_evidence": "",
+        "forbidden_evidence": ""
+      }
+    },
+    {
+      "id": "W01-01",
+      "source": "docs/04_WORLD_DESIGN_V2.md",
+      "check_ids": [
+        "W01"
+      ],
+      "applicable": true,
+      "critical": true,
+      "na_reason": "",
+      "positive_visual": "회수·수리·개조된 첨단 기술의 현재 기능과 공급/접합 이유",
+      "forbidden_visual": "일반 산업 장비·장식 표시등·단면 기계만으로 세계관 대체",
+      "prompt_clauses": [],
+      "reference_ids": [],
+      "text_only_reason": "",
+      "planned_evidence": "",
+      "observation": {
+        "status": "NOT_REVIEWED",
+        "basis": "planned",
+        "regions": [],
+        "evidence": "",
+        "positive_evidence": "",
+        "forbidden_evidence": ""
+      }
+    },
+    {
+      "id": "W02-01",
+      "source": "docs/04_WORLD_DESIGN_V2.md",
+      "check_ids": [
+        "W02"
+      ],
+      "applicable": true,
+      "critical": true,
+      "na_reason": "",
+      "positive_visual": "장소 전반의 큰 보수·교체·바랜 색면과 유지 흔적",
+      "forbidden_visual": "신품 건축에 SF만 부착·촘촘한 오염을 수리 이력으로 대신함",
+      "prompt_clauses": [],
+      "reference_ids": [],
+      "text_only_reason": "",
+      "planned_evidence": "",
+      "observation": {
+        "status": "NOT_REVIEWED",
+        "basis": "planned",
+        "regions": [],
+        "evidence": "",
+        "positive_evidence": "",
+        "forbidden_evidence": ""
+      }
+    },
+    {
+      "id": "W03-01",
+      "source": "docs/04_WORLD_DESIGN_V2.md",
+      "check_ids": [
+        "W03"
+      ],
+      "applicable": true,
+      "critical": true,
+      "na_reason": "",
+      "positive_visual": "현재 장면의 큰 기계 기능 부피·깊이·지지·수리/공급 연결",
+      "forbidden_visual": "요청 기계층을 생활층 위 소품으로 대체·하우징을 패널/그릴로 축소·비율을 전역 고정",
+      "prompt_clauses": [],
+      "reference_ids": [],
+      "text_only_reason": "",
+      "planned_evidence": "",
+      "observation": {
+        "status": "NOT_REVIEWED",
+        "basis": "planned",
+        "regions": [],
+        "evidence": "",
+        "positive_evidence": "",
+        "forbidden_evidence": ""
+      }
+    },
+    {
+      "id": "W04-01",
+      "source": "docs/04_WORLD_DESIGN_V2.md",
+      "check_ids": [
+        "W04"
+      ],
+      "applicable": true,
+      "critical": true,
+      "na_reason": "",
+      "positive_visual": "건물별 사람용 문/셔터의 규모·문턱·접지 및 장식/기능 출구 역할",
+      "forbidden_visual": "환기구/점검판으로 입구 대체·비건물에도 건물 입구 강제",
+      "prompt_clauses": [],
+      "reference_ids": [],
+      "text_only_reason": "",
+      "planned_evidence": "",
+      "observation": {
+        "status": "NOT_REVIEWED",
+        "basis": "planned",
+        "regions": [],
+        "evidence": "",
+        "positive_evidence": "",
+        "forbidden_evidence": ""
+      }
+    },
+    {
+      "id": "W05-01",
+      "source": "docs/04_WORLD_DESIGN_V2.md",
+      "check_ids": [
+        "W05"
+      ],
+      "applicable": true,
+      "critical": true,
+      "na_reason": "",
+      "positive_visual": "건물별 윗면40~80%의 기능적 구성과 받침·연결·여백",
+      "forbidden_visual": "장면평균/기계비율로 혼동·그림자/오염/도색을 점유로 셈·기계층 위 중복 장비 증식",
+      "prompt_clauses": [],
+      "reference_ids": [],
+      "text_only_reason": "",
+      "planned_evidence": "",
+      "observation": {
+        "status": "NOT_REVIEWED",
+        "basis": "planned",
+        "regions": [],
+        "evidence": "",
+        "positive_evidence": "",
+        "forbidden_evidence": ""
+      }
+    },
+    {
+      "id": "R01-01",
+      "source": "현재 사용자 요청 + docs/08_COMMANDS.md",
+      "check_ids": [
+        "R01"
+      ],
+      "applicable": true,
+      "critical": true,
+      "na_reason": "",
+      "positive_visual": "현재 장소·시간·재질·주요 물체·편집 보존의 시각 요구를 개별 행으로 구체화",
+      "forbidden_visual": "현재 요청 누락·직전 소품/날씨/수치를 새 장소에 자동 누적·요청하지 않은 인물/문자/UI",
+      "prompt_clauses": [],
+      "reference_ids": [],
+      "text_only_reason": "",
+      "planned_evidence": "",
+      "observation": {
+        "status": "NOT_REVIEWED",
+        "basis": "planned",
+        "regions": [],
+        "evidence": "",
+        "positive_evidence": "",
+        "forbidden_evidence": ""
+      }
+    },
+    {
+      "id": "R02-01",
+      "source": "docs/01_COMPOSITION.md + docs/06_QA.md",
+      "check_ids": [
+        "R02"
+      ],
+      "applicable": true,
+      "critical": true,
+      "na_reason": "",
+      "positive_visual": "새 장소/독립 시안의 실제 큰 형태·외벽 깊이·공간/경계/출구·포장/단면 차이",
+      "forbidden_visual": "재색칠/층수/좌우 반전/위치/작은 부품만 변경·다른 계획/미입력을 실제 차이의 근거로 사용",
+      "prompt_clauses": [],
+      "reference_ids": [],
+      "text_only_reason": "",
+      "planned_evidence": "",
+      "observation": {
+        "status": "NOT_REVIEWED",
+        "basis": "planned",
+        "regions": [],
+        "evidence": "",
+        "positive_evidence": "",
+        "forbidden_evidence": ""
+      }
+    },
+    {
+      "id": "R03-01",
+      "source": "docs/06_QA.md + 현재 사용자 편집 요구",
+      "check_ids": [
+        "R03"
+      ],
+      "applicable": false,
+      "critical": true,
+      "na_reason": "최초 새 장소 생성이며 동일 시안 편집/보정 전후 비교가 아님. 편집이면 적용으로 바꾸고 구체 행을 작성한다.",
+      "positive_visual": "같은 시안 편집 전후 명시 변경 밖의 유효한 형태/깊이/아트/빛/세계관/요청 보존",
+      "forbidden_visual": "구조 개선을 이유로 큰 하우징/깊이/붓터치/요청 후퇴를 상쇄·최신 후보 자동 선택",
+      "prompt_clauses": [],
+      "reference_ids": [],
+      "text_only_reason": "",
+      "planned_evidence": "",
+      "observation": {
+        "status": "NOT_APPLICABLE",
+        "basis": "planned",
+        "regions": [],
+        "evidence": "",
+        "positive_evidence": "",
+        "forbidden_evidence": ""
+      }
+    }
+  ],
+  "checks": [
+    {
+      "id": "C01",
+      "applicable": true,
+      "na_reason": "",
+      "status": "NOT_REVIEWED",
+      "basis": "planned",
+      "regions": [
+        "requirements[C01-01].observation.regions"
+      ],
+      "evidence": "requirements[C01-01].observation.evidence (상세를 중복 작성하지 않고 해당 실제 관찰을 참조)",
+      "positive_evidence": "requirements[C01-01].observation.positive_evidence",
+      "forbidden_evidence": "requirements[C01-01].observation.forbidden_evidence"
+    },
+    {
+      "id": "C02",
+      "applicable": true,
+      "na_reason": "",
+      "status": "NOT_REVIEWED",
+      "basis": "planned",
+      "regions": [
+        "requirements[C02-01].observation.regions"
+      ],
+      "evidence": "requirements[C02-01].observation.evidence (상세를 중복 작성하지 않고 해당 실제 관찰을 참조)",
+      "positive_evidence": "requirements[C02-01].observation.positive_evidence",
+      "forbidden_evidence": "requirements[C02-01].observation.forbidden_evidence"
+    },
+    {
+      "id": "C03",
+      "applicable": true,
+      "na_reason": "",
+      "status": "NOT_REVIEWED",
+      "basis": "planned",
+      "regions": [
+        "requirements[C03-01].observation.regions"
+      ],
+      "evidence": "requirements[C03-01].observation.evidence (상세를 중복 작성하지 않고 해당 실제 관찰을 참조)",
+      "positive_evidence": "requirements[C03-01].observation.positive_evidence",
+      "forbidden_evidence": "requirements[C03-01].observation.forbidden_evidence"
+    },
+    {
+      "id": "C04",
+      "applicable": true,
+      "na_reason": "",
+      "status": "NOT_REVIEWED",
+      "basis": "planned",
+      "regions": [
+        "requirements[C04-01].observation.regions"
+      ],
+      "evidence": "requirements[C04-01].observation.evidence (상세를 중복 작성하지 않고 해당 실제 관찰을 참조)",
+      "positive_evidence": "requirements[C04-01].observation.positive_evidence",
+      "forbidden_evidence": "requirements[C04-01].observation.forbidden_evidence"
+    },
+    {
+      "id": "L01",
+      "applicable": true,
+      "na_reason": "",
+      "status": "NOT_REVIEWED",
+      "basis": "planned",
+      "regions": [
+        "requirements[L01-01].observation.regions"
+      ],
+      "evidence": "requirements[L01-01].observation.evidence (상세를 중복 작성하지 않고 해당 실제 관찰을 참조)",
+      "positive_evidence": "requirements[L01-01].observation.positive_evidence",
+      "forbidden_evidence": "requirements[L01-01].observation.forbidden_evidence"
+    },
+    {
+      "id": "L02",
+      "applicable": true,
+      "na_reason": "",
+      "status": "NOT_REVIEWED",
+      "basis": "planned",
+      "regions": [
+        "requirements[L02-01].observation.regions"
+      ],
+      "evidence": "requirements[L02-01].observation.evidence (상세를 중복 작성하지 않고 해당 실제 관찰을 참조)",
+      "positive_evidence": "requirements[L02-01].observation.positive_evidence",
+      "forbidden_evidence": "requirements[L02-01].observation.forbidden_evidence"
+    },
+    {
+      "id": "L03",
+      "applicable": true,
+      "na_reason": "",
+      "status": "NOT_REVIEWED",
+      "basis": "planned",
+      "regions": [
+        "requirements[L03-01].observation.regions"
+      ],
+      "evidence": "requirements[L03-01].observation.evidence (상세를 중복 작성하지 않고 해당 실제 관찰을 참조)",
+      "positive_evidence": "requirements[L03-01].observation.positive_evidence",
+      "forbidden_evidence": "requirements[L03-01].observation.forbidden_evidence"
+    },
+    {
+      "id": "L04",
+      "applicable": true,
+      "na_reason": "",
+      "status": "NOT_REVIEWED",
+      "basis": "planned",
+      "regions": [
+        "requirements[L04-01].observation.regions"
+      ],
+      "evidence": "requirements[L04-01].observation.evidence (상세를 중복 작성하지 않고 해당 실제 관찰을 참조)",
+      "positive_evidence": "requirements[L04-01].observation.positive_evidence",
+      "forbidden_evidence": "requirements[L04-01].observation.forbidden_evidence"
+    },
+    {
+      "id": "L05",
+      "applicable": true,
+      "na_reason": "",
+      "status": "NOT_REVIEWED",
+      "basis": "planned",
+      "regions": [
+        "requirements[L05-01].observation.regions"
+      ],
+      "evidence": "requirements[L05-01].observation.evidence (상세를 중복 작성하지 않고 해당 실제 관찰을 참조)",
+      "positive_evidence": "requirements[L05-01].observation.positive_evidence",
+      "forbidden_evidence": "requirements[L05-01].observation.forbidden_evidence"
+    },
+    {
+      "id": "L06",
+      "applicable": true,
+      "na_reason": "",
+      "status": "NOT_REVIEWED",
+      "basis": "planned",
+      "regions": [
+        "requirements[L06-01].observation.regions"
+      ],
+      "evidence": "requirements[L06-01].observation.evidence (상세를 중복 작성하지 않고 해당 실제 관찰을 참조)",
+      "positive_evidence": "requirements[L06-01].observation.positive_evidence",
+      "forbidden_evidence": "requirements[L06-01].observation.forbidden_evidence"
+    },
+    {
+      "id": "L07",
+      "applicable": true,
+      "na_reason": "",
+      "status": "NOT_REVIEWED",
+      "basis": "planned",
+      "regions": [
+        "requirements[L07-01].observation.regions"
+      ],
+      "evidence": "requirements[L07-01].observation.evidence (상세를 중복 작성하지 않고 해당 실제 관찰을 참조)",
+      "positive_evidence": "requirements[L07-01].observation.positive_evidence",
+      "forbidden_evidence": "requirements[L07-01].observation.forbidden_evidence"
+    },
+    {
+      "id": "S01",
+      "applicable": true,
+      "na_reason": "",
+      "status": "NOT_REVIEWED",
+      "basis": "planned",
+      "regions": [
+        "requirements[S01-01].observation.regions"
+      ],
+      "evidence": "requirements[S01-01].observation.evidence (상세를 중복 작성하지 않고 해당 실제 관찰을 참조)",
+      "positive_evidence": "requirements[S01-01].observation.positive_evidence",
+      "forbidden_evidence": "requirements[S01-01].observation.forbidden_evidence"
+    },
+    {
+      "id": "S02",
+      "applicable": true,
+      "na_reason": "",
+      "status": "NOT_REVIEWED",
+      "basis": "planned",
+      "regions": [
+        "requirements[S02-01].observation.regions"
+      ],
+      "evidence": "requirements[S02-01].observation.evidence (상세를 중복 작성하지 않고 해당 실제 관찰을 참조)",
+      "positive_evidence": "requirements[S02-01].observation.positive_evidence",
+      "forbidden_evidence": "requirements[S02-01].observation.forbidden_evidence"
+    },
+    {
+      "id": "S03",
+      "applicable": true,
+      "na_reason": "",
+      "status": "NOT_REVIEWED",
+      "basis": "planned",
+      "regions": [
+        "requirements[S03-01].observation.regions"
+      ],
+      "evidence": "requirements[S03-01].observation.evidence (상세를 중복 작성하지 않고 해당 실제 관찰을 참조)",
+      "positive_evidence": "requirements[S03-01].observation.positive_evidence",
+      "forbidden_evidence": "requirements[S03-01].observation.forbidden_evidence"
+    },
+    {
+      "id": "S04",
+      "applicable": true,
+      "na_reason": "",
+      "status": "NOT_REVIEWED",
+      "basis": "planned",
+      "regions": [
+        "requirements[S04-01].observation.regions"
+      ],
+      "evidence": "requirements[S04-01].observation.evidence (상세를 중복 작성하지 않고 해당 실제 관찰을 참조)",
+      "positive_evidence": "requirements[S04-01].observation.positive_evidence",
+      "forbidden_evidence": "requirements[S04-01].observation.forbidden_evidence"
+    },
+    {
+      "id": "W01",
+      "applicable": true,
+      "na_reason": "",
+      "status": "NOT_REVIEWED",
+      "basis": "planned",
+      "regions": [
+        "requirements[W01-01].observation.regions"
+      ],
+      "evidence": "requirements[W01-01].observation.evidence (상세를 중복 작성하지 않고 해당 실제 관찰을 참조)",
+      "positive_evidence": "requirements[W01-01].observation.positive_evidence",
+      "forbidden_evidence": "requirements[W01-01].observation.forbidden_evidence"
+    },
+    {
+      "id": "W02",
+      "applicable": true,
+      "na_reason": "",
+      "status": "NOT_REVIEWED",
+      "basis": "planned",
+      "regions": [
+        "requirements[W02-01].observation.regions"
+      ],
+      "evidence": "requirements[W02-01].observation.evidence (상세를 중복 작성하지 않고 해당 실제 관찰을 참조)",
+      "positive_evidence": "requirements[W02-01].observation.positive_evidence",
+      "forbidden_evidence": "requirements[W02-01].observation.forbidden_evidence"
+    },
+    {
+      "id": "W03",
+      "applicable": true,
+      "na_reason": "",
+      "status": "NOT_REVIEWED",
+      "basis": "planned",
+      "regions": [
+        "requirements[W03-01].observation.regions"
+      ],
+      "evidence": "requirements[W03-01].observation.evidence (상세를 중복 작성하지 않고 해당 실제 관찰을 참조)",
+      "positive_evidence": "requirements[W03-01].observation.positive_evidence",
+      "forbidden_evidence": "requirements[W03-01].observation.forbidden_evidence"
+    },
+    {
+      "id": "W04",
+      "applicable": true,
+      "na_reason": "",
+      "status": "NOT_REVIEWED",
+      "basis": "planned",
+      "regions": [
+        "requirements[W04-01].observation.regions"
+      ],
+      "evidence": "requirements[W04-01].observation.evidence (상세를 중복 작성하지 않고 해당 실제 관찰을 참조)",
+      "positive_evidence": "requirements[W04-01].observation.positive_evidence",
+      "forbidden_evidence": "requirements[W04-01].observation.forbidden_evidence"
+    },
+    {
+      "id": "W05",
+      "applicable": true,
+      "na_reason": "",
+      "status": "NOT_REVIEWED",
+      "basis": "planned",
+      "regions": [
+        "requirements[W05-01].observation.regions"
+      ],
+      "evidence": "requirements[W05-01].observation.evidence (상세를 중복 작성하지 않고 해당 실제 관찰을 참조)",
+      "positive_evidence": "requirements[W05-01].observation.positive_evidence",
+      "forbidden_evidence": "requirements[W05-01].observation.forbidden_evidence"
+    },
+    {
+      "id": "R01",
+      "applicable": true,
+      "na_reason": "",
+      "status": "NOT_REVIEWED",
+      "basis": "planned",
+      "regions": [
+        "requirements[R01-01].observation.regions"
+      ],
+      "evidence": "requirements[R01-01].observation.evidence (상세를 중복 작성하지 않고 해당 실제 관찰을 참조)",
+      "positive_evidence": "requirements[R01-01].observation.positive_evidence",
+      "forbidden_evidence": "requirements[R01-01].observation.forbidden_evidence"
+    },
+    {
+      "id": "R02",
+      "applicable": true,
+      "na_reason": "",
+      "status": "NOT_REVIEWED",
+      "basis": "planned",
+      "regions": [
+        "requirements[R02-01].observation.regions"
+      ],
+      "evidence": "requirements[R02-01].observation.evidence (상세를 중복 작성하지 않고 해당 실제 관찰을 참조)",
+      "positive_evidence": "requirements[R02-01].observation.positive_evidence",
+      "forbidden_evidence": "requirements[R02-01].observation.forbidden_evidence"
+    },
+    {
+      "id": "R03",
+      "applicable": false,
+      "na_reason": "최초 새 장소 생성이며 동일 시안 편집/보정 전후 비교가 아님. 편집이면 적용으로 바꾸고 구체 행을 작성한다.",
+      "status": "NOT_APPLICABLE",
+      "basis": "planned",
+      "regions": [
+        "requirements[R03-01].observation.regions"
+      ],
+      "evidence": "requirements[R03-01].observation.evidence (상세를 중복 작성하지 않고 해당 실제 관찰을 참조)",
+      "positive_evidence": "requirements[R03-01].observation.positive_evidence",
+      "forbidden_evidence": "requirements[R03-01].observation.forbidden_evidence"
+    }
+  ],
+  "candidate": {
+    "image_path": "image.png",
+    "sha256": null,
+    "actually_opened": false,
+    "observation_basis": "not_reviewed",
+    "reviewed_at": null,
+    "overall_status": "not_reviewed",
+    "result_path": "result.json"
+  },
+  "comparison": {
+    "applicable": false,
+    "na_reason": "최초 새 장소 생성. 편집/보정이면 true로 바꾸고 이전 실제 이미지와 비교한다.",
+    "baseline": {
+      "image_path": null,
+      "sha256": null,
+      "actually_opened": false
+    },
+    "preservation_plan": "",
+    "dimensions": [],
+    "unresolved_regressions": []
+  },
+  "selection": {
+    "selected": false,
+    "qa_status": "not_reviewed",
+    "claims_overall_pass": false,
+    "reason": "",
+    "unresolved_limitations": "",
+    "stop_reason": "",
+    "manifest_path": "outputs/final_manifest.json",
+    "considered_candidates": []
+  },
+  "format_notes": {
+    "purpose": "현재 run 단일 시각 요건 원장. 예시 행을 장면의 구체 건물/표면/요청별로 나누어 완성한다. 빈 구절은 preflight FAIL이다. 실제 생성·이미지 판독을 수행하지 않는 기록 검증이며 기존 run을 소급 변경하지 않는다.",
+    "observation_statuses": [
+      "PASS",
+      "FAIL",
+      "UNCERTAIN",
+      "NOT_REVIEWED",
+      "NOT_APPLICABLE"
+    ],
+    "comparison_dimension_format": {
+      "dimension": "structure | large_form | facade_depth | surface | light_material | world | request",
+      "before": "이전 실제 모습/영역",
+      "after": "현재 실제 모습/영역",
+      "change": "improved | preserved | regressed | uncertain | not_reviewed | not_applicable",
+      "evidence": "실제 전후 근거와 불확실",
+      "requirement_ids": [
+        "R03-01"
+      ]
+    },
+    "considered_candidate_format": {
+      "image_path": "프로젝트 상대 원본 PNG 경로",
+      "sha256": "64 hex",
+      "actually_opened": true,
+      "qa_status": "candidate_pass | needs_revision | uncertain | not_reviewed",
+      "dimensions": {
+        "structure": "현재 실제 관찰과 다른 후보 대비 근거. 최초1장이면 비교 대상 부재 명시.",
+        "large_form": "현재 실제 관찰과 다른 후보 대비 근거. 최초1장이면 비교 대상 부재 명시.",
+        "facade_depth": "현재 실제 관찰과 다른 후보 대비 근거. 최초1장이면 비교 대상 부재 명시.",
+        "surface": "현재 실제 관찰과 다른 후보 대비 근거. 최초1장이면 비교 대상 부재 명시.",
+        "light_material": "현재 실제 관찰과 다른 후보 대비 근거. 최초1장이면 비교 대상 부재 명시.",
+        "world": "현재 실제 관찰과 다른 후보 대비 근거. 최초1장이면 비교 대상 부재 명시.",
+        "request": "현재 실제 관찰과 다른 후보 대비 근거. 최초1장이면 비교 대상 부재 명시."
+      }
+    },
+    "command": "python3 scripts/validate_run.py --run outputs/<run> --stage preflight|review|selection [--root PATH] [--json]",
+    "checks_usage": "checks 상태는 연결된 요구행 관찰의 집계. evidence/positive_evidence/forbidden_evidence/regions에는 요구ID와 실제 관찰 위치를 연결하며 같은 상세 문장을 두 번 쓰지 않는다. validator는 그 문자열의 의미·진실성을 판독하지 못한다.",
+    "mandatory_na_exception": {
+      "applies_to": "C01~C04/L01~L05/S01~S04/W01~W03/R01",
+      "check_field": "exception",
+      "format": {
+        "source": "현재 사용자 예외 지시 출처",
+        "quote": "실제 예외 원문"
+      },
+      "limit": "실제 예외인지의 판단은 검수자가 수행한다."
+    },
+    "unreviewed_delivery": "not_reviewed인 정직한 전달 허용. opened=false이면 observation_basis=not_reviewed와 NOT_REVIEWED 관찰·선택/한계/중단 사유를 일치시킨다. 동일시안 baseline/current 자기비교 금지, 알려진 baseline을 후보목록에서 누락하지 않는다.",
+    "conversation_only_baseline": {
+      "image_path": null,
+      "sha256": null,
+      "reference_id": "실제로 inspected된 edit_target 참조 ID",
+      "conversation_image_evidence": "references 항목과 동일한 실제 대화이미지 식별/열람 근거",
+      "actually_opened": true,
+      "note": "로컬 경로 없는 recent 편집일 때만 사용. selection의 해당 baseline 후보에도 같은 reference_id와 근거를 연결한다. 로컬 파일/해시를 꾸며내지 않는다."
+    }
+  }
+}

@@ -1,153 +1,66 @@
-# Generation brief — masters v2.7 / execution v1.8
+# Generation brief — masters v2.8 / execution v1.9
 
-- run_id:
-- request_original:
-- active_user_changes_and_scene_only_exceptions:
-- masters: v2.7
-- execution_rules: v1.8
-- request_mode: new_location / edit_existing / own_structural_correction (select one)
-- edit_target_and_preserved_aspects:
-- scene_location:
-- time_and_palette:
-- scene_only_assumptions:
-- requested_final_count:
-- independent_new_scenes_requested: false
-- request_group_id_and_scene_id:
-- own_parent_run_if_correction:
-- other_independent_scene_outputs_excluded_from_inputs:
-- output_aspect_ratio: choose an actually supported ratio that frames the whole base
-- native_generation_route:
-- api_explicitly_authorized: false
+이 문서는 현재 장면의 설계안이다. 조건 정의는 [05](../docs/05_GENERATION_RULES.md)·[06](../docs/06_QA.md), 조건별 적용/프롬프트/참조/최종 판정의 단일 원장은 `requirements.json`이다. 여기에는 조건표나 결과 판정을 복사하지 않고 해당 원장 ID를 연결한다.
 
-## Shared geometry plan before art
-- structure_plan_artifact_and_coordinate_source:
-- structure_guide_image_path:
-- common_XYZ_scale_and_square_footprint:
-- selected_projection_mode: orthographic_parallel (mandatory for the final image)
-- selected_camera_and_scene_only_parameters:
-- projection_specific_expected_line_families_and_top_bottom_correspondence:
-- base_top_bottom_corner_pairs_vertical_axes_consistent_depth_and_two_planar_front_cuts:
-- building_main_placement_and_straight_structural_XY_axes_L07_or_building_free_NA:
-- ground_level_curved_segments_grounding_boundary_continuity_and_walk_block_readability:
-- curve_tangents_separate_from_straight_axis_comparison_no_rectangular_plinth_requirement:
-- roof_planes_slopes_ridges_valleys_eaves_wall_top_joins_and_equipment_support:
-- base_paving_vs_building_footings_storey_floors_shutter_horizontals_terrace_beams_upper_walls_roof_lines_kept_visible:
-- building_and_prop_volumes_outside_center_and_routes:
-- straight_axis_curved_boundary_roof_checks_separate_from_any_optional_planning_volume_checks:
-- planned_steps_ramps_XY_direction_and_level_connections:
-- nonbuilding_vehicles_tanks_props_allowed_shapes_rotations_same_camera_grounding:
-- visible_barrier_height_plan_up_to_approximately_6_5m:
-- exposed_interior_room_depth_entry_aisle_functional_space_or_NA:
-- previous_faulty_projection_and_joins_to_reconstruct:
-- requested_or_approved_curves_projections_wings_facade_depth_and_character_to_keep_during_correction:
-- actual_3D_source_if_already_available_or_future_precision_need:
-- actual_collision_mesh_UV_creation_and_validation_in_current_scope: false
-- missing_actual_collision_mesh_UV_validation_is_not_image_FAIL_or_UNCERTAIN: true
+- run_id / request_group_id / scene_id:
+- 현재 사용자 원문과 계속 유효한 지시: requirements.json → request_original 및 해당 요구행
+- request_mode: new_location / independent_variant / edit_existing / own_correction
+- 요청 최종 장수 / 독립 시안 관계:
+- 장소 / 시간·팔레트 / 소재 / 이번만의 가정·예외:
+- 편집 대상 / 이전 run / 명시 변경 목표 / 보존할 요구행 ID:
+- 실제 도구 / 확인한 비율·해상도·이미지 전달 방식:
 
-Use the mandatory single orthographic camera for the final image; weak perspective is not an option and “orthographic-style” alone is insufficient. Record rotation/elevation/scale as scene choices, without fixing a universal isometric angle. The delivered 2D guide is a visual reference, not a geometry lock; saved coordinates are not automatically supplied as enforced geometry. Future precise modeling uses a separately validated actual 3D geometry/camera source. This image task does not create or validate collision, mesh or UV and their absence is not a failure/uncertainty reason. Continue inspecting visible grounding, thickness, support, continuous boundaries and routes. Do not begin an unrequested Unity/mesh task.
+## 장면과 구조안
 
-## Scene and building plan
-- Back-left blocking boundary composition:
-- Back-right blocking boundary composition:
-- Boundary gaps prevented from reading as a third transition:
-- Central free combat floor / full front view:
-- Peripheral large props and protected walking volumes:
-- Building function / primary silhouettes / wings and storey volumes / place identity:
-- Facade depth: recesses/projections/rooms/balconies/external stairs/decks/roof differences selected for function:
-- Scene or independent-variant differences in large form / facade depth / spatial and boundary relationships, beyond color/storey count/location swaps:
-- Guide shows these defining forms and depths rather than only primitive box positions:
-- Scene-only counts/percentages/storeys/props/curves/exit combinations not promoted to global defaults:
-- Front cutaway layers and mechanical infrastructure tied to the current place:
-- Large age / repair / functional recovered technology relationships across buildings and everyday facilities:
-- Relative mechanical presence without a fixed global percentage or copied devices:
-- Integrated mechanical shell/frame/service building or specified nonresidential equipment storey, if useful:
-- Requested storey-specific machine ratio and its interpreted denominator, separate from roof40~80%:
-- Equipment-storey upper composition without duplicated machinery or mandatory repeated tank/panel kits:
-- Form / thickness / material separation / later three-view readability:
-- Broad base-color areas / selected nearby-tone large directional flat strokes / surface-relative scale and open space:
-- Surface color variation on intact areas kept separate from rust, dirt, peeling and repair quantity:
-- No raised/wavy-glass/mosaic/all-over fine texture; large light-shadow masses and material differences preserved:
-- Lighting and atmosphere without obscuring structural evidence:
+- 구조안 파일 / 구조 가이드 PNG / 카메라·좌표 출처:
+- 공통 XYZ·척도·정사각 기본 평면 / 단일 orthographic 카메라의 장면별 선택:
+- 기본 베이스·양면 단면 / 위아래 모서리 대응 / 관찰 가능한 기단·선군:
+- 새 장소의 기능·동선 폭·건물 인접 관계 / 포장·단면의 설계 차이 (R02):
+- 중앙 보행 공간 / 외곽 큰 물체 / 두 후면 차단 방향의 연속성:
+- 곡면 경계와 직선 구조축 구분 / 지붕 경사·지지 / 계단·램프 연결:
+- 내부가 적용되면 방 깊이·입구→통로→기능 공간; 미적용 이유:
+- 온전한 벽·외장·차체의 기본 색면/평면 붓터치, 포장별 여백과 국소 손상의 설계:
+- 빛·재질·접지 / 회수·수리·공급 관계 / 장면의 기계 비중과 큰 기능 부피:
 
-| Building | Human-scale entry / grounded threshold | Role: decorative / left exit / right exit | Roof form, functional 40~80% plan, support and connections | Remaining broad surfaces / height / visibility |
-|---|---|---|---|---|
-| | | | | |
+| 건물/큰 시설 | 용도·주된 실루엣·층/날개 부피 | 구체 돌출/리세스/기능 깊이·지지 | 사람용 입구 역할·접지 | 건물별 윗면 구성·40~80% 계획 근거 | 원장 ID |
+|---|---|---|---|---|---|
+| | | | | | |
 
-Design large forms, then facade/functional-space depth, then surface finish. Use/repair/addition history explains the selected form; all features are not mandatory on every building. Rounded ground-level building shells are allowed while the base remains square and sharp-cornered. Do not box them in rectangular plinths solely to satisfy an old footprint restriction.
+| 기능 출구 | 뒤쪽 방향·면 안 위치 | 형태·보이는 개폐 상태 | 접근/좁은 부분/회전/전환/개방장치 여유 | 개방 후 연결 계획·보이는 근거 / 입구 겸용 | 원장 ID |
+|---|---|---|---|---|---|
+| Left (~11시) | | | | | |
+| Right (~1시) | | | | | |
 
-Each building needs a credible door/shutter; closed is allowed and actual gameplay entry is not required. A shared entry/exit needs no extra exit. Inspection panels/vents do not substitute. Roof coverage is each building's union of purposeful element footprints, excluding shadows/grime/paint/plain roof, not a scene average or mechanical ratio. Nonbuilding tanks/vehicles/props are exempt from building entry/roof percentage rules. Final 2D coverage is a visual estimate or uncertain, never exact metric certification.
+기단·모서리·외벽 깊이는 최종 이미지에서 관찰 가능하게 계획한다. 가이드는 큰 기능 부피와 깊이도 나타내며 상자 위치만으로 형태를 대신하지 않는다. 실제3D·콜리전·메시·UV 검증은 이 이미지 작업의 합격 조건이 아니다.
 
-## Two functional exits
-One assigned transition toward back-left (approximately 11 o'clock), one toward back-right (approximately 1 o'clock). Select center/intermediate/end positions and suitable forms for this scene; no inherited fixed coordinates or forced alternation. Building/internal entries, alley gates, stairs/landings, underground ramps and equipment-between/below passages are valid. Boundary objects may be substantial machines, linked structures, containers, vehicles or retaining structures, with visually continuous blockage; low props alone do not suffice. Count transition functions, not visible doors, and keep role labels out of the image unless requested.
+## 요구사항 원장 사용법
 
-| Exit | Direction / within-side position | Type | Shown pre-clear closed or post-clear open state | Approach / narrowest / turn / transition / opening clearance / post-clear connection | Shared building entrance or separate |
-|---|---|---|---|---|---|---|
-| Left | | | | | |
-| Right | | | | | |
+`templates/requirements.json`을 현재 run에 복사한다. 예시 행은 범위 설명이며 현재 장면의 건물/표면/요청별로 구체화하고 의미가 다른 조건은 행을 나눈다. 적용 요건은 모두 `positive_visual`(반드시 보일 모습), `forbidden_visual`(금지·후퇴 모습), 실제 프롬프트의 정확한 `prompt_clauses`, 전달 `reference_ids` 또는 현재 `text_only_reason`, `planned_evidence`를 갖는다. `ART` 같은 구역명이나 이전 run의 문장은 대응 근거가 아니다. 장수·승인 같은 실행 조건은 이미지 관찰로 위장하지 않는다.
 
-- Visible evidence expected for both exits and their approaches:
-- Intentional closed mechanism distinguished from rubble; planned operation/connection versus what can be observed:
-- Open state continuous route and external protrusion/volume check:
-- Building-interior transition: credible entrance and scale; hidden connection is planned, not visually verified:
-- Stairs/ramps: XY alignment, level connections; no third exit through front soil cuts:
+실제 관찰 상세는 각 `requirements[].observation` 한 곳에 쓴다. `checks[]`의 상태는 연결 요구행의 집계이며 `evidence/positive_evidence/forbidden_evidence/regions`는 구체 요구행 ID와 관찰 위치를 참조한다. 동일한 관찰 문장을 두 곳에 다시 작성하지 않는다. 선쌍·확대·전후 비교처럼 표가 필요한 상세 근거는 review.md에 한 번만 기록하고 관찰 행에서 그 근거 ID/영역을 연결한다. 코드 검사는 이 참조 문자열의 의미적 진실성을 판독하지 않는다.
 
-## Reference roles and tool evidence
-Use references.json for inspected versus actually submitted images, input order, scope/exclusions, omitted roles/reasons, confirmed parameter-specific contract and unknown capabilities. The mandatory orthographic rule overrides every reference camera, including M01; geometry sources govern base/framing/connectivity within it; style/world sources supply their approved aspects and exclude their camera/layout. This is an instruction, not a claimed reference-weight or mask control. M03-12 is building-only. Do not cross-input independent new scenes.
+검사는 C01~C04/L01~L07/S01~S04/W01~W05/R01~R03 전체를 유지한다. R02는 새 장소/독립 시안, R03은 동일 시안 편집/보정이다. N/A는 요구행과 check에 이유를 연결한다. 항상 필수인 C01~C04/L01~L05/S01~S04/W01~W03/R01을 현재 사용자가 예외로 바꾼 경우 check.exception에 실제 지시의 source와 quote를 더한다. 그 원문 해석의 정당성은 사람이 검수하며 코드가 승인 진위를 판정하지 않는다. `critical`은 우선순위를 나타내며 적용 필수 조건을 선택사항으로 바꾸지 않는다. 어떤 FAIL도 needs_revision, 불확실은 uncertain, 미관찰은 not_reviewed이며 모든 적용 항목의 PASS/근거 N/A일 때만 candidate_pass다.
 
-M03-10 remains the primary style anchor and default input priority is unchanged. B03-01~04 are separate surface-expression support, not additional masters. B03-02~04 generated examples are not automatic inputs or whole-image/geometry QA approvals. The current approval permits comparison only and does not authorize generation inputs. A later explicit user reference/edit request is handled within its own scope; this surface approval does not approve their architecture/layout/geometry. Do not inherit night, specific colors, white lamps or a 50% damage reduction. M04 source-technique exclusions do not prohibit the approved Master03 brushwork.
+## 파일·인자 계약
 
-F-01~07 are separate optional architecture-form support (scoped_architecture_form; generation_input_allowed=true; default_generation_input=false). Record each selected form/depth role and actual input index; exclude camera, fine/photoreal texture, neon, extreme height, water-base, lettering/people and source layout. They are not confirmed LDI images and do not replace the original27, surface support4, or geometry/art/world priority. F-08~11 are approved-form comparison examples only (scoped_architecture_example; generation_input_allowed=false; default_generation_input=false; geometry_approved=false); keep their existing needs_revision and original reviews. Do not submit them under this comparison approval or promote their projection/layout/route/ratio flaws.
+- 원장의 `prompt_path/tool_arguments_path/references_path`, `candidate.image_path/result_path`는 run 상대경로다. 참조 `path`, 비교 이미지 `image_path`, `selection.manifest_path`는 프로젝트 루트 상대경로다. 로컬 기록 경로는 `..`/절대경로/루트 밖 심볼릭 링크를 사용하지 않는다. 로컬 파일이 있는 첨부는 run 안에 보존한다. 로컬 경로 없는 실제 대화 이미지는 recent 방식에서 path/sha256=null과 conversation_image_evidence로 식별·열람 근거를 남긴다. 없는 파일/해시를 만들었다고 주장하지 않는다.
+- 실제 `tool_arguments.json`의 `referenced_image_paths`는 도구 계약대로 절대경로이며 전달 목록을 해석한 경로·순서와 정확히 같다. 최근 이미지 방식은 각 항목에 conversation_image_evidence를 더하고 두 방식을 동시에 쓰지 않는다. 가능한 로컬 사본 증거와 대화 전용 증거를 구분한다.
+- `references.json`의 inspected/submitted 항목은 `id/path/sha256/role/scope/exclusions/inspected`, 전달 항목은 1부터 시작하는 `input_index`를 갖는다. 카탈로그 밖 자료에는 `authorization_kind`(scene_structure_guide / explicit_current_request / own_correction_target)와 실제 `authorization_evidence`가 필요하다. explicit_current_request는 authorization_source와 authorization_quote도 기록한다. 명시 편집 대상은 edit_target과 편집/보정 mode로 구분하며 카탈로그의 비교 전용 이미지도 새 편집본 입력으로 사용할 수 있다. 이는 원본 바이트 변경이나 양성/기하 승격이 아니다. 단순 별칭·사본의 사용 제한은 파일명/해시로 계속 검사한다.
+- preflight의 `tool_arguments.json`은 보내려는 정확한 인자이며 `delivery_status=planned`다. 호출 뒤 실제 전달 인자를 보존하고 `submitted`로 바꾼다. 프롬프트 해시/문자·바이트·단어수와 참조 개수는 실제 기록이며 모델 내부 토큰이나 입력 상한 추정이 아니다.
+- 반환 모델/토큰/수정 프롬프트는 실제 노출된 경우만 기록한다. `submitted_prompt.returned_metadata_evidence`의 같은 키에 run 상대 `response_path`와 실제 값의 `json_pointer`(예: `/model`)를 연결한다. 미반환은 null이다.
+- `candidate`에는 실제 이미지 경로/해시/열람 여부/검수 시각을, `result.json`에는 최소 `status/image_path/sha256`를 일치시킨다. 관찰은 `basis=actual_image`, 실제 영역·긍정/금지 근거를 갖는다. 계획에는 NOT_REVIEWED/basis=planned를 유지한다.
+- 편집/보정 `comparison`은 실제 이전 PNG/해시와 구조·큰 형태·외벽 깊이·표면·빛/재질·세계관·요청 7개를 비교하고 후퇴를 R03에 연결한다. `selection.considered_candidates`도 실제 고려 후보마다 같은 7개 근거·QA·해시를 기록한다. 현재 후보를 자기 baseline으로 쓰지 않고 이미 알려진 baseline을 후보 비교에서 누락하지 않는다. 대화 전용 편집 대상은 baseline과 그 후보 항목의 image_path/sha256=null, reference_id, 동일 conversation_image_evidence를 사용해 실제 inspected edit_target에 연결한다. 다른 이미지로 임의 바꾸지 않는다. 코드가 알 수 없는 다른 후보의 완전성은 사람이 확인한다.
 
-## Requirement-to-prompt-and-check coverage ledger
-For every applicable visual requirement, record a short exact clause from the compiled prompt, the plan evidence and its final QA check. Expand grouped rows into individual requirements if a clause covers only part. Add every active user constraint; no row may conceal an unmapped subcondition. N/A needs a reason. Operational requirements belong to preflight rather than image text. This ledger, history and approval bookkeeping are not pasted into the generation prompt. No arbitrary length target permits deleting constraints.
+## 단계별 기록 검증
 
-| Requirement / source | Exact prompt clause and section | Plan evidence | Final QA IDs / observation | Coverage: MAPPED / UNMAPPED / CONFLICT / N/A + reason |
-|---|---|---|---|---|
-| 01: single scene, quarter-view, whole independent base and boundaries | | | C01 | UNMAPPED |
-| 01: square base, shared XYZ/scale, mandatory orthographic projection | | | C03/C04 | UNMAPPED |
-| 01: two planar cuts, top/bottom corners, constant depth, no unrequested curve/bevel/warp | | | C02/C03/C04 | UNMAPPED |
-| 01/02: shared straight structural axes; permitted ground-level curves, grounding/continuous boundaries and visible walk/block distinction | | | L07/C04 | UNMAPPED |
-| 01/04: roof surfaces/joins, wall tops, supports and grounding | | | C04/L05 | UNMAPPED |
-| 02: two rear blocking directions, no unintended third path | | | L01/L02 | UNMAPPED |
-| 02: one functional exit per direction; selected position/form/state/entrance role | | | L02 | UNMAPPED |
-| 02: each approach, width/height/turn/transition/opening/post-clear volume; central combat floor | | | L03 | UNMAPPED |
-| 01/02: open front and legible base/footing/line evidence | | | C01/C04/L04/L05/L07 | UNMAPPED |
-| 02: planned barrier height, props outside routes, connected levels and XY stairs/ramps | | | L03/L05; no metric/collision certification | UNMAPPED |
-| 01/02: exposed room depth/entry/internal circulation or justified N/A | | | L06 | UNMAPPED |
-| 04: per-building human entry, role and credible grounding; nonbuilding exception | | | W04/L05 | UNMAPPED |
-| 04: per-building functional roof40~80%, support/connections/space; nonbuilding exception | | | W05/C04/L05 | UNMAPPED |
-| 04: machinery integrated as shell/frame/service volume or specified storey; scene ratio separate from roof coverage; no redundant rooftop kit | | | W03/W05/R01 | UNMAPPED |
-| 03: large forms and broad clean base-color areas with selected nearby-tone broad directional flat strokes; surface-relative size/density/space | | | S01/S02/S03 | UNMAPPED |
-| 03: color variation also on intact areas, separate from selective wear; no raised/wavy-glass/mosaic/all-over fine texture | | | S01/S03 | UNMAPPED |
-| 03: large light-shadow masses, material distinctions, restrained reflections and clear silhouette/thickness/grounding/joins | | | S03/S04 | UNMAPPED |
-| 03/04: age is retained; functional salvaged technology across place; relative machine presence | | | W01/W02/W03 | UNMAPPED |
-| 01~04: structural versus art/world reference roles and camera/content exclusions | | | C04/S01~S04/W01~W03 | UNMAPPED |
-| 03 supplement scope, M03-12 building-only if used, approved-aspect examples only | | | reference audit + S/W checks | UNMAPPED |
-| F-01~07 optional form-only input roles; F-08~11 comparison-only and geometry not approved; original27 and surface4 distinct | | | reference audit + R02/S/W checks | UNMAPPED |
-| User: location/time/palette/material/count, active additions/exclusions or edit preservation | | | R01 | UNMAPPED |
-| 01/02/04: actual large-form/facade-depth/place relationships and paving/cutaway difference, no unrelated scene-only carryover | | | R01/R02 | UNMAPPED |
-| 05: no unrequested people/monsters/text/numbers/arrows/UI; minimal needed signage | | | R01 | UNMAPPED |
+```sh
+python3 scripts/validate_run.py --run outputs/<run> --stage preflight
+python3 scripts/validate_run.py --run outputs/<run> --stage review
+python3 scripts/validate_run.py --run outputs/<run> --stage selection
+```
 
-## Compiled prompt and execution metadata
-- actual_prompt_path: generation_prompt.md
-- section_order: STRUCTURE MUST KEEP -> CURRENT SCENE -> ART / REFERENCE ROLES
-- exact_saved_text_matches_submitted_prompt: not_submitted
-- unresolved_variables_conflicts_or_unmapped_requirements:
-- character_count_and_counting_method: not_measured
-- utf8_byte_count_and_counting_method: not_measured
-- whitespace_word_count_and_counting_method: not_measured
-- returned_token_usage_only_if_exposed: unknown
-- returned_model_info_only_if_exposed: unknown
-- returned_revised_prompt_only_if_exposed: unknown
-- prompt_truncation_or_internal_rewrite_evidence: unknown
+선택적으로 `--root /absolute/project/path --json`을 쓴다. preflight는 호출 전 준비, review는 실제 PNG를 열어 기록한 관찰, selection은 final_manifest 등록 후 복사 전의 후보 비교·선택 이유를 검사한다. 이어 `collect_final_images.py`와 `--verify`로 사본을 확인한다. 기록 오류는 exit1, 인자 오류는 exit2다.
 
-The compiled file is the intended submitted text, not an unavailable hidden prompt. Counts are metadata, not a token-budget estimate, capacity percentage, or proof of no truncation/compliance.
+검사는 이미지 판독기가 아니다. RECORD PASS는 해시·경로·인자·문장·판정 연결의 일관성이며 형태/붓질/정사영의 참, 인용문의 의미적 충분성, 가짜 관찰 여부를 보증하지 않는다. 이미지 candidate_pass와 구분한다. 과거 원장 없는 run은 자동 탐색·소급 FAIL·변경하지 않는다.
 
-## Final comparison plan and status
-- compare_actual_base_and_paving_with_footings_storey_floors_shutter_horizontals_terrace_beams_upper_walls_roofs:
-- classify_straight_axis_lines_vs_actual_slopes_curve_tangents_and_occlusion:
-- compare_actual_primary_form_facade_depth_and_place_relationships_not_plan_changes_alone:
-- endpoint_or_line_annotations_if_needed_with_pixel_reading_uncertainty:
-- final_roof_joins_supports_and_each_exit_state_volume_comparison:
-- occluded_critical_evidence_means_UNCERTAIN_not_PASS:
-- status: pending_generation
+승인 `master_update_20260912_v2_8_pipeline_quality`는 생성/편집 요청의 명시 마스터·현재 요건 FAIL 보정(S/W/R 포함)을 허용한다. 취향 실험과 분석/검수/마스터 갱신만 요청한 경우의 이미지 생성은 제외한다. 미달/미검수 전달은 한계·중단 사유·claims_overall_pass=false를 기록하며 final 보관은 합격이나 마스터 승격이 아니다. 실제 열지 못한 전달본은 opened=false, observation_basis=not_reviewed 및 모든 적용 관찰 NOT_REVIEWED를 일치시키고 7차원에도 미관찰 사실을 적는다.

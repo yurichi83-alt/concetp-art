@@ -1,0 +1,53 @@
+{
+  "actual_input_count": 4,
+  "references": [
+    {
+      "index": 1,
+      "path": "outputs/20260912_121353_city_two_cars_appliances_geometry_rebuild/structure_guide.png",
+      "role": "new native sketch-to-render target; scene structure/large forms",
+      "actually_opened": true,
+      "sha256": "f3bbf5804b83776c4520984afba39a8211c38439370980ecf236f67cefdce7c3"
+    },
+    {
+      "index": 2,
+      "path": "refs/master03/ldi_10_storefront_style_anchor.png",
+      "role": "Master03 architecture/material/light expression only",
+      "actually_opened": true,
+      "sha256": "c24fe55ad76c6c8bfbd88dee7059a09fd7a592dc60e5d4a6c7c0704f11f19345"
+    },
+    {
+      "index": 3,
+      "path": "refs/master04/world_02_heavy_mechanical_arms.png",
+      "role": "Master04 functional salvaged housing/repair design only",
+      "actually_opened": true,
+      "sha256": "a71042678c1898320a3d949d0108bde7e6f931c8f1bf8b316a057084be179a3b"
+    },
+    {
+      "index": 4,
+      "path": "refs/style_support/brush_planes_reference.jpg",
+      "role": "B03-01 flat brushwork/color plane only, no water or architecture transfer",
+      "actually_opened": true,
+      "sha256": "1017bd1ab7a7a500601fdd74ab0d7e105f330aefc75ba9bba30461cbea5b7638"
+    }
+  ],
+  "not_submitted": [
+    {
+      "id": "M01-01",
+      "reason": "base/framing/two-cut/equal-depth role encoded in scene-specific structural sketch and text, five-slot budget used by M02/M03/M04/B03"
+    },
+    {
+      "id": "M02-01",
+      "reason": "Eliminate another camera representation after observed common projection failure; required two-exit geometry retained in current guide/text."
+    }
+  ],
+  "prior_generated_image_inputs": [],
+  "mode": "sketch_to_render_new_scene",
+  "confirmed_path_limit": 5,
+  "limit_evidence": "outputs/20260912_041307_wasteland_scrap_dealer/tool_rejection.json",
+  "model": "unconfirmed",
+  "tokens": "unconfirmed",
+  "prompt_characters": 11226,
+  "prompt_utf8_bytes": 11228,
+  "prompt_whitespace_words": 1581,
+  "parent_run": "outputs/20260912_121353_city_two_cars_appliances"
+}

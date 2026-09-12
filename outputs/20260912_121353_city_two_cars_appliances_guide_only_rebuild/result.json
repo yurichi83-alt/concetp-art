@@ -1,0 +1,37 @@
+{
+  "status": "needs_revision",
+  "selected_for_delivery": true,
+  "master_promoted": false,
+  "actual_png_opened": true,
+  "image": {
+    "path": "outputs/20260912_121353_city_two_cars_appliances_guide_only_rebuild/image.png",
+    "dimensions": [
+      1226,
+      1283
+    ],
+    "sha256": "a3cf706a2c19357575e6f70e16e89145ebef2de55221f46023a9f8f6ac6b0175",
+    "bytes": 1981934
+  },
+  "generation": {
+    "tool": "image_gen.imagegen",
+    "source_path": "/Users/hyojinnoh/.codex/generated_images/01a08610-9124-7bd1-9961-9126ad377251/exec-a48948b3-cd75-470a-b333-c1eb4a699bde.png",
+    "actual_input_count": 1,
+    "model": "unconfirmed",
+    "tokens": "unconfirmed",
+    "internal_revised_prompt": "unconfirmed",
+    "external_api_used": false
+  },
+  "review": "outputs/20260912_121353_city_two_cars_appliances_guide_only_rebuild/review.md",
+  "parent_run": "outputs/20260912_121353_city_two_cars_appliances_geometry_rebuild",
+  "structural_status": "needs_revision",
+  "remaining_findings": [
+    "C04 FAIL: building-versus-base common line directions remain inconsistent",
+    "C02 UNCERTAIN: depth correspondence improved but not verified constant",
+    "L07 UNCERTAIN: some critical footing segments obscured",
+    "S01 reservation: intact-surface broad brushwork weaker than peeling/patches"
+  ],
+  "stop_reason": "Two different geometry-rebuild strategies improved corner alignment/exits but repeated C04 failure. No further reliable strategy within current image-tool contract; stop repetitive calls under docs05, retain best connected candidate as delivery, not a pass.",
+  "attempts_in_this_request": 3,
+  "final_delivered_count": 1,
+  "selection_reason": "Both visible rear street exits restored, base vertical alignment/depth balance improved, all major requested objects present. C04 failure transparently retained."
+}

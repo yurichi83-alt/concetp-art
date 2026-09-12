@@ -1,0 +1,178 @@
+{
+  "note": "Project changes compared to pre-update snapshot; pre-existing outputs/FINAL_INDEX.md and final_manifest.json changes excluded. Hashes refreshed on final validation.",
+  "files": [
+    {
+      "path": "AGENTS.md",
+      "before_sha256": "5063ee08bc88953cfa494feeb613d458fa60abc57d1bafa59009d01cc4861f3e",
+      "after_sha256": "e3be619d21c6c8fef81056eb0989b4e44618b87f4d2860d1a9ff2906a4b4b17a"
+    },
+    {
+      "path": "START_HERE_KO.md",
+      "before_sha256": "f82a3de5c403fc3756e1cd5d8986cb3d59892eee03df4b71751c28b4b889a366",
+      "after_sha256": "9e10cfd09863c9b15b5d43f205edfe890a455fc017d83c70f95097529f269f00"
+    },
+    {
+      "path": "README_KO.md",
+      "before_sha256": "d2ce5f2ff23764c165150539fd048304e61c1a88b4514dc3878adce6ec23bf06",
+      "after_sha256": "0f754491c0990d246adb0aec253b3d8a72934abc75aa5efd52c157af84b4b3c8"
+    },
+    {
+      "path": "project.json",
+      "before_sha256": "3d6174817ad01bd9d64bd829480ec75c7375d0ac1c8e480b029200b62d023f95",
+      "after_sha256": "ecc6bc851999152802760b71b000d2f7f1cfa23c48dfd423cea030ddc88468c8"
+    },
+    {
+      "path": "refs/manifest.json",
+      "before_sha256": "0ecf22e565e96c7437e52ddbe5594e3f073ec30b01684d1d18614daa339160f3",
+      "after_sha256": "5b2356ce280222dd963cefcec18dff1c6d1abac21acb5ef8a3656a136fd1ae87"
+    },
+    {
+      "path": "refs/REFERENCE_MAP.md",
+      "before_sha256": "6b90c1db0bb0f0c9a03d0826a7d24b49442fac08f7454ac344f9ab22ebb8d64e",
+      "after_sha256": "47e71f65351c8e7b60ce0acff9c8eafddeee61d78f4f895d3e86f2938058b5f4"
+    },
+    {
+      "path": "state/approvals.json",
+      "before_sha256": "aa717461d7eba7b5321514903e51619eac4f77c92391450eed26714dc048611d",
+      "after_sha256": "927a8919cbe23896793222d1a8a9c4abbe756996243435aa71f2cd7776c0a66f"
+    },
+    {
+      "path": "state/CHANGELOG.md",
+      "before_sha256": "62fe593f7ecb799d621e48a815b4aa61eb145a43ddb368bac2a804d9cbffb9ab",
+      "after_sha256": "d5cb5260757920dcf561adf70bb223b823946c85af04bf7162b3ab8fe0809d9b"
+    },
+    {
+      "path": "state/package_validation.json",
+      "before_sha256": "10078c0521401c029854f702ff57960a9e397b926af8c2dc0936563d5dfe6a91",
+      "after_sha256": "d948a6099f94eaa486d7b202c07106c3ac9b32c0a487fee318c461100460ce69"
+    },
+    {
+      "path": "outputs/README.md",
+      "before_sha256": "cb6a38f38e65abeef9848165fd927866633f2f1190a283a952134668212e0597",
+      "after_sha256": "11f0b99483b76fc1dce89c5cd23111de0ecf675a00c245c902c500b1e23a27d2"
+    },
+    {
+      "path": ".agents/skills/game-env-art/SKILL.md",
+      "before_sha256": "a7b43501faf31c64e8c20774b9ff670c563d73066d75dcafbb40254f7b6e28e3",
+      "after_sha256": "50383f8dd7a2112ae257dd727dcae95595a92139332a2c02f3931d8da8464ac2"
+    },
+    {
+      "path": "docs/01_COMPOSITION.md",
+      "before_sha256": "1bcb9f86a8cc85c7006d6a441a312bed80f1d53e2fea27c39862ae50852540c7",
+      "after_sha256": "a8178c982144d741b979b1c4093f6cf565881b35749660335bb559d6d1073445"
+    },
+    {
+      "path": "docs/06_QA.md",
+      "before_sha256": "d866fc4c64068257cb13474dafa280f4015cdb4f63a12d0782bc7a56f542b3a5",
+      "after_sha256": "3a6c7842b11b474a83c15afec15ca2e2278814d355fc9e523871d97a0945d045"
+    },
+    {
+      "path": "docs/08_COMMANDS.md",
+      "before_sha256": "93a0e0b31ab25c6bb2e5ff1ae4cf77169dd48e7c03c0b4b808414ee80bebc1d8",
+      "after_sha256": "146147c7428a61cb919058961dc7f86951eb720e8b9cd0b296cb760ac3ffaadf"
+    },
+    {
+      "path": "docs/00_INDEX.md",
+      "before_sha256": "e3149280a297c110d1aafb3825efb2281324cae54afc4bda446c1af9e51d0c70",
+      "after_sha256": "8eaf0acbdc2b62b5b1259fbede8a59ed2a9071af3c674d20de2ffd0e893a16c7"
+    },
+    {
+      "path": "docs/02_LAYOUT.md",
+      "before_sha256": "09f52c195f452fe235ff8f2fe1ef603b719962190cdb30e67df9291b50863538",
+      "after_sha256": "ea32f3b17293b5fdb38bb744154dd5cf4189a8da5ba5135ac2a9ad2fe34a3fe1"
+    },
+    {
+      "path": "docs/10_CURRENT_REFERENCES.md",
+      "before_sha256": "7279c210f27a36a808ab504e39ede1ff80a43823a03393909d1cf0dd0a3927c5",
+      "after_sha256": "7df4e858842ca2f1df838940c0664d8e8653f87950ad0330197fa2b016e96f4c"
+    },
+    {
+      "path": "docs/07_CODEX_SETUP.md",
+      "before_sha256": "c1b00504e981b213dd76a99c4c1527852812e4105b3bac209566fbd6fbd3b0e2",
+      "after_sha256": "dc29078b3460860bb1370eb7fa08cc50966e24831eacd98a2b0a47c2f8cffaa9"
+    },
+    {
+      "path": "docs/04_WORLD_DESIGN_V2.md",
+      "before_sha256": "fba6435e2fc0f7b3dd890003797d48b32a00d0516dbd3105a389d550da5dd0c9",
+      "after_sha256": "b979dcf944788e83de06c254d58ed97364c8014cafaa5c660e407208e77af126"
+    },
+    {
+      "path": "docs/03_VISUAL_STYLE_V2.md",
+      "before_sha256": "297f995c1bc669776ac8b98d5e7ec8033950a0d809e8ff3e07033be49d53b1c3",
+      "after_sha256": "7bc2d9fca8611583dc109326879919a98ea309139c2aa516a42056da71debbea"
+    },
+    {
+      "path": "docs/05_GENERATION_RULES.md",
+      "before_sha256": "c324b53e4f383e711a0669db8fc363c8b21ef0bae67e6b28299034fef7144406",
+      "after_sha256": "22c939e3280e22d09127bd7f803b68b9637e2df929ec5d9ea042c7c6e46e9e6e"
+    },
+    {
+      "path": "templates/references.json",
+      "before_sha256": "a3fbe6f8d8b496de0b71a2233386d92300a5ffb8173b465cd4c7731cc4a4c417",
+      "after_sha256": "e13f4bb44828f028f0f7dc2067d462588d4ccca421a0563893097cbb71a972f6"
+    },
+    {
+      "path": "templates/generation_prompt.md",
+      "before_sha256": "f42a20e56431cff518f32e72dd6deb32dc8075a4309ddffd2125f51c8da790b5",
+      "after_sha256": "47a063f2058fc071b1e41426b9cb2d16cbfe3cc6294929cd7af5b5539355e377"
+    },
+    {
+      "path": "templates/preflight.md",
+      "before_sha256": "5e3ef52633f4aafe5c91ce49a886b855d7717090b72c7cf2b2bf5a89e5198c46",
+      "after_sha256": "802f4cf2b8a1dbbf6650fa330db30cbdeaa2ac43526248895bd592a7395c6c00"
+    },
+    {
+      "path": "templates/brief.md",
+      "before_sha256": "8117291cfdf00fffb0286cf820697d8412277cf211b68178d198a93e11146963",
+      "after_sha256": "7b17cc3c3ae74d2c0878316999e309d24be24a6677600c204470e5e3e910ea6a"
+    },
+    {
+      "path": "templates/review.md",
+      "before_sha256": "c79883dca8bc5bc69e94e71ed656b596d0cc4027d06c6a81e8b165d838331b18",
+      "after_sha256": "98684b3e765a7f5e7703bc0dd0290f055ca0b737837a6173610693123cb3f204"
+    },
+    {
+      "path": "scripts/validate_project.py",
+      "before_sha256": "79d6d9fe56d9e7063034257f0cee4b43dc7d3335a52171b237e23e81523d6b10",
+      "after_sha256": "029fa311c99c83e5b9b5ce52d5801010859ddfc3ecbdfe8720fac6b9bbd979fb"
+    },
+    {
+      "path": "FIRST_MESSAGE.txt",
+      "before_sha256": "0c3840e49e86727e65bd714e076f490c1094700bb59c425322592b69361d6e1c",
+      "after_sha256": "e45123ebae1ec5f0abf8ca949fed938e0eb36fca8796f3ab62fc654d22e79e8a"
+    },
+    {
+      "path": "REFERENCE_INDEX.html",
+      "before_sha256": "d25322d981d9390079db9f7f6bd705682d628d45a844044c68b52b6b7fc13bef",
+      "after_sha256": "3a621a3f902d280b38fcba1c55006e941507244a20a8bba754496b7250755b05"
+    },
+    {
+      "path": ".agents/skills/game-env-art/agents/openai.yaml",
+      "before_sha256": "c0b192535d35b21e4641afc9a88c7d91c475d4767bbf116717272df3ac8eae4e",
+      "after_sha256": "748d1fa4ef236c0628296521212d2b5474cc66caaf3c9b143a9adf6ab94fba7b"
+    },
+    {
+      "path": "state/setup_status.json",
+      "before_sha256": "3c75777486626b4a28009381f7703eb68bb69b84c23e41774b54a10447a74a1e",
+      "after_sha256": "777aa20d33576008487916fc79cbcb59a9bdd92254ecd7d833cfdfc672f61634"
+    },
+    {
+      "path": "templates/requirements.json",
+      "before_sha256": null,
+      "after_sha256": "945eb4492b041db9e9e20dc446ce7c6efe22e2a8625e1fc2fff7dde8153d803d"
+    },
+    {
+      "path": "scripts/validate_run.py",
+      "before_sha256": null,
+      "after_sha256": "92cdcdcc09fcbfabf2404e3d038c2f02ee1d9558d7ebb14cbf8354adb1ced486"
+    },
+    {
+      "path": "scripts/test_validate_run.py",
+      "before_sha256": null,
+      "after_sha256": "c1b87c8c8b55c928c8f1b647d880904a8761f29a61265551eccecb1b53ecdce8"
+    }
+  ],
+  "count": 34,
+  "snapshot_file_count": 34,
+  "markdown_links_missing": []
+}

@@ -1,0 +1,19 @@
+{
+  "status": "generation_failed",
+  "request_mode": "edit_existing",
+  "selected_for_delivery": false,
+  "master_promoted": false,
+  "actual_generation_calls": 1,
+  "received_images": 0,
+  "requested_final_count": 1,
+  "image": null,
+  "review_status": "not_reviewed",
+  "source_target": "outputs/final/20260912_112820__city_day_mechanical_storeys.png",
+  "analysis_path": "outputs/20260912_114013_city_brushwork_detail_edit/analysis_ko.md",
+  "prompt_path": "outputs/20260912_114013_city_brushwork_detail_edit/generation_prompt.md",
+  "references_path": "outputs/20260912_114013_city_brushwork_detail_edit/references.json",
+  "tool_error_path": "outputs/20260912_114013_city_brushwork_detail_edit/tool_error.json",
+  "stop_reason": "Builtin output-stage moderation block; no new output available. No API fallback authorized or invoked.",
+  "model": "unconfirmed",
+  "tokens": "unconfirmed"
+}

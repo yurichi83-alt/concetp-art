@@ -1,0 +1,132 @@
+{
+  "camera": {
+    "type": "orthographic_parallel",
+    "origin": [
+      650,
+      460
+    ],
+    "X": [
+      28,
+      16
+    ],
+    "Y": [
+      -28,
+      16
+    ],
+    "Z": [
+      0,
+      -30
+    ]
+  },
+  "base": {
+    "size": [
+      16,
+      16
+    ],
+    "depth": 2.6
+  },
+  "current_request_height_exception": "Explicit2–4storey request takes precedence over default approximate6.5m. A4storeys at2.8m plan; B2storeys at2.8m. Current scene only, no global master update/metric certification.",
+  "buildings": [
+    {
+      "id": "A",
+      "storeys": 4,
+      "floor3_equipment_box": [
+        0.9,
+        1,
+        4,
+        5.8,
+        5.6,
+        8.4
+      ],
+      "floor4_occupied_box": [
+        0.6,
+        0.7,
+        4.7,
+        6.5,
+        8.4,
+        11.2
+      ],
+      "support": "setback ground-floor perimeter piers and visible transfer beams beneath second floor; retain third/fourth supports",
+      "entrance": "existing grounded human doors retained",
+      "roof": "main equipment footprint12.48/23.78 roughly52%; terrace maintenance canopy, access and open areas",
+      "floor1_box": [
+        1.2,
+        1.3,
+        4.7,
+        7.1,
+        0,
+        2.8
+      ],
+      "floor2_box": [
+        0.6,
+        0.7,
+        5.3,
+        7.7,
+        2.8,
+        5.6
+      ]
+    },
+    {
+      "id": "B",
+      "storeys": 2,
+      "floor1_equipment_box": [
+        7,
+        0.6,
+        11.3,
+        4.7,
+        0,
+        2.8
+      ],
+      "floor2_occupied_box": [
+        6.7,
+        0.7,
+        11.7,
+        5.4,
+        2.8,
+        5.6
+      ],
+      "corner_radius": 0.85,
+      "support": "columns and overhang brackets clear of road; common XY translation only",
+      "entrance": "human maintenance door, enclosed upper access",
+      "roof": "functional service unit12.8/23.5 roughly54%"
+    }
+  ],
+  "car": {
+    "count": 1,
+    "parking": [
+      6.6,
+      13.7,
+      10.7,
+      15.35
+    ],
+    "outside_through_lane": true
+  },
+  "exits": [
+    {
+      "direction": "rear-left",
+      "world": "x0,y9.5..12.7",
+      "type": "open street between side boundary and stepped building",
+      "route": "clear straight lane to broad central turn"
+    },
+    {
+      "direction": "rear-right",
+      "world": "y0,x12..15",
+      "type": "open road continuation beside rounded building",
+      "route": "clear straight lane meeting same turn"
+    }
+  ],
+  "center": "broad flat road bend, no combat obstruction",
+  "weather": "daylight; dry asphalt/concrete; no wet reflections",
+  "cutaway": "preserve repaired utility/ drainage layout, dry drain no flowing water",
+  "actual_collision_checked": false,
+  "guide_is_not_forced_geometry": true,
+  "request_mode": "edit_existing",
+  "edit_target": "outputs/final/20260912_112820__city_day_mechanical_storeys.png",
+  "independent_new_scenes_requested": false,
+  "current_edit": "Readable broad directional flat brushwork; all neon removed; selected wall graffiti/geometric murals; A ground floor smaller than second; local dry road damage and sparse paper litter; one hydrant; large orthogonal sidewalk tile pattern",
+  "surface_props": {
+    "hydrant": "one on building-side sidewalk outside rear exits and center bend",
+    "road": "two shallow peripheral asphalt breakouts, several loose paper sheets; no road-crossing crevasse",
+    "tiles": "large muted charcoal/cream/terracotta stepped-square geometric inlay on building-side pavement; plane remains flat"
+  }
+}

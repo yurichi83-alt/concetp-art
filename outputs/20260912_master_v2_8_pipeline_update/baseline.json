@@ -1,0 +1,19 @@
+{
+  "snapshot": "state/history/20260912_master_v2_8_pipeline_quality",
+  "before_versions": {
+    "master": "2.7",
+    "execution": "1.8",
+    "package": "1.7.0",
+    "visual_style_component": "2.2"
+  },
+  "after_versions": {
+    "master": "2.8",
+    "execution": "1.9",
+    "package": "1.8.0",
+    "visual_style_component": "2.3"
+  },
+  "source_analysis": "outputs/20260912_city_pipeline_visual_audit/pipeline_analysis_ko.md",
+  "approval_id": "master_update_20260912_v2_8_pipeline_quality",
+  "request": "좋아 분석 보고서 내용 마스터,생성 규칙, 설정에 전부 반영해줘",
+  "reference_baseline_count": 47
+}

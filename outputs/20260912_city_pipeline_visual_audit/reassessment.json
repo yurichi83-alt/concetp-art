@@ -1,0 +1,27 @@
+{
+  "reassessment_date": "2026-09-12",
+  "scope": "architectural-form preservation and surface expression only; not rerun of full geometry QA",
+  "targets": [
+    "outputs/20260912_121353_city_two_cars_appliances/image.png",
+    "outputs/20260912_121353_city_two_cars_appliances_geometry_rebuild/image.png",
+    "outputs/20260912_121353_city_two_cars_appliances_guide_only_rebuild/image.png"
+  ],
+  "old_reviews_retained": true,
+  "old_final_manifest_retained": true,
+  "supersedes_in_this_scope": {
+    "S03": "Earlier PASS/PASS with reservation judgments in the three run reviews are withdrawn by this new surface reassessment; FAIL because positive flat-brushwork requirement and micro-pattern avoidance were not fully tested/satisfied.",
+    "S01": "Cannot claim zero patches, but the intended intact-surface broad directional brushwork is insufficient.",
+    "S04": "Prior C04-only or exact-modeling-source rationale is invalid for this separate visual-legibility criterion; do not treat that rationale as an art assessment."
+  },
+  "new_observations": {
+    "shape": "Latest preserves floor count/overhangs/curved corners but loses substantial mechanical housing depth and building individuality relative to initial.",
+    "ground": "Repeated small crack clusters and wavy thin stains on paving remain; actual optical refraction/material shader not established."
+  },
+  "overall_status_remains": "needs_revision",
+  "master_promoted": false,
+  "new_generation_performed": false,
+  "evidence": [
+    "visual_audit_ko.md",
+    "pipeline_analysis_ko.md"
+  ]
+}

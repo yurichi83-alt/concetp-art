@@ -1,0 +1,50 @@
+{
+  "kind": "Read-only mocked project-policy negative tests; no project mutation or visual generation",
+  "tests": [
+    {
+      "name": "structural_only_scope_rejected",
+      "passed": true,
+      "reported_errors": [
+        "Automatic correction scope disagrees with approved full-quality policy"
+      ]
+    },
+    {
+      "name": "missing_R03_rejected",
+      "passed": true,
+      "reported_errors": [
+        "Quality gate must cover all C/L/S/W/R checks, including R03"
+      ]
+    },
+    {
+      "name": "structural_completion_rejected",
+      "passed": true,
+      "reported_errors": [
+        "Overall completion cannot stop at structural checks alone"
+      ]
+    },
+    {
+      "name": "visual_automation_claim_rejected",
+      "passed": true,
+      "reported_errors": [
+        "Record validation must not claim automated visual judgment"
+      ]
+    },
+    {
+      "name": "retrospective_migration_rejected",
+      "passed": true,
+      "reported_errors": [
+        "Run validation must apply to new runs without retrospective migration"
+      ]
+    },
+    {
+      "name": "wrong_ledger_version_rejected",
+      "passed": true,
+      "reported_errors": [
+        "Active master versions disagree",
+        "Reference template metadata disagree: masters_version",
+        "Requirements template metadata disagree: masters_version"
+      ]
+    }
+  ],
+  "passed": 6
+}

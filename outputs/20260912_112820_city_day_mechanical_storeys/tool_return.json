@@ -1,0 +1,9 @@
+{
+  "tool": "image_gen.imagegen",
+  "source_path": "/Users/hyojinnoh/.codex/generated_images/01a08610-9124-7bd1-9961-9126ad377251/exec-fc25c5c6-b593-4640-840b-fd7a1f7a2f52.png",
+  "returned_model": "unconfirmed",
+  "returned_tokens": "unconfirmed",
+  "internal_revised_prompt": "unconfirmed",
+  "actual_input_count": 4,
+  "external_api_used": false
+}

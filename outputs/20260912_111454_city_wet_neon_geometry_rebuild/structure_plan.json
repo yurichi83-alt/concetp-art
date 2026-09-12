@@ -1,0 +1,97 @@
+{
+  "camera": {
+    "type": "orthographic_parallel",
+    "origin": [
+      650,
+      460
+    ],
+    "X": [
+      28,
+      16
+    ],
+    "Y": [
+      -28,
+      16
+    ],
+    "Z": [
+      0,
+      -30
+    ]
+  },
+  "base": {
+    "size": [
+      16,
+      16
+    ],
+    "depth": 2.6
+  },
+  "current_request_height_exception": "Explicit2–4storey request takes precedence over default approximate6.5m. A4storeys at2.8m plan; B2storeys at2.8m. Current scene only, no global master update/metric certification.",
+  "buildings": [
+    {
+      "id": "A",
+      "storeys": 4,
+      "main_lower_box": [
+        0.6,
+        0.7,
+        5.3,
+        7.7,
+        0,
+        5.6
+      ],
+      "setback_upper_box": [
+        0.6,
+        0.7,
+        4.2,
+        5.7,
+        5.6,
+        11.2
+      ],
+      "entrance": "ordinary closed human door on yard-facing ground floor",
+      "roof_plan": "main roof maintenance core9.1 of18=50.6%; lower setback roof maintenance canopies5.265+2.16 of14.9=49.8%, visual output check required"
+    },
+    {
+      "id": "B",
+      "storeys": 2,
+      "box": [
+        7,
+        0.6,
+        11.3,
+        4.7,
+        0,
+        5.6
+      ],
+      "ground_corner_radius": 0.85,
+      "entrance": "closed ordinary human door on right-facing ground floor",
+      "roof_plan": "integrated reclaimed heat-exchange canopy9.24 of17.63=52.4%; no duplicate house"
+    }
+  ],
+  "car": {
+    "count": 1,
+    "parking": [
+      6.6,
+      13.7,
+      10.7,
+      15.35
+    ],
+    "outside_through_lane": true
+  },
+  "exits": [
+    {
+      "direction": "rear-left",
+      "world": "x0,y9.5..12.7",
+      "type": "open street between side boundary and stepped building",
+      "route": "clear straight lane to broad central turn"
+    },
+    {
+      "direction": "rear-right",
+      "world": "y0,x12..15",
+      "type": "open road continuation beside rounded building",
+      "route": "clear straight lane meeting same turn"
+    }
+  ],
+  "center": "broad flat road bend, no combat obstruction",
+  "weather": "night cool wet road neon",
+  "cutaway": "concrete foundation/drainage collector/repaired power trunk; no extra doorway",
+  "actual_collision_checked": false,
+  "guide_is_not_forced_geometry": true
+}

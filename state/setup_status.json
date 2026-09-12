@@ -1,13 +1,24 @@
 {
-  "status": "not_run_in_user_codex",
-  "working_directory_confirmed": false,
-  "native_image_generation_available": null,
-  "reference_delivery_supported": null,
-  "local_skill_discovered": null,
-  "output_access_supported": null,
+  "status": "local_rules_updated_no_generation_in_this_update",
+  "working_directory_confirmed": true,
+  "native_image_generation_available": true,
+  "reference_delivery_supported": true,
+  "local_skill_discovered": true,
+  "output_access_supported": true,
   "api_authorized": false,
-  "last_checked_at": null,
+  "last_checked_at": "2026-09-12",
   "notes": [
-    "Package contents are prepared. Actual Codex capabilities must be checked at first launch."
-  ]
+    "This is dated session evidence, not a portable guarantee for another machine or account. Recheck the current tool and skill contract when generating.",
+    "No API, installation, global configuration change or image generation performed by this master update."
+  ],
+  "master_version": "2.8",
+  "execution_rules_version": "1.9",
+  "evidence": {
+    "native_image_generation_available": "Current session exposes image_gen.imagegen; no call made for this rules update.",
+    "reference_delivery_supported": "Current tool contract exposes referenced_image_paths; availability/limits rechecked at each generation.",
+    "local_skill_discovered": "game-env-art appears in current skill catalog; file read in this task.",
+    "output_access_supported": "Existing outputs/ actual arguments, reports and local files read; snapshot and update records written. No new image output tested.",
+    "runtime_settings_changed": false,
+    "portable_capability_guarantee": false
+  }
 }

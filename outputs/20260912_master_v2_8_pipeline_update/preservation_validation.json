@@ -1,0 +1,293 @@
+{
+  "reference_records_identical": true,
+  "reference_bytes_match": true,
+  "reference_count": 47,
+  "references": [
+    {
+      "id": "M01-01",
+      "path": "refs/master01/composition_cutaway.png",
+      "sha256": "849912ebad9cd750ca79fba6bd8fce6061a5b0ee169a6da5908c60abae94b1a3",
+      "matches_manifest": true
+    },
+    {
+      "id": "M02-01",
+      "path": "refs/master02/layout_two_exits.png",
+      "sha256": "444031765bb112361022fb23f593f3d386907ccb2bd005353b0514ed2f588a26",
+      "matches_manifest": true
+    },
+    {
+      "id": "M03-01",
+      "path": "refs/master03/ldi_01_attic.png",
+      "sha256": "44fd28dabb4e15a929ed4c456d50b3cdccf5c1ddd9ce40bf2171337d811c37a1",
+      "matches_manifest": true
+    },
+    {
+      "id": "M03-02",
+      "path": "refs/master03/ldi_02_reading_room.png",
+      "sha256": "1a056798a7c30187aa474edce8760d69b0c5c17884a6a90d0a7667952cdd5ea4",
+      "matches_manifest": true
+    },
+    {
+      "id": "M03-03",
+      "path": "refs/master03/ldi_03_dark_corner.png",
+      "sha256": "100f790c81d8b7d7ed03e794e5b0f18b01f03f8a42d2747be104e7ba3a2ac750",
+      "matches_manifest": true
+    },
+    {
+      "id": "M03-04",
+      "path": "refs/master03/ldi_04_large_interior.png",
+      "sha256": "927a9a7e3252a05749e002ef54c356285c96531a6540a7198c511af63a83d56a",
+      "matches_manifest": true
+    },
+    {
+      "id": "M03-05",
+      "path": "refs/master03/ldi_05_fog_forest.png",
+      "sha256": "25ba7d65d72df2ab73158be93a88555c18880cf05edd7141df247e5da054ea86",
+      "matches_manifest": true
+    },
+    {
+      "id": "M03-06",
+      "path": "refs/master03/ldi_06_night_path.png",
+      "sha256": "17fc77804f384406ed6602d01544ee4da42f284312620a4cb255f93d76be3a13",
+      "matches_manifest": true
+    },
+    {
+      "id": "M03-07",
+      "path": "refs/master03/ldi_07_station.png",
+      "sha256": "9b69c652cfdfebda4e3c1b7dbb3c2263ae435c83fd0cf8afff6b5c124a5464b2",
+      "matches_manifest": true
+    },
+    {
+      "id": "M03-08",
+      "path": "refs/master03/ldi_08_pub_exterior.png",
+      "sha256": "f0c7eceb1e6096cf5f5d62b20837f64c37dec2a769e0e5a49a125655e9e53325",
+      "matches_manifest": true
+    },
+    {
+      "id": "M03-09",
+      "path": "refs/master03/ldi_09_pub_interior.png",
+      "sha256": "529834d0f3ec3c2274032825af530062b04ec4b13489775674eae7a393404ba5",
+      "matches_manifest": true
+    },
+    {
+      "id": "M03-10",
+      "path": "refs/master03/ldi_10_storefront_style_anchor.png",
+      "sha256": "c24fe55ad76c6c8bfbd88dee7059a09fd7a592dc60e5d4a6c7c0704f11f19345",
+      "matches_manifest": true
+    },
+    {
+      "id": "M03-11",
+      "path": "refs/master03/ldi_11_pub_clean_surfaces.png",
+      "sha256": "9046367233123ab4a582c2fcc740986b23a7c37c2b8e331c7cd3768464837ac9",
+      "matches_manifest": true
+    },
+    {
+      "id": "M03-12",
+      "path": "refs/master03/ldi_12_gas_station_building_only.png",
+      "sha256": "442efe855f44adbf96b4ab5ebf036c3f80fec800964a63d17ffbe19b23945648",
+      "matches_manifest": true
+    },
+    {
+      "id": "M03-13",
+      "path": "refs/master03/ldi_13_kiosk_materials.png",
+      "sha256": "9c0812ff9b7b49a558b67a6a68a9e7b719ebab6213c364ab48917e84b24afe4f",
+      "matches_manifest": true
+    },
+    {
+      "id": "M03-14",
+      "path": "refs/master03/ldi_14_attic_structure_light.png",
+      "sha256": "d960230559dae398857ab4f45da18581396cf3083af91c571889fc8da53caa05",
+      "matches_manifest": true
+    },
+    {
+      "id": "M03-15",
+      "path": "refs/master03/ldi_15_street_light_planes.png",
+      "sha256": "784aa1ef3f5d26b0727b21ca23581e9249193af39c7258b4c662fd2e1ce2cf95",
+      "matches_manifest": true
+    },
+    {
+      "id": "M04-01",
+      "path": "refs/master04/world_01_masked_scavenger.png",
+      "sha256": "fce8bd389e0fdfdfc58e8df182fceb398bb038119ed0b38ba5171b0b81e56f12",
+      "matches_manifest": true
+    },
+    {
+      "id": "M04-02",
+      "path": "refs/master04/world_02_heavy_mechanical_arms.png",
+      "sha256": "a71042678c1898320a3d949d0108bde7e6f931c8f1bf8b316a057084be179a3b",
+      "matches_manifest": true
+    },
+    {
+      "id": "M04-03",
+      "path": "refs/master04/world_03_helmet_and_coat.png",
+      "sha256": "b9b19bea6f2c614c738d513c4466cfa69f2ec712656c77bbb466241fa6266ac6",
+      "matches_manifest": true
+    },
+    {
+      "id": "M04-04",
+      "path": "refs/master04/world_04_cloak_and_mechanical_arm.png",
+      "sha256": "cba9f26bc23a28aa13a6b4fb0e36034a97e70a05431978ca7d6da5a76ef26453",
+      "matches_manifest": true
+    },
+    {
+      "id": "M04-05",
+      "path": "refs/master04/world_05_rebuilt_robot.png",
+      "sha256": "43ba4e232f2380db8c1332bc3156dca8cfca830465011eea6ecb5ff571bebec9",
+      "matches_manifest": true
+    },
+    {
+      "id": "M04-06",
+      "path": "refs/master04/world_06_asymmetric_machine.png",
+      "sha256": "cf327580c3a57429457d9210a5d00beea489525de201564d28f57a960af505ea",
+      "matches_manifest": true
+    },
+    {
+      "id": "M04-07",
+      "path": "refs/master04/world_07_repurposed_machine_head.png",
+      "sha256": "86671cce6c441acc094f02cd9a37e928b5f1e056451aedb10e74e8612417982a",
+      "matches_manifest": true
+    },
+    {
+      "id": "R-01",
+      "path": "review_only/dense_pump_station.png",
+      "sha256": "c623f97bb6c526a68311821b975750d8883adcea38d9bd7eee146ae28936ebbc",
+      "matches_manifest": true
+    },
+    {
+      "id": "R-02",
+      "path": "review_only/split_day_night_concept_only.png",
+      "sha256": "aee93b8678072b4da0ca14dd53a1f9e146e931726d87a8251f8dcfb9223cbd5c",
+      "matches_manifest": true
+    },
+    {
+      "id": "R-03",
+      "path": "review_only/store_center_obstructed.png",
+      "sha256": "9825b6bee2543fd94bb553869bda918d3788864eb1903231d387970b2bb29bb8",
+      "matches_manifest": true
+    },
+    {
+      "id": "A-01",
+      "path": "refs/current/night_courtyard.png",
+      "sha256": "c8c3147a1723ac60cdc7021a9de9d6955346dbf985d9713d641ec0cc592ceb44",
+      "matches_manifest": true
+    },
+    {
+      "id": "A-02",
+      "path": "refs/current/day_alley.png",
+      "sha256": "f72ade5e2d3a03faceb13bc594bb345306d7353323dcb302cfdc26789814e756",
+      "matches_manifest": true
+    },
+    {
+      "id": "M03-16",
+      "path": "refs/master03/test_01.jpg",
+      "sha256": "3a44c7457cc2f91645060d14c3ff686a6ba1df782b2f4392565d70266738fd97",
+      "matches_manifest": true
+    },
+    {
+      "id": "M04-08",
+      "path": "refs/master04/retro_futurism.png",
+      "sha256": "bb4d6dbe04e77705d276038dcf2c869ade350a39b9a4eda5c2b0f4d15854c00c",
+      "matches_manifest": true
+    },
+    {
+      "id": "M03-17",
+      "path": "refs/master03/test_02.jpg",
+      "sha256": "18081082d25a104b5830b5f5a27bfeb1659cb9f6b241311c240e60998387cbe3",
+      "matches_manifest": true
+    },
+    {
+      "id": "B03-01",
+      "path": "refs/style_support/brush_planes_reference.jpg",
+      "sha256": "1017bd1ab7a7a500601fdd74ab0d7e105f330aefc75ba9bba30461cbea5b7638",
+      "matches_manifest": true
+    },
+    {
+      "id": "B03-02",
+      "path": "outputs/final/20260911_153546__night_alley_01.png",
+      "sha256": "01558bfee235118bede60fca934472307030963e7ee4872e351028599058a2eb",
+      "matches_manifest": true
+    },
+    {
+      "id": "B03-03",
+      "path": "outputs/final/20260911_153546__night_alley_02.png",
+      "sha256": "ae174e12ad51758f28a69cb3fd5c6ea377512fa2d30b1e3528116303a3fc3b96",
+      "matches_manifest": true
+    },
+    {
+      "id": "B03-04",
+      "path": "outputs/final/20260911_153546__night_alley_03.png",
+      "sha256": "6f7bc57a6d12066834496d652ea4623840d0174ccd78e92ef0e1013182dc58e0",
+      "matches_manifest": true
+    },
+    {
+      "id": "F-01",
+      "path": "refs/architecture_form/form_01_stacked_wings.png",
+      "sha256": "970265ab69490c836d83f3f1a26982cec8a72d5f5dacac646e1957a0888a35ba",
+      "matches_manifest": true
+    },
+    {
+      "id": "F-02",
+      "path": "refs/architecture_form/form_02_rounded_housings.png",
+      "sha256": "50938fa4321e45f16eabfc4d7ec632e3b8d39a18f179343f255921f5cfdaf68b",
+      "matches_manifest": true
+    },
+    {
+      "id": "F-03",
+      "path": "refs/architecture_form/form_03_projecting_modules.png",
+      "sha256": "b04bfbcc011d538e0559eb81e1d44a4956cdb994398b08d45598be9308b5668f",
+      "matches_manifest": true
+    },
+    {
+      "id": "F-04",
+      "path": "refs/architecture_form/form_04_work_decks.png",
+      "sha256": "4e6b983c9d3d8d2d33077f628d3c85c21a22acd4a42f8adf672b22e0bdeda24d",
+      "matches_manifest": true
+    },
+    {
+      "id": "F-05",
+      "path": "refs/architecture_form/form_05_living_extensions.png",
+      "sha256": "5e41df5256233d7457190f441bc6a8953f777fb7f382cd51db0f3c4e3e4b42f6",
+      "matches_manifest": true
+    },
+    {
+      "id": "F-06",
+      "path": "refs/architecture_form/form_06_service_channels.png",
+      "sha256": "a3efc155c97ab937a14945106bdb3d0c0d18ac36faa02e353a1a79dcb8bdd7ad",
+      "matches_manifest": true
+    },
+    {
+      "id": "F-07",
+      "path": "refs/architecture_form/form_07_street_rhythm.png",
+      "sha256": "c97c333da24d754150451a7fedbaf1ead4250f5dbc76f4845ec828610c1d79e0",
+      "matches_manifest": true
+    },
+    {
+      "id": "F-08",
+      "path": "outputs/final/20260912_030800__slum_curved_architecture_01.png",
+      "sha256": "7a1bdec828a891463591289e2953d4fdc314e42e6832e934673487836c43a9ce",
+      "matches_manifest": true
+    },
+    {
+      "id": "F-09",
+      "path": "outputs/final/20260912_031500__slum_curved_architecture_02.png",
+      "sha256": "240a5a6e9b0cbeffac885ed15284e836993c8a9b362341b85d5343c0ae9b65e8",
+      "matches_manifest": true
+    },
+    {
+      "id": "F-10",
+      "path": "outputs/final/20260912_033801__city_day_l_building_01.png",
+      "sha256": "a452ca457b1ece58a22bdb32ff7789b3857bd04e5a6434cede27bec3bf67b44d",
+      "matches_manifest": true
+    },
+    {
+      "id": "F-11",
+      "path": "outputs/final/20260912_033801__city_day_l_building_02.png",
+      "sha256": "71e69cba1c2ca95746b933aa1a7e9b61dc2f50f4a43392f915f0ad77b8def6f6",
+      "matches_manifest": true
+    }
+  ],
+  "prior_approval_entries_unchanged": true,
+  "new_approval_count": 1,
+  "catalog_metadata_unchanged": true,
+  "default_priorities_unchanged": true
+}

@@ -1,0 +1,145 @@
+{
+  "status": "uncertain",
+  "selected_for_delivery": true,
+  "master_promoted": false,
+  "user_approved": false,
+  "request_mode": "edit_existing",
+  "edit_target": "outputs/final/20260912_115334__city_brushwork_details.png",
+  "image": {
+    "path": "outputs/20260912_120050_city_road_posters_machines/image.png",
+    "dimensions": [
+      1254,
+      1254
+    ],
+    "sha256": "3ab1cda05128bb82e84d99af85600b183bc1a708941d0e56866ff817f617b07e",
+    "bytes": 2164778
+  },
+  "generation": {
+    "tool": "image_gen.imagegen",
+    "source_path": "/Users/hyojinnoh/.codex/generated_images/01a08610-9124-7bd1-9961-9126ad377251/exec-90a18f80-1197-47fb-b6a0-9f55ee2f6476.png",
+    "actual_input_count": 5,
+    "model": "unconfirmed",
+    "tokens": "unconfirmed",
+    "internal_revised_prompt": "unconfirmed",
+    "external_api_used": false
+  },
+  "review": {
+    "path": "outputs/20260912_120050_city_road_posters_machines/review.md",
+    "actual_png_opened": true,
+    "checks": [
+      {
+        "id": "C01",
+        "status": "PASS",
+        "observation": "전체 기단과 두 단면, 옥상·안테나 화면 안."
+      },
+      {
+        "id": "C02",
+        "status": "UNCERTAIN",
+        "observation": "양 전면 단면은 유지됐으나 우측 턱과 하단 대응점의 일정 깊이 확정 제한."
+      },
+      {
+        "id": "C03",
+        "status": "PASS",
+        "observation": "날카로운 사각 베이스와 직선 외곽. 도로 곡선은 연석 형태이며 기단곡률과 별개."
+      },
+      {
+        "id": "C04",
+        "status": "UNCERTAIN",
+        "observation": "큰 선군 방향은 유지. 다중 턱/난간과 일부 짧은 건물 수평선 때문에 공통 정사영 전체 검증 유보."
+      },
+      {
+        "id": "L01",
+        "status": "PASS",
+        "observation": "후면 경계 두 방향은 높은 벽으로 이어짐."
+      },
+      {
+        "id": "L02",
+        "status": "PASS",
+        "observation": "A좌측 도로와 B우측 도로가 각각 후면으로 열림. 일반 문은 추가 맵 출구가 아님."
+      },
+      {
+        "id": "L03",
+        "status": "PASS",
+        "observation": "출구 옆 기계는 벽에 붙고 열린 차로를 가로막지 않음. 쓰레기통은 B오른쪽 보도 안이며 중앙 굽이/출구 접근이 이어짐."
+      },
+      {
+        "id": "L04",
+        "status": "PASS",
+        "observation": "중앙 바닥과 전면 단면 가독성 유지. 차량/추가 소품이 앞 공간을 크게 가리지 않음."
+      },
+      {
+        "id": "L05",
+        "status": "PASS",
+        "observation": "A작은1층 지지기둥/2층보, 기계3층/큰4층, B기계1층 사선받침 유지. 추가설비는 바닥/벽에 접지·연결."
+      },
+      {
+        "id": "L06",
+        "status": "NOT_APPLICABLE",
+        "observation": "주거 내부 미노출. 전면 배수 시설은 보행 실내가 아님."
+      },
+      {
+        "id": "L07",
+        "status": "UNCERTAIN",
+        "observation": "보이는 A/B 접지부와 보행 경계는 명료하나 뒤의 가려진 기단 전체는 확정하지 않음."
+      },
+      {
+        "id": "S01",
+        "status": "UNCERTAIN",
+        "observation": "넓은 벽/기계색면과 도로의 큰색차 존재. 벽의 일부 터치는 여전히 박리와 혼재해 붓질 완전 충족은 유보."
+      },
+      {
+        "id": "S02",
+        "status": "UNCERTAIN",
+        "observation": "도로의 긴 반복 획은 줄고 넓은 평면 색차로 정리. 벽에는 짧은 손상형 자국이 남음."
+      },
+      {
+        "id": "S03",
+        "status": "PASS",
+        "observation": "이전 도로의 긴 유리/물결형 반복이 줄고 무광 불투명 포장과 국소 균열로 읽힘. 색패치 경계는 남지만 명확한 굴절/물반사/요철 하이라이트 미발견."
+      },
+      {
+        "id": "S04",
+        "status": "PASS",
+        "observation": "일광과 큰 그림자로 건축/차량/기계 접지와 부피 읽힘. 금속·도장벽·도로·종이 재질 구별."
+      },
+      {
+        "id": "W01",
+        "status": "PASS",
+        "observation": "출구 전력함/냉각장치와 건축기계·단면시설이 회수 기술을 읽히게 함."
+      },
+      {
+        "id": "W02",
+        "status": "PASS",
+        "observation": "수리된 도장판/노후 하우징/덧붙인 배관 유지. 전부 새것으로 정리하지 않음."
+      },
+      {
+        "id": "W03",
+        "status": "PASS",
+        "observation": "A3층/B1층 설비 부피 유지. 새 쓰레기통은 큰 외장·뚜껑·보강부로 구분되고 출구 두 설비는 서로 다른 외형."
+      },
+      {
+        "id": "W04",
+        "status": "PASS",
+        "observation": "A지상 문과 B정비문 유지. 쓰레기통이 문을 덮지 않음."
+      },
+      {
+        "id": "W05",
+        "status": "PASS",
+        "observation": "각 옥상 기존 큰 기능유닛/유지보수 데크 유지. 계획40~80%의 육안상 대응이며 정확 면적계측 아님."
+      },
+      {
+        "id": "R01",
+        "status": "PASS",
+        "observation": "도로의 물결 인상 완화, 벽 포스터, 대형 쓰레기통, 양쪽 출구 옆 설비 추가. 낮/무네온/건물크기와 층/차량/소화전/타일패턴 유지."
+      },
+      {
+        "id": "R02",
+        "status": "NOT_APPLICABLE",
+        "observation": "명시적 편집; 새 독립 배치가 요구되지 않음."
+      }
+    ]
+  },
+  "prompt_path": "outputs/20260912_120050_city_road_posters_machines/generation_prompt.md",
+  "references_path": "outputs/20260912_120050_city_road_posters_machines/references.json",
+  "final_count": 1
+}

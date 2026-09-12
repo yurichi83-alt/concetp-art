@@ -1,0 +1,18 @@
+{
+  "tool": "image_gen.imagegen",
+  "status": "failed",
+  "http_status": 400,
+  "code": "moderation_blocked",
+  "moderation_stage": "output",
+  "categories": [
+    "other"
+  ],
+  "safety_violations": [
+    "abuse"
+  ],
+  "request_id": "91c6f359-d2c0-4b22-859f-dcdbaa5c4cd9",
+  "tool_error_message": "Your request was rejected by the safety system. If you believe this is an error, contact us at help.openai.com and include the request ID.",
+  "returned_image": false,
+  "cause": "not_specified",
+  "external_api_used": false
+}

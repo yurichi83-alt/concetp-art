@@ -1,0 +1,149 @@
+{
+  "status": "uncertain",
+  "structural_status": "uncertain",
+  "selected_for_delivery": true,
+  "master_promoted": false,
+  "user_approved": false,
+  "parent_run": "outputs/20260912_111454_city_wet_neon",
+  "request": "도심 / 밤,쿨톤 / 비에젖은바닥,네온,2~4층건물,도로,자동차 / 한장",
+  "image": {
+    "path": "outputs/20260912_111454_city_wet_neon_geometry_rebuild/image.png",
+    "dimensions": [
+      1254,
+      1254
+    ],
+    "sha256": "4f54303fa53d577425a90fb4cdade6e25a21be05b5b1d1573903705cd0aacf37",
+    "bytes": 2008882
+  },
+  "generation": {
+    "tool": "image_gen.imagegen",
+    "source_path": "/Users/hyojinnoh/.codex/generated_images/01a08610-9124-7bd1-9961-9126ad377251/exec-2416675f-7855-4dc0-a1cf-d66680dadad6.png",
+    "prompt_path": "outputs/20260912_111454_city_wet_neon_geometry_rebuild/generation_prompt.md",
+    "prompt_sha256": "aa16867ddd4d8fe80fd5ab46ce8bfe447df3bb677c8003c5bb76f3bb2659b321",
+    "actual_input_count": 3,
+    "references_path": "outputs/20260912_111454_city_wet_neon_geometry_rebuild/references.json",
+    "selected_world_reference": "M04-02",
+    "internal_model": "unconfirmed",
+    "tokens": "unconfirmed",
+    "internal_revised_prompt": "unconfirmed",
+    "external_api_used": false
+  },
+  "review": {
+    "path": "outputs/20260912_111454_city_wet_neon_geometry_rebuild/review.md",
+    "actual_png_opened": true,
+    "checks": [
+      {
+        "id": "C01",
+        "status": "PASS",
+        "observation": "기단전체/네모서리·뒤연결경계·옥상기계/안테나가화면안."
+      },
+      {
+        "id": "C02",
+        "status": "UNCERTAIN",
+        "observation": "전면과양끝의관찰깊이가동일하다고확정하기어렵다. 상단턱/어두운하단선선택에영향받아대표대응표에불확실기록."
+      },
+      {
+        "id": "C03",
+        "status": "PASS",
+        "observation": "두앞평면단면의직선윤곽과날카로운사각모서리. 실제3D평면/두께인증아님."
+      },
+      {
+        "id": "C04",
+        "status": "UNCERTAIN",
+        "observation": "초기보다베이스와A상층선군이정돈됨. 중간테라스/B둥근지붕의짧은평탄선과기단간완전일치확정은제한적. 지붕곡선접선/차양경사별도분리."
+      },
+      {
+        "id": "L01",
+        "status": "PASS",
+        "observation": "양쪽뒤방향에높은도시외벽/경계구조가연속되고열린도로두곳을남김."
+      },
+      {
+        "id": "L02",
+        "status": "PASS",
+        "observation": "뒤왼쪽A옆도로와뒤오른쪽B옆도로가각각열린전환. 건물문은일반입구."
+      },
+      {
+        "id": "L03",
+        "status": "PASS",
+        "observation": "중앙굽이와출구접근도로가비어있고차량은전면주차쪽에있음. 낮은기둥/화분은보행전환폭을막지않음."
+      },
+      {
+        "id": "L04",
+        "status": "PASS",
+        "observation": "차량/가로등이중앙과전면단면전체를차폐하지않음."
+      },
+      {
+        "id": "L05",
+        "status": "PASS",
+        "observation": "A후퇴부/옥상냉각/차양,B옥상열교환·벽배관이받침/연결을갖고있음."
+      },
+      {
+        "id": "L06",
+        "status": "NOT_APPLICABLE",
+        "observation": "건물실내미노출. 앞단면의격자있는빗물배수공간은보행실내나추가출구로계획하지않음."
+      },
+      {
+        "id": "L07",
+        "status": "UNCERTAIN",
+        "observation": "B둥근모서리와A앞문턱의접지는보임. 뒤쪽기단일부가림과차양/턱의짧은선으로전부공통축확정은불가. 물리콜리전미검증때문이아님."
+      },
+      {
+        "id": "S01",
+        "status": "PASS",
+        "observation": "쿨톤벽면/넓은색면·인접톤변화와선택적박리,네온과따뜻한창구분."
+      },
+      {
+        "id": "S02",
+        "status": "PASS",
+        "observation": "기계/입구에세부집중,도로와벽면의넓은여백. 젖은노면의반사잔결은전면오염무늬와구분."
+      },
+      {
+        "id": "S03",
+        "status": "PASS",
+        "observation": "입체와평면표면표현공존. 넓은반사영역과매트한구간이구분되고양각붓자국/플라스틱통일없음."
+      },
+      {
+        "id": "S04",
+        "status": "PASS",
+        "observation": "A4층과후퇴테라스,B2층곡면,차량/통로/기계의부피와접지가읽힘. 3면도/메시보증아님."
+      },
+      {
+        "id": "W01",
+        "status": "PASS",
+        "observation": "외벽서비스하우징/재배관과도시배수·전력시설이이어짐. 원본외골격인물없음."
+      },
+      {
+        "id": "W02",
+        "status": "PASS",
+        "observation": "외벽보수면·노후도장·교체설비와유지되는창조명이함께읽힘. 신품SF도시만그리지않음."
+      },
+      {
+        "id": "W03",
+        "status": "PASS",
+        "observation": "옥상열교환과외벽서비스모듈/단면시설에기계존재. 작은표시등만추가한것은아님. 미지정정량비율없음."
+      },
+      {
+        "id": "W04",
+        "status": "PASS",
+        "observation": "A/B모두지상사람용닫힌입구확인,맵출구와별도."
+      },
+      {
+        "id": "W05",
+        "status": "PASS",
+        "observation": "A상부큰서비스코어+냉각장치/후퇴부차양·정비공간,B옥상열교환+접근데크가넓은기능점유를형성. 계획40~80%와대응하는시각적추정이며정확면적계측은아님."
+      },
+      {
+        "id": "R01",
+        "status": "PASS",
+        "observation": "도심/밤쿨톤/젖은도로/시안·마젠타네온/4층A·2층B/승용차1대. 최종선택1장."
+      },
+      {
+        "id": "R02",
+        "status": "PASS",
+        "observation": "직전고철상의대형케이스/황무지마당과달리층별후퇴도시건물/연속도로굽이/차량/도시배수전력단면. 과거시가지의ㄱ자날개·기계2층과도현재후퇴4층/2층곡면이구분됨."
+      }
+    ],
+    "collision_validation_required": false
+  },
+  "stop_reason": "Reconstructed common geometry once; C02/C04 remain uncertain and no new verified geometry control strategy. Preserve limits without pass claim."
+}

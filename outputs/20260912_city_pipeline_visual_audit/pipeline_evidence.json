@@ -1,0 +1,112 @@
+{
+  "audit_date": "2026-09-12",
+  "audit_scope": "read-only project/run/visual analysis; only new audit artifacts written",
+  "trials": [
+    {
+      "run": "outputs/20260912_121353_city_two_cars_appliances",
+      "actual_argument_keys": [
+        "prompt",
+        "referenced_image_paths"
+      ],
+      "prompt_characters": 10396,
+      "prompt_whitespace_words": 1466,
+      "inputs": [
+        "/Users/hyojinnoh/Documents/Codex/GameConcept_Codex/outputs/20260912_121353_city_two_cars_appliances/structure_guide.png",
+        "/Users/hyojinnoh/Documents/Codex/GameConcept_Codex/refs/master02/layout_two_exits.png",
+        "/Users/hyojinnoh/Documents/Codex/GameConcept_Codex/refs/master03/ldi_10_storefront_style_anchor.png",
+        "/Users/hyojinnoh/Documents/Codex/GameConcept_Codex/refs/master04/world_02_heavy_mechanical_arms.png",
+        "/Users/hyojinnoh/Documents/Codex/GameConcept_Codex/refs/style_support/brush_planes_reference.jpg"
+      ],
+      "guide_sha256": "f3bbf5804b83776c4520984afba39a8211c38439370980ecf236f67cefdce7c3",
+      "recorded_status": "needs_revision",
+      "selected_for_delivery": false,
+      "image_sha256": "70c5c69733c31811f60a1da42d6981ce95faba39cdc567c26603481c4400aac0"
+    },
+    {
+      "run": "outputs/20260912_121353_city_two_cars_appliances_geometry_rebuild",
+      "actual_argument_keys": [
+        "prompt",
+        "referenced_image_paths"
+      ],
+      "prompt_characters": 11226,
+      "prompt_whitespace_words": 1581,
+      "inputs": [
+        "/Users/hyojinnoh/Documents/Codex/GameConcept_Codex/outputs/20260912_121353_city_two_cars_appliances_geometry_rebuild/structure_guide.png",
+        "/Users/hyojinnoh/Documents/Codex/GameConcept_Codex/refs/master03/ldi_10_storefront_style_anchor.png",
+        "/Users/hyojinnoh/Documents/Codex/GameConcept_Codex/refs/master04/world_02_heavy_mechanical_arms.png",
+        "/Users/hyojinnoh/Documents/Codex/GameConcept_Codex/refs/style_support/brush_planes_reference.jpg"
+      ],
+      "guide_sha256": "f3bbf5804b83776c4520984afba39a8211c38439370980ecf236f67cefdce7c3",
+      "recorded_status": "needs_revision",
+      "selected_for_delivery": false,
+      "image_sha256": "e5b839cadc3f158773bea63e7a1f42b57415277e3679a55ed3eb9b4d9af173e2"
+    },
+    {
+      "run": "outputs/20260912_121353_city_two_cars_appliances_guide_only_rebuild",
+      "actual_argument_keys": [
+        "prompt",
+        "referenced_image_paths"
+      ],
+      "prompt_characters": 6926,
+      "prompt_whitespace_words": 976,
+      "inputs": [
+        "/Users/hyojinnoh/Documents/Codex/GameConcept_Codex/outputs/20260912_121353_city_two_cars_appliances_guide_only_rebuild/structure_guide.png"
+      ],
+      "guide_sha256": "f3bbf5804b83776c4520984afba39a8211c38439370980ecf236f67cefdce7c3",
+      "recorded_status": "needs_revision",
+      "selected_for_delivery": true,
+      "image_sha256": "a3cf706a2c19357575e6f70e16e89145ebef2de55221f46023a9f8f6ac6b0175"
+    }
+  ],
+  "existing_final_record_status_counts": {
+    "needs_revision": 31,
+    "uncertain": 17,
+    "candidate_pass": 16,
+    "structural_pass_with_art_reservations": 1,
+    "candidate_pass_for_requested_edit": 1,
+    "generated_and_reviewed": 2,
+    "generated_and_reviewed_with_surface_density_note": 1,
+    "temporary_test_generated_and_reviewed": 1,
+    "candidate_pass_with_style_caveat": 1
+  },
+  "existing_today_final_status_counts": {
+    "needs_revision": 6,
+    "uncertain": 5
+  },
+  "existing_today_result_status_counts": {
+    "uncertain": 5,
+    "needs_revision": 17,
+    "generation_failed": 1
+  },
+  "statistics_caveat": "Stored historical judgments, not fresh image re-evaluations or success-rate estimate; generation_failed entries excluded when counting generated results.",
+  "current_tool_contract_observed": {
+    "tool": "image_gen.imagegen",
+    "fields": [
+      "prompt",
+      "referenced_image_paths",
+      "num_last_images_to_include"
+    ],
+    "no_exposed_fields": [
+      "reasoning_effort",
+      "quality",
+      "seed",
+      "model",
+      "mask",
+      "reference_weights"
+    ],
+    "returned_model": "unconfirmed",
+    "ultra_backend_mapping": "unconfirmed"
+  },
+  "official_sources": [
+    {
+      "url": "https://learn.chatgpt.com/docs/models#know-when-to-use-max-or-ultra",
+      "fetched": true,
+      "supports": "reasoning effort and Ultra use of parallel subagents"
+    },
+    {
+      "url": "https://developers.openai.com/api/docs/guides/image-generation#limitations",
+      "fetched": true,
+      "supports": "general image model consistency and composition limitations; not identity/configuration of current native backend"
+    }
+  ]
+}

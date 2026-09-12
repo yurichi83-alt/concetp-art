@@ -1,0 +1,1 @@
+Observed C04 failure authorizes whole-geometry correction. Same actually-inspected guide copied unchanged; all original large forms/requested4and2floors/car/wetneon/twoexits preserved. Three locally inspected inputs:guide/M03-10/M04-02, within confirmed5limit. No earlier generated result as geometry. Actual PNG must be reviewed.

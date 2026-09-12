@@ -1,8 +1,8 @@
 {
   "project_name": "GameConcept_Codex",
-  "package_version": "1.7.0",
-  "master_version": "2.7",
-  "execution_rules_version": "1.8",
+  "package_version": "1.8.0",
+  "master_version": "2.8",
+  "execution_rules_version": "1.9",
   "created_date": "2026-09-09",
   "purpose": "Keyword-driven game environment concept images. Not an app-development task.",
   "primary_language": "ko",
@@ -47,7 +47,7 @@
     "M04-04",
     "M04-08"
   ],
-  "generation_reference_selection": "Masters 01-04 v2.7: preserve the original 19 and 5 scoped LDI architectural supplements, plus 3 user-added optional references (27 master images). Select a small role-labeled set; for a new scene balance composition/layout, architectural rendering and a Master04 world-design image before redundant style images or generated-result examples. M03-10 remains representative; select an additional scene-relevant LDI supplement when capacity allows. Consult docs/05_GENERATION_RULES.md for tool limits and scoped result reuse. M01/M02 govern basic geometry, mandatory single orthographic projection, perpendicular boundaries and continuous walking volumes. Compare final art to a scene-specific structure guide. M02 supplies functional direction/connectivity, not fixed gate locations; main straight building structure follows common XY axes; grounded curved walls are allowed with clear visual boundaries; roof surfaces and curve tangents are inspected separately. The mandatory orthographic rule overrides every reference camera including M01; geometry references govern base/framing/connectivity; art and world references exclude their own camera/layout. A supplied guide is a visual cue, not a hard geometric constraint. M03-16/M03-17/M04-08 are scoped optional masters. Explicit filename/ID selection applies to the current request; registration alone does not change global priorities, the LDI rendering baseline or Salvage Cyberpunk world, or mandate cassette futurism in every image. Apply Master03 v2.2 clean broad planes and sparse broad flat directional brushwork even on intact surfaces. B03-01 is optional surface-only support, never a new global priority; B03-02/03/04 are approved surface comparison examples, not automatic generation inputs or geometry anchors. Record the actual inputs and their assigned roles. F-01~07 are optional large-form/facade-depth references, not camera or rendering references; do not submit all seven by default. F-08~11 are form comparison examples only, not automatic generation inputs; preserve their needs_revision QA and do not promote their geometry.",
+  "generation_reference_selection": "Use the unchanged role-scoped reference catalog in docs/10_CURRENT_REFERENCES.md under masters v2.8 / Master03 body v2.3. M01/M02 govern base/framing/connectivity, mandatory orthographic projection overrides all source cameras; M03 governs LDI-derived rendering and broad flat brushwork; M04 governs Salvage Cyberpunk functional design. Preserve M03-10/M04-02 priorities and existing optional/comparison-only permissions. Plan a small scene-relevant set under the observed tool contract, not all catalog images. During corrections retain visual support for art/world/large form; removing all art inputs is not the default geometry repair. Record actual inspected and submitted inputs separately and map each requirement to an exact prompt clause and role reference or explicit text-only rationale. Follow docs/05_GENERATION_RULES.md for execution and evidence.",
   "immutable_reference_images": true,
   "not_a_codex_runtime_config": true,
   "limits": "Reference instructions guide image generation but do not guarantee geometry. Original master style/world must not be changed by interpreting a preferred example as replacement.",
@@ -73,8 +73,8 @@
     ]
   },
   "world_setting": "Salvage Cyberpunk",
-  "auto_regenerate_scope": "observed_structural_errors_only",
-  "requested_scene_count_semantics": "final_deliverables; structural correction attempts are preserved separately",
+  "auto_regenerate_scope": "observed_failures_of_explicit_master_or_current_request_requirements",
+  "requested_scene_count_semantics": "final_deliverables; corrective attempts are preserved separately, not extra taste variants",
   "structural_correction_policy": {
     "approval_id": "structural_auto_correction_20260909",
     "reference": "docs/05_GENERATION_RULES.md",
@@ -93,7 +93,7 @@
     ],
     "requires_actual_image_review": true,
     "stop_on": [
-      "structural_checks_pass",
+      "structural_subchecks_pass_but_continue_full_quality_review",
       "user_stop",
       "tool_unavailable_or_limit",
       "cannot_inspect_output",
@@ -108,13 +108,15 @@
       "master_update",
       "file_organization"
     ],
-    "pass_gate": "All applicable structural checks including mandatory final orthographic projection PASS; any FAIL => needs_revision; critical uncertainty => uncertain.",
+    "pass_gate": "C/L structural subgate only: all applicable structural checks PASS. Overall completion additionally requires every applicable S/W/R and current-request requirement PASS; see generation_quality_policy.",
     "global_geometry_fault_strategy": "Rebuild common structure without preserving faulty geometry; zoom-out alone is not geometry correction. Retain the intended large-form design (curves, projections, L wings and mechanical storeys) while rebuilding its common projection; do not flatten every design into boxes.",
     "evidence_reinforcement_approval_id": "master_update_20260910_v2_4",
     "projection_approval_id": "master_update_20260911_v2_5",
-    "form_approval_id": "master_update_20260912_v2_7_architecture_forms"
+    "form_approval_id": "master_update_20260912_v2_7_architecture_forms",
+    "scope": "Structural subpolicy; overall completion and stopping are governed by generation_quality_policy.",
+    "overall_policy_approval_id": "master_update_20260912_v2_8_pipeline_quality"
   },
-  "master_update_approval_id": "master_update_20260912_v2_7_architecture_forms",
+  "master_update_approval_id": "master_update_20260912_v2_8_pipeline_quality",
   "scene_interpretation": "New location keywords redesign building function, masses, layout, paving and subsurface infrastructure under unchanged spatial constraints; do not inherit prior scene-only props, weather or the same cutaway design. Explicit edits preserve the requested aspects of their target. Interpret city, alley, market by distinct building purposes, silhouettes/depth and street relationships. L shape, second-storey machinery, 40%/20%, half-size upper home, building counts, poles/cars, lighting/palette are current-request values only. Two outputs require independently designed visible forms and layout, not just mirrors or recoloring; no fixed variation count.",
   "approved_ldi_supplement_ids": [
     "M03-11",
@@ -250,7 +252,6 @@
       "W04",
       "W05"
     ],
-    "structural_auto_correction_scope_changed": false,
     "role_scope_clarification_approval_id": "master_update_20260910_v2_3",
     "form_approval_id": "master_update_20260912_v2_7_architecture_forms",
     "design_order": [
@@ -259,7 +260,9 @@
       "surface_depiction"
     ],
     "form_options": "Choose purpose-driven L/T/U wings, unequal widths/heights, setbacks/projections, deep openings, stairs, balconies, decks, supported curved housings and roof profiles. Use only suitable choices; no mandatory feature bundle or fixed number of variants.",
-    "mechanical_storey": "When requested or functionally appropriate, machinery may form a cladding shell, frame, plant annex or an entire nonhabitable storey. A mechanical second storey is that storey itself, not a residential second storey plus rooftop props. Ground-level human access remains building-specific."
+    "mechanical_storey": "When requested or functionally appropriate, machinery may form a cladding shell, frame, plant annex or an entire nonhabitable storey. A mechanical second storey is that storey itself, not a residential second storey plus rooftop props. Ground-level human access remains building-specific.",
+    "quality_policy_approval_id": "master_update_20260912_v2_8_pipeline_quality",
+    "preservation": "Compare useful silhouette and medium-scale functional depth (projecting housings, recesses, supports, decks) before/after correction. Storey count, color and existence of grilles alone do not establish preserved character."
   },
   "architectural_design_revision": "2026-09-12-architecture-forms",
   "functional_exit_policy": {
@@ -305,16 +308,18 @@
   },
   "generation_prompt_template": "templates/generation_prompt.md",
   "execution_prompt_policy": {
-    "approval_id": "master_update_20260910_v2_4",
+    "approval_id": "master_update_20260912_v2_8_pipeline_quality",
     "order": [
       "STRUCTURE",
       "CURRENT_SCENE",
       "ART_AND_REFERENCE_ROLES"
     ],
-    "compile": "Remove history and duplicate explanation; retain every applicable requirement through a coverage ledger. Do not append all master documents verbatim.",
+    "compile": "Use one run-specific requirements ledger: original condition/source, positive and forbidden visible evidence, exact submitted prompt clauses, assigned references or text-only reason, actual-image observations and preservation verdict. Remove historical and duplicated prose, never omit an applicable condition to meet an invented length limit.",
     "hard_character_or_token_budget": null,
     "record": "Exact submitted prompt, character/UTF-8 byte counts, actual reference paths/count/roles, confirmed tool contract and unknown limits separately.",
-    "independent_outputs": "When the user requests independent variants, each starts from masters and its own scene plan; never feed one generated variant into the other."
+    "independent_outputs": "When the user requests independent variants, each starts from masters and its own scene plan; never feed one generated variant into the other.",
+    "ledger": "requirements.json",
+    "stale_copy_policy": "Write one current value per run. Regenerate reference lists and reasons from the actual current inputs; do not append corrections to stale copied tables."
   },
   "geometry_review_policy": {
     "approval_id": "master_update_20260910_v2_4",
@@ -343,10 +348,15 @@
       "token_budget",
       "revised_prompt",
       "reference_weights",
-      "referenced_image_paths_hard_limit"
+      "referenced_image_paths_hard_limit",
+      "image_quality",
+      "seed",
+      "region_masks",
+      "ultra_to_image_backend_mapping"
     ],
     "limits_source": "Record the current tool contract. The documented maximum of 5 for num_last_images_to_include must not be transferred to referenced_image_paths.",
-    "no_truncation_claim_without_evidence": true
+    "no_truncation_claim_without_evidence": true,
+    "runtime_config_boundary": "project.json is workflow data, not native model configuration. Do not invent model/quality/seed/reasoning/weight/mask parameters absent from the current tool contract."
   },
   "latest_reassessments": [
     {
@@ -354,6 +364,12 @@
       "review_path": "outputs/20260910_140555_scrapyard_geometry_recheck/recheck.json",
       "status": "needs_revision",
       "role": "diagnostic_only; supersedes prior candidate_pass without rewriting original records"
+    },
+    {
+      "review_path": "outputs/20260912_city_pipeline_visual_audit/reassessment.json",
+      "status": "needs_revision",
+      "scope": "S03 only for the three 20260912_121353 city candidates; other prior verdicts are not replaced by this partial reassessment",
+      "role": "diagnostic_only; preserve original reviews and images, no positive reference promotion"
     }
   ],
   "reference_catalog_revision": "2026-09-12-architecture-form-01",
@@ -363,7 +379,7 @@
     "M04-08",
     "M03-17"
   ],
-  "visual_style_component_version": "2.2",
+  "visual_style_component_version": "2.3",
   "optional_surface_style_ids": [
     "B03-01"
   ],
@@ -408,7 +424,17 @@
       "B03-04"
     ],
     "geometry_approval_from_examples": false,
-    "auto_regeneration_scope_changed": false
+    "quality_policy_approval_id": "master_update_20260912_v2_8_pipeline_quality",
+    "required_positive_and_negative_checks": true,
+    "actual_image_surface_review": [
+      "intact_walls",
+      "machine_housings",
+      "vehicle_bodies",
+      "asphalt",
+      "light_paving"
+    ],
+    "surface_review_scope": "Inspect each present surface independently, whole view plus close view. Missing scene surfaces are explained N/A; hidden/unclear evidence is not PASS.",
+    "ripple_judgment": "Fail visually wavy thin stains/scratches, repeating crack stamps or rough-glass-like patterns regardless of whether literal water, glass, displacement or a shader can be proved. Broad brush color, selective large damage and sparse paper litter remain distinct."
   },
   "optional_architecture_form_ids": [
     "F-01",
@@ -448,5 +474,124 @@
     "geometry_approval_from_examples": false,
     "default_reference_priorities_changed": false,
     "new_fixed_curve_counts_radii_or_scene_values": false
+  },
+  "requirements_template": "templates/requirements.json",
+  "generation_quality_policy": {
+    "approval_id": "master_update_20260912_v2_8_pipeline_quality",
+    "reference": "docs/05_GENERATION_RULES.md",
+    "qa_reference": "docs/06_QA.md",
+    "required_check_ids": [
+      "C01",
+      "C02",
+      "C03",
+      "C04",
+      "L01",
+      "L02",
+      "L03",
+      "L04",
+      "L05",
+      "L06",
+      "L07",
+      "S01",
+      "S02",
+      "S03",
+      "S04",
+      "W01",
+      "W02",
+      "W03",
+      "W04",
+      "W05",
+      "R01",
+      "R02",
+      "R03"
+    ],
+    "overall_pass": "Every applicable required check and explicit current-request requirement must PASS with actual-image evidence; explained N/A is permitted. Structural improvement cannot compensate for form, surface, world or request failure.",
+    "candidate_pass_status": "candidate_pass",
+    "failure_status": "needs_revision",
+    "uncertainty_status": "uncertain",
+    "unreviewed_status": "not_reviewed",
+    "auto_correct_in": [
+      "generation",
+      "edit_existing",
+      "own_correction"
+    ],
+    "auto_correct_scope": "Observed FAIL of explicit approved masters/current-request requirements, including C/L/S/W/R. Reinspect after each repair; no additional approval for such corrections.",
+    "excluded_requests": [
+      "analysis",
+      "review_only",
+      "master_update",
+      "file_organization"
+    ],
+    "taste_only_variants_auto_authorized": false,
+    "completion_stop": "all_applicable_required_checks_and_requirements_pass",
+    "incomplete_stop_reasons": [
+      "user_stop",
+      "tool_unavailable_or_limit",
+      "cannot_inspect_output",
+      "repeated_fault_without_new_corrective_strategy"
+    ],
+    "incomplete_is_not_complete": true,
+    "stop_details": "docs/05_GENERATION_RULES.md",
+    "review_views": [
+      "whole_image",
+      "applicable_surface_closeups"
+    ],
+    "review_roles": [
+      "structure",
+      "art_and_surface",
+      "current_request_and_preservation"
+    ],
+    "review_independence": "When subagents are available split bounded roles. Art reviewer compares references and actual image before reading prior verdicts; otherwise use separate sequential passes.",
+    "auto_master_promotion": false,
+    "external_api_requires_explicit_consent": true
+  },
+  "run_validation_policy": {
+    "approval_id": "master_update_20260912_v2_8_pipeline_quality",
+    "enabled_for_new_runs": true,
+    "retrospective": false,
+    "ledger_template": "templates/requirements.json",
+    "ledger_filename": "requirements.json",
+    "validator": "scripts/validate_run.py",
+    "stages": [
+      "preflight",
+      "review",
+      "selection"
+    ],
+    "image_judgment_automated": false,
+    "pass_meaning": "Record links are consistent; a truthful needs_revision/uncertain delivery can pass record validation. This does not certify image quality or enforce native image generation."
+  },
+  "candidate_selection_policy": {
+    "approval_id": "master_update_20260912_v2_8_pipeline_quality",
+    "reference": "docs/06_QA.md",
+    "comparison_dimensions": [
+      "structure",
+      "large_form",
+      "facade_depth",
+      "surface",
+      "light_material",
+      "world",
+      "request"
+    ],
+    "newest_is_automatically_best": false,
+    "required_regression_check": "R03",
+    "compare_every_candidate_in_current_request_chain": true,
+    "no_quality_tradeoff_for_complete_status": true,
+    "incomplete_delivery": "If no candidate passes all required criteria, preserve actual status and unresolved failures plus stop/selection reasons. Archiving in outputs/final is not approval."
+  },
+  "correction_preservation_policy": {
+    "approval_id": "master_update_20260912_v2_8_pipeline_quality",
+    "ledger": "requirements.json",
+    "check_id": "R03",
+    "record_before_repair": [
+      "target_failures",
+      "preserve_large_functional_volumes",
+      "preserve_facade_depth",
+      "preserve_surface_and_world_roles",
+      "factors_changed",
+      "success_or_failure_observations"
+    ],
+    "strategy": "Rebuild faulty common geometry without preserving its camera errors, while retaining valid design intent and art evidence. If geometry is sound and only surface fails, prefer a focused image edit and recheck for drift. No pixel or shape preservation guarantee.",
+    "guide": "Include useful mid-scale housings, recesses, decks, supports and connectors, not only floor boxes.",
+    "repeated_failure": "Use a distinct corrective strategy with one stated hypothesis and observable criteria; do not repeat the same unproductive request. Calibration tests need a user generation/test request, and 3D work is separate."
   }
 }

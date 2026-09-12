@@ -1,0 +1,212 @@
+{
+  "request_mode": "new_scene",
+  "final_count": 1,
+  "master": "2.7",
+  "execution": "1.8",
+  "camera": {
+    "type": "orthographic",
+    "origin": [
+      650,
+      390
+    ],
+    "X": [
+      24,
+      14
+    ],
+    "Y": [
+      -24,
+      14
+    ],
+    "Z": [
+      0,
+      -29
+    ]
+  },
+  "base": {
+    "width": 20,
+    "depth": 20,
+    "extrusion": 2.7
+  },
+  "units": "planning only; not verified meters",
+  "height_exception": "explicit A4storeys/B2storeys takes precedence over default approx6.5m for this scene only",
+  "A": {
+    "placement": "rear-right",
+    "floors": [
+      {
+        "level": 1,
+        "role": "occupied",
+        "box": [
+          12,
+          1.8,
+          16,
+          5.3,
+          0,
+          2.6
+        ]
+      },
+      {
+        "level": 2,
+        "role": "occupied",
+        "box": [
+          11,
+          0.8,
+          17,
+          6.3,
+          2.6,
+          5.2
+        ]
+      },
+      {
+        "level": 3,
+        "role": "nonresidential machinery",
+        "box": [
+          12.2,
+          1.5,
+          15.6,
+          5.3,
+          5.2,
+          7.8
+        ]
+      },
+      {
+        "level": 4,
+        "role": "occupied",
+        "box": [
+          11.3,
+          0.8,
+          16.8,
+          6.3,
+          7.8,
+          10.4
+        ]
+      }
+    ],
+    "supports": "piers/transferbeams/service spine",
+    "entrance": "closed human door in recessed occupied ground floor",
+    "roof": "top17.1/30.25~56.5% service canopy/cabinet; setback roof service landing with equipment around40~80% visually"
+  },
+  "B": {
+    "placement": "rear-left",
+    "floors": [
+      {
+        "level": 1,
+        "role": "nonresidential machinery",
+        "box": [
+          1,
+          1,
+          5.6,
+          5.8,
+          0,
+          2.8
+        ]
+      },
+      {
+        "level": 2,
+        "role": "occupied rounded upper shell",
+        "box": [
+          0.7,
+          0.7,
+          6.7,
+          6.5,
+          2.8,
+          5.5
+        ]
+      }
+    ],
+    "upper_ground_translation": [
+      -0.3,
+      -0.3
+    ],
+    "supports": "structural frame/brackets, main XY",
+    "entrance": "human service door with enclosed upper access",
+    "roof": "15.3/34.8~44% water/power service cradle/deck; distinct from A"
+  },
+  "routes": [
+    {
+      "direction": "rear-left",
+      "opening": "x0,y10..14",
+      "state": "open street",
+      "approach": "straight cross street from central turn",
+      "sharing": "none; doors are ordinary entries"
+    },
+    {
+      "direction": "rear-right",
+      "opening": "y0,x17.2..19.8",
+      "state": "open service street",
+      "approach": "branch beside A to cross street; opening visible beyond building flank",
+      "sharing": "none"
+    }
+  ],
+  "protected_floor": [
+    [
+      0,
+      10,
+      20,
+      14
+    ],
+    [
+      17.2,
+      0,
+      19.8,
+      14
+    ]
+  ],
+  "vehicles": [
+    {
+      "type": "sedan",
+      "box": [
+        2,
+        16.1,
+        6.5,
+        17.95
+      ]
+    },
+    {
+      "type": "pickup_open_bed",
+      "box": [
+        12,
+        16,
+        17.5,
+        18.05
+      ]
+    }
+  ],
+  "disposal": {
+    "dumpster": [
+      1,
+      7.2,
+      3.2,
+      8.7
+    ],
+    "refrigerator": [
+      3.5,
+      7.4,
+      4.35,
+      8.3
+    ],
+    "washer": [
+      4.6,
+      7.7,
+      5.5,
+      8.6
+    ],
+    "small_waste": [
+      5.6,
+      8.1,
+      6.3,
+      8.8
+    ]
+  },
+  "hydrant": [
+    11,
+    8.9
+  ],
+  "cutaway": "new square rainwater collector and utility manifold/cable channel, not previous three-pipe strip",
+  "roof_coverage_is_plan_only": true,
+  "actual_collision_mesh_UV_verified": false,
+  "guide_is_not_forced_geometry": true,
+  "preflight_adjustment": "Moved rear-right branch to A outer flank to keep transition visually readable; no previous-output input.",
+  "parent_run": "outputs/20260912_121353_city_two_cars_appliances_geometry_rebuild",
+  "mode": "own_structural_correction",
+  "correction_strategy": "한 장의 정사영 가이드만 입력, 다른 이미지 카메라 영향 변수를 제거. 정확한 기단 평행 이동과 오른쪽 끝 개구를 강조. 구조 가이드가 강제3D 제약은 아님."
+}

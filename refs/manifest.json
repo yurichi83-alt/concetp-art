@@ -1076,7 +1076,7 @@
     }
   ],
   "preferred_result_count": 2,
-  "master_version": "2.7",
+  "master_version": "2.8",
   "original_master_image_count": 19,
   "approved_supplement_count": 8,
   "geometry_role_clarification_approval_id": "master_update_20260910_v2_3",
@@ -1091,5 +1091,6 @@
   "scoped_positive_reference_semantics": "Scoped positive references approve only their approved_aspects, never whole-image geometry. Separately count 27 masters, 4 surface supports, 7 architecture-form references and 4 architecture-form comparison examples. Respect generation_input_allowed and keep default priorities unchanged.",
   "architecture_form_approval_id": "master_update_20260912_v2_7_architecture_forms",
   "architecture_form_reference_count": 7,
-  "architecture_form_example_count": 4
+  "architecture_form_example_count": 4,
+  "pipeline_quality_approval_id": "master_update_20260912_v2_8_pipeline_quality"
 }

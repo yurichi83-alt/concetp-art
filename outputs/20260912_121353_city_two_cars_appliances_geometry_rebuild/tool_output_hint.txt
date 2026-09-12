@@ -1,0 +1,3 @@
+Generated images are saved to /Users/hyojinnoh/.codex/generated_images/01a08610-9124-7bd1-9961-9126ad377251 as /Users/hyojinnoh/.codex/generated_images/01a08610-9124-7bd1-9961-9126ad377251/exec-e9e57d94-da7e-46eb-91dd-74d34100d8d6.png by default.
+If you need to use a generated image at another path, copy it and leave the original in place unless the user explicitly asks you to delete it.
+The generated image is already displayed to the user. There is no need to render it in the final response as a Markdown image or file link.

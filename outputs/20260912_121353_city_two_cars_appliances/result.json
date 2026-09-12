@@ -1,0 +1,26 @@
+{
+  "status": "needs_revision",
+  "selected_for_delivery": false,
+  "master_promoted": false,
+  "actual_png_opened": true,
+  "image": {
+    "path": "outputs/20260912_121353_city_two_cars_appliances/image.png",
+    "dimensions": [
+      1280,
+      1229
+    ],
+    "sha256": "70c5c69733c31811f60a1da42d6981ce95faba39cdc567c26603481c4400aac0",
+    "bytes": 2128773
+  },
+  "generation": {
+    "tool": "image_gen.imagegen",
+    "source_path": "/Users/hyojinnoh/.codex/generated_images/01a08610-9124-7bd1-9961-9126ad377251/exec-21d5f2fb-bef6-40b7-ba17-1162e833f4bd.png",
+    "actual_input_count": 5,
+    "model": "unconfirmed",
+    "tokens": "unconfirmed",
+    "internal_revised_prompt": "unconfirmed",
+    "external_api_used": false
+  },
+  "review": "outputs/20260912_121353_city_two_cars_appliances/review.md",
+  "next_run": "outputs/20260912_121353_city_two_cars_appliances_geometry_rebuild"
+}

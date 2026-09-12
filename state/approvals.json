@@ -1,6 +1,6 @@
 {
   "schema_version": 1,
-  "master_version_approved": "2.7",
+  "master_version_approved": "2.8",
   "generated_style_anchor": null,
   "entries": [
     {
@@ -531,9 +531,47 @@
       "existing_original_reference_bytes_preserved": true,
       "snapshot_path": "state/history/20260912_master_v2_7_architecture_forms",
       "update_record_path": "outputs/20260912_master_v2_7_update"
+    },
+    {
+      "approval_id": "master_update_20260912_v2_8_pipeline_quality",
+      "date": "2026-09-12",
+      "status": "approved",
+      "user_confirmation": "좋아 분석 보고서 내용 마스터,생성 규칙, 설정에 전부 반영해줘",
+      "proposal_path": "outputs/20260912_city_pipeline_visual_audit/pipeline_analysis_ko.md",
+      "scope": "Apply approved pipeline audit across project-local masters, execution, skill, templates, settings and record validation.",
+      "approved_aspects": [
+        "single_requirement_to_prompt_reference_observation_ledger",
+        "retain_large_form_and_functional_depth_during_repairs",
+        "positive_brushwork_and_negative_surface_checks",
+        "independent_whole_and_closeup_quality_review",
+        "R03_same_scene_preservation_and_regression",
+        "all_required_domains_completion_gate",
+        "automatic_correction_of_observed_explicit_master_or_current_request_failures_in_generation_and_edit_tasks",
+        "candidate_comparison_and_honest_incomplete_stop",
+        "read_only_run_record_validation"
+      ],
+      "not_approved_aspects": [
+        "new_image_generation_in_this_update",
+        "new_global_or_native_model_configuration",
+        "external_api_installation_or_payment",
+        "automatic_taste_variants",
+        "reference_image_or_role_promotion",
+        "historical_QA_rewrite",
+        "3d_mesh_collider_or_uv_validation",
+        "git_commit_or_push_in_this_update"
+      ],
+      "master_version": "2.8",
+      "execution_rules_version": "1.9",
+      "visual_style_component_version": "2.3",
+      "package_version_after": "1.8.0",
+      "reference_catalog_revision": "2026-09-12-architecture-form-01",
+      "reference_images_changed": false,
+      "historical_qa_preserved": true,
+      "snapshot_path": "state/history/20260912_master_v2_8_pipeline_quality",
+      "update_record_path": "outputs/20260912_master_v2_8_pipeline_update"
     }
   ],
-  "note": "Current master2.7 / execution1.8. Architecture-form update approved; 27 core masters, 4 surface supports, 7 optional form references and 4 form-comparison examples are separate. Ground building curves allowed; actual collision validation excluded from current image acceptance. Orthographic geometry, LDI expression, Salvage Cyberpunk and prior QA remain. Earlier entries and pre-update root metadata preserved in snapshot.",
+  "note": "Current master2.8 / execution1.9 / Master03 body2.3. User approved audit recommendations across local masters, rules and settings, including automatic correction of observed explicit quality requirements in generation/edit requests. Original/reference catalog, scoped roles and historical QA remain; no new positive image approval or native/global configuration change.",
   "preferred_generated_results": [
     "A-01",
     "A-02"

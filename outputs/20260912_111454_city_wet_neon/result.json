@@ -1,0 +1,17 @@
+{
+  "status": "needs_revision",
+  "selected_for_delivery": false,
+  "image": {
+    "path": "outputs/20260912_111454_city_wet_neon/image.png",
+    "dimensions": [
+      1254,
+      1254
+    ]
+  },
+  "review": {
+    "actual_png_opened": true,
+    "path": "outputs/20260912_111454_city_wet_neon/review.md",
+    "failure": "C04 shared projection mismatch"
+  },
+  "next_run": "outputs/20260912_111454_city_wet_neon_geometry_rebuild"
+}

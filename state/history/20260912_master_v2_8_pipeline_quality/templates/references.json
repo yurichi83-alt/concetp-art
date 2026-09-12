@@ -1,0 +1,152 @@
+{
+  "run_id": "",
+  "masters_version": "2.7",
+  "execution_rules_version": "1.8",
+  "request_group_id": null,
+  "scene_id": null,
+  "independent_new_scenes_requested": false,
+  "own_correction_parent_run": null,
+  "other_independent_scene_outputs_excluded": [],
+  "inspected_for_planning": [],
+  "submitted_to_generation": [],
+  "delivery_status": "not_submitted",
+  "delivery_mechanism": null,
+  "actual_submitted_image_count": null,
+  "actual_count_is_not_a_hard_limit": true,
+  "note": "Record actual delivery, not prose paths or inspection alone. Each submitted entry includes id, path/source, input index when exposed, role, camera/layout/content exclusions, delivery status and any scoped approval. Keep geometry01/02, art03 and world04 sufficiently represented; explain omissions rather than adding redundant sources. A reference camera exclusion is an instruction, not a confirmed weight/mask control.",
+  "reference_role_mapping": {
+    "geometry_projection_inputs": [],
+    "art_expression_inputs": [],
+    "world_design_inputs": [],
+    "edit_target_input": null,
+    "role_balance_and_selection_reason": "",
+    "camera_rule": "Final orthographic projection is mandatory and overrides every reference camera including M01. M01/M02 structure informs base/framing/connectivity; art/world images supply only approved aspects and exclude camera/layout.",
+    "ldi_supplement_scope": "M03-11~15: architecture/materials/lighting/color only; exclude nature, world/story, characters, vehicles, camera/layout, UI/text and source shop identity. M03-12: building only, excluding trees/grass/forest/natural ground. This is not a project-wide vegetation ban.",
+    "user_added_reference_scope": "M03-16: architectural masses/color/value/material simplification only, not confirmed LDI; exclude source camera/world/layout. M04-08: varied retro casings/analog controls/modular joins, adapted to Salvage Cyberpunk and Master03 finish; retain existing green-CRT exclusion. Named selections apply to the current request without promoting global defaults. M03-17: architectural proportions, roof silhouettes, faded color planes and selective paint peeling only; exclude source perspective, vertical overcrowding and coastal scene content. Main building placement and straight structure share common XY, with permitted ground-level curves under v2.7; square-base/orthographic/roof-support requirements remain mandatory.",
+    "surface_style_support_inputs": [],
+    "surface_style_scope": "Master03 v2.2: broad clean base-color planes plus sparse broad directional flat nearby-tone brushwork, also on intact areas and separate from damage. M03-10 stays representative. B03-01 may be selected for surface-only support; B03-02/03/04 are comparison-only, not automatic generation inputs. Do not transfer their camera/layout/night/palette or promote geometry. Record actual submitted images and roles only.",
+    "architecture_form_inputs": [],
+    "architecture_form_comparisons_inspected": [],
+    "architecture_form_scope": {
+      "approval_id": "master_update_20260912_v2_7_architecture_forms",
+      "F01_to_F07": {
+        "role": "scoped_architecture_form",
+        "generation_input_allowed": true,
+        "default_generation_input": false,
+        "scope": "Selected large silhouette, facade depth, additions and architectural/equipment relationships only; choose by current scene and record actual input index.",
+        "exclusions": [
+          "source camera and full layout",
+          "fine or photoreal texture density",
+          "neon theme",
+          "extreme height",
+          "floating water base",
+          "source signs/names/people"
+        ],
+        "source_authorship": "unconfirmed; do not classify as LDI"
+      },
+      "F08_to_F11": {
+        "role": "scoped_architecture_example",
+        "generation_input_allowed": false,
+        "default_generation_input": false,
+        "geometry_approved": false,
+        "existing_qa_status": "needs_revision",
+        "scope": "Comparison of approved form traits only. Preserve source image/review and do not inherit projection, layout, route occlusion, quantitative ratio or full-image approval.",
+        "later_explicit_request": "A later user-specified edit/reference is a separate scoped request; this comparison approval does not authorize submission."
+      },
+      "preserve_roles": "Keep core masters27, surface support4 and architecture groups separate; do not submit all7 or drop01/02,03,04 roles to make room."
+    }
+  },
+  "omitted_references_and_reasons": [],
+  "scoped_result_approval": null,
+  "tool_contract": {
+    "checked_at": null,
+    "tool_name": null,
+    "contract_source": null,
+    "selected_image_parameter": null,
+    "confirmed_contract_facts_with_evidence": [],
+    "parameter_specific_limits": {
+      "referenced_image_paths_max_count": {
+        "status": "unknown",
+        "value": null,
+        "evidence": null
+      },
+      "num_last_images_to_include_max_count": {
+        "status": "unknown_until_current_contract_checked",
+        "value": null,
+        "evidence": null
+      },
+      "prompt_text_max_length": {
+        "status": "unknown",
+        "value": null,
+        "unit": null,
+        "evidence": null
+      }
+    },
+    "limit_scope_note": "If the current contract specifies recent-conversation selection max5, that fact applies only to num_last_images_to_include. Do not infer the same maximum for referenced_image_paths. An actual5-image call establishes usage only.",
+    "supported_input_formats_verified": [],
+    "unexposed_or_unverified": {
+      "internal_token_budget": "unknown",
+      "reference_weights": "unknown",
+      "per_reference_camera_exclusion_control": "unknown",
+      "masks_coordinates_depth_normals_seed_control": "unknown",
+      "internal_prompt_rewriting": "unknown"
+    }
+  },
+  "submitted_prompt": {
+    "path": "generation_prompt.md",
+    "saved_text_matches_actual_argument": "not_submitted",
+    "section_order": [
+      "STRUCTURE MUST KEEP",
+      "CURRENT SCENE",
+      "ART / REFERENCE ROLES"
+    ],
+    "character_count": null,
+    "character_count_method": null,
+    "utf8_byte_count": null,
+    "utf8_byte_count_method": null,
+    "whitespace_word_count": null,
+    "word_count_method": null,
+    "returned_token_usage": null,
+    "returned_model_info": null,
+    "returned_revised_prompt": null,
+    "truncation_or_rewrite_evidence": "unknown",
+    "note": "Measure the exact submitted text if reporting statistics. Counts are metadata, not token usage, capacity percentage, proof of no truncation, or proof of compliance. Store model/revised_prompt/token fields only when actually returned; null means unavailable or not yet returned."
+  },
+  "structure_guide": {
+    "path": null,
+    "coordinate_camera_source_path": null,
+    "actual_3d_source_path_if_available": null,
+    "projection_mode": "orthographic_parallel",
+    "selected_camera": null,
+    "projection_specific_final_comparison": null,
+    "inspected": false,
+    "submitted": false,
+    "input_format_verified": false,
+    "role": "scene-specific2D structure reference, not an enforced geometry lock or automatically a positive master",
+    "coordinates_submitted_as_enforced_geometry": false,
+    "roof_planes_and_supports_checked": false,
+    "upper_lower_correspondence_checked": false,
+    "functional_exit_roles_locations_states_recorded": false,
+    "final_base_footing_wall_roof_paving_line_comparison_required": true,
+    "critical_occlusion_is_uncertain": true,
+    "M02_role": "two functional exits on back-left/back-right directions; locations/forms/states variable, building-entry sharing/stairs/landings/ramps/equipment passages allowed, substantial nonbuilding boundaries with visible continuity, no fixed gate or repeated courtyard template",
+    "building_main_placement_and_straight_XY_structure_checked": false,
+    "ground_level_curved_boundaries_grounding_continuity_walk_block_readability_checked": false,
+    "curve_tangents_separated_from_straight_axis_lines": false,
+    "form_and_facade_depth_present_in_guide_not_only_box_positions": false,
+    "straight_axes_curved_boundaries_roof_checks_separate_from_optional_planning_volumes": false,
+    "requested_approved_curves_projections_wings_preserved_during_correction": null,
+    "final_base_paving_footing_storey_floor_shutter_terrace_upper_wall_comparison_required": true,
+    "actual_collision_mesh_UV_validation_in_image_scope": false,
+    "missing_actual_collision_mesh_UV_validation_is_image_failure": false,
+    "visual_grounding_thickness_support_boundary_route_checks_required": true
+  },
+  "reference_catalog_revision": "2026-09-12-architecture-form-01",
+  "reference_catalog_groups": {
+    "original_masters": 27,
+    "surface_style_support": 4,
+    "architecture_form_support": 7,
+    "architecture_form_examples": 4,
+    "note": "Separate catalogs, not a new master total or a new automatic input set. Existing M02/M01/M03-10/M04-02 role priorities remain unchanged."
+  }
+}

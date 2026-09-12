@@ -1,0 +1,56 @@
+{
+  "checked_date": "2026-09-12",
+  "status": "passed",
+  "scope": "Project files, policies and record-contract fixtures, not a new image generation or visual quality test",
+  "checks": [
+    {
+      "name": "package",
+      "command": "python3 scripts/validate_project.py --json",
+      "exit_code": 0,
+      "output": "{\n  \"ok\": true,\n  \"root\": \"/Users/hyojinnoh/Documents/Codex/GameConcept_Codex\",\n  \"master_images\": 27,\n  \"review_only_images\": 3,\n  \"preferred_result_images\": 2,\n  \"scoped_style_support_images\": 4,\n  \"agents_bytes\": 10900,\n  \"architecture_form_reference_images\": 7,\n  \"architecture_form_example_images\": 4,\n  \"errors\": [],\n  \"warnings\": [],\n  \"scope\": \"Files only. No visual or Codex-runtime validation.\"\n}\n"
+    },
+    {
+      "name": "run_tests",
+      "command": "python3 scripts/test_validate_run.py",
+      "exit_code": 0,
+      "output": ".............................................\n----------------------------------------------------------------------\nRan 45 tests in 0.112s\n\nOK\n"
+    },
+    {
+      "name": "skill",
+      "command": "python3 /Users/hyojinnoh/.codex/skills/.system/skill-creator/scripts/quick_validate.py .agents/skills/game-env-art",
+      "exit_code": 0,
+      "output": "Skill is valid!\n"
+    },
+    {
+      "name": "final_copies",
+      "command": "python3 scripts/collect_final_images.py --verify",
+      "exit_code": 0,
+      "output": "VERIFIED: 71 final images; byte-identical copies; no duplicate hashes\n"
+    },
+    {
+      "name": "diff_whitespace",
+      "command": "git diff --check",
+      "exit_code": 0,
+      "output": ""
+    }
+  ],
+  "unit_tests": 45,
+  "project_policy_negative_tests": 6,
+  "reference_preservation": "preservation_validation.json",
+  "policy_negative_test_evidence": "project_policy_tests.json",
+  "document_integration_review": "integration_review_ko.md",
+  "validator_independent_review": "validator_review_ko.md",
+  "image_generation_performed": false,
+  "global_settings_changed": false,
+  "api_or_installation_performed": false,
+  "git_commit_or_push_performed": false,
+  "independent_review": {
+    "document_scenarios": 6,
+    "validator_reproductions": 6,
+    "unresolved_material_findings": 0,
+    "recent_edit_baseline_checked": true
+  },
+  "changed_files": "changed_files.json",
+  "changed_project_file_count": 34,
+  "markdown_links_missing": 0
+}

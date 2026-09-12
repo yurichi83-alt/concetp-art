@@ -1,6 +1,6 @@
 interface:
   display_name: "게임 배경 컨셉"
-  short_description: "마스터 v2.7의 정사영·건축 형태와 깊이·색면·붓터치·최종 검수 적용"
+  short_description: "마스터 v2.8의 형태·붓터치·전체 품질 검수와 보정 전후 보존 적용"
   default_prompt: "Use $game-env-art to create an environment image from the user's scene keywords while preserving the project masters."
 policy:
   allow_implicit_invocation: true

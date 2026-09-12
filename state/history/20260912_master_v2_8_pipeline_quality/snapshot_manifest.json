@@ -1,0 +1,506 @@
+{
+  "purpose": "pre-approved-v2.8-pipeline-quality-update",
+  "files": [
+    {
+      "path": "AGENTS.md",
+      "sha256": "5063ee08bc88953cfa494feeb613d458fa60abc57d1bafa59009d01cc4861f3e",
+      "bytes": 10152
+    },
+    {
+      "path": "START_HERE_KO.md",
+      "sha256": "f82a3de5c403fc3756e1cd5d8986cb3d59892eee03df4b71751c28b4b889a366",
+      "bytes": 7325
+    },
+    {
+      "path": "README_KO.md",
+      "sha256": "d2ce5f2ff23764c165150539fd048304e61c1a88b4514dc3878adce6ec23bf06",
+      "bytes": 7461
+    },
+    {
+      "path": "project.json",
+      "sha256": "3d6174817ad01bd9d64bd829480ec75c7375d0ac1c8e480b029200b62d023f95",
+      "bytes": 24063
+    },
+    {
+      "path": "refs/manifest.json",
+      "sha256": "0ecf22e565e96c7437e52ddbe5594e3f073ec30b01684d1d18614daa339160f3",
+      "bytes": 62271
+    },
+    {
+      "path": "refs/REFERENCE_MAP.md",
+      "sha256": "6b90c1db0bb0f0c9a03d0826a7d24b49442fac08f7454ac344f9ab22ebb8d64e",
+      "bytes": 18822
+    },
+    {
+      "path": "state/approvals.json",
+      "sha256": "aa717461d7eba7b5321514903e51619eac4f77c92391450eed26714dc048611d",
+      "bytes": 26081
+    },
+    {
+      "path": "state/CHANGELOG.md",
+      "sha256": "62fe593f7ecb799d621e48a815b4aa61eb145a43ddb368bac2a804d9cbffb9ab",
+      "bytes": 15721
+    },
+    {
+      "path": "state/package_validation.json",
+      "sha256": "10078c0521401c029854f702ff57960a9e397b926af8c2dc0936563d5dfe6a91",
+      "bytes": 407
+    },
+    {
+      "path": "outputs/README.md",
+      "sha256": "cb6a38f38e65abeef9848165fd927866633f2f1190a283a952134668212e0597",
+      "bytes": 2315
+    },
+    {
+      "path": ".agents/skills/game-env-art/SKILL.md",
+      "sha256": "a7b43501faf31c64e8c20774b9ff670c563d73066d75dcafbb40254f7b6e28e3",
+      "bytes": 8768
+    },
+    {
+      "path": "docs/01_COMPOSITION.md",
+      "sha256": "1bcb9f86a8cc85c7006d6a441a312bed80f1d53e2fea27c39862ae50852540c7",
+      "bytes": 12497
+    },
+    {
+      "path": "docs/06_QA.md",
+      "sha256": "d866fc4c64068257cb13474dafa280f4015cdb4f63a12d0782bc7a56f542b3a5",
+      "bytes": 24072
+    },
+    {
+      "path": "docs/08_COMMANDS.md",
+      "sha256": "93a0e0b31ab25c6bb2e5ff1ae4cf77169dd48e7c03c0b4b808414ee80bebc1d8",
+      "bytes": 6223
+    },
+    {
+      "path": "docs/00_INDEX.md",
+      "sha256": "e3149280a297c110d1aafb3825efb2281324cae54afc4bda446c1af9e51d0c70",
+      "bytes": 6714
+    },
+    {
+      "path": "docs/02_LAYOUT.md",
+      "sha256": "09f52c195f452fe235ff8f2fe1ef603b719962190cdb30e67df9291b50863538",
+      "bytes": 17423
+    },
+    {
+      "path": "docs/10_CURRENT_REFERENCES.md",
+      "sha256": "7279c210f27a36a808ab504e39ede1ff80a43823a03393909d1cf0dd0a3927c5",
+      "bytes": 29740
+    },
+    {
+      "path": "docs/07_CODEX_SETUP.md",
+      "sha256": "c1b00504e981b213dd76a99c4c1527852812e4105b3bac209566fbd6fbd3b0e2",
+      "bytes": 3659
+    },
+    {
+      "path": "docs/04_WORLD_DESIGN_V2.md",
+      "sha256": "fba6435e2fc0f7b3dd890003797d48b32a00d0516dbd3105a389d550da5dd0c9",
+      "bytes": 18433
+    },
+    {
+      "path": "docs/03_VISUAL_STYLE_V2.md",
+      "sha256": "297f995c1bc669776ac8b98d5e7ec8033950a0d809e8ff3e07033be49d53b1c3",
+      "bytes": 18451
+    },
+    {
+      "path": "docs/09_SOURCES.md",
+      "sha256": "edc8d8074a11ad47771906e66e3c0d7533450e1a75ed2e6c26053ff8770fd869",
+      "bytes": 1605
+    },
+    {
+      "path": "docs/05_GENERATION_RULES.md",
+      "sha256": "c324b53e4f383e711a0669db8fc363c8b21ef0bae67e6b28299034fef7144406",
+      "bytes": 28481
+    },
+    {
+      "path": "templates/references.json",
+      "sha256": "a3fbe6f8d8b496de0b71a2233386d92300a5ffb8173b465cd4c7731cc4a4c417",
+      "bytes": 8992
+    },
+    {
+      "path": "templates/generation_prompt.md",
+      "sha256": "f42a20e56431cff518f32e72dd6deb32dc8075a4309ddffd2125f51c8da790b5",
+      "bytes": 10018
+    },
+    {
+      "path": "templates/preflight.md",
+      "sha256": "5e3ef52633f4aafe5c91ce49a886b855d7717090b72c7cf2b2bf5a89e5198c46",
+      "bytes": 9992
+    },
+    {
+      "path": "templates/brief.md",
+      "sha256": "8117291cfdf00fffb0286cf820697d8412277cf211b68178d198a93e11146963",
+      "bytes": 14801
+    },
+    {
+      "path": "templates/review.md",
+      "sha256": "c79883dca8bc5bc69e94e71ed656b596d0cc4027d06c6a81e8b165d838331b18",
+      "bytes": 15129
+    },
+    {
+      "path": "scripts/backfill_final_images_20260911.py",
+      "sha256": "cf9b88ab39463ac83b00e1a7ec3d428fe75f041b6aea15450cc629010dc100d0",
+      "bytes": 3876
+    },
+    {
+      "path": "scripts/validate_project.py",
+      "sha256": "79d6d9fe56d9e7063034257f0cee4b43dc7d3335a52171b237e23e81523d6b10",
+      "bytes": 17196
+    },
+    {
+      "path": "scripts/collect_final_images.py",
+      "sha256": "fef63295f0e8d8ce55183bf58667305ae0f16553c0e9181aff9d00719116bceb",
+      "bytes": 3506
+    },
+    {
+      "path": "FIRST_MESSAGE.txt",
+      "sha256": "0c3840e49e86727e65bd714e076f490c1094700bb59c425322592b69361d6e1c",
+      "bytes": 4064
+    },
+    {
+      "path": "REFERENCE_INDEX.html",
+      "sha256": "d25322d981d9390079db9f7f6bd705682d628d45a844044c68b52b6b7fc13bef",
+      "bytes": 39009
+    },
+    {
+      "path": ".agents/skills/game-env-art/agents/openai.yaml",
+      "sha256": "c0b192535d35b21e4641afc9a88c7d91c475d4767bbf116717272df3ac8eae4e",
+      "bytes": 347
+    },
+    {
+      "path": "state/setup_status.json",
+      "sha256": "3c75777486626b4a28009381f7703eb68bb69b84c23e41774b54a10447a74a1e",
+      "bytes": 402
+    }
+  ],
+  "reference_baseline": [
+    {
+      "id": "M01-01",
+      "path": "refs/master01/composition_cutaway.png",
+      "sha256": "849912ebad9cd750ca79fba6bd8fce6061a5b0ee169a6da5908c60abae94b1a3",
+      "role": "master",
+      "allowed": true
+    },
+    {
+      "id": "M02-01",
+      "path": "refs/master02/layout_two_exits.png",
+      "sha256": "444031765bb112361022fb23f593f3d386907ccb2bd005353b0514ed2f588a26",
+      "role": "master",
+      "allowed": true
+    },
+    {
+      "id": "M03-01",
+      "path": "refs/master03/ldi_01_attic.png",
+      "sha256": "44fd28dabb4e15a929ed4c456d50b3cdccf5c1ddd9ce40bf2171337d811c37a1",
+      "role": "master",
+      "allowed": true
+    },
+    {
+      "id": "M03-02",
+      "path": "refs/master03/ldi_02_reading_room.png",
+      "sha256": "1a056798a7c30187aa474edce8760d69b0c5c17884a6a90d0a7667952cdd5ea4",
+      "role": "master",
+      "allowed": true
+    },
+    {
+      "id": "M03-03",
+      "path": "refs/master03/ldi_03_dark_corner.png",
+      "sha256": "100f790c81d8b7d7ed03e794e5b0f18b01f03f8a42d2747be104e7ba3a2ac750",
+      "role": "master",
+      "allowed": true
+    },
+    {
+      "id": "M03-04",
+      "path": "refs/master03/ldi_04_large_interior.png",
+      "sha256": "927a9a7e3252a05749e002ef54c356285c96531a6540a7198c511af63a83d56a",
+      "role": "master",
+      "allowed": true
+    },
+    {
+      "id": "M03-05",
+      "path": "refs/master03/ldi_05_fog_forest.png",
+      "sha256": "25ba7d65d72df2ab73158be93a88555c18880cf05edd7141df247e5da054ea86",
+      "role": "master",
+      "allowed": true
+    },
+    {
+      "id": "M03-06",
+      "path": "refs/master03/ldi_06_night_path.png",
+      "sha256": "17fc77804f384406ed6602d01544ee4da42f284312620a4cb255f93d76be3a13",
+      "role": "master",
+      "allowed": true
+    },
+    {
+      "id": "M03-07",
+      "path": "refs/master03/ldi_07_station.png",
+      "sha256": "9b69c652cfdfebda4e3c1b7dbb3c2263ae435c83fd0cf8afff6b5c124a5464b2",
+      "role": "master",
+      "allowed": true
+    },
+    {
+      "id": "M03-08",
+      "path": "refs/master03/ldi_08_pub_exterior.png",
+      "sha256": "f0c7eceb1e6096cf5f5d62b20837f64c37dec2a769e0e5a49a125655e9e53325",
+      "role": "master",
+      "allowed": true
+    },
+    {
+      "id": "M03-09",
+      "path": "refs/master03/ldi_09_pub_interior.png",
+      "sha256": "529834d0f3ec3c2274032825af530062b04ec4b13489775674eae7a393404ba5",
+      "role": "master",
+      "allowed": true
+    },
+    {
+      "id": "M03-10",
+      "path": "refs/master03/ldi_10_storefront_style_anchor.png",
+      "sha256": "c24fe55ad76c6c8bfbd88dee7059a09fd7a592dc60e5d4a6c7c0704f11f19345",
+      "role": "master",
+      "allowed": true
+    },
+    {
+      "id": "M03-11",
+      "path": "refs/master03/ldi_11_pub_clean_surfaces.png",
+      "sha256": "9046367233123ab4a582c2fcc740986b23a7c37c2b8e331c7cd3768464837ac9",
+      "role": "master",
+      "allowed": true
+    },
+    {
+      "id": "M03-12",
+      "path": "refs/master03/ldi_12_gas_station_building_only.png",
+      "sha256": "442efe855f44adbf96b4ab5ebf036c3f80fec800964a63d17ffbe19b23945648",
+      "role": "master",
+      "allowed": true
+    },
+    {
+      "id": "M03-13",
+      "path": "refs/master03/ldi_13_kiosk_materials.png",
+      "sha256": "9c0812ff9b7b49a558b67a6a68a9e7b719ebab6213c364ab48917e84b24afe4f",
+      "role": "master",
+      "allowed": true
+    },
+    {
+      "id": "M03-14",
+      "path": "refs/master03/ldi_14_attic_structure_light.png",
+      "sha256": "d960230559dae398857ab4f45da18581396cf3083af91c571889fc8da53caa05",
+      "role": "master",
+      "allowed": true
+    },
+    {
+      "id": "M03-15",
+      "path": "refs/master03/ldi_15_street_light_planes.png",
+      "sha256": "784aa1ef3f5d26b0727b21ca23581e9249193af39c7258b4c662fd2e1ce2cf95",
+      "role": "master",
+      "allowed": true
+    },
+    {
+      "id": "M04-01",
+      "path": "refs/master04/world_01_masked_scavenger.png",
+      "sha256": "fce8bd389e0fdfdfc58e8df182fceb398bb038119ed0b38ba5171b0b81e56f12",
+      "role": "master",
+      "allowed": true
+    },
+    {
+      "id": "M04-02",
+      "path": "refs/master04/world_02_heavy_mechanical_arms.png",
+      "sha256": "a71042678c1898320a3d949d0108bde7e6f931c8f1bf8b316a057084be179a3b",
+      "role": "master",
+      "allowed": true
+    },
+    {
+      "id": "M04-03",
+      "path": "refs/master04/world_03_helmet_and_coat.png",
+      "sha256": "b9b19bea6f2c614c738d513c4466cfa69f2ec712656c77bbb466241fa6266ac6",
+      "role": "master",
+      "allowed": true
+    },
+    {
+      "id": "M04-04",
+      "path": "refs/master04/world_04_cloak_and_mechanical_arm.png",
+      "sha256": "cba9f26bc23a28aa13a6b4fb0e36034a97e70a05431978ca7d6da5a76ef26453",
+      "role": "master",
+      "allowed": true
+    },
+    {
+      "id": "M04-05",
+      "path": "refs/master04/world_05_rebuilt_robot.png",
+      "sha256": "43ba4e232f2380db8c1332bc3156dca8cfca830465011eea6ecb5ff571bebec9",
+      "role": "master",
+      "allowed": true
+    },
+    {
+      "id": "M04-06",
+      "path": "refs/master04/world_06_asymmetric_machine.png",
+      "sha256": "cf327580c3a57429457d9210a5d00beea489525de201564d28f57a960af505ea",
+      "role": "master",
+      "allowed": true
+    },
+    {
+      "id": "M04-07",
+      "path": "refs/master04/world_07_repurposed_machine_head.png",
+      "sha256": "86671cce6c441acc094f02cd9a37e928b5f1e056451aedb10e74e8612417982a",
+      "role": "master",
+      "allowed": true
+    },
+    {
+      "id": "R-01",
+      "path": "review_only/dense_pump_station.png",
+      "sha256": "c623f97bb6c526a68311821b975750d8883adcea38d9bd7eee146ae28936ebbc",
+      "role": "review_only",
+      "allowed": false
+    },
+    {
+      "id": "R-02",
+      "path": "review_only/split_day_night_concept_only.png",
+      "sha256": "aee93b8678072b4da0ca14dd53a1f9e146e931726d87a8251f8dcfb9223cbd5c",
+      "role": "review_only",
+      "allowed": false
+    },
+    {
+      "id": "R-03",
+      "path": "review_only/store_center_obstructed.png",
+      "sha256": "9825b6bee2543fd94bb553869bda918d3788864eb1903231d387970b2bb29bb8",
+      "role": "review_only",
+      "allowed": false
+    },
+    {
+      "id": "A-01",
+      "path": "refs/current/night_courtyard.png",
+      "sha256": "c8c3147a1723ac60cdc7021a9de9d6955346dbf985d9713d641ec0cc592ceb44",
+      "role": "preferred_result",
+      "allowed": true
+    },
+    {
+      "id": "A-02",
+      "path": "refs/current/day_alley.png",
+      "sha256": "f72ade5e2d3a03faceb13bc594bb345306d7353323dcb302cfdc26789814e756",
+      "role": "preferred_result",
+      "allowed": true
+    },
+    {
+      "id": "M03-16",
+      "path": "refs/master03/test_01.jpg",
+      "sha256": "3a44c7457cc2f91645060d14c3ff686a6ba1df782b2f4392565d70266738fd97",
+      "role": "master",
+      "allowed": true
+    },
+    {
+      "id": "M04-08",
+      "path": "refs/master04/retro_futurism.png",
+      "sha256": "bb4d6dbe04e77705d276038dcf2c869ade350a39b9a4eda5c2b0f4d15854c00c",
+      "role": "master",
+      "allowed": true
+    },
+    {
+      "id": "M03-17",
+      "path": "refs/master03/test_02.jpg",
+      "sha256": "18081082d25a104b5830b5f5a27bfeb1659cb9f6b241311c240e60998387cbe3",
+      "role": "master",
+      "allowed": true
+    },
+    {
+      "id": "B03-01",
+      "path": "refs/style_support/brush_planes_reference.jpg",
+      "sha256": "1017bd1ab7a7a500601fdd74ab0d7e105f330aefc75ba9bba30461cbea5b7638",
+      "role": "scoped_style_support",
+      "allowed": true
+    },
+    {
+      "id": "B03-02",
+      "path": "outputs/final/20260911_153546__night_alley_01.png",
+      "sha256": "01558bfee235118bede60fca934472307030963e7ee4872e351028599058a2eb",
+      "role": "scoped_style_support",
+      "allowed": false
+    },
+    {
+      "id": "B03-03",
+      "path": "outputs/final/20260911_153546__night_alley_02.png",
+      "sha256": "ae174e12ad51758f28a69cb3fd5c6ea377512fa2d30b1e3528116303a3fc3b96",
+      "role": "scoped_style_support",
+      "allowed": false
+    },
+    {
+      "id": "B03-04",
+      "path": "outputs/final/20260911_153546__night_alley_03.png",
+      "sha256": "6f7bc57a6d12066834496d652ea4623840d0174ccd78e92ef0e1013182dc58e0",
+      "role": "scoped_style_support",
+      "allowed": false
+    },
+    {
+      "id": "F-01",
+      "path": "refs/architecture_form/form_01_stacked_wings.png",
+      "sha256": "970265ab69490c836d83f3f1a26982cec8a72d5f5dacac646e1957a0888a35ba",
+      "role": "scoped_architecture_form",
+      "allowed": true
+    },
+    {
+      "id": "F-02",
+      "path": "refs/architecture_form/form_02_rounded_housings.png",
+      "sha256": "50938fa4321e45f16eabfc4d7ec632e3b8d39a18f179343f255921f5cfdaf68b",
+      "role": "scoped_architecture_form",
+      "allowed": true
+    },
+    {
+      "id": "F-03",
+      "path": "refs/architecture_form/form_03_projecting_modules.png",
+      "sha256": "b04bfbcc011d538e0559eb81e1d44a4956cdb994398b08d45598be9308b5668f",
+      "role": "scoped_architecture_form",
+      "allowed": true
+    },
+    {
+      "id": "F-04",
+      "path": "refs/architecture_form/form_04_work_decks.png",
+      "sha256": "4e6b983c9d3d8d2d33077f628d3c85c21a22acd4a42f8adf672b22e0bdeda24d",
+      "role": "scoped_architecture_form",
+      "allowed": true
+    },
+    {
+      "id": "F-05",
+      "path": "refs/architecture_form/form_05_living_extensions.png",
+      "sha256": "5e41df5256233d7457190f441bc6a8953f777fb7f382cd51db0f3c4e3e4b42f6",
+      "role": "scoped_architecture_form",
+      "allowed": true
+    },
+    {
+      "id": "F-06",
+      "path": "refs/architecture_form/form_06_service_channels.png",
+      "sha256": "a3efc155c97ab937a14945106bdb3d0c0d18ac36faa02e353a1a79dcb8bdd7ad",
+      "role": "scoped_architecture_form",
+      "allowed": true
+    },
+    {
+      "id": "F-07",
+      "path": "refs/architecture_form/form_07_street_rhythm.png",
+      "sha256": "c97c333da24d754150451a7fedbaf1ead4250f5dbc76f4845ec828610c1d79e0",
+      "role": "scoped_architecture_form",
+      "allowed": true
+    },
+    {
+      "id": "F-08",
+      "path": "outputs/final/20260912_030800__slum_curved_architecture_01.png",
+      "sha256": "7a1bdec828a891463591289e2953d4fdc314e42e6832e934673487836c43a9ce",
+      "role": "scoped_architecture_example",
+      "allowed": false
+    },
+    {
+      "id": "F-09",
+      "path": "outputs/final/20260912_031500__slum_curved_architecture_02.png",
+      "sha256": "240a5a6e9b0cbeffac885ed15284e836993c8a9b362341b85d5343c0ae9b65e8",
+      "role": "scoped_architecture_example",
+      "allowed": false
+    },
+    {
+      "id": "F-10",
+      "path": "outputs/final/20260912_033801__city_day_l_building_01.png",
+      "sha256": "a452ca457b1ece58a22bdb32ff7789b3857bd04e5a6434cede27bec3bf67b44d",
+      "role": "scoped_architecture_example",
+      "allowed": false
+    },
+    {
+      "id": "F-11",
+      "path": "outputs/final/20260912_033801__city_day_l_building_02.png",
+      "sha256": "71e69cba1c2ca95746b933aa1a7e9b61dc2f50f4a43392f915f0ad77b8def6f6",
+      "role": "scoped_architecture_example",
+      "allowed": false
+    }
+  ]
+}

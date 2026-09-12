@@ -1,7 +1,7 @@
 {
   "schema_version": 1,
   "purpose": "final_delivered_images_not_master_approval",
-  "selection_date": "2026-09-11",
+  "selection_date": "2026-09-12",
   "policy": "요청별 최종 전달본. 독립 시안 및 사용자 별도 수정 요청의 전달본은 각각 보존. 자동 보정 중간 시도, 참조/가이드 제외. QA 실패/보류도 실제 전달본이면 상태와 함께 보관.",
   "images": [
     {
@@ -843,6 +843,82 @@
       ],
       "sha256": "3f00b6d23a2764b0965f0a50bab450d13683c6385e5958404d3b463f34cccd2c",
       "bytes": 2727144
+    },
+    {
+      "filename": "20260912_111454__city_wet_neon.png",
+      "source": "outputs/20260912_111454_city_wet_neon_geometry_rebuild/image.png",
+      "qa_status": "uncertain",
+      "selection_reason": "도심/밤쿨톤/젖은도로·네온/2~4층·자동차 요청의 최종1장. 구조보정후선택,단면대응과일부공통투영은불확실. 마스터승인아님.",
+      "evidence": [
+        "outputs/20260912_111454_city_wet_neon_geometry_rebuild/result.json",
+        "outputs/20260912_111454_city_wet_neon_geometry_rebuild/review.md"
+      ],
+      "sha256": "4f54303fa53d577425a90fb4cdade6e25a21be05b5b1d1573903705cd0aacf37",
+      "bytes": 2008882
+    },
+    {
+      "filename": "20260912_112820__city_day_mechanical_storeys.png",
+      "source": "outputs/20260912_112820_city_day_mechanical_storeys/image.png",
+      "qa_status": "uncertain",
+      "selection_reason": "명시적 낮/마른 바닥·기계층과 더 큰 상층부 편집 전달1장. 변경 확인; 단면 대응/일부 기단 판독 불확실 유지.",
+      "evidence": [
+        "outputs/20260912_112820_city_day_mechanical_storeys/result.json",
+        "outputs/20260912_112820_city_day_mechanical_storeys/review.md"
+      ],
+      "sha256": "b66bfbd9a9e7bf2681e6997824bb2ebf93a77c2fb9c63445f7378a548724b315",
+      "bytes": 2299317
+    },
+    {
+      "filename": "20260912_115334__city_brushwork_details.png",
+      "source": "outputs/20260912_115334_city_brushwork_retry_surface_refine/image.png",
+      "qa_status": "uncertain",
+      "selection_reason": "사용자 재실행 요청의 최종 표면 보완본1장. 네온제거/작은1층/벽그래픽/도로파손·종이/소화전/큰타일패턴 확인. 붓질 및 일부 기하 불확실은 기록.",
+      "evidence": [
+        "outputs/20260912_115334_city_brushwork_retry_surface_refine/result.json",
+        "outputs/20260912_115334_city_brushwork_retry_surface_refine/review.md"
+      ],
+      "sha256": "f1e1d425485c1197eda39dd2c497b03e90f5c713b139c48f96e3b160d84b6a3b",
+      "bytes": 2178345
+    },
+    {
+      "filename": "20260912_120050__city_road_posters_machines.png",
+      "source": "outputs/20260912_120050_city_road_posters_machines/image.png",
+      "qa_status": "uncertain",
+      "selection_reason": "명시적 도로 물결/유리 인상 보정 및 포스터·대형쓰레기통·출구옆 기계 추가 전달1장. 수정내용 확인, 기하/기존 벽붓질 일부 불확실 유지.",
+      "evidence": [
+        "outputs/20260912_120050_city_road_posters_machines/result.json",
+        "outputs/20260912_120050_city_road_posters_machines/review.md"
+      ],
+      "sha256": "3ab1cda05128bb82e84d99af85600b183bc1a708941d0e56866ff817f617b07e",
+      "bytes": 2164778
+    },
+    {
+      "filename": "20260912_121353__city_two_cars_appliances.png",
+      "source": "outputs/20260912_121353_city_two_cars_appliances_guide_only_rebuild/image.png",
+      "qa_status": "needs_revision",
+      "selection_reason": "두 차례 구조 보정 후 두 후면 출구 연결/기단 정렬이 개선된 한 장. 층관계/차량2대중픽업1/폐가전 등 요청 주요요소 관찰. 공통정사영C04실패와C02불확실은 숨기지 않고 유지. 사용자/마스터 승인 아님.",
+      "evidence": [
+        "outputs/20260912_121353_city_two_cars_appliances_guide_only_rebuild/result.json",
+        "outputs/20260912_121353_city_two_cars_appliances_guide_only_rebuild/review.md"
+      ],
+      "sha256": "a3cf706a2c19357575e6f70e16e89145ebef2de55221f46023a9f8f6ac6b0175",
+      "bytes": 1981934
+    },
+    {
+      "filename": "20260912_134234__city_day_four_two_floors.png",
+      "source": "outputs/20260912_134234_city_day_master28_correction01/image.png",
+      "qa_status": "needs_revision",
+      "selection_reason": "세 후보 실제 비교 후 correction01 선택. 최초본보다 낙서가 명료하고, 마지막 가이드 재구성본보다 B의 곡면 끝하우징·외벽 깊이와 실제 도로 파손을 더 잘 보존한다. 마지막본의 부분 기하 개선만으로 형태·요청 후퇴를 상쇄하지 않는다. 선택본도 C02/C04 및 S01~S03 실패가 남은 needs_revision 전달 후보이며 전체 통과나 마스터 승격이 아니다.",
+      "evidence": [
+        "outputs/20260912_134234_city_day_master28_correction01/requirements.json",
+        "outputs/20260912_134234_city_day_master28_correction01/result.json",
+        "outputs/20260912_134234_city_day_master28_correction01/review.md",
+        "outputs/20260912_134234_city_day_master28_correction01/selection.md",
+        "outputs/20260912_134234_city_day_master28_correction01/generation_prompt.md",
+        "outputs/20260912_134234_city_day_master28_correction01/references.json"
+      ],
+      "sha256": "97fbc9ffff5c2690e55335285f9b954ac8f65ec9b613a40b9b67415346c095d2",
+      "bytes": 2286443
     }
   ],
   "excluded": [
@@ -1193,6 +1269,22 @@
     {
       "source": "outputs/20260911_153546_three_independent_night_alleys/01_western_machine_house/reconstruction02/wide_margin_guide.png",
       "reason": "새 구조 도해 또는 사용자 스타일 참조; 생성 최종 결과 아님"
+    },
+    {
+      "source": "outputs/20260912_121353_city_two_cars_appliances/image.png",
+      "reason": "이번 도심1장 요청의 구조 자동 보정 중간본. 최종은 guide_only_rebuild, 오류/이미지/검수는 원run에 보존."
+    },
+    {
+      "source": "outputs/20260912_121353_city_two_cars_appliances_geometry_rebuild/image.png",
+      "reason": "이번 도심1장 요청의 구조 자동 보정 중간본. 최종은 guide_only_rebuild, 오류/이미지/검수는 원run에 보존."
+    },
+    {
+      "source": "outputs/20260912_134234_city_day_master28/image.png",
+      "reason": "이번 요청 자동보정 비교후 선택하지 않은 후보; 원본/검수보존"
+    },
+    {
+      "source": "outputs/20260912_134234_city_day_master28_correction02/image.png",
+      "reason": "이번 요청 자동보정 비교후 선택하지 않은 후보; 원본/검수보존"
     }
   ],
   "updated_date": "2026-09-12"

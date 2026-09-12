@@ -1,0 +1,15 @@
+{
+  "tool": "image_gen.imagegen",
+  "output_image_source": "/Users/hyojinnoh/.codex/generated_images/01a08610-9124-7bd1-9961-9126ad377251/exec-a48948b3-cd75-470a-b333-c1eb4a699bde.png",
+  "output_copied_to": "outputs/20260912_121353_city_two_cars_appliances_guide_only_rebuild/image.png",
+  "image_native_size": [
+    1226,
+    1283
+  ],
+  "native_media_displayed": true,
+  "model": "unconfirmed",
+  "internal_revised_prompt": "unconfirmed",
+  "output_hint_summary": "Generated images are saved to /Users/hyojinnoh/.codex/generated_images/01a08610-9124-7bd1-9961-9126ad377251/exec-a48948b3-cd75-470a-b333-c1eb4a699bde.png; copy and leave original in place.",
+  "record_type": "observed_return_metadata_summary_not_full_raw_payload",
+  "verbatim_output_hint_file": "outputs/20260912_121353_city_two_cars_appliances_guide_only_rebuild/tool_output_hint.txt"
+}

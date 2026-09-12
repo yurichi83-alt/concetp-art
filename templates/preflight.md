@@ -1,87 +1,30 @@
-# Preflight — masters v2.7 / execution v1.8
+# Preflight — masters v2.8 / execution v1.9
 
-This is a plan and submission check, not output QA. Use PLANNED / BLOCKED / UNKNOWN or N/A with a reason. Do not mark an unseen image correct. Resolve missing required inputs, contradictory instructions, unmapped requirements and prompt variables before calling the tool.
+사전 준비·불일치 해결 기록이다. [05](../docs/05_GENERATION_RULES.md)의 절차와 brief.md의 파일 계약을 따른다. 시각 조건·프롬프트 대응·적용 여부는 `requirements.json` 한 곳에 작성하며 여기에 복사하지 않는다. 결과는 아직 NOT_REVIEWED이고 PLANNED는 최종 PNG의 PASS가 아니다.
 
-## Tool, delivery and compilation
+- run_id / 검사 시각:
+- requirements.json / brief / 준비된 실제 prompt·tool_arguments 경로:
+- 이번 불일치·미해결 변수·충돌과 해결 기록 (원장 ID):
 
-| Item | Status | Evidence |
+| 준비 관문 | PLANNED / BLOCKED / UNKNOWN / N/A | 현재 파일·원장 ID·구체 불일치/해결 |
 |---|---|---|
-| Current request is generation/edit; active changes and scene-only exceptions recorded | UNKNOWN | |
-| Native tool/permissions; separate API explicit authorization if needed | UNKNOWN | |
-| Actual image input mechanism, supported format and selected parameter verified | UNKNOWN | |
-| Confirmed limits recorded by parameter; referenced_image_paths limit not inferred from recent-image max5 | UNKNOWN | |
-| Actual input count recorded separately from contract; text/token/weight/mask/rewrite unknowns retained | UNKNOWN | |
-| Original selected images inspected; unapproved outputs/review_only excluded as default positive references; explicit edit/own-correction targets separately role-labeled | UNKNOWN | |
-| Geometry01/02, art03 and world04 roles sufficiently represented; redundant images avoided and omissions explained | UNKNOWN | |
-| Each input index/role/exclusion mapped; art/world camera excluded without claiming enforced weights/masks | UNKNOWN | |
-| LDI supplement scope / M03-12 building-only exclusion respected | UNKNOWN | |
-| M03-10/default priority unchanged; B03-01~04 surface-only support separate from masters; generated B03-02~04 not automatic inputs or geometry/overall approvals | UNKNOWN | |
-| F-01~07 optional scoped_architecture_form inputs, default=false; selected form/depth roles and exclusions recorded, no claim of LDI source | UNKNOWN | |
-| F-08~11 scoped_architecture_example comparison only, generation_input_allowed=false/default=false/geometry_approved=false; existing needs_revision retained | UNKNOWN | |
-| Original27, surface4 and architecture support/examples remain distinct; added forms do not displace01/02,03,04 roles | UNKNOWN | |
-| Requested final count / one scene per image / current aspect ratio supported | UNKNOWN | |
-| Independent new scenes, when requested: separate plan/prompt/input set and no other scene's output or correction as input | UNKNOWN | |
-| Own correction has own scene ID and parent run; corrections do not alter final requested count | UNKNOWN | |
-| Saved generation_prompt.md has STRUCTURE MUST KEEP -> CURRENT SCENE -> ART / REFERENCE ROLES only | UNKNOWN | |
-| Actual prompt omits history/examples/approval bookkeeping and duplicated rules, preserves all applicable requirements | UNKNOWN | |
-| No arbitrary word/token cap or constraint deletion; any measured counts recorded only as metadata | UNKNOWN | |
-| No invented token usage, model configuration, revised_prompt or claim of no truncation | UNKNOWN | |
-| Saved exact prompt ready for submission; all variables resolved | UNKNOWN | |
+| 생성/편집 요청과 요청 장수·시안/부모 관계·활성 지시를 기록 | UNKNOWN | |
+| 실제 내장 도구 계약·입력 방식·매개변수별 확인 한도를 기록, 미노출 기능은 미확인 유지 | UNKNOWN | |
+| 원문→긍정/금지 시각 요건→정확한 실제 prompt 구절→참조/텍스트 이유→검사 연결 완료; 빈칸/구역명만의 대응 없음 | UNKNOWN | |
+| 준비된 prompt 파일과 실제 호출 인자 일치, 현재 참조 배열·개수·경로·해시·열람·역할·승인 범위 일치 | UNKNOWN | |
+| 구조안에 공통 정사영·베이스·경계/두 출구·동선·기단 가시성과 구체 큰 형태/외벽 깊이를 함께 계획 | UNKNOWN | |
+| geometry/art/world/surface/architecture_form 역할별 근거 확인, 보정 시 참조 변경·생략 이유와 유지 근거를 기록 | UNKNOWN | |
+| 실제 PNG 전체/확대·대표 선군/상하 대응·표면별 긍정/금지·S04 독립 관찰 및 적용 R02/R03 비교를 준비 | UNKNOWN | |
+| 후보 7차원 비교·잔여 후퇴·전체 완료와 정직한 미달 전달·중단 조건을 구분할 준비 완료 | UNKNOWN | |
 
-## Requirement coverage audit
+아트·세계관 참조 일괄 축소를 기본 기하 보정법으로 삼지 않는다. 이전 run 목록 위에 정정 주석을 쌓지 말고 이번 목록·개수·생략 이유를 현재값으로 맞춘다. 과거 자료의 카메라/배치/전체 QA를 승인 속성에 합치지 않는다. 상세 조건은 [현재 참조](../docs/10_CURRENT_REFERENCES.md)와 원장 역할 연결을 따른다.
 
-Review brief.md's requirement-to-prompt-and-check ledger against the active masters and user constraints. A group is covered only when every applicable subcondition has a prompt clause and check. Record exact ledger row/clauses rather than merely “masters read.” Execution/approval/storage requirements map to preflight and do not need image text.
+```sh
+python3 scripts/validate_run.py --run outputs/<run> --stage preflight
+```
 
-| Coverage audit | Status | Ledger row / exact clause / unresolved issue |
-|---|---|---|
-| Every applicable01/02 structure constraint maps to prompt and planned/final check | UNKNOWN | |
-| Building entry/roof and nonbuilding exceptions map to prompt and W04/W05 checks | UNKNOWN | |
-| All03 art and04 world requirements map to prompt and relevant S/W checks | UNKNOWN | |
-| Positive broad-color-plane / sparse nearby-tone directional flat-brush clauses present; no blanket brushwork ban, including from M04 role exclusions | UNKNOWN | |
-| Surface color variation and wear separated; no fixed global brush size/coverage/tone count or inherited night/color/white-light/50%-wear condition | UNKNOWN | |
-| Current user additions/exclusions/count/independence/edit preservation map to appropriate prompt or execution check | UNKNOWN | |
-| Reference role exclusions map to actual input index and prompt role clause | UNKNOWN | |
-| N/A decisions justified; no UNMAPPED or CONFLICT remains | UNKNOWN | |
+- 기록 검사 결과/파일:
+- 남은 BLOCKED/UNKNOWN 및 영향받는 원장 ID:
+- 실제 도구 호출 시 전달한 인자가 준비값과 달랐다면 새 현재값·변경 이유:
 
-## Structure and final-observation readiness
-
-| Item | Status | Plan evidence and intended final check |
-|---|---|---|
-| Shared cubic space / square base / common XYZ and scale | UNKNOWN | |
-| Final orthographic projection mandatory; one camera for all objects, parallel same-axis lines, no depth-based scaling, equal-depth base correspondence; rule overrides reference cameras | UNKNOWN | |
-| Top/bottom corner correspondence / vertical axes / constant extrusion / two planar cuts | UNKNOWN | |
-| Building main placement/straight structure follows common X/Y; ground-level rounded corners/curved shells allowed with clear grounded continuous boundaries, or building-free N/A | UNKNOWN | |
-| Curve tangents separated from straight-axis checks; no arbitrary rotated building/ambiguous wedge gap; curves do not alter square sharp base | UNKNOWN | |
-| Form guide expresses selected silhouettes/wings/setbacks/projections/facade depth, not only box positions; no universal curve/count/radius or surrounding rectangular-plinth requirement | UNKNOWN | |
-| Roof planes/surfaces defined separately: slopes/ridges/valleys/eaves, wall joins and support | UNKNOWN | |
-| Straight axes/curved boundaries, roof joins and upper/lower correspondence checked separately from optional planning-volume checks; no actual collision build/validation required | UNKNOWN | |
-| Whole base/front cuts and both connected boundaries framed; front sightline open | UNKNOWN | |
-| Base/paving compared with building footings/storey floors/shutter horizontals/terrace beams/upper walls/roof; usable same-direction lines visible at different heights | UNKNOWN | |
-| 2D guide recorded as reference, not geometry lock; coordinates/camera source separate from actual image input | UNKNOWN | |
-| Two rear blocking directions approximately11/1 o'clock, one functional exit each and no unintended third gap | UNKNOWN | |
-| Each exit position/form/state/post-clear connection/entrance-sharing chosen for this scene; no fixed/forced alternating positions | UNKNOWN | |
-| Left and right walking volumes: approach / narrowest / height / turn / transition / open-state route / opening mechanism clearance | UNKNOWN | |
-| Designed lock distinguished from accidental blockage; do not relabel fence/stock/rail blocking an open exit as intentional closed state; hidden connection plan distinguished from visible evidence | UNKNOWN | |
-| Exits can share building entrances or use alleys/stairs/landings/ramps/equipment passages; no mandatory separate gate or fully exposed interior | UNKNOWN | |
-| Stairs/ramps follow XY and connect levels; front soil cut is not a third exit | UNKNOWN | |
-| Central combat floor clear, with place-specific lane width/building relationships rather than repeated large courtyard; props/rubble/protrusions outside visual walking volume | UNKNOWN | |
-| Blocking boundaries can use substantial machinery/linked structures/vehicles/containers/retaining walls; visible continuity, not low props alone | UNKNOWN | |
-| Nonbuilding tanks/vehicles/props retain allowed curves/rotations with common camera/grounding/routes | UNKNOWN | |
-| Exposed interior room depth / entry / aisle / functional space or justified N/A | UNKNOWN | |
-| Barrier height plan up to approximately6.5m; metric claims reserved for actual3D validation | UNKNOWN | |
-| Each building human-scale door/shutter with credible grounding; decorative/shared-exit role, closed allowed | UNKNOWN | |
-| Each building roof40~80% functional footprint plan, support/connections/remaining space; preserved height/framing/routes | UNKNOWN | |
-| Machinery can form large shell/frame/service building or specified nonresidential storey; requested machine ratios separate from roof40~80%; no duplicated machine-storey roof kit | UNKNOWN | |
-| Building entry/roof percentage exempt for nonbuildings; final2D coverage remains estimate/uncertain | UNKNOWN | |
-| Broad forms/base colors with selected broad directional flat strokes, surface-relative scale/space, and color variation on intact surfaces | UNKNOWN | |
-| Raised/wavy-glass/mosaic/all-over fine texture excluded; coherent large light-shadow masses, material differences and grounding readable | UNKNOWN | |
-| Selective damage separate from brushwork; functional salvaged technology and place-wide repairs | UNKNOWN | |
-| New large silhouettes/facade depth/place relationships/paving/cutaway or explicit edit preservation; no unrelated prior scene carryover | UNKNOWN | |
-| Scene-only machine ratios/storeys/L-plan/half-size house/counts/props/weather/exit combination not globalized; city not automatically shop/slum/specific style | UNKNOWN | |
-| Independent variants have actual large-form/depth/spatial distinctions beyond mirror/recolor/location swap; no fixed change count | UNKNOWN | |
-| Correction retains requested/approved curved/projecting/L-shaped forms and functional character while rebuilding erroneous projection/joins; no box regression | UNKNOWN | |
-| Lighting/atmosphere preserve structural evidence; no unrequested figures/text/UI | UNKNOWN | |
-| Final actual-image line/footing/upper-lower/roof/route comparison planned; guide/AABB/prompt success cannot substitute | UNKNOWN | |
-| Core occlusion -> UNCERTAIN; structural FAIL -> needs_revision; cannot inspect -> not_reviewed | UNKNOWN | |
-| Actual collision/mesh/UV production and validation excluded from current image acceptance; missing validation is not FAIL/UNCERTAIN; visible grounding/thickness/support/boundaries/routes remain checked | UNKNOWN | |
-| Separately validated3D geometry/camera only for later precision claims; no unrequested Unity/collision/mesh creation | UNKNOWN | |
+RECORD PASS는 준비 기록의 일관성만 확인한다. 이미지 품질과 가짜 관찰은 코드가 판독하지 않는다. 호출 뒤 실제 인자와 delivery_status=submitted를 보존하고 PNG를 열어 review 단계로 진행한다. selection은 final_manifest 등록 후 수행한다. 과거 원장 없는 run을 소급 검사·변경하지 않는다.

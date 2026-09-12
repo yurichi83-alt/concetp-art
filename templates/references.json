@@ -1,7 +1,7 @@
 {
   "run_id": "",
-  "masters_version": "2.7",
-  "execution_rules_version": "1.8",
+  "masters_version": "2.8",
+  "execution_rules_version": "1.9",
   "request_group_id": null,
   "scene_id": null,
   "independent_new_scenes_requested": false,
@@ -9,23 +9,18 @@
   "other_independent_scene_outputs_excluded": [],
   "inspected_for_planning": [],
   "submitted_to_generation": [],
-  "delivery_status": "not_submitted",
-  "delivery_mechanism": null,
-  "actual_submitted_image_count": null,
+  "delivery_status": "planned",
+  "delivery_mechanism": "none",
+  "actual_submitted_image_count": 0,
   "actual_count_is_not_a_hard_limit": true,
-  "note": "Record actual delivery, not prose paths or inspection alone. Each submitted entry includes id, path/source, input index when exposed, role, camera/layout/content exclusions, delivery status and any scoped approval. Keep geometry01/02, art03 and world04 sufficiently represented; explain omissions rather than adding redundant sources. A reference camera exclusion is an instruction, not a confirmed weight/mask control.",
+  "note": "The inspected and submitted lists are separate current records. Exact input order/count/path/hash must match tool_arguments.json. Every requirement links to submitted reference IDs or a current text-only reason. Role preservation review covers geometry, art, world, surface and architecture form without requiring one input per role. Do not make art/world reference removal the default geometry fix. A local copied comparison-only image retains its source restrictions by hash. Recent mode may contain conversation-only entries with path/sha256 null and explicit conversation_image_evidence. A user-requested catalog-image edit is role edit_target with current request source/quote/evidence, never a source overwrite or master promotion.",
   "reference_role_mapping": {
-    "geometry_projection_inputs": [],
-    "art_expression_inputs": [],
-    "world_design_inputs": [],
     "edit_target_input": null,
     "role_balance_and_selection_reason": "",
     "camera_rule": "Final orthographic projection is mandatory and overrides every reference camera including M01. M01/M02 structure informs base/framing/connectivity; art/world images supply only approved aspects and exclude camera/layout.",
     "ldi_supplement_scope": "M03-11~15: architecture/materials/lighting/color only; exclude nature, world/story, characters, vehicles, camera/layout, UI/text and source shop identity. M03-12: building only, excluding trees/grass/forest/natural ground. This is not a project-wide vegetation ban.",
-    "user_added_reference_scope": "M03-16: architectural masses/color/value/material simplification only, not confirmed LDI; exclude source camera/world/layout. M04-08: varied retro casings/analog controls/modular joins, adapted to Salvage Cyberpunk and Master03 finish; retain existing green-CRT exclusion. Named selections apply to the current request without promoting global defaults. M03-17: architectural proportions, roof silhouettes, faded color planes and selective paint peeling only; exclude source perspective, vertical overcrowding and coastal scene content. Main building placement and straight structure share common XY, with permitted ground-level curves under v2.7; square-base/orthographic/roof-support requirements remain mandatory.",
-    "surface_style_support_inputs": [],
-    "surface_style_scope": "Master03 v2.2: broad clean base-color planes plus sparse broad directional flat nearby-tone brushwork, also on intact areas and separate from damage. M03-10 stays representative. B03-01 may be selected for surface-only support; B03-02/03/04 are comparison-only, not automatic generation inputs. Do not transfer their camera/layout/night/palette or promote geometry. Record actual submitted images and roles only.",
-    "architecture_form_inputs": [],
+    "user_added_reference_scope": "M03-16: architectural masses/color/value/material simplification only, not confirmed LDI; exclude source camera/world/layout. M04-08: varied retro casings/analog controls/modular joins, adapted to Salvage Cyberpunk and Master03 finish; retain existing green-CRT exclusion. Named selections apply to the current request without promoting global defaults. M03-17: architectural proportions, roof silhouettes, faded color planes and selective paint peeling only; exclude source perspective, vertical overcrowding and coastal scene content. Main building placement and straight structure share common XY, with permitted ground-level curves under v2.8; square-base/orthographic/roof-support requirements remain mandatory.",
+    "surface_style_scope": "Master03 v2.3: broad clean base-color planes plus sparse broad directional flat nearby-tone brushwork, also on intact areas and separate from damage. M03-10 stays representative. B03-01 may be selected for surface-only support; B03-02/03/04 are comparison-only, not automatic generation inputs. Do not transfer their camera/layout/night/palette or promote geometry. Record actual submitted images and roles only.",
     "architecture_form_comparisons_inspected": [],
     "architecture_form_scope": {
       "approval_id": "master_update_20260912_v2_7_architecture_forms",
@@ -110,7 +105,9 @@
     "returned_model_info": null,
     "returned_revised_prompt": null,
     "truncation_or_rewrite_evidence": "unknown",
-    "note": "Measure the exact submitted text if reporting statistics. Counts are metadata, not token usage, capacity percentage, proof of no truncation, or proof of compliance. Store model/revised_prompt/token fields only when actually returned; null means unavailable or not yet returned."
+    "note": "Measure the exact submitted text if reporting statistics. Counts are metadata, not token usage, capacity percentage, proof of no truncation, or proof of compliance. Store model/revised_prompt/token fields only when actually returned; null means unavailable or not yet returned.",
+    "sha256": null,
+    "returned_metadata_evidence": {}
   },
   "structure_guide": {
     "path": null,
@@ -148,5 +145,69 @@
     "architecture_form_support": 7,
     "architecture_form_examples": 4,
     "note": "Separate catalogs, not a new master total or a new automatic input set. Existing M02/M01/M03-10/M04-02 role priorities remain unchanged."
-  }
+  },
+  "schema_version": 1,
+  "role_preservation_review": [
+    {
+      "role": "geometry",
+      "previous_input_ids": [],
+      "current_input_ids": [],
+      "coverage_evidence": "",
+      "text_only_reason": "",
+      "change_reason": "",
+      "preservation_evidence": ""
+    },
+    {
+      "role": "art",
+      "previous_input_ids": [],
+      "current_input_ids": [],
+      "coverage_evidence": "",
+      "text_only_reason": "",
+      "change_reason": "",
+      "preservation_evidence": ""
+    },
+    {
+      "role": "world",
+      "previous_input_ids": [],
+      "current_input_ids": [],
+      "coverage_evidence": "",
+      "text_only_reason": "",
+      "change_reason": "",
+      "preservation_evidence": ""
+    },
+    {
+      "role": "surface",
+      "previous_input_ids": [],
+      "current_input_ids": [],
+      "coverage_evidence": "",
+      "text_only_reason": "",
+      "change_reason": "",
+      "preservation_evidence": ""
+    },
+    {
+      "role": "architecture_form",
+      "previous_input_ids": [],
+      "current_input_ids": [],
+      "coverage_evidence": "",
+      "text_only_reason": "",
+      "change_reason": "",
+      "preservation_evidence": ""
+    }
+  ],
+  "input_entry_format": {
+    "id": "",
+    "path": "project-relative preserved local image path, or null for conversation-only recent image",
+    "sha256": "64 lowercase hex for local files; null when no local source exists",
+    "role": "geometry | art | world | surface | architecture_form | edit_target | comparison",
+    "scope": "specific approved visual role",
+    "exclusions": "camera/layout/content exclusions for this selected image",
+    "inspected": false,
+    "input_index": "1-based, submitted list only",
+    "authorization_kind": "catalog | scene_structure_guide | explicit_current_request | own_correction_target",
+    "authorization_evidence": "current request or same-scene correction evidence when needed",
+    "conversation_image_evidence": "required for every recent-mode selection, identifying actual conversation image and inspection; never invent local files/hashes",
+    "authorization_source": "source of actual current user instruction for explicit_current_request",
+    "authorization_quote": "actual current instruction quote for explicit_current_request"
+  },
+  "requirements_ledger": "requirements.json"
 }

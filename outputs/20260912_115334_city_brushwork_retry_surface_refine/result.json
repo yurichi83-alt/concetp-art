@@ -1,0 +1,145 @@
+{
+  "status": "uncertain",
+  "selected_for_delivery": true,
+  "master_promoted": false,
+  "user_approved": false,
+  "request_mode": "edit_existing",
+  "parent_run": "outputs/20260912_115334_city_brushwork_retry",
+  "image": {
+    "path": "outputs/20260912_115334_city_brushwork_retry_surface_refine/image.png",
+    "dimensions": [
+      1254,
+      1254
+    ],
+    "sha256": "f1e1d425485c1197eda39dd2c497b03e90f5c713b139c48f96e3b160d84b6a3b",
+    "bytes": 2178345
+  },
+  "generation": {
+    "tool": "image_gen.imagegen",
+    "source_path": "/Users/hyojinnoh/.codex/generated_images/01a08610-9124-7bd1-9961-9126ad377251/exec-5ebfc5f8-9ec7-4c24-b3c9-059d96b0dae8.png",
+    "model": "unconfirmed",
+    "tokens": "unconfirmed",
+    "internal_revised_prompt": "unconfirmed",
+    "actual_input_count": 5,
+    "external_api_used": false
+  },
+  "review": {
+    "path": "outputs/20260912_115334_city_brushwork_retry_surface_refine/review.md",
+    "actual_png_opened": true,
+    "checks": [
+      {
+        "id": "C01",
+        "status": "PASS",
+        "observation": "전체 사각 디오라마, 옥상과 안테나, 두 전면 단면이 화면 안."
+      },
+      {
+        "id": "C02",
+        "status": "UNCERTAIN",
+        "observation": "양쪽 단면은 보이나 우측 턱의 상하 대응 깊이가 다른 모서리와 동일하다고 확정하기 어려움."
+      },
+      {
+        "id": "C03",
+        "status": "PASS",
+        "observation": "날카로운 베이스 모서리와 직선 외곽. 보도 곡선은 기단의 곡률과 별개."
+      },
+      {
+        "id": "C04",
+        "status": "UNCERTAIN",
+        "observation": "층/기단 주 선군은 대체로 대응하나 일부 난간·턱의 선 선택과 짧은 곡면 인접 직선 때문에 전체 정사영 확정 제한."
+      },
+      {
+        "id": "L01",
+        "status": "PASS",
+        "observation": "후면 양쪽 높은 외벽과 두 도로 개구가 유지됨."
+      },
+      {
+        "id": "L02",
+        "status": "PASS",
+        "observation": "A좌측과 B우측에 열린 거리 출구 하나씩. 건물문은 일반 입구."
+      },
+      {
+        "id": "L03",
+        "status": "PASS",
+        "observation": "중앙 굽이와 양쪽 도로 접근이 연속. 소화전/기둥은 보도측, 종이는 소량이며 길을 막지 않음."
+      },
+      {
+        "id": "L04",
+        "status": "PASS",
+        "observation": "자동차가 앞 가장자리이며 중앙과 전체 단면을 가리지 않음."
+      },
+      {
+        "id": "L05",
+        "status": "PASS",
+        "observation": "작은 A1층 주변 기둥이 넓은2층 보를 받침. A3층 프레임과 B1층 사선 받침/접지 유지."
+      },
+      {
+        "id": "L06",
+        "status": "NOT_APPLICABLE",
+        "observation": "주거 실내 미노출. 설비 리세스와 전면 배수공간은 보행 실내로 해석하지 않음."
+      },
+      {
+        "id": "L07",
+        "status": "UNCERTAIN",
+        "observation": "A앞 기둥/문턱과 B접지 지지부는 보임. 뒤쪽의 가려진 기단은 상층 윤곽만으로 확정하지 않음."
+      },
+      {
+        "id": "S01",
+        "status": "UNCERTAIN",
+        "observation": "도로와 전면 단면에서 길고 넓어진 평면 색 터치 관찰. 온전한 벽의 붓질과 박리가 충분히 구별되는지는 아직 제한적."
+      },
+      {
+        "id": "S02",
+        "status": "UNCERTAIN",
+        "observation": "작은 자국보다 넓은 색면이 늘었으나 벽에는 짧은 박리형 자국도 잔존. 전체 표현 완전 충족으로 판정하지 않음."
+      },
+      {
+        "id": "S03",
+        "status": "PASS",
+        "observation": "평면 색변화이며 두꺼운 물감부조/유리물결 없음. 작은 미세질감은 전보다 절제됨."
+      },
+      {
+        "id": "S04",
+        "status": "PASS",
+        "observation": "일광과 큰 명암으로 층/기계/지지/차량의 부피와 재질을 구분."
+      },
+      {
+        "id": "W01",
+        "status": "PASS",
+        "observation": "회수 전력·냉각 기계와 수리 배관이 건축/단면 기능으로 이어짐."
+      },
+      {
+        "id": "W02",
+        "status": "PASS",
+        "observation": "교체판과 보수 도장 등 오래된 설비를 유지하는 상태. 네온만으로 세계관을 표현하지 않음."
+      },
+      {
+        "id": "W03",
+        "status": "PASS",
+        "observation": "A3층/B1층 전체가 비거주 설비 부피이며 상층 돌출과 별개로 읽힘."
+      },
+      {
+        "id": "W04",
+        "status": "PASS",
+        "observation": "A지상 출입문과 B기계층 정비문 식별. 숨은 상층 이동의 실제3D 검증은 아님."
+      },
+      {
+        "id": "W05",
+        "status": "PASS",
+        "observation": "각 지붕의 큰 기존 냉각/서비스 유닛과 유지보수 공간이 계획40~80%에 육안상 대응. 정확 면적계측 아님."
+      },
+      {
+        "id": "R01",
+        "status": "UNCERTAIN",
+        "observation": "네온삭제/벽무늬/A1층축소/도로국소파손·종이/소화전1개/큰타일패턴 모두 관찰. 붓질은 개선됐으나 사용자 의도 완전 충족은 유보."
+      },
+      {
+        "id": "R02",
+        "status": "NOT_APPLICABLE",
+        "observation": "명시적 편집이므로 새 장소/독립 시안 차이 검증 대상 아님."
+      }
+    ]
+  },
+  "prompt": "outputs/20260912_115334_city_brushwork_retry_surface_refine/generation_prompt.md",
+  "references": "outputs/20260912_115334_city_brushwork_retry_surface_refine/references.json",
+  "final_deliverable_count": 1
+}
