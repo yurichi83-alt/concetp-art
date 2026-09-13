@@ -1,0 +1,10 @@
+{
+  "status": "uncertain",
+  "image_path": "image.png",
+  "sha256": "d4abd020985a2326ad96c5b45f4901fb1941bf08be00958ea6160630c9b7361a",
+  "actually_opened": true,
+  "unresolved": [
+    "C02/C03/C04/L07 핵심 기단·외곽 대응 불확실",
+    "S01/S03 벽/기계 온전한 면 붓질 불확실"
+  ]
+}

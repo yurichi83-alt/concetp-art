@@ -1,0 +1,11 @@
+{
+  "status": "needs_revision",
+  "image_path": "image.png",
+  "sha256": "30b4b7f9f93e43727bff0e9c82edaf6d849bda6ac0f6efe7c0ea7a6eaf5c2a14",
+  "actually_opened": true,
+  "unresolved": [
+    "C02/C03/C04/L07 핵심 기단·외곽 대응 불확실",
+    "L02/L03/USER-2 오른쪽 길 후단 연결 불확실",
+    "S01/S02/S03 온전한 면 붓질 부족/미세 박리 반복"
+  ]
+}

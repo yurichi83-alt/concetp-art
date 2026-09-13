@@ -967,6 +967,22 @@
         "outputs/20260913_023926_convenience_interior_night_retro_surface/generation_prompt.md",
         "outputs/20260913_023926_convenience_interior_night_retro_surface/references.json"
       ]
+    },
+    {
+      "filename": "20260913_214652__rear_alley_night_retro.png",
+      "source": "outputs/20260913_214652_rear_alley_night_retro_exit/image.png",
+      "sha256": "d4abd020985a2326ad96c5b45f4901fb1941bf08be00958ea6160630c9b7361a",
+      "bytes": 1899355,
+      "qa_status": "uncertain",
+      "selection_reason": "세 후보의 전체와 표면/출구 확대를 비교해 exit본을 선택했다. 초기 후면 건축·큰 설비/깊이·왼쪽 철문과 대로·쓰레기/통·야간을 보존했고, 표면의 잔마모를 줄인 뒤 우측 출구 끝 벽을 개방해 다음 길의 포장 연결이 보인다. 단면/기단의 가림과 벽·기계 붓표현의 남은 불확실은 부분 개선으로 전체 합격 처리하지 않는다.",
+      "evidence": [
+        "outputs/20260913_214652_rear_alley_night_retro_exit/requirements.json",
+        "outputs/20260913_214652_rear_alley_night_retro_exit/result.json",
+        "outputs/20260913_214652_rear_alley_night_retro_exit/review.md",
+        "outputs/20260913_214652_rear_alley_night_retro_exit/selection.md",
+        "outputs/20260913_214652_rear_alley_night_retro_exit/generation_prompt.md",
+        "outputs/20260913_214652_rear_alley_night_retro_exit/references.json"
+      ]
     }
   ],
   "excluded": [
@@ -1365,6 +1381,14 @@
     {
       "source": "outputs/20260913_023926_convenience_interior_night_retro_rebuild/image.png",
       "reason": "같은 편의점 요청 자동보정 중간본; 원본/검수 보존"
+    },
+    {
+      "source": "outputs/20260913_214652_rear_alley_night_retro/image.png",
+      "reason": "뒷골목 동일시안 자동보정 중간본; 원본/검수 보존"
+    },
+    {
+      "source": "outputs/20260913_214652_rear_alley_night_retro_surface/image.png",
+      "reason": "뒷골목 동일시안 자동보정 중간본; 원본/검수 보존"
     }
   ],
   "updated_date": "2026-09-12"
